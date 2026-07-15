@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sunagawa-utaki
+  parentId: null
+  kind: attraction
+  title: "砂川御嶽"
+  summary: "砂川御嶽是宮古島砂川地區一處傳統琉球聖地，密林中的石灰岩聖壇保留著宮古島原住民信仰的核心精神，是感受宮古島古老宗教文化的重要場所。"
+  narration: |
+    在宮古島，「御嶽」（うたき）是傳統琉球信仰中最神聖的場所，每個村落都有自己守護的御嶽。砂川御嶽藏於砂川地區的雜木林深處，林蔭遮天，陽光只能從葉隙間透入，形成斑駁光影。踏入這片神聖的空間，腳步自然放輕，氣氛肅穆而寧靜。石灰岩堆砌的聖壇前，有時可見當地居民供奉的鮮花與香燭，提醒造訪者這裡至今仍是活躍的信仰場所。宮古島有別於首里城的官方琉球文化，御嶽所承載的是更貼近庶民生活的原生信仰，與自然緊密融合，無需宏偉建築，一塊岩石、一棵老樹，便是神靈棲居之所。請以尊重的態度靜靜感受這份古老的宮古精神。
+  observationPrompt: "進入御嶽林地時，注意周圍樹木的種類——是否有榕樹的氣生根或老樟樹的粗壯樹幹？找找看聖壇附近是否有居民留下的供品或繫在樹枝上的繩索。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.748500
+    longitude: 125.291800
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "御嶽是琉球信仰核心場所，砂川御嶽為宮古島重要的地方信仰據點，代表宮古島非物質文化遺產。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "宮古島御嶽信仰有別於首里城等主流琉球觀光，展現更原生的南島宗教景觀，稀有性高。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "需要背景說明才能理解御嶽信仰的文化意義，視覺上呈現的神聖氛圍有助於感受但需文字導覽。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "對文化旅遊者具高度吸引力，但無視覺奇觀，需要文化敏感度才能欣賞其價值。"
+    sources: [src1]
+  evidenceQuality:
+    score: 2
+    note: "御嶽信仰有學術文獻記載，但針對砂川御嶽本身的資料相對有限，主要依賴地方文獻。"
+    sources: [src1]
+  final: 3.2   # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*2 = 0.9+1.0+0.6+0.45+0.2 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "宮古島の御嶽 - 宮古島市公式ホームページ"
+    publisher: "宮古島市"
+    url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/bunkazai/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "御嶽是宮古島傳統信仰的核心聖地，各村落均有守護御嶽"
+      - "砂川地區有重要的御嶽信仰場所"
+  - id: src2
+    title: "御嶽 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E5%BE%A1%E5%B6%BD
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "御嶽是琉球・宮古島傳統信仰中神靈棲居的神聖場所"
+      - "御嶽通常位於森林或岩石旁，至今仍是活躍信仰場所"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Utaki
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sunagawa-utaki.webp
+    completePath: media/complete/jp-miyakojima-sunagawa-utaki.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

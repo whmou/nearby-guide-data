@@ -1,0 +1,93 @@
+{
+  "format": "nearby-guide-index",
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-15T09:34:46Z",
+  "packs": [
+    {
+      "packId": "jp-miyakojima",
+      "version": "1.0.0",
+      "title": "宮古島",
+      "subtitle": "",
+      "region": {
+        "countryCode": "JP",
+        "countryName": "日本",
+        "adminAreaLevel1": "沖縄県"
+      },
+      "contentLanguage": "zh-Hant-TW",
+      "guidePointCount": 71,
+      "minAppVersionCode": 8,
+      "variants": [
+        {
+          "variantId": "compact",
+          "mediaMode": "compact",
+          "title": "精簡離線",
+          "description": "文字與壓縮縮圖離線",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.0-compact.guidepack",
+          "downloadBytes": 50021,
+          "sha256": "274e8948305a11478945ede20384313c8e87db735d7a5a39e050bc29cc2e9569",
+          "includes": [
+            "text",
+            "thumbnails"
+          ]
+        },
+        {
+          "variantId": "complete",
+          "mediaMode": "complete",
+          "title": "完整離線",
+          "description": "文字與完整多媒體離線，以圖片為主",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.0-complete.guidepack",
+          "downloadBytes": 50023,
+          "sha256": "f2fb5c85d4a348b2e32d0e6eb29210e114f65d7ece3994bd0fba7be5b835a70e",
+          "includes": [
+            "text",
+            "images",
+            "media"
+          ]
+        }
+      ]
+    },
+    {
+      "packId": "tw-hsinchu",
+      "version": "1.0.0",
+      "title": "新竹市",
+      "subtitle": "",
+      "region": {
+        "countryCode": "TW",
+        "countryName": "台灣",
+        "adminAreaLevel1": "新竹市"
+      },
+      "contentLanguage": "zh-Hant-TW",
+      "guidePointCount": 36,
+      "minAppVersionCode": 8,
+      "variants": [
+        {
+          "variantId": "compact",
+          "mediaMode": "compact",
+          "title": "精簡離線",
+          "description": "文字與壓縮縮圖離線",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.0-compact.guidepack",
+          "downloadBytes": 25227,
+          "sha256": "6d3230f3f7685bca8b8412f8fb79a665db76fe0d21107448fc942ff2a6066fc1",
+          "includes": [
+            "text",
+            "thumbnails"
+          ]
+        },
+        {
+          "variantId": "complete",
+          "mediaMode": "complete",
+          "title": "完整離線",
+          "description": "文字與完整多媒體離線，以圖片為主",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.0-complete.guidepack",
+          "downloadBytes": 25229,
+          "sha256": "a18c13d8470a4b6c838127e54f4d4f07ebedbfc54ec21d077f2b93a20789de2b",
+          "includes": [
+            "text",
+            "images",
+            "media"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sea-kayak-mangrove
+  parentId: null
+  kind: venue
+  title: "島尻マングローブ シーカヤック"
+  summary: "宮古島南端的島尻地區有一片紅樹林水道，搭乘海上獨木舟穿梭其間，可近距離觀察蒼鷺、招潮蟹與各種潮間帶生物，是兼具趣味與生態的體驗行程。"
+  narration: |
+    宮古島的形象，常常是湛藍大海與白色沙灘，但在島嶼南端的島尻（しまじり）海岸，卻藏著一片截然不同的風景——一座安靜的紅樹林水道，遠離觀光人潮，只有鳥鳴與水聲。
+
+    搭上輕巧的海上獨木舟，順著蜿蜒的水道緩緩划行，高大的海茄苳（オヒルギ）和紅茄苳（メヒルギ）在兩側交織成一道綠色隧道，根系盤錯於水中，構成無數生物的庇護所。蒼鷺靜立於枝頭，等待獵魚時機；泥灘上密密麻麻的招潮蟹（シオマネキ）不時揮舞著紅色大螯，像是在向你打招呼。
+
+    島尻的紅樹林規模雖不及西表島，但在宮古島屬難得一見的生態場景。當地業者提供導覽行程，通常一至兩小時即可完成，導覽員會邊划邊介紹紅樹林的生態功能與潮間帶生物，適合親子家庭與自然愛好者。行前建議準備防曬與防蟲措施，並穿著可弄濕的衣物。
+  observationPrompt: "請在泥灘上尋找招潮蟹的蹤跡——公蟹的一隻螯特別大，你能觀察到牠們是如何用大螯進行求偶展示的嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 活動
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.6900
+    longitude: 125.3285
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "島尻紅樹林是宮古島少數保存完好的潮間帶生態系，具有在地自然保育意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "宮古島以海洋聞名，紅樹林獨木舟行程提供截然不同的生態體驗，但規模不及西表島。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "導覽員說明詳盡，但若無導覽則生態意義不易自行理解。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "老少咸宜，親子體驗友善，與宮古島主流海洋活動互補，提供多元選擇。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "觀光資料及當地業者網站有記載，資料可靠但較無深度學術文獻。"
+    sources: [src1]
+  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "島尻のマングローブ｜宮古島自然情報"
+    publisher: "宮古島観光ガイド miyako-guide.net"
+    url: https://miyako-guide.net/nature/shimajiri-mangrove
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "島尻地區有宮古島規模最大的紅樹林群落"
+      - "可見蒼鷺、招潮蟹等多種潮間帶生物"
+  - id: src2
+    title: "宮古島シーカヤックツアー｜アクティビティ情報"
+    publisher: "宮古島市観光商工局"
+    url: https://www.city.miyakojima.lg.jp/kanko/activity-kayak.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "當地業者提供紅樹林海上獨木舟導覽行程，行程約一至兩小時"
+      - "適合親子家庭參與的自然體驗活動"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_Okinawa_Japan.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sea-kayak-mangrove.webp
+    completePath: media/complete/jp-miyakojima-sea-kayak-mangrove.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

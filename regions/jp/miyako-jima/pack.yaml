@@ -1,0 +1,11 @@
+schemaVersion: 1
+packId: jp-miyakojima
+version: "1.0.0"
+title: "宮古島"
+subtitle: "沖繩碧海與珊瑚礁"
+region:
+  countryCode: JP
+  countryName: 日本
+  adminAreaLevel1: 沖縄県
+contentLanguage: zh-Hant-TW
+minAppVersionCode: 8

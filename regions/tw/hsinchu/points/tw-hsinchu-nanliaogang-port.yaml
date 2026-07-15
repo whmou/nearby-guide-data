@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-nanliaogang-port
+  parentId: null
+  kind: attraction
+  title: "南寮漁港"
+  summary: "南寮漁港是新竹市最主要的漁業基地，清晨漁船魚貨上岸熱鬧非凡，港邊聚集多家海鮮餐廳，以平價新鮮的漁港料理聞名。"
+  narration: |
+    南寮漁港坐落在新竹市北側海岸，是台灣西海岸中部規模較大的漁業港口之一。每天清晨四、五點，漁船陸續返航靠港，漁民們忙著將一箱箱活跳跳的漁獲搬運上岸，拍賣場內叫價聲此起彼落，整個港區充滿著大海與漁業的生猛活力。到了上午，港邊的海鮮餐廳和小吃攤紛紛開張，供應當天現捕的各式海鮮：活魚、蛤蜊、花枝、螃蟹，價格實惠且新鮮度無可挑剔。港區外側設有觀景台和步道，可以近距離欣賞漁船靠泊的日常風景，也能眺望外海的防波堤與燈塔。傍晚時分，落日緩緩沉入台灣海峽，將整個港區染成一片橙紅，是攝影愛好者不容錯過的迷人光景。
+  observationPrompt: "在港邊仔細觀察，你能找到掛著晾曬魚乾的漁網架，或看見漁民正在修補漁網嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8408
+    longitude: 120.9288
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "新竹市最主要漁港，對在地飲食文化和漁業民生具有重要意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "活跳海鮮與漁港氛圍具有吸引力，但台灣西海岸類似漁港競爭不少。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "漁港場景直觀生動，漁業運作流程對城市遊客而言新鮮有趣。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "結合視覺體驗與美食，CP值高，清晨魚市與傍晚夕照各有魅力。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方旅遊網頁與在地旅遊報導，資料基礎可靠。"
+    sources: [src1, src2]
+  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "南寮漁港 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/10
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "南寮漁港為新竹市主要漁業基地"
+      - "港邊設有海鮮餐廳，供應新鮮漁獲"
+  - id: src2
+    title: "南寮漁港旅遊資訊 - 交通部觀光署"
+    publisher: "交通部觀光署"
+    url: https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=C000_000181
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "清晨漁船返港為重要觀光體驗"
+      - "設有觀景台可俯瞰港區"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nanliao_Fishing_Harbor_Hsinchu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-nanliaogang-port.webp
+    completePath: media/complete/tw-hsinchu-nanliaogang-port.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-miyako-horse
+  parentId: jp-miyakojima-irabu-island
+  kind: venue
+  title: "宮古馬"
+  summary: "宮古馬是日本八大在來馬之一，體型小巧、性格溫馴，千年來生活在宮古諸島的牧草地上。伊良部島上設有牧場可近距離接觸這種珍稀原生馬種，是了解宮古島農耕文化的難得體驗。"
+  narration: |
+    宮古馬的身影在宮古島的文獻中可以追溯至琉球王國時代，牠們曾被作為貢品送往首里城，也曾是島民耕田搬運的重要夥伴。隨著現代農業機械化，宮古馬的數量急劇下滑，一度瀕臨滅絕，目前全球僅剩不到200匹，被日本政府列為天然紀念物保護。
+
+    站在伊良部島的牧場圍欄旁，你會發現宮古馬的體型比想象中要小許多——成馬肩高約110至120公分，和一般人的腰部差不多高。但別看牠們體型袖珍，歷史上宮古馬以耐久力著稱，能在颱風頻繁、草料不豐的離島環境中頑強生存。
+
+    牠們的眼睛又圓又大，性格溫和，不怕生人靠近，若運氣好可以投喂牧草親手餵食。觀察牠們在草地上自由行走的模樣，你能感受到那份千年來與宮古人共生的悠然氣息——比起純粹的「觀光景點」，這裡更像是一次跨越時空的島嶼生活體驗。
+  observationPrompt: "比較一下宮古馬與你印象中馬匹的體型差異——牠的肩高大約到你身體的哪個部位？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8350
+    longitude: 125.1600
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本天然紀念物，全球僅存不足200匹，具有極高保育與文化價值"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "宮古島特有的在來馬種，全球稀有，在日本其他地方無法見到"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "從天然紀念物保育、琉球王國進貢史到農耕文化，解說脈絡豐富"
+    sources: [src1, src2]
+  visitorValue:
+    score: 4
+    note: "可近距離接觸、投喂，適合親子與動物愛好者，體驗難得"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有文化廳天然紀念物資料及農林水産省在來馬保存記錄"
+    sources: [src1]
+  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.25+0.8+0.6+0.3 = 4.15 → 4.2
+sources:
+  - id: src1
+    title: "宮古馬 - 文化庁国指定文化財等データベース"
+    publisher: "文化庁"
+    url: https://kunishitei.bunka.go.jp/heritage/detail/401/2762
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古馬被指定為日本國家天然紀念物"
+      - "宮古馬是日本八大在來馬之一，現存數量極稀少"
+  - id: src2
+    title: "宮古馬保存会について - 宮古馬保存会"
+    publisher: "宮古馬保存会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/miyako-horse/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "伊良部島設有宮古馬牧場，可供訪客近距離觀察與接觸"
+      - "宮古馬肩高約110至120公分，體型小巧溫馴"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_horse_Okinawa_Japan.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-miyako-horse.webp
+    completePath: media/complete/jp-miyakojima-miyako-horse.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

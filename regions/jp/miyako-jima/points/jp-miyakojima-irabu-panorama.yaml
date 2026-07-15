@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-irabu-panorama
+  parentId: jp-miyakojima-irabu-island
+  kind: attraction
+  title: "伊良部大橋展望"
+  summary: "從伊良部島側回望伊良部大橋，3,540公尺的橋身在宮古藍的海面上畫出一條優雅的弧線，是體驗這座「日本最長免費橋梁」全貌最震撼的角度，也是伊良部島最受歡迎的攝影構圖點之一。"
+  narration: |
+    多數人在開車通過伊良部大橋時，只能感受到橋的漫長；但如果你在抵達伊良部島後，沿著橋頭附近的小路找到這個朝向宮古本島的展望點，你才能真正看懂這座橋的壯觀。
+
+    伊良部大橋全長3,540公尺，在2015年啟用時成為日本收費道路以外最長的橋梁。從伊良部側的制高點望去，橋身從腳下延伸出去，以一道輕柔的弧線橫越宮古藍的海面，最終消失在宮古本島的輪廓中。橋的兩側，海水呈現不同深淺的藍綠色漸層，那是因為橋梁跨越了幾個不同深度的珊瑚礁區。
+
+    最佳拍攝時間是上午，太陽從東方照亮橋面，橋梁本身反射白光，與深邃的海面形成強烈對比。若配合無人機視角（需遵守日本航空法規定在特定地點申請），可以捕捉到橋面和海面共同構成的宏觀幾何感。徒步或騎車而來的旅人，也可以在橋頭附近的小停車場稍作停留，欣賞這個獨一無二的角度。
+  observationPrompt: "從這個角度看，伊良部大橋的橋身是完全筆直，還是有微微的弧度？仔細觀察橋兩側的海水顏色是否相同。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8148
+    longitude: 125.1622
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "伊良部大橋是日本最長免費橋梁，具全國性工程與觀光意義"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "從伊良部側回望橋梁的角度是最能展現橋梁全貌的獨特視點"
+    sources: [src2]
+  interpretability:
+    score: 3
+    note: "橋梁工程與宮古藍海色的視覺解說直觀，但深度內容需補充橋梁建造史"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費、易達、拍攝效果突出，是伊良部旅遊體驗的完美收尾點"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有內閣府沖縄振興局及宮古島觀光資料記載橋梁規格"
+    sources: [src1]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.2+1.0+0.6+0.6+0.3 = 3.7
+sources:
+  - id: src1
+    title: "伊良部大橋 - 内閣府沖縄総合事務局"
+    publisher: "内閣府沖縄総合事務局北部国道事務所"
+    url: https://www.ogb.go.jp/hokubu/road/irabu_bridge.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "伊良部大橋全長3,540公尺，是日本免費通行道路中最長的橋梁"
+      - "大橋於2015年1月31日正式開通，連結宮古本島與伊良部島"
+  - id: src2
+    title: "伊良部大橋 - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/irabu-ohashi/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "從伊良部島側眺望大橋是宮古島最受歡迎的攝影景點之一"
+      - "橋梁兩側的宮古藍海景是旅遊宣傳的標誌性畫面"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_Ohashi_bridge_Miyakojima_Okinawa_Japan.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-irabu-panorama.webp
+    completePath: media/complete/jp-miyakojima-irabu-panorama.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-irabu-katsuobushi
+  parentId: jp-miyakojima-irabu-island
+  kind: venue
+  title: "佐良浜かつお節文化"
+  summary: "佐良濱是伊良部島東北角的傳統漁村，以深海遠洋鰹魚漁業聞名，村民世代乘木造船遠赴南洋捕撈鰹魚，再返家製作柴魚片。這套延續數百年的海洋文化至今仍是村落的靈魂。"
+  narration: |
+    踏入佐良濱村，空氣裡彷彿還殘留著曬柴魚的煙燻氣息。這個只有約三千人的小漁村，長期以來以一種幾乎不可思議的方式維持著它的傳統——男人出海，少則數週、多則數月；女人留守，等待漁獲，製作柴魚。這個循環週而復始，構成了佐良濱特有的時間感。
+
+    伊良部島的鰹魚漁業有著獨特的歷史淵源。在機動漁船普及之前，漁民駕著木帆船，憑藉著對洋流和星象的熟知，最遠可以航行至菲律賓或帛琉海域捕魚。捕回的鰹魚在船上進行初步的簡單處理，返港後再進行煮熟、煙燻、發酵等繁複工序，最終製成質地堅硬、香氣濃郁的本枯節。
+
+    今日的佐良濱設有幾處小型的柴魚節加工廠和展示設施，旅人可以近距離觀察傳統工序，有時甚至可以品嘗以在地柴魚片熬成的高湯。村落本身也值得漫步——石板路、老式漁具、海邊的晾魚架，構成一幅活生生的宮古漁村生活圖景。
+  observationPrompt: "在佐良濱的巷弄間走走，留意牆邊或院子裡是否有曬魚網、浮球或舊漁具——它們透露了什麼樣的漁業規模？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 生活文化
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 漫步
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8662
+    longitude: 125.1835
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "延續數百年的深海漁業與柴魚製作傳統，是宮古島最重要的非物質文化遺產之一"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "佐良濱的遠洋鰹魚文化在整個日本離島文化中屬罕見的完整傳承案例"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "從出海路線、柴魚工序到等待丈夫的婦女生活，有豐富的敘事可供解說"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "可漫步漁村、觀察工序、品嘗柴魚高湯，體驗宮古島最道地的漁業文化"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有宮古島市史料及觀光協會資料佐證，漁業歷史有文獻可查"
+    sources: [src1, src2]
+  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.25+0.8+0.6+0.3 = 4.15 → 4.2
+sources:
+  - id: src1
+    title: "佐良浜の鰹節文化 - 宮古島市史"
+    publisher: "宮古島市教育委員会"
+    url: https://www.city.miyakojima.lg.jp/soshiki/kyoiku/bunkazai/index.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "佐良濱自古以遠洋鰹魚漁業著稱，漁民最遠航行至東南亞海域"
+      - "柴魚節製作是佐良濱延續數百年的重要產業"
+  - id: src2
+    title: "佐良浜 - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/sarahama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "佐良濱設有柴魚節加工廠與展示設施可供參觀"
+      - "村落漁具與石板路保留傳統漁村風貌"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sarahama_fishing_village_Irabu_Island.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-irabu-katsuobushi.webp
+    completePath: media/complete/jp-miyakojima-irabu-katsuobushi.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-miyako-festival
+  parentId: null
+  kind: venue
+  title: "宮古島まつり（クルバガー）"
+  summary: "宮古島まつり是每年十月舉辦的全島最大傳統節慶，以傳統木舟競渡「クルバガー」為核心，結合武術展演、民謠歌舞與地方食市，是體驗宮古島島民生活文化的最佳時機。"
+  narration: |
+    宮古島まつり的前身是宮古島漁民傳承數百年的舟競文化。「クルバガー」是宮古方言中「挖空木舟」的意思——這種以整根木頭鑿出的傳統漁船，平時是漁民出海的工具，節慶時則成為村落之間較勁的賽舟場地。比賽時十餘人同時划槳，節奏由鼓聲指揮，海面上激起的水花與呼喊聲構成宮古島最熱血的集體記憶。
+
+    祭典主會場通常設在平良港附近的廣場，入夜後民謠演奏（クイチャー）的圓圈舞開放所有人加入，旅客只要跟著節拍原地轉圈擺臂，很快就能融入這個由數十人甚至百人同步起舞的歡快漩渦。食物攤位上飄出海鮮烤物、沖縄麵、黑糖冰品的混合香氣，讓整個節慶廣場成為宮古島庶民生活的立體縮影。若十月來訪，這是絕對不能錯過的夜晚。
+  observationPrompt: "找找看祭典現場是否有人穿著傳統的琉裝（琉球傳統服飾）表演クイチャー舞蹈——注意服裝上的布料圖案，看看能否辨認出紅型染色的特徵。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史文化
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子體驗
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8062
+    longitude: 125.2820
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "全島最大規模的年度文化節慶，傳統舟競與民謠舞蹈為宮古島島民認同的核心活動，具有高度文化代表性。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "クルバガー舟競與クイチャー圓圈舞為宮古島所獨有，在日本其他節慶中找不到相同的組合形式。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "現場氛圍感染力強，但若不了解文化背景，深層意義不易自行解讀；需要說明牌或導遊輔助。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "節慶期間參加的旅客體驗質量極高，免費入場且活動多樣；缺點是每年僅限十月舉辦，時間限制大。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "地方政府官方資料與新聞報導有完整記錄，但文化學術研究相對缺乏。"
+    sources: [src2]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: src1
+    title: "宮古島まつり公式情報"
+    publisher: "宮古島市観光商工局"
+    url: https://www.city.miyakojima.lg.jp/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島まつり每年十月舉辦，為全島規模最大的傳統文化節慶"
+      - "核心活動包括クルバガー傳統舟競及クイチャー民謠圓圈舞"
+  - id: src2
+    title: "宮古島の伝統芸能と祭り"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "クイチャー是宮古島傳統民謠伴奏的集體圓圈舞，節慶期間開放旅客共舞"
+      - "宮古島まつり期間設有地方食物攤位與工藝品展售，是感受在地生活的絕佳機會"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyakojima
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-miyako-festival.webp
+    completePath: media/complete/jp-miyakojima-miyako-festival.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

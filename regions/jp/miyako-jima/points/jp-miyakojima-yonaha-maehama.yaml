@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-yonaha-maehama
+  parentId: null
+  kind: attraction
+  title: "与那覇前浜"
+  summary: "多次榮獲日本最美海灘評比第一的白沙灘，長達7公里的細白沙與透明碧藍海水讓人難以置信這是真實存在的景色。"
+  narration: |
+    与那覇前浜是宮古島最廣為人知的海灘，長達七公里的弧形白沙海岸線是整個日本最長的白沙灘之一。這裡的沙細如麵粉，走在上面完全沒有粗礫感，而海水的透明度讓你可以清晰看見水下數公尺的沙紋。晴天時，淺水區呈現迷幻的翡翠藍，稍深處漸層轉為靛藍，這種色彩過渡被稱為「宮古藍」。早晨人少時，沙灘倒映出天空的顏色，幾乎分不清海與天的邊界。這裡水流相對平緩，適合游泳，但仍建議在有旗幟指示的安全區域活動。
+  observationPrompt: "觀察海水的顏色漸層——從腳邊的翡翠綠到遠處的深藍，能數出幾個明顯的色帶？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.67648
+    longitude: 125.25637
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "多次在「日本最美海灘」評比中名列第一，「宮古藍」已成為日本觀光的代表意象之一。"
+    sources: [yonaha-maehama-okinawa-tourism]
+  distinctiveness:
+    score: 5
+    note: "7公里細白沙灘加上頂級透明度海水，全球難找類似等級的組合，是宮古島最具辨識度的景觀。"
+    sources: [yonaha-maehama-okinawa-tourism]
+  interpretability:
+    score: 4
+    note: "美景完全自明，不需任何說明即能感受，宮古藍的色彩漸層一眼驚豔。"
+    sources: [yonaha-maehama-okinawa-tourism]
+  visitorValue:
+    score: 4
+    note: "免費入場，有停車場及更衣設施，夏季旺季擁擠，建議早晨或平日前往；需自駕。"
+    sources: [yonaha-maehama-okinawa-tourism]
+  evidenceQuality:
+    score: 5
+    note: "沖縄縣觀光振興局及多個日本旅遊媒體均有詳細記錄，評比資料可查。"
+    sources: [yonaha-maehama-okinawa-tourism]
+  final: 4.7
+  # 0.30×5 + 0.25×5 + 0.20×4 + 0.15×4 + 0.10×5 = 1.50+1.25+0.80+0.60+0.50 = 4.65 → 4.7
+sources:
+  - id: yonaha-maehama-okinawa-tourism
+    title: "与那覇前浜ビーチ"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.okinawastory.jp/spot/600012
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "全長約7公里的白沙灘"
+      - "多次獲日本最美海灘評比第一"
+      - "「宮古藍」海水透明度著稱"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonaha_Maehama_Beach,_Miyakojima.jpg
+    creator: "663highland"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-yonaha-maehama.webp
+    completePath: media/complete/jp-miyakojima-yonaha-maehama.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

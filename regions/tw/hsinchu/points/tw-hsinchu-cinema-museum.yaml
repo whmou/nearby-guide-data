@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-cinema-museum
+  parentId: null
+  kind: venue
+  title: "新竹市影像博物館"
+  summary: "建於1933年的裝飾藝術風格戲院建築，曾是全台第一座有冷氣的戲院，現為保存台灣電影文化記憶的影像博物館。"
+  narration: |
+    這棟奶油色的流線型建築在中正路上顯得格外搶眼，圓弧轉角、橫向帶窗與幾何浮雕裝飾，是1930年代風靡全球的裝飾藝術（Art Deco）風格的典型表現。它建於昭和八年（1933年），最初以「有樂館」之名開業，戰後改稱「國民大戲院」，最引以為傲的，是曾在台灣率先安裝冷氣設備，是彼時新竹居民趨之若鶩的消暑勝地。戲院停業後，新竹市政府將其修復保存，2001年以「影像博物館」名義重新開幕，館內設有放映廳、常設展廳與文獻典藏室。常設展以黑白老照片、放映器材與戲院歷史回顧為核心，重現了台灣電影走入民間的黃金歲月；定期也有老電影放映場次，讓觀眾坐回這棟有著八十年歷史的院廳，感受膠卷時代的光與影。
+  observationPrompt: "站在建築轉角，仔細觀察外牆上裝飾藝術風格的幾何浮雕帶，能辨識出幾種不同的圖案元素？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+        - id: quiet
+          label: 靜態
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 售票
+  indoor: true
+  location:
+    latitude: 24.80480
+    longitude: 120.96580
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "主入口位於中正路與林森路交叉口轉角，面向中正路，可見Art Deco風格弧形外牆。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "全台第一座安裝冷氣的戲院，保存完整的Art Deco建築，在台灣電影史與建築史上均有記載。"
+    sources: [wiki-hsinchu-cinema-museum]
+  distinctiveness:
+    score: 4
+    note: "Art Deco戲院建築在台灣存量極少且多已拆除，此館保存完好並持續活化利用，極具稀缺性。"
+    sources: [wiki-hsinchu-cinema-museum]
+  interpretability:
+    score: 4
+    note: "館內展覽說明完善，放映廳仍可使用，建築內外均有豐富的視覺線索供解讀。"
+    sources: [wiki-hsinchu-cinema-museum]
+  visitorValue:
+    score: 4
+    note: "票價平易，定期有老電影放映活動，展覽主題明確，對各年齡層均有吸引力。"
+    sources: [wiki-hsinchu-cinema-museum]
+  evidenceQuality:
+    score: 3
+    note: "維基百科條目完整，官方網站提供展期資料，但學術文獻相對有限。"
+    sources: [wiki-hsinchu-cinema-museum]
+  final: 3.9
+  # 0.30×4 + 0.25×4 + 0.20×4 + 0.15×4 + 0.10×3 = 1.20+1.00+0.80+0.60+0.30 = 3.90
+sources:
+  - id: wiki-hsinchu-cinema-museum
+    title: "新竹市影像博物館 — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/新竹市影像博物館
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "1933年建造，原名有樂館，採裝飾藝術風格"
+      - "全台首座安裝冷氣設備的戲院"
+      - "2001年修復開館成為影像博物館，列為市定古蹟"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Movie_Palace.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-cinema-museum.webp
+    completePath: media/complete/tw-hsinchu-cinema-museum.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

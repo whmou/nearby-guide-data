@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-awamori-distillery
+  parentId: null
+  kind: venue
+  title: "多良川酒造"
+  summary: "多良川酒造是宮古島具代表性的泡盛釀造廠，以宮古島天然地下水及長期古酒（クース）工藝聞名，提供工廠參觀與品酒體驗，是深入了解琉球蒸餾酒文化的絕佳去處。"
+  narration: |
+    泡盛是琉球群島獨有的蒸餾酒，以泰國米為原料、以黑麴菌發酵，釀造歷史超過五百年，遠早於日本清酒傳入前即已存在。多良川酒造坐落於宮古島南部平良附近，廠區內可見一排排沉睡的古酒甕——這些陶甕裡存放的，是靜待時間淬鍊的「古酒（クース）」，陳年越久風味越醇厚。
+
+    參觀路線帶領你走過原料倉庫、發酵室到蒸餾鍋，親眼見證米粒如何一步步轉化為透明的烈酒。導覽人員會說明黑麴菌與宮古島地下水的特殊關係——深層珊瑚礁過濾的水質賦予泡盛柔和的礦物尾韻。最後的品酒環節可以比較新酒與熟成古酒的差異，感受時間在酒液裡留下的印記。
+  observationPrompt: "品酒區展示著不同年份的古酒甕——請注意甕身上的年份標記，找一找廠內現存最老的古酒甕是哪一年份的。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史文化
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 導覽參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需付費
+  indoor: true
+  location:
+    latitude: 24.8125
+    longitude: 125.3148
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "多良川酒造廠房入口，位於宮古島市平良字松原地區，設有停車場。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "泡盛是琉球五百年釀造傳統的具體體現，多良川為宮古島知名酒造之一，具文化與產業雙重重要性。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "宮古泡盛以宮古島地下水釀製，風味有別於沖繩本島，古酒工藝是全球罕見的蒸餾酒熟成方式。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "工廠導覽配合品酒體驗，感官體驗與說明並重，即使對泡盛陌生的訪客也能快速理解。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "兼具知識性與趣味性的體驗，購買伴手禮也方便，幾乎適合所有成年訪客。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有官方網站與日本食品業界資料佐證，但學術研究資料較少。"
+    sources: [src1]
+  final: 3.9  # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.00+0.80+0.60+0.30 = 3.90
+sources:
+  - id: src1
+    title: "多良川 - 宮古島の泡盛蔵元"
+    publisher: "株式会社多良川"
+    url: https://www.tarakawa.jp/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "多良川酒造提供工廠參觀與品酒體驗，是宮古島知名的泡盛釀造廠"
+      - "以宮古島地下水與黑麴菌釀造泡盛，並生產長期熟成的古酒"
+  - id: src2
+    title: "泡盛 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E6%B3%A1%E7%9B%9B
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "泡盛是琉球群島獨有的蒸餾酒，以黑麴菌發酵泰國米製成，歷史超過五百年"
+      - "古酒（クース）是泡盛經三年以上熟成後的特殊規格，風味更為醇厚"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Awamori_bottles.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-awamori-distillery.webp
+    completePath: media/complete/jp-miyakojima-awamori-distillery.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

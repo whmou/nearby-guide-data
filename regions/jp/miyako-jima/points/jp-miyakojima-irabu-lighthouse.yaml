@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-irabu-lighthouse
+  parentId: jp-miyakojima-irabu-island
+  kind: attraction
+  title: "伊良部島灯台"
+  summary: "伊良部島灯台矗立於島嶼西端的珊瑚礁台地上，白色圓柱燈塔俯瞰東海，是引導往來宮古海峽船隻的重要航標，也是欣賞西海夕陽與無邊水平線的靜謐展望點。"
+  narration: |
+    伊良部島西端的珊瑚礁地形有著比其他地方更為突出的視野，正因如此，日本海上保安廳選在此處設立燈塔，守護往來宮古海峽的漁船與貨輪。白色的圓柱燈塔不高，卻在一片低矮的濱海植被中顯得格外挺拔。
+
+    燈塔附近的台地邊緣是眺望西海的絕佳位置。宮古諸島位於太平洋與東海的交界，這一帶海域自古便是重要的海上通道，往來琉球與中國大陸的貿易船、南洋漁船都曾從這片海面駛過。站在此處往西望，天晴時海面幾乎延伸到視線的極限，沒有任何島嶼遮擋，那種「到達盡頭」的開闊感令人心曠神怡。
+
+    傍晚時分，夕陽從正西方沉落，整個海面被染成橙金色，燈塔的白色在逆光中勾勒出清晰的輪廓。若計畫追夕陽，建議提前30分鐘抵達，在台地上找好位置靜待日落——這是伊良部島最安靜、最私密的看日落地點之一。
+  observationPrompt: "觀察燈塔的燈室玻璃——你能看到裡面的菲涅耳透鏡或反射鏡裝置嗎？燈塔的光束大約每隔幾秒閃爍一次？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8580
+    longitude: 125.1152
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "現役航標設施，具備實際功能意義，但作為觀光景點知名度屬地區性"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "燈塔景觀在沖縄各島不乏類似案例，但西向夕陽視野具一定特色"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "海上保安與航行歷史可作為解說切入點，但需額外資料補充"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "免費，夕陽時分景色優美，適合途經停留，建議停留約20分鐘"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "海上保安廳官方燈塔資料庫提供基本資訊"
+    sources: [src1]
+  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.9+0.75+0.6+0.45+0.3 = 3.0
+sources:
+  - id: src1
+    title: "伊良部島灯台 - 海上保安庁灯台データベース"
+    publisher: "海上保安庁"
+    url: https://www6.kaiho.mlit.go.jp/miyakojima/lighthouse/irabu.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "伊良部島灯台位於島嶼西端，為運作中的航行安全設施"
+      - "燈塔引導往來宮古海峽的船隻航行"
+  - id: src2
+    title: "伊良部島観光スポット - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/irabu-lighthouse/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "伊良部島灯台是島上欣賞西海夕陽的知名觀景地點"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_Island_Lighthouse_Okinawa.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-irabu-lighthouse.webp
+    completePath: media/complete/jp-miyakojima-irabu-lighthouse.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

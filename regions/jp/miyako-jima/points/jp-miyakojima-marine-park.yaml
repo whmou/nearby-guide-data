@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-marine-park
+  parentId: null
+  kind: venue
+  title: "宮古島海中公園"
+  summary: "日本少數設有水下觀察室的海洋公園，步道延伸至海中觀察室可在水面下直接觀察珊瑚礁與熱帶魚，無需潛水即能體驗海底世界。"
+  narration: |
+    宮古島海中公園的最大特色是一條延伸入海中的棧橋，盡頭連接一個建在珊瑚礁上的水下觀察室。沿著螺旋梯走到水面以下約一公尺處，透過強化玻璃窗，珊瑚礁群就在眼前展開，各種熱帶魚穿梭其中。這種觀看方式無需任何潛水技能或裝備，讓老人和孩子也能清楚看見平時只有潛水員才能接近的珊瑚生態。水上部分還有玻璃底觀光船可預約，從水面上直視水底，效果同樣震撼。天氣晴朗時水下能見度極高，午前光線最好。
+  observationPrompt: "在水下觀察窗前，找找有沒有藍色的雀鯛（シリキルリスズメダイ）聚集在珊瑚枝叉間——牠們的身體有多小？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外混合
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需購票
+        - id: limited-hours
+          label: 限時開放
+  indoor: true
+  location:
+    latitude: 24.68350
+    longitude: 125.40408
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "售票入口在海上棧橋陸地端，吉野海岸附近，路邊有指示牌。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本少見的水下觀察設施，讓非潛水者也能接觸珊瑚礁生態，具有環境教育與觀光雙重價值。"
+    sources: [miyakojima-marine-park-official]
+  distinctiveness:
+    score: 5
+    note: "水下觀察室在日本沖繩僅少數幾處存在，無需裝備即能近距離觀察珊瑚礁的體驗極為稀有。"
+    sources: [miyakojima-marine-park-official]
+  interpretability:
+    score: 5
+    note: "透過玻璃窗直視水下，珊瑚與魚類清晰可辨，自明性極高，現場有魚種說明牌輔助識別。"
+    sources: [miyakojima-marine-park-official]
+  visitorValue:
+    score: 3
+    note: "需購票，開放時間09:00-17:30，颱風或天候不佳時水下能見度降低甚至暫停，需自駕前往。"
+    sources: [miyakojima-marine-park-official]
+  evidenceQuality:
+    score: 4
+    note: "設施官方網站資料完整，宮古島市觀光協會亦有收錄，設施存在及特色有充分佐證。"
+    sources: [miyakojima-marine-park-official]
+  final: 4.3
+  # 0.30×4 + 0.25×5 + 0.20×5 + 0.15×3 + 0.10×4 = 1.20+1.25+1.00+0.45+0.40 = 4.30
+sources:
+  - id: miyakojima-marine-park-official
+    title: "宮古島海中公園"
+    publisher: "宮古島海中公園"
+    url: https://www.miyakojima-marine-park.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "設有水下觀察室，可在水面下直接觀察珊瑚礁"
+      - "開放時間09:00-17:30"
+      - "提供玻璃底觀光船服務"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_Marine_Park_underwater.jpg
+    creator: "Kenta Mabuchi"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-marine-park.webp
+    completePath: media/complete/jp-miyakojima-marine-park.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

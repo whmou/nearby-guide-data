@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kaijin-no-mori
+  parentId: null
+  kind: attraction
+  title: "海人の森"
+  summary: "海人の森是宮古島難得一見的紅樹林濕地，設有木棧道供遊客步行其中，靜謐的水林環境展現宮古島鮮為人知的生態面貌。"
+  narration: |
+    海人の森，漢字意為「海人之森」，是宮古島上保存較完整的紅樹林生態區之一。一條木製棧道蜿蜒穿越茂密的紅樹林，遊客可以免費步行其中，俯瞰林間的潮溝水道。紅樹林根系盤錯交纏，在海水與淡水交會的環境中支撐起獨特的生態系統，蟹類、彈塗魚與多種鳥類在此棲息。宮古島以海洋景色著稱，但這片靜謐的林地提供截然不同的感官體驗——光線在樹葉縫隙間過濾，水面倒映著綠意，隔絕了島上的南國陽光。清晨或黃昏時段，林間鳥鳴聲尤為豐富，是喜歡自然觀察的旅客不可錯過的隱秘之地。
+  observationPrompt: "在棧道上靜靜等候片刻，看看能不能發現彈塗魚在泥灘上移動，或是在紅樹林根系之間找到正在覓食的蟹類。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.818000
+    longitude: 125.316800
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島少數保存完整的紅樹林生態區，具備重要的濕地生態保育價值。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "在以海灘與珊瑚礁為主的宮古島觀光版圖中，紅樹林棧道體驗極為罕見，形成明顯差異化。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "棧道設計便於自行參觀，但缺乏系統性現場解說，生態知識需旅客自備。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "免費入場，適合喜歡自然觀察的旅客，但整體停留時間較短。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有旅遊網站及部落格記錄，官方資料相對有限。"
+    sources: [src1]
+  final: 3.3  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+sources:
+  - id: src1
+    title: "海人の森（マングローブ林）｜宮古島観光ガイド"
+    publisher: "宮古島市観光商工課"
+    url: https://www.miyakojima-kankou.com/spot/kaijin-no-mori/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "海人の森是宮古島的紅樹林生態保護區，設有木製棧道"
+      - "免費開放，可觀察彈塗魚、蟹類及水鳥等生物"
+      - "位於宮古島市區附近，交通便利"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kaijin_no_Mori_mangrove_Miyakojima.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kaijin-no-mori.webp
+    completePath: media/complete/jp-miyakojima-kaijin-no-mori.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

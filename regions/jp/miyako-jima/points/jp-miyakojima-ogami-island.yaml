@@ -1,0 +1,107 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-ogami-island
+  parentId: null
+  kind: attraction
+  title: "大神島"
+  summary: "大神島是宮古島東北方的神聖小島，禁止任何機動車輛進入，僅可搭渡輪抵達，島上存在嚴格的聖地禁忌，部分區域連當地居民也不得踏入，是宮古群島中靈性氛圍最濃厚的秘境。"
+  narration: |
+    從宮古島北端的島尻港搭上小型渡輪，不消二十分鐘便能遠遠看見大神島那隆起的巨石輪廓從海面浮現。這座面積不足0.2平方公里的小島，長期以來在宮古島人的信仰中佔有特殊地位——島上有多處稱為「ウタキ（御嶽）」的聖地，按照傳統規定，外來者不得接近，甚至島上的部分祭典也禁止外人觀看。島嶼四周沒有汽車、機車的轟鳴聲，只有海風與浪聲，以及偶爾響起的島民呼喚聲。巨石林立的海岸線與覆蓋丘頂的熱帶植被，讓這座小島散發出一種不屬於現代旅遊版圖的神秘氣質。人口僅數十人的小村落保有傳統石砌圍牆，港口邊停著老舊的漁船。拜訪大神島的基本禮節是：不亂走、不拍攝他人、不觸碰明顯標示的神聖石頭，以虔敬而安靜的心態接觸這片土地的靈性傳統。
+  observationPrompt: "走在島上步道時，留意路旁是否有繩結或石堆標示的禁止進入區域——這些就是傳統御嶽聖地的邊界，試著觀察島民如何在日常生活中自然地維持這些界線。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教信仰
+        - id: history
+          label: 歷史
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: limited-hours
+          label: 限定時段
+  indoor: false
+  location:
+    latitude: 24.9285
+    longitude: 125.2062
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1500.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島信仰文化的核心聖地，嚴格的禁忌傳統保存至今，是琉球文化中神聖小島信仰的重要活案例。"
+    sources: [ogami-wikipedia-ja, miyakojima-kanko-ogami]
+  distinctiveness:
+    score: 5
+    note: "禁止機動車輛、部分聖地禁止外人進入的雙重限制在日本觀光島嶼中極為罕見，靈性氛圍高度獨特。"
+    sources: [ogami-wikipedia-ja]
+  interpretability:
+    score: 3
+    note: "禁忌傳統與御嶽文化需要背景知識才能深入理解，但島嶼整體氛圍直觀地傳遞了其神聖性。"
+    sources: [ogami-wikipedia-ja]
+  visitorValue:
+    score: 3
+    note: "渡輪需付費，班次有限（每日約數班），訪客受限較多，但對追求深度文化體驗的旅人而言價值極高。"
+    sources: [miyakojima-kanko-ogami]
+  evidenceQuality:
+    score: 3
+    note: "維基百科及宮古島市觀光資料均有記載，學術民俗研究亦有相關文獻，但部分祭典資料因禁忌而不公開。"
+    sources: [ogami-wikipedia-ja]
+  final: 3.8  # 0.30×4 + 0.25×5 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+1.25+0.60+0.45+0.30 = 3.80
+sources:
+  - id: ogami-wikipedia-ja
+    title: "大神島 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%9E%E5%B3%B6
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "大神島は宮古島の北東約5kmに位置し、面積約0.19km²の小島"
+      - "島内には聖地（ウタキ）が複数あり、立入禁止区域がある"
+      - "自動車の乗り入れが禁止されており、島尻港からフェリーでのみアクセス可能"
+  - id: miyakojima-kanko-ogami
+    title: "大神島観光案内"
+    publisher: "宮古島市観光商工スポーツ部"
+    url: https://www.city.miyakojima.lg.jp/kanko/ogami.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "島尻港から定期船が運航（所要約15分）"
+      - "聖域への立ち入りは厳禁、島内マナーを守ること"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ogami_Island_Miyakojima.jpg
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-ogami-island.webp
+    completePath: media/complete/jp-miyakojima-ogami-island.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

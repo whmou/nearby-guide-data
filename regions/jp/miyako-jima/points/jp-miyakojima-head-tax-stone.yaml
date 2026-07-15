@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-head-tax-stone
+  parentId: null
+  kind: attraction
+  title: "人頭税石"
+  summary: "這塊石頭是薩摩藩統治時期人頭稅制度的歷史見證——凡身高超過此石的宮古島人皆須納稅，這項殘酷制度延續約兩百年，是宮古島人集體記憶中最沉重的傷痕之一。"
+  narration: |
+    眼前這塊看似平凡的石頭，曾是宮古島人命運的無情裁判者。1637年，薩摩藩在征服琉球王國後，對宮古島、八重山等離島人民實施人頭稅（人頭税）——規定凡身高超過這塊特定石頭高度的島民，不論男女老幼，皆須每年繳納布匹、稻米或其他物資作為稅款。
+
+    這項制度的殘酷之處，在於它完全無視個人的經濟能力，以身高這個先天條件作為徵稅標準。為了讓子女逃避稅賦，據說有島民故意讓孩子駝背，或以各種方法阻礙其正常發育。人頭稅制度在宮古島持續了約兩百年，直至1903年才終於廢除——在當時，廢稅運動的推動者中村十作更被宮古島人視為英雄。
+
+    這塊石頭如今靜靜矗立在市區，無需多餘裝飾或複雜說明，它的存在本身就是最有力的歷史陳述。站在它面前，試著用目光丈量它的高度，想像一個孩子成長至此刻度時，他的人生從此被賦稅牢籠所困——這短短的距離，曾是無數家庭的悲劇臨界點。
+  observationPrompt: "站在人頭稅石旁邊，實際比較自己的身高與石頭的高度差異——在那個年代，站到這塊石頭高度就意味著必須開始繳稅，請留意石頭的實際尺寸是否比你預想的更高或更低？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8062
+    longitude: 125.2820
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "人頭稅制度是宮古島近代史上最重要的社會事件之一，這塊石頭是唯一留存的實物見證，歷史意義極高"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 5
+    note: "以身高作為徵稅標準的人頭稅制度在世界史上極為罕見，相關實物更是絕無僅有，獨特性滿分"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "石頭本身具有強烈的直觀衝擊——訪客站在旁邊親身比較身高，瞬間能理解制度的殘忍；現場說明牌提供歷史背景"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "即使是對歷史興趣不深的訪客，也能從親身比對身高這個動作中獲得深刻感受"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "資料來自日本維基百科及宮古島市官方說明，歷史事實有充分文獻支撐"
+    sources: [src1, src2]
+  final: 4.2   # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.25+0.80+0.60+0.30 = 4.15 → 4.2
+sources:
+  - id: src1
+    title: "人頭税 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A0%AD%E7%A8%8E
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "人頭稅制度的歷史起源（1637年）及廢除時間（1903年）"
+      - "徵稅標準以身高石為準的制度細節"
+      - "中村十作廢稅運動的歷史背景"
+  - id: src2
+    title: "人頭税石 - 宮古島市文化財案内"
+    publisher: "宮古島市教育委員会"
+    url: https://www.city.miyakojima.lg.jp/soshiki/kyoiku/bunkazai/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "人頭稅石的現存位置及保存狀況"
+      - "宮古島市指定文化財的相關說明"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nintozei-ishi_Miyakojima.jpg
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-head-tax-stone.webp
+    completePath: media/complete/jp-miyakojima-head-tax-stone.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

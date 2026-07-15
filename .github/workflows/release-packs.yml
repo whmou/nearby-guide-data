@@ -1,0 +1,82 @@
+name: Release Packs
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v1.0.0)"
+        required: true
+        type: string
+      prerelease:
+        description: "Mark as pre-release"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Validate source YAML
+        run: python tools/validate.py --all
+
+      - name: Run tests
+        run: python -m pytest -v
+
+      - name: Build packs
+        run: python tools/build_packs.py --all --output dist
+
+      - name: Check reproducibility
+        run: python tools/check_generated.py
+
+      - name: Inspect packs
+        run: |
+          for f in dist/packs/*.guidepack; do
+            python tools/inspect_pack.py "$f"
+          done
+
+      - name: Check release does not exist (refuse to overwrite)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "${{ inputs.tag }}" >/dev/null 2>&1; then
+            echo "ERROR: Release ${{ inputs.tag }} already exists. Delete it manually before re-releasing."
+            exit 1
+          fi
+
+      - name: Update catalog.json
+        run: python tools/update_catalog.py --dist dist
+
+      - name: Commit updated catalog.json
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add catalog.json
+          git diff --staged --quiet || git commit -m "chore: update catalog.json for ${{ inputs.tag }}"
+          git push
+
+      - name: Create GitHub Release and upload packs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PRERELEASE_FLAG=""
+          if [ "${{ inputs.prerelease }}" = "true" ]; then
+            PRERELEASE_FLAG="--prerelease"
+          fi
+          gh release create "${{ inputs.tag }}" \
+            --title "NearbyGuide Packs ${{ inputs.tag }}" \
+            --notes "Automated pack release. See catalog.json for pack metadata." \
+            $PRERELEASE_FLAG \
+            dist/packs/*.guidepack

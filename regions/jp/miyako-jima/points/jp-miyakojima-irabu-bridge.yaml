@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-irabu-bridge
+  parentId: null
+  kind: attraction
+  title: "伊良部大橋"
+  summary: "全長3,540公尺，2015年完工，是日本最長的免費通行橋梁，連接宮古島與伊良部島，橋面最高點約為海面上27公尺，兩側海景壯闊。"
+  narration: |
+    伊良部大橋於2015年1月完工通車，以三千五百四十公尺的全長成為日本最長的免費橋梁。橋面最高處距海面約27公尺，行駛或步行其上，宮古海峽一覽無遺。晴天時，橋兩側的海水呈現宮古島特有的藍綠色澤，橋墩腳下珊瑚礁隱約可見。以往宮古島居民必須搭渡輪才能往返伊良部島，這座橋的完工讓兩島從此相連，也大幅改變了伊良部島的旅遊生態。橋上設有觀景停車灣，可以下車駐足，靜靜感受被海洋包圍的遼闊。
+  observationPrompt: "站在橋上觀景停車灣，低頭看橋墩周圍的海水——能在淺水區看到珊瑚礁的暗礁輪廓嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: engineering
+          label: 工程
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.74323
+    longitude: 125.24410
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1500.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本最長免費橋梁，2015年完工後成為宮古島重要觀光地標，具工程與地方交通史意義。"
+    sources: [irabu-bridge-miyakojima-city]
+  distinctiveness:
+    score: 4
+    note: "日本最長免費橋梁稱號獨特，跨越海峽的壯闊視野在沖繩諸橋中名列前茅。"
+    sources: [irabu-bridge-miyakojima-city]
+  interpretability:
+    score: 3
+    note: "工程規模一目了然，但橋梁本身相對簡潔，視覺豐富度主要來自周圍海景而非橋梁結構本身。"
+    sources: [irabu-bridge-miyakojima-city]
+  visitorValue:
+    score: 4
+    note: "完全免費通行，全天開放，有觀景停車灣，橋梁也可步行或騎自行車，橋頭有休憩設施。"
+    sources: [irabu-bridge-miyakojima-city]
+  evidenceQuality:
+    score: 4
+    note: "宮古島市政府及沖縄縣官方資料均有詳細記載，橋梁全長及完工日期可查。"
+    sources: [irabu-bridge-miyakojima-city]
+  final: 3.8
+  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×4 + 0.10×4 = 1.20+1.00+0.60+0.60+0.40 = 3.80
+sources:
+  - id: irabu-bridge-miyakojima-city
+    title: "伊良部大橋について"
+    publisher: "宮古島市"
+    url: https://www.city.miyakojima.lg.jp/soshiki/kensetsu/d00008289.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "全長3,540公尺，日本最長免費橋梁"
+      - "2015年1月31日通車"
+      - "橋面最高點約27公尺"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_Ohashi_Bridge.jpg
+    creator: "Hikarih"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-irabu-bridge.webp
+    completePath: media/complete/jp-miyakojima-irabu-bridge.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

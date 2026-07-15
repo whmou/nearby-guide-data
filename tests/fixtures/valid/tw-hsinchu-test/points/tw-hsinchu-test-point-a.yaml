@@ -1,0 +1,71 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-test-point-a
+  parentId: null
+  kind: attraction
+  title: "測試景點A"
+  summary: "這是一個最小化的有效測試景點，用於驗證Schema正確性。"
+  narration: |
+    這個景點僅供測試使用，不代表任何真實地點。景點描述以自然口語方式呈現，不以你來到作為開頭，包含足夠的文字長度來通過驗證。
+  observationPrompt: "觀察這個測試景點周圍的環境，注意有哪些可見的特徵。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80310
+    longitude: 120.97008
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "測試用途，評分僅供驗證。"
+    sources: [test-source]
+  distinctiveness:
+    score: 3
+    note: "測試用途，評分僅供驗證。"
+    sources: [test-source]
+  interpretability:
+    score: 3
+    note: "測試用途，評分僅供驗證。"
+    sources: [test-source]
+  visitorValue:
+    score: 3
+    note: "測試用途，評分僅供驗證。"
+    sources: [test-source]
+  evidenceQuality:
+    score: 3
+    note: "測試用途，評分僅供驗證。"
+    sources: [test-source]
+  final: 3.0
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×3 = 3.00
+sources:
+  - id: test-source
+    title: "測試資料來源"
+    publisher: "NearbyGuide 測試套件"
+    url: https://github.com/whmou/nearby-guide-data
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "僅供測試使用"
+media: []
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

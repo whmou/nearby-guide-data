@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-nishizato-market
+  parentId: null
+  kind: attraction
+  title: "西里公設市場"
+  summary: "宮古島市中心的傳統公設市場，攤位上陳列著當天早晨捕撈的新鮮魚獲、在地蔬果與宮古特產，是感受島民日常生活與飲食文化的最佳場所。"
+  narration: |
+    西里公設市場藏身於宮古島市最熱鬧的西里商店街一帶，是島上最道地的傳統市場。早上開市時，魚販們將當天清晨剛從海中捕獲的各式魚貨一字排開——鮮豔的紅甘、厚實的石斑、閃著銀光的飛魚乾，以及在本土菜市場幾乎看不到的宮古島特有海產。
+
+    蔬果攤上擺著在地農家種植的辣島胡椒（島とうがらし）、苦瓜（ゴーヤー）與各種南方熱帶水果，香氣撲鼻。市場內也有幾家販售宮古上布織品、琉球玻璃工藝品和地產泡盛的小店，是採購伴手禮的好去處。
+
+    市場裡熙來攘往，小販們帶著宮古腔的日文招呼客人，島上阿嬤推著購物車挑選食材的身影俯拾即是。這裡的節奏與島嶼的悠閒步調完全一致——不妨慢慢逛，在攤位之間找尋讓你想帶走的那一份宮古味道。
+  observationPrompt: "在魚貨攤位附近，留意看看有沒有你在台灣菜市場從未見過的魚種或海鮮——可以問問攤販牠們的名字，或觀察旁邊的標示牌，看是否能找到宮古島特有的漁獲品種。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 漫步
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: true
+  location:
+    latitude: 24.8062
+    longitude: 125.2822
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "市場入口位於西里通商店街的半途，大門上方有「公設市場」字樣的招牌"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島市區主要的傳統市場，是島民日常採買的重要場所，反映在地飲食文化"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "宮古島特有漁獲及在地農產品使這裡有別於一般日本超市；傳統市場氛圍是最大特色"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "市場環境直覺易懂；魚貨與特產一目了然，無需特別解說即可感受在地生活文化"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "購物、試吃與觀察在地生活兼具；對美食旅客和文化愛好者吸引力強"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "多家旅遊媒體有詳細介紹，資訊可靠"
+    sources: [src1, src2]
+  final: 3.2   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "宮古島 西里公設市場 - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "市場的位置、營業時間及販售品項"
+      - "與在地漁業和農業的連結"
+  - id: src2
+    title: "宮古島市場めぐり - じゃらん"
+    publisher: "じゃらんnet"
+    url: https://www.jalan.net/kankou/spt_47214ag2130010475/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "市場攤位種類及購物指南"
+      - "周邊商店街的整體氛圍描述"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyakojima
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-nishizato-market.webp
+    completePath: media/complete/jp-miyakojima-nishizato-market.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

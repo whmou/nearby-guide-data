@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-nakanoshima-channel
+  parentId: null
+  kind: venue
+  title: "中の島チャンネル（ダイビングスポット）"
+  summary: "中の島水道是宮古島最著名的漂流潛水地點，強勁的潮流帶著潛水員穿越宮古本島與中之島之間的窄窄水道，能見度可達四十公尺以上。"
+  narration: |
+    中の島チャンネル，又稱中之島水道，位於宮古本島西南側與小島中之島之間，是宮古島潛水界赫赫有名的「流潛」聖地。這條水道受地形影響，潮流強勁而穩定，形成天然的「海中電梯」，只要跳入水中，洋流便會帶著你輕鬆滑過整段水道。
+
+    水道能見度驚人，通常超過三十公尺，晴天更可達四十公尺以上，透明到如同置身於一個巨大的水族館。水道兩壁生長著大型軟珊瑚與海扇，鰺魚群、梭魚群迴游其間，運氣好時還能見到燕魟翩翩飛過。
+
+    由於潮流強勁，中の島チャンネル屬於進階級潛水點，建議具備至少三十支以上潛水經驗再前往。當地潛水店都有提供導潛服務，熟悉水道的教練能帶你把握最佳入水時機，安全地享受這段令人難忘的「流潛」體驗。
+  observationPrompt: "在水道中漂流時，請留意水道壁上的軟珊瑚顏色——此處常見橘色與黃色的大型軟珊瑚，你能看到多少不同顏色的珊瑚群落？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 活動
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.8558
+    longitude: 125.2258
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島最知名漂流潛水地點之一，在日本潛水界具有高知名度。"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "強勁洋流形成的漂流潛水體驗配合四十公尺以上能見度，在日本屬頂尖水準。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "需有潛水執照，潛水店導潛會說明水道生態，但一般遊客無法直接體驗。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "對潛水愛好者而言是宮古必潛點，體驗價值極高；非潛水者無法直接受益。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有潛水專業媒體及觀光網站記載，但較缺乏學術文獻。"
+    sources: [src1]
+  final: 4.0  # 0.30*4 + 0.25*5 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.25+0.60+0.60+0.30 = 3.95 → 4.0
+sources:
+  - id: src1
+    title: "宮古島のダイビングスポット｜中の島チャンネル"
+    publisher: "宮古島観光ガイド miyako-guide.net"
+    url: https://miyako-guide.net/diving/nakanoshima-channel
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "中の島チャンネル是宮古島最受歡迎的漂流潛水地點"
+      - "能見度可達三十至四十公尺"
+  - id: src2
+    title: "沖縄宮古島ダイビング情報 - Visit Okinawa"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.visitokinawa.jp/experiences/diving
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島潛水條件世界級，建議搭配當地潛水店導潛"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_diving_coral.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-nakanoshima-channel.webp
+    completePath: media/complete/jp-miyakojima-nakanoshima-channel.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

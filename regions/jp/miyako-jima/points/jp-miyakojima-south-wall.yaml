@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-south-wall
+  parentId: null
+  kind: venue
+  title: "サウスウォール（ダイビングスポット）"
+  summary: "サウスウォールは宮古島南岸的垂直峭壁潛水點，礁壁從水面直墜超過四十公尺深，大型魚群與海扇密布，是宮古島壁潛愛好者的朝聖之地。"
+  narration: |
+    宮古島南岸外海，有一道令潛水人心跳加速的巨大礁壁——サウスウォール，中文意思就是「南牆」。這道礁壁從水面下數公尺處便開始向深海垂直延伸，一路跌落超過四十公尺，壯闊程度不輸世界著名的大型壁潛地點。
+
+    礁壁表面覆滿了繽紛的軟珊瑚與海扇珊瑚，橘紅色、桃粉色的珊瑚在洋流中輕輕搖曳。大型白鰺魚群在礁壁外的藍水中盤旋，偶爾可見燕魟成群掠過，或是孤獨的隆頭鸚哥魚在礁壁間緩行。宮古島的水色在此呈現深沈的鈷藍，能見度通常超過二十公尺。
+
+    此潛點因海況較為開放，適合有一定壁潛經驗的潛水員。透過當地潛水業者安排，在適合的潮況下入水，才能充分欣賞這道壯麗的「南牆」全貌。
+  observationPrompt: "站在礁壁旁，俯視那一片延伸入深藍的礁壁——請觀察礁壁上附著的生物，越靠近深處顏色有什麼變化？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 活動
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.6948
+    longitude: 125.3048
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島代表性壁潛景點，在日本潛水社群中廣為人知，礁壁深度與生態俱佳。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "四十公尺以上的垂直礁壁配合大型魚群，在沖縄南西諸島中屬頂尖壁潛地點。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "需潛水執照，僅限具備壁潛經驗者，一般訪客體驗受限。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "對進階潛水員而言體驗價值極高，但受眾較窄。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "潛水媒體與觀光資訊皆有記載，資料穩定但無學術研究。"
+    sources: [src1]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: src1
+    title: "宮古島ダイビングスポット・サウスウォール"
+    publisher: "宮古島観光ガイド miyako-guide.net"
+    url: https://miyako-guide.net/diving/south-wall
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "サウスウォール礁壁從水面延伸超過四十公尺深"
+      - "大型白鰺群及軟珊瑚密布，是壁潛愛好者必訪地點"
+  - id: src2
+    title: "宮古島の海・ダイビング - 沖縄観光"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.visitokinawa.jp/experiences/miyako-diving
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島南岸外海有多處優質壁潛地點，水色能見度佳"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Okinawa_coral_wall_dive.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-south-wall.webp
+    completePath: media/complete/jp-miyakojima-south-wall.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

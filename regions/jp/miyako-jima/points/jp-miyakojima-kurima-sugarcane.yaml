@@ -1,0 +1,99 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kurima-sugarcane
+  parentId: null
+  kind: view
+  title: "来間島サトウキビ畑"
+  summary: "来間島的道路兩旁遍布甘蔗田，是宮古島傳統農業景觀的縮影。每年11月至翌年3月為收成季節，可見農機穿梭於田間，感受南島農村的純樸生活節奏。"
+  narration: |
+    踏上来間島，最先映入眼簾的不是海，而是綿延至天際的甘蔗田。宮古島自古以來就是琉球王朝重要的砂糖產地，而来間島更保留了最完整的甘蔗農業景觀。島上道路狹窄蜿蜒，兩旁的甘蔗在夏季可長到2公尺以上，騎單車穿越其間，彷彿進入了一條綠色隧道。冬季收成期間，甘蔗被切割後直接送往宮古島的製糖工廠，島上空氣中會瀰漫著淡淡的糖蜜甘香。這片看似平凡的農田，承載著宮古島數百年來的歷史記憶，也是今日島民賴以維生的農業根基。
+  observationPrompt: "注意看路旁甘蔗莖幹的粗細與節間長度——試著估算一株甘蔗大約有幾個節？找找看田邊是否有種植告示板或農業說明牌。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.678000
+    longitude: 125.229500
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 2
+    note: "甘蔗田是宮古島普遍農業景觀，来間島並非唯一，但在觀光地圖中具象徵意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "来間島的甘蔗田與海景、咖啡廳相互融合，農村景觀在離島觀光背景下具一定特色。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "農業景觀需背景說明（歷史、製糖業）才能完整理解，但視覺辨識容易。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "對喜愛農村風光與離島生活的旅客具吸引力，但非宮古島必訪亮點。"
+    sources: [src2]
+  evidenceQuality:
+    score: 2
+    note: "農業資訊來自宮古島官方及農業相關資料，直接針對來間島甘蔗田的觀光資料較少。"
+    sources: [src1]
+  final: 2.6   # 0.30*2 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*2 = 0.6+0.75+0.6+0.45+0.2 = 2.6
+sources:
+  - id: src1
+    title: "宮古島の農業 - 宮古島市公式ホームページ"
+    publisher: "宮古島市"
+    url: https://www.city.miyakojima.lg.jp/soshiki/sangyoushinko/nogyo/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島甘蔗為主要農業作物，製糖業為重要產業"
+      - "収穫期は11月から翌年3月"
+  - id: src2
+    title: "来間島 | 宮古島観光ナビ"
+    publisher: "宮古島市観光商工局"
+    url: https://www.miyako-guide.net/spot/spot.php?id=7
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "来間島道路兩旁有大片甘蔗田，單車騎行體驗佳"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Sugarcane_fields_in_Okinawa
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kurima-sugarcane.webp
+    completePath: media/complete/jp-miyakojima-kurima-sugarcane.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

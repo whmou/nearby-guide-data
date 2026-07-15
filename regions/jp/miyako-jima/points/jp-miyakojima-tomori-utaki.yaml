@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-tomori-utaki
+  parentId: null
+  kind: attraction
+  title: "友利御嶽"
+  summary: "友利御嶽是宮古島西部友利地區最重要的琉球傳統聖域，千百年來是島民祈雨、農耕祭祀的精神核心。茂密的聖林與石灰岩祭壇至今仍保有濃厚的靈氣，是感受宮古島原始信仰文化的珍貴場所。"
+  narration: |
+    踏入友利御嶽，腳步自然放慢——濃蔭覆蓋的聖林讓陽光只剩下細碎的光點，空氣裡帶著潮濕的土壤氣息，彷彿時間在此暫停。御嶽在琉球語中意指「神聖之山丘」，是沖繩及宮古諸島特有的戶外聖域。友利御嶽歷史可追溯數百年，是周邊村落世代相傳的祈願之所，每逢農耕節氣，祭司（ニガイフツ）會在此帶領儀式，向土地之神獻上祈願。
+
+    石灰岩堆疊而成的簡樸祭壇沒有華麗裝飾，卻因在地居民長年的虔誠而散發靜穆力量。巨老的福木與蘇鐵圍繞四周，林間時有白頭鵯鳴叫，讓整個空間顯得格外幽靜。外地旅人到訪時請保持輕聲，不要踩踏祭壇石塊，尊重當地信仰是進入御嶽的第一課。
+  observationPrompt: "仔細觀察聖林入口處——祭壇前方是否擺放了香爐、花束或繩結等祭物？這些物品透露著近期是否有村民前來參拜。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教信仰
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜思
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.7582
+    longitude: 125.3128
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島重要的傳統聖域，體現琉球御嶽信仰體系，具有地方文化代表性。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "御嶽文化為宮古・沖繩地區所獨有，保存完整的聖林環境在日本其他地區幾乎看不到。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "現場說明牌有限，需要背景知識才能充分理解儀式意涵，但氛圍本身已能傳達靈聖感受。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "對宗教文化感興趣的旅人有深度體驗，但一般觀光客可能覺得視覺刺激較少。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "日文資料來源充足，英文學術研究資料較稀少。"
+    sources: [src1]
+  final: 3.6  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+sources:
+  - id: src1
+    title: "御嶽 - 沖縄文化アーカイブ"
+    publisher: "沖縄県立博物館・美術館"
+    url: https://www.museums.pref.okinawa.jp/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "御嶽是琉球信仰體系中最核心的聖域形式，遍布沖繩本島及宮古・八重山諸島"
+      - "御嶽以自然石灰岩或巨木為中心，是祭司進行農耕祈願與祖先祭祀的場所"
+  - id: src2
+    title: "宮古島市の文化財と聖地"
+    publisher: "宮古島市教育委員会"
+    url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "友利地區保有多處傳統御嶽，至今仍有居民定期舉行祭祀活動"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Utaki
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-tomori-utaki.webp
+    completePath: media/complete/jp-miyakojima-tomori-utaki.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

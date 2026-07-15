@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-miyako-shrine
+  parentId: null
+  kind: attraction
+  title: "宮古神社"
+  summary: "創建於1590年的宮古神社是島上歷史最悠久的神社，主祀漁業與航海守護神，數百年來一直是宮古島漁民與居民的精神寄託。"
+  narration: |
+    宮古神社坐落於市中心靜謐的小丘上，是宮古島歷史最悠久的神道神社。神社創建於1590年，相傳是為了祈求宮古島的漁獲豐收、海上平安而建立，至今仍是在地居民最重要的信仰中心之一。
+
+    穿過朱紅色的鳥居，沿石板參道緩步而行，兩側老樹形成天然遮蔽，即使在烈日下也透著清涼。正殿的建築融合了琉球風格與本土神道建築元素，屋脊的細節值得仔細端詳。
+
+    神社每年舉行的祭典吸引大批島民參與，是了解宮古島傳統民俗文化的重要窗口。相較於觀光人潮較多的景點，這裡保留了更多日常生活的氣息——清晨時分，你可能會遇到前來祈願的在地居民，靜靜地感受宮古島人數百年來未曾改變的虔誠。
+  observationPrompt: "注意觀察神社鳥居或正殿上的扁額與繪馬，看看島民祈求的願望主題——是否有關於海洋、漁業或島嶼平安的祈願？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8062
+    longitude: 125.2832
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "創建於1590年，是宮古島現存歷史最悠久的神社，具有重要的地方信仰意義"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "結合琉球風格的神道建築在宮古島具有獨特性，但相較於其他知名神社吸引力稍遜"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "神社環境直觀，參道與正殿清晰可辨；但現場解說牌有限，歷史背景需事先了解"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "適合喜愛神社文化或尋求靜謐體驗的訪客，一般觀光客也可短暫造訪"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料來自日本維基百科及地方神社資料庫，基本資訊可信"
+    sources: [src1, src2]
+  final: 3.0   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+sources:
+  - id: src1
+    title: "宮古神社 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E7%A5%9E%E7%A4%BE
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "神社創建年份（1590年）及祭祀的神明"
+      - "與宮古島漁業文化的關聯"
+  - id: src2
+    title: "宮古島の観光スポット｜宮古神社"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "神社的地理位置及訪客資訊"
+      - "每年祭典的舉辦情況"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyako_Shrine
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-miyako-shrine.webp
+    completePath: media/complete/jp-miyakojima-miyako-shrine.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

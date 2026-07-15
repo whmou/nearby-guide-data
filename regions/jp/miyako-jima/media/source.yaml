@@ -1,0 +1,5 @@
+# Media source registry for jp-miyakojima pack.
+packId: jp-miyakojima
+policy: >
+  Only CC0, CC-BY, or CC-BY-SA licensed images from Wikimedia Commons
+  or official Japanese government portals are permitted.

@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-miyako-beef-ranch
+  parentId: null
+  kind: venue
+  title: "宮古牛農場"
+  summary: "宮古島飼育的宮古牛（黑毛和牛）以海風吹拂的開闊牧場環境與低壓力放牧方式聞名，肉質油花細緻，是宮古島美食體驗中不可錯過的島產和牛。"
+  narration: |
+    宮古島不只有海，這裡的牧場同樣令人印象深刻。宮古牛是宮古島本地飼育的黑毛和牛品種，在海拔平緩的島內牧場上自由生長，終日沐浴在海風與充足陽光之中。島上的低壓力放牧環境讓牛隻生長緩慢而健康，肌肉紋理細緻，油花分布均勻，造就了宮古牛獨特的柔嫩口感。來到牧場，可以近距離觀察黑毛和牛悠然吃草的日常，感受宮古島農業生活的另一面向。宮古牛在島上的燒肉店與高級餐廳均有供應，是以食物形式認識宮古島土地的最直接方式。如需參觀牧場，建議事先聯繫確認開放時間。
+  observationPrompt: "觀察牧場內的牛隻——黑毛和牛的毛色是純黑還是帶有光澤的深棕？注意牠們的耳標顏色與編號，這些是宮古牛個體管理系統的一部分。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: limited-hours
+          label: 限定時段
+  indoor: false
+  location:
+    latitude: 24.760000
+    longitude: 125.320000
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 2
+    note: "宮古牛是宮古島重要的農畜產品，但牧場本身並非主要觀光景點，以農業場所評分。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "海島和牛牧場的概念具差異化，但在日本和牛產地中競爭激烈，特色需透過食材體驗呈現。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "牧場觀察直觀，但和牛飼育特色（油花、等級）需要說明才能完整理解其價值。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "美食愛好者可透過品嚐宮古牛獲得高度滿足，但牧場參觀本身的視覺體驗有限。"
+    sources: [src1]
+  evidenceQuality:
+    score: 2
+    note: "宮古牛有官方農業資料記載，但特定牧場的觀光資訊較少，需現場確認開放狀況。"
+    sources: [src1]
+  final: 2.6   # 0.30*2 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*2 = 0.6+0.75+0.6+0.45+0.2 = 2.6
+sources:
+  - id: src1
+    title: "宮古牛 - 宮古島市農業振興"
+    publisher: "宮古島市"
+    url: https://www.city.miyakojima.lg.jp/soshiki/sangyoushinko/nogyo/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島飼育黑毛和牛，以宮古牛品牌行銷"
+      - "島內低壓力放牧環境有利於和牛肉質發展"
+  - id: src2
+    title: "宮古牛 | 宮古島観光ナビ"
+    publisher: "宮古島市観光商工局"
+    url: https://www.miyako-guide.net/gourmet/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古牛在島上燒肉店及高級餐廳均有供應"
+      - "黑毛和牛油花細緻，為宮古島代表性食材"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Wagyu
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-miyako-beef-ranch.webp
+    completePath: media/complete/jp-miyakojima-miyako-beef-ranch.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

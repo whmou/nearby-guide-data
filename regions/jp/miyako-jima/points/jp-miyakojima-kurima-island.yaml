@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kurima-island
+  parentId: null
+  kind: region
+  title: "来間島"
+  summary: "来間島是宮古島西南方一座安靜的小島，面積約2.84平方公里，以甘蔗田、珊瑚礁海灘和崖頂咖啡廳著稱，是宮古島鬧中取靜的單車旅遊首選。"
+  narration: |
+    渡過来間大橋，喧囂瞬間遠去。来間島是一座面積不到三平方公里的小島，居民數不過數百人，卻藏著宮古島南部最迷人的風景。島上道路起伏，兩旁是一望無際的甘蔗田，微風中飄來淡淡的蔗糖香氣。沿著小徑騎單車環島，不消三十分鐘便能抵達南岸的長間浜——那片幾乎沒有觀光客的純白沙灘，以及面朝前浜的龍宮城展望台。島上有幾間風格獨特的咖啡廳，坐在崖邊一邊享用沖繩甜點，一邊俯瞰宮古藍，是来間島最悠閒的享受方式。
+  observationPrompt: "沿島道路騎行時，留意路旁甘蔗的高度——你覺得這些甘蔗大概長了幾個月了？找找看島上有沒有指示牌標示收成季節。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.678200
+    longitude: 125.229800
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島附屬小島之一，以田園風光與寧靜氛圍著稱，具區域旅遊代表性。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "甘蔗田、崖頂咖啡廳與無人海灘三者共存，在宮古島周邊小島中辨識度高。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "單車環島路線直觀，但農業背景與地方生活文化需稍作說明。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "半日單車遊可涵蓋海灘、展望台與咖啡廳，CP值高，適合各年齡層。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "Wikipedia有專頁記載基本資料，觀光資訊豐富。"
+    sources: [src1]
+  final: 3.2   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.9+0.75+0.6+0.6+0.3 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "来間島 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E6%9D%A5%E9%96%93%E5%B3%B6
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "来間島面積約2.84平方公里"
+      - "島上主要農業為甘蔗種植"
+  - id: src2
+    title: "来間島 | 宮古島観光ナビ"
+    publisher: "宮古島市観光商工局"
+    url: https://www.miyako-guide.net/spot/spot.php?id=7
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "可單車環島，島上有多間崖頂咖啡廳"
+      - "南岸長間浜為隱秘海灘景點"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Kugushima
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kurima-island.webp
+    completePath: media/complete/jp-miyakojima-kurima-island.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

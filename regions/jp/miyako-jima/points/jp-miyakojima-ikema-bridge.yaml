@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-ikema-bridge
+  parentId: null
+  kind: attraction
+  title: "池間大橋"
+  summary: "全長1,425公尺，連接宮古島北端與池間島，橋上可以欣賞宮古島西北海域最鮮豔的淺海藍綠色調，是日落攝影的熱門地點。"
+  narration: |
+    池間大橋建於1992年，是宮古島最早完工的跨海橋梁之一，連接宮古島北端與小島池間島。橋長一千四百二十五公尺，與伊良部大橋相比較短，但橋兩側海域水深更淺，珊瑚礁平台的翠綠色澤比任何地方都更鮮豔飽和。橋頭附近有一處廣受攝影師青睞的觀景台，傍晚夕陽西沉時，橋身倒映在近岸的淺海上，構成宮古島最廣為流傳的落日意象之一。過橋進入池間島，可以繞島一圈，感受小漁村的寧靜生活步調。
+  observationPrompt: "在橋面往下看——兩側海水的顏色一樣嗎？仔細比較北側和南側的藍綠深淺，是什麼造成差異？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80015
+    longitude: 125.22694
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島知名觀光跨海橋梁，是宮古島最早的跨島橋之一，落日景色廣為流傳，但歷史意義相對有限。"
+    sources: [ikema-bridge-miyakojima-guide]
+  distinctiveness:
+    score: 3
+    note: "同為宮古島跨海橋梁，與伊良部大橋相比規模較小，但橋兩側的淺海藍綠色調有其獨特魅力。"
+    sources: [ikema-bridge-miyakojima-guide]
+  interpretability:
+    score: 3
+    note: "橋上海景視覺直觀，珊瑚礁淺海一望即知，但地理與生態細節需額外說明。"
+    sources: [ikema-bridge-miyakojima-guide]
+  visitorValue:
+    score: 4
+    note: "完全免費，全天開放，橋頭設有觀景台與停車場，連接池間島可延伸遊覽行程。"
+    sources: [ikema-bridge-miyakojima-guide]
+  evidenceQuality:
+    score: 3
+    note: "宮古島市觀光協會資料，基本資訊有據可查。"
+    sources: [ikema-bridge-miyakojima-guide]
+  final: 3.2
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: ikema-bridge-miyakojima-guide
+    title: "池間大橋 観光スポット"
+    publisher: "宮古島市観光協会"
+    url: https://miyako-guide.net/spot/ikema-ohashi/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "全長1,425公尺，1992年完工"
+      - "連接宮古島北端與池間島"
+      - "橋頭有觀景台，夕陽景色著名"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikema-Ohashi_bridge.jpg
+    creator: "663highland"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-ikema-bridge.webp
+    completePath: media/complete/jp-miyakojima-ikema-bridge.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

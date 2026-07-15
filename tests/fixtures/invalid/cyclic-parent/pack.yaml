@@ -1,0 +1,11 @@
+schemaVersion: 1
+packId: tw-hsinchu-test-cycle
+version: "0.0.1"
+title: "循環父參考測試包"
+subtitle: "測試循環parentId錯誤"
+region:
+  countryCode: TW
+  countryName: 台灣
+  adminAreaLevel1: 新竹市
+contentLanguage: zh-Hant-TW
+minAppVersionCode: 8

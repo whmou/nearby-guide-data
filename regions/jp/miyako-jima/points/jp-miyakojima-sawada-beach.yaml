@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sawada-beach
+  parentId: jp-miyakojima-irabu-island
+  kind: attraction
+  title: "佐和田の浜"
+  summary: "佐和田の浜是伊良部島西岸一片廣闊的潮間帶海灘，以退潮後綿延散布於沙灘上的百餘塊巨礁怪石聞名，壯觀景致令人想起宮崎駿筆下的奇幻世界，是宮古島最具辨識度的攝影景點之一。"
+  narration: |
+    退潮時分，走上佐和田の浜，眼前的景象會讓你短暫懷疑自己是否踏入了另一個世界——大大小小的礁岩從沙灘上冒出，大者如三層樓高的巨石，小者如散落的棋子，密密麻麻一路延伸至海天交界處，在金色的斜陽下投下長長的影子。
+
+    這些礁石的成因可以追溯到1771年的「明和大海嘯」，那場由八重山地震引發的巨大海嘯，估計波高超過30公尺，將海底的珊瑚礁巨塊整個掀翻捲上陸地，就此留在沙灘上沉睡至今。換句話說，你腳下踩的不只是一片風景，而是一場史前級別天災的見證。
+
+    清晨與傍晚是拍攝的黃金時刻。朝陽從東方升起，礁石群的輪廓被染成橘紅；日落時，礁石倒影映在退潮後殘留的薄薄水膜上，形成完美的水中倒影。若逢大潮，潮水淹沒礁石基部，礁石彷彿漂浮於海中，又是另一番迷人景致。
+  observationPrompt: "挑一塊大礁石仔細觀察它的底部與裂縫，你能找到珊瑚蟲、小螃蟹或海藻群落生活其中嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8420
+    longitude: 125.1235
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1771年明和大海嘯的直接地質證據，具有歷史與自然雙重重要性"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "礁石群景觀在整個琉球群島中獨一無二，攝影辨識度極高"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "海嘯歷史背景使礁石群的解說極具感染力，超越單純風景"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費入場，退潮時景觀壯觀，是宮古旅遊必訪景點"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有歷史文獻記載明和大海嘯成因，地質資料可信"
+    sources: [src1]
+  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.25+0.8+0.6+0.3 = 4.15 → 4.2
+sources:
+  - id: src1
+    title: "明和の大津波 - 八重山の津波伝承"
+    publisher: "内閣府防災情報"
+    url: https://www.bousai.go.jp/kohou/kouhoubousai/h23/62/special_01.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "1771年明和大海嘯波高估計逾30公尺，將珊瑚礁巨塊掀至陸地"
+      - "佐和田の浜的礁石群是該次海嘯的直接物證"
+  - id: src2
+    title: "佐和田の浜 - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/sawada-no-hama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "佐和田の浜以散布的礁岩景觀聞名，為宮古島人氣攝影景點"
+      - "退潮與日落時分是最佳攝影時機"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sawada_no_Hama_rocks_Irabu_Island_Okinawa.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sawada-beach.webp
+    completePath: media/complete/jp-miyakojima-sawada-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

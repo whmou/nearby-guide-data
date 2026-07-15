@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-city-museum
+  parentId: null
+  kind: attraction
+  title: "新竹市立博物館"
+  summary: "新竹市立博物館以豐富的常設展呈現從道卡斯族原住民到清領、日治乃至當代的城市發展脈絡。展覽涵蓋文物、影像與互動裝置，是認識新竹歷史的最佳入口。"
+  narration: |
+    新竹市立博物館坐落於市區核心，建築外觀融合現代設計與地方元素，一走進館內便能感受到時間的層疊感。常設展從距今數千年前便在此生活的道卡斯族說起，透過出土陶器與族人服飾，讓人想像竹塹平原曾有的聚落樣貌。進入清代展廳，鄭用錫開台進士的故事與竹塹城的城牆模型令人印象深刻；日治時代的老照片則記錄了新竹從傳統城市蛻變為現代化街道的過程。二樓的常設展延伸至戰後發展與科技重鎮崛起，完整串聯新竹從農業社會到半導體之都的百年軌跡。館內還設有兒童探索區，適合闔家參觀。建議安排一個半小時以上細細品味。
+  observationPrompt: "請找找入口大廳展示的竹塹城老地圖，試著對照今日的街道格局，看看哪條現代道路是清代城牆的舊址。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需購票
+  indoor: true
+  location:
+    latitude: 24.8028
+    longitude: 120.9682
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "博物館正門入口位於中山路與東大路交叉口附近，請依指示牌進入售票大廳。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "唯一系統性呈現新竹全史的市立博物館，從史前道卡斯族到科技城市均有涵蓋，城市記憶保存意義重大。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "台灣各縣市均設有類似的地方歷史博物館，但新竹市結合原住民、客家、閩南與外省族群的多元敘事具有一定特色。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "展覽標示清楚，提供中英雙語說明，互動裝置降低參觀門檻，適合各年齡層。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "參觀新竹古城區前的必訪據點，有助於建立全面的歷史背景知識，提升後續景點體驗深度。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料來源以官方網站與文化部資料庫為主，內容可靠但學術引用文獻有限。"
+    sources: [src1]
+  final: 3.7  # 0.30*4 + 0.25*3 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+0.75+0.80+0.60+0.30 = 3.65 → 3.7
+sources:
+  - id: src1
+    title: "新竹市立博物館官方網站"
+    publisher: "新竹市政府文化局"
+    url: https://www.hcccb.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹市立博物館常設展涵蓋道卡斯族、清代、日治及戰後各時期歷史"
+      - "館內設有互動展示與兒童探索區"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_Museum.jpg
+    creator: "Koika"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-city-museum.webp
+    completePath: media/complete/tw-hsinchu-city-museum.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

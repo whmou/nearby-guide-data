@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-painagama-beach
+  parentId: null
+  kind: attraction
+  title: "パイナガマビーチ"
+  summary: "距離宮古島市中心步行僅五分鐘的城市海灘，弧形白沙灘搭配平靜透明的淺海，是最方便攜家帶眷享受宮古海水的地點，設施完善且全年免費開放。"
+  narration: |
+    パイナガマビーチ（Painagama Beach）是宮古島最貼近市區的海灘，距離平良港及市中心僅需步行五分鐘左右。對於住在市區、又想隨時跳進宮古湛藍海水的旅人來說，這裡是再方便不過的選擇。
+
+    海灘全長約400公尺，白色細沙在陽光下閃閃發亮，海水清澈見底，水色由近岸的翡翠綠逐漸過渡到深邃的鈷藍。由於周圍地形遮蔽，海浪相對平靜，即使不諳水性的遊客或帶著幼童的家庭，也能在這裡安心玩水。
+
+    海灘設有淋浴設施、更衣室及廁所，周邊也有小吃攤和飲料店。夏季傍晚，本地家庭習慣在此散步或讓孩子在水邊嬉戲，呈現一幅悠閒的島嶼日常圖景，與其他以潛水或衝浪為主的宮古海灘風格不同。
+  observationPrompt: "站在海灘上往西南方向望去，觀察海水顏色的層次變化——從腳邊清澈的淺綠到遠處的深藍，試著找出顏色轉變最明顯的分界線大約在距離岸邊幾公尺處？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8015
+    longitude: 125.2758
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "市區最易到達的海灘，對城市旅客具有高度實用價值，但自然景觀不如宮古島其他知名海灘壯觀"
+    sources: [src1]
+  distinctiveness:
+    score: 2
+    note: "作為城市便利海灘的定位明確，但缺乏宮古島頂級海灘的絕景衝擊力；主要吸引力在於便利性"
+    sources: [src1]
+  interpretability:
+    score: 2
+    note: "海灘本身一目了然，無需特別說明；但缺少能加深訪客體驗深度的文化或自然解說"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "對無車旅客或想在市區遊覽之餘輕鬆泡海水的人非常實用；設施完善，老少咸宜"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "地方觀光資訊可信，為宮古島知名城市海灘，有多家媒體報導"
+    sources: [src1, src2]
+  final: 2.7   # 0.30*3 + 0.25*2 + 0.20*2 + 0.15*4 + 0.10*3 = 0.90+0.50+0.40+0.60+0.30 = 2.70
+sources:
+  - id: src1
+    title: "パイナガマビーチ - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "海灘位置、設施及開放時間等基本資訊"
+      - "適合家庭和初次訪客的特點描述"
+  - id: src2
+    title: "パイナガマビーチ情報 - じゃらん"
+    publisher: "じゃらんnet"
+    url: https://www.jalan.net/kankou/spt_47214ag2130010474/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "海灘的水質及設施評價"
+      - "距市中心的步行距離資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Beaches_of_Miyakojima
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-painagama-beach.webp
+    completePath: media/complete/jp-miyakojima-painagama-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-biyandam-viewpoint
+  parentId: null
+  kind: view
+  title: "ビャクダン山展望台"
+  summary: "ビャクダン山是宮古島的最高點，海拔約113公尺，展望台可俯瞰宮古島全島、伊良部島與周圍珊瑚礁的360度壯觀景色。"
+  narration: |
+    ビャクダン山展望台矗立在宮古島的最高峰，海拔雖只有113公尺，但由於宮古島地勢低平，這個高度已足以讓視野遼闊無阻。站在展望台上，北方是蔚藍的東海，南方可以望見宮古島南岸礁盤的翠綠色澤，天氣晴朗時甚至能辨認遠處的伊良部大橋和池間大橋。地面上鋪展的是宮古島特有的紅瓦屋頂聚落與甘蔗田，與漸層海色形成鮮明對比。展望台設有觀景說明板，標示出各方向可見的島嶼與地標名稱，幫助旅客辨別方位。日出與日落時分是造訪的最佳時機，天空與海洋的色彩變化令人難以忘懷。
+  observationPrompt: "在展望台找到方位說明板，嘗試對照現實景色辨認出伊良部島或池間島的位置——你能看到連結它們的大橋嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.794800
+    longitude: 125.341800
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島最高點，是俯瞰全島景觀唯一可及的展望台，具有地理標誌性意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "360度全景視野涵蓋多座島嶼與礁盤，是宮古島陸地觀景點中最具代表性者。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "現場設有方位說明板，有助旅客辨識各地標，解說深度尚可。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費開放，全天候可達，日出日落視野尤佳，旅遊價值明顯。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有多個日本旅遊網站及觀光指南記載，資訊可信度中上。"
+    sources: [src1]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: src1
+    title: "ビャクダン山展望台｜宮古島観光スポット"
+    publisher: "宮古島市観光商工課"
+    url: https://www.miyakojima-kankou.com/spot/biyandam/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "ビャクダン山是宮古島最高點，海拔約113公尺"
+      - "展望台提供360度全景，可見多座離島與礁盤"
+      - "免費開放，設有方位說明板"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Biyandam_Observatory_Miyakojima.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-biyandam-viewpoint.webp
+    completePath: media/complete/jp-miyakojima-biyandam-viewpoint.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

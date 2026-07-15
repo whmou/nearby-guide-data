@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-botanical-bingata
+  parentId: null
+  kind: venue
+  title: "紅型染色體驗工房"
+  summary: "紅型（Bingata）是源自琉球王朝的傳統防染染色工藝，以鮮豔的珊瑚色、海藍色描繪熱帶花鳥圖案，宮古島各工房提供親手製作手巾或扇子的體驗課程，是最受台灣旅客歡迎的文化活動之一。"
+  narration: |
+    紅型的「紅」在古琉球語中泛指所有鮮豔色彩，「型」則指紙模板染印的技法——將型紙放在布料上，以豬油混合天然顏料的「糊」填入鏤空花紋，再以天然染料上色，最後水洗固色，便呈現出那種飽和卻不俗氣的琉球獨特色調。
+
+    走進工房，桌上已備好刻好花紋的型紙、顏料盤與刮刀。工作人員會先示範如何將型紙固定在布上，再引導你一格一格填入色彩。第一刀下去可能手會有些抖，但很快就會沉浸在填色的節奏裡。宮古島工房常見的圖案有宮古藍的珊瑚礁、紅色扶桑花、橘黃色鳳梨——每一個都像是這座島嶼在布料上的縮影。完成後的作品當場晾乾，帶走當伴手禮既獨一無二又輕薄好攜帶。
+  observationPrompt: "觀察工房展示的型紙（鏤空模板）——數一數一張型紙上大約有多少個鏤空花紋，感受職人刻製這些細緻圖案所需的工夫。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: art
+          label: 藝術工藝
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 手作體驗
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需付費
+  indoor: true
+  location:
+    latitude: 24.8058
+    longitude: 125.2822
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "位於宮古島市平良市區，請事先電話預約體驗時段，工房通常設有招牌與展示紅型布料的橱窗。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "紅型是琉球重要的傳統工藝，但在宮古島的體驗設施為推廣性商業場所，文化意義次於沖繩本島的正統傳承機構。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "紅型工藝為琉球所獨有，在宮古島能親手操作完整染色流程的體驗設施不多，具有明確的地方獨特性。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "現場工作人員全程引導，體驗流程設計清楚，即使完全沒有手工藝背景的旅客也能完成作品。"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "動手參與度極高，作品可直接帶走；親子、情侶或個人旅行者均適合，體驗時間約1.5至2小時，CP值高。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "紅型工藝有充分的歷史記載；宮古島體驗設施的資料主要來自旅遊網站，學術性稍弱。"
+    sources: [src1]
+  final: 3.8  # 0.30*3 + 0.25*4 + 0.20*4 + 0.15*5 + 0.10*3 = 0.90+1.00+0.80+0.75+0.30 = 3.75 → 3.8
+sources:
+  - id: src1
+    title: "紅型 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E7%B4%85%E5%9E%8B
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "紅型是琉球王朝時代發展出的傳統染色工藝，以型紙防染搭配天然顏料為主要技法"
+      - "圖案以熱帶花鳥、珊瑚礁及龍鳳為常見主題，色彩鮮豔飽和"
+  - id: src2
+    title: "宮古島文化体験 - 観光みやこじま"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島市內有多處提供紅型染色體驗的工房，適合親子與情侶參與"
+      - "體驗課程通常包含手巾或扇子的染色，費用約2,000至3,500日圓"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bingata_ryukyu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-botanical-bingata.webp
+    completePath: media/complete/jp-miyakojima-botanical-bingata.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

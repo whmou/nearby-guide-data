@@ -1,0 +1,94 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-toriki-ike-pools
+  parentId: jp-miyakojima-shimoji-island
+  kind: attraction
+  title: "通り池"
+  summary: "下地島西岸的通り池是兩個與海洋地下相連的天然內陸水池，潛水員可從水下洞穴在兩池之間穿越，被列為日本最具震撼力的地形潛水勝地之一，地面上亦可免費欣賞神秘深藍水色。"
+  narration: |
+    站在通り池的觀景台向下望，兩個幽深的圓形水池嵌在石灰岩岩盤中，水面宛如被截取的一片天空，呈現出令人屏息的靛藍色。這對水池外觀相似，直徑分別約75公尺與55公尺，中間以地面上的岩石稜線分隔，卻在水面下的岩洞中相互連通，更有地下洞穴一路延伸至西岸的大海。換句話說，退潮時海水仍悄悄從地底湧入，讓池水保持令人難以置信的清澈與神秘鹹味。對潛水員而言，從海面潛入、穿越洞穴游進通り池、再仰頭看到兩個光圈從深藍中浮現，是宮古島潛水體驗中最令人動容的一幕。即便不潛水，走在池邊步道的旅人也能看見那無風時如鏡面般靜止、颱風過後卻波濤洶湧的奇特景象。
+  observationPrompt: "仔細觀察兩個池面的顏色與波紋——你能看出哪個池水受海浪影響更大，以及兩池之間岩脊下方水流的流動方向嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8148
+    longitude: 125.1252
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "日本文化廳指定名勝，全球潛水界公認的地形潛水聖地，是下地島最具代表性的地質奇觀。"
+    sources: [toriki-ike-wikipedia-ja]
+  distinctiveness:
+    score: 5
+    note: "兩池通過地下洞穴與大海相連的構造極為罕見，兼具地面觀景與潛水探索雙重價值，在沖繩群島中無可替代。"
+    sources: [toriki-ike-wikipedia-ja]
+  interpretability:
+    score: 4
+    note: "水色、形狀、與海連通的地質構造可一目了然，解說牌清晰，潛水圖示說明地下連通路徑。"
+    sources: [toriki-ike-wikipedia-ja]
+  visitorValue:
+    score: 5
+    note: "完全免費、無需預約，有步道與觀景台，潛水客與一般遊客都能各得其所，體驗深刻。"
+    sources: [toriki-ike-wikipedia-ja]
+  evidenceQuality:
+    score: 4
+    note: "日本文化廳官方記載、維基百科與多本潛水導覽書均有詳細地質與歷史說明。"
+    sources: [toriki-ike-wikipedia-ja]
+  final: 4.7  # 0.30×5 + 0.25×5 + 0.20×4 + 0.15×5 + 0.10×4 = 1.50+1.25+0.80+0.75+0.40 = 4.70
+sources:
+  - id: toriki-ike-wikipedia-ja
+    title: "通り池 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E9%80%9A%E3%82%8A%E6%B1%A0
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "通り池は下地島西岸にある2つの池で、地下洞穴を通じて海と繋がっている"
+      - "直径約75mと55mの2池が地下で連通"
+      - "国の名勝に指定されており、ダイビングスポットとして世界的に有名"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Toriki-ike_Miyako-jima01.jpg
+    creator: "663highland"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-toriki-ike-pools.webp
+    completePath: media/complete/jp-miyakojima-toriki-ike-pools.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-zhurenliyou-house
+  parentId: null
+  kind: attraction
+  title: "鄭家古厝"
+  summary: "鄭家古厝是新竹市保存完好的清代閩南式大宅，燕尾屋脊與精緻磚雕展現了竹塹望族的建築美學與工藝巔峰。"
+  narration: |
+    鄭家古厝建於清朝中晚期，是竹塹地區望族以閩南建築工法打造的三合院大宅。走到建築正面，最引人注目的是兩端高翹如燕尾的屋脊，這種曲線優雅的「燕尾式」屋頂是閩南傳統建築中等級與財力的象徵。正身山牆上的剪黏浮雕以彩色瓷片拼貼而成，花鳥蟲魚栩栩如生；廊道斗拱的木構雕刻則以卯榫接合，無一根釘子。走入門廳，磚造牆面以「斗子砌」手法交錯排列，既美觀又有隔熱功效，是昔日匠師智慧的體現。古厝外牆免費開放觀賞，靜靜佇立其前，可感受時間在磚瓦間的留駐。
+  observationPrompt: "請仔細觀察屋脊兩端燕尾的弧度與翹起角度，再比較兩側護龍的屋脊造型——你能找出它們之間的差異嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8088
+    longitude: 120.9705
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "保存完好的清代閩南大宅，是新竹傳統建築文化的珍貴實物案例。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "燕尾屋脊與斗子砌磚牆等建築細節在台灣現存古厝中較具代表性。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "建築外觀特徵可直接觀察，但深層工法與歷史脈絡需要額外解說。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "外觀免費觀賞，攝影價值高，但室內參觀可能受限，體驗深度有限。"
+    sources: [src1]
+  evidenceQuality:
+    score: 2
+    note: "地方文史資料有記載，但系統性學術研究出版品較少。"
+    sources: [src1]
+  final: 3.2  # 0.30×3 + 0.25×4 + 0.20×3 + 0.15×3 + 0.10×2 = 0.90+1.00+0.60+0.45+0.20 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "新竹市文化資產——傳統建築調查"
+    publisher: "新竹市政府文化局"
+    url: https://www.hcccb.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "鄭家古厝為新竹市登錄之傳統建築文化資產"
+      - "建築採閩南三合院格局，燕尾屋脊與剪黏裝飾保存完好"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Historic_buildings_in_Hsinchu_City
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-zhurenliyou-house.webp
+    completePath: media/complete/tw-hsinchu-zhurenliyou-house.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-yabiji-reef
+  parentId: null
+  kind: attraction
+  title: "八重干瀬（ヤビジ）"
+  summary: "八重干瀬是日本最大的珊瑚礁環礁，每逢大潮低潮時礁盤露出水面，形成壯觀的「幻之島」景象。需搭乘船隻前往，是宮古島海洋體驗的頂級行程。"
+  narration: |
+    眼前這片廣闊的淺藍色礁盤，就是被稱為「日本最大珊瑚礁環礁」的八重干瀬，當地人親切地叫它「ヤビジ」。這片巨大的環礁面積超過十六平方公里，散布著數十個礁頭，平時沉於水面之下，唯有每年春秋兩季大潮時，才會短暫現身，露出數小時的珊瑚礁台地，此奇景因此被稱為「幻の島」。
+
+    從平良港搭船約三十至四十分鐘即可抵達。船行至此，水色從深藍漸轉為通透的翡翠綠，肉眼就能清楚望見水下的珊瑚群。浮潛下水，各色熱帶魚穿梭其間，石珊瑚、軟珊瑚交錯生長，生物多樣性令人嘆為觀止。
+
+    八重干瀬已劃入海洋保護區，部分礁區禁止踩踏或採集。踏上露出的礁盤時，請特別留意腳步，避免踩壞珊瑚，用眼睛和心靈記錄這難得一見的景象就好。
+  observationPrompt: "低潮時礁盤露出水面，請觀察珊瑚礁的顏色與紋路——你看到哪幾種不同的珊瑚形態？有扇形、塊狀還是分枝狀？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.9978
+    longitude: 125.3422
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "日本最大珊瑚礁環礁，面積逾16平方公里，為宮古島最具代表性的自然地標，已劃入海洋保護區。"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "大潮露出水面的「幻之島」現象全球罕見，生物多樣性極高，獨特性無可取代。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "導覽船長通常會說明潮汐機制與珊瑚生態，現場景觀直觀震撼，解說輔助理解。"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "宮古島必遊行程，浮潛、觀景體驗俱佳，難忘程度極高。"
+    sources: [src2]
+  evidenceQuality:
+    score: 4
+    note: "日文Wikipedia及官方觀光資料均有詳細記載，資料可靠。"
+    sources: [src1]
+  final: 4.7  # 0.30*5 + 0.25*5 + 0.20*4 + 0.15*5 + 0.10*4 = 1.50+1.25+0.80+0.75+0.40 = 4.70
+sources:
+  - id: src1
+    title: "八重干瀬 - Wikipedia"
+    publisher: "Wikipedia日本語版"
+    url: https://ja.wikipedia.org/wiki/%E5%85%AB%E9%87%8D%E5%B9%B2%E7%80%AC
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "八重干瀬是日本最大規模的珊瑚礁環礁，面積約16平方公里"
+      - "大潮低潮時礁盤露出水面，形成幻之島景象"
+  - id: src2
+    title: "八重干瀬（ヤビジ）｜沖縄観光情報 - Visit Okinawa"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.visitokinawa.jp/attractions/yabijikoralreef
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "從平良港搭船約30-40分鐘可達"
+      - "宮古島代表性浮潛與海洋體驗景點"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yabiji_Reef_Miyakojima.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-yabiji-reef.webp
+    completePath: media/complete/jp-miyakojima-yabiji-reef.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

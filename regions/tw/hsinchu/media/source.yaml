@@ -1,0 +1,7 @@
+# Media source registry for tw-hsinchu pack.
+# Each entry tracks where the original media was obtained.
+# Actual per-point media declarations live in each point YAML file.
+packId: tw-hsinchu
+policy: >
+  Only CC0, CC-BY, or CC-BY-SA licensed images from Wikimedia Commons
+  or official government portals are permitted.

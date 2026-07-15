@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-hora-cave
+  parentId: null
+  kind: attraction
+  title: "保良泉鍾乳洞"
+  summary: "保良泉鍾乳洞是宮古島東南部保良地區的石灰岩洞穴，洞內有精緻的石筍與鐘乳石地質景觀，附設浮潛設施，是宮古島少數可深入地底探索的自然體驗。"
+  narration: |
+    宮古島的地底世界同樣精彩。保良泉鍾乳洞位於島東南部的保良地區，這一帶的地下水資源豐富，形成了獨特的石灰岩洞穴系統。進入洞穴後，溫度比外界涼爽許多，洞壁上千萬年積累的石筍與鐘乳石在燈光照耀下呈現奶白色與琥珀色的光澤，流水侵蝕留下的紋路宛如天然雕塑。保良泉名稱中的「泉」指的是附近的天然湧泉，純淨的地下水從石灰岩縫隙中滲出，形成獨特的清水潭。園區同時提供洞外的珊瑚礁浮潛體驗，讓旅客在一處地點同時感受地底奇觀與水下世界。參觀需跟隨導覽，請穿著適合步行的防滑鞋。
+  observationPrompt: "在洞內找一根垂掛的鐘乳石，仔細觀察它的末端——是否有水珠正在滴落？試著估算這根鐘乳石的直徑，並想想它需要多少年才能長到現在的大小。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外混合
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 收費
+  indoor: false
+  location:
+    latitude: 24.716200
+    longitude: 125.403000
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島少數可參觀的石灰岩鍾乳洞，保良泉地下水系統在宮古島地質景觀中具代表性。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "洞穴體驗在以海灘為主的宮古島觀光資源中高度差異化，提供獨特的地質體驗。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "鐘乳石景觀視覺震撼，但地質形成過程需要導覽說明，現場有導覽員協助解說。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "洞穴＋浮潛組合體驗在宮古島觀光產品中屬少見，雨天也可參觀，適合家庭旅遊。"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "官方網站資訊完整，媒體報導豐富，但學術地質文獻較少。"
+    sources: [src1]
+  final: 3.4   # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 0.9+1.0+0.6+0.6+0.3 = 3.4
+sources:
+  - id: src1
+    title: "保良泉ビーチ・保良鍾乳洞 公式サイト"
+    publisher: "保良泉パーク"
+    url: https://www.hora-park.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "保良泉鍾乳洞提供導覽參觀，洞內有鐘乳石與石筍景觀"
+      - "附設浮潛體驗，需購票入場"
+  - id: src2
+    title: "保良泉ビーチ | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄県文化観光スポーツ部"
+    url: https://www.okinawastory.jp/spot/600176
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "位於宮古島東南部保良地區，結合洞穴與海灘體驗"
+      - "適合家庭旅遊，雨天可參觀洞穴"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Limestone_caves_in_Japan
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-hora-cave.webp
+    completePath: media/complete/jp-miyakojima-hora-cave.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kamama-ridge-park
+  parentId: null
+  kind: attraction
+  title: "カママ嶺公園"
+  summary: "カママ嶺公園是宮古島市區附近的小山丘公園，提供俯瞰平良市街與遠海的視角，是當地居民散步健身與欣賞夕陽的熱門地點。"
+  narration: |
+    カママ嶺公園坐落在平良市區東側的小丘陵上，從這裡可以俯瞰宮古島的市街風貌，視野延伸至遠方的海平面。公園內有整備完善的步道與休憩設施，清晨常見當地居民健走運動，傍晚則成為欣賞夕陽的絕佳地點。站在最高處的展望廣場，可以看見平良港的進出船隻，以及連接伊良部島的大橋輪廓。雖然這裡不是知名觀光勝地，但正因如此，旅客可以在此體驗不刻意包裝的宮古島日常生活氛圍，與當地人一同呼吸島嶼的清新空氣。公園全年免費開放，停車方便，距離市中心僅需幾分鐘車程。
+  observationPrompt: "在公園最高點向西方望去，你能看到平良港的停泊船隻嗎？天色若合適，注意觀察海面因光線角度而呈現的色彩變化。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.811000
+    longitude: 125.303200
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島市區附近重要的公共休閒空間，兼具景觀眺望功能，但知名度以本地居民為主。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "提供俯瞰市街與海灣的視角，在宮古島市區觀景選項中有其位置，但整體特色有限。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "公園環境直觀易懂，設施清晰，但缺乏深度解說。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "免費開放，適合短暫停留或傍晚散步，但對觀光旅客的吸引力屬中等。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有基本旅遊資訊記載，資料足夠但未達深入研究程度。"
+    sources: [src1]
+  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+sources:
+  - id: src1
+    title: "カママ嶺公園｜宮古島市公式観光情報"
+    publisher: "宮古島市観光商工課"
+    url: https://www.miyakojima-kankou.com/spot/kamama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "カママ嶺公園位於平良市區東側小丘，提供海景與市街眺望"
+      - "全年免費開放，設有步道與休憩設施"
+      - "夕陽時分為熱門觀景時段"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kamama_Ridge_Park_Miyakojima.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kamama-ridge-park.webp
+    completePath: media/complete/jp-miyakojima-kamama-ridge-park.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

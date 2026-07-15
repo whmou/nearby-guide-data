@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-ikema-beach
+  parentId: jp-miyakojima-ikema-island
+  kind: attraction
+  title: "池間島ビーチ"
+  summary: "池間島北岸的沙灘水淺浪靜，是宮古島周邊離島中最適合浮潛的海灘之一，珊瑚礁緊鄰海岸，熱帶魚種豐富，海草床亦是觀察儒艮覓食痕跡的最佳位置。"
+  narration: |
+    池間島的海灘相較於宮古本島的熱門海灘，少了幾分商業氣息，多了幾分原始安靜。北岸的沙灘水淺透明，腳踩下去能清楚感受到沙質細密，而水面以下，各色熱帶魚在珊瑚礁碎石間悠遊，偶爾一群青黃色的隆頭魚一起游過，連非潛水者都能透過面鏡清晰看見。這片海域是宮古群島中儒艮最後的棲息地之一，牠們以此海域的海草為食，退潮時在淺灘留下的啃食痕跡偶爾可見。在海灘旁的礁盤行走時，偶爾可以看到海星、海膽靜靜附著在石縫之間，提醒你這片海的生命力。遠處，池間大橋的輪廓倒映在平靜的水面上，構成一幅離島特有的靜謐畫面。
+  observationPrompt: "在淺水區的海草床旁仔細觀察——你能在沙底找到橢圓形的「啃食痕跡」嗎？那可能是儒艮留下的覓食印記。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+        - id: family
+          label: 親子
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.9088
+    longitude: 125.1708
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島附近離島中少數保有完整珊瑚礁與海草床的海灘，具有生態保育意義，亦是儒艮的已知覓食地。"
+    sources: [ikema-wikipedia-ja, env-dugong-miyako]
+  distinctiveness:
+    score: 3
+    note: "清澈水質與海草床組合有特色，但宮古島周邊有多處水質類似的海灘，競爭力中等。"
+    sources: [ikema-wikipedia-ja]
+  interpretability:
+    score: 3
+    note: "海灘環境直觀易理解，儒艮啃食痕跡等生態細節需要導覽或前置知識才能識別。"
+    sources: [env-dugong-miyako]
+  visitorValue:
+    score: 4
+    note: "完全免費，水淺浪靜適合親子與初學浮潛者，周邊無大量商業設施，環境清幽。"
+    sources: [ikema-wikipedia-ja]
+  evidenceQuality:
+    score: 3
+    note: "環境省儒艮調查資料與維基百科有相關記載，但針對此海灘本身的詳細文獻有限。"
+    sources: [env-dugong-miyako]
+  final: 3.2  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: ikema-wikipedia-ja
+    title: "池間島 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E6%B1%A0%E9%96%93%E5%B3%B6
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "池間島周辺の海域はサンゴ礁が発達し、シュノーケリングに適している"
+      - "島北岸のビーチは砂浜が広く水深が浅い"
+  - id: env-dugong-miyako
+    title: "ジュゴン保護区域 宮古島周辺海域"
+    publisher: "環境省自然環境局"
+    url: https://www.env.go.jp/nature/kisho/dugong/miyako.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "池間島周辺は宮古島唯一のジュゴン生息確認海域"
+      - "海草藻場がジュゴンの主要な採食場所となっている"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Ikema_Island
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-ikema-beach.webp
+    completePath: media/complete/jp-miyakojima-ikema-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

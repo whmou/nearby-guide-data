@@ -1,0 +1,17 @@
+kinds:
+  - id: region
+    description: Geographic or thematic region
+  - id: attraction
+    description: Notable outdoor attraction or landmark
+  - id: venue
+    description: Building, facility, or enclosed site
+  - id: zone
+    description: Sub-area within a venue
+  - id: artwork
+    description: Specific artwork
+  - id: exhibit
+    description: Museum or gallery exhibit
+  - id: person
+    description: Notable person associated with a place
+  - id: view
+    description: Specific viewpoint or vista

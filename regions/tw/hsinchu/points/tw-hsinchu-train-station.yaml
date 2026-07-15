@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-train-station
+  parentId: null
+  kind: venue
+  title: "新竹火車站"
+  summary: "建於1913年的日治時期巴洛克式車站，是台灣現存最美麗的古典主義火車站建築之一，至今仍持續運營。"
+  narration: |
+    站在新竹火車站正面廣場，目光自然被這棟磚紅色巴洛克式建築所吸引。這座車站建於明治四十六年（1913年），由日本建築師松崎萬長設計，以紅磚搭配白色仿石砌飾帶構成外牆，中央圓頂鐘樓高聳，兩翼對稱展開，整體立面端莊而繁複，融入了文藝復興與巴洛克式拱廊的古典語彙。站體正面共有三座拱廊入口，拱券上方的裝飾浮雕細緻入微，歷經百年依然清晰。走入大廳，木製候車椅與拱形天花板保留了部分原始風貌，讓人在通勤往來之間仍能感受到那個建設年代的細膩工藝。新竹車站是台灣少數既保存完整歷史外觀、又持續作為交通樞紐的鐵道建築，每天數萬名旅客穿梭其間，為這棟百年建築注入了最真實的生活氣息。
+  observationPrompt: "站在正面廣場，數數看中央鐘樓拱廊兩側各有幾根倚柱，並找找看拱券浮雕中出現了哪些植物或幾何圖案？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: architecture
+          label: 建築
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80120
+    longitude: 120.97180
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "台灣現存最完整的日治時期巴洛克式鐵道車站，列為市定古蹟，兼具建築史與交通史重要性。"
+    sources: [wiki-hsinchu-station]
+  distinctiveness:
+    score: 4
+    note: "台灣鐵道系統中極少數仍作現役且建築風格如此完整的百年站體，辨識度極高。"
+    sources: [wiki-hsinchu-station]
+  interpretability:
+    score: 4
+    note: "外觀建築語彙豐富，現場設有中英文說明牌，從廣場即可一覽全貌，易於理解。"
+    sources: [wiki-hsinchu-station]
+  visitorValue:
+    score: 4
+    note: "進站大廳免費參觀，交通便利，廣場寬闊，適合攝影與短暫停留，無需事先預約。"
+    sources: [wiki-hsinchu-station]
+  evidenceQuality:
+    score: 4
+    note: "維基百科條目詳盡，文化部古蹟資料庫有完整建物紀錄，學術文獻豐富。"
+    sources: [wiki-hsinchu-station]
+  final: 4.3
+  # 0.30×5 + 0.25×4 + 0.20×4 + 0.15×4 + 0.10×4 = 1.50+1.00+0.80+0.60+0.40 = 4.30
+sources:
+  - id: wiki-hsinchu-station
+    title: "新竹車站 — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/新竹車站
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "建於1913年，日本建築師松崎萬長設計"
+      - "巴洛克式紅磚建築，中央圓頂鐘樓"
+      - "列為新竹市市定古蹟，持續作為台鐵縱貫線車站使用"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Station.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-train-station.webp
+    completePath: media/complete/tw-hsinchu-train-station.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

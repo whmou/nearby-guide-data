@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sarahama-port
+  parentId: null
+  kind: attraction
+  title: "佐良浜漁港"
+  summary: "佐良浜漁港是宮古島伊良部島上歷史悠久的鰹魚漁業重鎮，保留著傳統漁村聚落風貌，是感受琉球離島生活文化的真實場景。"
+  narration: |
+    佐良浜漁港坐落於伊良部島西岸，是宮古島漁業文化最具代表性的聚落之一。這裡的漁民世代以捕捉鰹魚（カツオ）維生，採用一本釣（one-by-one）的傳統釣法，在漁業界享有盛名。港口邊常見漁船進出，漁獲直接在此卸貨處理，早晨時分充滿新鮮魚貨的氣息與漁夫的吆喝聲。聚落中的街道依山而建，色彩繽紛的屋舍沿坡道層疊排列，保留著獨特的沖縄離島街景。過去佐良浜與宮古本島之間需要搭船往返，隨著伊良部大橋通車，這個封閉的漁村逐漸對外開放，但濃厚的傳統氛圍依然保存完好，適合喜歡深度文化旅遊的旅客探訪。
+  observationPrompt: "在漁港邊觀察停泊的漁船，找找看船身上有沒有標示漁船名稱的日文字——留意港口周圍有沒有正在曬魚乾或修整漁網的工作場景。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 生活日常
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.867000
+    longitude: 125.182800
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島漁業傳統的重要代表地，鰹魚一本釣文化具有在地歷史意義，但知名度以地方層級為主。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "傳統漁村聚落與鰹魚漁業文化在沖縄離島中保存完整，具有明確的文化差異性。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "漁港環境直觀可見，但漁業文化背景需旅客主動探索，缺乏現場解說。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "提供真實的離島漁業生活體驗，對文化旅遊旅客具備吸引力，但非大眾旅遊熱點。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有伊良部島觀光資訊及文化記錄，資料足夠但未達學術研究程度。"
+    sources: [src1]
+  final: 3.3  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+sources:
+  - id: src1
+    title: "佐良浜漁港・伊良部島｜宮古島市観光情報"
+    publisher: "宮古島市観光商工課"
+    url: https://www.miyakojima-kankou.com/spot/sarahama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "佐良浜是伊良部島西岸的傳統鰹魚漁業聚落"
+      - "以一本釣傳統釣法捕撈鰹魚聞名，歷史悠久"
+      - "聚落保留傳統沖縄離島街景，伊良部大橋通車後對外開放"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sarahama_Fishing_Port_Irabu_Island.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sarahama-port.webp
+    completePath: media/complete/jp-miyakojima-sarahama-port.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

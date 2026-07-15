@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-shimoji-cave-dive
+  parentId: jp-miyakojima-shimoji-island
+  kind: venue
+  title: "下地島洞窟ダイビング入口"
+  summary: "下地島西岸的洞窟潛水入水點，是通往通り池地下洞穴系統的海面開口，潛水員從這個蔚藍海洞入水後，可穿越水下岩洞連通至兩個內陸水池，是宮古島最刺激的地形潛水體驗起點。"
+  narration: |
+    在下地島西岸崎嶇的石灰岩礁盤上，有一個對外觀看似不起眼的海面開口，但對全球洞穴潛水愛好者而言，這裡是絕對不能錯過的神聖入水點。潛水員從這個藍色海洞下潛，進入幽暗的石灰岩洞穴系統，洞壁上珊瑚化石清晰可見，偶有各式珊瑚礁魚穿梭其中。隨著洞穴向內延伸，前方出現兩個光亮的圓形光圈從深藍中升起——那正是通り池兩個水面投射下來的天光。穿越這段地下連通洞穴，從池底仰望浮上水面的瞬間，是宮古潛水體驗中最令人難忘的高潮。此行程須與持有洞穴潛水執照的在地潛水店合作進行，初學者也可參加體驗潛水方案，在教練引導下體驗洞口附近的海底地形。
+  observationPrompt: "在洞口附近的礁盤上，觀察石灰岩表面的化石珊瑚紋路——你能辨認出哪些化石是古代珊瑚礁留下的痕跡嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8150
+    longitude: 125.1250
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "通り池洞穴潛水是宮古島最知名的進階潛水體驗之一，在全球洞穴潛水圈享有高度評價。"
+    sources: [toriki-ike-wikipedia-ja, miyakojima-dive-guide]
+  distinctiveness:
+    score: 5
+    note: "海洋洞穴連通內陸水池的地形構造全球罕見，潛水路線的戲劇性在日本境內無可比擬。"
+    sources: [toriki-ike-wikipedia-ja]
+  interpretability:
+    score: 3
+    note: "地面入口本身不明顯，需要潛水導覽或示意圖才能完整理解地下連通系統的規模與結構。"
+    sources: [toriki-ike-wikipedia-ja]
+  visitorValue:
+    score: 4
+    note: "洞口周邊礁盤可免費觀察，潛水體驗需搭配在地業者，但各等級潛水者皆有合適方案。"
+    sources: [miyakojima-dive-guide]
+  evidenceQuality:
+    score: 3
+    note: "地質構造已有學術記載，但洞口本身的獨立資料主要來自潛水業者與旅遊網站。"
+    sources: [toriki-ike-wikipedia-ja]
+  final: 4.0  # 0.30×4 + 0.25×5 + 0.20×3 + 0.15×4 + 0.10×3 = 1.20+1.25+0.60+0.60+0.30 = 3.95 → 4.0
+sources:
+  - id: toriki-ike-wikipedia-ja
+    title: "通り池 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E9%80%9A%E3%82%8A%E6%B1%A0
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "通り池は海と地下洞穴で繋がっており、ダイバーが洞穴を通って池と海を行き来できる"
+      - "海側入口から池まで洞穴ダイビングのルートが存在する"
+  - id: miyakojima-dive-guide
+    title: "宮古島ダイビングガイド - 通り池"
+    publisher: "宮古島市観光商工スポーツ部"
+    url: https://www.city.miyakojima.lg.jp/kanko/diving.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "下地島周辺は宮古島を代表するダイビングエリア"
+      - "洞窟ダイビングは地元ダイビングショップのガイドが必要"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Toriki-ike_Miyako-jima01.jpg
+    creator: "663highland"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-shimoji-cave-dive.webp
+    completePath: media/complete/jp-miyakojima-shimoji-cave-dive.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

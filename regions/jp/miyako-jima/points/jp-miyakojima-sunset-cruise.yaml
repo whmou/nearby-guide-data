@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sunset-cruise
+  parentId: null
+  kind: venue
+  title: "宮古島サンセットクルーズ"
+  summary: "搭乘玻璃底船或帆船雙體船出海，在來間島與砂山海岸周邊的海域欣賞宮古島醉人的落日，是當地最受歡迎的浪漫黃昏體驗行程。"
+  narration: |
+    宮古島的夕陽，常被形容為「一生必看一次」的景致。而從船上眺望這抹落日，更有一種只有置身大海才能感受到的遼闊與感動。
+
+    宮古島サンセットクルーズ通常從平良港或砂山海岸附近出發，航行至來間島（くりまじま）外海，在夕陽最壯麗的時間帶抵達最佳觀賞位置。船型有兩種選擇：玻璃底觀光船讓你一邊看夕陽一邊俯瞰腳下的珊瑚礁；帆船雙體船則讓你坐在甲板邊緣，感受海風吹過臉龐，伴著船帆剪影迎接落日。
+
+    夕陽沉入地平線後，天空會短暫呈現橘紅、粉紫交織的「魔幻時刻」（マジックアワー），海面倒映著彩霞，美得如同油畫。部分業者會在船上提供宮古島的泡盛或熱帶水果飲料，讓你以一杯舉手敬天邊的金色餘暉。回港時，繁星開始浮現，為這趟航程畫下完美句點。
+  observationPrompt: "太陽碰觸地平線的那一刻，請觀察海面的顏色——從靠近夕陽的金橘色到遠處的深藍色，中間過渡了哪幾種顏色？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.8010
+    longitude: 125.2755
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島日落景色全島著名，夕陽遊船為當地最受歡迎的休閒活動之一。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "玻璃底船與雙體帆船夕陽巡航體驗在宮古島具特色，但類似活動在其他離島亦普遍。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "體驗直觀，無需解說即能感受夕陽之美；船長偶爾會分享宮古島海洋故事。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "老少咸宜、浪漫感強，是蜜月或情侶旅遊的熱門安排，也適合家庭出遊。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "觀光資料及旅遊平台評論充足，反映真實訪客體驗。"
+    sources: [src1]
+  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "宮古島サンセットクルーズ｜観光アクティビティ"
+    publisher: "宮古島観光ガイド miyako-guide.net"
+    url: https://miyako-guide.net/activity/sunset-cruise
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島サンセットクルーズ從平良港附近出發，航行至來間島外海欣賞落日"
+      - "提供玻璃底船與帆船雙體船兩種選擇"
+  - id: src2
+    title: "宮古島の夕日・サンセット情報 - Visit Okinawa"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.visitokinawa.jp/experiences/miyako-sunset-cruise
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島夕陽景色是沖縄南西諸島最知名的自然景觀之一"
+      - "夕陽遊船是蜜月與情侶旅遊的熱門推薦行程"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_sunset_sea.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sunset-cruise.webp
+    completePath: media/complete/jp-miyakojima-sunset-cruise.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

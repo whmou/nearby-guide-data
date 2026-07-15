@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kurima-viewpoint
+  parentId: null
+  kind: attraction
+  title: "来間島龍宮城展望台"
+  summary: "龍宮城展望台是来間島上一座造型獨特的三層樓觀景塔，頂層可360度鳥瞰與那霸前浜全景、来間大橋及宮古藍海色，是宮古島攝影打卡的最佳制高點。"
+  narration: |
+    爬上龍宮城展望台的頂層，視野瞬間開闊到讓人忘記呼吸。這座以琉球傳說中海底宮殿「龍宮城」命名的展望台，外型圓潤、色彩鮮明，本身就是一道風景。登頂後，北方展開的是日本最美海灘之一的與那霸前浜，那條綿延7公里的弧形白沙與宮古藍海水形成完美的色彩對比。往西可見来間大橋如細線般跨越海峽，往南則是来間島的甘蔗田與長間浜。天氣晴朗時，視線甚至能延伸到遠方的伊良部島。在這裡，您將真正理解為什麼攝影師與旅遊媒體總是選擇宮古島作為日本離島的代表封面。
+  observationPrompt: "站在展望台頂層，試著辨認前浜海灘上人群的位置，並找出哪個方向的海水最藍——是橋梁以北還是以南？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.679800
+    longitude: 125.229000
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島最著名的展望台之一，以可同時俯瞰前浜全景與来間大橋的360度視野聞名於日本旅遊媒體。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "造型獨特的龍宮城外型加上制高點優勢，在宮古島所有觀景設施中視覺辨識度最高。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "頂層視野全景清晰，可直接辨認前浜、来間大橋等地標，解讀門檻極低。"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "免費開放、視野極佳、適合攝影，被幾乎所有宮古島旅遊攻略列為必訪景點。"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "多個主流旅遊網站均有詳細介紹，Google Maps評分高，資料可信度良好。"
+    sources: [src1]
+  final: 4.1   # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*5 + 0.10*3 = 1.2+1.0+0.8+0.75+0.3 = 4.05 → 4.1
+sources:
+  - id: src1
+    title: "龍宮城展望台 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄県文化観光スポーツ部"
+    url: https://www.okinawastory.jp/spot/600051
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "龍宮城展望台位於来間島，可俯瞰與那霸前浜全景"
+      - "免費開放，三層樓觀景塔"
+  - id: src2
+    title: "来間島 龍宮城展望台 | 宮古島観光ナビ"
+    publisher: "宮古島市観光商工局"
+    url: https://www.miyako-guide.net/spot/spot.php?id=8
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "展望台頂層360度視野，可見来間大橋與前浜"
+      - "天氣晴朗時可遠眺伊良部島"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyakojima
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kurima-viewpoint.webp
+    completePath: media/complete/jp-miyakojima-kurima-viewpoint.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

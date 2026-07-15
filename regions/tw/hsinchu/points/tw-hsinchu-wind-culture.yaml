@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-wind-culture
+  parentId: null
+  kind: venue
+  title: "新竹風文化展示館"
+  summary: "新竹是台灣本島最多風的城市，每逢秋冬便有九降風強勁橫掃，深刻影響在地飲食、建築與生活節奏。展示館以互動裝置解說風城性格的成因，並呈現風如何塑造米粉、貢丸、油紙傘等新竹特色文化。"
+  narration: |
+    新竹人自稱住在「風城」，這不是誇飾，而是氣象統計有憑有據的事實：新竹市的年平均風速居台灣各縣市之冠，每逢十月至隔年二月，東北季風通過新竹平原時幾乎無遮無攔，形成俗稱「九降風」的季節強風。
+    這座展示館便以風為主題，從地理成因說起：西部平原在這個緯度缺乏山脈屏障，季風長驅直入，造就了新竹的風城命運。展覽最有趣的部分，是深入剖析風如何進入日常生活——傳統紅磚街屋設計低矮窗台以擋風；曬在竹架上的米粉靠九降風自然風乾，形成獨特的Q彈口感；就連貢丸的口感，也有說法指與攤販在強風環境中快速捶打肉漿的製程有關。
+    館內互動裝置讓遊客親身感受不同風速等級，從微風到九級強風的聲音、觸感乃至對建築的影響一一重現。若你是在秋冬風季造訪新竹，不妨先到這裡讓風的故事落地，再走出去親身感受那股稱為「九降」的自然力量。
+  observationPrompt: "在展示館的米粉製程展區，找找看傳統米粉曬場的模型，想想為什麼新竹米粉非得要有九降風才能製出最好的品質——風速與食物口感之間的關係，比想像中更直接。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: true
+  location:
+    latitude: 24.8045
+    longitude: 120.9698
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "展示館位於新竹市文化局園區內，請由正門進入後依指標前往風文化展區。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "風城文化是新竹最核心的城市識別符號，九降風對在地飲食與建築的影響具有真實且深厚的文化意涵。"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "台灣獨一無二的主題展示：以風為核心詮釋一座城市的性格，在全台博物館生態中找不到類似案例。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "互動裝置設計直覺，將抽象的氣象現象轉化為可感知的展覽體驗，中英雙語說明完整。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "免費入場，但展館規模適中，建議配合周邊景點串連參觀；單獨造訪可在一小時內參觀完畢。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料來源為新竹市文化局及氣象署，資料可靠。"
+    sources: [src1, src2]
+  final: 4.0  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*3 + 0.10*3 = 1.20+1.25+0.80+0.45+0.30 = 4.00 → 4.0
+sources:
+  - id: src1
+    title: "新竹市文化局官方網站"
+    publisher: "新竹市政府文化局"
+    url: https://www.hcccb.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹風文化展示館介紹九降風與在地飲食、建築的關聯"
+      - "新竹市年平均風速為台灣各縣市最高"
+  - id: src2
+    title: "中央氣象署——新竹氣候統計"
+    publisher: "交通部中央氣象署"
+    url: https://www.cwa.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹市秋冬東北季風強勁，形成九降風現象，年均風速居全台之冠"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_windmill_and_street.jpg
+    creator: "Pbdragonwang"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-wind-culture.webp
+    completePath: media/complete/tw-hsinchu-wind-culture.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

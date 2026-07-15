@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "points-v1",
+  "title": "Points v1",
+  "description": "Schema for points.json inside a .guidepack ZIP archive.",
+  "type": "object",
+  "required": ["schemaVersion", "packId", "points"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [1]
+    },
+    "packId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "title", "summary", "narration", "observationPrompt", "location", "trigger", "tagGroups", "indoor", "rating"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "parentId": {"type": ["string", "null"]},
+          "kind": {"type": "string"},
+          "title": {"type": "string", "minLength": 1},
+          "summary": {"type": "string", "minLength": 1},
+          "narration": {"type": "string", "minLength": 1},
+          "observationPrompt": {"type": "string", "minLength": 1},
+          "location": {
+            "type": "object",
+            "required": ["latitude", "longitude"],
+            "properties": {
+              "latitude": {"type": "number"},
+              "longitude": {"type": "number"}
+            }
+          },
+          "trigger": {
+            "type": "object",
+            "required": ["radiusMeters", "dwellMillis", "rearmDistanceMeters"],
+            "properties": {
+              "radiusMeters": {"type": "number"},
+              "dwellMillis": {"type": "integer"},
+              "rearmDistanceMeters": {"type": "number"}
+            }
+          },
+          "tagGroups": {"type": "array"},
+          "indoor": {"type": "boolean"},
+          "locationHint": {"type": ["string", "null"]},
+          "rating": {"type": "number", "minimum": 0, "maximum": 5},
+          "media": {"type": "array"}
+        }
+      }
+    }
+  }
+}

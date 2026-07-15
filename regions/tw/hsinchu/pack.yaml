@@ -1,0 +1,11 @@
+schemaVersion: 1
+packId: tw-hsinchu
+version: "1.0.0"
+title: "新竹市"
+subtitle: "風城歷史與自然"
+region:
+  countryCode: TW
+  countryName: 台灣
+  adminAreaLevel1: 新竹市
+contentLanguage: zh-Hant-TW
+minAppVersionCode: 8

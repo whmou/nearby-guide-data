@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-longhegong-temple
+  parentId: null
+  kind: attraction
+  title: "長和宮"
+  summary: "建於清代乾隆年間的古廟，位於舊城南門一帶，是新竹市現存歷史最悠久的廟宇之一，主祀媽祖。"
+  narration: |
+    長和宮靜靜矗立在古城南門附近的老街巷弄間，這裡是昔日新竹港口商賈往來的要道，也是早期漳泉移民為庇佑海上往來而建廟祈願之地。廟宇創建於清乾隆年間，歷經多次重修，現存廟身融合了不同時代的修建痕跡，屋脊剪黏龍鳳精細繁複，廟前石獅與石鼓保存了部分早期雕刻風格。正殿供奉媽祖，兩側配祀千里眼與順風耳神將，神龕金光燦爛，香煙嫋繞。走進廟埕，腳下的鵝卵石地面與磨石子拼花留存著歲月的溫度，廟旁老榕樹盤根錯節，為這座古廟增添了幾分蒼老的氣息。對比附近已逐漸現代化的街道，長和宮像是時光的錨點，提醒著來訪者這一帶曾是人潮熙攘的渡頭聚落。
+  observationPrompt: "仔細看廟宇屋脊上的剪黏裝飾，能找到龍、鳳以外的哪些神話動物或人物故事場景？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜態
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80020
+    longitude: 120.97120
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "新竹市歷史最悠久的廟宇之一，反映清代移民信仰與港口聚落歷史，具地方史意義。"
+    sources: [wiki-longhegong]
+  distinctiveness:
+    score: 3
+    note: "台灣媽祖廟數量眾多，長和宮以創建年代久遠見長，但建築規模與知名度屬地方層級。"
+    sources: [wiki-longhegong]
+  interpretability:
+    score: 3
+    note: "廟宇格局傳統，剪黏裝飾可供觀賞，但現場歷史解說資訊相對有限。"
+    sources: [wiki-longhegong]
+  visitorValue:
+    score: 3
+    note: "免費參觀，與南門附近其他古蹟步行可串聯，適合作為歷史城區漫步的景點之一。"
+    sources: [wiki-longhegong]
+  evidenceQuality:
+    score: 2
+    note: "可參閱地方文史資料，但條目深度有限，缺乏完整學術研究文獻。"
+    sources: [wiki-longhegong]
+  final: 2.9
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×2 = 0.90+0.75+0.60+0.45+0.20 = 2.90
+sources:
+  - id: wiki-longhegong
+    title: "長和宮 — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/長和宮_(新竹市)
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "創建於清乾隆年間，主祀媽祖"
+      - "位於新竹舊城南門附近，為清代港口聚落信仰中心"
+      - "是新竹市現存歷史最悠久的廟宇之一"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Longhegong_Temple_Hsinchu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-longhegong-temple.webp
+    completePath: media/complete/tw-hsinchu-longhegong-temple.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-coastal-park
+  parentId: null
+  kind: attraction
+  title: "南寮海岸遊憩區"
+  summary: "南寮海岸遊憩區擁有寬闊的沙灘與連綿沙丘，強勁的新竹風帶來絕佳的風箏衝浪與風浪板條件，是台灣最知名的風浪板運動海岸之一。"
+  narration: |
+    南寮海岸遊憩區緊鄰南寮漁港北側，是一片向台灣海峽敞開的寬闊沙灘地帶。這裡最引人注目的不只是海景，更是那幾乎全年不停歇的海風——新竹的風是全台灣最強勁的，也因此讓這片海岸成為台灣風浪板運動的重鎮。每到假日，彩色的風箏衝浪帆和風浪板在海面上疾馳，高手們駕馭著風力騰空飛躍，壯觀的景象讓岸上的旁觀者也忍不住喝采。沙灘後方是一列高低起伏的天然沙丘，植生茂密，成為阻擋風沙的天然屏障，也是孩子們最愛奔跑玩耍的地方。園區內設有停車場、廁所與簡易設施，旁邊有單車租借服務，遊客可以沿著海岸自行車道一路騎往漁港，串連成完整的海岸休閒路線。
+  observationPrompt: "數數看海面上有幾面不同顏色的風箏衝浪帆正在飛翔？你能觀察到衝浪者如何借助風力在浪頭上起跳嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8478
+    longitude: 120.9238
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "台灣知名的風浪板與風箏衝浪基地，新竹強風特性賦予此地獨特的運動地位。"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 3
+    note: "風浪運動景觀與沙丘地貌結合，在台灣海岸遊憩區中具有辨識度。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "沙灘與運動場景一目了然，但沙丘生態與風浪運動安全知識缺乏現場解說。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "適合全家出遊，看風浪板表演即使不親自參與也很精彩，沙灘與自行車道皆宜。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方旅遊資訊及在地活動報導，可信度良好。"
+    sources: [src1, src2]
+  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "南寮海岸遊憩區 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/9
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "南寮海岸為新竹市主要海岸遊憩區"
+      - "強風環境造就風浪板與風箏衝浪運動盛行"
+  - id: src2
+    title: "新竹南寮風浪板運動海岸 - 交通部觀光署"
+    publisher: "交通部觀光署"
+    url: https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=C000_000183
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "設有停車場、廁所及單車租借服務"
+      - "沙丘地貌為天然屏障，適合親子遊憩"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nanliao_Coastal_Park_Hsinchu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-coastal-park.webp
+    completePath: media/complete/tw-hsinchu-coastal-park.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-funasugi-banata
+  parentId: jp-miyakojima-irabu-island
+  kind: attraction
+  title: "フナウサギバナタ"
+  summary: "フナウサギバナタ是伊良部島北端的一處海崖展望台，宮古語意為「送別遠行船隻之端」，崖頂矗立著一尊凝視遠洋的石雕女子像，承載著漁村女性盼夫歸來的千年深情。"
+  narration: |
+    「フナウサギ」在宮古語中意為「送船」，「バナタ」則是「端頭」——這個名字本身便訴說著一段段離別的故事。數百年來，伊良部島的男人們從佐良濱出海，駕著木造船前往遙遠的海域捕撈鰹魚，有時一去便是數月；而留在島上的妻子與母親，便會走到這處崖邊，目送船影消失在地平線盡頭，再獨自等待歸期。
+
+    崖邊豎立的石雕像面朝東北，雙目遠眺，衣帶在風中微微飄起——那是一位漁夫之妻的形象，被永遠定格在守望的瞬間。站在她身旁，北風從東海呼嘯而來，崖下浪濤拍打礁石的聲音不絕於耳，讓人不難體會當年那份望穿秋水的等待有多漫長。
+
+    展望台的視野開闊壯麗，天氣晴朗時可遠眺多良間島，而腳下的崖壁直落入碧藍大海，礁石上不時有海燕飛過。無論是對攝影者、或對想要感受宮古島人情溫度的旅人，這裡都是一處令人久久不忍離去的角落。
+  observationPrompt: "石雕女子像的面朝方向是東北——你能憑著海風與日光方向，大略判斷她眺望的是哪片海域嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8638
+    longitude: 125.1252
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "結合自然景觀與漁村文化歷史，具有強烈的在地精神象徵意義"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "宮古語命名、石雕像敘事與海崖景觀三者合一，在日本絕無僅有"
+    sources: [src1, src2]
+  interpretability:
+    score: 5
+    note: "地名典故與石像敘事賦予景點強烈情感脈絡，解說潛力極高"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費入場，視野開闊，情感共鳴強烈，是伊良部必訪地標"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有宮古島觀光協會資料及地方文化記載支持"
+    sources: [src1, src2]
+  final: 4.4  # 0.30*4 + 0.25*5 + 0.20*5 + 0.15*4 + 0.10*3 = 1.2+1.25+1.0+0.6+0.3 = 4.35 → 4.4
+sources:
+  - id: src1
+    title: "フナウサギバナタ - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/funasugi-banata/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "フナウサギバナタ是宮古語，意指送別出航漁船的崖端"
+      - "崖頂矗立著漁夫之妻石雕像，象徵等待丈夫出海歸來的妻子"
+  - id: src2
+    title: "伊良部島の見どころ - 沖縄観光情報WEBサイト"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://visitokinawa.jp/information/funasugi-banata/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "フナウサギバナタ展望台可眺望多良間島，視野絕佳"
+      - "是體驗宮古島漁村歷史文化的代表性景點"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Funasugi_Banata_Irabu_Island.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-funasugi-banata.webp
+    completePath: media/complete/jp-miyakojima-funasugi-banata.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

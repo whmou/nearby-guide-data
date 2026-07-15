@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-north-gate-street
+  parentId: null
+  kind: zone
+  title: "北門街"
+  summary: "清代新竹城北門外的古商街，現存大量傳統閩南式街屋與老字號店舖，紅燈籠與古樸騎樓構成新竹最具歷史感的街道景致。"
+  narration: |
+    北門街從清代起便是新竹最繁盛的商業幹道之一，舊稱「北門大街」，是北門城外串聯各地的貿易要道。走在這條街上，兩側成排的閩南式街屋騎樓一字排開，紅燈籠在屋簷下隨風輕搖，部分店面的牌匾字跡斑駁，透露著一甲子以上的歲月。街屋立面風格混雜了清代閩式傳統與日治時期改建的洋樓元素，外廊拱柱與磨石子地板記錄了不同時代的建築流行。老字號糕餅舖、傳統米食店與古玩攤販夾雜在新開的咖啡館和文創小店之間，形成一種新舊並陳的生活質地。每逢假日，街頭不時有廟會巡境或傳統表演活動，鑼鼓喧天，讓這條老街不僅是歷史標本，更是充滿煙火氣息的生活現場。
+  observationPrompt: "觀察街屋騎樓柱子的材質與式樣，能找到幾種不同年代的柱式——清代磚柱、日式洗石子圓柱或戰後水泥方柱？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80750
+    longitude: 120.96880
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "清代新竹城最重要的商業街道之一，保留了難得一見的街屋聚落肌理，有一定的歷史文化價值。"
+    sources: [wiki-beimen-street]
+  distinctiveness:
+    score: 3
+    note: "台灣各地老街風格相近，北門街以閩南與日式混合街屋為特色，具一定識別度，但同類競爭多。"
+    sources: [wiki-beimen-street]
+  interpretability:
+    score: 3
+    note: "街道風貌直觀，部分建築有解說牌，整體無需導覽即可自行體驗，但深度理解需背景知識。"
+    sources: [wiki-beimen-street]
+  visitorValue:
+    score: 4
+    note: "步行免費，老店、文創、小吃並陳，逛街體驗豐富，適合各年齡層，假日人氣旺盛。"
+    sources: [wiki-beimen-street]
+  evidenceQuality:
+    score: 3
+    note: "有維基百科條目與地方文史資料，資訊充分但學術論著較少。"
+    sources: [wiki-beimen-street]
+  final: 3.2
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: wiki-beimen-street
+    title: "北門街 (新竹市) — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/北門街_(新竹市)
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "清代即為新竹北門外最重要的商業街道"
+      - "保留閩南式與日治時期改建街屋混合立面"
+      - "現為新竹市重要觀光老街，兼具商業與歷史文化功能"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Beimen_Street.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-north-gate-street.webp
+    completePath: media/complete/tw-hsinchu-north-gate-street.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

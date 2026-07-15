@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-park-zoo
+  parentId: null
+  kind: attraction
+  title: "新竹公園暨動物園"
+  summary: "創立於1921年的百年公園，園內附設的新竹市立動物園是台灣現存歷史最悠久的動物園，免費入場，保有舊式動物園的懷舊氛圍。"
+  narration: |
+    新竹公園建於日治大正十年（1921年），是新竹市最大的城市公園。園內老榕樹蒼鬱，幾棵樹齡超過百年的大樹讓整個公園充滿蔭涼。附屬的市立動物園是台灣歷史最悠久的動物園，至今仍免費入場，長頸鹿、河馬與各種鳥類是孩子的心頭好。公園內還保有幾棟日治時期的磚造設施，以及新竹州圖書館遺跡，讓一座公園同時承載著自然與歷史的厚度。假日晴天，公園裡人聲鼎沸，卻也能找到僻靜的角落靜坐。
+  observationPrompt: "在公園找找樹齡超過百年的老榕樹——看看它的氣根有沒有垂到地面，根系覆蓋了多大範圍？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80514
+    longitude: 120.97304
+  trigger:
+    radiusMeters: 120.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "百年公園，附設台灣最老動物園，具有城市歷史意義，但國家級重要性相對有限。"
+    sources: [hsinchu-zoo-official]
+  distinctiveness:
+    score: 3
+    note: "台灣最早動物園的稱號獨特，但整體體驗與其他城市公園差異不大。"
+    sources: [hsinchu-zoo-official]
+  interpretability:
+    score: 3
+    note: "動物可直接觀察，老樹與日治設施可辨識，但需說明牌輔助歷史脈絡理解。"
+    sources: [hsinchu-zoo-official]
+  visitorValue:
+    score: 4
+    note: "動物園免費，公園全天開放，適合各年齡層，交通便利，是親子半日遊首選。"
+    sources: [hsinchu-zoo-official]
+  evidenceQuality:
+    score: 3
+    note: "新竹市政府官方資料，動物園建立年代有清楚記載。"
+    sources: [hsinchu-zoo-official]
+  final: 3.2
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: hsinchu-zoo-official
+    title: "新竹市立動物園官方網站"
+    publisher: "新竹市政府建設處"
+    url: https://zoo.hccg.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹市立動物園創立於1921年，為台灣歷史最悠久的動物園"
+      - "免費入場"
+      - "新竹公園為大正十年（1921年）建設"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Zoo_Entrance.jpg
+    creator: "Pbdragonwang"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-park-zoo.webp
+    completePath: media/complete/tw-hsinchu-park-zoo.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

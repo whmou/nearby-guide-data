@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-bamboo-culture
+  parentId: null
+  kind: venue
+  title: "新竹竹文化工藝"
+  summary: "新竹「竹」字得名於遍布早期平原的竹林，數百年竹材加工傳統孕育出從農具到藝術品的完整竹工藝體系。"
+  narration: |
+    新竹的「竹」不僅是地名，更是這座城市的靈魂。昔日竹塹平原遍植孟宗竹與桂竹，居民就地取材，發展出精湛的竹編、竹雕與竹炭燒製工藝。從曬穀用的竹籮、農家日用的竹籃，到現代工藝師創作的竹燈、竹傢俱，竹材的可能性被一再突破。市區內仍有數間老字號竹器行與工作室，師傅以雙手示範劈竹、削篾、壓紋等傳統工序，整個過程散發著清新的竹香。走訪工坊時，不妨留意師傅如何依竹節分布選取最適合的竹段，這是幾十年功力的體現。
+  observationPrompt: "請觀察師傅手邊的竹材，注意竹節的間距與竹壁的厚薄——師傅是如何依照不同用途挑選竹段的？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外皆有
+    - id: subject
+      label: 主題
+      tags:
+        - id: art
+          label: 藝術
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8062
+    longitude: 120.9698
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "竹文化是新竹城市認同核心符號，但工坊分散、無單一旗艦展示場域。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "台灣其他城市少有如此深厚的竹工藝傳承脈絡，新竹竹器具全台知名度。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "竹工藝製程視覺化程度高，但需要師傅現場示範才能完整理解工序。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "可購買竹製紀念品，體驗活動有限，整體體驗端賴工坊是否開放示範。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "文化部工藝中心有相關記載，學術文獻與田野調查資料充分。"
+    sources: [src1]
+  final: 3.3  # 0.30×3 + 0.25×4 + 0.20×3 + 0.15×3 + 0.10×3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+sources:
+  - id: src1
+    title: "國立台灣工藝研究發展中心——竹工藝"
+    publisher: "國立台灣工藝研究發展中心"
+    url: https://www.ntcri.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹竹工藝歷史悠久，從農業器具演變為現代工藝創作"
+      - "竹材的劈篾、編織技術是台灣重要的非物質文化遺產"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Bamboo_crafts_in_Taiwan
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-bamboo-culture.webp
+    completePath: media/complete/tw-hsinchu-bamboo-culture.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

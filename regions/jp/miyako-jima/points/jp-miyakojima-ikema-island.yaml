@@ -1,0 +1,96 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-ikema-island
+  parentId: null
+  kind: region
+  title: "池間島"
+  summary: "池間島是透過池間大橋與宮古島北端相連的小島，面積僅約2.83平方公里，以周邊海域可能出沒的儒艮（海牛）和傳統漁村風情聞名，是宮古島旅行中最具靜謐感的離島之一。"
+  narration: |
+    沿著宮古島北端的海岸線行駛，穿越池間大橋之後，車速自然放慢下來。池間島的路很窄，房屋低矮，漁港邊停著幾艘小船，民宿門口晾著捕魚的工具——這裡與宮古島市區的熱鬧氛圍截然不同，更像是一個還沒被大量觀光業改變的傳統琉球漁村。島嶼東北側的濕地是全球瀕危物種儒艮的覓食區域之一，雖然目擁僅靠運氣，但這份期待本身就為這座小島增添了神秘與珍貴的光環。島上的池間漁業協同組合販售現撈海產，冬季來訪的旅人還可以品嚐到宮古島名產「鰹魚」的各種料理。繞行小島一圈不過十分鐘的車程，卻能感受到與宮古島截然不同的漁村韻味。
+  observationPrompt: "走到島的北側海岸，低頭看礁盤與沙底的交界處——你能看到任何海草床（藻場）嗎？那正是儒艮的主要食物來源。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.9060
+    longitude: 125.1738
+  trigger:
+    radiusMeters: 500.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 2000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "儒艮棲息地具有重要的自然保育意義，傳統漁村文化亦具地方歷史價值，但整體知名度低於下地島或大神島。"
+    sources: [ikema-wikipedia-ja]
+  distinctiveness:
+    score: 3
+    note: "漁村風情與儒艮保育區的組合具有特色，但相似的離島景觀在沖繩群島中並不罕見。"
+    sources: [ikema-wikipedia-ja]
+  interpretability:
+    score: 3
+    note: "小島規模適中，漁村日常生活與海草床環境可直接觀察，但儒艮本身可遇不可求。"
+    sources: [ikema-wikipedia-ja]
+  visitorValue:
+    score: 3
+    note: "橋樑免費通行，島上海灘與漁港免費參觀，但沒有特定重點設施，適合喜愛自由散步的旅人。"
+    sources: [ikema-wikipedia-ja]
+  evidenceQuality:
+    score: 3
+    note: "維基百科及環境省儒艮保育相關文件均有記載，資料完整但深度有限。"
+    sources: [ikema-wikipedia-ja]
+  final: 3.0  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+sources:
+  - id: ikema-wikipedia-ja
+    title: "池間島 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E6%B1%A0%E9%96%93%E5%B3%B6
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "池間島は宮古島の北方約1.5kmに位置する面積2.83km²の島"
+      - "池間大橋（1992年完成）で宮古島と繋がっている"
+      - "周辺海域はジュゴンの生息地として知られる"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Ikema_Island
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-ikema-island.webp
+    completePath: media/complete/jp-miyakojima-ikema-island.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

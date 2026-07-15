@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sea-turtle-yoshino
+  parentId: null
+  kind: view
+  title: "吉野海岸（ウミガメ遭遇スポット）"
+  summary: "吉野海岸的淺礁區是宮古島最容易近距離相遇綠蠵龜的地點，大片海草床吸引多隻海龜定期在此覓食，浮潛客常有與海龜並肩同游的珍貴體驗。"
+  narration: |
+    吉野海岸（よしのかいがん）是宮古島東岸一處安靜的珊瑚礁海灣，礁盤寬廣，水深僅三至八公尺，清澈见底。這裡最令遊客著迷的，不是雪白的沙灘，而是那些優雅游曳在礁盤間的綠蠵龜。
+
+    礁盤上茂盛的海草床，是綠蠵龜（アオウミガメ）最愛的食物來源。每天清晨至下午，都有數隻固定在此棲居的海龜悠然覓食。浮潛下水，只要靜靜跟隨，不要追趕或觸碰牠們，海龜往往會帶著渾不在意的神情讓你跟游好一段路，偶爾還會浮上水面換氣，臉就在你眼前幾十公分——那種貼近野生動物的感動，很難用言語形容。
+
+    吉野海岸設有簡單的停車場，也有當地業者提供浮潛裝備出租。由於海龜受法律保護，嚴禁觸碰、騎乘或追趕，靜靜觀賞才能讓牠們持續安心在此棲居，留給每一位後來者同樣珍貴的邂逅機會。
+  observationPrompt: "請注意海龜頭頂的龜殼紋路——每隻海龜的鱗片圖案都如同指紋般獨一無二，你看到的海龜頭部鱗片是什麼顏色、什麼形狀？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8355
+    longitude: 125.3375
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "吉野海岸以野生綠蠵龜高出現率聞名全島，是宮古島最具代表性的海龜觀賞地點。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "能以浮潛方式與野生海龜近距離共游，在日本離島觀光中獨具吸引力。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "野生動物邂逅體驗直觀感人，環境教育意義明確，適合各年齡層遊客。"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "免費進場，浮潛裝備可租，老少咸宜，是宮古島口碑最佳的自然體驗之一。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "觀光媒體及評論平台記載充分，但野生動物出現頻率無官方科學統計。"
+    sources: [src1]
+  final: 4.1  # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*5 + 0.10*3 = 1.20+1.00+0.80+0.75+0.30 = 4.05 → 4.1
+sources:
+  - id: src1
+    title: "吉野海岸｜宮古島観光スポット"
+    publisher: "宮古島観光ガイド miyako-guide.net"
+    url: https://miyako-guide.net/spot/yoshino-beach
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "吉野海岸礁盤上的海草床吸引綠蠵龜定期在此覓食"
+      - "浮潛可近距離觀察野生海龜，是宮古島熱門體驗"
+  - id: src2
+    title: "宮古島の観光スポット - 吉野海岸 - Visit Okinawa"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.visitokinawa.jp/attractions/yoshino-coast
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "吉野海岸為宮古島東岸知名浮潛景點，可見多隻綠蠵龜"
+      - "禁止觸碰或追趕海龜，請保持適當距離靜靜觀賞"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Green_sea_turtle_Chelonia_mydas.jpg
+    creator: "Brocken Inaglory"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sea-turtle-yoshino.webp
+    completePath: media/complete/jp-miyakojima-sea-turtle-yoshino.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

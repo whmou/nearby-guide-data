@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-harbor-canal
+  parentId: null
+  kind: attraction
+  title: "港南運河"
+  summary: "港南運河是連接新竹漁港與市區的歷史水道，兩岸設有平坦的自行車道，木造漁船靜靜停泊其間，構成一幅悠閒的水岸風情畫。"
+  narration: |
+    港南運河沿著新竹市西側延伸，是昔日往來漁港與市區之間的重要水路通道。運河開鑿於日治時期，見證了新竹漁業最繁盛的年代，漁船滿載漁獲穿梭其間，一派生機勃勃的景象。如今運河雖然不再扮演主要交通功能，卻以另一種面貌延續著它的生命力。兩岸整建完成的自行車道平坦寬闊，是新竹市民假日騎車的熱門路線，沿途可以近距離欣賞靜靜繫泊在運河中的木造老漁船，這些斑駁的船身和船名是最真實的漁村歷史記憶。傍晚時分，橋上常有釣客垂釣，周邊也有幾間老式小吃店飄出香氣，讓整條運河保有濃厚的在地生活氣息，是一條可以讓旅人慢下腳步感受新竹海港文化底蘊的水岸廊道。
+  observationPrompt: "沿著運河岸邊走，你能在泊靠的老漁船船身上找到有趣的船名或吉祥圖案嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8162
+    longitude: 120.9398
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "日治時期開鑿的歷史水道，對新竹漁業發展具有實質意義，但知名度相對有限。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "老漁船、運河與自行車道共存的水岸景觀有一定特色，但類似水岸開發在台灣其他城市亦有。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "環境親近易讀，但運河歷史沿革的現場資訊仍有待加強。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "適合騎車或散步，老漁船景觀吸引人，但整體體驗尚屬輕量。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有地方旅遊報導記錄，官方資料基本充足。"
+    sources: [src1, src2]
+  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+sources:
+  - id: src1
+    title: "新竹漁港與港南運河 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/11
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "港南運河連接新竹漁港與市區"
+      - "兩岸設有自行車道，適合騎車悠遊"
+  - id: src2
+    title: "新竹港南運河自行車道 - 交通部觀光署"
+    publisher: "交通部觀光署"
+    url: https://www.taiwan.net.tw/m1.aspx?sNo=0001121&id=C000_000182
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "沿岸停靠多艘木造漁船"
+      - "傍晚景色宜人，為在地居民休閒去處"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Harbor_Canal.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-harbor-canal.webp
+    completePath: media/complete/tw-hsinchu-harbor-canal.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

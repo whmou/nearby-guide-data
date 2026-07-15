@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-miyako-traditional-textile
+  parentId: null
+  kind: exhibit
+  title: "宮古上布"
+  summary: "宮古上布是日本指定重要無形文化財的手工苧麻織品，以細如髮絲的苧麻纖維手紡後在石上砑染，呈現獨特的深藍靛色光澤，是宮古島最具代表性的傳統工藝。"
+  narration: |
+    宮古上布的歷史可以追溯到十六世紀末，相傳宮古島女性為了繳納沉重的人頭稅，日以繼夜紡織苧麻布料，技藝因此精進到極致。一匹宮古上布從苧麻種植、纖維手剝、手紡細絲，到染色、織造、最後以珊瑚礁石反覆砑光，整個過程需要一位熟練職人耗費數個月乃至一年以上的工夫。
+
+    走進展示館，你可以近距離看到成品布料在光線下的流動感——那種半透明的深靛藍色，帶著細密的白色十字絣紋（ヤシラミ絣），是宮古上布最標誌性的圖案。觸摸展示樣品時會驚訝地發現，如此輕盈的布料卻有著難以置信的堅韌度。2003年被指定為日本國家重要無形文化財，目前全島登錄的織師不足三十人，每匹作品都是時間的沉澱。
+  observationPrompt: "在展示的宮古上布布料中，仔細找找看傳統的「ヤシラミ絣」十字紋——這個細小的白色十字圖案是識別真正宮古上布的關鍵特徵之一。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史文化
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 展示參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: true
+  location:
+    latitude: 24.8068
+    longitude: 125.2838
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "宮古上布協同組合展示館，位於宮古島市平良字西里附近，請留意門口的織布機展示標誌。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "日本指定重要無形文化財，代表宮古島最高等級的傳統工藝傳承，具有無可取代的國家文化地位。"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "宮古上布的苧麻手紡、珊瑚礁砑光工法為世界絕無僅有，即便在日本各地織品中也無類似工藝。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "展示館有詳細的製程說明與織機展示，即使是非織品專家也能理解工藝的複雜度與歷史背景。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "視覺衝擊強，布料本身即具說服力；購買紀念品機會讓體驗更完整，但高昂售價可能令人卻步。"
+    sources: [src1]
+  evidenceQuality:
+    score: 4
+    note: "文化廳官方資料、博物館出版品及學術研究均有充分記載，證據品質高。"
+    sources: [src1, src2]
+  final: 4.6  # 0.30*5 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*4 = 1.50+1.25+0.80+0.60+0.40 = 4.55 → 4.6
+sources:
+  - id: src1
+    title: "宮古上布 - 文化庁国指定重要無形文化財"
+    publisher: "文化庁"
+    url: https://bunka.nii.ac.jp/heritages/detail/213541
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古上布於2003年被指定為日本國家重要無形文化財"
+      - "以苧麻手紡後砑光於珊瑚礁石的獨特工法為其主要特色"
+  - id: src2
+    title: "宮古上布 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E4%B8%8A%E5%B8%83
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古上布的歷史起源可追溯至十六世紀末，與宮古島人頭稅制度密切相關"
+      - "傳統的ヤシラミ絣十字圖案是宮古上布最具代表性的識別特徵"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako-jofu_textile.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-miyako-traditional-textile.webp
+    completePath: media/complete/jp-miyakojima-miyako-traditional-textile.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

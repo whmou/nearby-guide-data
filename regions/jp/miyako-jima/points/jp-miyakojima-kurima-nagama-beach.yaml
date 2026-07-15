@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kurima-nagama-beach
+  parentId: null
+  kind: attraction
+  title: "長間浜"
+  summary: "長間浜是来間島南岸的一片原始白沙灘，因地處偏僻而少有觀光客，海水清澈見底、沙粒細白如粉，被譽為宮古島最秘境的海灘之一。"
+  narration: |
+    穿過来間島內蜿蜒的小徑，眼前突然出現一彎弧形的純白沙灘，那就是長間浜。這裡沒有遮陽傘出租，也沒有沙灘小屋，只有海風、白沙、與令人屏息的宮古藍。由於位於島的南岸，遊客必須步行或騎單車才能抵達，正因如此，這片沙灘保留了最純粹的樣貌。海水淺灘區清澈到可以直接看到腳下每顆沙粒，珊瑚礁就散布在外海。退潮時，沙灘面積倍增，可以漫步其上，感受腳底細沙的柔軟。來到長間浜，請帶好飲水與防曬，靜靜享受屬於自己的宮古島秘境時光。
+  observationPrompt: "仔細觀察長間浜的沙粒——比起一般海灘的沙，你覺得這裡的沙粒更細、更白，還是顏色偏米黃？試著找找沙灘上是否有細小的珊瑚碎片。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.666500
+    longitude: 125.230800
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島知名的隱秘海灘，在日本旅遊媒體中被列為「秘境ビーチ」代表之一。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "無設施、無人潮的原始白沙灘，與主島熱門海灘形成強烈對比，稀有性高。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "自然海灘景觀直觀，但地點偏僻、需要導航，初次造訪者需要提示。"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "對追求純淨無人海灘體驗的旅客而言，這是宮古島最高評價的秘境景點之一。"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "多個旅遊網站有詳細介紹，Google Maps評分高，但學術文獻較少。"
+    sources: [src2]
+  final: 3.6   # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 0.9+1.0+0.6+0.75+0.3 = 3.55 → 3.6
+sources:
+  - id: src1
+    title: "長間浜 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄県文化観光スポーツ部"
+    url: https://www.okinawastory.jp/spot/600050
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "長間浜位於来間島南岸，為宮古島秘境海灘代表"
+      - "沙粒細白，海水高透明度"
+  - id: src2
+    title: "来間島 長間浜 | 宮古島観光ナビ"
+    publisher: "宮古島市観光商工局"
+    url: https://www.miyako-guide.net/spot/spot.php?id=9
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "無遊客設施，需步行或騎單車抵達"
+      - "退潮時沙灘面積擴大"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Nagamahama_Beach
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kurima-nagama-beach.webp
+    completePath: media/complete/jp-miyakojima-kurima-nagama-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

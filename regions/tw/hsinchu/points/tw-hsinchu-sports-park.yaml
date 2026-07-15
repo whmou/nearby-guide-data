@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-sports-park
+  parentId: null
+  kind: attraction
+  title: "新竹市立體育場"
+  summary: "新竹市立體育場是市中心最大的綜合運動公園，環形跑道旁綠草如茵，週末假日市集與運動人潮交織，展現新竹市民活躍的城市生活文化。"
+  narration: |
+    新竹市立體育場矗立在市區核心地帶，是新竹市規模最大的公共運動與休閒空間。這座體育場建設於數十年前，歷經多次整修後，如今擁有標準的田徑跑道、足球場、網球場及多功能球場，幾乎任何時段都能看見市民在此揮汗運動。體育場外圍是一片寬闊的草坪綠地，每逢週末，這裡搖身一變成為人氣旺盛的市集場地，小農蔬果、手工藝品、創意小食攤位一字排開，吸引大批家庭攜老扶幼前來採購與閒逛。這種運動場地與週末市集並存的模式，生動呈現了新竹作為一座科技城市之外，居民日常生活中那種重視健康與社區情感的面向。每逢大型運動賽事或音樂活動，體育場更成為全市的歡聚中心，觀眾的加油聲與歡笑聲響徹整個街區。
+  observationPrompt: "在體育場外的草坪上，你能觀察到幾種不同的運動項目正同時在進行？週末的市集攤位賣些什麼最有特色？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8108
+    longitude: 120.9648
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "新竹市最重要的綜合運動設施，是城市公共生活的核心場域。"
+    sources: [src1]
+  distinctiveness:
+    score: 2
+    note: "功能完善的城市體育場，但在全台灣各城市中屬於普遍型態，特殊性有限。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "場地用途清晰易懂，市集與運動並存的文化氛圍對外來遊客具有觀察價值。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "週末市集與運動觀察讓非運動型遊客也有可玩之處，但作為景點的特殊吸引力普通。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方場館資訊，基本事實可查。"
+    sources: [src1, src2]
+  final: 2.8  # 0.30*3 + 0.25*2 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.50+0.60+0.45+0.30 = 2.75 → 2.8
+sources:
+  - id: src1
+    title: "新竹市立體育場 - 新竹市政府體育處"
+    publisher: "新竹市政府體育處"
+    url: https://sports.hccg.gov.tw/home/zh-tw/stadium
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹市立體育場為市內最大綜合運動場地"
+      - "設有標準田徑跑道、足球場及多功能球場"
+  - id: src2
+    title: "新竹市立體育場 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/15
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "週末市集於體育場外草坪定期舉辦"
+      - "市民假日運動與社區活動的重要場所"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Municipal_Stadium.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-sports-park.webp
+    completePath: media/complete/tw-hsinchu-sports-park.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

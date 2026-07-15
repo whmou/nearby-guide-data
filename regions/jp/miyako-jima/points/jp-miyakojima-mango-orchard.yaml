@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-mango-orchard
+  parentId: null
+  kind: venue
+  title: "宮古マンゴー農園"
+  summary: "宮古島是日本頂級芒果的主要產地，每年六至八月盛產期間，農園開放旅客直接入園採果品嚐，飽滿的「アーウィン」品種芒果在珊瑚礁土壤與充沛日照下熟成，甜度遠超市售進口品。"
+  narration: |
+    宮古島芒果之所以出類拔萃，秘密在於這裡的自然條件近乎完美——珊瑚礁風化形成的排水良好石灰岩土壤、年均超過二千一百小時的日照，以及鹹度適中的海風，讓果實在枝頭緩慢熟成，糖分充分蓄積。主流栽培品種「アーウィン」果皮染著橘紅暈色，切開後金黃的果肉散發濃郁的奶油花香，纖維極少，汁液飽滿。
+
+    盛產期農園採「樹熟採收」策略，讓芒果自然從枝梢落下才摘取，而非提前採青以利運輸。入園時農主通常會帶你走過樹陣，解說如何辨別芒果的熟成程度——果皮的橘紅面積、輕壓時的彈性、蒂頭周圍有無自然裂紋。現摘之後直接在現場切開品嚐，甜度動輒超過十七度，是在台灣超市完全嚐不到的風味。
+  observationPrompt: "觀察懸掛在樹枝上套袋保護的芒果——農民為什麼要為每顆芒果單獨套袋？袋子的材質和顏色有什麼特別之處？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 農業生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子體驗
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需付費
+  indoor: false
+  location:
+    latitude: 24.7855
+    longitude: 125.3282
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島是日本著名的高品質芒果產地，農園體驗代表宮古島重要的農業文化，但非唯一性名勝。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "宮古島芒果以珊瑚礁土壤栽培、樹熟採收著稱，在日本國內具有明確的地理風土特色。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "農主導覽能清楚說明栽培方式與風土條件，品嚐體驗本身即是最直接的詮釋。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "結合採果、品嚐、購買伴手禮，體驗完整；盛產期（6-8月）才開放，旺季旅客幾乎必訪。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "農業統計資料可靠，但個別農園資訊多來自旅遊平台，缺乏學術性文獻。"
+    sources: [src1]
+  final: 3.4  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+1.00+0.60+0.60+0.30 = 3.40
+sources:
+  - id: src1
+    title: "沖縄県宮古島市のマンゴー生産"
+    publisher: "沖縄県農林水産部"
+    url: https://www.pref.okinawa.jp/site/norin/engei/fruits/mango.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島是沖縄縣內主要芒果產地之一，以アーウィン品種為大宗"
+      - "珊瑚礁土壤與充沛日照是宮古芒果高糖度的主要因素"
+  - id: src2
+    title: "宮古島マンゴー狩り体験"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島多處農園於六至八月盛產期開放入園採果與品嚐體驗"
+      - "樹熟採收（枝頭自然落果後採摘）是宮古芒果農園的主流做法"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mango_Irwin_Okinawa.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-mango-orchard.webp
+    completePath: media/complete/jp-miyakojima-mango-orchard.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

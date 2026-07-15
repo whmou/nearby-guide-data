@@ -1,0 +1,96 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-shimoji-island
+  parentId: null
+  kind: region
+  title: "下地島"
+  summary: "下地島是緊鄰伊良部島南側的小島，以全長3,000公尺的訓練用跑道聞名，長年是日本航空公司飛行員技術測驗的聖地，近年更開闢國際定期航班，島嶼四周珊瑚礁環繞。"
+  narration: |
+    下地島與伊良部島之間僅相隔一條窄渠，兩島實際上已幾乎融為一體，但行政上仍屬獨立小島。島上最核心的存在，是那條長達三千公尺的下地島空港跑道——這條跑道自1979年啟用，數十年來一直是全日空與日本航空訓練飛行員的專屬場地，以「技術最難的降落訓練場」名聞日本航空界。如今，LCC與包機航班陸續開通，讓旅人得以直飛這座曾幾乎與外界隔絕的小島。除了航空文化，下地島周邊海域保有宮古群島中保存最完整的珊瑚礁群之一，通り池與洞窟潛水更讓它成為全球頂尖潛水客心目中的朝聖地。從伊良部島橫渡窄渠，便能親眼感受這座兼具航空傳奇與大自然奇景的小島。
+  observationPrompt: "站在島上高處或橋旁，你能數出視野中停放或滑行的飛機嗎？注意看跑道盡頭與海面相接的位置。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8238
+    longitude: 125.1438
+  trigger:
+    radiusMeters: 500.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 2000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "擁有日本唯一供商業飛行員技術審查使用的訓練跑道，航空迷與自然愛好者均視為朝聖地。"
+    sources: [shimoji-wikipedia-ja]
+  distinctiveness:
+    score: 4
+    note: "飛機訓練跑道與原始珊瑚礁並存的組合在日本絕無僅有，兼具工業與自然雙重魅力。"
+    sources: [shimoji-wikipedia-ja]
+  interpretability:
+    score: 3
+    note: "作為地區概覽節點，個別景點意義需搭配機場、海灘、通り池等子景點才能完整理解。"
+    sources: [shimoji-wikipedia-ja]
+  visitorValue:
+    score: 4
+    note: "免費進入全島，各景點分布集中，半日可走完主要點，適合自駕或租機車遊覽。"
+    sources: [shimoji-wikipedia-ja]
+  evidenceQuality:
+    score: 3
+    note: "日本語維基百科資料完整，另有國土交通省及航空局相關記載，但英文資料較少。"
+    sources: [shimoji-wikipedia-ja]
+  final: 3.7  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×4 + 0.10×3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: shimoji-wikipedia-ja
+    title: "下地島 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%9C%B0%E5%B3%B6
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "下地島は伊良部島の南西に位置する小島"
+      - "下地島空港の3,000m滑走路はパイロット訓練で有名"
+      - "周辺海域に通り池などの地形ダイブポイントがある"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Shimoji_Island
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-shimoji-island.webp
+    completePath: media/complete/jp-miyakojima-shimoji-island.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,98 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-nishi-hennazaki
+  parentId: null
+  kind: view
+  title: "西平安名崎"
+  summary: "宮古島西北端的岬角，以白色風力發電機矗立於珊瑚礁海岸線著稱，是宮古島欣賞夕陽西沉入海的最佳地點之一。"
+  narration: |
+    西平安名崎是宮古島伸向西北的岬角，與東平安名崎一樣由隆起的珊瑚礁台地構成，但景致迥異。這裡矗立著數座白色風力發電機，葉片在海風中緩緩旋轉，與蔚藍海面和綠色草地形成構圖乾淨的背景。傍晚是造訪的最佳時機：太陽順著西北方向緩緩西沉，橘紅色光芒鋪滿整個海面，風機葉片的剪影在夕照中格外優雅。春季波照間花（バイカイカリソウ）盛開時，地面鋪滿淡粉紫色小花，是另一季節的特別風景。
+  observationPrompt: "觀察風力發電機的葉片旋轉方向——今天的海風是從哪個方向吹來的？和你的預期一樣嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.90448
+    longitude: 125.22718
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島知名日落觀賞地點，風力發電機景觀具視覺特色，但文化歷史意義相對薄弱。"
+    sources: [nishi-hennazaki-miyakojima-guide]
+  distinctiveness:
+    score: 3
+    note: "風機與珊瑚礁海岸的組合在沖繩有一定稀有性，但整體而言景觀元素較單一。"
+    sources: [nishi-hennazaki-miyakojima-guide]
+  interpretability:
+    score: 3
+    note: "風機和日落景色完全自明，植物生態需要在特定季節才能看到最佳狀態。"
+    sources: [nishi-hennazaki-miyakojima-guide]
+  visitorValue:
+    score: 4
+    note: "完全免費，設有停車場與步道，交通僅需自駕，日落時段造訪效果最佳。"
+    sources: [nishi-hennazaki-miyakojima-guide]
+  evidenceQuality:
+    score: 3
+    note: "宮古島市觀光協會及旅遊媒體有收錄，基本資料可查。"
+    sources: [nishi-hennazaki-miyakojima-guide]
+  final: 3.2
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+sources:
+  - id: nishi-hennazaki-miyakojima-guide
+    title: "西平安名崎 観光スポット"
+    publisher: "宮古島市観光協会"
+    url: https://miyako-guide.net/spot/nishi-hennazaki/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島西北端的岬角，設有風力發電機"
+      - "以夕陽景色及春季野花聞名"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nishi-Hennazaki_cape_Miyakojima.jpg
+    creator: "Hikarih"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-nishi-hennazaki.webp
+    completePath: media/complete/jp-miyakojima-nishi-hennazaki.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

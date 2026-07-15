@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-ikema-dugong
+  parentId: jp-miyakojima-ikema-island
+  kind: view
+  title: "池間島ジュゴン生息域"
+  summary: "池間島周邊海域是宮古群島中已確認儒艮（海牛）存在的唯一區域，環境省列為重要保護海域，偶有目擊報告，是日本境內難得一見的哺乳類海洋動物棲息環境。"
+  narration: |
+    儒艮是一種體型龐大的草食性海洋哺乳動物，全球數量急劇減少，在日本幾乎已瀕臨絕跡。然而在宮古島池間島周邊的淺灣海草床，牠們仍留有蹤跡。環境省的調查記錄顯示，此區域偶有個體出沒，以海底豐富的海草為食，留下橢圓形的啃食痕跡。儒艮的移動速度緩慢，通常在黎明或黃昏時於淺灘附近覓食，肉眼觀察極為困難，但當地漁民偶爾在出海時目擊到其大型灰褐色身影在水面露出呼吸。為了保護這片珍貴棲地，池間島海域部分區域限制漁業活動與水上摩托車，水下噪音管制也被納入討論。站在池間島北岸眺望，那片看似平靜的海面下，或許正有著這種古老海洋生靈悄悄游動。
+  observationPrompt: "在退潮後的海草床區域，俯身細看沙底——你能發現寬約30至50公分、橢圓形草根被拔起的痕跡嗎？那正是儒艮獨特的進食方式所留下的「牧食痕」。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.9050
+    longitude: 125.1730
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本境內僅存的儒艮棲息確認地之一，具有極高的生物多樣性保育意義，環境省已列入重要保護區。"
+    sources: [env-dugong-miyako, ikema-dugong-moe]
+  distinctiveness:
+    score: 5
+    note: "在日本陸地可到達的海域中，能以合理機率期待看到野生儒艮的地點幾乎只有此處，獨特性極高。"
+    sources: [env-dugong-miyako]
+  interpretability:
+    score: 3
+    note: "牧食痕跡具體可見，但儒艮本身難以直接觀察，需要相當的背景知識才能充分欣賞此地的保育價值。"
+    sources: [ikema-dugong-moe]
+  visitorValue:
+    score: 3
+    note: "親眼目睹儒艮概率低，但了解保育背景後現場觀察海草床與牧食痕仍有深刻體驗價值。"
+    sources: [env-dugong-miyako]
+  evidenceQuality:
+    score: 3
+    note: "環境省官方調查報告及生物多樣性学術文獻均有記載，儒艮目擊記錄有完整資料庫。"
+    sources: [ikema-dugong-moe]
+  final: 3.8  # 0.30×4 + 0.25×5 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+1.25+0.60+0.45+0.30 = 3.80
+sources:
+  - id: env-dugong-miyako
+    title: "ジュゴン保護区域 宮古島周辺海域"
+    publisher: "環境省自然環境局"
+    url: https://www.env.go.jp/nature/kisho/dugong/miyako.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "池間島周辺が宮古島でのジュゴン確認海域"
+      - "海草藻場の保全が重要"
+  - id: ikema-dugong-moe
+    title: "ジュゴンの生息状況調査報告書"
+    publisher: "環境省"
+    url: https://www.env.go.jp/nature/kisho/dugong/report.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島・池間島周辺での個体確認記録"
+      - "牧食痕（フィーディングトレイル）の分布調査結果"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Dugong_dugon.jpg
+    creator: "Julien Willem"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-ikema-dugong.webp
+    completePath: media/complete/jp-miyakojima-ikema-dugong.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

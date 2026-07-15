@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-coral-restoration
+  parentId: null
+  kind: venue
+  title: "宮古島珊瑚礁再生プロジェクト"
+  summary: "宮古島珊瑚礁復育計畫是應對珊瑚白化危機的在地行動，設有展示設施介紹珊瑚斷枝移植技術與海洋生態保育科學，部分活動開放遊客參與實作。"
+  narration: |
+    全球暖化導致的海水升溫，讓全世界的珊瑚礁正面臨前所未有的白化危機，宮古島周邊的珊瑚礁也不例外。然而，在這片美麗的海域旁，有一群人沒有坐以待斃——宮古島珊瑚礁再生プロジェクト（珊瑚礁復育計畫）就在此默默推動，用科學與行動守護宮古島的海洋未來。
+
+    這裡的核心工作是「斷枝移植法」（フラグメンテーション）：從健康的珊瑚上取下小枝，在人工培育槽中養大後，再移植到受損礁區，讓珊瑚慢慢重新佔據礁盤。參觀設施內可以看到一排排育苗槽，裡面的小珊瑚正努力生長；牆上的展板以圖解說明珊瑚的生命週期、白化原因與復育過程，即使是沒有理科背景的訪客也能輕鬆理解。
+
+    計畫不定期開放遊客參與植珊瑚體驗工作坊，親手把培育好的珊瑚苗插上礁盤，實際為海洋生態做出一點小小的貢獻。即便只是到訪參觀，理解這份守護之心，也能讓你對宮古島的海洋有更深的感情與珍惜。
+  observationPrompt: "在育苗槽旁，請找一看最小的珊瑚苗和最大的珊瑚苗——兩者的大小差距大約是幾倍？想像牠從小苗長到可以移植，需要多少個月？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 活動
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.8060
+    longitude: 125.2850
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "珊瑚礁復育是全球重要環境議題，宮古島此計畫具在地教育意義，但非頂級觀光地標。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "開放遊客參與植珊瑚體驗較具特色，但類似計畫在沖縄其他地區亦有推行。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "展示設施圖解清楚，復育科學解說深入淺出，教育體驗完整。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "適合有環保意識的遊客及親子家庭，但對純觀光型遊客吸引力有限。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "相關NPO與環境機構文件有記載，但媒體曝光度較低。"
+    sources: [src1]
+  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*4 + 0.15*3 + 0.10*3 = 0.90+0.75+0.80+0.45+0.30 = 3.20
+sources:
+  - id: src1
+    title: "宮古島のサンゴ礁保全・再生活動"
+    publisher: "環境省 沖縄奄美自然環境事務所"
+    url: https://kyushu.env.go.jp/okinawa/nature/coral.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島周邊珊瑚礁面臨白化威脅，當地推動斷枝移植復育計畫"
+      - "政府與NPO合作推進珊瑚礁保育科學"
+  - id: src2
+    title: "サンゴ礁の再生体験｜宮古島エコツーリズム"
+    publisher: "宮古島市観光商工局"
+    url: https://www.city.miyakojima.lg.jp/kanko/ecotourism-coral.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "開放遊客參與植珊瑚體驗工作坊，結合環境教育與觀光"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Coral_restoration_Okinawa.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-coral-restoration.webp
+    completePath: media/complete/jp-miyakojima-coral-restoration.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

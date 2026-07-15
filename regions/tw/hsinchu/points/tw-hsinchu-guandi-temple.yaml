@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-guandi-temple
+  parentId: null
+  kind: attraction
+  title: "新竹關帝廟"
+  summary: "新竹關帝廟主祀關聖帝君，是竹塹商業社群祈福許願的精神重心，每逢農曆節慶香火鼎盛、傳統儀式熱鬧非凡。"
+  narration: |
+    新竹關帝廟坐落於舊城區核心，主祀義薄雲天的關聖帝君，數百年來一直是竹塹地區商人與工匠膜拜的守護神殿。廟宇正殿樑柱上雕龍畫鳳，屋脊燕尾高翹，以鮮豔的剪黏裝飾呈現三國故事中的英雄場景。每逢農曆正月十三關帝誕辰，廟前廣場鑼鼓喧天，陣頭遊行穿街過巷，信眾扶老攜幼前來上香祈求生意興旺。廟側的壁堵石雕細膩，記錄了昔日竹塹城的商業繁景，值得駐足細賞。
+  observationPrompt: "請仔細觀察廟宇正殿屋脊上的剪黏裝飾，看看你能辨認出哪些三國故事中的人物或場景？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8038
+    longitude: 120.9702
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "新竹市區重要傳統廟宇，數百年商業信仰核心，具顯著在地文化意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "關帝廟在台灣各地普遍，但新竹版本與舊城商業史緊密連結，具一定獨特性。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "廟宇建築語彙豐富，剪黏、石雕、彩繪皆有明顯可解讀的圖像敘事。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費入場，位於舊城散步路線核心，對文化探索旅客有高度吸引力。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "地方志與官方旅遊資料有記載，但學術深度研究資料有限。"
+    sources: [src1]
+  final: 3.7  # 0.30×4 + 0.25×3 + 0.20×4 + 0.15×4 + 0.10×3 = 1.20+0.75+0.80+0.60+0.30 = 3.65 → 3.7
+sources:
+  - id: src1
+    title: "新竹市觀光旅遊網——廟宇文化"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹關帝廟為舊城區重要宗教信仰場所，主祀關聖帝君"
+      - "廟宇建築保存傳統閩南風格剪黏與石雕裝飾"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Temples_in_Hsinchu_City
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-guandi-temple.webp
+    completePath: media/complete/tw-hsinchu-guandi-temple.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

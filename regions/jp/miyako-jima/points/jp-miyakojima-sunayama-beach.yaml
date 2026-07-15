@@ -1,0 +1,96 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sunayama-beach
+  parentId: null
+  kind: attraction
+  title: "砂山ビーチ（砂山海灘）"
+  summary: "以巨大天然拱形岩石聞名的秘境海灘，穿越拱岩後是一片安靜的珊瑚沙灣，拱岩本身是宮古島最具辨識度的自然地標之一。"
+  narration: |
+    砂山海灘得名於入口處那座高聳的沙丘，停好車後沿階梯翻越一座沙丘，便可俯瞰整個海灣。海灘中央矗立著一塊天然形成的拱形岩石，珊瑚岩被海浪侵蝕成圓弧形，陽光從拱洞打進來，形成只有在特定角度才能拍到的絕美構圖。拱岩兩側的海水格外清澈，珊瑚礁碎石讓海底紋理清晰可見。這裡的海流比与那覇前浜稍強，非游泳季節或浪大時需謹慎，但單純欣賞拱岩和在海灘散步完全不受影響。
+  observationPrompt: "站在拱岩正前方，找到讓拱框住遠方海面的位置——試試看正午和下午的光線角度有什麼不同？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80680
+    longitude: 125.27190
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島代表性自然景觀，拱形岩石是宮古島觀光的標誌性意象，廣泛出現在宮古島旅遊宣傳素材。"
+    sources: [sunayama-miyakojima-guide]
+  distinctiveness:
+    score: 5
+    note: "天然珊瑚礁拱岩造型獨一無二，是宮古島無可取代的自然地標，世界各地極少有類似尺度的海灘拱石。"
+    sources: [sunayama-miyakojima-guide]
+  interpretability:
+    score: 4
+    note: "拱岩形態清晰易辨，視覺震撼自明，地質成因（珊瑚礁受海浪侵蝕）可透過觀察岩石紋理推敲。"
+    sources: [sunayama-miyakojima-guide]
+  visitorValue:
+    score: 4
+    note: "免費進入，停車場完善，有洗手台設施，翻越沙丘的短程步道體能要求低。"
+    sources: [sunayama-miyakojima-guide]
+  evidenceQuality:
+    score: 4
+    note: "宮古島市觀光協會及沖縄縣觀光資料均收錄，地理資訊清晰。"
+    sources: [sunayama-miyakojima-guide]
+  final: 4.3
+  # 0.30×4 + 0.25×5 + 0.20×4 + 0.15×4 + 0.10×4 = 1.20+1.25+0.80+0.60+0.40 = 4.25 → 4.3
+sources:
+  - id: sunayama-miyakojima-guide
+    title: "砂山ビーチ 観光スポット"
+    publisher: "宮古島市観光協会"
+    url: https://miyako-guide.net/spot/sunayama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島北部著名海灘，以天然拱形珊瑚岩著稱"
+      - "免費入場，設有停車場"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunayama_Beach_Miyakojima.jpg
+    creator: "663highland"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sunayama-beach.webp
+    completePath: media/complete/jp-miyakojima-sunayama-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

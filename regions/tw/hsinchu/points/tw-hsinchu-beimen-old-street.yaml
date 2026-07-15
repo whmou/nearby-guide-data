@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-beimen-old-street
+  parentId: null
+  kind: attraction
+  title: "北門街老街"
+  summary: "北門街是新竹市逾兩百年歷史的老商業街，香鋪、中藥行、紙燈籠坊錯落其間，保留了竹塹城最鮮活的傳統商業記憶。"
+  narration: |
+    北門街的歷史可追溯至清乾隆年間，當年竹塹城北門外商賈雲集，逐漸形成這條蜿蜒的商業街道。時至今日，街上仍保存著數十間百年老鋪：製作金紙、香燭的香鋪飄散著淡淡檀香，老中藥行的木製藥櫃陳列著數百種藥材，彩繪宮燈坊裡師傅正用毛筆在紅紙燈罩上繪製龍鳳圖騰。街道兩旁的騎樓下，老師傅們依循古法製作的各式祭祀物品，色彩繽紛、工藝細膩。漫步其間，閉上眼睛，混合著香燭、草藥與紙漿的氣息，彷彿穿越回兩百年前的竹塹城市集。
+  observationPrompt: "請找一間香鋪，仔細觀察店內陳列的香品種類與規格——你能猜出哪些香是用於哪類廟會或節慶場合的嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8078
+    longitude: 120.9688
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "兩百年以上歷史的商業街，保留竹塹城最完整的傳統商業文化景觀。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "香鋪、燈籠坊等傳統業種組合在台灣老街中相對罕見，具一定獨特性。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "店鋪門面、商品、香氣等感官線索豐富，即使無導覽也能感受歷史氛圍。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費遊逛，可購買傳統工藝品，適合攝影與文化探索，停留價值高。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "新竹市文化局有詳細歷史記載，文獻資料充分。"
+    sources: [src1]
+  final: 3.7  # 0.30×4 + 0.25×3 + 0.20×4 + 0.15×4 + 0.10×3 = 1.20+0.75+0.80+0.60+0.30 = 3.65 → 3.7
+sources:
+  - id: src1
+    title: "新竹市文化局——北門街歷史街區"
+    publisher: "新竹市政府文化局"
+    url: https://www.hcccb.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "北門街為清代竹塹城主要商業街道之一，歷史逾兩百年"
+      - "街上保留香鋪、中藥行、紙燈籠等傳統行業"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:North_Gate_Street,_Hsinchu
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-beimen-old-street.webp
+    completePath: media/complete/tw-hsinchu-beimen-old-street.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

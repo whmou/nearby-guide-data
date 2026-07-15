@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-eighteen-peaks
+  parentId: null
+  kind: attraction
+  title: "十八尖山"
+  summary: "十八尖山是新竹市中心最重要的城市森林公園，由18座連綿丘陵組成，春季滿山遍野的山櫻花是全市最熱門的賞花勝地。"
+  narration: |
+    十八尖山橫亙在新竹市東南側，是一片難得保存完整的城市丘陵森林。整座山系由18座高低起伏的小山頭串聯而成，主峰海拔不高，卻擁有超過4公里的環形步道，讓遊客能在樹蔭遮蔽下悠閒健走。步道沿途視野開闊，可以俯瞰新竹市區、遠眺台灣海峽，天氣晴朗時甚至能看見風力發電機的身影。每年一到二月，山坡上種植的山櫻花次第盛開，粉紅花海與綠色山頭交織出令人屏息的景色，吸引大批市民及外縣市遊客前來拍照踏青。除了賞花季，這裡一年四季都是新竹人早晨健身、黃昏散步的好去處，偶爾還能遇見鬆鼠在枝頭跳躍，是一座充滿生命力的都市綠肺。
+  observationPrompt: "站在稜線步道上往西望，你能數出幾座風力發電機的白色風車？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.7942
+    longitude: 120.9908
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "新竹市最大城市森林公園，春季櫻花祭為全市年度盛事，歷史超過半世紀。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "18座丘陵組成的連綿地形在台灣都市公園中少見，賞花與城市俯瞰視野並存。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "自然步道公園，內容直觀，但山頭命名由來等歷史背景缺乏現場解說。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "步道品質佳、視野開闊、四季皆宜，對散步與賞花訪客都有高價值。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有維基百科條目與官方旅遊頁面，資料完整度中等。"
+    sources: [src1, src2]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: src1
+    title: "十八尖山 - 維基百科"
+    publisher: "Wikipedia"
+    url: https://zh.wikipedia.org/wiki/%E5%8D%81%E5%85%AB%E5%B0%96%E5%B1%B1
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "十八尖山由18座丘陵組成，設有環形步道"
+      - "春季山櫻花為著名賞花景點"
+  - id: src2
+    title: "十八尖山風景區 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/2
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "步道全長約4公里，可俯瞰新竹市區"
+      - "免費開放，全年皆宜"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Eighteen_Peaks_Mountain_Hsinchu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-eighteen-peaks.webp
+    completePath: media/complete/tw-hsinchu-eighteen-peaks.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

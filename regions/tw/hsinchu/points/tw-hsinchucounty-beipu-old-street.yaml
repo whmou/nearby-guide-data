@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchucounty-beipu-old-street
+  parentId: null
+  kind: attraction
+  title: "北埔老街"
+  summary: "北埔老街是新竹縣保存最完整的客家歷史聚落，清代隘勇制度下形成的防禦性街廓至今仍可辨識。街道上販售客家擂茶、柿餅與粢粑等傳統食物，慈天宮香火鼎盛，每逢桐花季更是山城美景。"
+  narration: |
+    從新竹市區驅車約四十分鐘，山路漸漸蜿蜒，北埔就在丘陵深處靜靜等候。這座客家小鎮在清道光年間因隘墾制度而繁榮，金廣福公館是當年組織墾民、抵禦原住民出草的指揮中心，如今列為一級古蹟，巍然矗立於老街入口。
+    老街沿線的三合院與磚砌商鋪保留著清末風格，斑駁的紅磚牆透著歲月的溫度。沿街最受歡迎的是擂茶——客家傳統飲品，將茶葉、芝麻、花生研磨成粉後沖泡，略帶苦甜的風味配上粢粑（麻糬）是絕佳搭配。各家店的擂茶配方略有差異，建議多嚐幾間。
+    慈天宮是北埔的信仰中心，廟埕廣場常有老人下棋、孩子嬉鬧，香煙嫋繞的氣息讓整個聚落顯得生機盎然。若在四月前後造訪，油桐花盛開，白色花瓣如雪落滿山徑，為老街添上一層詩意。北埔雖屬新竹縣北埔鄉，距新竹市並不遠，是最值得半日出走的近郊行程。
+  observationPrompt: "在老街入口找找金廣福公館正面的「墾」字匾額，再環顧建築四周的厚實磚牆，想想當年這棟建築同時作為商業公館與防禦工事的雙重功能——厚牆之後，是客家先民在荒野拓墾的決心。"
+  countryCode: TW
+  adminAreaLevel1: 新竹縣
+  hierarchy: ["台灣", "新竹縣", "北埔鄉"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.6978
+    longitude: 121.0642
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "金廣福公館為台灣一級古蹟，北埔老街是台灣保存最完整的清代客家拓墾聚落之一，歷史保存價值極高。"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 4
+    note: "台灣客家老街眾多，但北埔以清代防禦性街廓格局、金廣福公館一級古蹟及擂茶文化的完整組合，在客家文化旅遊地圖上位置獨特。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "古蹟說明牌中英文具備，擂茶體驗參與門檻低；但部分歷史脈絡需要導覽或事前了解方能充分理解。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "免費入場、美食豐富、桐花季景觀加分，半日行程即可充分體驗，CP值極高。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料來源為文化部文化資產局（一級古蹟認定）及交通部觀光署資料，可信度高。"
+    sources: [src1, src2]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70 → 3.7
+sources:
+  - id: src1
+    title: "交通部觀光署——北埔老街旅遊資訊"
+    publisher: "交通部觀光署"
+    url: https://www.taiwan.net.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "北埔老街為新竹縣著名客家歷史聚落，以擂茶、柿餅及桐花季聞名"
+      - "慈天宮為北埔重要信仰中心"
+  - id: src2
+    title: "金廣福公館 — 文化部文化資產局"
+    publisher: "文化部文化資產局"
+    url: https://nchdb.boch.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "金廣福公館為中華民國一級古蹟，建於清道光年間，為拓墾組織的指揮中心"
+      - "北埔聚落格局保留清代隘墾制度下形成的防禦性街廓"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Beipu_Old_Street_Hsinchu_County.jpg
+    creator: "Pbdragonwang"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchucounty-beipu-old-street.webp
+    completePath: media/complete/tw-hsinchucounty-beipu-old-street.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

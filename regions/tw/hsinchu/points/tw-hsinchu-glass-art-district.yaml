@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-glass-art-district
+  parentId: null
+  kind: zone
+  title: "玻璃工藝區"
+  summary: "新竹玻璃工藝區聚集了多間工坊、畫廊與玻璃體驗工房，是全台最完整的玻璃產業聚落。遊客可在此觀賞職人吹製玻璃的精湛技藝，也能親手製作屬於自己的玻璃紀念品。"
+  narration: |
+    新竹與玻璃的緣分，起自日治時期引進的工業技術，加上本地石英砂資源與「九降風」帶來的天然烘乾條件，讓這座城市逐漸發展為全台玻璃重鎮。環繞玻璃工藝博物館一帶的玻璃工藝區，集中了工坊、展售廊與吹玻璃體驗工房，整片街區瀰漫著透光、折射與色彩流動的魔幻氛圍。
+    走進任何一間工坊，迎面而來的往往是高溫窯爐散發的熱氣，以及職人手持長鐵管、熟練地旋轉、吹氣、塑形的身影。一團橙紅色的熔融玻璃在幾分鐘內蛻變為花瓶或器皿，過程令人屏息。許多工坊提供付費體驗課程，讓旅客親自吹出一只玻璃杯帶回家。此外，藝廊展出的當代玻璃藝術作品屢屢突破傳統器皿框架，以玻璃為媒材詮釋台灣本土意象，值得細細品賞。每年夏季舉辦的「新竹玻璃藝術節」更會讓整個街區化為光雕劇場，是來訪新竹不可錯過的文化盛事。
+  observationPrompt: "駐足在工坊窗外，觀察師傅把長鐵管伸入窯爐取料，留意熔融玻璃在空中被吹脹時顏色如何從橙紅漸漸轉為半透明——那一刻，千年工藝的溫度就在眼前。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外皆有
+    - id: subject
+      label: 主題
+      tags:
+        - id: art
+          label: 藝術工藝
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費（部分體驗另計費）
+  indoor: false
+  location:
+    latitude: 24.8048
+    longitude: 120.9635
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "新竹玻璃產業具有百年歷史，是台灣特有的地方工藝傳統；玻璃工藝區是該產業的活態展示聚落。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "台灣僅新竹擁有如此規模的玻璃工藝聚落，吹玻璃體驗在台灣其他城市極為罕見。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "工坊職人示範視覺效果強烈，但部分工坊缺乏系統性中英文說明，初訪者需主動詢問。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "兼具觀賞與動手體驗，紀念品獨特性高，適合親子與藝文愛好者；部分體驗工坊需預約。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "資料主要來自新竹市觀光局及玻璃藝術節官網，為一手官方資料。"
+    sources: [src1]
+  final: 3.4  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+1.00+0.60+0.60+0.30 = 3.40 → 3.4
+sources:
+  - id: src1
+    title: "新竹市觀光旅遊網——玻璃工藝"
+    publisher: "新竹市政府觀光處"
+    url: https://tourism.hsinchu.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹玻璃工藝區鄰近玻璃工藝博物館，聚集多間工坊與展售店"
+      - "新竹玻璃藝術節每年夏季舉辦"
+  - id: src2
+    title: "新竹市玻璃工藝博物館 — 維基百科"
+    publisher: "維基百科"
+    url: https://zh.wikipedia.org/wiki/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%8E%BB%E7%92%83%E5%B7%A5%E8%97%9D%E5%8D%9A%E7%89%A9%E9%A4%A8
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹玻璃產業發展史及工藝特色"
+      - "吹玻璃體驗工房提供互動參觀活動"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Glass_Museum_20131005.jpg
+    creator: "Solomon203"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-glass-art-district.webp
+    completePath: media/complete/tw-hsinchu-glass-art-district.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

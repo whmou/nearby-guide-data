@@ -1,0 +1,11 @@
+schemaVersion: 1
+packId: tw-hsinchu-test-placeholder
+version: "0.0.1"
+title: "佔位符內容測試包"
+subtitle: "測試TODO佔位符內容的錯誤"
+region:
+  countryCode: TW
+  countryName: 台灣
+  adminAreaLevel1: 新竹市
+contentLanguage: zh-Hant-TW
+minAppVersionCode: 8

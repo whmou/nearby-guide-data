@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-victory-park
+  parentId: null
+  kind: attraction
+  title: "勝利公園"
+  summary: "勝利公園是緊鄰新竹舊城區的歷史綠地，園內保存日治時期神社的石燈籠與基座遺跡，百年老榕樹氣根垂掛、樹冠遮天，是鬧市中難得的幽靜角落。"
+  narration: |
+    勝利公園坐落在新竹市中心東側，是一座歷史比許多人想像中更深厚的城市公園。日治時期，此地是供奉護國神明的新竹神社所在地，莊嚴的鳥居與石燈籠沿著參道排列，是當時日本官員與民眾的信仰中心。1945年後，神社主殿被改建為忠烈祠，但一些石燈籠的基座與護欄依稀可見，在草叢與樹根之間靜靜述說著歷史更迭的故事。公園最令人印象深刻的是那幾棵樹齡超過百年的老榕樹，粗壯的樹幹需要好幾個人才能合抱，氣根如瀑布般垂落地面，形成一個天然的綠色穹頂，鳥叫聲在其間迴響，隔絕了外面馬路的喧囂。這裡是附近居民早晨打太極、傍晚散步的常去之地，也是旅人可以在城市探索間歇稍作喘息的幽靜場所。
+  observationPrompt: "在公園裡找找看，還有哪些石造構件可能是日治時期神社留下來的痕跡？注意看石燈籠底座的造型。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8062
+    longitude: 120.9668
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "日治時期新竹神社遺址，具有殖民地歷史轉型的文化意義，但保存狀態不完整。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "神社石燈籠遺跡與百年老榕樹共存的景觀在新竹市中獨樹一格，但層次較淺。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "歷史痕跡不易辨識，需要解說引導；老榕樹本身視覺衝擊強，易於理解。"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "鬧中取靜，適合短暫停留休憩，對歷史有興趣者可找出神社遺跡。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有地方文史資料記錄，基本資訊可查。"
+    sources: [src1, src2]
+  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+sources:
+  - id: src1
+    title: "新竹市市定古蹟及歷史建築 - 新竹市文化局"
+    publisher: "新竹市文化局"
+    url: https://www.hcccb.gov.tw/home/zh-tw/historic/view/3
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "勝利公園前身為日治時期新竹神社"
+      - "神社石燈籠基座部分保存至今"
+  - id: src2
+    title: "勝利公園 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/14
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "公園內有百年老榕樹，樹冠遮天"
+      - "為在地居民重要的日常休憩空間"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Victory_Park_Hsinchu_Taiwan.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-victory-park.webp
+    completePath: media/complete/tw-hsinchu-victory-park.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

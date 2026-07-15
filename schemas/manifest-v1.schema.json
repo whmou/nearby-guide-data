@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "manifest-v1",
+  "title": "Manifest v1",
+  "description": "Schema for manifest.json inside a .guidepack ZIP archive.",
+  "type": "object",
+  "required": ["format", "schemaVersion", "packId", "version", "contentLanguage", "minAppVersionCode", "guidePointCount", "files"],
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "type": "string",
+      "enum": ["nearby-guide-pack"]
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [1]
+    },
+    "packId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "contentLanguage": {
+      "type": "string",
+      "minLength": 2
+    },
+    "minAppVersionCode": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "guidePointCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "builtAt": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "bytes", "sha256"],
+        "additionalProperties": false,
+        "properties": {
+          "path": {"type": "string", "minLength": 1},
+          "bytes": {"type": "integer", "minimum": 0},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    }
+  }
+}

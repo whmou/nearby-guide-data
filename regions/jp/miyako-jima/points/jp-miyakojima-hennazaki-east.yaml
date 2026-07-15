@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-hennazaki-east
+  parentId: null
+  kind: view
+  title: "東平安名崎"
+  summary: "宮古島最東端的岬角，細長的珊瑚礁台地向海中延伸約2公里，燈塔矗立其上，三面臨海的壯闊視野是宮古島最震撼的自然景觀之一。"
+  narration: |
+    東平安名崎是宮古島向東最遠伸入海中的細長地岬，整個台地由隆起的珊瑚礁構成，走在岬角步道上，兩側都是碧藍海面，海風強勁，蘇鐵與草地在海風中低伏。岬角末端的平安名崎燈塔建於1967年，白色燈塔在陽光下格外耀眼，可以登塔俯瞰整個岬角的細長輪廓延伸至海平線。這裡幾乎沒有遮蔭，建議早上或傍晚前來，夕陽時分，海面從湛藍轉為橙金，是宮古島公認最美的落日觀賞地點之一。
+  observationPrompt: "站在燈塔旁往北望，能在海面上隱約看到池間島的輪廓嗎？在晴天，更遠處的伊良部島也有機會入鏡。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: walking
+          label: 步行
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.56575
+    longitude: 125.44512
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島指定名勝，珊瑚礁台地地形罕見，燈塔具航行歷史意義，國家特別天然紀念物區域內。"
+    sources: [miyakojima-east-hennazaki-city]
+  distinctiveness:
+    score: 4
+    note: "三面臨海的細長岬角地形獨特，360度海景無可複製，步道沿線景致在沖繩各島中出類拔萃。"
+    sources: [miyakojima-east-hennazaki-city]
+  interpretability:
+    score: 4
+    note: "海岸地形、珊瑚礁台地和燈塔均清晰可見，自然景觀自明，不需說明即能感受震撼。"
+    sources: [miyakojima-east-hennazaki-city]
+  visitorValue:
+    score: 3
+    note: "免費進入，但交通需自駕或計程車，無公共巴士直達，夏季烈日無遮蔭需注意防曬。"
+    sources: [miyakojima-east-hennazaki-city]
+  evidenceQuality:
+    score: 4
+    note: "宮古島市觀光協會及沖縄縣官方觀光資料均有詳盡介紹。"
+    sources: [miyakojima-east-hennazaki-city]
+  final: 3.9
+  # 0.30×4 + 0.25×4 + 0.20×4 + 0.15×3 + 0.10×4 = 1.20+1.00+0.80+0.45+0.40 = 3.85 → 3.9
+sources:
+  - id: miyakojima-east-hennazaki-city
+    title: "東平安名崎 観光スポット"
+    publisher: "宮古島市観光協会"
+    url: https://miyako-guide.net/spot/higashi-hennazaki/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島市指定名勝地"
+      - "細長珊瑚礁台地延伸約2公里"
+      - "平安名崎燈塔建於1967年"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Higashi-Hennazaki_lighthouse.jpg
+    creator: "Hikarih"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-hennazaki-east.webp
+    completePath: media/complete/jp-miyakojima-hennazaki-east.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

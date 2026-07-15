@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-kurima-bridge
+  parentId: null
+  kind: attraction
+  title: "来間大橋"
+  summary: "全長1,690公尺的来間大橋連接宮古島與来間島，橋面兩側視野開闊，可俯瞰宮古藍海水與前浜海灘的壯麗景色。1995年通車，是宮古島具代表性的跨海大橋之一。"
+  narration: |
+    来間大橋是一座全長1,690公尺的跨海大橋，自1995年通車以來一直是宮古島的重要地標。踏上橋面，兩側是一望無際的宮古藍——那是一種介於翡翠綠與鈷藍之間、只有宮古島才有的獨特色調。橋的北側可遠眺被評為日本最美海灘之一的與那霸前浜，海天一色的景致讓人心曠神怡。大橋本身設有步行道，許多旅客選擇在此停車步行，感受海風拂面、橋下波光粼粼的寧靜時光。橋的另一端即是安靜的来間島，等待著您深入探訪。
+  observationPrompt: "站在橋面上，往北望向前浜方向，注意看看海水顏色如何從橋下的深藍漸層變化到淺灘的翡翠綠——能說出幾種不同的藍？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.688500
+    longitude: 125.236200
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1,690公尺長的跨海大橋，1995年通車，宮古島三座知名跨海大橋之一，觀光與交通地標。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "橋面視角可同時欣賞前浜海灘全景與宮古藍海色，景觀組合在宮古島橋梁中獨樹一格。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "橋梁工程與海景並陳，遊客直觀即可感受規模與美感，無需背景知識。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "步行道設施完善，海風與海景體驗佳，免費通行，幾乎所有來宮古島的遊客必經之處。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "Wikipedia與官方觀光資料記載詳盡，史料完整。"
+    sources: [src1]
+  final: 3.9   # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.0+0.8+0.6+0.3 = 3.9
+sources:
+  - id: src1
+    title: "来間大橋 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "来間大橋全長1,690公尺，1995年3月通車"
+      - "橋連接宮古島本島與来間島"
+  - id: src2
+    title: "来間大橋 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄県文化観光スポーツ部"
+    url: https://www.okinawastory.jp/spot/600003
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "橋面步行道可欣賞前浜海灘全景"
+      - "宮古藍海色觀景體驗"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Kurima-Ohashi
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-kurima-bridge.webp
+    completePath: media/complete/jp-miyakojima-kurima-bridge.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

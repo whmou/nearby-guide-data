@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-zhulian-temple
+  parentId: null
+  kind: attraction
+  title: "竹蓮寺"
+  summary: "創建於清乾隆七年（1742年）的觀音廟，是新竹市歷史最悠久的佛寺，也是在地居民的重要精神信仰依歸。"
+  narration: |
+    竹蓮寺安靜地坐落在竹蓮街的街角，與周圍的日常生活氣息融為一體。這座廟宇創建於清乾隆七年（1742年），以觀世音菩薩為主祀神，是新竹地區最早建立的佛教寺廟之一。「竹蓮」之名源自寺前昔日生長的大片竹林與蓮池，這番清幽景色雖已隨都市化而消逝，但廟名將那段記憶留存至今。現存廟體歷經多次重修，三川殿門面的石獅雕刻和交趾陶裝飾精緻細膩，正殿的觀音神像莊嚴慈悲，兩側供奉十八羅漢，氣氛肅穆而不失親和。廟埕是居民日常聚集的場所，清晨有長者在此打太極、傍晚有孩童追逐嬉戲，香火鼎盛而喧囂未至，是感受新竹常民信仰生活最直接的所在。
+  observationPrompt: "在三川殿外牆找找看交趾陶裝飾，辨識幾個傳統故事場景或神話人物，留意色彩與人物姿態的細節。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜態
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.79980
+    longitude: 120.97150
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1742年創建，是新竹市歷史最悠久的佛寺，見證近三百年的在地信仰發展歷程。"
+    sources: [wiki-zhulian-temple]
+  distinctiveness:
+    score: 3
+    note: "觀音廟在台灣數量龐大，竹蓮寺以創建年代之久與在地連結深厚見長，建築裝飾亦頗精緻。"
+    sources: [wiki-zhulian-temple]
+  interpretability:
+    score: 3
+    note: "廟宇格局傳統清晰，交趾陶裝飾可供近距離觀賞，但現場歷史說明資訊尚待充實。"
+    sources: [wiki-zhulian-temple]
+  visitorValue:
+    score: 3
+    note: "免費參觀，廟埕生活氣息真實，與附近南門一帶古蹟可串聯步行，適合歷史文化類旅人。"
+    sources: [wiki-zhulian-temple]
+  evidenceQuality:
+    score: 3
+    note: "維基百科條目提供創建年代與主祀資訊，地方文史研究有記載，但深度學術文獻有限。"
+    sources: [wiki-zhulian-temple]
+  final: 3.3
+  # 0.30×4 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+0.75+0.60+0.45+0.30 = 3.30
+sources:
+  - id: wiki-zhulian-temple
+    title: "竹蓮寺 — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/竹蓮寺
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "創建於清乾隆七年（1742年），主祀觀世音菩薩"
+      - "新竹市歷史最悠久的佛教寺廟"
+      - "廟名源自寺前昔日竹林與蓮池景觀"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Zhulian_Temple_Hsinchu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-zhulian-temple.webp
+    completePath: media/complete/tw-hsinchu-zhulian-temple.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

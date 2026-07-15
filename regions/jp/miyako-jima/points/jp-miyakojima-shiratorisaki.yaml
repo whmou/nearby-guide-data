@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-shiratorisaki
+  parentId: jp-miyakojima-irabu-island
+  kind: attraction
+  title: "白鳥崎"
+  summary: "白鳥崎是伊良部島最北端的海岬，設有白色燈塔一座，站在岬角可將東海與宮古海峽的遼闊海景盡收眼底，是島上少有的360度環繞視野展望地點。"
+  narration: |
+    沿著伊良部島北岸蜿蜒的道路一路行駛，在道路的盡頭，白鳥崎的白色燈塔會先出現在海天之際。這座燈塔矮矮的，造型樸實，卻在碧海藍天的映襯下顯得格外醒目。
+
+    岬角的地形是珊瑚礁隆起形成的石灰岩台地，表面覆著低矮的海濱植被，偶爾有白腹秧雞或紅燕鷗在附近的灌叢間穿梭。站在最前端的觀景點，左手邊是東海的無盡海面，右手邊可看到宮古海峽的洋流翻湧，在晴天中，兩片海水的顏色有時呈現出微妙的差異。
+
+    這裡距離佐良濱漁港很近，若時機合適，或許能看到漁船從岬角邊駛過、揚著浪花朝更遠的海域出發。燈塔本身不對外開放，但燈塔旁有一小塊平整草地，是午餐野餐或靜靜發呆的好去處。
+  observationPrompt: "站在岬角尖端，留意左右兩側海水的顏色是否有差異——試著判斷哪一側是東海、哪一側是宮古海峽。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8692
+    longitude: 125.1582
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "伊良部島最北端地標，具備地理位置象徵意義，但整體知名度屬地區性"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "白色燈塔加岬角景觀組合具一定辨識度，但在沖縄並非獨特類型"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "海景與燈塔直觀易賞，若補充航行史則解說潛力可提升"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "免費入場，視野開闊，適合環島路線中途停靠，停留時間約15分鐘"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方觀光資訊及地圖資料支持座標與描述"
+    sources: [src1, src2]
+  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.9+0.75+0.6+0.45+0.3 = 3.0
+sources:
+  - id: src1
+    title: "白鳥崎灯台 - 日本燈台データベース"
+    publisher: "海上保安庁"
+    url: https://www6.kaiho.mlit.go.jp/miyakojima/lighthouse/shiraotori.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "白鳥崎燈塔位於伊良部島北端，為航行安全設置的運作中燈塔"
+  - id: src2
+    title: "伊良部島ドライブマップ - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/shiratori-zaki/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "白鳥崎是伊良部島環島自駕路線的北端景點"
+      - "可在此眺望東海與宮古海峽的海景"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Shiratorisaki_Cape_Irabu_Island_Miyako.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-shiratorisaki.webp
+    completePath: media/complete/jp-miyakojima-shiratorisaki.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

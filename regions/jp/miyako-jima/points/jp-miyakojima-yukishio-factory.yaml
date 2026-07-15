@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-yukishio-factory
+  parentId: null
+  kind: attraction
+  title: "雪塩製塩所"
+  summary: "雪塩製塩所利用宮古島獨特的珊瑚礁石灰岩地層過濾海水，生產出世界最高礦物質含量的天然海鹽之一，工廠導覽搭配試吃體驗已成為宮古島最受歡迎的觀光工廠。"
+  narration: |
+    宮古島西北角的西平安名崎附近，有一座外觀樸實卻在日本全國享有盛名的製鹽工廠——雪塩製塩所。雪塩之所以特別，關鍵在於宮古島的地質構造：整座島嶼由珊瑚礁石灰岩構成，海水在滲入地下後，需要經過天然石灰岩的過濾與礦化，才被抽取出來進行製鹽。這道大自然的過濾工序，讓雪塩富含鈣、鎂、鉀等二十幾種天然礦物質，曾獲金氏世界紀錄認定為「礦物質種類最多的鹽」。
+
+    工廠開放參觀，導覽人員會詳細說明從取水到噴霧乾燥成鹽粉的整個過程。製成的雪塩質地極為細緻，如同白色粉末，入口後礦物質的甘甜會緩緩在舌尖散開。參觀完畢後，附設的賣店販售各種雪塩相關產品，從調味鹽、雪塩冰淇淋到雪塩護膚品，種類琳琅，是宮古島最受旅客青睞的伴手禮品項之一。
+
+    工廠外的草坪廣場可以眺望宮古海峽，天氣晴朗時視野開闊，是稍作休憩的好地方。
+  observationPrompt: "在工廠的製程展示區，注意觀察製鹽的最後一道步驟——雪塩是以噴霧乾燥法製成極細粉末，請留意展示板上說明的噴霧溫度或製成粒徑，並在試吃時感受它比一般顆粒鹽溶解得更快的口感差異。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: engineering
+          label: 工藝
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 收費
+  indoor: false
+  location:
+    latitude: 24.8685
+    longitude: 125.2400
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "曾獲金氏世界紀錄認定，以宮古島珊瑚石灰岩地質為核心賣點，是宮古島最具知名度的特產品牌之一"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 5
+    note: "石灰岩過濾製程和粉末狀成品在全球製鹽產業中極為罕見；金氏紀錄加持使其在眾多觀光工廠中脫穎而出"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "導覽說明清晰，試吃環節讓抽象的礦物質概念變得具體可感；參觀動線流暢"
+    sources: [src1]
+  visitorValue:
+    score: 5
+    note: "導覽免費或費用低廉、伴手禮多樣、雪塩冰淇淋廣受好評，幾乎所有類型訪客都能獲得滿足"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方網站及多家媒體報導，金氏世界紀錄資訊可查核"
+    sources: [src1, src2]
+  final: 4.3   # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*5 + 0.10*3 = 1.20+1.25+0.80+0.75+0.30 = 4.30
+sources:
+  - id: src1
+    title: "雪塩公式サイト - パラダイスプラン"
+    publisher: "株式会社パラダイスプラン"
+    url: https://www.yukishio.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "雪塩的製程說明及石灰岩過濾原理"
+      - "金氏世界紀錄礦物質種類最多的認定事實"
+      - "工廠地點及導覽資訊"
+  - id: src2
+    title: "雪塩 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E9%9B%AA%E5%A1%A9
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "雪塩品牌歷史及在宮古島的地位"
+      - "礦物質含量及產品特色"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Yukishio
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-yukishio-factory.webp
+    completePath: media/complete/jp-miyakojima-yukishio-factory.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

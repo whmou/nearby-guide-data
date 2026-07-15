@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-matsu-temple
+  parentId: null
+  kind: attraction
+  title: "新竹天后宮"
+  summary: "新竹天后宮供奉海神媽祖，見證了竹塹港昔日的漁業與海運繁景，是新竹沿海移民信仰的精神寄託。"
+  narration: |
+    新竹天后宮的歷史可追溯至清代，當年來自閩粵的移民乘船橫渡台灣海峽，在驚濤駭浪中虔誠祈求媽祖庇佑，平安抵埠後便在竹塹港附近建廟酬謝神恩。廟宇主殿供奉黑面媽祖金身，神情莊嚴慈悲，兩側千里眼與順風耳護法塑像栩栩如生。廟前埕廣場保留了傳統斗拱木構出簷，廊柱間的泥塑故事板描繪媽祖救難護航的種種神蹟。每年農曆三月媽祖誕辰遶境，各地信眾湧入，鑾轎過境時家家戶戶燃放鞭炮、焚香膜拜，場面震撼人心。
+  observationPrompt: "請留意廟宇正門兩側千里眼與順風耳神像的造型差異，並找找看廟內哪裡記錄了媽祖護船救難的傳說故事。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8052
+    longitude: 120.9688
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "連結竹塹港移民史與海洋信仰，是新竹海洋文化記憶的重要載體。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "媽祖廟台灣各地皆有，但此廟與新竹港口移墾史的連結賦予其在地獨特意義。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "廟宇空間布局與神明配置對一般遊客可理解，但深層移墾史需導覽說明。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費參觀，建築工藝精美，位於舊城步行範圍內，可與周邊廟宇串聯遊覽。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "廟方沿革資料與地方文史研究有記載，史料完整度適中。"
+    sources: [src1]
+  final: 3.5  # 0.30×4 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 1.20+0.75+0.60+0.60+0.30 = 3.45 → 3.5
+sources:
+  - id: src1
+    title: "台灣媽祖聯合會——新竹天后宮"
+    publisher: "中華民國台灣媽祖聯合會"
+    url: https://www.matsu.org.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "新竹天后宮主祀媽祖，歷史源於清代移民信仰"
+      - "每年農曆三月舉辦媽祖誕辰遶境活動"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Mazu_temples_in_Taiwan
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-matsu-temple.webp
+    completePath: media/complete/tw-hsinchu-matsu-temple.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-military-village
+  parentId: null
+  kind: attraction
+  title: "眷村博物館"
+  summary: "新竹眷村博物館保存了1949年隨國民政府撤台的外省軍眷所建立的聚落樣貌，以文物、照片與口述歷史記錄這段動盪離散的近代史，是台灣族群融合歷程的重要見證。"
+  narration: |
+    1949年，超過一百萬名軍民隨中華民國政府遷台，落腳在全島各地匆促搭建的眷村之中。新竹作為重要的軍事城市，曾擁有多處眷村聚落；眷村博物館便以其中保存最完整的一處為基礎，重現了那個年代的生活場景。
+    推開館門，映入眼簾的是復原的狹窄巷弄、磚砌矮房與晒衣竹竿。展間內陳列著老照片、行軍水壺、女學生的日記本，以及一封封夾雜著思鄉之情的家書——這些物件的主人，原以為只是暫時離開家鄉，沒想到竟成了永別。館內的口述歷史影像讓老兵與眷村第二代親口訴說：有人在這裡娶妻生子、有人把山東口音的鄉音傳給孫子輩；外省、本省、客家人在狹小巷弄間磨合、通婚，最終共同形塑了今日多元的台灣認同。
+    博物館不試圖美化歷史的傷痛，卻以極大的溫柔保存了每一個家庭的故事。出館前，請停留在中庭的老榕樹下想一想：七十餘年的時光，讓這棵樹從細苗長成樹蔭，也讓流亡者的後代長成了台灣人。
+  observationPrompt: "在展間找一找復原的眷村廚房，看看灶台上擺放的炊具和食材，想想來自四川、山東、江浙各省的主婦，如何在台灣找到本地食材，重現家鄉味道。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行參觀
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需購票
+  indoor: true
+  location:
+    latitude: 24.7958
+    longitude: 120.9768
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "博物館入口位於眷村保存區主要通道旁，請依路旁指示牌前往售票口。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "眷村文化是台灣二十世紀史的重要篇章，保存實體聚落並以博物館形式呈現，具有極高的歷史保存意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "台灣現存眷村博物館數量有限，新竹眷村博物館因軍城歷史背景而更具代表性，在台灣博物館生態中位置獨特。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "口述歷史影片與情境復原展示並重，情感共鳴強，敘事脈絡清晰，適合各世代觀眾。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "對於理解台灣族群多元歷史有不可替代的價值，情感厚度高，離館後長久留有思考餘韻。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料主要來自文化部文化資產局及新竹市文化局，為官方可靠來源。"
+    sources: [src1]
+  final: 3.9  # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.00+0.80+0.60+0.30 = 3.90 → 3.9
+sources:
+  - id: src1
+    title: "文化部文化資產局——眷村文化保存"
+    publisher: "文化部文化資產局"
+    url: https://www.boch.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "1949年隨政府撤台的軍眷在新竹建立多處眷村聚落"
+      - "眷村文化列入文化資產保存範疇"
+  - id: src2
+    title: "新竹市文化局——眷村文化館"
+    publisher: "新竹市政府文化局"
+    url: https://www.hcccb.gov.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "眷村博物館以情境復原與口述歷史呈現外省族群移台的生命經驗"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Juancun_Museum.jpg
+    creator: "Pbdragonwang"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-military-village.webp
+    completePath: media/complete/tw-hsinchu-military-village.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

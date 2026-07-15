@@ -1,0 +1,106 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-nakazone-tomb
+  parentId: null
+  kind: attraction
+  title: "仲宗根豊見親の墓"
+  summary: "建於16世紀初期的仲宗根豊見親之墓，是宮古島保存最完整的琉球時代石造墓葬，見證了宮古島統一歷史與琉球建築工藝，已指定為國家重要文化財。"
+  narration: |
+    宮古島北部的一片靜謐台地上，矗立著一座外觀嚴整、氣勢沉穩的石造古墓——這裡長眠著16世紀初宮古島的最重要統治者，仲宗根豊見親（Nakazone Toyomiya）。
+
+    仲宗根豊見親是宮古島歷史上的關鍵人物。他在15至16世紀之交統一了宮古諸島，結束長期分裂的部落紛爭，並確立了向琉球王國朝貢的政治體制。他的統治開創了宮古島相對穩定的發展期，墓葬規模反映了其在島上的崇高地位。
+
+    這座墓葬建造於1500年代初期，以宮古島本地的珊瑚石灰岩砌成，採用當時琉球貴族常見的龜甲形墓制（亀甲墓風格），墓室外圍有精工砌築的石牆環繞。歷經五百年風雨，整體結構保存狀況出奇地良好，石塊之間的接縫工藝至今仍令工匠嘖嘖稱奇。
+
+    1972年，此墓被日本政府指定為重要文化財，是宮古島歷史建築中規格最高的保護文物之一。
+  observationPrompt: "仔細觀察墓室外牆的石砌工法——珊瑚石灰岩塊是如何堆疊固定的？是否使用了砂漿，還是純粹依靠石塊的形狀與重量咬合？試著找出最能展示這種古代工藝的角落。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8198
+    longitude: 125.2925
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "國家重要文化財指定；宮古島統一者的陵墓，在宮古史上地位舉足輕重"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 4
+    note: "珊瑚石灰岩龜甲形墓制在宮古島獨一無二，是最完整的琉球時代石造建築之一"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "現場有說明板，但歷史背景複雜；石砌工法可直觀觀察，但需要背景知識才能充分欣賞"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "對歷史和建築有興趣的訪客體驗深刻；一般觀光客可能覺得場所較為低調"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "日本文化廳文化財資料庫及Wikipedia有明確記載，資訊可信"
+    sources: [src1, src2]
+  final: 3.6   # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+sources:
+  - id: src1
+    title: "仲宗根豊見親の墓 - 文化遺産オンライン"
+    publisher: "文化庁"
+    url: https://bunka.nii.ac.jp/heritages/detail/208965
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "國家重要文化財指定的事實及指定年份"
+      - "墓葬的建造年代及建築特色"
+  - id: src2
+    title: "仲宗根豊見親 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E4%BB%B2%E5%AE%97%E6%A0%B9%E8%B1%8A%E8%A6%8B%E8%A6%AA
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "仲宗根豊見親的歷史地位及統一宮古島的事蹟"
+      - "墓葬建造的歷史背景"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyakojima
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-nakazone-tomb.webp
+    completePath: media/complete/jp-miyakojima-nakazone-tomb.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

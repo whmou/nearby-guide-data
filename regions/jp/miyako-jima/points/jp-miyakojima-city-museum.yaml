@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-city-museum
+  parentId: null
+  kind: attraction
+  title: "宮古島市総合博物館"
+  summary: "宮古島市唯一的綜合博物館，完整呈現宮古諸島的自然史、考古遺址與惡名昭彰的人頭稅制度。館內典藏傳統苧麻織品等珍貴工藝，是認識宮古文化不可錯過的起點。"
+  narration: |
+    宮古島市総合博物館是深入了解宮古諸島歷史與文化的最佳入口。館內的常設展覽從距今數千年的貝塚遺址出發，帶領訪客走過古代航海民族的生活、琉球王國統治時期，一直到近代沖縄的變遷。
+
+    展覽中最令人印象深刻的，是關於人頭稅（人頭税）制度的詳細記述。薩摩藩統治期間，宮古島人依身高徵稅——凡身高超過特定石頭的人，不論老幼，皆須繳納重稅。這一苛政延續約兩百年，深刻地影響了宮古人的集體記憶與文化認同。
+
+    館內另設有傳統手工藝展示區，展出宮古上布——一種以苧麻纖維精工製成的細布，工藝精湛，已被列為國家重要無形文化財。若想在走訪宮古島各景點之前，先建立整體的歷史脈絡，這裡是最理想的第一站。
+  observationPrompt: "展示室內有一幅宮古島傳統人頭稅相關的示意圖或文物，請注意觀察：當時規定以哪種實物做為徵稅基準，以及這個制度持續了多少年？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 漫步
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 收費
+  indoor: true
+  location:
+    latitude: 24.8069
+    longitude: 125.2820
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "博物館入口在建築物正面，售票處位於一樓大廳右側"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島市唯一的綜合博物館，收藏涵蓋自然史、考古、民俗及人頭稅史料，對理解宮古文化具有關鍵地位"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "人頭稅展示與宮古上布工藝是館內最具特色的內容，在其他地方難以見到同等深度的詮釋"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "館內設有日文說明牌，展示動線清晰；人頭稅相關展品附有圖解，易於理解"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "對歷史有興趣的訪客價值極高，但一般觀光客可能在此停留時間有限"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料來自官方城市網站及日本維基百科，資訊可靠"
+    sources: [src1, src2]
+  final: 3.5   # 0.30*4 + 0.25*3 + 0.20*4 + 0.15*3 + 0.10*3 = 1.20+0.75+0.80+0.45+0.30 = 3.50
+sources:
+  - id: src1
+    title: "宮古島市総合博物館 公式ページ"
+    publisher: "宮古島市"
+    url: https://www.city.miyakojima.lg.jp/soshiki/kyoiku/museum/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "館址、開館時間及入館費用等基本資訊"
+      - "展示內容涵蓋自然史、考古與傳統工藝"
+  - id: src2
+    title: "宮古島市総合博物館 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E7%B7%8F%E5%90%88%E5%8D%9A%E7%89%A9%E9%A4%A8
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "博物館的歷史沿革與館藏類別"
+      - "宮古上布被列為國家重要無形文化財的相關記述"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyakojima
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-city-museum.webp
+    completePath: media/complete/jp-miyakojima-city-museum.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

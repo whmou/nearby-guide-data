@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-ueno-german-village
+  parentId: null
+  kind: attraction
+  title: "ドイツ文化村"
+  summary: "宮古島上巴伐利亞風格的建築群，源自1873年宮古島漁民英勇救助德國遇難船員的真實歷史，以異國風情建築訴說一段跨越文化的人道故事。"
+  narration: |
+    宮古島南部的上野地區，有一片讓人以為誤入歐洲的建築群——中世紀巴伐利亞風格的城堡外牆、尖塔和廣場，在熱帶藍天與棕櫚樹的環繞下顯得格外超現實。這就是ドイツ文化村（Ueno German Culture Village），而它的存在，源於一段150年前發生在宮古島海域的動人故事。
+
+    1873年，一艘名為「ロベルトソン号」的德國商船在宮古島附近遭遇颱風，船員們命懸一線。宮古島漁民不顧自身安危出海搜救，成功將數名德國船員從死亡邊緣拯救回來，並在島上悉心照料長達數月，直至他們平安返國。德意志帝國皇帝威廉一世為表感謝，特地贈送宮古島一艘「博愛号」石碑，此段佳話從此流傳至今。
+
+    文化村以這段歷史為主題建造，園區內除了德式建築外，還有介紹德宮兩地文化的展覽，以及能俯瞰宮古海峽的觀景台。雖然純粹的歐洲建築在熱帶海島上顯得頗為獵奇，但支撐它存在的那個故事，卻是真摯而有溫度的人類記憶。
+  observationPrompt: "在文化村的展覽廳或石碑區，尋找記載1873年救助事件的說明板或博愛號石碑，注意其上記載的德國船名及救助船員的人數——這個具體數字讓當年的事件從抽象歷史變成了真實人命的故事。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 收費
+  indoor: false
+  location:
+    latitude: 24.7285
+    longitude: 125.3028
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1873年救助德國船員的事件是宮古島被全國記憶的重要歷史，文化村是承載這段歷史的唯一主題設施"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 5
+    note: "熱帶海島上的巴伐利亞城堡，加上真實的人道救援歷史背景，在日本全國旅遊景點中獨一無二"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "歷史故事戲劇性強且易於理解；建築視覺衝擊足以激發好奇；展覽說明完整"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "拍照打卡價值高，歷史故事動人，能帶給各年齡層訪客有趣的體驗"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "歷史事件有充分文獻記載；景點資訊來自官方網站及維基百科"
+    sources: [src1, src2]
+  final: 4.2   # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.25+0.80+0.60+0.30 = 4.15 → 4.2
+sources:
+  - id: src1
+    title: "ドイツ文化村 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%A4%E3%83%84%E6%96%87%E5%8C%96%E6%9D%91
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "1873年德國船員遇難事件的詳細始末"
+      - "文化村建立的背景及宮古島與德國的歷史連結"
+  - id: src2
+    title: "ドイツ文化村 公式サイト"
+    publisher: "ドイツ文化村"
+    url: https://www.doitsumura.co.jp/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "園區設施、入場費及開館時間"
+      - "展覽內容及觀景台資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Deutsche_Kulturhof_Miyakojima.jpg
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-ueno-german-village.webp
+    completePath: media/complete/jp-miyakojima-ueno-german-village.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

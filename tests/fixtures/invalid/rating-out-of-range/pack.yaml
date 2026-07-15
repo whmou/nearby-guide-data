@@ -1,0 +1,11 @@
+schemaVersion: 1
+packId: tw-hsinchu-test-rating
+version: "0.0.1"
+title: "評分超出範圍測試包"
+subtitle: "測試評分分數超出0-5範圍的錯誤"
+region:
+  countryCode: TW
+  countryName: 台灣
+  adminAreaLevel1: 新竹市
+contentLanguage: zh-Hant-TW
+minAppVersionCode: 8

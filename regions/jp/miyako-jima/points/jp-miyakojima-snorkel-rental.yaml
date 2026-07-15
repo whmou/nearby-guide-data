@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-snorkel-rental
+  parentId: null
+  kind: venue
+  title: "パイナガマ海水浴場 レンタル拠点"
+  summary: "鄰近宮古島市區的パイナガマ（Painagama）海灘是最方便的市區海灘，海灘沿線設有浮潛裝備與沙灘用品租借站，提供防寒衣、蛙鏡、呼吸管、腳蹼等全套配備，是不攜帶個人器材的訪客進入宮古海域的起跑點。"
+  narration: |
+    パイナガマ海灘距離平良市區僅五分鐘車程，是宮古島最容易步行抵達的海灘之一。雖然透明度和珊瑚多樣性不及宮古南岸的潛水勝地，但它的優勢恰恰在於「便利」——沿著海灘小路就能找到數家租借店，租完裝備走幾步路就能下水，對剛到島上還在摸索的旅客而言是最低門檻的海洋入門選項。
+
+    租借站通常備有兒童尺碼的配備，也有防水相機與漂浮板可租。租用防寒衣在宮古島全年皆宜——夏季防止被珊瑚刮傷及曬傷，秋冬則在水溫下降後提供保暖。店家多能用基礎英語或中文簡單溝通，地圖上也會標示附近水中能見度較佳的珊瑚礁區域，讓初次浮潛的旅客有明確的游向目標。
+  observationPrompt: "觀察租借站展示的蛙鏡尺碼標示——有沒有提供兒童專用尺碼？另外注意看看店家標示的「本日水中能見度」告示板，今天的透明度是幾公尺？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子體驗
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需付費
+  indoor: false
+  location:
+    latitude: 24.8018
+    longitude: 125.2762
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 2
+    note: "裝備租借站為實用型服務設施，本身不具備文化或自然景觀的固有意義，重要性來自地理便利性。"
+    sources: [src1]
+  distinctiveness:
+    score: 2
+    note: "海灘裝備租借是常見的旅遊服務，宮古島各主要海灘均有類似設施，パイナガマ的優勢在於市區近便而非獨特性。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "服務流程直觀，租借站人員能提供基本的浮潛地點建議，實用資訊傳遞效率高。"
+    sources: [src1]
+  visitorValue:
+    score: 5
+    note: "對未攜帶個人裝備的旅客而言是不可或缺的設施；近市區、可步行、多種配備選擇，大幅降低參與海洋活動的門檻。"
+    sources: [src2]
+  evidenceQuality:
+    score: 2
+    note: "資訊主要來自旅遊評論與旅遊網站，缺乏官方或學術佐證。"
+    sources: [src2]
+  final: 2.7  # 0.30*2 + 0.25*2 + 0.20*3 + 0.15*5 + 0.10*2 = 0.60+0.50+0.60+0.75+0.20 = 2.65 → 2.7
+sources:
+  - id: src1
+    title: "パイナガマビーチ - 宮古島観光"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "パイナガマ海灘位於宮古島市區近郊，是交通最便利的市區型海灘"
+      - "海灘沿線設有多家浮潛裝備及沙灘用品租借店"
+  - id: src2
+    title: "宮古島マリンアクティビティ情報"
+    publisher: "じゃらんnet 沖縄・宮古島"
+    url: https://www.jalan.net/kankou/prf47/g4741/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "パイナガマ海灘附近的租借站提供蛙鏡、呼吸管、腳蹼及防寒衣等全套浮潛配備"
+      - "租借費用通常為每套600至1,500日圓，部分店家提供含防水相機的套組"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Painagama_beach_miyakojima.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-snorkel-rental.webp
+    completePath: media/complete/jp-miyakojima-snorkel-rental.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

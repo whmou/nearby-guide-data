@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:BuildBackend"
+
+[project]
+name = "nearby-guide-tools"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "jsonschema>=4.23",
+    "PyYAML>=6.0",
+    "Pillow>=10.4",
+    "strictyaml>=1.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

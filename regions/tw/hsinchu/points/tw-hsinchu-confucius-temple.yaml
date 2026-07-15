@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-confucius-temple
+  parentId: null
+  kind: venue
+  title: "新竹孔廟"
+  summary: "建於清代的孔廟，現存建築為1874年重修後的格局，是新竹地區最重要的文教精神地標，每年教師節舉行傳統祭孔典禮。"
+  narration: |
+    新竹孔廟最早建於清康熙年間，歷經多次遷建與重修，現存格局定於同治十三年（1874年）的重修。廟制遵循傳統儒家禮制，大成殿高踞月台之上，石雕龍柱與紅牆黃瓦透露出莊重的文廟氣息。欞星門前的泮池在晴天倒映著殿頂，水面平靜，讓整個廟院多了幾分書院氣質。每年九月廿八日教師節，清晨的祭孔大典依古禮進行，金聲玉振的雅樂與舞生的六佾之舞是難得一見的無形文化遺產。
+  observationPrompt: "在大成殿前找找泮池邊的石雕——能辨識出欞星門上雕刻的圖案主題嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+        - id: history
+          label: 歷史
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+        - id: limited-hours
+          label: 限時開放
+  indoor: false
+  location:
+    latitude: 24.80124
+    longitude: 120.96588
+  trigger:
+    radiusMeters: 70.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "清代重要文廟，列為縣定古蹟，是新竹地區文教傳承的重要精神象徵，每年祭孔典禮延續傳統禮制。"
+    sources: [hsinchu-confucius-boch]
+  distinctiveness:
+    score: 3
+    note: "台灣各地均有孔廟，新竹孔廟保存完整但相較台南或台北孔廟知名度較低。"
+    sources: [hsinchu-confucius-boch]
+  interpretability:
+    score: 3
+    note: "廟制格局清晰，大成殿及泮池可直接觀賞，但儒家禮制細節需說明輔助。"
+    sources: [hsinchu-confucius-boch]
+  visitorValue:
+    score: 3
+    note: "免費開放，但有固定開放時間，廟內環境幽靜，交通尚可，停車較困難。"
+    sources: [hsinchu-confucius-boch]
+  evidenceQuality:
+    score: 3
+    note: "文化部文化資產局縣定古蹟登錄資料，加上新竹市政府文化局介紹。"
+    sources: [hsinchu-confucius-boch]
+  final: 3.3
+  # 0.30×4 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+0.75+0.60+0.45+0.30 = 3.30
+sources:
+  - id: hsinchu-confucius-boch
+    title: "新竹孔廟文化資產資料"
+    publisher: "文化部文化資產局"
+    url: https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19860428000025
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "最早建於清康熙年間，現存格局為同治十三年（1874年）重修"
+      - "列為縣定古蹟"
+      - "每年教師節舉行傳統祭孔典禮"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Confucius_Temple.jpg
+    creator: "Koika"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-confucius-temple.webp
+    completePath: media/complete/tw-hsinchu-confucius-temple.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

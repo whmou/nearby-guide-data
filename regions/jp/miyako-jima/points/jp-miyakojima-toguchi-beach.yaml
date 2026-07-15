@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-toguchi-beach
+  parentId: jp-miyakojima-irabu-island
+  kind: attraction
+  title: "渡口の浜"
+  summary: "渡口の浜是伊良部島南岸的明星海灘，以潔白細緻的珊瑚沙與湛藍清澈的海水聞名，被譽為沖縄最美海灘之一。海灘兩端矗立的奇岩巨石更為這片風景增添獨特的戲劇張力。"
+  narration: |
+    踏上渡口の浜，腳底立刻感受到那份與眾不同的細膩——沙粒由珊瑚礁碎粒組成，白得幾乎透明，走在上面幾乎不留腳印。眼前延展出約800公尺長的弧形海灣，海水由淺灘的翡翠綠漸層過渡為遠端的深鈷藍，色彩分明如同水彩畫。
+
+    海灘東西兩側各有幾塊巨大的石灰岩礁石突出沙地，在退潮時尤為壯觀。這些礁石是珊瑚礁地形隆起後受風化侵蝕而成，歷經千萬年才雕塑出今日的輪廓。若在上午光線斜射時分前來，礁石與沙灘的光影對比最為迷人，是攝影師最愛的時段。
+
+    海灘設有簡單的停車場與廁所設施，夏季有時會設置臨時的海灘小屋提供飲料與浮潛用具租借，但整體氛圍依然保持原始寧靜。與沖縄本島的熱鬧海水浴場相比，這裡像是被時間遺忘的天堂角落。
+  observationPrompt: "仔細看海灘兩端的巨岩表面，你能找到貝殼或珊瑚化石嵌在岩石裡的痕跡嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8165
+    longitude: 125.1352
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "被多家旅遊媒體列為沖縄乃至日本最美海灘之一，具有高度全國知名度"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "珊瑚白沙與礁岩組合的景觀在宮古群島中獨樹一幟"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "海灘景觀直觀易賞，但珊瑚礁地形成因需額外解說才能深化體驗"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "免費入場、景色絕美、適合游泳浮潛，是伊良部島首選景點"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方觀光網站及旅遊評比資料佐證"
+    sources: [src1, src2]
+  final: 3.9  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 1.2+1.0+0.6+0.75+0.3 = 3.85 → 3.9
+sources:
+  - id: src1
+    title: "渡口の浜 - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/toguchi-no-hama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "渡口の浜以潔白珊瑚沙與清澈海水著稱，是伊良部島代表性海灘"
+      - "海灘全長約800公尺，設有停車場"
+  - id: src2
+    title: "沖縄の美しいビーチランキング - Visit Okinawa"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://visitokinawa.jp/information/toguchi-no-hama/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "渡口の浜被列為沖縄最美海灘之一"
+      - "兩端的礁岩是吸引攝影愛好者的標誌性景觀"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Toguchi_no_Hama_Beach_Irabu_Island.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-toguchi-beach.webp
+    completePath: media/complete/jp-miyakojima-toguchi-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

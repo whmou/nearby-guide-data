@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-city-art-museum
+  parentId: null
+  kind: venue
+  title: "新竹市美術館"
+  summary: "座落於1936年日治時期菸酒公賣局舊廳舍的市立美術館，以歷史建築空間承載當代藝術展覽，是新竹文化地景的重要一環。"
+  narration: |
+    這棟米白色洗石子建築原為昭和十一年（1936年）建造的台灣總督府專賣局新竹支局，當年是管理菸草與酒類專賣事務的官署，戰後幾經轉型，2001年修復後開館成為新竹市美術館。建築外觀採用當時流行的現代主義簡化古典風格，水平腰線與垂直壁柱交織，入口門廊保留原始弧形雨庇，細部比例沉穩而典雅。走入館內，挑高的展覽廳延續了官署建築寬闊肅穆的空間感，成為當代藝術作品的絕佳背景。美術館定期更換展覽，涵蓋本地藝術家個展、台灣當代藝術群展及國際交流展，館外小廣場也不時設有裝置藝術，讓來訪者在感受老建築歷史厚度的同時，也能接觸最新的藝術創作能量。
+  observationPrompt: "請觀察建築正立面，找找看入口門廊的弧形雨庇與兩側壁柱之間，有沒有隱藏在簷角的裝飾細節？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: art
+          label: 藝術
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜態
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 售票
+  indoor: true
+  location:
+    latitude: 24.80280
+    longitude: 120.96880
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "主入口位於中正路與勝利路交叉口旁，面向中正路，有弧形雨庇的白色建築即是。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具地方文化意義的市立美術館，建築本身為日治時期公共設施，但知名度以市域為主。"
+    sources: [wiki-hsinchu-art-museum]
+  distinctiveness:
+    score: 3
+    note: "以日治官署建築改建為藝術空間的案例在台灣不算罕見，但空間氛圍仍具吸引力。"
+    sources: [wiki-hsinchu-art-museum]
+  interpretability:
+    score: 4
+    note: "館內有展覽說明，建築歷史說明牌清楚，導覽動線規劃合理，易於自助參觀。"
+    sources: [wiki-hsinchu-art-museum]
+  visitorValue:
+    score: 3
+    note: "票價低廉，展覽品質穩定，但展覽內容依檔期而異，事先查閱較為理想。"
+    sources: [wiki-hsinchu-art-museum]
+  evidenceQuality:
+    score: 3
+    note: "維基百科條目提供基本資料，官方網站有詳細展期資訊，整體文獻尚屬充分。"
+    sources: [wiki-hsinchu-art-museum]
+  final: 3.2
+  # 0.30×3 + 0.25×3 + 0.20×4 + 0.15×3 + 0.10×3 = 0.90+0.75+0.80+0.45+0.30 = 3.20
+sources:
+  - id: wiki-hsinchu-art-museum
+    title: "新竹市美術館 — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/新竹市美術館
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "建築建於1936年，原為台灣總督府專賣局新竹支局"
+      - "2001年修復後改設為新竹市美術館"
+      - "定期舉辦當代藝術展覽"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_Art_Museum.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-city-art-museum.webp
+    completePath: media/complete/tw-hsinchu-city-art-museum.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

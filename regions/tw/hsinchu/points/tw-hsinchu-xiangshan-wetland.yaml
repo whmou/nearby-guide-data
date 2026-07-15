@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-xiangshan-wetland
+  parentId: null
+  kind: attraction
+  title: "香山濕地"
+  summary: "香山濕地是台灣西海岸重要的潮間帶生態系，豐富的泥灘地孕育大量彈塗魚、招潮蟹與候鳥，木棧道讓遊客得以深入濕地核心觀察野生生態。"
+  narration: |
+    香山濕地沿著新竹市西南側海岸線延伸，是台灣西部沿海面積最大、保存最完整的泥質潮間帶濕地之一，在國際上被列為重要野鳥棲地。退潮時，一望無際的灰褐色泥灘攤露在海風之下，仔細觀察，你會發現泥面上盡是生命的痕跡：用一隻螯爪舞動求偶的招潮蟹在泥地上疾行，能用胸鰭「行走」的彈塗魚在水坑間跳躍，偶爾一隻蒼鷺靜靜立在淺水中等待獵物。每年冬春之際，數萬隻候鳥在此停棲補充體力，其中包括瀕危的黑面琵鷺和各種鷸科候鳥，讓這片泥灘成為賞鳥人的朝聖之地。政府沿著泥灘建設了一條全長約兩公里的木棧道，讓遊客可以安全地深入濕地邊緣，在不打擾生態的前提下近距離欣賞這片生機盎然的海岸自然教室。
+  observationPrompt: "在木棧道旁的泥灘上，你能看見招潮蟹揮舞著不對稱大螯的身影嗎？退潮時泥面上留著哪些動物行走的痕跡？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.7618
+    longitude: 120.8958
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "國際重要野鳥棲地（IBA），台灣西海岸面積最大的泥質潮間帶之一，生態保育價值極高。"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 4
+    note: "彈塗魚、招潮蟹、黑面琵鷺等明星物種在此共存，生態奇觀在全台海岸線中具高度辨識性。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "木棧道提供親近生態的平台，但現場解說牌資訊密度一般，需搭配導覽。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "退潮時生態壯觀，候鳥季更是難得，適合賞鳥、生態觀察與親子自然教育。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有維基百科條目與官方生態調查資料，資料可信。"
+    sources: [src1, src2]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: src1
+    title: "香山濕地 - 維基百科"
+    publisher: "Wikipedia"
+    url: https://zh.wikipedia.org/wiki/%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "香山濕地為台灣重要的潮間帶生態系統"
+      - "棲息有彈塗魚、招潮蟹及大量候鳥"
+      - "被列為國際重要野鳥棲地"
+  - id: src2
+    title: "香山濕地生態旅遊 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/12
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "設有全長約兩公里的木棧道"
+      - "冬春候鳥季可觀察黑面琵鷺等珍稀鳥類"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Xiangshan_Wetland_Hsinchu_Taiwan.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-xiangshan-wetland.webp
+    completePath: media/complete/tw-hsinchu-xiangshan-wetland.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

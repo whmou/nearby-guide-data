@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-qingcao-lake
+  parentId: null
+  kind: attraction
+  title: "青草湖"
+  summary: "青草湖是新竹市東郊山麓間的一座風光明媚水庫湖泊，湖岸設有步道與涼亭，遊客可租借腳踏船體驗湖上悠閒時光。"
+  narration: |
+    青草湖靜靜地躺在新竹市東側的淺山丘陵之中，四周林木蓊鬱，湖面水色在不同天候下變換著深淺不一的青綠與銀灰。這座水庫最早建於日治時期，原本作為農業灌溉之用，如今已成為新竹市民假日出遊的經典去處。湖邊規劃了一條平緩的環湖步道，沿途設有木造涼亭供遊客休憩，不時可見白鷺鷥在淺水處覓食。湖面上有人力腳踏船和划船出租，乘船緩行湖心，遠山倒影清晰可見，別有一番寧靜意境。湖畔附近的「靈隱寺」是香火鼎盛的佛教寺廟，每逢假日香客絡繹不絕，為這片山水風光增添了濃厚的人文氣息。傍晚時分，落日餘暉映照水面，是難得一見的城郊山水美景。
+  observationPrompt: "站在湖岸邊，你能在湖面找到白鷺鷥的倒影，或看見牠們低飛掠過水面嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.7858
+    longitude: 121.0042
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "新竹市郊知名湖泊，是在地人熟悉的假日休閒地點，但區域知名度不如主要景點。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "山中水庫湖泊景觀，結合划船與寺廟文化，具一定特色但台灣類似湖泊不少。"
+    sources: [src1, src2]
+  interpretability:
+    score: 3
+    note: "湖泊步道直觀易遊，但水庫建造歷史與生態缺乏深度解說。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "環境幽靜、步道平緩，親子與銀髮族皆宜，但設施規模有限。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有官方旅遊資料與維基百科條目，基本資訊完整。"
+    sources: [src1, src2]
+  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+sources:
+  - id: src1
+    title: "青草湖 - 維基百科"
+    publisher: "Wikipedia"
+    url: https://zh.wikipedia.org/wiki/%E9%9D%92%E8%8D%89%E6%B9%96
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "青草湖位於新竹市東郊，原為灌溉水庫"
+      - "湖畔有靈隱寺等宗教場所"
+  - id: src2
+    title: "青草湖風景區 - 新竹市政府觀光旅遊網"
+    publisher: "新竹市政府"
+    url: https://tourism.hccg.gov.tw/home/zh-tw/scenicspot/view/3
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "設有環湖步道，可租借腳踏船"
+      - "免費入場，腳踏船另計費"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Qingcao_Lake_Hsinchu.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-qingcao-lake.webp
+    completePath: media/complete/tw-hsinchu-qingcao-lake.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

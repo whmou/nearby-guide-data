@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-tropical-botanical-garden
+  parentId: null
+  kind: attraction
+  title: "宮古島市熱帯植物園"
+  summary: "宮古島市熱帶植物園收集超過一千種熱帶植物，是宮古島市區少見的綠色休憩空間，適合親子同遊與靜態漫步。"
+  narration: |
+    宮古島市熱帶植物園坐落於市區邊緣的緩丘地帶，園內廣植來自世界各地的熱帶植物，包含巨大的橡膠樹、色彩奪目的熱帶花卉、以及各類棕櫚科植物，超過一千種之多。這裡對市民與遊客免費開放，平日人潮不多，是旅途中難得可以放鬆腳步、感受綠意的場所。園區設有步道，繞行一圈約需三十分鐘。遊客有時能在林蔭下遇見宮古島特有的野鳥，或在角落發現外形奇特的熱帶果樹。相較於島上以海景為主的觀光點，這裡提供截然不同的陸地生態視角，是認識宮古島植被多樣性的好機會。
+  observationPrompt: "在園內找找看有沒有結果實的熱帶植物，你能認出果實的種類嗎？留意樹幹的紋路與葉片的形狀，和台灣常見的熱帶植物有什麼不同？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.813500
+    longitude: 125.294500
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島市區重要的公共綠地，收藏千種以上熱帶植物，具地方文化與教育意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "熱帶植物園在沖縄離島中並不罕見，但宮古島市內提供此類陸地自然體驗的場所相對稀少。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "植物標示牌齊全，園區設計易於自導覽，適合各年齡層旅客理解。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "免費入場，適合家庭或需要海灘以外選擇的旅客，但吸引力不及海洋景點強烈。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有宮古島市政府官方網頁記錄，資訊基礎可靠。"
+    sources: [src1]
+  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*4 + 0.15*3 + 0.10*3 = 0.90+0.75+0.80+0.45+0.30 = 3.20
+sources:
+  - id: src1
+    title: "宮古島市熱帯植物園｜宮古島市公式サイト"
+    publisher: "宮古島市"
+    url: https://www.city.miyakojima.lg.jp/kanko/spot/tropical_garden.html
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島市熱帶植物園收集超過一千種熱帶植物，免費對外開放"
+      - "位於宮古島市區邊緣，設有散步步道"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_Tropical_Botanical_Garden.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-tropical-botanical-garden.webp
+    completePath: media/complete/jp-miyakojima-tropical-botanical-garden.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

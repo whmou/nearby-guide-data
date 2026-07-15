@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-shimajiri-beach
+  parentId: null
+  kind: attraction
+  title: "前浜東岸"
+  summary: "前浜海灘東段是與那霸前浜7公里長沙灘的較安靜區域，遊客較少，是欣賞宮古島日出的絕佳地點，清晨時分金色光芒映照在宮古藍海面上景色迷人。"
+  narration: |
+    與那霸前浜是日本最美海灘排行榜的常客，但多數遊客只到達靠近停車場的中西段，東岸這一帶反而保留了一分清幽。這裡的沙灘同樣細白如粉，海水同樣清澈見底，卻少了人潮的喧嚷。清晨時分，東方天際逐漸泛紅，陽光從地平線升起的第一道光線便會灑落在這片海面上，海水從墨藍轉為橙金、再化為翠藍，短短半小時之內呈現三種截然不同的色調。這裡也是浮潛的好地方，珊瑚礁緊鄰沙灘外緣，熱帶魚豐富。若想在前浜找到屬於自己的一片靜謐，請往東走。
+  observationPrompt: "觀察東岸沙灘上的沙粒紋路——是否能看到退潮留下的波浪紋？試著找找看沙灘上有沒有貝殼或珊瑚碎片，辨認看看是哪種貝類。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.684200
+    longitude: 125.262000
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "屬於日本最美海灘前浜的一部分，東段以較少人潮與日出景色獨具特色。"
+    sources: [src1]
+  distinctiveness:
+    score: 3
+    note: "前浜各段海灘景色相似，東段的差異化主要在於人潮較少與日出方位優勢。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "純自然海灘景觀，日出時間訊息需額外說明，整體解讀門檻低。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "對攝影愛好者與早起旅客而言是前浜最具價值的區段，日出景色無需費用。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "與那霸前浜整體資料充足，但專門針對東段的文獻較少。"
+    sources: [src1]
+  final: 3.2   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.9+0.75+0.6+0.6+0.3 = 3.15 → 3.2
+sources:
+  - id: src1
+    title: "与那覇前浜 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄県文化観光スポーツ部"
+    url: https://www.okinawastory.jp/spot/600043
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "與那霸前浜全長約7公里，被評為日本最美海灘"
+      - "海水透明度極高，沙粒細白"
+  - id: src2
+    title: "与那覇前浜ビーチ | 宮古島観光ナビ"
+    publisher: "宮古島市観光商工局"
+    url: https://www.miyako-guide.net/spot/spot.php?id=2
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "海灘東段遊客較少，日出景色佳"
+      - "適合浮潛，沙灘外緣有珊瑚礁"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Yonaha_Maehama_Beach
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-shimajiri-beach.webp
+    completePath: media/complete/jp-miyakojima-shimajiri-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,11 @@
+schemaVersion: 1
+packId: tw-hsinchu-test-dup
+version: "0.0.1"
+title: "重複ID測試包"
+subtitle: "測試重複ID錯誤"
+region:
+  countryCode: TW
+  countryName: 台灣
+  adminAreaLevel1: 新竹市
+contentLanguage: zh-Hant-TW
+minAppVersionCode: 8

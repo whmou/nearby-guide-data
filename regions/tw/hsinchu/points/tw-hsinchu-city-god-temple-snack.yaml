@@ -1,0 +1,91 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-city-god-temple-snack
+  parentId: null
+  kind: venue
+  title: "城隍廟口小吃街"
+  summary: "城隍廟前的小吃街是新竹美食的最高殿堂，肉圓、摔麵、貢丸湯與麻糬在此匯聚，是造訪新竹不可錯過的味覺朝聖地。"
+  narration: |
+    踏進新竹城隍廟前的廟口廣場，撲鼻而來的是混合著滷肉、炸物與甜糯米香的複雜氣息。這裡是新竹小吃文化的心臟地帶，從清晨到深夜，攤販與老字號餐廳緊密排列在廟宇兩側的騎樓下，每一家都有數十年甚至百年的歷史。新竹貢丸以手打肉漿製成，咬開時湯汁迸發；蚵仔麵線的麵線軟而不爛，大腸Q彈入味；手工麻糬外皮柔軟，內餡花生香氣濃郁。最有趣的是廟口的摔麵攤，師傅將麵團反覆甩打拉扯至細如絲線，表演性十足。每逢假日午後，廟前廣場人聲鼎沸，食客、信徒與遊客交織，展現了台灣廟口文化最真實的熱鬧面貌。
+  observationPrompt: "請找一攤貢丸湯，觀察老闆用湯匙舀貢丸的動作——傳統手打貢丸的表面紋路與形狀，和超市販售的有什麼不同？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 家庭
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8018
+    longitude: 120.9710
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "城隍廟口是新竹飲食文化的核心象徵，全台知名，是旅遊必訪景點。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "貢丸、蚵仔麵線、手工麻糬等品項集中於廟口，形成全台獨具特色的小吃生態系。"
+    sources: [src1]
+  interpretability:
+    score: 4
+    note: "食物本身即是最直觀的詮釋，攤販製程可現場觀察，文化脈絡易於感受。"
+    sources: [src1]
+  visitorValue:
+    score: 5
+    note: "美食種類豐富、價格親民、全天候開放，是家庭、親友旅遊的高度滿足景點。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "觀光局、美食媒體、在地文史資料均有豐富記載，資料來源多元。"
+    sources: [src1]
+  final: 4.4  # 0.30×5 + 0.25×4 + 0.20×4 + 0.15×5 + 0.10×3 = 1.50+1.00+0.80+0.75+0.30 = 4.35 → 4.4
+sources:
+  - id: src1
+    title: "台灣觀光局——新竹城隍廟口小吃"
+    publisher: "交通部觀光署"
+    url: https://www.taiwan.net.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "城隍廟口為新竹市最著名小吃聚集地，以貢丸、蚵仔麵線、麻糬聞名全台"
+      - "廟口小吃攤歷史悠久，部分店家已傳承三代以上"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_God_Temple_front.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-city-god-temple-snack.webp
+    completePath: media/complete/tw-hsinchu-city-god-temple-snack.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

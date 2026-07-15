@@ -1,0 +1,98 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-moat-park
+  parentId: null
+  kind: attraction
+  title: "護城河親水公園"
+  summary: "環繞新竹舊城區的護城河改建而成的帶狀公園，全長約1.8公里，是市民散步、騎單車的日常生活空間，也是認識新竹舊城輪廓的最佳路線。"
+  narration: |
+    這條護城河開鑿於清代，最初是保護新竹府城的防禦設施。隨著城牆陸續拆除，護城河失去原本的功能，卻在城市更新中被改造成一條綠色廊道。沿岸種植的榕樹與水生植物讓河道常年保持蔭涼，白鷺鷥不時駐足水邊。傍晚時分，這裡是附近居民帶孩子散步、情侶漫步的生活場景——走一圈大約四十分鐘，繞過去便能接到東門城廣場。河面偶爾倒映著老城區的屋頂輪廓，是最平靜的新竹切面。
+  observationPrompt: "沿著護城河步道走，找找水面邊的白鷺鷥停棲點，或水中的睡蓮葉——今天的河面有多清澈？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+        - id: family
+          label: 親子
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80320
+    longitude: 120.96992
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 500.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "清代防禦設施遺跡，改造後成為城市重要的綠帶，具有歷史與都市生態雙重意義。"
+    sources: [hsinchu-city-gov-parks]
+  distinctiveness:
+    score: 3
+    note: "護城河作為歷史遺跡改造的帶狀公園具一定特色，但類似環城綠帶在台灣其他城市也有。"
+    sources: [hsinchu-city-gov-parks]
+  interpretability:
+    score: 3
+    note: "河道景觀一目了然，水鳥與植物可直接觀察，歷史背景需靠說明牌補充。"
+    sources: [hsinchu-city-gov-parks]
+  visitorValue:
+    score: 5
+    note: "全年全天免費開放，路面平整，適合各年齡層，自行車道完善，緊鄰東門城等景點。"
+    sources: [hsinchu-city-gov-parks]
+  evidenceQuality:
+    score: 3
+    note: "新竹市政府公園管理處官方介紹，有清晰的路線與設施說明。"
+    sources: [hsinchu-city-gov-parks]
+  final: 3.3
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×5 + 0.10×3 = 0.90+0.75+0.60+0.75+0.30 = 3.30
+sources:
+  - id: hsinchu-city-gov-parks
+    title: "護城河親水公園介紹"
+    publisher: "新竹市政府建設處"
+    url: https://www.hccg.gov.tw/ch/home.jsp?id=197&parentpath=0,6,195
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "護城河全長約1.8公里，清代開鑿作為防禦設施"
+      - "現為市民親水綠帶，設有步道與自行車道"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_moat_park.jpg
+    creator: "Pbdragonwang"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-moat-park.webp
+    completePath: media/complete/tw-hsinchu-moat-park.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

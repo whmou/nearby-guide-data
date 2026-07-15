@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-catholic-church
+  parentId: null
+  kind: attraction
+  title: "新竹天主堂（聖若瑟主教座堂）"
+  summary: "建於1950年代的哥德式風格主教座堂，是台灣西部天主教社群的重要信仰中心，高聳的雙塔鐘樓是新竹市天際線的獨特座標。"
+  narration: |
+    走近新竹天主堂，兩座對稱的石灰色鐘樓在藍天下顯得格外莊嚴。這座聖若瑟主教座堂建於1950年代，以哥德復興風格為藍本，尖拱窗、玫瑰花窗與飛扶壁等元素呼應了歐洲中世紀大教堂的氣勢，卻在比例上因地制宜，融入了台灣的在地材料與工藝，形成一種帶有亞熱帶質感的哥德式詮釋。推開沉重的木門走入中殿，肋骨拱頂在頭頂展開，彩色玻璃花窗將日光濾成琥珀、寶藍與深紅，灑落在石板地面上。教堂側廊設有若干精緻的聖像龕，宗教藝術品與建築本身相輔相成。作為新竹教區主教座堂，這裡不僅是彌撒舉行之所，也是每年重要天主教節日的慶典中心，歡迎訪客在彌撒時段以外入內靜觀感受。
+  observationPrompt: "抬頭觀察中殿的彩色玻璃花窗，辨識看看各窗描繪的是哪位聖人或聖經場景，並注意光線在不同時段的色彩變化。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜態
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80350
+    longitude: 120.97020
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "新竹教區主教座堂，在台灣天主教歷史脈絡中具地方重要性，建築風格在新竹市中獨樹一格。"
+    sources: [wiki-hsinchu-catholic]
+  distinctiveness:
+    score: 3
+    note: "哥德式雙鐘塔立面在新竹市中極為醒目，但台灣類似的教堂建築亦有數座，獨特性屬區域層級。"
+    sources: [wiki-hsinchu-catholic]
+  interpretability:
+    score: 3
+    note: "建築外觀清晰表達哥德風格，彩色花窗可供解讀，但缺乏完善的現場歷史說明牌。"
+    sources: [wiki-hsinchu-catholic]
+  visitorValue:
+    score: 3
+    note: "入內免費，彌撒時段外可靜靜參觀，空間氛圍沉靜，適合喜好宗教建築的訪客。"
+    sources: [wiki-hsinchu-catholic]
+  evidenceQuality:
+    score: 2
+    note: "官方教區資料有限，維基百科條目較為簡略，史料文獻不易取得。"
+    sources: [wiki-hsinchu-catholic]
+  final: 2.9
+  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×2 = 0.90+0.75+0.60+0.45+0.20 = 2.90
+sources:
+  - id: wiki-hsinchu-catholic
+    title: "聖若瑟主教座堂 (新竹) — 維基百科"
+    publisher: "維基媒體基金會"
+    url: https://zh.wikipedia.org/wiki/聖若瑟主教座堂_(新竹)
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "建於1950年代，採哥德復興式建築風格"
+      - "為天主教新竹教區主教座堂"
+      - "雙塔鐘樓立面為新竹市著名地標"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Cathedral.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-catholic-church.webp
+    completePath: media/complete/tw-hsinchu-catholic-church.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

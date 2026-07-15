@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-glass-museum
+  parentId: null
+  kind: venue
+  title: "新竹市立玻璃工藝博物館"
+  summary: "全台唯一以玻璃工藝為主題的博物館，館舍本身為1936年落成的日治時期官舍建築，收藏台灣及國際玻璃藝術精品。"
+  narration: |
+    新竹的玻璃產業有超過百年歷史，最盛時期全球聖誕燈泡有八成以上出自這裡。這座博物館選址在新竹公園旁一棟1936年的日治官舍，木構桁架與和式外廊保存完好，成為玻璃藝術作品最溫潤的容器。常設展廳展示從坩堝吹製到精密光學玻璃的各種工藝，陽光穿透展品時折射出的色彩讓整個空間流動起來。館外廣場有幾件大型玻璃公共藝術，在陰天也依然亮眼。
+  observationPrompt: "在常設展廳找一件吹製玻璃器——仔細看它的壁面，能看出師傅吹製時旋轉留下的螺旋紋嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外混合
+    - id: subject
+      label: 主題
+      tags:
+        - id: art
+          label: 藝術
+        - id: history
+          label: 歷史
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: family
+          label: 親子
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 需購票
+        - id: limited-hours
+          label: 限時開放
+  indoor: true
+  location:
+    latitude: 24.80406
+    longitude: 120.97252
+  trigger:
+    radiusMeters: 60.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+  locationHint: "博物館入口位於東大路一段2號，新竹公園南側。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "全台唯一玻璃工藝主題博物館，呈現新竹玻璃百年產業史及工藝文化，具高度在地特殊性。"
+    sources: [glass-museum-official]
+  distinctiveness:
+    score: 4
+    note: "玻璃工藝是新竹特有的產業遺產，館舍的日治建築與玻璃藝術結合形成獨特氛圍。"
+    sources: [glass-museum-official]
+  interpretability:
+    score: 4
+    note: "展品有詳細說明，工藝製程展示直觀，玻璃的透光性讓展品本身即具觀察趣味。"
+    sources: [glass-museum-official]
+  visitorValue:
+    score: 3
+    note: "需購門票，開放時間為週二至週日09:00-17:00，週一休館；票價合理，展覽品質穩定。"
+    sources: [glass-museum-official]
+  evidenceQuality:
+    score: 4
+    note: "博物館官方網站提供完整展覽資訊，市政府文化局維護，資料可靠。"
+    sources: [glass-museum-official]
+  final: 3.9
+  # 0.30×4 + 0.25×4 + 0.20×4 + 0.15×3 + 0.10×4 = 1.20+1.00+0.80+0.45+0.40 = 3.85 → 3.9
+sources:
+  - id: glass-museum-official
+    title: "新竹市立玻璃工藝博物館官方網站"
+    publisher: "新竹市文化局"
+    url: https://www.glass.org.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "全台唯一玻璃工藝主題博物館"
+      - "館舍為1936年日治時期建築"
+      - "新竹玻璃產業百年歷史介紹"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Glass_Museum_Hsinchu.jpg
+    creator: "Solomon203"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-glass-museum.webp
+    completePath: media/complete/tw-hsinchu-glass-museum.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-city-god-temple
+  parentId: null
+  kind: venue
+  title: "新竹都城隍廟"
+  summary: "建於1748年的清代廟宇，供奉官封「晉封台灣府城隍爺威靈公」，是全台地位最高的城隍廟之一，廟口小吃聞名全島。"
+  narration: |
+    新竹都城隍廟建於清乾隆十三年（1748年），歷經多次重修，三川殿上高懸的大算盤是廟中最廣為人知的象徵——算盤告誡世人，善惡因果分毫不差，無一遺漏。廟內斗拱、彩繪、交趾陶和剪黏裝飾工藝精湛，抬頭細看，每個角落都有民間師傅留下的故事。每年農曆七月的城隍爺出巡繞境是台灣規模最大的宗教慶典之一，萬人空巷。廟前廣場延伸出去的廟口商圈，米粉、貢丸、潤餅是在地人早餐與宵夜的共同記憶。
+  observationPrompt: "抬頭找找三川殿梁上懸掛的大算盤——算盤上每顆珠子代表什麼意思？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+        - id: history
+          label: 歷史
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: true
+  location:
+    latitude: 24.80165
+    longitude: 120.97085
+  trigger:
+    radiusMeters: 60.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+  locationHint: "入口正門位於中山路109號，廟埕廣場正面。"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "全台地位最崇高的城隍廟之一，清代即獲官方敕封，農曆七月繞境為全台最重要宗教盛事之一。"
+    sources: [hsinchu-city-god-official]
+  distinctiveness:
+    score: 4
+    note: "廟中大算盤裝置獨特，廟口小吃文化與廟宇融為一體，兼具宗教與飲食文化雙重吸引力。"
+    sources: [hsinchu-city-god-official]
+  interpretability:
+    score: 4
+    note: "廟內裝飾豐富可觀，大算盤標誌性強，現場說明豐富，一般遊客能快速理解核心象徵。"
+    sources: [hsinchu-city-god-official]
+  visitorValue:
+    score: 4
+    note: "全年免費開放，位於市中心步行圈，周邊小吃可延長停留時間，大眾運輸可達。"
+    sources: [hsinchu-city-god-official]
+  evidenceQuality:
+    score: 4
+    note: "廟方官網、文化部文化資產局資料及多份學術論文均有記載。"
+    sources: [hsinchu-city-god-official]
+  final: 4.3
+  # 0.30×5 + 0.25×4 + 0.20×4 + 0.15×4 + 0.10×4 = 1.50+1.00+0.80+0.60+0.40 = 4.30
+sources:
+  - id: hsinchu-city-god-official
+    title: "新竹都城隍廟官方網站"
+    publisher: "新竹都城隍廟管理委員會"
+    url: https://www.weiling.org.tw/
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "建廟年代清乾隆十三年（1748年）"
+      - "官封台灣府城隍爺威靈公"
+      - "廟中大算盤象徵善惡有報"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_God_Temple.jpg
+    creator: "Solomon203"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-city-god-temple.webp
+    completePath: media/complete/tw-hsinchu-city-god-temple.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

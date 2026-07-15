@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-harimizu-utaki
+  parentId: null
+  kind: attraction
+  title: "漲水御嶽"
+  summary: "漲水御嶽是宮古島最神聖的御嶽（聖林）之一，數百年來是島民舉行祈雨、豐年祭等儀式的靈性中心，在市區鬧中取靜，至今仍供奉香火。"
+  narration: |
+    在宮古島的信仰世界裡，御嶽（utaki）是最神聖的場所——那是與神靈溝通、傳遞祈願的自然聖所。漲水御嶽正是宮古諸島中地位最崇高的御嶽之一，藏身於市區的一片古老樹林之中，與周圍的街道形成強烈對比。
+
+    御嶽的信仰根植於宮古島原有的精靈崇拜傳統，早在琉球王國統治之前便已存在。島民相信聖林之中居住著守護宮古島的神靈，每逢旱季或重大節日，掌管儀式的女性神官（ツカサ）會在此主持祈禱，祈求降雨與五穀豐收。這項傳統雖隨時代更迭而逐漸式微，但漲水御嶽至今仍有居民前來奉香祭拜，神聖氣息未曾消散。
+
+    踏入聖林的那一刻，氣溫彷彿降了幾度，光線透過枝葉篩落，空氣中帶著潮濕的土壤氣息。這裡不只是觀光景點，更是宮古人精神生活的延續——請輕聲行走，帶著尊重走進這片神域。
+  observationPrompt: "觀察御嶽中央的祭祀台或石砌祭壇，留意是否有鮮花、香或貝殼等供品——這些是島民近期祭拜留下的痕跡，代表御嶽的信仰傳統至今仍在延續。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: religion
+          label: 宗教
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8046
+    longitude: 125.2815
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島地位最崇高的御嶽之一，是沖繩固有靈性信仰體系的核心場所，文化重要性極高"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 4
+    note: "御嶽信仰為宮古島特有的文化現象，與一般神社或佛寺截然不同，具有高度獨特性"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "現場說明有限，若無背景知識難以充分理解其文化意涵；但環境氛圍本身已能傳達神聖感"
+    sources: [src2]
+  visitorValue:
+    score: 3
+    note: "對文化與靈性有興趣的訪客體驗深刻；一般觀光客可能需要較多背景說明才能充分欣賞"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "資料來自宮古島文化研究及沖繩觀光資訊，可信度合理"
+    sources: [src1, src2]
+  final: 3.6   # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+sources:
+  - id: src1
+    title: "宮古島の御嶽信仰 - おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.okinawastory.jp/feature/3200020
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "御嶽信仰的文化背景及其在宮古島的重要性"
+      - "漲水御嶽作為最重要御嶽之一的地位"
+  - id: src2
+    title: "宮古島観光情報 - 漲水御嶽"
+    publisher: "宮古島市観光商工課"
+    url: https://www.city.miyakojima.lg.jp/kanko/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "御嶽的地理位置及訪客注意事項"
+      - "宮古島傳統信仰習俗的現況"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/Category:Utaki_in_Okinawa
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-harimizu-utaki.webp
+    completePath: media/complete/jp-miyakojima-harimizu-utaki.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

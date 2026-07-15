@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-shimajiri-uganzaki
+  parentId: null
+  kind: attraction
+  title: "島尻のマングローブ林"
+  summary: "島尻紅樹林是宮古島南部最大的紅樹林濕地，可乘坐獨木舟深入林中水道，是感受宮古島熱帶生態系的沉浸式體驗。"
+  narration: |
+    島尻紅樹林位於宮古島南端，是島上面積最大的紅樹林生態區，以可以划獨木舟深入其中著稱。乘坐獨木舟穿行於蜿蜒水道之間，兩岸高大的海茄苳與水筆仔根系如巨大的手掌伸入水中，光線在頭頂葉冠間碎散，形成如夢似幻的綠色隧道。水面下常可見到彈塗魚、招潮蟹及各種小型魚類，生態多樣性令人驚嘆。導覽人員會沿途解說紅樹林的生態功能，包括它如何防護海岸、育養幼魚，以及作為碳匯在氣候調節中扮演的角色。這是一種截然不同於宮古島珊瑚礁體驗的自然旅程，靜謐、神秘，適合希望親近熱帶濕地生態的旅客。
+  observationPrompt: "在獨木舟上低頭觀察水面，你能看到招潮蟹舉起大螯揮舞嗎？留意樹根之間有沒有幼魚在淺水區游動。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 購票入場
+  indoor: false
+  location:
+    latitude: 24.689200
+    longitude: 125.328200
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "宮古島南部最大規模的紅樹林，是島上僅有的獨木舟生態旅遊場域，具有生態與旅遊雙重意義。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "獨木舟穿越紅樹林水道的體驗在宮古島觀光選項中高度獨特，與海洋活動形成強烈對比。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "導覽人員全程陪同解說，有助理解紅樹林生態，但體驗仍以感官為主。"
+    sources: [src1]
+  visitorValue:
+    score: 3
+    note: "需付費參加獨木舟導覽，整體體驗獨特且深刻，適合重視自然生態的旅客。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有生態旅遊業者官網及旅遊評測記錄，資訊足夠可信。"
+    sources: [src1]
+  final: 3.3  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+sources:
+  - id: src1
+    title: "島尻マングローブ林カヌー体験｜宮古島エコツアー"
+    publisher: "宮古島市観光商工課"
+    url: https://www.miyakojima-kankou.com/spot/shimajiri-mangrove/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "島尻紅樹林是宮古島南部最大的紅樹林濕地，可乘坐獨木舟探索水道"
+      - "生態豐富，有彈塗魚、招潮蟹及幼魚等多種生物棲息"
+      - "提供導覽解說服務，需購票參加獨木舟體驗"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimajiri_Mangrove_Miyakojima_canoe.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-shimajiri-uganzaki.webp
+    completePath: media/complete/jp-miyakojima-shimajiri-uganzaki.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

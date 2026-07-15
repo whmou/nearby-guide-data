@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-miyako-soba
+  parentId: null
+  kind: venue
+  title: "古謝そば屋（宮古そば）"
+  summary: "創業逾九十年、宮古島最具歷史的老字號そば店，供應以豬骨和鰹魚熬製的清湯搭配手工圓麵條的道地宮古そば，是感受宮古島飲食文化根源的必訪之地。"
+  narration: |
+    宮古そば是沖繩そば的近親，卻有著截然不同的個性。沖繩そば多為方形麵條、湯頭較厚重；宮古そば則以細圓麵條為主，湯底用豬骨和鰹魚長時間熬煮，清澈卻鮮味深層。最特別的是擺盤習慣——傳統宮古そば的叉燒和魚板通常藏在麵條之下，外表看起來像一碗素麵，要用筷子撥開才會發現底部的驚喜。
+
+    古謝そば屋（Koja Sobaya）自1932年代起便在宮古島市區供應這碗麵，是目前仍在營業的最具歷史代表性的宮古そば老店之一。店內保留著昭和年代的質樸裝潢，木桌長椅、陶碗瓷盤，一切都透著時光的重量。
+
+    一碗熱騰騰的宮古そば端上桌，清澈金黃的湯面不見任何料頭——這正是傳統擺法。舀起第一口湯，豬骨的醇厚與鰹魚的鮮香在口中交融，再撥開麵條，叉燒與魚板在底部等著你。這碗麵無需繁複的技巧，卻有著幾十年如一日的誠實滋味，是宮古島旅行中最值得留下的味覺記憶之一。
+  observationPrompt: "點上一碗宮古そば後，先觀察湯面——是否沒有任何配料可見？試著用筷子輕輕撥開麵條，看看底下藏著幾塊叉燒和幾片魚板，這個「藏料」的傳統擺法正是宮古そば與其他地區沖繩麵最容易辨別的特徵之一。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: indoor
+          label: 室內
+    - id: subject
+      label: 主題
+      tags:
+        - id: daily-life
+          label: 日常生活
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 漫步
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 收費
+  indoor: true
+  location:
+    latitude: 24.8055
+    longitude: 125.2818
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: "古謝そば屋位於宮古島市平良市區，鄰近西里通商店街；店頭有昭和風格的木製招牌"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古そば是宮古島飲食文化最具代表性的符號；古謝そば屋作為逾九十年老店，是這個文化的活態載體"
+    sources: [src1, src2]
+  distinctiveness:
+    score: 4
+    note: "宮古そば的「藏料」傳統擺法、清澈湯底和細圓麵條使其有別於一般沖繩麵；老店的歷史氛圍加強獨特性"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "用餐體驗直觀；但「藏料」擺法等傳統細節若不事先了解，訪客可能會錯過其文化意涵"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "美食、文化、歷史氛圍三者兼備，價格親民，幾乎所有訪客都能獲得滿足；是宮古島旅行的高CP值體驗"
+    sources: [src1, src2]
+  evidenceQuality:
+    score: 3
+    note: "維基百科及多家飲食媒體對宮古そば文化有詳細記載；古謝そば屋的歷史可追溯記錄"
+    sources: [src1, src2]
+  final: 3.9   # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 1.20+1.00+0.60+0.75+0.30 = 3.85 → 3.9
+sources:
+  - id: src1
+    title: "宮古そば - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E3%81%9D%E3%81%B0
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古そば與沖繩そば的差異：細圓麵條、清澈豬骨鰹魚湯底"
+      - "配料藏於麵條下方的傳統擺法"
+      - "宮古そばの歷史起源及在宮古島飲食文化中的地位"
+  - id: src2
+    title: "古謝そば屋 - 食べログ"
+    publisher: "食べログ"
+    url: https://tabelog.com/okinawa/A4705/A470501/47002870/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "古謝そば屋的歷史年份及在宮古島的代表性地位"
+      - "店內環境描述及招牌餐點資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako-soba_001.jpg
+    creator: "various Wikimedia contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-miyako-soba.webp
+    completePath: media/complete/jp-miyakojima-miyako-soba.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

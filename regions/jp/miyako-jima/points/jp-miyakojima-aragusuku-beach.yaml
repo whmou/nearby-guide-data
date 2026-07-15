@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-aragusuku-beach
+  parentId: null
+  kind: attraction
+  title: "新城海岸"
+  summary: "新城海岸（アラスキビーチ）是宮古島東岸開發度最低的天然海灘之一，珊瑚礁保存完好，海水清澈見底，是逃離人群的靜謐浮潛勝地。"
+  narration: |
+    新城海岸緊鄰吉野海岸南側，卻比後者少了許多觀光客，維持著更接近原始的自然樣貌。海灘由細白珊瑚砂構成，海岸線較短，但礁盤延伸範圍廣，珊瑚覆蓋率高，魚類種類豐富。由於附近沒有大型商業設施，整個海灘顯得格外清幽，適合喜歡靜靜欣賞海洋生態的旅客。退潮時礁盤略微裸露，形成天然的潮池，可以近距離觀察各種小型海洋生物。建議自備浮潛裝備前往，並在進入海水前確認潮汐狀況，以獲得最佳體驗。
+  observationPrompt: "低頭看腳下的珊瑚砂，能找到完整的小型貝殼或珊瑚碎片嗎？再望向海面，水的顏色從岸邊到外海有幾種層次的漸變？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: quiet
+          label: 靜謐
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.832000
+    longitude: 125.334000
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島珊瑚礁保存完好的代表性海灘之一，在浮潛愛好者間有一定知名度。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "開發度低、珊瑚覆蓋率高，相較於其他宮古島海灘具備獨特的原始自然氛圍。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "珊瑚礁生態直觀可見，但缺乏現場解說設施。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費入場且清幽，對重視自然體驗的旅客價值高。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有觀光指南及旅遊部落格記錄，但官方資料相對有限。"
+    sources: [src1]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+sources:
+  - id: src1
+    title: "新城海岸（アラスキビーチ）｜沖縄離島ドットコム"
+    publisher: "沖縄離島ドットコム"
+    url: https://www.okinawa-rito.com/miyakojima/aragusuku-beach/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "新城海岸是宮古島東岸珊瑚礁保存完好的天然海灘"
+      - "開發度低，較少觀光客，適合靜謐浮潛體驗"
+      - "海水清澈，礁盤延伸範圍廣"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Aragusuku_Beach_Miyakojima.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-aragusuku-beach.webp
+    completePath: media/complete/jp-miyakojima-aragusuku-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

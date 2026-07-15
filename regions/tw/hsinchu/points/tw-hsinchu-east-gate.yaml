@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-east-gate
+  parentId: null
+  kind: attraction
+  title: "東門城（迎曦門）"
+  summary: "建於1827年的清代城門，是新竹古城牆唯一留存至今的遺跡，也是這座城市最具代表性的地標。"
+  narration: |
+    這座圓拱形城門建於清道光七年（1827年），原名「迎曦門」，取迎接東方晨曦之意，是昔日新竹府城四座城門之一，也是唯一保存完好傳承至今的一座。城門以紅磚與花崗石建成，拱洞上方的石刻紋飾歷經近兩百年風霜，輪廓依然可辨。城樓頂層為木構歇山式屋頂，飛簷翹脊顯現清代官式建築的莊嚴氣度。夜晚打燈後，磚紅與橙黃交疊，是城市中最上鏡的角落之一。
+  observationPrompt: "仔細看拱門兩側的石材，能找到不同時期修繕留下的新舊磚石拼接痕跡嗎？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: history
+          label: 歷史
+        - id: architecture
+          label: 建築
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80310
+    longitude: 120.97008
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "新竹市最具代表性的歷史建築，清代府城遺跡，列為二級古蹟。"
+    sources: [hsinchu-cultural-heritage]
+  distinctiveness:
+    score: 4
+    note: "台灣現存清代城門極少，迎曦門保存完整，具有不可複製的歷史現場感。"
+    sources: [hsinchu-cultural-heritage]
+  interpretability:
+    score: 3
+    note: "建築外觀清晰可見，現場說明牌說明建造歷史，但磚石細節需近距離觀察。"
+    sources: [hsinchu-cultural-heritage]
+  visitorValue:
+    score: 4
+    note: "全天候開放，免費，位於市中心，步行可達，周邊停車便利。"
+    sources: [hsinchu-cultural-heritage]
+  evidenceQuality:
+    score: 4
+    note: "文化部文化資產局官方資料，加上現場解說牌及學術文獻佐證。"
+    sources: [hsinchu-cultural-heritage]
+  final: 3.8
+  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×4 + 0.10×4 = 1.20+1.00+0.60+0.60+0.40 = 3.80
+sources:
+  - id: hsinchu-cultural-heritage
+    title: "新竹市東門城（迎曦門）文化資產資料"
+    publisher: "文化部文化資產局"
+    url: https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19850819000003
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "建造年代清道光七年（1827年）"
+      - "原名迎曦門，為新竹府城四城門之一"
+      - "現為國定古蹟"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate.jpg
+    creator: "Pbdragonwang"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-east-gate.webp
+    completePath: media/complete/tw-hsinchu-east-gate.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

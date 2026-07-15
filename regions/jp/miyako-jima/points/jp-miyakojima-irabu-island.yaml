@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-irabu-island
+  parentId: null
+  kind: region
+  title: "伊良部島"
+  summary: "伊良部島是宮古群島第二大島，2015年伊良部大橋落成後無需渡輪即可抵達。島上保留了深海漁業傳統與原始自然風光，是探索宮古離島文化的最佳起點。"
+  narration: |
+    伊良部島靜靜地躺在宮古島西北方，與主島之間由長達3,540公尺的伊良部大橋相連。這座橋於2015年啟用，是日本免費通行橋梁中最長的一座，從此打開了這座離島對旅人的大門。
+
+    島的面積約29平方公里，人口不過數千人，卻擁有截然不同的兩種面貌：南岸的渡口之濱以柔白細沙和蔚藍海水著稱；北側的佐良濱則是傳承百年的遠洋鰹魚漁村。你可以在同一天清晨踏上幾乎無人的海灘，午後再走進曬著柴魚片的老街巷弄，感受兩種截然不同的宮古島生活。
+
+    伊良部島地形略呈平坦，騎著自行車或租車繞行一圈僅需半天，但每個轉彎都可能出現令人屏息的海崖視野或礁岩灘景。島嶼東南角與下地島之間的水道，更是世界級的潛水勝地，透明度常達40公尺以上。
+  observationPrompt: "站在伊良部大橋橋頭，仔細看看橋墩兩側的海水顏色——你能分辨出幾種不同深淺的藍綠色漸層？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 漫步
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8335
+    longitude: 125.1498
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古群島第二大島，具備完整的自然、文化與漁業生態，是宮古旅遊的重要組成"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "兼具世界級潛水、原始海灘與百年漁村文化，與主島形成明顯對比"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "地域概覽層級，需要訪客自行探索各景點才能充分理解"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "免費通行、景點密集，適合半日至全日自駕或單車遊覽"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "有維基百科日文條目及官方觀光資料佐證"
+    sources: [src1, src2]
+  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.2+1.0+0.6+0.6+0.3 = 3.7
+sources:
+  - id: src1
+    title: "伊良部島 - Wikipedia"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "伊良部島是宮古群島第二大島，面積約29平方公里"
+      - "伊良部大橋全長3,540公尺，於2015年1月31日開通"
+  - id: src2
+    title: "伊良部島観光情報 - 宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima.gr.jp/tourist_spot/irabu/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "島上擁有多處知名海灘與漁村文化景點"
+      - "可自駕或騎自行車環島遊覽"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_Bridge_aerial_view.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-irabu-island.webp
+    completePath: media/complete/jp-miyakojima-irabu-island.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

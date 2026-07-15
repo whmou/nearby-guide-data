@@ -1,0 +1,101 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-sunayama-sunset
+  parentId: null
+  kind: view
+  title: "砂山展望台（日落景點）"
+  summary: "砂山海灘上方的丘陵展望台是宮古島本島最佳的夕陽觀賞地點，居高臨下可同時看見砂山灣的天然岩拱、蔚藍珊瑚礁海以及西沉於東海的橙金日落，是攝影愛好者必訪的黃金時刻聖地。"
+  narration: |
+    從砂山海灘停車場沿著木棧道爬上沙丘頂端，不過幾分鐘的腳程，視野便豁然開朗。站在展望台邊緣，腳下是砂山灣細白的月牙形沙灘，中央矗立著被海浪侵蝕出圓拱的珊瑚岩——那道天然岩拱在夕陽光線下像是鑲了金框，成為宮古島最具標誌性的剪影之一。
+
+    日落時分大約在下午六點半至七點半之間，視季節略有不同。太陽向地平線靠近時，天空的顏色以極快的速度變換：深藍的海面先染成亮橘，繼而轉為紫紅，最後一抹霞光消失前，整片海天交界線仿佛被點燃。展望台附近設有木製圍欄供人倚靠，不少旅人會在此久坐，靜靜等待那一刻的到來。建議日落前四十分鐘抵達，提早找好取景角度，避開岩拱正前方的逆光死角。
+  observationPrompt: "面向海灘中央的天然珊瑚岩拱門，觀察岩拱內透出的海水顏色——夕陽不同角度時，拱內的海面會呈現哪幾種不同的色調？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8472
+    longitude: 125.2488
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "砂山展望台是宮古島本島觀看夕陽的代表性地點，珊瑚岩拱與夕陽組合為知名構圖，但全島尚有多個競爭日落景點。"
+    sources: [src1]
+  distinctiveness:
+    score: 4
+    note: "天然珊瑚岩拱門搭配夕陽的組合構圖在宮古島是獨一無二的視覺符號，照片辨識度極高。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "純粹的自然景觀體驗，不需要特別說明即可感受；珊瑚岩拱的地質成因背景知識可加深理解。"
+    sources: [src2]
+  visitorValue:
+    score: 5
+    note: "免費、步行可達、拍照效果極佳，適合所有年齡與旅行風格；日落時刻短短二十分鐘但令人難忘。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "旅遊網站資料豐富，地理及地質資料有沖縄縣政府出版品可查，整體可信度良好。"
+    sources: [src2]
+  final: 3.6  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 0.90+1.00+0.60+0.75+0.30 = 3.55 → 3.6
+sources:
+  - id: src1
+    title: "砂山ビーチ - 宮古島観光ガイド"
+    publisher: "宮古島観光協会"
+    url: https://www.miyakojima-kankou.com/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "砂山海灘與其上方展望台是宮古島本島最受歡迎的夕陽觀賞地點之一"
+      - "海灘中央的天然珊瑚岩拱門是宮古島最具代表性的攝影地標"
+  - id: src2
+    title: "宮古島の地形と珊瑚礁地質"
+    publisher: "沖縄県立博物館・美術館"
+    url: https://www.museums.pref.okinawa.jp/
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "宮古島的岩拱地形由珊瑚礁石灰岩經長期海蝕侵蝕而成，為本島自然地景特色"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunayama_beach_miyakojima.jpg
+    creator: "Wikimedia Commons contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-sunayama-sunset.webp
+    completePath: media/complete/jp-miyakojima-sunayama-sunset.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

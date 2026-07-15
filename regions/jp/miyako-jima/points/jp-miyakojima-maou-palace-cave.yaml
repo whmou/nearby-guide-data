@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-maou-palace-cave
+  parentId: null
+  kind: venue
+  title: "魔王の宮殿（洞窟ダイビングスポット）"
+  summary: "魔王の宮殿是宮古島最神秘的洞穴潛水點，由連串巨大石灰岩洞室組成，陽光從洞頂縫隙射入，在水中形成如大教堂般壯麗的光柱奇景。"
+  narration: |
+    魔王の宮殿——光聽這名字，就令人浮想聯翩。這是一處深藏於宮古島海底的巨大石灰岩洞穴系統，數個巨室相連，最寬處足以容納數十名潛水員並肩而游，壯觀程度讓人不禁想起古羅馬的圓形劇場。
+
+    洞穴之所以冠上「宮殿」之名，正是因為太陽光的神奇演出。每當洋光角度恰好，光線便從洞頂的縫隙中射入，在翠藍的洞室水體中形成一道道光柱，彷彿神明降臨前的聖光，靜謐而震撼。這種光學現象被稱為「ゴッドレイ」（神光），是宮古島潛水攝影師最鍾愛的主題之一。
+
+    洞室內的石灰岩壁面，長年受海水侵蝕後形成奇特的凹凸紋路，有些地方像石簾，有些像石筍，偶爾還能見到小型蝦虎魚和甲殼類動物藏匿其中。此處屬於洞穴潛水，需具備洞穴潛水訓練或由持有洞穴潛水執照的教練帶領入水。
+  observationPrompt: "在洞室內，請抬頭仰望——光線從岩縫中射入水中的角度與顏色會隨時間改變，此刻你看到的光柱是什麼樣的形狀？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 付費
+  indoor: false
+  location:
+    latitude: 24.8088
+    longitude: 125.2522
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮古島最著名的洞穴潛水景點，其石灰岩洞室構造與神光現象在日本海洋觀光中具高知名度。"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "多洞室石灰岩洞穴系統搭配神光（God Ray）光柱效果，視覺衝擊力極為罕見且獨特。"
+    sources: [src1, src2]
+  interpretability:
+    score: 4
+    note: "洞穴視覺效果直觀震撼，潛水教練通常會說明地質成因，故事性強。"
+    sources: [src2]
+  visitorValue:
+    score: 4
+    note: "對持照潛水員與洞穴潛水愛好者是頂級體驗，攝影價值極高。"
+    sources: [src2]
+  evidenceQuality:
+    score: 3
+    note: "多個潛水媒體與觀光資料均有詳細介紹，但缺乏地質學學術文獻。"
+    sources: [src1]
+  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.25+0.80+0.60+0.30 = 4.15 → 4.2
+sources:
+  - id: src1
+    title: "魔王の宮殿 ダイビングスポット｜宮古島"
+    publisher: "宮古島観光ガイド miyako-guide.net"
+    url: https://miyako-guide.net/diving/maou-no-kyuden
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "魔王の宮殿由複數巨大石灰岩洞室組成，為宮古島代表性洞穴潛水點"
+      - "陽光穿透洞頂形成神光（God Ray）是此景點最大特色"
+  - id: src2
+    title: "宮古島の洞窟ダイビングスポット - ダイビング情報"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.visitokinawa.jp/experiences/cave-diving-miyako
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "洞窟內的光柱效果是宮古島水中攝影最熱門主題"
+      - "需具備洞穴潛水訓練或由持照教練帶領"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_cave_diving_god_ray.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-maou-palace-cave.webp
+    completePath: media/complete/jp-miyakojima-maou-palace-cave.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

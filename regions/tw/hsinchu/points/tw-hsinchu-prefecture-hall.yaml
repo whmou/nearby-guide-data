@@ -1,0 +1,97 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-prefecture-hall
+  parentId: null
+  kind: venue
+  title: "新竹州廳"
+  summary: "1925年完工的日治時期巴洛克式行政建築，現為新竹市政府所在地，外立面的拱廊與綠色圓頂是台灣保存最完整的日殖民地官廳建築之一。"
+  narration: |
+    新竹州廳建於大正十四年（1925年），由日本建築師設計，以紅磚搭配白色飾帶構成的巴洛克折衷主義立面，是台灣日治時代官廳建築的代表作之一。正面中央的半圓形綠色銅頂，搭配兩側對稱的圓弧拱廊，呈現出嚴謹的軸線美感。一百年來，這棟建築見證了台灣從日治走向戰後的歷史更迭，如今仍是運作中的市政府，歷史的重量與日常行政並存其中。站在正門廣場望去，那排廊柱與古典山牆在現代街景中顯得格外沉穩。
+  observationPrompt: "觀察正面屋頂的圓弧銅頂——它的顏色為何是獨特的藍綠色？這種顏色是如何形成的？"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: architecture
+          label: 建築
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80255
+    longitude: 120.96823
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "列為國定古蹟，為台灣保存最完整的日治官廳建築之一，具有重要的歷史與建築研究價值。"
+    sources: [hsinchu-prefecture-hall-boch]
+  distinctiveness:
+    score: 4
+    note: "巴洛克式紅磚建築在台灣現存官廳建築中保存完整，仍作為市政府使用，歷史感與現代功能並存。"
+    sources: [hsinchu-prefecture-hall-boch]
+  interpretability:
+    score: 3
+    note: "外觀建築風格清晰可辨，但室內通常不開放一般遊客，歷史脈絡需靠說明牌理解。"
+    sources: [hsinchu-prefecture-hall-boch]
+  visitorValue:
+    score: 3
+    note: "外觀全天候可欣賞且免費，但室內進入受限，開放時間依市政機關上班日為主。"
+    sources: [hsinchu-prefecture-hall-boch]
+  evidenceQuality:
+    score: 4
+    note: "文化部文化資產局國定古蹟官方資料，有完整修復紀錄與建築史料。"
+    sources: [hsinchu-prefecture-hall-boch]
+  final: 3.7
+  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×3 + 0.10×4 = 1.20+1.00+0.60+0.45+0.40 = 3.65 → 3.7
+sources:
+  - id: hsinchu-prefecture-hall-boch
+    title: "新竹州廳文化資產資料"
+    publisher: "文化部文化資產局"
+    url: https://nchdb.boch.gov.tw/assets/advanceSearch/monument/19851127000008
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "建成年代1925年（大正十四年）"
+      - "巴洛克折衷主義建築風格"
+      - "現為新竹市政府所在地，列為國定古蹟"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_Hall.jpg
+    creator: "Koika"
+    license: "CC-BY-SA-3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/tw-hsinchu-prefecture-hall.webp
+    completePath: media/complete/tw-hsinchu-prefecture-hall.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

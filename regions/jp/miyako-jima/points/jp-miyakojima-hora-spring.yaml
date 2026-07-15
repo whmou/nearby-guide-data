@@ -1,0 +1,92 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-hora-spring
+  parentId: null
+  kind: attraction
+  title: "保良泉"
+  summary: "保良泉是宮古島南岸的天然淡水湧泉奇景，泉水在海岸邊與海水交會，形成可入內探索的鐘乳石洞穴，並提供絕佳的海岸浮潛體驗。"
+  narration: |
+    保良泉（ほらがー）是宮古島南部海岸最神奇的自然景觀之一。這裡的天然泉水從石灰岩地層滲出，在海邊形成淡水與海水交融的獨特環境。更難得的是，泉水出口附近發育了可供遊客進入的鐘乳石洞穴，洞內鐘乳石與石筍發育完整，滴水聲在幽暗洞室中迴響，令人印象深刻。洞穴出口緊鄰宮古藍的海岸，出洞後即可換裝下水浮潛，珊瑚礁和熱帶魚近在眼前。由於保良泉需要購票進入，且有專人解說與安全管理，整體體驗品質穩定。淡水湧泉與鐘乳石洞的組合，在宮古島眾多自然景點中堪稱最具震撼力的地質奇景。
+  observationPrompt: "在洞穴內抬頭仰望，你能分辨哪些是向下生長的鐘乳石、哪些是向上生長的石筍嗎？聆聽水滴聲，感受洞內的溫度與外面海風的差異。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外混合
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+    - id: experience
+      label: 體驗
+      tags:
+        - id: walking
+          label: 步行
+    - id: access
+      label: 入場
+      tags:
+        - id: ticketed
+          label: 購票入場
+  indoor: false
+  location:
+    latitude: 24.717000
+    longitude: 125.403500
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "天然淡水湧泉與鐘乳石洞穴組合是宮古島稀有的地質奇景，具有高度自然科學價值。"
+    sources: [src1]
+  distinctiveness:
+    score: 5
+    note: "淡水湧泉出口緊鄰海岸、可進入的鐘乳石洞穴，在日本離島中屬極為罕見的組合景觀。"
+    sources: [src1]
+  interpretability:
+    score: 3
+    note: "有專人導覽解說，幫助旅客理解地質背景，但洞穴環境需要一定安全意識。"
+    sources: [src1]
+  visitorValue:
+    score: 4
+    note: "洞穴探索加上海岸浮潛的雙重體驗，對各類旅客都能提供高價值的獨特回憶。"
+    sources: [src1]
+  evidenceQuality:
+    score: 3
+    note: "有觀光指南及管理業者官網資料，資訊充分但未有學術記錄。"
+    sources: [src1]
+  final: 4.0  # 0.30*4 + 0.25*5 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.25+0.60+0.60+0.30 = 3.95 → 4.0
+sources:
+  - id: src1
+    title: "保良泉ビーチ（宮古島）｜沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: https://www.okinawastory.jp/spot/600044
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "保良泉是宮古島南岸的天然淡水湧泉，附設鐘乳石洞穴可供探索"
+      - "泉水在海岸邊與海水交會，兼具洞穴探索與浮潛體驗"
+      - "需購票入場，有專人解說與安全管理"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hora_Spring_Cave_Miyakojima.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-hora-spring.webp
+    completePath: media/complete/jp-miyakojima-hora-spring.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

@@ -1,0 +1,70 @@
+schemaVersion: 1
+point:
+  id: tw-hsinchu-test-bad-rating
+  parentId: null
+  kind: attraction
+  title: "評分超出範圍測試景點"
+  summary: "這個景點的significance分數為6，超出0-5的有效範圍，應觸發驗證錯誤。"
+  narration: |
+    這是測試景點，用於驗證評分分數超出有效範圍的錯誤偵測。significance分數設為6，超出最高值5。
+  observationPrompt: "這是測試景點，觀察周圍環境。"
+  countryCode: TW
+  adminAreaLevel1: 新竹市
+  hierarchy: ["台灣", "新竹市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.80310
+    longitude: 120.97008
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 6
+    note: "分數超出範圍，僅供測試。"
+    sources: [test-source]
+  distinctiveness:
+    score: 3
+    note: "測試。"
+    sources: [test-source]
+  interpretability:
+    score: 3
+    note: "測試。"
+    sources: [test-source]
+  visitorValue:
+    score: 3
+    note: "測試。"
+    sources: [test-source]
+  evidenceQuality:
+    score: 3
+    note: "測試。"
+    sources: [test-source]
+  final: 3.3
+sources:
+  - id: test-source
+    title: "測試來源"
+    publisher: "測試"
+    url: https://github.com/whmou/nearby-guide-data
+    accessedAt: "2026-07-15"
+    language: zh-TW
+    supports:
+      - "測試"
+media: []
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

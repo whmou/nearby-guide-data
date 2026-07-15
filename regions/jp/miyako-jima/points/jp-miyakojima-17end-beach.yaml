@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-17end-beach
+  parentId: jp-miyakojima-shimoji-island
+  kind: attraction
+  title: "下地島17エンド"
+  summary: "17ENDは下地島空港滑走路17號跑道終點延伸至海灘的特殊觀景點，旅客可在白沙灘上仰望飛機從頭頂僅數十公尺低空飛越降落，是社群媒體上極具話題性的宮古島絕景。"
+  narration: |
+    「17END」這個名稱來自下地島空港跑道的編號——第17號跑道的降落端，正好就落在這片面向宮古海峽的白沙灘上。當飛機準備著陸時，從正面筆直飛來，越過沙灘上方數十公尺的低空切入，發動機的轟鳴聲、機腹上清晰可見的輪胎架、以及碧藍海面與飛機身影疊合的畫面，構成了宮古島最令人心跳加速的攝影機位。這個地點從原本的飛行訓練觀察地，隨著社群媒體的傳播成為全國矚目的打卡熱點，吸引航空迷、攝影愛好者和一般旅客特地驅車前來。沙灘本身也頗為美麗，寬闊的白沙與透明海水即使沒有飛機也值得造訪。飛機起降的時間表可事先查詢，挑好時段前來，就能拍下這張宮古島最獨特的航空海景。
+  observationPrompt: "當飛機從正面飛來時，試著注意機腹收起的起落架輪胎與機翼下方的細節——你能看清楚哪家航空公司的塗裝嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: outdoor
+          label: 戶外
+    - id: subject
+      label: 主題
+      tags:
+        - id: nature
+          label: 自然
+        - id: engineering
+          label: 工程
+    - id: experience
+      label: 體驗
+      tags:
+        - id: viewpoint
+          label: 景觀
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8222
+    longitude: 125.1438
+  trigger:
+    radiusMeters: 75.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本社群媒體上極具知名度的奇特景觀，將飛機與海灘融合的視覺體驗在日本境內難覓第二處。"
+    sources: [shimoji-airport-wikipedia-ja, visitokinawa-shimoji]
+  distinctiveness:
+    score: 5
+    note: "飛機低空飛越白沙灘的組合景觀在日本獨一無二，也是宮古島社群媒體辨識度最高的地標之一。"
+    sources: [visitokinawa-shimoji]
+  interpretability:
+    score: 4
+    note: "情境非常直觀，跑道編號17的由來和海灘關係清晰，任何遊客都能立即理解並欣賞。"
+    sources: [shimoji-airport-wikipedia-ja]
+  visitorValue:
+    score: 5
+    note: "完全免費，全天開放，有停車空間，搭配航班時刻表體驗極佳，即使無飛機也是美麗海灘。"
+    sources: [visitokinawa-shimoji]
+  evidenceQuality:
+    score: 3
+    note: "維基百科與觀光官網均有記載，但學術或政府詳細資料相對有限。"
+    sources: [shimoji-airport-wikipedia-ja]
+  final: 4.3  # 0.30×4 + 0.25×5 + 0.20×4 + 0.15×5 + 0.10×3 = 1.20+1.25+0.80+0.75+0.30 = 4.30
+sources:
+  - id: shimoji-airport-wikipedia-ja
+    title: "下地島空港 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%9C%B0%E5%B3%B6%E7%A9%BA%E6%B8%AF
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "滑走路17のエンドが海岸に面しており、着陸機が低空で通過する"
+      - "下地島空港は3,000m滑走路を持つ訓練飛行場"
+  - id: visitokinawa-shimoji
+    title: "下地島・17ENDビーチ"
+    publisher: "沖縄観光コンベンションビューロー (Visit Okinawa)"
+    url: https://www.visitokinawa.jp/information/shimoji-17end
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "17ENDは滑走路17番の着陸端に位置する海岸"
+      - "飛行機が頭上すれすれに着陸する様子が人気の撮影スポット"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimoji_Island_17END_beach_approach.jpg
+    creator: "Various contributors"
+    license: "CC-BY-SA-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-17end-beach.webp
+    completePath: media/complete/jp-miyakojima-17end-beach.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []

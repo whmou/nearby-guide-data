@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "source-pack-v1",
+  "title": "Source Pack v1",
+  "description": "Schema for pack.yaml files in the regions/ directory.",
+  "type": "object",
+  "required": ["schemaVersion", "packId", "version", "title", "subtitle", "region", "contentLanguage", "minAppVersionCode"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "enum": [1]
+    },
+    "packId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable unique identifier for this pack."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Semantic version of this pack."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "region": {
+      "type": "object",
+      "required": ["countryCode", "countryName", "adminAreaLevel1"],
+      "additionalProperties": false,
+      "properties": {
+        "countryCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "countryName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "adminAreaLevel1": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "contentLanguage": {
+      "type": "string",
+      "minLength": 2,
+      "description": "BCP-47 language tag for the pack content."
+    },
+    "minAppVersionCode": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Minimum Android app versionCode required to read this pack."
+    }
+  }
+}

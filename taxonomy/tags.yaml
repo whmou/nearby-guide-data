@@ -1,0 +1,31 @@
+groups:
+  - id: setting
+    label: 場域
+    tags:
+      - {id: outdoor, label: 戶外}
+      - {id: indoor, label: 室內}
+      - {id: mixed, label: 室內外混合}
+  - id: subject
+    label: 主題
+    tags:
+      - {id: architecture, label: 建築}
+      - {id: history, label: 歷史}
+      - {id: nature, label: 自然}
+      - {id: art, label: 藝術}
+      - {id: religion, label: 宗教}
+      - {id: engineering, label: 工程}
+      - {id: daily-life, label: 日常生活}
+  - id: experience
+    label: 體驗
+    tags:
+      - {id: viewpoint, label: 景觀}
+      - {id: walking, label: 步行}
+      - {id: family, label: 親子}
+      - {id: photography, label: 攝影}
+      - {id: quiet, label: 靜謐}
+  - id: access
+    label: 入場
+    tags:
+      - {id: free, label: 免費}
+      - {id: ticketed, label: 需購票}
+      - {id: limited-hours, label: 限時開放}

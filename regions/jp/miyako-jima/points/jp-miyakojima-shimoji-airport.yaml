@@ -1,0 +1,94 @@
+schemaVersion: 1
+point:
+  id: jp-miyakojima-shimoji-airport
+  parentId: jp-miyakojima-shimoji-island
+  kind: venue
+  title: "下地島空港"
+  summary: "下地島空港擁有全長3,000公尺的跑道，自1979年起長期作為全日空與日本航空飛行員技術審查的訓練機場，近年轉型為國際定期航班起降點，旅客大廳設計融入宮古島海洋元素，是探訪下地島的主要門戶。"
+  narration: |
+    下地島空港的歷史與日本民航業的養成息息相關。這條三千公尺長的跑道自1979年啟用後，數十年來專門供全日空與日本航空的飛行員在此進行模擬緊急降落、側風降落等高難度技術審查，是日本民間航空培訓體系中不可或缺的一環。由於不對外開放商業旅客，島上長期保持低度開發，反而讓周圍的珊瑚礁與自然環境得以完好保存。2019年，Solaseed Air等低成本航空開始引進定期航班，隨後更有來自台灣、東南亞的包機，讓旅人終於能直接飛抵這座傳說中的訓練聖地。現在的航廈以白色與藍色為主調，候機大廳的大片落地窗讓旅客在等候時便能望見外頭一望無際的宮古藍海。
+  observationPrompt: "在航廈候機大廳或戶外觀景區，注意看停機坪上的飛機機型——與一般大型機場相比，你覺得這裡的飛機有什麼不同之處？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  tagGroups:
+    - id: setting
+      label: 場域
+      tags:
+        - id: mixed
+          label: 室內外
+    - id: subject
+      label: 主題
+      tags:
+        - id: engineering
+          label: 工程
+        - id: history
+          label: 歷史
+    - id: experience
+      label: 體驗
+      tags:
+        - id: photography
+          label: 攝影
+    - id: access
+      label: 入場
+      tags:
+        - id: free
+          label: 免費
+  indoor: false
+  location:
+    latitude: 24.8268
+    longitude: 125.1448
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000.0
+  locationHint: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本民航史上唯一長期作為飛行員技術審查場地的訓練機場，具有重要的航空文化與產業歷史意義。"
+    sources: [shimoji-airport-wikipedia-ja]
+  distinctiveness:
+    score: 4
+    note: "訓練機場轉型為觀光門戶的獨特定位，加上3,000m跑道端緊鄰海灘，在日本機場中極為罕見。"
+    sources: [shimoji-airport-wikipedia-ja]
+  interpretability:
+    score: 3
+    note: "航廈設施現代，但訓練機場的歷史意義需要解說才能理解，現場背景說明有限。"
+    sources: [shimoji-airport-wikipedia-ja]
+  visitorValue:
+    score: 3
+    note: "主要價值在於作為下地島的交通入口，觀景體驗需搭配17END海灘，航廈本身滯留體驗一般。"
+    sources: [shimoji-airport-wikipedia-ja]
+  evidenceQuality:
+    score: 3
+    note: "維基百科、國土交通省官網均有詳細記載，訓練飛行場的歷史資料較為豐富。"
+    sources: [shimoji-airport-wikipedia-ja]
+  final: 3.6  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+sources:
+  - id: shimoji-airport-wikipedia-ja
+    title: "下地島空港 - ウィキペディア"
+    publisher: "Wikipedia"
+    url: https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%9C%B0%E5%B3%B6%E7%A9%BA%E6%B8%AF
+    accessedAt: "2026-07-15"
+    language: ja
+    supports:
+      - "滑走路長3,000m、パイロット訓練専用飛行場として1979年開港"
+      - "ANAとJALのパイロット技能審査に使用されてきた"
+      - "2019年以降、定期旅客便が就航開始"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimoji-jima_Airport_aerial_photograph.jpg
+    creator: "Geospatial Information Authority of Japan"
+    license: "CC-BY-4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0/
+    accessedAt: "2026-07-15"
+    originalSha256: null
+    compactPath: media/compact/jp-miyakojima-shimoji-airport.webp
+    completePath: media/complete/jp-miyakojima-shimoji-airport.webp
+review:
+  status: draft
+  checkedAt: "2026-07-15"
+  notes: []
