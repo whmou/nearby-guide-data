@@ -1,4 +1,4 @@
-schemaVersion: 1
+﻿schemaVersion: 1
 point:
   id: tw-hsinchu-city-god-temple
   parentId: null
@@ -38,9 +38,9 @@ point:
           label: 免費
   indoor: true
   location:
-    latitude: 24.80165
-    longitude: 120.97085
-  googleMapsUrl: "https://maps.google.com/maps?q=24.80165,120.97085"
+    latitude: 24.8043
+    longitude: 120.9703
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8043,120.9703"
   trigger:
     radiusMeters: 60.0
     dwellMillis: 2000

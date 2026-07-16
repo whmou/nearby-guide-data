@@ -1,4 +1,4 @@
-schemaVersion: 1
+﻿schemaVersion: 1
 point:
   id: jp-miyakojima-sunayama-beach
   parentId: null
@@ -38,9 +38,9 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.80680
-    longitude: 125.27190
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8068,125.2719"
+    latitude: 24.8073
+    longitude: 125.2705
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8073,125.2705"
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000

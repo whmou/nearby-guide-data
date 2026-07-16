@@ -36,9 +36,9 @@ point:
           label: 需購票
   indoor: true
   location:
-    latitude: 24.7958
-    longitude: 120.9768
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7958,120.9768"
+    latitude: 24.8140749
+    longitude: 120.9667714
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8140749,120.9667714"
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000

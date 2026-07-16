@@ -40,9 +40,9 @@ point:
           label: 限定時段
   indoor: false
   location:
-    latitude: 24.9285
-    longitude: 125.2062
-  googleMapsUrl: "https://maps.google.com/maps?q=24.9285,125.2062"
+    latitude: 24.915981
+    longitude: 125.3079275
+  googleMapsUrl: "https://maps.google.com/maps?q=24.915981,125.3079275"
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
