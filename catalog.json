@@ -1,51 +1,8 @@
 {
   "format": "nearby-guide-index",
   "schemaVersion": 1,
-  "updatedAt": "2026-07-16T06:53:42Z",
+  "updatedAt": "2026-07-16T07:18:34Z",
   "packs": [
-    {
-      "packId": "jp-miyakojima",
-      "version": "1.0.1",
-      "title": "宮古島",
-      "subtitle": "沖繩碧海與珊瑚礁",
-      "region": {
-        "countryCode": "JP",
-        "countryName": "日本",
-        "adminAreaLevel1": "沖縄県"
-      },
-      "contentLanguage": "zh-Hant-TW",
-      "guidePointCount": 71,
-      "minAppVersionCode": 8,
-      "variants": [
-        {
-          "variantId": "compact",
-          "mediaMode": "compact",
-          "title": "精簡離線",
-          "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.1-compact.guidepack",
-          "downloadBytes": 2555657,
-          "sha256": "c3626014294d0819b6658ff692a90b12a65cc0c3fe6f43faa0c0108177c87759",
-          "includes": [
-            "text",
-            "thumbnails"
-          ]
-        },
-        {
-          "variantId": "complete",
-          "mediaMode": "complete",
-          "title": "完整離線",
-          "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.1-complete.guidepack",
-          "downloadBytes": 14728466,
-          "sha256": "df4165c133b925b6012fb99c5c9b9fd4c60d8e60469f314609db413bbc74dc14",
-          "includes": [
-            "text",
-            "images",
-            "media"
-          ]
-        }
-      ]
-    },
     {
       "packId": "jp-miyakojima",
       "version": "1.0.2",
@@ -81,49 +38,6 @@
           "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.2-complete.guidepack",
           "downloadBytes": 14731634,
           "sha256": "bc21f0157745fb27a42817ee2a6de2800450b8d6e5ba3bf6239f8bcc5d465f5d",
-          "includes": [
-            "text",
-            "images",
-            "media"
-          ]
-        }
-      ]
-    },
-    {
-      "packId": "tw-hsinchu",
-      "version": "1.0.1",
-      "title": "新竹市",
-      "subtitle": "風城歷史與自然",
-      "region": {
-        "countryCode": "TW",
-        "countryName": "台灣",
-        "adminAreaLevel1": "新竹市"
-      },
-      "contentLanguage": "zh-Hant-TW",
-      "guidePointCount": 36,
-      "minAppVersionCode": 8,
-      "variants": [
-        {
-          "variantId": "compact",
-          "mediaMode": "compact",
-          "title": "精簡離線",
-          "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.1-compact.guidepack",
-          "downloadBytes": 1541576,
-          "sha256": "a0008be088bb3917090df5333795a78a121d5d525a347cbed14feee4d01ba23a",
-          "includes": [
-            "text",
-            "thumbnails"
-          ]
-        },
-        {
-          "variantId": "complete",
-          "mediaMode": "complete",
-          "title": "完整離線",
-          "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.1-complete.guidepack",
-          "downloadBytes": 8318011,
-          "sha256": "5bcf9b16173dabb773c0e292a10db146991c9e8129f81a77b3dc6c2655a7679a",
           "includes": [
             "text",
             "images",

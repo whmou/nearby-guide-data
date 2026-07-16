@@ -434,3 +434,165 @@ def test_no_media_without_path():
                     if "sourceUrl" in m:
                         assert m.get("path"), \
                             f"{pack_id}/{variant} {pt['id']}: media has sourceUrl but no path"
+
+
+# ---------------------------------------------------------------------------
+# update_catalog.py regression tests
+# ---------------------------------------------------------------------------
+
+import shutil
+import sys as _sys
+import importlib
+
+_sys.path.insert(0, str(REPO_ROOT / "tools"))
+
+
+def _build_fake_pack(tmp: Path, pack_id: str, version: str, variant: str, point_count: int = 5) -> Path:
+    """Create a minimal .guidepack archive for catalog generator testing."""
+    manifest = {
+        "format": "nearby-guide-pack",
+        "schemaVersion": 1,
+        "packId": pack_id,
+        "packVersion": version,
+        "variantId": variant,
+        "mediaMode": variant,
+        "title": f"Test {pack_id}",
+        "subtitle": "",
+        "createdAt": "2024-01-01T00:00:00Z",
+        "contentLanguage": "zh-Hant-TW",
+        "region": {"countryCode": "TW", "countryName": "台灣", "adminAreaLevel1": "測試"},
+        "guidePointCount": point_count,
+        "minAppVersionCode": 8,
+        "pointsFile": "points.json",
+        "files": [{"path": "points.json", "bytes": 2, "sha256": "x" * 64}],
+        "extensions": {},
+    }
+    points = {"format": "nearby-guide-points", "schemaVersion": 1, "points": [], "extensions": {}}
+    fname = f"{pack_id}-{version}-{variant}.guidepack"
+    out = tmp / fname
+    import io, zipfile as _zf
+    buf = io.BytesIO()
+    with _zf.ZipFile(buf, "w") as zf:
+        zf.writestr("manifest.json", json.dumps(manifest))
+        zf.writestr("points.json", json.dumps(points))
+    out.write_bytes(buf.getvalue())
+    return out
+
+
+def test_catalog_dedup_selects_latest(tmp_path):
+    """Generator must emit only the newest version per packId."""
+    import update_catalog as uc
+    importlib.reload(uc)
+
+    packs_dir = tmp_path / "packs"
+    packs_dir.mkdir()
+    for version in ("1.0.1", "1.0.2"):
+        for variant in ("compact", "complete"):
+            _build_fake_pack(packs_dir, "tw-hsinchu", version, variant)
+
+    out = tmp_path / "catalog.json"
+    uc.regenerate_catalog(tmp_path, output_path=out)
+
+    catalog = json.loads(out.read_text())
+    packs = catalog["packs"]
+    assert len(packs) == 1, f"Expected 1 pack entry, got {len(packs)}: {[(p['packId'],p['version']) for p in packs]}"
+    assert packs[0]["packId"] == "tw-hsinchu"
+    assert packs[0]["version"] == "1.0.2"
+
+
+def test_catalog_dedup_both_variants_same_version(tmp_path):
+    """Both compact and complete must come from the selected version."""
+    import update_catalog as uc
+    importlib.reload(uc)
+
+    packs_dir = tmp_path / "packs"
+    packs_dir.mkdir()
+    _build_fake_pack(packs_dir, "jp-miyakojima", "1.0.1", "compact")
+    _build_fake_pack(packs_dir, "jp-miyakojima", "1.0.1", "complete")
+    _build_fake_pack(packs_dir, "jp-miyakojima", "1.0.2", "compact")
+    _build_fake_pack(packs_dir, "jp-miyakojima", "1.0.2", "complete")
+
+    out = tmp_path / "catalog.json"
+    uc.regenerate_catalog(tmp_path, output_path=out)
+
+    catalog = json.loads(out.read_text())
+    pack = catalog["packs"][0]
+    assert pack["version"] == "1.0.2"
+    variant_ids = {v["variantId"] for v in pack["variants"]}
+    assert variant_ids == {"compact", "complete"}
+    # Both download URLs must reference 1.0.2 filenames
+    for v in pack["variants"]:
+        assert "1.0.2" in v["downloadUrl"], f"Stale URL in selected version: {v['downloadUrl']}"
+
+
+def test_catalog_dedup_multi_pack(tmp_path):
+    """With two pack IDs, each gets its own latest version, one entry each."""
+    import update_catalog as uc
+    importlib.reload(uc)
+
+    packs_dir = tmp_path / "packs"
+    packs_dir.mkdir()
+    for pid in ("tw-hsinchu", "jp-miyakojima"):
+        for version in ("1.0.1", "1.0.2"):
+            for variant in ("compact", "complete"):
+                _build_fake_pack(packs_dir, pid, version, variant)
+
+    out = tmp_path / "catalog.json"
+    uc.regenerate_catalog(tmp_path, output_path=out)
+
+    catalog = json.loads(out.read_text())
+    packs = catalog["packs"]
+    assert len(packs) == 2, [(p["packId"], p["version"]) for p in packs]
+    pack_ids = [p["packId"] for p in packs]
+    assert len(pack_ids) == len(set(pack_ids)), f"Duplicate packId: {pack_ids}"
+    for p in packs:
+        assert p["version"] == "1.0.2"
+
+
+def test_catalog_deterministic(tmp_path):
+    """Running the generator twice must produce identical output (modulo updatedAt)."""
+    import update_catalog as uc
+    importlib.reload(uc)
+
+    packs_dir = tmp_path / "packs"
+    packs_dir.mkdir()
+    for pid in ("tw-hsinchu", "jp-miyakojima"):
+        for v in ("compact", "complete"):
+            _build_fake_pack(packs_dir, pid, "1.0.2", v)
+
+    out1 = tmp_path / "catalog1.json"
+    out2 = tmp_path / "catalog2.json"
+    uc.regenerate_catalog(tmp_path, output_path=out1)
+    uc.regenerate_catalog(tmp_path, output_path=out2)
+
+    c1 = json.loads(out1.read_text())
+    c2 = json.loads(out2.read_text())
+    # Strip volatile field before comparing
+    for c in (c1, c2):
+        c.pop("updatedAt", None)
+    assert c1 == c2
+
+
+def test_catalog_semver_ordering(tmp_path):
+    """1.0.10 must beat 1.0.9 (lexicographic ordering would fail this)."""
+    import update_catalog as uc
+    importlib.reload(uc)
+
+    packs_dir = tmp_path / "packs"
+    packs_dir.mkdir()
+    for version in ("1.0.9", "1.0.10"):
+        for variant in ("compact", "complete"):
+            _build_fake_pack(packs_dir, "tw-hsinchu", version, variant)
+
+    out = tmp_path / "catalog.json"
+    uc.regenerate_catalog(tmp_path, output_path=out)
+
+    catalog = json.loads(out.read_text())
+    assert catalog["packs"][0]["version"] == "1.0.10"
+
+
+def test_committed_catalog_unique_pack_ids():
+    """The committed catalog.json in the repo must not have duplicate packId values."""
+    catalog = json.loads((REPO_ROOT / "catalog.json").read_text(encoding="utf-8"))
+    pack_ids = [p["packId"] for p in catalog["packs"]]
+    assert len(pack_ids) == len(set(pack_ids)), f"Duplicate packId in catalog.json: {pack_ids}"
