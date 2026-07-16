@@ -36,9 +36,9 @@ point:
           label: 需付費
   indoor: false
   location:
-    latitude: 24.8018
-    longitude: 125.2762
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8018,125.2762"
+    latitude: 24.8028
+    longitude: 125.2713
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8028,125.2713"
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000

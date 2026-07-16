@@ -42,9 +42,9 @@ point:
           label: 限時開放
   indoor: true
   location:
-    latitude: 24.80406
-    longitude: 120.97252
-  googleMapsUrl: "https://maps.google.com/maps?q=24.80406,120.97252"
+    latitude: 24.8014
+    longitude: 120.9781
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8014,120.9781"
   trigger:
     radiusMeters: 60.0
     dwellMillis: 2000

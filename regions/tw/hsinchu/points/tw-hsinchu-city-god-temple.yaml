@@ -39,8 +39,8 @@ point:
   indoor: true
   location:
     latitude: 24.8043
-    longitude: 120.9703
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8043,120.9703"
+    longitude: 120.9661
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8043,120.9661"
   trigger:
     radiusMeters: 60.0
     dwellMillis: 2000

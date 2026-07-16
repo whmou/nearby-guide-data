@@ -34,9 +34,9 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8038
-    longitude: 120.9702
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8038,120.9702"
+    latitude: 24.802398
+    longitude: 120.966654
+  googleMapsUrl: "https://maps.google.com/maps?q=24.802398,120.966654"
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
