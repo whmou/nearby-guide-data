@@ -40,6 +40,7 @@ point:
   location:
     latitude: 24.80120
     longitude: 120.97180
+  googleMapsUrl: "https://maps.google.com/maps?q=24.8012,120.9718"
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000

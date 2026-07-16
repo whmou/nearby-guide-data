@@ -125,6 +125,10 @@
         },
         "locationHint": {
           "type": ["string", "null"]
+        },
+        "googleMapsUrl": {
+          "type": ["string", "null"],
+          "format": "uri"
         }
       }
     },

@@ -131,7 +131,7 @@ def _build_point_record(point_data: dict, variant: str, pack_dir: Path) -> dict:
         "observationPrompt": p.get("observationPrompt"),
         "contentSourceLabel": None,
         "contentSourceUrl": None,
-        "googleMapsUrl": None,
+        "googleMapsUrl": p.get("googleMapsUrl"),
         "googleMapsRating": None,
         "googleMapsReviewCount": None,
         "locationHint": p.get("locationHint"),
