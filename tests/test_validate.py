@@ -205,3 +205,67 @@ def test_rating_calculation_matches_declared():
     rating_errors = [e for e in result.errors if "ratingEvidence.final" in e.message]
     assert not rating_errors, \
         f"Rating calculation mismatches:\n" + "\n".join(str(e) for e in rating_errors)
+
+
+# ---------------------------------------------------------------------------
+# Android schema contract tests
+# ---------------------------------------------------------------------------
+
+def _open_built_pack(variant: str, pack_id: str) -> dict:
+    """Open a built guidepack and return (manifest, points_list)."""
+    import build_packs
+    dist_dir = REPO_ROOT / "dist" / "packs"
+    candidates = list(dist_dir.glob(f"{pack_id}-*-{variant}.guidepack"))
+    assert candidates, f"No built {pack_id} {variant} pack found in dist/packs — run build_packs.py first"
+    with zipfile.ZipFile(candidates[0]) as zf:
+        manifest = json.loads(zf.read("manifest.json"))
+        points_data = json.loads(zf.read("points.json"))
+    return manifest, points_data["points"]
+
+
+def test_manifest_has_created_at():
+    """manifest.json must contain a non-empty createdAt field (required by Android app)."""
+    for pack_id in ("tw-hsinchu", "jp-miyakojima"):
+        for variant in ("compact", "complete"):
+            manifest, _ = _open_built_pack(variant, pack_id)
+            assert "createdAt" in manifest, f"{pack_id} {variant} manifest missing createdAt"
+            assert manifest["createdAt"], f"{pack_id} {variant} manifest.createdAt is empty"
+
+
+def test_media_runtime_fields():
+    """Every media item in points.json must use mimeType + credit, not compactPath/completePath/creator."""
+    for pack_id in ("tw-hsinchu", "jp-miyakojima"):
+        for variant in ("compact", "complete"):
+            _, points = _open_built_pack(variant, pack_id)
+            for pt in points:
+                for m in pt.get("media", []):
+                    pid = pt["id"]
+                    mid = m.get("id", "?")
+                    assert "mimeType" in m, f"{pid}/{mid}: missing mimeType in {variant}"
+                    assert "creator" not in m, f"{pid}/{mid}: 'creator' must be 'credit' in {variant}"
+                    assert "compactPath" not in m, f"{pid}/{mid}: compactPath must not appear in runtime"
+                    assert "completePath" not in m, f"{pid}/{mid}: completePath must not appear in runtime"
+                    # 'path' may be absent if image file not yet downloaded — that's OK
+                    # but if present it must be a non-empty string
+                    if "path" in m:
+                        assert m["path"], f"{pid}/{mid}: path is blank in {variant}"
+
+
+def test_manifest_pack_version_field():
+    """manifest.json must use 'packVersion', not 'version'."""
+    for pack_id in ("tw-hsinchu", "jp-miyakojima"):
+        manifest, _ = _open_built_pack("compact", pack_id)
+        assert "packVersion" in manifest, f"{pack_id} manifest missing packVersion"
+        assert "version" not in manifest, f"{pack_id} manifest must not have bare 'version' field"
+
+
+def test_points_json_format_wrapper():
+    """points.json must have format:'nearby-guide-points' and extensions:{{}} wrapper."""
+    for pack_id in ("tw-hsinchu", "jp-miyakojima"):
+        dist_dir = REPO_ROOT / "dist" / "packs"
+        candidates = list(dist_dir.glob(f"{pack_id}-*-compact.guidepack"))
+        assert candidates
+        with zipfile.ZipFile(candidates[0]) as zf:
+            pts = json.loads(zf.read("points.json"))
+        assert pts.get("format") == "nearby-guide-points", f"{pack_id}: wrong format in points.json"
+        assert "extensions" in pts, f"{pack_id}: points.json missing extensions"

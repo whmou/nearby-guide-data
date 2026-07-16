@@ -4,7 +4,7 @@
   "title": "Source Pack v1",
   "description": "Schema for pack.yaml files in the regions/ directory.",
   "type": "object",
-  "required": ["schemaVersion", "packId", "version", "title", "subtitle", "region", "contentLanguage", "minAppVersionCode"],
+  "required": ["schemaVersion", "packId", "version", "title", "subtitle", "region", "contentLanguage", "minAppVersionCode", "createdAt"],
   "additionalProperties": false,
   "properties": {
     "schemaVersion": {
@@ -57,6 +57,11 @@
       "type": "integer",
       "minimum": 1,
       "description": "Minimum Android app versionCode required to read this pack."
+    },
+    "createdAt": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",
+      "description": "Fixed UTC timestamp embedded in manifest.json for deterministic builds."
     }
   }
 }
