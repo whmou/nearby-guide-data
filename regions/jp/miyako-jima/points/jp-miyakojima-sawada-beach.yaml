@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Sawada_no_Hama_rocks_Irabu_Island_Okinawa.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:The_entire_Sawada_beach.jpg
+    creator: "ブルーノ・プラス"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "413a8ed3eab8c871532c084140b32c7e9bce18f48696e671753f94866ebea9c5"
     compactPath: media/compact/jp-miyakojima-sawada-beach.webp
     completePath: media/complete/jp-miyakojima-sawada-beach.webp
 review:

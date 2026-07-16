@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Beaches_of_Miyakojima
-    creator: "various Wikimedia contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:A_small_market_along_a_street_in_Miyakojima_2016-05-15.jpg
+    creator: "aco pbc"
+    license: "CC0"
+    licenseUrl: http://creativecommons.org/publicdomain/zero/1.0/deed.en
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "8cdf208e5dbcf2427778d35aa1206ad069383ee7b6a76d45f4fb4fa6b805bbfe"
     compactPath: media/compact/jp-miyakojima-painagama-beach.webp
     completePath: media/complete/jp-miyakojima-painagama-beach.webp
 review:

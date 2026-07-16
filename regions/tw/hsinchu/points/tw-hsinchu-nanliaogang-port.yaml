@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nanliao_Fishing_Harbor_Hsinchu.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nanliao_Fishing_Harbor_南寮漁港_-_panoramio.jpg
+    creator: "lienyuan lee"
+    license: "CC BY 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "0100aff54bea9ab1958ba4f2fe83030c8a6b147457924cb659dbad6303fcada5"
     compactPath: media/compact/tw-hsinchu-nanliaogang-port.webp
     completePath: media/complete/tw-hsinchu-nanliaogang-port.webp
 review:

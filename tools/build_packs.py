@@ -43,9 +43,12 @@ def _load_yaml(path: Path) -> dict:
         return yaml.safe_load(f)
 
 
-def _make_zip_info(name: str, compression: int = zipfile.ZIP_DEFLATED) -> zipfile.ZipInfo:
+def _make_zip_info(name: str) -> zipfile.ZipInfo:
+    # STORED for all entries: WebP/JSON are effectively incompressible or tiny,
+    # and STORED avoids zlib-version differences across operating systems.
     info = zipfile.ZipInfo(name, date_time=ZIP_TIMESTAMP)
-    info.compress_type = compression
+    info.compress_type = zipfile.ZIP_STORED
+    info.create_system = 3  # Unix, fixed regardless of the host OS
     info.external_attr = 0o644 << 16
     return info
 
@@ -54,16 +57,23 @@ def _make_zip_info(name: str, compression: int = zipfile.ZIP_DEFLATED) -> zipfil
 # Media record builder
 # ---------------------------------------------------------------------------
 
-def _build_media_record(m: dict, variant: str, pack_dir: Path) -> dict:
+def _build_media_record(m: dict, variant: str, pack_dir: Path, point_id: str) -> dict:
     """Build a runtime media item for the given variant.
 
     Uses compactPath / completePath from source to select the variant-specific
-    local path, but only emits 'path' if the file actually exists in the repo.
-    Falls back to sourceUrl for remote-only images.
+    local path. The referenced file MUST exist on disk — a missing image is a
+    hard error (the Android app rejects packs whose media lack a usable path).
     """
     local_rel: str | None = m.get("compactPath") if variant == "compact" else m.get("completePath")
 
-    has_local = bool(local_rel and (pack_dir / local_rel).exists())
+    local_abs = (pack_dir / local_rel) if local_rel else None
+    has_local = bool(local_rel and local_abs.exists())
+
+    if not has_local:
+        raise FileNotFoundError(
+            f"[{point_id}] {variant} image missing: expected {local_abs}\n"
+            f"Run: python tools/download_images.py"
+        )
 
     record: dict[str, Any] = {
         "id": m["id"],
@@ -71,8 +81,8 @@ def _build_media_record(m: dict, variant: str, pack_dir: Path) -> dict:
         "mimeType": "image/webp" if m.get("type") == "image" else m.get("mimeType", ""),
     }
 
-    if has_local:
-        record["path"] = local_rel
+    # After the fail-fast check, 'path' is always set.
+    record["path"] = local_rel
 
     if m.get("sourceUrl"):
         record["sourceUrl"] = m["sourceUrl"]
@@ -117,7 +127,7 @@ def _build_point_record(point_data: dict, variant: str, pack_dir: Path) -> dict:
         "hierarchy": p["hierarchy"],
         "tagGroups": p["tagGroups"],
         "legacyTags": [],
-        "media": [_build_media_record(m, variant, pack_dir) for m in media_src],
+        "media": [_build_media_record(m, variant, pack_dir, p["id"]) for m in media_src],
         "observationPrompt": p.get("observationPrompt"),
         "contentSourceLabel": None,
         "contentSourceUrl": None,
@@ -200,6 +210,7 @@ def build_pack(pack_dir: Path, output_dir: Path, verbose: bool = True) -> dict[s
             "variantId": variant,
             "mediaMode": variant,
             "title": pack_data["title"],
+            "subtitle": pack_data.get("subtitle", ""),
             "createdAt": created_at,
             "contentLanguage": pack_data["contentLanguage"],
             "region": pack_data["region"],
@@ -211,12 +222,13 @@ def build_pack(pack_dir: Path, output_dir: Path, verbose: bool = True) -> dict[s
         }
         manifest_bytes = json.dumps(manifest_obj, ensure_ascii=False, indent=2).encode("utf-8")
 
-        # Write deterministic ZIP: manifest first (STORED), then others (DEFLATED, sorted)
+        # Write deterministic ZIP: manifest first, then other entries sorted by name.
+        # All entries STORED for cross-platform reproducibility.
         buf = io.BytesIO()
         with zipfile.ZipFile(buf, "w", allowZip64=False) as zf:
-            zf.writestr(_make_zip_info("manifest.json", zipfile.ZIP_STORED), manifest_bytes)
+            zf.writestr(_make_zip_info("manifest.json"), manifest_bytes)
             for name, data in sorted(file_entries, key=lambda x: x[0]):
-                zf.writestr(_make_zip_info(name, zipfile.ZIP_DEFLATED), data)
+                zf.writestr(_make_zip_info(name), data)
 
         zip_bytes = buf.getvalue()
         archive_sha256 = _sha256(zip_bytes)

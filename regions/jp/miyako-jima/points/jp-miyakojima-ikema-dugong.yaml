@@ -89,11 +89,11 @@ media:
   - id: primary-image
     type: image
     sourceUrl: https://commons.wikimedia.org/wiki/File:Dugong_dugon.jpg
-    creator: "Julien Willem"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    creator: "Geoff Spiby / www.geoffspiby.co.za"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "15d6c381aa319563cd316a36b19aef3d35b418bd462d1286bf180a18c248ae6e"
     compactPath: media/compact/jp-miyakojima-ikema-dugong.webp
     completePath: media/complete/jp-miyakojima-ikema-dugong.webp
 review:

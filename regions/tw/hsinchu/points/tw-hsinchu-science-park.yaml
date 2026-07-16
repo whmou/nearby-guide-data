@@ -88,12 +88,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Science_Park_Administration_Building.jpg
-    creator: "Solomon203"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Science_and_Industrial_Park_Administration_20101017.jpg
+    creator: "Peellden"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "edbbe7497646877f5c1ad65890e7fdaac8c7649c98cf44f5866f30be3ef269e2"
     compactPath: media/compact/tw-hsinchu-science-park.webp
     completePath: media/complete/tw-hsinchu-science-park.webp
 review:

@@ -83,12 +83,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_God_Temple.jpg
-    creator: "Solomon203"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_God_Temple-01.2023-11-21.jpg
+    creator: "阿道"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "35278957927081d28c9b98dce1ac488f5a8e3492ab026dbcc49c46f5a5c08ac8"
     compactPath: media/compact/tw-hsinchu-city-god-temple.webp
     completePath: media/complete/tw-hsinchu-city-god-temple.webp
 review:

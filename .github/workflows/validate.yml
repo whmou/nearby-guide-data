@@ -18,11 +18,11 @@ jobs:
       - name: Validate source YAML
         run: python tools/validate.py --all
 
-      - name: Run tests
-        run: python -m pytest -v
-
       - name: Build packs
         run: python tools/build_packs.py --all --output dist
+
+      - name: Run tests
+        run: python -m pytest -v
 
       - name: Check reproducibility
         run: python tools/check_generated.py

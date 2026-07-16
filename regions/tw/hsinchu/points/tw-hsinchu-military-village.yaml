@@ -87,12 +87,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Juancun_Museum.jpg
-    creator: "Pbdragonwang"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Building_of_Military_Dependants'_Village_Museum_of_Hsinchu_City.jpg
+    creator: "Jeffreyjhang"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "af324dd16b511bff2cf540f95fdc7395703f3ea57905cbd301c823b10780218e"
     compactPath: media/compact/tw-hsinchu-military-village.webp
     completePath: media/complete/tw-hsinchu-military-village.webp
 review:

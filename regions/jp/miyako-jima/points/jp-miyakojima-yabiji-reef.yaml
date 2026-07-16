@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yabiji_Reef_Miyakojima.jpg
-    creator: "Wikimedia Commons contributor"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yabishi1.jpg
+    creator: "Papakuro"
+    license: "CC BY 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "98e7a40ec7d994fa90a931d4337ef551f56066fb1d8e067fa62d0b49e5d2b74f"
     compactPath: media/compact/jp-miyakojima-yabiji-reef.webp
     completePath: media/complete/jp-miyakojima-yabiji-reef.webp
 review:

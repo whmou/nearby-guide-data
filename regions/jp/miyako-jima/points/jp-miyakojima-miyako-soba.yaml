@@ -91,12 +91,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako-soba_001.jpg
-    creator: "various Wikimedia contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tebichi_soba_-_Miyako_island_-_Mar_27_2020_01-20_PM.jpeg
+    creator: "Nesnad"
+    license: "CC BY 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "4956776721aa5cffbf7c16944e28fae08cbd0cd4b7f749834c49eb29be19007f"
     compactPath: media/compact/jp-miyakojima-miyako-soba.webp
     completePath: media/complete/jp-miyakojima-miyako-soba.webp
 review:

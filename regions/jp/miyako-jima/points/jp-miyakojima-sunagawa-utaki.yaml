@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Utaki
-    creator: "Various contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nasu-nu-utaki_07.jpg
+    creator: "Bérangère444"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "9987abb8c70c885351093f49e4725bd1789a55ce077e7520da24bce485f077f7"
     compactPath: media/compact/jp-miyakojima-sunagawa-utaki.webp
     completePath: media/complete/jp-miyakojima-sunagawa-utaki.webp
 review:

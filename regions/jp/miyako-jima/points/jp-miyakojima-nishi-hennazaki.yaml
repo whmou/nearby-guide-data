@@ -84,12 +84,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nishi-Hennazaki_cape_Miyakojima.jpg
-    creator: "Hikarih"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nishi-hen-na01.jpg
+    creator: "Haidonan"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "ba4d02d82ef5bf42d3b43ffc72efc02b6b2b120590a6d69216ee0f5c3a9d740d"
     compactPath: media/compact/jp-miyakojima-nishi-hennazaki.webp
     completePath: media/complete/jp-miyakojima-nishi-hennazaki.webp
 review:

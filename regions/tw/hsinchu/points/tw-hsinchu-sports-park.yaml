@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Municipal_Stadium.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Municipal_Stadium,_Nov_2024.jpg
+    creator: "Ralff Nestor Nacor"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "486e1d3dc2c8de2fd17cce83cbb590fb0dd350cc5de81a7f9d1e52dad61878e5"
     compactPath: media/compact/tw-hsinchu-sports-park.webp
     completePath: media/complete/tw-hsinchu-sports-park.webp
 review:

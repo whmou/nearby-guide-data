@@ -88,12 +88,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Bingata_ryukyu.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bingata_kimono_Okinawa.png
+    creator: "Unknown Ryukyu artisans. Photo by Museum"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "31fffc08f8028efbb6b18065d6b0e85e33603fe5da71399e2127f44fbcf2dee9"
     compactPath: media/compact/jp-miyakojima-botanical-bingata.webp
     completePath: media/complete/jp-miyakojima-botanical-bingata.webp
 review:

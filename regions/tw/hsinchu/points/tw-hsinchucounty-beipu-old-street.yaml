@@ -88,12 +88,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Beipu_Old_Street_Hsinchu_County.jpg
-    creator: "Pbdragonwang"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Beipu_Taiwan_Street-vendor-01.jpg
+    creator: "CEphoto, Uwe Aranas"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "e26d097772e69a467c031163177d1072a81d40e069fdb63936e6d19589ee9235"
     compactPath: media/compact/tw-hsinchucounty-beipu-old-street.webp
     completePath: media/complete/tw-hsinchucounty-beipu-old-street.webp
 review:

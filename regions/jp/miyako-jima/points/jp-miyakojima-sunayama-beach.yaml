@@ -82,12 +82,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunayama_Beach_Miyakojima.jpg
-    creator: "663highland"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunayama_Beach_in_Miyako_Island_,_Okinawa_Pref._-_panoramio.jpg
+    creator: "JiroS."
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "875174c6e79dbb88a3f4e1d79ef234e2c488137dd7dbf9819ea4a51ac585fc7a"
     compactPath: media/compact/jp-miyakojima-sunayama-beach.webp
     completePath: media/complete/jp-miyakojima-sunayama-beach.webp
 review:

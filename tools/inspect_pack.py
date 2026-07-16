@@ -13,6 +13,7 @@ import json
 import re
 import sys
 import zipfile
+from io import BytesIO
 from pathlib import Path
 
 FORBIDDEN_PATH = re.compile(
@@ -120,6 +121,70 @@ def inspect(archive_path: Path) -> bool:
                         file=sys.stderr,
                     )
                     ok = False
+
+                # Media verification
+                try:
+                    from PIL import Image
+                except ImportError:
+                    Image = None
+                    print("WARNING: Pillow not installed — skipping WebP decode check", file=sys.stderr)
+
+                manifest_file_map = {f["path"]: f for f in manifest.get("files", [])}
+
+                for pt in points_obj.get("points", []):
+                    pid = pt.get("id", "?")
+                    for m in pt.get("media", []):
+                        mid = m.get("id", "?")
+                        path = m.get("path")
+                        mime = m.get("mimeType", "")
+
+                        if not path:
+                            # Fail-fast builder guarantees a path for every image.
+                            print(f"ERROR: {pid}/{mid}: media has no 'path'", file=sys.stderr)
+                            ok = False
+                            continue
+
+                        # (1) path exists in ZIP
+                        if path not in names:
+                            print(f"ERROR: {pid}/{mid}: media path '{path}' not in archive", file=sys.stderr)
+                            ok = False
+                            continue
+
+                        # (2) path declared in manifest.files
+                        if path not in manifest_file_map:
+                            print(f"ERROR: {pid}/{mid}: media path '{path}' not in manifest.files", file=sys.stderr)
+                            ok = False
+
+                        data = zf.read(path)
+
+                        # (3) bytes & sha256 match manifest entry
+                        finfo = manifest_file_map.get(path)
+                        if finfo:
+                            if len(data) != finfo.get("bytes"):
+                                print(
+                                    f"ERROR: {pid}/{mid}: '{path}' bytes {len(data)} != manifest {finfo.get('bytes')}",
+                                    file=sys.stderr,
+                                )
+                                ok = False
+                            if _sha256(data) != finfo.get("sha256"):
+                                print(f"ERROR: {pid}/{mid}: '{path}' sha256 mismatch vs manifest", file=sys.stderr)
+                                ok = False
+
+                        # (4) extension matches mimeType
+                        if mime == "image/webp" and not path.lower().endswith(".webp"):
+                            print(
+                                f"ERROR: {pid}/{mid}: mimeType image/webp but path '{path}' is not .webp",
+                                file=sys.stderr,
+                            )
+                            ok = False
+
+                        # (5) WebP decodable by Pillow
+                        if Image is not None:
+                            try:
+                                Image.open(BytesIO(data)).verify()
+                            except Exception as exc:  # noqa: BLE001
+                                print(f"ERROR: {pid}/{mid}: '{path}' not decodable: {exc}", file=sys.stderr)
+                                ok = False
 
     if ok:
         print(f"OK: {archive_path.name}")

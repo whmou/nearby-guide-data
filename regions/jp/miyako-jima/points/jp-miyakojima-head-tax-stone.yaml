@@ -91,12 +91,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nintozei-ishi_Miyakojima.jpg
-    creator: "various Wikimedia contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nintouzeiseki.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "cd752d270f725e1d0e57463fa0978bee7cd096ed9a61e2e134a13fbbb58c3dc6"
     compactPath: media/compact/jp-miyakojima-head-tax-stone.webp
     completePath: media/complete/jp-miyakojima-head-tax-stone.webp
 review:

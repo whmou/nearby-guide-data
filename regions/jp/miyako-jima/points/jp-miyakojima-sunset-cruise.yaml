@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_sunset_sea.jpg
-    creator: "Wikimedia Commons contributor"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cruise_Ship_Sunset_View.jpg
+    creator: "Shelley Steinhorst"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "028b9ed1d733917752a456fe7d0a5f91cee4cb1593d925d5834f44a123160579"
     compactPath: media/compact/jp-miyakojima-sunset-cruise.webp
     completePath: media/complete/jp-miyakojima-sunset-cruise.webp
 review:

@@ -87,12 +87,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Xiangshan_Wetland_Hsinchu_Taiwan.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Xiangshan_Wetland-Yang_MingHsiung-03.jpg
+    creator: "Yang yang end"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "73514c54d1f7613111bc509edb1a75487869a133304c7a8fb88aad006211eb5d"
     compactPath: media/compact/tw-hsinchu-xiangshan-wetland.webp
     completePath: media/complete/tw-hsinchu-xiangshan-wetland.webp
 review:

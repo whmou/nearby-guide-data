@@ -78,12 +78,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Kaijin_no_Mori_mangrove_Miyakojima.jpg
-    creator: "Wikimedia Commons contributor"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikema_Bridge_in_Miyakojima.jpg
+    creator: "ブルーノ・プラス"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "445c1a230a2c5fa595235bfff3d1859aa445caa95a01ac5ce9f55798541187dc"
     compactPath: media/compact/jp-miyakojima-kaijin-no-mori.webp
     completePath: media/complete/jp-miyakojima-kaijin-no-mori.webp
 review:

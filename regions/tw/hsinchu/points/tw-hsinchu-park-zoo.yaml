@@ -83,12 +83,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Zoo_Entrance.jpg
-    creator: "Pbdragonwang"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Entrance_of_Hsinchu_Zoo.jpg
+    creator: "Yuriy kosygin"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "68732172b5334931ae5a1df199fbe945df036a45c6b8babaaf517966d839aef0"
     compactPath: media/compact/tw-hsinchu-park-zoo.webp
     completePath: media/complete/tw-hsinchu-park-zoo.webp
 review:

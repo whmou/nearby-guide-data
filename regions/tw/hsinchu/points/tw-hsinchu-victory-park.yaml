@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Victory_Park_Hsinchu_Taiwan.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Park_20180930.jpg
+    creator: "Taiwania_Justo"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "ce2304d4bc94b6fe1df71804c1f346a3ed80fd46c7e51f75607bf731586026c3"
     compactPath: media/compact/tw-hsinchu-victory-park.webp
     completePath: media/complete/tw-hsinchu-victory-park.webp
 review:

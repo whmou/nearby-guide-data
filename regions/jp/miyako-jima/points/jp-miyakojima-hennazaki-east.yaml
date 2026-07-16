@@ -83,12 +83,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Higashi-Hennazaki_lighthouse.jpg
-    creator: "Hikarih"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_higashi_hennazaki_lighthouse.JPG
+    creator: "Metatron"
+    license: "CC BY-SA 3.0"
+    licenseUrl: http://creativecommons.org/licenses/by-sa/3.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "1792e2fd2f5455d0e7b6c41a39e1346193a0081b863c62339ec77eda2baba54e"
     compactPath: media/compact/jp-miyakojima-hennazaki-east.webp
     completePath: media/complete/jp-miyakojima-hennazaki-east.webp
 review:

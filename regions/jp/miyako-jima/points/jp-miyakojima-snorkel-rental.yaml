@@ -88,12 +88,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Painagama_beach_miyakojima.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:US_Navy_101212-N-5758H-010_Musician_3rd_Class_Danielle_Clark_picks_up_trash_at_Painagama_Beach_on_the_island_of_Miyakojima_during_a_beach_cleanup.jpg
+    creator: "U.S. Navy photo by Mass Communication Specialist 2nd Class Kenneth R. Hendrix"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "e7c3722672ba7312406d6ecb982bccfa87e97810137f104eb039fe4af607bda5"
     compactPath: media/compact/jp-miyakojima-snorkel-rental.webp
     completePath: media/complete/jp-miyakojima-snorkel-rental.webp
 review:

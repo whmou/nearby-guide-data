@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Utaki_in_Okinawa
-    creator: "various Wikimedia contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_07.jpg
+    creator: "Hyppolyte de Saint-Rambert"
+    license: "CC BY 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "30352e459e7c4c9250a02d3d7fc6ae13645f278809bb9436b897a8dd85aa8bd9"
     compactPath: media/compact/jp-miyakojima-harimizu-utaki.webp
     completePath: media/complete/jp-miyakojima-harimizu-utaki.webp
 review:

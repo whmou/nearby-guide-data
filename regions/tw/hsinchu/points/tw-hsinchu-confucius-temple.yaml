@@ -88,11 +88,11 @@ media:
   - id: primary-image
     type: image
     sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Confucius_Temple.jpg
-    creator: "Koika"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    creator: "Rutger van der Maar"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "e38d349f2e9190bb69538d01653c8f503d1de868e9ae5a6e655fedef88257e2f"
     compactPath: media/compact/tw-hsinchu-confucius-temple.webp
     completePath: media/complete/tw-hsinchu-confucius-temple.webp
 review:

@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimoji_Island_17END_beach_approach.jpg
-    creator: "Various contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimojishima_Runway17.jpg
+    creator: "Cassiopeia sweet"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "f14cd2072296e66b88e04fabe3e76e28fa5f456734a8d7fe7ec600a6f1d27b76"
     compactPath: media/compact/jp-miyakojima-17end-beach.webp
     completePath: media/complete/jp-miyakojima-17end-beach.webp
 review:

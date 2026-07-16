@@ -77,12 +77,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Historic_buildings_in_Hsinchu_City
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Juvenile_Penitentiary_Performance_Field_2022-08-29.jpg
+    creator: "T Gordon Cheng"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "acba657067238a8d3052fa5d8996bae819109044819275c6d097e0af4727d2f5"
     compactPath: media/compact/tw-hsinchu-zhurenliyou-house.webp
     completePath: media/complete/tw-hsinchu-zhurenliyou-house.webp
 review:

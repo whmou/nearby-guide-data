@@ -83,12 +83,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_East_Gate.jpg
-    creator: "Pbdragonwang"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:North_West_part_of_East_Gate_in_modern_Hsinchu.jpg
+    creator: "No machine-readable author provided. Atinncnu assumed (based on copyright claims)."
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "90ac2704241702e169c8d28638830ae5b5b6b3864644e08a1995644ac33de12c"
     compactPath: media/compact/tw-hsinchu-east-gate.webp
     completePath: media/complete/tw-hsinchu-east-gate.webp
 review:

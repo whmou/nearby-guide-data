@@ -80,12 +80,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Toriki-ike_Miyako-jima01.jpg
-    creator: "663highland"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Toriike.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "6a476d566182fbd72720a554d982de1be2a3e6cdb616b7dabc1be82811316703"
     compactPath: media/compact/jp-miyakojima-toriki-ike-pools.webp
     completePath: media/complete/jp-miyakojima-toriki-ike-pools.webp
 review:

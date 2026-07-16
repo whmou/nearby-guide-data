@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_horse_Okinawa_Japan.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_uma.JPG
+    creator: "Haidonan"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "2df1fe05a823a5d6013e5704f4b5789de32f0244eb81dba5e2438ab132f035bc"
     compactPath: media/compact/jp-miyakojima-miyako-horse.webp
     completePath: media/complete/jp-miyakojima-miyako-horse.webp
 review:

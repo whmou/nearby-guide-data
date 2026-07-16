@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_Okinawa_Japan.jpg
-    creator: "Wikimedia Commons contributor"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg
+    creator: "Anagounagi"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "812be3d0a1b4f3e6b086578ee9ae443c3f6f23c8aa77565c5140196e8460e9e0"
     compactPath: media/compact/jp-miyakojima-sea-kayak-mangrove.webp
     completePath: media/complete/jp-miyakojima-sea-kayak-mangrove.webp
 review:

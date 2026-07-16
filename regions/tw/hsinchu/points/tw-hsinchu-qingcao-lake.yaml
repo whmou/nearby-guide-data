@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Qingcao_Lake_Hsinchu.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:青草湖_Qingcao_Lake_-_panoramio_(1).jpg
+    creator: "lienyuan lee"
+    license: "CC BY 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "6fd2104b5bfbb201d717c416535a2d9660d933f53708f9e33eef993fdfe3f6ca"
     compactPath: media/compact/tw-hsinchu-qingcao-lake.webp
     completePath: media/complete/tw-hsinchu-qingcao-lake.webp
 review:

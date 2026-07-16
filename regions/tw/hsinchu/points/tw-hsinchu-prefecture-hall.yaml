@@ -83,12 +83,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_City_Hall.jpg
-    creator: "Koika"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:新竹市立演藝廳_Hsinchu_City_Performance_Hall.jpg
+    creator: "yunlin2003 from Yunlin County, Taiwan, the R.O.C."
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "38d4b5bfdb8371ad778b1c510a220b0c9f9bdd477457354f93b22990ca7ffa61"
     compactPath: media/compact/tw-hsinchu-prefecture-hall.webp
     completePath: media/complete/tw-hsinchu-prefecture-hall.webp
 review:

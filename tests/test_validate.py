@@ -269,3 +269,168 @@ def test_points_json_format_wrapper():
             pts = json.loads(zf.read("points.json"))
         assert pts.get("format") == "nearby-guide-points", f"{pack_id}: wrong format in points.json"
         assert "extensions" in pts, f"{pack_id}: points.json missing extensions"
+
+
+# ---------------------------------------------------------------------------
+# v1.0.1 media / build regression tests
+# ---------------------------------------------------------------------------
+
+import glob as _glob
+
+import yaml as _yaml
+
+DIST_PACKS = REPO_ROOT / "dist" / "packs"
+REGIONS = REPO_ROOT / "regions"
+
+_HEX64 = None
+
+
+def _require_dist():
+    if not DIST_PACKS.exists() or not any(DIST_PACKS.glob("*.guidepack")):
+        pytest.skip("no built packs in dist/packs — run build_packs.py first")
+
+
+def _pack_path(pack_id: str, variant: str) -> Path:
+    _require_dist()
+    cands = sorted(DIST_PACKS.glob(f"{pack_id}-*-{variant}.guidepack"))
+    if not cands:
+        pytest.skip(f"no {pack_id} {variant} pack built")
+    return cands[-1]
+
+
+def _open_pack(pack_id: str, variant: str):
+    p = _pack_path(pack_id, variant)
+    with zipfile.ZipFile(p) as zf:
+        manifest = json.loads(zf.read("manifest.json"))
+        points = json.loads(zf.read("points.json"))["points"]
+        names = set(zf.namelist())
+    return manifest, points, names
+
+
+def _iter_source_points():
+    for pf in sorted(REGIONS.rglob("points/*.yaml")):
+        data = _yaml.safe_load(pf.read_text(encoding="utf-8"))
+        yield pf, data
+
+
+PACK_IDS = ("tw-hsinchu", "jp-miyakojima")
+VARIANTS = ("compact", "complete")
+
+
+def test_source_media_files_exist():
+    for pf, data in _iter_source_points():
+        pack_dir = pf.parent.parent
+        for m in data.get("media", []):
+            for key in ("compactPath", "completePath"):
+                rel = m.get(key)
+                assert rel, f"{pf.name}: media missing {key}"
+                assert (pack_dir / rel).exists(), f"{pf.name}: {key} file missing: {rel}"
+
+
+def test_original_sha256_populated():
+    import re as _re
+    hex64 = _re.compile(r"^[0-9a-f]{64}$")
+    for pf, data in _iter_source_points():
+        for m in data.get("media", []):
+            sha = m.get("originalSha256")
+            assert sha, f"{pf.name}: originalSha256 is null/empty"
+            assert hex64.match(sha), f"{pf.name}: originalSha256 not 64 hex chars: {sha!r}"
+
+
+def test_built_media_has_required_fields():
+    for pack_id in PACK_IDS:
+        for variant in VARIANTS:
+            _, points, _ = _open_pack(pack_id, variant)
+            for pt in points:
+                for m in pt.get("media", []):
+                    for field in ("mimeType", "path", "credit", "license", "sourceUrl"):
+                        assert field in m and m[field], \
+                            f"{pack_id}/{variant} {pt['id']}: media missing '{field}'"
+
+
+def test_media_path_in_zip():
+    for pack_id in PACK_IDS:
+        for variant in VARIANTS:
+            _, points, names = _open_pack(pack_id, variant)
+            for pt in points:
+                for m in pt.get("media", []):
+                    assert m["path"] in names, \
+                        f"{pack_id}/{variant} {pt['id']}: path {m['path']} not in ZIP"
+
+
+def test_media_path_in_manifest_files():
+    for pack_id in PACK_IDS:
+        for variant in VARIANTS:
+            manifest, points, _ = _open_pack(pack_id, variant)
+            declared = {f["path"] for f in manifest.get("files", [])}
+            for pt in points:
+                for m in pt.get("media", []):
+                    assert m["path"] in declared, \
+                        f"{pack_id}/{variant} {pt['id']}: path {m['path']} not in manifest.files"
+
+
+def test_manifest_bytes_and_sha256_correct():
+    import hashlib
+    for pack_id in PACK_IDS:
+        for variant in VARIANTS:
+            p = _pack_path(pack_id, variant)
+            with zipfile.ZipFile(p) as zf:
+                manifest = json.loads(zf.read("manifest.json"))
+                for f in manifest.get("files", []):
+                    data = zf.read(f["path"])
+                    assert len(data) == f["bytes"], f"{p.name}: {f['path']} bytes mismatch"
+                    assert hashlib.sha256(data).hexdigest() == f["sha256"], \
+                        f"{p.name}: {f['path']} sha256 mismatch"
+
+
+def test_compact_has_images():
+    for pack_id in PACK_IDS:
+        _, _, names = _open_pack(pack_id, "compact")
+        extra = names - {"manifest.json", "points.json"}
+        webps = [n for n in extra if n.endswith(".webp")]
+        assert webps, f"{pack_id} compact has no image files"
+
+
+def test_complete_larger_than_compact():
+    for pack_id in PACK_IDS:
+        compact = _pack_path(pack_id, "compact").stat().st_size
+        complete = _pack_path(pack_id, "complete").stat().st_size
+        assert complete > compact, f"{pack_id}: complete not larger than compact"
+
+
+def test_complete_images_larger_than_compact():
+    for pack_id in PACK_IDS:
+        pc = _pack_path(pack_id, "compact")
+        pl = _pack_path(pack_id, "complete")
+        with zipfile.ZipFile(pc) as zc, zipfile.ZipFile(pl) as zl:
+            c_sizes = {i.filename.split("/")[-1]: i.file_size for i in zc.infolist() if i.filename.endswith(".webp")}
+            l_sizes = {i.filename.split("/")[-1]: i.file_size for i in zl.infolist() if i.filename.endswith(".webp")}
+            common = set(c_sizes) & set(l_sizes)
+            assert common, f"{pack_id}: no common images"
+            assert any(l_sizes[k] > c_sizes[k] for k in common), \
+                f"{pack_id}: no complete image larger than its compact equivalent"
+
+
+def test_subtitle_in_manifest():
+    for pack_id in PACK_IDS:
+        for variant in VARIANTS:
+            manifest, _, _ = _open_pack(pack_id, variant)
+            assert manifest.get("subtitle"), f"{pack_id}/{variant}: subtitle missing/empty"
+
+
+def test_point_counts():
+    expected = {"tw-hsinchu": 36, "jp-miyakojima": 71}
+    for pack_id, count in expected.items():
+        _, points, _ = _open_pack(pack_id, "compact")
+        assert len(points) == count, f"{pack_id}: expected {count} points, got {len(points)}"
+
+
+def test_no_media_without_path():
+    for pack_id in PACK_IDS:
+        for variant in VARIANTS:
+            _, points, _ = _open_pack(pack_id, variant)
+            for pt in points:
+                for m in pt.get("media", []):
+                    if "sourceUrl" in m:
+                        assert m.get("path"), \
+                            f"{pack_id}/{variant} {pt['id']}: media has sourceUrl but no path"

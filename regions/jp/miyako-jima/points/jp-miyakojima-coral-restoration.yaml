@@ -89,12 +89,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Coral_restoration_Okinawa.jpg
-    creator: "Wikimedia Commons contributor"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sand_Dollar_Sports_coral_reef_restoration_project.jpg
+    creator: "Sand Dollar Sports"
+    license: "CC BY 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "804c51c709338ace06e2e55f7b7fa5ede248fe08ead3c0a711662925bb1ae977"
     compactPath: media/compact/jp-miyakojima-coral-restoration.webp
     completePath: media/complete/jp-miyakojima-coral-restoration.webp
 review:

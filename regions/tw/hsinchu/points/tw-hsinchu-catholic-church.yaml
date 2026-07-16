@@ -83,12 +83,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Hsinchu_Cathedral.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Immaculate_Heart_of_Mary_Cathedral,_Hsinchu_20070225.jpg
+    creator: "阿佳、Kikuchi"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "d07041691b26c8b009b1f090e0ef6904d9fa38e7d29cfcd4c28fe4bacc6a0907"
     compactPath: media/compact/tw-hsinchu-catholic-church.webp
     completePath: media/complete/tw-hsinchu-catholic-church.webp
 review:

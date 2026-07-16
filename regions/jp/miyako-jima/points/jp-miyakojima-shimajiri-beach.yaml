@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Yonaha_Maehama_Beach
-    creator: "Various contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_maipama_1.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "822b2cc0a4efe977ad3045c867ae0487483ed384aec3d86b7f6ef2b9852312c5"
     compactPath: media/compact/jp-miyakojima-shimajiri-beach.webp
     completePath: media/complete/jp-miyakojima-shimajiri-beach.webp
 review:

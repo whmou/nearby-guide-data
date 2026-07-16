@@ -87,12 +87,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Glass_Museum_Hsinchu.jpg
-    creator: "Solomon203"
-    license: "CC-BY-SA-3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Glass_Museum_of_Hsinchu_City.jpg
+    creator: "kaedium"
+    license: "CC BY-SA 3.0"
+    licenseUrl: http://creativecommons.org/licenses/by-sa/3.0/
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "9304282b805eca9bab7ced190c617afbca238544cd0d2ef074a9abb72ddb405f"
     compactPath: media/compact/tw-hsinchu-glass-museum.webp
     completePath: media/complete/tw-hsinchu-glass-museum.webp
 review:

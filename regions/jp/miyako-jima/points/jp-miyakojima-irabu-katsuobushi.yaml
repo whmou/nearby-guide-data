@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Sarahama_fishing_village_Irabu_Island.jpg
-    creator: "Wikimedia Commons contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "14753c000bc542ebceefd58df5c790363e81e1897201b701dc3026e2d638b486"
     compactPath: media/compact/jp-miyakojima-irabu-katsuobushi.webp
     completePath: media/complete/jp-miyakojima-irabu-katsuobushi.webp
 review:

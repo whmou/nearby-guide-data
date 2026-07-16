@@ -86,12 +86,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Kugushima
-    creator: "Various contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojima_Kurima_aerial.jpg
+    creator: "Graeme Bartlett"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "c12b51e2213fabd64c17a389cd6d65abcb192859fffefbf04b1d1dba469d5b2c"
     compactPath: media/compact/jp-miyakojima-kurima-island.webp
     completePath: media/complete/jp-miyakojima-kurima-island.webp
 review:

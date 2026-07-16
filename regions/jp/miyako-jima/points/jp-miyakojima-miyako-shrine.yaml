@@ -90,12 +90,12 @@ sources:
 media:
   - id: primary-image
     type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/Category:Miyako_Shrine
-    creator: "various Wikimedia contributors"
-    license: "CC-BY-SA-4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojinjya.jpg
+    creator: "Tacara"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
     accessedAt: "2026-07-15"
-    originalSha256: null
+    originalSha256: "ef8503ce36725dbae74b43ab6385c25d9a08c34a3c23f57d0d8a6c1e31f26e5e"
     compactPath: media/compact/jp-miyakojima-miyako-shrine.webp
     completePath: media/complete/jp-miyakojima-miyako-shrine.webp
 review:
