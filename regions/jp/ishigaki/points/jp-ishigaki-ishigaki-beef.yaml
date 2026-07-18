@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-ishigaki-beef
+  parentId: null
+  kind: venue
+  title: "石垣牛焼肉"
+  summary: "松阪牛・近江牛の「隠れた親戚」、それが石垣牛。南国の離島で生まれた和牛ブランドの本場で、炭火の香りとともにその秘密を味わおう。島内70軒超の焼肉店が集まる美崎町は、石垣の夜を代表する美食街。"
+  narration: |
+    走進石垣島的夜晚，美崎町的燒肉店招牌一家接著一家亮起，空氣裡飄著炭火烤肉的香氣。這裡有一個多數遊客不知道的秘密：你手邊正夾著的那片石垣牛，極有可能就是松阪牛、近江牛、米澤牛這些日本頂級和牛的「親戚」——甚至是它們的老祖宗。
+    
+    石垣島和八重山群島長年以來是全日本最重要的和牛素牛產地。所謂「素牛」，就是出生後被送往本州各地飼育、育成當地品牌牛的幼牛。意思是說，那些在高級料亭讓人嘖嘖稱奇的名牌和牛，很多都是在這座南國小島上出生的。長期以來，島上農家辛苦培育的牛隻被送走、換上別人的名字出道，石垣本地反倒沒有屬於自己的品牌。這樣的情況默默持續了幾十年。
+    
+    直到2000年，命運的齒輪才開始轉動。那一年，G8高峰會在沖縄舉辦，各國元首雲集的晚宴主菜，正是石垣牛。消息一公開，全日本都震驚了——「原來這麼了不起的牛，就在沖縄最南端的離島上！」從那之後，石垣牛搖身一變，成為備受矚目的高級品牌和牛，並於2008年正式取得地域團體商標認定。
+    
+    石垣牛的美味秘訣藏在這裡的氣候裡。沖縄全年溫暖，牛隻在低壓力的環境下慢慢長大，不需要對抗嚴冬，也不必蜷縮在陰暗的牛舍裡。悠閒的成長環境讓肉質的油花分布均勻，卻又不過分油膩，吃起來有淡淡的甜味和豐富的鮮味。行家吃法只需撒上薄薄一層鹽，就能感受到最純粹的滋味，根本停不下來。
+    
+    現在島上有七十多家燒肉店，各自詮釋石垣牛的魅力。不管是A5等級的稀有部位，還是老饕才懂的內臟料理，在這裡都找得到。點一份石垣牛、配上一杯冰涼的奧利安啤酒，看著炭火輕輕燒著油花慢慢化開，你正在吃的，正是日本和牛世界的源頭。
+  observationPrompt: "菜單上的石垣牛標示了哪個等級（A4還是A5）？問問店員，今天端上來的牛是在島內哪個牧場長大的——每個牧場的飼育方式不同，看看你能不能從肉的風味裡嚐出差異。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 文化
+        label: 文化
+      - id: 体験
+        label: 体験
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 美食
+        label: 美食
+  indoor: true
+  location:
+    latitude: 24.3393
+    longitude: 124.1563
+    locationHint: "石垣市中心部・美崎町の飲食街エリア。離島ターミナル（ユーグレナ石垣港離島ターミナル）から徒歩5〜10分圏内に焼肉店が多数集中。夜は看板が明るく迷わず見つかる。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3393,124.1563"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "2000年G8沖縄サミットの晩餐会メインディッシュに採用されたことで一躍全国区に。元来、松阪牛・近江牛など全国ブランド牛の素牛産地として知られ、日本和牛のルーツとも言われる歴史的重要産地。"
+    sources: [jp-ishigaki-ishigaki-beef-source]
+  distinctiveness:
+    score: 5
+    note: "石垣島でしか食べられない地産地消の高級和牛体験。同じ石垣牛でも本土流通品と現地直送では鮮度と価格が段違いで、島内70軒超の焼肉店が独自の個性を競う唯一無二の食文化エリア。"
+    sources: [jp-ishigaki-ishigaki-beef-source]
+  interpretability:
+    score: 5
+    note: "特別な予備知識がなくても、注文して食べるだけで石垣牛の魅力が体感できる。店員に話しかけるとブランド牛の歴史や産地の話を聞かせてもらえることも多い。"
+    sources: [jp-ishigaki-ishigaki-beef-source]
+  visitorValue:
+    score: 5
+    note: "石垣島観光の「絶対外せない」体験として地元・観光客双方から高評価。美崎町に集中しているためアクセスも容易。1人あたり3,000〜8,000円程度が目安。予約推奨の人気店多数。"
+    sources: [jp-ishigaki-ishigaki-beef-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-ishigaki-beef-source]
+  final: 4.5
+sources:
+  - id: jp-ishigaki-ishigaki-beef-source
+    title: "石垣牛 - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E7%89%9B
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_beef_sushi,_Ishigaki,_Japan.JPG
+    creator: "User: (WT-shared) Shoestring at wts wikivoyage"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "7f6ec5f3e0f5252b38af006ad9ccbfa6dc147fb329ee5376ce9115084f707d4f"
+    compactPath: media/compact/jp-ishigaki-ishigaki-beef.webp
+    completePath: media/complete/jp-ishigaki-ishigaki-beef.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

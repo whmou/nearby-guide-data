@@ -1,0 +1,107 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-souvenir-street
+  parentId: null
+  kind: venue
+  title: "ユーグレナモール"
+  summary: "日本最南端の拱廊商店街，從百年魚市場到ミドリムシ企業命名，265公尺的老街藏著石垣島最生猛的歷史故事，也是全國首例商店街命名權出售的傳奇地標。"
+  narration: |
+    走進這條全長265公尺的拱廊商店街，你很難想像腳下的土地，早在明治32年（1899年）就已是一座熱鬧的魚市場。那時候，八重山的漁夫把剛捕上來的鮮魚搬進來，婦女們沿街叫賣，整個島嶼的食材流通都以這裡為中心。後來市場遷到現在的位置扎根，商業活動愈來愈旺，到了1988年和1989年，南北兩條拱廊相繼完工，現代意義的商店街正式誕生。
+    
+    街坊鄰居一起公開投票命名，選出了「あやぱに（綾羽）」這個充滿詩意的名字。它來自八重山最膾炙人口的民謠《鷲ぬ鳥節》，「綾羽」描寫的是鳳頭蒼鷹那如彩綢般絢爛的羽翼，帶著一股屬於南島的驕傲與浪漫。
+    
+    然而2010年，一件在日本商業史上史無前例的事情悄悄發生了。商店街振興組合為了籌措建設借款的還款資金，決定出售商店街的命名權——這是全日本第一例。買下這個名字的，是一家叫做「ユーグレナ（Euglena）」的公司。不少老居民感嘆：「あやぱにが消えてしまった」——「綾羽就這樣不見了。」
+    
+    但仔細一看，這家公司與石垣島其實有著非常深厚的緣分：2005年，Euglena公司就是在石垣島燦爛的陽光下，全球首次成功實現了ミドリムシ（眼蟲藻）的戶外大量培養，讓這種含有59種營養素的微藻，成為改寫健康食品版圖的明星。那片碧綠的藻田，就長在這座島上。名字雖然換了，卻換成了另一個屬於石垣島的故事。
+    
+    今天走在這條熱帶風情的拱廊下，看著石垣牛料理、黑糖甜點、八重山民藝品一字排開，偶爾聽到三線琴的旋律從某家店裡飄出來，你或許不會意識到，這條街不只是一條紀念品街，更是一部濃縮了石垣島百年歲月與現代科技奇遇的活生生故事書。
+  observationPrompt: "商店街由中央通り和銀座通り兩條並行拱廊組成，兩條街中間夾著石垣市公設市場——你能找到哪些只有在八重山群島才看得到的在地食材或手工藝品，是一般日本超市或百貨公司完全買不到的？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 文化
+        label: 文化
+      - id: 歷史
+        label: 歷史
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 購物
+        label: 購物
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: true
+  location:
+    latitude: 24.339472
+    longitude: 124.157972
+    locationHint: "從石垣港離島ターミナル步行約10分鐘，位於730交叉路口旁的大川通り沿線；商店街本身無專屬停車場，建議使用周邊付費停車場或從市區步行前往。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.339472,124.157972"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "日本最南端的拱廊商店街，同時是全國首例商店街命名權出售案例，百年公設市場文化的傳承地，石垣島旅遊必訪市中心地標。"
+    sources: [jp-ishigaki-souvenir-street-source]
+  distinctiveness:
+    score: 4
+    note: "全日本首例商店街命名權出售，且買主Euglena公司正是在石垣島成功培養眼蟲藻的生技企業，新舊名字都與這座島有獨特連結，歷史層次罕見。"
+    sources: [jp-ishigaki-souvenir-street-source]
+  interpretability:
+    score: 2
+    note: "表面看來就是熱鬧的購物街，若不了解命名更替的故事、あやぱに民謠典故，以及Euglena眼蟲藻與石垣島的關係，很難體會這條街的深度。"
+    sources: [jp-ishigaki-souvenir-street-source]
+  visitorValue:
+    score: 4
+    note: "完全免費入場，距石垣港步行約10分鐘，可逛1至2小時，集購物、飲食、公設市場文化體驗於一身，雨天亦可在拱廊下悠閒遊逛，CP值極高。"
+    sources: [jp-ishigaki-souvenir-street-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-souvenir-street-source]
+  final: 3.2
+sources:
+  - id: jp-ishigaki-souvenir-street-source
+    title: "ユーグレナモール - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%A2%E3%83%BC%E3%83%AB
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_euglena_mall_2011.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    accessedAt: "2026-07-18"
+    originalSha256: "8e7d672886b250558eb2b2d7d7342cf9f269ac689a2fcc6310e2700004ed2f95"
+    compactPath: media/compact/jp-ishigaki-souvenir-street.webp
+    completePath: media/complete/jp-ishigaki-souvenir-street.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

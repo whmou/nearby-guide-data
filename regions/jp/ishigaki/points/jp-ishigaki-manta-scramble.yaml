@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-manta-scramble
+  parentId: null
+  kind: venue
+  title: "川平石崎マンタスクランブル"
+  summary: "川平灣外海1公里的神秘水下世界，是全球公認的魟魚聖地。1985年由在地潛水先驅開拓，超過300隻魟魚在此建立「清潔站」，遭遇率高達九成。9至11月可見十餘隻列隊同游的壯觀「魟魚列車」，是潛水客一生必體驗的奇景。"
+  narration: |
+    從川平灣出發的潛水船，駛離海岸約十分鐘後，海水顏色從碧綠驟然轉為湛藍。船長一聲令下，就是這裡了——マンタスクランブル，石垣島最具傳奇色彩的潛點，也是許多人一輩子最難忘的潛水記憶。
+    
+    一切要從1985年說起。當時年僅19歲的園田真先生，離鄉移居石垣島，在川平灣外海約1公里的珊瑚礁間，意外發現了一群魟魚聚集的秘密。消息刊上潛水雜誌的隔天，竟然有50艘船同時湧至，「不見魟魚就等於沒去石垣島！」這句話從此在日本潛水界廣為流傳。
+    
+    為何魟魚如此鍾情於此？答案藏在「清潔站」裡。珊瑚根附近棲息著大批小魚，牠們會游到魟魚身上，一口一口清除寄生蟲。對魟魚而言，這裡是貨真價實的「海底美容院」——張開如翅膀般的巨大體翼懸停水中，一臉陶醉等著被服務，那模樣讓人忍不住微笑。
+    
+    園田先生與川平的潛水業者共同制定了守護規則：不踩珊瑚根、不追逐、不觸碰，魟魚游過頭頂時甚至要暫時憋氣，以免氣泡嚇到牠們。正是這份用心，讓超過300隻魟魚至今仍在此安居。每隻魟魚的腹部花紋各不相同，就像人類指紋，導遊們為每隻取了名字，數十年如一日地記錄觀察。
+    
+    每年9月至11月是「魟魚列車」的高峰期，雄魟群起追著雌魟，十隻以上連成一線蜿蜒游過——那份壯觀，是此生難忘的禮物。
+  observationPrompt: "魟魚游到你面前時，仔細觀察牠腹部的花紋——那個圖案讓你聯想到什麼形狀？這是辨認每隻魟魚身份的專屬「指紋」，導遊甚至能叫出牠的名字！"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 離島
+        label: 離島
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  indoor: false
+  location:
+    latitude: 24.4869
+    longitude: 124.1322
+    locationHint: "從川平灣的潛水業者碼頭搭乘潛水船出發，約10至15分鐘可抵達潛點。此潛點無法自行前往，必須事先向「海講座（Umicoza）」或其他川平灣在地業者報名，由專業導潛人員帶領下水。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4869,124.1322"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "全球遭遇率最高的礁魟清潔站之一，石垣島潛水的代名詞，1985年開拓至今吸引大量日本及國際潛水客，是日本潛水界指標性聖地。"
+    sources: [jp-ishigaki-manta-scramble-source]
+  distinctiveness:
+    score: 5
+    note: "超過300隻有名字的魟魚個體長年棲息，遭遇率約九成，且可觀察到罕見的清潔站行為與「魟魚列車」求偶奇景，全球屈指可數。"
+    sources: [jp-ishigaki-manta-scramble-source]
+  interpretability:
+    score: 3
+    note: "必須通過潛水或浮潛才能抵達，清潔站行為及魟魚個體識別需導遊現場解說，純靠自行觀察難以理解全貌，強烈建議選擇有解說的導潛行程。"
+    sources: [jp-ishigaki-manta-scramble-source]
+  visitorValue:
+    score: 4
+    note: "需參加付費潛水或浮潛行程（約10,000至20,000日圓），從川平灣出發僅10至15分鐘，建議預留2至3小時（含往返及水中時間），以遭遇率與體驗品質而言物超所值。"
+    sources: [jp-ishigaki-manta-scramble-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-manta-scramble-source]
+  final: 4.25
+sources:
+  - id: jp-ishigaki-manta-scramble-source
+    title: "川平石崎マンタスクランブル完全ガイド | 石垣島ミライズレンタカー"
+    publisher: ""
+    url: https://miraisrentacar.jp/sightseeing/manta-scramble/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Okinawa_Giant_oceanic_manta_ray.png
+    creator: "Hiroya02"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "537a1c3136a60481daa000c4e2e6d2525f28db3101e294971baf3d17068a8a3b"
+    compactPath: media/compact/jp-ishigaki-manta-scramble.webp
+    completePath: media/complete/jp-ishigaki-manta-scramble.webp
+admissions:
+  - label: "需報名參加潛水或浮潛行程，費用因業者而異，體驗潛水約10,000至20,000日圓，正式潛水行程（2支氣瓶）另計。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

@@ -1,0 +1,106 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-taketomi-village
+  parentId: null
+  kind: venue
+  title: "竹富島の集落"
+  summary: "在竹富島，時間彷彿凝結。白珊瑚砂路、橘紅琉球古瓦、珊瑚礁石牆，加上緩緩漫步的水牛車與三味線歌聲，這座1987年被列為國家重要傳統建造物群保存地區的集落，是沖縄最美的活歷史。"
+  narration: |
+    從竹富港下船，騎上租來的自行車，沿著鋪滿白色珊瑚砂的小路往村子騎去——輪子轉著轉著，感覺把你帶回了一百年前。
+    
+    竹富島中央的三個聚落：東、西、仲筋，自1987年起被日本政府指定為「重要傳統建造物群保存地區」。走進集落，低矮的琉球式平房一字排開，橘紅古瓦屋頂上蹲著守護獸「獅咬」（シーサー），半獅半犬，據說能阻擋一切惡靈入侵。圍牆是島民一塊一塊從海邊撿來的珊瑚礁石疊砌而成，完全不用水泥，颱風年年來也屹立不搖。
+    
+    集落入口通常有個叫「スンマシャー」的小廣場，旁邊站著盤根錯節的大榕樹。這不只是乘涼用的——道路在這裡刻意轉彎或分叉，是風水設計，讓惡靈走到這裡就迷路、出不去。島上還有一座「ンブフル丘」，傳說一頭神牛在一夜之間堆出了這座小丘，世代守護著島民的平安。
+    
+    最讓人難忘的，是那輛緩緩行走在白砂路上的水牛車。坐上去，御者大哥彈著三味線唱「安里屋ユンタ」——講述竹富島古代第一美女クヤマ與眾多追求者的傳說——水牛慢步悠悠，完美詮釋了這座島特有的「よんなー」（慢慢來）哲學。
+    
+    1986年，島民制定了「竹富島憲章」，立下四個誓言：不賣、不污、不亂、不壞。就是這四個字，讓竹富島在觀光浪潮中依然保有這片琥珀般的風景，讓每個來到這裡的旅人都能感受到，有些地方真的值得用一輩子去珍惜。
+  observationPrompt: "集落入口有個「スンマシャー」廣場，仔細看看廣場旁的道路——它是不是刻意轉彎或形成Y字岔路？當地人為什麼要把路設計成這樣，藏著什麼樣的智慧？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 建築
+        label: 建築
+      - id: 自然
+        label: 自然
+      - id: 離島
+        label: 離島
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3233
+    longitude: 124.0917
+    locationHint: "從竹富港步行約10至15分鐘即可抵達集落；亦可在港口租借自行車沿珊瑚砂路騎行，或搭乘竹富觀光中心的水牛車遊覽集落一圈。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3233,124.0917"
+  trigger:
+    radiusMeters: 300.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "1987年被指定為國家「重要傳統建造物群保存地區」，是日本最完整保存琉球傳統農村風貌的集落，與京都祇園、奈良今井町齊名。"
+    sources: [jp-ishigaki-taketomi-village-source]
+  distinctiveness:
+    score: 5
+    note: "白珊瑚砂路、珊瑚礁石牆、橘紅琉球古瓦屋頂、水牛車、三味線「安里屋ユンタ」——每一個元素組合在一起，全日本找不到第二個地方。"
+    sources: [jp-ishigaki-taketomi-village-source]
+  interpretability:
+    score: 3
+    note: "集落外觀美麗易欣賞，但「スンマシャー」風水設計、竹富島憲章、ンブフル丘傳說等深層文化脈絡，需要解說才能真正理解。"
+    sources: [jp-ishigaki-taketomi-village-source]
+  visitorValue:
+    score: 5
+    note: "從竹富港步行即可抵達，集落漫步及自行車遊覽完全免費，建議停留1至2小時；水牛車體驗需另購票約1,500円。"
+    sources: [jp-ishigaki-taketomi-village-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-taketomi-village-source]
+  final: 4.4
+sources:
+  - id: jp-ishigaki-taketomi-village-source
+    title: "竹富島 - Wikipedia（日語）"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E7%AB%B9%E5%AF%8C%E5%B3%B6
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Taketomi_Island05s5s4592.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "309208afbdc5e23a8e0ca8dda94f05c04d7aff7954fb37fc364443d7a4bd852e"
+    compactPath: media/compact/jp-ishigaki-taketomi-village.webp
+    completePath: media/complete/jp-ishigaki-taketomi-village.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

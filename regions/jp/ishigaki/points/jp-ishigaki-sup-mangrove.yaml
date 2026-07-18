@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-sup-mangrove
+  parentId: null
+  kind: venue
+  title: "SUPマングローブ体験（宮良川）"
+  summary: "石垣島最長の宮良川を、ボードの上に立ちながら静かに遡る。国指定天然記念物のマングローブ原生林を自分のペースで探索できる、石垣島でしか味わえない非日常体験。"
+  narration: |
+    宮良川は石垣島で最も長い川、全長12キロの本格的な河川です。市街地から車で10分ほど南東に走ると、突然空気が変わります。窓を開けると、小鳥のさえずりと水のせせらぎが耳に飛び込んでくる。その瞬間、あなたはまったく別の世界に踏み込んでいます。
+    
+    このマングローブ林は1972年に国の天然記念物に指定されています。河口から両岸1.5キロにわたって広がる225ヘクタールの林は日本最大級の規模で、ユネスコの「日本の重要湿地500」にも選ばれています。ヤエヤマヒルギ、メヒルギ、オヒルギという三種類のヒルギが、水面から奇妙な形の根を伸ばしている姿は、まるで太古の生命力が溢れているようです。あの複雑に絡まった「タコ足根」は、水中に酸素を送るために進化した特殊な器官で、無数の小さな生き物のすみかになっています。
+    
+    SUPボードに立って静かに川を遡ると、頭上でマングローブの枝がアーチを作ります。パドルを止めて水面に目を向けると、驚くべきものが現れます――ミナミトビハゼが陸の上を歩いている！両目が飛び出ていて、ひれを足のように使って移動するこの魚は、まさに「水から陸への進化の途中」を今も生きている生き物です。ガイドがそっと指さすまで気づかなかった、という人がほとんどです。
+    
+    琉球王国の時代から、宮良の集落の人々はこの川に寄り添って生きてきました。川魚を獲り、木材を利用し、上流の石灰岩洞窟を精霊が宿る場として大切にしてきたと伝えられています。SUPやカヌーでしか届かない上流の鍾乳洞は、今でも神秘的な雰囲気を残しています。
+    
+    早朝6時のツアーなら、朝霧の中に浮かぶマングローブと静寂の川面が待っています。写真・備品レンタル・ホテル送迎込みでガイドが同行してくれるので、初心者でも安心して体験できます。
+  observationPrompt: "SUPボードを止めてマングローブの根元をじっと観察してみてください。水面と陸の境目に、ひれを使って歩いている生き物を見つけられますか？それは何で、なぜ水の中に戻らなくていいのでしょう？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 体験
+        label: 体験
+      - id: 紅樹林
+        label: 紅樹林
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3579
+    longitude: 124.2118
+    locationHint: "石垣市宮良地区。宮良橋バス停から徒歩約2分。ツアー会社の無料送迎が一般的で、ほとんどのショップが石垣市内から送迎あり。自家用車の場合は宮良川沿いの駐車スペースを利用。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3579,124.2118"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "宮良川マングローブ林は1972年に国の天然記念物に指定、225ヘクタールの日本最大級のヒルギ群落で「日本の重要湿地500」にも選ばれている。"
+    sources: [jp-ishigaki-sup-mangrove-source]
+  distinctiveness:
+    score: 4
+    note: "立ったままボードを漕いで天然記念物のマングローブを探索するSUP体験は石垣島ならでは。ミナミトビハゼなど固有の生き物との出会いも独特。"
+    sources: [jp-ishigaki-sup-mangrove-source]
+  interpretability:
+    score: 4
+    note: "ガイド同行のツアー形式なので、マングローブの生態や生き物について詳しい説明が受けられ、知識ゼロでも深く楽しめる。"
+    sources: [jp-ishigaki-sup-mangrove-source]
+  visitorValue:
+    score: 4
+    note: "ホテル送迎・写真データ・備品レンタル込みで約7,900円〜。所要約2.5時間。当日予約も可能なプランあり。初心者・ファミリー向け。"
+    sources: [jp-ishigaki-sup-mangrove-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-sup-mangrove-source]
+  final: 3.9
+sources:
+  - id: jp-ishigaki-sup-mangrove-source
+    title: "宮良川マングローブ｜石垣島最大のヒルギ林・SUP・カヌーツアー・アクセス完全ガイド"
+    publisher: ""
+    url: https://miraisrentacar.jp/sightseeing/miyara-river-mangrove/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg
+    creator: "Anagounagi"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "812be3d0a1b4f3e6b086578ee9ae443c3f6f23c8aa77565c5140196e8460e9e0"
+    compactPath: media/compact/jp-ishigaki-sup-mangrove.webp
+    completePath: media/complete/jp-ishigaki-sup-mangrove.webp
+admissions:
+  - label: "ガイド付きSUP／カヌーツアー料金：約7,900円〜（写真データ・備品レンタル・ホテル送迎込み）。ツアー会社により異なる。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

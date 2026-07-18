@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-observatory
+  parentId: null
+  kind: venue
+  title: "石垣島天文台（むりかぶし望遠鏡）"
+  summary: "九州沖繩最大的105公分望遠鏡就藏在前勢岳山頂——在這座日本最南端的國立天文台，南十字星、86個星座與璀璨銀河全都在同一片夜空，是由高中生連署請願才促成的夢幻天文聖地。"
+  narration: |
+    站在前勢岳山頂，一座白色圓頂靜靜矗立在熱帶叢林之間，那就是石垣島天文台。這裡的主角叫「むりかぶし望遠鏡」——「むりかぶし」是八重山方言裡對昴宿星團的稱呼，和日語的「昴（すばる）」同義。換句話說，這台105公分的大望遠鏡，和夏威夷那台舉世聞名的昴星望遠鏡，共享著同一個靈魂名字，只是一南一北，遙遙對話。
+    
+    天文台於2006年由國立天文台與石垣市攜手建立，是九州沖繩最大的光學紅外線望遠鏡所在地。但開幕才半年，颱風就重創了這裡，設施被迫關閉整修，直到2007年才重新迎接訪客。那段從誕生到風雨洗禮再到重生的歷程，是這座天文台最早的考驗。
+    
+    讓天文迷驚喜的是，石垣島位於北緯24度，大氣不受噴射氣流干擾，星點穩定清晰，是全日本獨一無二的觀測優勢。全天88個星座在此可見86個；南十字星——在台灣的緯度永遠見不到的南半球象徵——在這裡的冬夜卻清晰可辨。這裡一年約有300個晴夜，被評選為亞洲數一數二的美麗星空之地。
+    
+    天文台的誕生還有一段感人的幕後故事：建設初期，正是石垣島的高中生自發連署、向市議會請願，才推動了政府撥款支持。望遠鏡裝設完成後，這群學生更親手在儀器上描繪了八重山傳統棉布「ミンサー」的織紋，象徵著「いつ（五）の世（四）までも」——直到永遠的祝願。每一個仰望星空的夜晚，都悄悄疊加著那群少年的心意。
+  observationPrompt: "仔細找找望遠鏡圓頂建築上，有沒有看到特殊的幾何圖案？那是八重山傳統棉布「ミンサー」的織紋，由當年連署促成天文台建設的高中生親手描繪——你知道這個圖案代表什麼含義嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 展望台
+        label: 展望台
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.373583
+    longitude: 124.139389
+    locationHint: "從石垣市區車行約20分鐘，經班那公園南口對面的「前勢岳林道」入口進入，沿山路行駛約3公里即達第一停車場（免費）。停車後步行數分鐘即可抵達天文台入口。夜間觀測請提前預約（電話：0980-88-0013）。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.373583,124.139389"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本最西南端的國立天文台，105公分口徑為九州沖繩最大；曾成功拍攝日本首例伽瑪射線暴餘輝，並發現冥王星外柯伊伯帶天體大氣，具重要研究成就。"
+    sources: [jp-ishigaki-observatory-source]
+  distinctiveness:
+    score: 5
+    note: "北緯24度大氣不受噴射氣流影響，行星細節清晰度全日本最佳；全天88星座可見86個，南十字星在此冬夜清晰可辨；望遠鏡以八重山方言「むりかぶし（昴）」命名，與夏威夷昴星望遠鏡南北呼應。"
+    sources: [jp-ishigaki-observatory-source]
+  interpretability:
+    score: 3
+    note: "白天可免費參觀展示室與設施，4D2U宇宙劇場每日下午固定播映（免費、需預約）；最精彩的天體觀望為週末夜間場次，需提前電話預約，未預約者白天參觀仍有收穫。"
+    sources: [jp-ishigaki-observatory-source]
+  visitorValue:
+    score: 4
+    note: "入館全程免費，天體觀望與4D2U劇場均免費僅需預約；距市區約20分鐘車程，停留建議1-2小時，夜間觀測時段體驗更完整，親子與天文愛好者皆適合。"
+    sources: [jp-ishigaki-observatory-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-observatory-source]
+  final: 3.95
+sources:
+  - id: jp-ishigaki-observatory-source
+    title: "石垣島天文台 公式サイト（むりかぶし）"
+    publisher: ""
+    url: https://murikabushi.jp/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_tenmondai.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    accessedAt: "2026-07-18"
+    originalSha256: "be11483e742564aa7ac6964360590297b149ed3a3b438bb21b05237c80c1462e"
+    compactPath: media/compact/jp-ishigaki-observatory.webp
+    completePath: media/complete/jp-ishigaki-observatory.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

@@ -1,0 +1,111 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-kohama-island
+  parentId: null
+  kind: venue
+  title: "小浜島（こはまじま）"
+  summary: "石垣港から高速船わずか30分——NHK晨間劇《ちゅらさん》的故鄉，甘蔗田筆直延伸向天際，平均年齡84歲的阿嬤偶像團體在此登台，時間在這座小島上彷彿靜止了。"
+  narration: |
+    站在這片翠綠的甘蔗田旁，你能感受到小浜島和石垣島完全不同的節奏——這裡的時間，好像走得特別慢。
+    
+    小浜島面積只有大約八平方公里，人口不到七百人，卻在2001年因為NHK晨間劇《ちゅらさん》（意思是「美麗的人」）一炮而紅。故事描述在島上長大的少女惠里，從這片甘蔗田出發，走向廣大的世界。劇中主角一家居住的「こはぐら荘」，至今仍保留著傳統琉球建築的樣貌——珊瑚石砌成的圍牆、古老的橘紅屋瓦，很多日本人專程坐船過來，只為站在門口拍一張照。
+    
+    說到甘蔗，島上最有名的地標就是「Sugar Road」——一條筆直穿越甘蔗田的道路，兩側的甘蔗葉隨風搖曳，藍天與綠浪交織出一幅讓人不想離開的風景。這條路也是《ちゅらさん》的取景地之一，走在上面，彷彿能看見劇中主角奔跑的身影。
+    
+    但讓小浜島真正讓人心疼的，是一個叫KBG84的女子團體。KBG是「こはまじま・ばあちゃん・合唱団」的縮寫，84是她們的平均年齡，最高齡曾達97歲。入團條件只有三個：住在小浜島、是女性、超過八十歲。這些阿嬤穿上親手織的芭蕉布、登上舞台唱歌跳舞。因為年輕時遭逢戰亂，很多人沒能穿上嫁衣，所以入團典禮特別讓她們穿婚紗拍紀念照——那一幕，讓無數看到的人紅了眼眶。
+    
+    島上最高點烏不岳（Ufudaki）只有99公尺，但站在瞭望台遠眺，西表島就在眼前，海風一吹，什麼煩惱都散了。2007年，島上的盂蘭盆舞與結願祭、種子取祭等傳統表演藝術，更被指定為日本重要無形民俗文化財。
+    
+    這座小島教會人一件事：人生的美好，不在於快，而在於深。
+  observationPrompt: "走到Sugar Road的甘蔗田中間，往道路盡頭望去——你能看見遠方哪座島嶼的輪廓浮現在海平面上？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 離島
+        label: 離島
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3417
+    longitude: 123.9792
+    locationHint: "從石垣港離島フェリーターミナル搭高速船約25-30分鐘抵達小浜港，島上建議租借電動腳踏車遊覽，Sugar Road位於島嶼東側。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3417,123.9792"
+  trigger:
+    radiusMeters: 300.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "NHK晨間劇《ちゅらさん》的拍攝地，令全日本認識此島；傳統祭典藝能列為日本重要無形民俗文化財，KBG84阿嬤合唱團更獲國際媒體關注。"
+    sources: [jp-ishigaki-kohama-island-source]
+  distinctiveness:
+    score: 5
+    note: "平均年齡84歲的KBG84偶像團體為世界罕見；筆直穿越甘蔗田的Sugar Road是沖繩離島中極具辨識度的地標；融合電視文化聖地與純樸琉球日常的小島體驗無可取代。"
+    sources: [jp-ishigaki-kohama-island-source]
+  interpretability:
+    score: 3
+    note: "Sugar Road等自然景觀一眼即懂；但《ちゅらさん》劇情背景與KBG84的感人故事需要事先了解才能在現場產生共鳴，建議出發前略讀導覽解說。"
+    sources: [jp-ishigaki-kohama-island-source]
+  visitorValue:
+    score: 4
+    note: "島上無門票費用，主要花費為石垣港往返高速船（成人約¥1,790單程）及電動腳踏車租借；島嶼半天可環繞，建議停留一天以感受悠閒步調。"
+    sources: [jp-ishigaki-kohama-island-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-kohama-island-source]
+  final: 3.95
+sources:
+  - id: jp-ishigaki-kohama-island-source
+    title: "Kohama Island - Wikipedia"
+    publisher: ""
+    url: https://en.wikipedia.org/wiki/Kohama_Island
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ufu-daki_Kohamajima_Okinawa_Japan01s3s4440.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "d471371e0753fb60042910187e74f6201b553a7d49245f5d0087959a9ecc2c02"
+    compactPath: media/compact/jp-ishigaki-kohama-island.webp
+    completePath: media/complete/jp-ishigaki-kohama-island.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

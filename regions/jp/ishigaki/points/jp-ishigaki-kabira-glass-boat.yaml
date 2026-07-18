@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-kabira-glass-boat
+  parentId: null
+  kind: venue
+  title: "川平湾グラスボート"
+  summary: "米其林三星認定的川平湾，因全面禁止游泳而保留了最原始的珊瑚礁——坐上玻璃船，透過腳下玻璃窗近距離觀賞250種珊瑚與悠游海龜，不弄濕一根頭髮就能窺見石垣島最美的海底世界。"
+  narration: |
+    站在川平湾的白沙灘上，眼前這片隨著光線變幻、從翡翠綠流向鈷藍的海水，看起來平靜得像一面鏡子。但這片海的故事，遠比外表深沉得多。
+    
+    幾百年前，川平湾是琉球王朝貿易木帆船「マーラン船」的天然避風港。從石垣港出發、載著貢品前往首里城的船隊，遇上逆風就會停靠這裡等上好幾天。你腳下這片沙灘，曾是水手們仰望星空等待出航的地方。
+    
+    二戰期間，這個隱密的海灣又換了一種面貌——日本軍在此秘密部署特攻艇，那些小型快艇原本準備衝撞盟軍軍艦，卻因戰事終結而未曾出擊。如今海面上再無任何硝煙的痕跡，只剩下一片不知道當年故事的寧靜。
+    
+    戰後的1963年，川平湾迎來了足以改寫世界珠寶史的一刻：日本首次在這裡成功養殖出黑蝶真珠，那深邃的暗黑光澤令全世界為之傾倒。走在石垣島街頭隨處可見的真珠店，背後都與這片海有著直接的淵源，至今灣內仍有養殖場在運作。
+    
+    當地還流傳著一個古老傳說——這灣裡曾有人魚棲居。而當你坐上グラスボート，透過腳下的玻璃窗凝視海底，看見海龜悠然游過250多種珊瑚之間，不難理解這個傳說因何而生。
+    
+    川平湾全面禁止游泳，強勁的潮流守護著這片海，也正因如此，珊瑚礁才得以如此完整原始。玻璃船大約每15分鐘一班、全程30分鐘，是唯一能讓你近距離窺探這片海底世界的方式——而這，正是米其林給出三顆星的理由。
+  observationPrompt: "玻璃船緩緩駛入灣中央時，試著同時留意海底的兩件事：珊瑚的顏色是否鮮豔飽滿（代表健康存活），以及船底玻璃窗下有沒有海龜出沒——你覺得今天的海底，活珊瑚和白化珊瑚哪一種比較多？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 離島
+        label: 離島
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  indoor: false
+  location:
+    latitude: 24.4514
+    longitude: 124.1444
+    locationHint: "川平湾海灘入口購票後，沿白沙海岸步行至岸邊即可上船；停車場位於川平公園展望台附近，步行約5分鐘可達各玻璃船業者售票處"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4514,124.1444"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "米其林綠色指南三星認定（2009年）；1963年世界首顆黑蝶珍珠養殖成功地；日本國定名勝；是石垣島知名度最高的單一景點"
+    sources: [jp-ishigaki-kabira-glass-boat-source]
+  distinctiveness:
+    score: 5
+    note: "因禁止游泳而保持原始生態的封閉海灣，玻璃船是唯一合法深入觀賞珊瑚礁的方式；海水因潮汐與光線每日呈現多種色調，景色獨一無二"
+    sources: [jp-ishigaki-kabira-glass-boat-source]
+  interpretability:
+    score: 3
+    note: "海底景觀直觀易懂，但黑珍珠養殖史、琉球時代貿易港、二戰特攻艇等歷史脈絡，若無解說則難以自行察覺"
+    sources: [jp-ishigaki-kabira-glass-boat-source]
+  visitorValue:
+    score: 4
+    note: "需購票約¥2,300（大人），從石垣市區車程約35分鐘；玻璃船遊覽30分鐘，含周邊海灘散步建議停留1.5小時；老少咸宜，不需任何潛水技術"
+    sources: [jp-ishigaki-kabira-glass-boat-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-kabira-glass-boat-source]
+  final: 4.25
+sources:
+  - id: jp-ishigaki-kabira-glass-boat-source
+    title: "川平マリンサービス 公式サイト"
+    publisher: ""
+    url: https://www.kabiramarine.jp/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island41s3s4500.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "10bb23159c86dea6477b3974c7d3e0bc427d4863bf70035598fd485b8985404f"
+    compactPath: media/compact/jp-ishigaki-kabira-glass-boat.webp
+    completePath: media/complete/jp-ishigaki-kabira-glass-boat.webp
+admissions:
+  - label: "大人（12歲以上）¥2,300・兒童（4-11歲）¥1,200・3歲以下免費（每位大人限帶1名，超額依兒童費計算）；身障人士¥1,700"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

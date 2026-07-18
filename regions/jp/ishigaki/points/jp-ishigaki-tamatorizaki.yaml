@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-tamatorizaki
+  parentId: null
+  kind: venue
+  title: "玉取崎展望台"
+  summary: "石垣島腰身最細處的制高點，站上展望台左手東海、右手太平洋，兩片大海同時入眼；沿途朱槿花道盛開全年，從停車場步行僅需3分鐘，是石垣島效益最高的免費絕景。"
+  narration: |
+    來到石垣島北部，有個地方是許多人「非去不可」的打卡點——玉取崎展望台。它坐落在石垣島收腰最細的地方，也就是伊原間這一帶。站在展望台上往下一看，你會發現腳下的陸地窄得出奇，左手邊是東海，右手邊是太平洋——兩片大海同時出現在你眼前，這種景色在全世界都屬罕見。
+    
+    這個細腰地帶叫做「船越」，也就是「把船搬過去」的意思。以前的漁夫根據當天的海況決定要去哪裡作業，碰到某一側海況太差的時候，就直接把小漁船扛起來，走個幾百公尺搬到另一側的海放下去繼續出發。這條陸地的最窄處只有270公尺，所以在沒有引擎船的年代，「搬船過山」是很常見的生活智慧。
+    
+    往遠處看，你會看到一條細長的半島從石垣島延伸出去，那就是平久保半島。當地人有個可愛的說法：整個石垣島的形狀像是沖繩的守護神「シーサー（石獅）」，而平久保半島就是牠翹起來的尾巴。從這個展望台往北望去，幾乎可以看到半島最遠端的平久保崎燈台，那是整個石垣島的最北端。
+    
+    從停車場沿著步道走上來，兩旁種滿了一整年都在盛開的朱槿花，紅的、粉的、橙的，迎風搖曳，南國感撲面而來。朱槿是沖繩的代表花卉之一，石垣島的強烈日照讓它們開得格外鮮豔，走在這條花道上本身就是一種享受。
+    
+    展望台建於1989年2月，是相對現代的設施，但這個制高點眺望雙海的天然優勢，早在幾百年前就已是漁民辨別航路、決定出海方向的地標。入場完全免費，停車場可停約30台車，步行到展望台只要3到5分鐘，是石垣島最值得順路停靠的景點之一。
+  observationPrompt: "站在展望台向下俯瞰，你能同時看到左右兩側的海嗎？試著分辨哪一邊是東海、哪一邊是太平洋——仔細觀察兩片海的顏色或波紋，有沒有什麼不一樣？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 展望台
+        label: 展望台
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.4906
+    longitude: 124.2789
+    locationHint: "沿國道390號往伊原間方向，接縣道206號，見到玉取崎的路標後轉入即可抵達免費停車場（可停約30台），停車場到展望台步行約3至5分鐘。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4906,124.2789"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "石垣島北部最具代表性的觀景台，能同時俯瞰東海與太平洋，並飽覽「シーサーの尻尾」平久保半島全景，是八重山旅遊必訪地標。"
+    sources: [jp-ishigaki-tamatorizaki-source]
+  distinctiveness:
+    score: 4
+    note: "全島腰部最細處270公尺的「船越」地形，讓此地成為罕見的雙海同框觀景點；加上全年盛開的朱槿花道，體驗獨一無二。"
+    sources: [jp-ishigaki-tamatorizaki-source]
+  interpretability:
+    score: 3
+    note: "地理景觀一眼可見，但「為何能同時看到兩片海」的地形原因、漁民搬船傳說等背景知識需要說明才能完整領略。"
+    sources: [jp-ishigaki-tamatorizaki-source]
+  visitorValue:
+    score: 5
+    note: "完全免費、停車方便、步行3至5分鐘即達，停留15至30分鐘即可飽覽全景，是石垣島時間與體驗效益最高的景點之一。"
+    sources: [jp-ishigaki-tamatorizaki-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-tamatorizaki-source]
+  final: 3.85
+sources:
+  - id: jp-ishigaki-tamatorizaki-source
+    title: "玉取崎展望台 | 石垣市観光交流協会"
+    publisher: ""
+    url: https://yaeyama.or.jp/%E7%8E%89%E5%8F%96%E5%B4%8E%E5%B1%95%E6%9C%9B%E5%8F%B0/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cape_Tamatori,_Ishigaki.jpg
+    creator: "Kzaral"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "376f8dbd4d38f271c589a72929e6fa3166691b3ac6de429e966e21e66ad6d5a3"
+    compactPath: media/compact/jp-ishigaki-tamatorizaki.webp
+    completePath: media/complete/jp-ishigaki-tamatorizaki.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

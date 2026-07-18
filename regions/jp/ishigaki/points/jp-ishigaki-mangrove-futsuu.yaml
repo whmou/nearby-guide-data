@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-mangrove-futsuu
+  parentId: null
+  kind: venue
+  title: "吹通川マングローブ群落"
+  summary: "石垣島北部に広がる吹通川のヒルギ群落は国指定天然記念物。四種の紅樹林が織りなす迷宮のような根系の世界を無料で体感でき、カヌーで川奥の「縁結びの滝」を目指す神秘的な體驗も待っている。"
+  narration: |
+    想像你站在吹通橋上，俯身往下看——一條靜靜流淌的河流兩岸，布滿了高大的紅樹，氣根交錯盤踞在水面，像是大自然親手搭建的翠綠迷宮。這片林子可不是普通的景點，它是日本政府認定的「天然記念物」，同時入選日本環境省「重要濕地500」名單，保護地位與富士山同等重要。
+    
+    吹通川的源頭是石垣島北部的野底岳，島上人習慣叫它「野底マーペー」。這座山有個令人心疼的愛情傳說：相傳古時候有位名叫マーペー的女子，被迫與心愛的人天各一方，她日夜思念，最終登上山頂，化作那塊永遠凝望大海的巨石。山泉帶著她的情感，流成這條2.2公里長的吹通川，一路奔向東海。
+    
+    也許正是這份情緣，在河川中段藏著一個叫「縁結びの滝」的秘境瀑布——正式名稱是「屋比久の滝」，意思就是「牽緣瀑布」。搭上獨木舟，在林蔭下輕輕撥水，穿越錯落的氣根，才能抵達這道只有用心前往才找得到的瀑布。石垣島的年輕人說，一起到達這裡的情侶，緣分會更加深厚。
+    
+    整片紅樹林可不是單一樹種。吹通川同時孕育著四種紅樹——八重山紅樹（ヤエヤマヒルギ）、黑茄冬（オヒルギ）、水筆仔（メヒルギ）和海茄冬（ヒルギダマシ），各自演化出截然不同的根系。有的像支柱撐起樹身，有的從泥裡探出無數呼吸管，退潮時整片泥灘變成螃蟹與蝦子的舞台。運氣好的話，還能看見琉球翡翠鳥（アカショウビン）那一抹橙紅閃過樹梢，或是蛇鵰盤旋在天空，凝視著這片幾乎未被人工觸碰過的野地。
+    
+    從吹通橋旁邊的免費停車場走幾步下樓梯，就能踏上河邊，完全不需門票。想要更深入體驗，在地業者提供獨木舟與SUP行程，一邊划，一邊讓紅樹的倒影在水面漾開。這裡沒有商店、沒有紀念品攤，只有石垣島最原始的自然呼吸聲。
+  observationPrompt: "站在吹通橋上往下看，你能找到幾種不同的根系形態？試著分辨從泥地裡垂直冒出來的「呼吸根」，以及從樹幹斜插入水的「支柱根」——你覺得這兩種根的功能各是什麼？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 紅樹林
+        label: 紅樹林
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.487
+    longitude: 124.231
+    locationHint: "縣道79號吹通橋旁設有免費停車場（約8台），停車後沿樓梯下行即可抵達河邊。入口在橋的東側。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.487,124.231"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "國家指定天然記念物、日本環境省「重要濕地500」選定地，是石垣島規模最大的紅樹林群落之一，具有重要的生態保育地位。"
+    sources: [jp-ishigaki-mangrove-futsuu-source]
+  distinctiveness:
+    score: 4
+    note: "同時擁有四種紅樹植物、隱藏的「縁結びの滝」傳說瀑布、以及與野底マーペー愛情傳說相連的文化背景，層次豐富。"
+    sources: [jp-ishigaki-mangrove-futsuu-source]
+  interpretability:
+    score: 3
+    note: "橋上即可觀賞全景直覺易懂，但四種紅樹的差異及根系功能需要導覽解說才能深入體會。"
+    sources: [jp-ishigaki-mangrove-futsuu-source]
+  visitorValue:
+    score: 4
+    note: "完全免費、停車免費、距石垣空港約25分鐘車程；單純散步30分鐘，參加獨木舟行程可達2小時，CP值高。"
+    sources: [jp-ishigaki-mangrove-futsuu-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-mangrove-futsuu-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-mangrove-futsuu-source
+    title: "吹通川マングローブ群落 観光ガイド｜石垣島ツアーズ"
+    publisher: ""
+    url: https://ishigaki-tours.com/column/fukido-river
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_of_Miyara_River.jpg
+    creator: "Babi Hijau"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    accessedAt: "2026-07-18"
+    originalSha256: "11483bf9270899c337b61529a37586d1a92d99f80c650f25a5c8570783d3a2e4"
+    compactPath: media/compact/jp-ishigaki-mangrove-futsuu.webp
+    completePath: media/complete/jp-ishigaki-mangrove-futsuu.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

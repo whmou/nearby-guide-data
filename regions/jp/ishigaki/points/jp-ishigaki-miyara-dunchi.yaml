@@ -1,0 +1,99 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-miyara-dunchi
+  parentId: null
+  kind: venue
+  title: "宮良殿内（みやらどぅんち）"
+  summary: "沖繩縣內唯一現存的琉球王國時代武士宅邸，200年前主人硬是抵抗了五次拆除命令，就連王府也拿他沒辦法。紅瓦屋頂下藏著的，是一段寫在石頭與庭園之間的倔強歷史。"
+  narration: |
+    站在宮良殿内的表門前，你可能不會想到，這棟外表安靜的紅瓦宅邸，背後藏著一段長達半世紀的「抗命」故事。
+    
+    那是1819年，文政二年。宮良家第八代當主宮良当演，擔任八重山地方的最高行政長官，決定為自己建一棟像樣的宅邸。他請來首里王府的造園名師城間親雲上，照著沖繩貴族宅邸的規格打造——紅瓦屋頂、日式枯山水庭園、精緻的築地塀圍牆，室內還請來石垣在地畫家久宇那安進繪製裝飾。
+    
+    問題來了。琉球王國對士族住宅有嚴格的階級規定，這棟宅子的氣派遠超過当演的身份所允許。首里王府看不過去，一道命令下來：拆掉重建。
+    
+    当演沒有理會。王府再下命令，還是不動。就這樣，整整五次拆除令，宮良家一概置之不理，這棟宅子就這麼挺立著，讓王府的命令飄散在八重山的海風裡。一直到1874年明治時代的巡查官員親自登門，才真正逼使宮良家把紅瓦換成茅草屋頂。但茅草才蓋了25年，1899年瓦片就又悄悄換回來了。
+    
+    庭園更值得多停留一會兒。這座枯山水庭園用的是琉球石灰岩，不是遠道而來的奇石，而是這片土地本身的骨骼。園中無水卻意境深遠，礫石的曲線代表流水，巨石的陳列象徵山嶺，是首里造園技術融入八重山風土的獨特詮釋，1972年與建築同步列為國家名勝。
+    
+    今天，這裡是沖繩縣內唯一保存至今的琉球王國時代武士宅邸，也是國家重要文化財。站在這片庭園裡，想著200年前那個寧可抵抗王命也不肯妥協的宮良当演，你會發現這棟宅子的美，不只是建築本身，而是一份傲骨。
+  observationPrompt: "走進庭園仔細看那些琉球石灰岩大石與礫石紋路——造園師用什麼方式，讓這座沒有一滴水的庭園，看起來卻有山川流水的感覺？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 建築
+        label: 建築
+  indoor: false
+  location:
+    latitude: 24.3411
+    longitude: 124.1597
+    locationHint: "位於石垣市大川178，鄰近桃林寺，從石垣市中心步行約5分鐘可達。無專用停車場，建議停在附近市區收費停車場後步行前往。入口為南面的薬医門形式表門。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3411,124.1597"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "沖繩縣內唯一現存琉球王國時代武士宅邸，1972年列為國家重要文化財（建築）及國家名勝（庭園），具有不可替代的歷史地位"
+    sources: [jp-ishigaki-miyara-dunchi-source]
+  distinctiveness:
+    score: 4
+    note: "五次抗拒王府拆除令的傳奇故事、首里風格建築移植至八重山的唯一案例、枯山水庭園使用在地琉球石灰岩，組合高度獨特"
+    sources: [jp-ishigaki-miyara-dunchi-source]
+  interpretability:
+    score: 3
+    note: "建築外觀可自行觀賞，但枯山水庭園的象徵意涵與歷史抗命背景若無導覽說明較難深入體會，現場說明牌為日文"
+    sources: [jp-ishigaki-miyara-dunchi-source]
+  visitorValue:
+    score: 3
+    note: "門票僅200日圓，步行可達市中心，停留約30-45分鐘，可與鄰近桃林寺合併參觀；無停車場是主要不便之處"
+    sources: [jp-ishigaki-miyara-dunchi-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-miyara-dunchi-source]
+  final: 3.85
+sources:
+  - id: jp-ishigaki-miyara-dunchi-source
+    title: "宮良殿内 - Wikipedia（日本語）"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E8%89%AF%E6%AE%BF%E5%86%85
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyara-dunchi_Ishigaki_Okinawa01s3s4350.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "7b633649b272380530a13b9e2ec7a384696f87b80048916a2f009faebe8393eb"
+    compactPath: media/compact/jp-ishigaki-miyara-dunchi.webp
+    completePath: media/complete/jp-ishigaki-miyara-dunchi.webp
+admissions:
+  - label: "大人200日圓、小中高校學生150日圓；開放時間9:00-17:00，每週二及年末年始公休"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

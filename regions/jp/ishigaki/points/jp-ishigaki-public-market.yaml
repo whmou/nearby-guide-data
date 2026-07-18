@@ -1,0 +1,107 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-public-market
+  parentId: null
+  kind: venue
+  title: "石垣市公設市場"
+  summary: "超過125年歷史的「島廚房」，從珊瑚礁鮮魚、石垣牛到八重山傳統織品一應俱全，是感受石垣島真實生活脈動、絕對不能錯過的在地場所。"
+  narration: |
+    站在石垣市大川208這棟樸素的三層樓建築前，很難想像眼前這個地方已守護石垣島居民超過一百二十五年。一八九九年，正值明治年間，市場最初只是八重山郵局南側的一排小魚攤，漁夫每天清晨把剛從海裡撈上來的珊瑚礁魚擺出來賣。五年後遷移到現址，此後扎根不動，島民親暱地稱它「島の台所」——島的廚房。
+    
+    地下一樓永遠是最鮮活的地方。蔬果攤的阿嬸一刀切開鮮黃的石垣產鳳梨，汁液噴濺，笑著說「甜！吃看看！」魚攤上躺著珊瑚礁才剛撈起的熱帶海魚，顏色鮮豔得像寶石；旁邊的石垣牛攤位擺著霜降紋路美得令人屏息的牛肉——石垣牛可是日本頂級和牛，在產地買，比東京便宜一半都不止。
+    
+    二樓特產中心有個值得停留的小驚喜：「生チンスコウ」。金楚糕是沖縄傳統乾點心，但這裡賣的是軟濕版，入口即化，比一般版本更銷魂。架上還有八重山Minsar棉紗織品，五條加四條的交錯紋路，在八重山語裡象徵「五と四、永遠に」，是過去年輕人向心儀對象傳遞愛意的傳統信物。
+    
+    最特別的是三樓食堂的服務：你可以在地下樓挑好新鮮食材，拿上去請師傅當場料理。這種「自帶原料現場加工」的模式在日本其他地方幾乎絕跡，在這裡卻是理所當然的日常。點一盤苦瓜炒蛋、一碗海葡萄，對著窗外的石垣市區天空，喝一口泡盛——這才是最道地的石垣島午餐。市場在2021年完成地下層整修，空間更寬敞明亮，但那股生猛的島廚房氣息，一點都沒有少。
+  observationPrompt: "走進地下樓魚肉蔬果區，找找看有沒有你在台灣或日本本島從沒見過的熱帶魚種或蔬果——牠叫什麼名字？你猜當地人會怎麼料理它？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 文化
+        label: 文化
+      - id: 歷史
+        label: 歷史
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 美食
+        label: 美食
+      - id: 購物
+        label: 購物
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: true
+  location:
+    latitude: 24.33975
+    longitude: 124.157972
+    locationHint: "位於石垣島最熱鬧的ユーグレナモール（綠藻購物街）商店街內，從石垣港離島碼頭步行約9分鐘，市場入口面向商店街主要通道，三層樓建築十分醒目。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.33975,124.157972"
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "創立於1899年明治年間，超過125年歷史，是石垣島居民日常採買的核心場所，也是認識八重山飲食文化最重要的據點，當地人口中的「島の台所」。"
+    sources: [jp-ishigaki-public-market-source]
+  distinctiveness:
+    score: 4
+    note: "可自行採買地下樓新鮮食材、拿至三樓食堂請師傅現場料理的特色服務，在日本其他地方極為罕見；同時匯集石垣牛、海葡萄、珊瑚礁魚等只有在當地才能嘗到的食材。"
+    sources: [jp-ishigaki-public-market-source]
+  interpretability:
+    score: 4
+    note: "市場空間直覺易懂，攤位商品一目瞭然，即使不懂日文也能透過視覺感受島嶼飲食文化；食堂菜單多附圖片，點餐門檻低。"
+    sources: [jp-ishigaki-public-market-source]
+  visitorValue:
+    score: 4
+    note: "免費入場，從離島碼頭步行9分鐘可達，逛市場加三樓用餐約1.5至2小時，兼具文化體驗與美食，是石垣島高CP值必訪景點。"
+    sources: [jp-ishigaki-public-market-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-public-market-source]
+  final: 3.9
+sources:
+  - id: jp-ishigaki-public-market-source
+    title: "石垣市公設市場 - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E5%B8%82%E5%85%AC%E8%A8%AD%E5%B8%82%E5%A0%B4
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_Public_Market,_Ishigaki,_Japan.JPG
+    creator: "User: (WT-shared) Shoestring at wts wikivoyage"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "3bd678142d2e4577488ec9767c7449c8f6178828807ea09b9ab02779a731c88c"
+    compactPath: media/compact/jp-ishigaki-public-market.webp
+    completePath: media/complete/jp-ishigaki-public-market.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

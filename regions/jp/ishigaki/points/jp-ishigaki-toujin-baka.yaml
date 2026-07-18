@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-toujin-baka
+  parentId: null
+  kind: venue
+  title: "唐人墓"
+  summary: "一段藏在南島豔陽下的血淚史——1852年被販賣的四百名中國苦力漂流至此，一百二十八人長眠異鄉，七彩牌坊背後是你意想不到的深沉故事。"
+  narration: |
+    站在這座色彩鮮豔的中式牌坊前，你可能很難想像，這片寧靜海岸邊，曾發生過一段令人心酸的歷史。
+    
+    時間回到1852年，一艘美國船「羅伯特鮑恩號」從中國廈門出發，船上擠滿了大約四百名被販賣的中國苦力。他們被稱作「豬仔」，以騙術或強迫方式送上船，準備前往美國加利福尼亞州充當廉價勞工。在漫長的海上航程中，苦力們忍受著非人的虐待，終於忍無可忍，在船上發動了反抗。然而命運弄人，船在慌亂中觸礁，漂至石垣島外海，三百八十名苦力就這樣上了岸。
+    
+    按照當時的琉球王府規定，外國漂流者應予保護。島民與官吏盡力照料這批衣不蔽體、精疲力竭的中國人，把他們安置在臨時設施裡。但好景不長，幾個月後，英國軍艦出現了——以平息「暴亂」為由，對拘留設施展開砲擊，一百多人當場罹難。剩下的人在嚴苛的環境中苦撐，有人病死，有人絕望自盡，最後只有一百七十二人在1853年被遣返中國。一百二十八人，就此長眠於這片陌生的南島土地上。
+    
+    一百多年後，1971年，這座「唐人墓」才終於落成，告慰長久無人祭掃的亡魂。墓碑上那幾行剛勁有力的漢字題詞，是台灣的蔣中正（蔣介石）親筆所書。五彩繽紛的陶瓷裝飾、飛翹的閩南式屋簷，讓這座墓在南國豔陽下顯得格外莊嚴醒目。墓園一隅還悄悄藏著另一座二戰紀念碑，不同年代的犧牲，靜靜並列在同一片土地上。
+    
+    每次微風從珊瑚礁海岸吹來，帶著的或許不只是鹹味，還有那些沒能回家的人，穿越百年留下的一聲嘆息。
+  observationPrompt: "找找看墓碑上的漢字題詞——這幾個大字是由誰親筆書寫的？他是哪個國家的領導人，又為何與這座遠在日本離島的中國人之墓有所連結？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 建築
+        label: 建築
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3657
+    longitude: 124.1133
+    locationHint: "從石垣港沿西海岸往川平灣方向行駛約20分鐘，石垣市新川地區觀音崎。路邊設有免費停車場，墓地直接面向海岸道路，顯眼易找。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3657,124.1133"
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1852年羅伯特鮑恩號事件的歷史見證，記錄近代中國苦力貿易與跨國海難悲劇，橫跨中、美、英、琉球四方歷史，在八重山地區史上具有重要地位。"
+    sources: [jp-ishigaki-toujin-baka-source]
+  distinctiveness:
+    score: 5
+    note: "在沖繩南島背景下出現的閩南式彩色牌坊極為罕見，視覺衝擊強烈；蔣中正親筆題字更是獨一無二，歷史層次豐富，令人印象深刻。"
+    sources: [jp-ishigaki-toujin-baka-source]
+  interpretability:
+    score: 3
+    note: "現場有中日文說明牌，但若不了解1852年事件背景，較難從外觀直接感受到歷史的深度；建議事先閱讀背景故事再前往。"
+    sources: [jp-ishigaki-toujin-baka-source]
+  visitorValue:
+    score: 4
+    note: "免費入場、路旁停車便利，停留約15至30分鐘即可，是自駕環島西海岸途中值得順道停車的景點，性價比高。"
+    sources: [jp-ishigaki-toujin-baka-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-toujin-baka-source]
+  final: 3.95
+sources:
+  - id: jp-ishigaki-toujin-baka-source
+    title: "唐人墓 - Wikipedia（日本語版）"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E5%A2%93
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tojin-baka_Ishigaki_Island_Japan01bs5s4290.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "a70b535b4cc411de872a2c4930d064a8472f9c27d7c45191ea532c7c7bf50baf"
+    compactPath: media/compact/jp-ishigaki-toujin-baka.webp
+    completePath: media/complete/jp-ishigaki-toujin-baka.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

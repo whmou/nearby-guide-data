@@ -1,8 +1,52 @@
 {
   "format": "nearby-guide-index",
   "schemaVersion": 1,
-  "updatedAt": "2026-07-18T05:27:16Z",
+  "updatedAt": "2026-07-18T05:32:07Z",
   "packs": [
+    {
+      "packId": "jp-ishigaki",
+      "version": "1.0.0",
+      "title": "石垣島",
+      "subtitle": "八重山の碧海と星空",
+      "region": {
+        "countryCode": "JP",
+        "countryName": "日本",
+        "adminAreaLevel1": "沖縄県",
+        "adminAreaLevel2": "石垣市"
+      },
+      "contentLanguage": "zh-Hant-TW",
+      "guidePointCount": 30,
+      "minAppVersionCode": 8,
+      "variants": [
+        {
+          "variantId": "compact",
+          "mediaMode": "compact",
+          "title": "精簡離線",
+          "description": "文字與壓縮縮圖離線",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-ishigaki-1.0.0-compact.guidepack",
+          "downloadBytes": 1257663,
+          "sha256": "29b654e4784c1468b567ce5c82202b75e2dfd0462f11e4424ebe6e32fbd399ba",
+          "includes": [
+            "text",
+            "thumbnails"
+          ]
+        },
+        {
+          "variantId": "complete",
+          "mediaMode": "complete",
+          "title": "完整離線",
+          "description": "文字與完整多媒體離線，以圖片為主",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-ishigaki-1.0.0-complete.guidepack",
+          "downloadBytes": 6227261,
+          "sha256": "ecd0dcb410959994b6a86685ad657d656f87b1fba703d27836edac9a67b94f84",
+          "includes": [
+            "text",
+            "images",
+            "media"
+          ]
+        }
+      ]
+    },
     {
       "packId": "jp-miyakojima",
       "version": "1.0.4",

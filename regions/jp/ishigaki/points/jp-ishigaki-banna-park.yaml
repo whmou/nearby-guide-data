@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-banna-park
+  parentId: null
+  kind: venue
+  title: "バンナ公園"
+  summary: "石垣島の中心にそびえる標高230mのバンナ岳を丸ごと公園にした、日本最南端の都市公園。亜熱帯の原生林、エメラルドの海を見渡す展望台、蛍と渡り鳥が集まる自然の宝庫が、市街地からわずか4キロに広がる。"
+  narration: |
+    バンナ公園は石垣島の市街地からほんの4キロ北上したところにある、日本最南端の都市公園です。標高230メートルのバンナ岳を中心に、約290ヘクタールという広大な亜熱帯の森が広がっています。
+    
+    「バンナ」という名前の由来が、実はいまだに謎のままなんです。八重山の方言なのか、古い言葉なのか、地元の人に聞いても誰も正確に答えられない。有力な説では、遥か昔に南の海からサバニ（帆船）に乗ってやってきた人々が、この山に自分たちの言葉で名前をつけたものかもしれないと言われています。意味は失われてしまったのに、「バンナ岳」という地名だけが今もしっかり残っているというのが、なんとも不思議ですよね。
+    
+    この森がこれほど豊かな自然を保っているのには、もう一つ深い理由があります。太平洋戦争が終わった後、バンナ岳一帯は20年以上も「禁伐地」として手つかずのまま守られていたんです。戦争の傷跡を抱えながらも、ここの木々は静かに育ち続けた。その積み重ねが今の豊かな亜熱帯の森をつくっています。Aゾーンには慰霊碑も設置されており、穏やかな木漏れ日の中で、あの時代のことをそっと思い出させてくれます。
+    
+    1978年に整備が始まり、公園は5つのゾーンに分かれています。なかでも人気なのが「エメラルドの海を見る展望台」。晴れた日には、コバルトブルーとエメラルドグリーンが混ざり合ったような石垣の海と、竹富島、西表島などの離島が眼下に広がります。春になるとセイシカ（聖紫花）という淡いピンクの花が咲き乱れ、夏から秋にかけてはサシバやアカショウビンといった渡り鳥が立ち寄ります。夜になればホタル街道と呼ばれるDゾーンで、小さな光がふわふわと舞う幻想的な光景も楽しめますよ。市街地のすぐそこなのに、一歩入ればジャングルのような亜熱帯の空気に包まれる—バンナ公園はそんな不思議な場所なんです。
+  observationPrompt: "「エメラルドの海を見る展望台」に立って、眼下の海をよく観察してみてください。海の色はどこもコバルトブルー一色でしょうか？それともエメラルドグリーンに見える場所がありますか？色が変わる境界線はどこにあって、なぜそこだけ色が違うのでしょうか？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 展望台
+        label: 展望台
+      - id: 歴史
+        label: 歴史
+      - id: 体験
+        label: 体験
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.375
+    longitude: 124.161
+    locationHint: "石垣市街地から国道390号を北上し、バンナ公園の案内板に従って進む。公園は5つのゾーンに分かれており、エメラルドの海を見る展望台はBゾーン（北口）からアクセスが便利。各ゾーンに無料駐車場あり。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.375,124.161"
+  trigger:
+    radiusMeters: 300.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本最南端の都市公園として認定された、沖縄県営の広域自然公園。290ヘクタールの亜熱帯林を市街地近くで体験できる石垣島随一の自然スポット。"
+    sources: [jp-ishigaki-banna-park-source]
+  distinctiveness:
+    score: 4
+    note: "意味不明の謎の地名「バンナ」、戦後禁伐地として守られた亜熱帯原生林、エメラルドの海の展望台、ホタル街道、渡り鳥観察所、世界の昆虫館と見どころが多層的。日本の都市公園としては最南端という唯一性もある。"
+    sources: [jp-ishigaki-banna-park-source]
+  interpretability:
+    score: 3
+    note: "園内に日本語の案内板が整備されており、5ゾーンの構成を事前に把握しておけば効率よく回れる。自然の解説よりも「なぜここがこんなに豊かなのか」という背景知識があるとより深く楽しめる。"
+    sources: [jp-ishigaki-banna-park-source]
+  visitorValue:
+    score: 4
+    note: "公園入場は無料で、石垣市街地から車で約10分。展望台・自然散策・昆虫館・ホタル観察と滞在コンテンツが多彩。最低1〜2時間、じっくり回れば半日も楽しめる。"
+    sources: [jp-ishigaki-banna-park-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-banna-park-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-banna-park-source
+    title: "バンナ公園公式サイト（ECCOM八重山グループ）"
+    publisher: ""
+    url: https://banna.jp/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_Island,_Banna_Park_Observation_Deck.jpg
+    creator: "AsPJT"
+    license: "CC0"
+    licenseUrl: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    accessedAt: "2026-07-18"
+    originalSha256: "5d12a1a3d27ca5e35e441f9a355bcc482431f0e7848175e78c75bb9e5c587b9f"
+    compactPath: media/compact/jp-ishigaki-banna-park.webp
+    completePath: media/complete/jp-ishigaki-banna-park.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

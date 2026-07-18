@@ -1,0 +1,107 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-iriomote-mangrove
+  parentId: null
+  kind: venue
+  title: "仲間川マングローブクルーズ"
+  summary: "日本最大の紅樹林就藏在西表島的仲間川——搭遊覽船穿梭翠綠水道，感受2021年UNESCO世界自然遺產認定的熱帶秘境，還有樹齡近三百年的巨木等著你在河道盡頭現身。"
+  narration: |
+    你知道嗎，日本其實有一片幾乎不為人知的亞熱帶原始雨林，全島超過九成的土地都還是未開發的叢林？那就是西表島——而仲間川，就是進入這座神秘島嶼最精采的那扇門。
+    
+    從大原港出發，遊覽船緩緩駛入仲間川，兩岸的紅樹林幾乎立刻把天空遮住大半。這片林子規模到底有多驚人？面積高達158公頃，佔了全日本紅樹林總面積整整四分之一，是名副其實的日本第一。早在1972年——也就是沖縄剛剛回歸日本的那一年——這裡就被指定為國家天然記念物了，足見生態地位之崇高。
+    
+    河裡生長著六種不同的紅樹植物，其中有一種叫「マヤプシキ」，整個日本只在西表島東部才找得到，是極其珍稀的在地物種。仔細看那些伸入水面的奇特根系——支柱根像蜘蛛腳般撐起樹身，呼吸根則像吸管一樣從泥地向上突出，呼吸著空氣。這是紅樹林為了在潮汐交替、鹽分充足的嚴苛環境裡存活，歷經漫長演化才練成的求生絕招。
+    
+    船行到轉折處，有棵讓人瞠目結舌的大樹靜靜等著你——「サキシマスオウノキ」，推估樹齡將近三百年，板根如同巨型裙擺攤開在地，氣勢如電影場景，名列日本「森の巨人たち百選」。站在它面前，你很難不感到某種被時間壓過的渺小。
+    
+    2021年，西表島正式以「奄美大島、徳之島、沖縄島北部及び西表島」之名列入UNESCO世界自然遺產。仲間川流域正是這份遺產裡最原始、最核心的一塊。搭一趟船，就能親眼走進一個在現代都市外幾乎被時間遺忘的熱帶原始世界。
+  observationPrompt: "仔細觀察兩岸紅樹林的根部——你能同時找到「支柱根」（從樹幹斜伸入水中、支撐樹身的根）和「呼吸根」（從泥地向上突出如細管、用來呼吸空氣的根）嗎？看看哪種樹用哪種根。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 紅樹林
+        label: 紅樹林
+      - id: 離島
+        label: 離島
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.315
+    longitude: 123.997
+    locationHint: "搭石垣島渡輪約40分鐘抵達西表島大原港（おおはらこう）後，往左步行約30秒即可到達乘船場「ショップじゅごん」前桟橋。停車場位於大原港碼頭附近。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.315,123.997"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "日本最大の紅樹林（158公頃，佔全國四分之一），1972年指定國家天然記念物，2021年列入UNESCO世界自然遺產，生態保育地位極高。"
+    sources: [jp-ishigaki-iriomote-mangrove-source]
+  distinctiveness:
+    score: 5
+    note: "日本境內無可取代的原始紅樹林遊覽船體驗；珍稀物種マヤプシキ僅分布於西表島東部；300年樹齡の板根巨木サキシマスオウノキ是另一亮點，全日本僅此一棵列入百選。"
+    sources: [jp-ishigaki-iriomote-mangrove-source]
+  interpretability:
+    score: 4
+    note: "從船上可清楚觀察紅樹林外觀，但樹種辨識與生態機制需仰賴船上廣播解說；若搭配導覽手冊或在地導遊，理解深度大幅提升。"
+    sources: [jp-ishigaki-iriomote-mangrove-source]
+  visitorValue:
+    score: 5
+    note: "石垣島渡輪約40分鐘可達大原港，船票大人¥3,000起（マングローブコース約50-60分鐘），半日即可完成，行程彈性高，CP值極佳。"
+    sources: [jp-ishigaki-iriomote-mangrove-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-iriomote-mangrove-source]
+  final: 4.6
+sources:
+  - id: jp-ishigaki-iriomote-mangrove-source
+    title: "仲間川マングローブクルーズ - 西表島交通【公式】"
+    publisher: ""
+    url: https://iriomote.com/cruise/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Nakama_River_Iriomote_Okinawa_Japan01bsf.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "d1a939079d63766d7e166510ae8d436199b0e936858f367cdb04cf48ab2554ed"
+    compactPath: media/compact/jp-ishigaki-iriomote-mangrove.webp
+    completePath: media/complete/jp-ishigaki-iriomote-mangrove.webp
+admissions:
+  - label: "遊覽船票：マングローブコース大人¥3,000、兒童¥1,500；サキシマスオウノキ見學コース大人¥4,500、兒童¥2,250（現已暫停，步道維修中）。無需預約，於ショップじゅごん購票。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

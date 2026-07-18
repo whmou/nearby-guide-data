@@ -1,0 +1,106 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-yaima-village
+  parentId: null
+  kind: venue
+  title: "石垣やいま村"
+  summary: "走進這片紅瓦古民家聚落，百年前八重山士族的生活氣息撲面而來——這是日本最南端的文化主題公園，四棟國家認定有形文化財古民家、60隻松鼠猴與名蔵灣落日共存一地，是石垣島最有靈魂的景點。"
+  narration: |
+    站在石垣やいま村的入口，你會先聽到三線琴悠揚的旋律從紅瓦古厝間飄來。這裡是日本最南端、最西端的主題樂園，但比起「樂園」，它更像是一個活生生的時光膠囊，把一百多年前八重山群島的日常生活封存在名蔵灣旁的小山丘上。
+    
+    這個地方的故事要從1981年說起。當時名古屋鐵道集團在此開設「八重山民俗園」，2008年完成四棟百年古民家的修繕遷建後，正式更名為「石垣やいま村」，這四棟建築也同步被列為日本國家登錄有形文化財。
+    
+    每棟古民家都有驚人的身世。建於1907年的大濱家，屋主大濱信泉後來成為早稻田大學第七任校長；建於1909年的森田家則是舊士族的宅邸。最讓工匠嘆服的是建於1923年的牧志家——整棟建築完全不用一根釘子，靠著「貫木工法」讓木柱與橫樑相互咬合。在颱風與地震頻繁的島嶼上，這種彈性結構反而比硬釘更能吸收衝擊，先人的智慧令人折服。
+    
+    園內農家展示了昔日用水牛拉磨榨甘蔗汁的器具，漁師之家則陳列著薩巴尼木造漁船與捕海龜的古老工具，讓人得以一窺這座島嶼曾經依賴海與田維生的歲月。此外，園裡有超過60隻黑帽松鼠猴在接近自然的環境裡自由生活，偶爾會直接跳上遊客的肩膀；在救護設施裡靜養的冠鷲，是石垣島的代表性珍貴猛禽，難得可以近距離凝視牠的眼睛。
+    
+    往園外遠眺，名蔵灣的落日是沖縄出名的美景，而灣畔的名蔵アンパル紅樹林更被納入拉姆薩爾濕地公約。這裡不只是歷史，更是整個八重山靈魂的縮影。
+  observationPrompt: "站在牧志家前，仔細看看柱子與橫樑的接合處——你能找到任何一根釘子嗎？這棟百年古厝是靠什麼方法讓木頭咬住木頭、撐過無數颱風的？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 建築
+        label: 建築
+      - id: 自然
+        label: 自然
+      - id: 紅樹林
+        label: 紅樹林
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  indoor: false
+  location:
+    latitude: 24.404333
+    longitude: 124.144361
+    locationHint: "從石垣港離島ターミナル開車約20分鐘，從新石垣空港約30分鐘，入口旁設有免費停車場。搭乘公車可在「元名蔵」站下車步行1分鐘，或「やいま村入口」站步行7分鐘。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.404333,124.144361"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "四棟百年古民家均為國家登錄有形文化財，完整保存琉球王國時期八重山士族與地方名門的生活樣貌，是全島最具代表性的文化保存設施"
+    sources: [jp-ishigaki-yaima-village-source]
+  distinctiveness:
+    score: 4
+    note: "不用釘子的「貫木工法」古民家、60隻松鼠猴森林、瀕危冠鷲保護設施與名蔵灣落日景觀同框，早稻田大學校長故居等名門身世讓每棟屋子都有故事"
+    sources: [jp-ishigaki-yaima-village-source]
+  interpretability:
+    score: 3
+    note: "各展示區有中日文說明牌，基本內容可自行理解；但琉球建築工法細節與各家族歷史背景較為深層，有導覽或事前做功課更能深度體會"
+    sources: [jp-ishigaki-yaima-village-source]
+  visitorValue:
+    score: 4
+    note: "門票大人1,200円，含古民家參觀、松鼠猴森林、冠鷲設施及文化體驗活動，建議停留1.5至2小時；免費停車場，交通略需自駕或公車"
+    sources: [jp-ishigaki-yaima-village-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-yaima-village-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-yaima-village-source
+    title: "石垣やいま村 - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E3%82%84%E3%81%84%E3%81%BE%E6%9D%91
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_yaimamura_makishi_house.jpg
+    creator: "Paipateroma"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "4df084eb19ef764de75284d39e8a5a15bdbc5d0df9b444788a8a26ac6614dbe5"
+    compactPath: media/compact/jp-ishigaki-yaima-village.webp
+    completePath: media/complete/jp-ishigaki-yaima-village.webp
+admissions:
+  - label: "大人1,200円、小人（3歳〜中学生）600円、3歳以下免費；年間パスポート3,000円。三線體驗、紅型染等文化活動另計費用。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

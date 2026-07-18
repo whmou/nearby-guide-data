@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-taketomi-kondoi
+  parentId: null
+  kind: venue
+  title: "コンドイビーチ（コンドイ浜）"
+  summary: "竹富島西岸最純粹的天堂海灘，退潮時海中浮現的「幻之濱」沙洲讓你四面環海、彷彿站在世界的盡頭。星砂傳說、八重山最美夕陽，コンドイビーチ是許多旅人一生難忘的海岸。"
+  narration: |
+    來到竹富島，騎著腳踏車穿過鋪著珊瑚砂的白色小路，拐過那條被扶桑花包圍的小徑，突然眼前的景色會讓你不由自主地停下來——那就是コンドイビーチ，竹富島最美的海灘。
+    
+    這裡的海水透明到能看見腳趾，遠淺的地形讓海灣格外平靜，就算帶著小孩也能放心戲水。但這裡最神奇的景象要靠「時機」才能遇到——退潮的時候，一片白色的沙洲會從海面緩緩浮現，島民稱它為「幻之濱」。你可以赤腳走過去，四面環海，頭頂是無邊藍天，彷彿站在世界的中心。
+    
+    這片白沙背後有個讓人心疼的傳說。北方的星星尼努法和南方的星星烏瑪努法相愛，神明賜予他們到竹富島的珊瑚礁中孕育孩子。然而龍宮之神大怒，喚來大蛇吞噬了所有星之子。那些孩子的骨骸化成星形的砂粒，隨海浪漂流、沉積在海灘上——這就是「星砂」的由來。這種星形小顆粒其實是有孔蟲的外殼，直徑只有兩三毫米，每一顆都有美麗的放射狀尖角，仔細找找，你一定能在腳邊的白沙中發現它們。
+    
+    竹富島還是一首古老民謠的故鄉。《安里屋ユンタ》唱的是16歲美女クヤマ的故事——她被首里王府派來的官員求婚，卻大膽拒絕，這份從容的勇氣幾百年後依然在島上流傳。
+    
+    傍晚時分，坐在沙灘上等夕陽沉入海平線，天空從金黃漸漸染成橘紅——這道日落，據說是整個八重山群島最美的風景。無論如何，請留下來等到太陽完全消失的那一刻。
+  observationPrompt: "仔細蹲下來看腳邊的白沙，你能找到幾顆形狀像星星、有放射狀尖角的「星砂」？這些其實是一種單細胞生物「有孔蟲」的外殼——拿在手心數數看，你找到的星砂有幾個角？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海灘
+        label: 海灘
+      - id: 自然
+        label: 自然
+      - id: 珊瑚礁
+        label: 珊瑚礁
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3243
+    longitude: 124.0765
+    locationHint: "從竹富港租借腳踏車，沿珊瑚砂白路向西行駛約15-20分鐘，路旁有明顯指標。停車場在海灘入口前，設有免費淋浴間與廁所。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3243,124.0765"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "竹富島を代表する海灘，TripAdvisor「日本のベストビーチ」トップ10入り（2017年第6位）、八重山観光の定番スポット。"
+    sources: [jp-ishigaki-taketomi-kondoi-source]
+  distinctiveness:
+    score: 5
+    note: "干潮時に海上に浮かぶ「幻之濱」沙洲、星砂傳說、八重山屈指の夕日スポット三合一，全日本找不到第二個同樣體驗。"
+    sources: [jp-ishigaki-taketomi-kondoi-source]
+  interpretability:
+    score: 3
+    note: "自然之美一眼就懂，但「幻之濱」出現時機需要提前查潮汐表；星砂需要彎腰細心尋找才能發現。"
+    sources: [jp-ishigaki-taketomi-kondoi-source]
+  visitorValue:
+    score: 5
+    note: "完全免費入場，有免費淋浴間和廁所；從竹富港騎自行車15-20分鐘可達；建議停留2-3小時欣賞幻之濱與夕陽。"
+    sources: [jp-ishigaki-taketomi-kondoi-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-taketomi-kondoi-source]
+  final: 4.1
+sources:
+  - id: jp-ishigaki-taketomi-kondoi-source
+    title: "コンドイビーチ | 沖縄ブックマーク"
+    publisher: ""
+    url: https://okinawa-bookmark.com/beach/taketomi-beach/kondoi-beach/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kondoi_Beach_01.jpg
+    creator: "ajari from Japan"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "bf790d244afaa2d1e9340c7b0f10b453f368e0301ea911f11cd18633c9ae5e80"
+    compactPath: media/compact/jp-ishigaki-taketomi-kondoi.webp
+    completePath: media/complete/jp-ishigaki-taketomi-kondoi.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

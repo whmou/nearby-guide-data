@@ -1,0 +1,108 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-kabira-bay
+  parentId: null
+  kind: venue
+  title: "川平湾"
+  summary: "被米其林評為三顆星的石垣島第一名景，海水顏色隨潮汐與光線每分每秒變換，從翡翠綠轉孔雀藍再到深靛青——這裡也是全球第一個成功量產黑珍珠的地方。"
+  narration: |
+    川平湾，是那種第一眼看到會以為自己被騙了的地方——這片海也太假了吧？翡翠綠、孔雀藍、深邃靛青，顏色隨著潮水的進退和陽光的角度一分一秒地變換，站在展望台上往下看，感覺像是有人在海底打了一盞燈，把整片灣都染成了寶石的顏色。
+    
+    但川平湾的故事，遠不只是顏色。
+    
+    話說在琉球王國時代，這個避風的内灣是往來首里王府的「馬艦船」停泊等候的要地。每當從八重山運送貢品前往首里的商船趕上逆風，就會駛進川平湾等候時機，讓這片灣成了貿易路線上一個默默無名的中繼站。灣邊還保留著「濱崎御嶽」這座神聖祭祀場所，以及一座觀音廟，是島民世代祈願的地方。
+    
+    灣內有九座珊瑚礁小島，幾乎每一座都有自己的名字和故事。其中「婿島」與「嫁島」這對小島最讓人動情——相傳是兩個來自不同村落的戀人，因遭到家族反對而雙雙投海，最終化身成這兩座永遠隔著海水相望的小島。乘坐玻璃船緩緩穿越這片水域時，不妨留意一下那兩座島，想像一下那段未竟的誓言。
+    
+    1914年（大正三年），川平湾的黑蝶貝養殖業悄悄起步，歷經幾十年的摸索，1970年這裡成為世界上第一個成功大量養殖黑珍珠的地方。今天你在灣面上看到的那些浮筏，就是養殖筏，每一顆黑珍珠都在水面下靜靜等了好幾年才出世。
+    
+    1997年，川平湾被指定為日本「國家名勝」，後來又成為西表石垣國立公園的第一種特別地域——這是日本最高等級的自然保育區。這裡禁止游泳，因為水面下的暗流出乎意料地急，看起來多寧靜都不是玩笑。想親近這片海，就坐上玻璃船，讓船底的透明窗替你窺見那個珊瑚礁與熱帶魚共舞的水下世界。
+  observationPrompt: "站在展望台往灣內望，你能找到傳說中化為情侶的「婿島」和「嫁島」這兩座小島嗎？試著辨認一下，哪兩座島離得最近、卻又永遠隔著一片海水。"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 展望台
+        label: 展望台
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.4514
+    longitude: 124.1444
+    locationHint: "停車場位於川平公園展望台旁（石垣市川平934），從石垣市區搭路線巴士約40分鐘，下車後步行約2分鐘即抵展望台。玻璃船乘船處在展望台下方的海岸邊。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4514,124.1444"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "日本國家名勝、西表石垣國立公園第一種特別地域（最高保育等級）、米其林綠色指南三星景點，是石垣島最具代表性的地標。"
+    sources: [jp-ishigaki-kabira-bay-source]
+  distinctiveness:
+    score: 5
+    note: "全球第一個成功大量養殖黑珍珠之地；海水色彩隨潮汐與光線持續變換；禁止游泳、只能搭玻璃船觀賞，體驗獨一無二。"
+    sources: [jp-ishigaki-kabira-bay-source]
+  interpretability:
+    score: 3
+    note: "絕景一目瞭然，但黑珍珠養殖浮筏的歷史意義、情侶島傳說及琉球王國貿易背景，需要解說才能深入感受。"
+    sources: [jp-ishigaki-kabira-bay-source]
+  visitorValue:
+    score: 4
+    note: "展望台觀景完全免費；玻璃船約1,500日圓／人，遊覽約30分鐘；從石垣市區需40分鐘車程，建議安排半天。"
+    sources: [jp-ishigaki-kabira-bay-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-kabira-bay-source]
+  final: 4.25
+sources:
+  - id: jp-ishigaki-kabira-bay-source
+    title: "川平湾 - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%B9%B3%E6%B9%BE
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island41s3s4500.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "10bb23159c86dea6477b3974c7d3e0bc427d4863bf70035598fd485b8985404f"
+    compactPath: media/compact/jp-ishigaki-kabira-bay.webp
+    completePath: media/complete/jp-ishigaki-kabira-bay.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

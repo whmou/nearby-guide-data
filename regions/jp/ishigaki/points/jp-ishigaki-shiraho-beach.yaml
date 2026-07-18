@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-shiraho-beach
+  parentId: null
+  kind: venue
+  title: "白保海岸"
+  summary: "北半球最大的藍珊瑚群落就藏在這片礁盤之下——白保海岸是石垣島居民用二十年抗爭守護下來的「魚湧く海」，踏上這片白沙灘，不只是看海，更是見證一段保育傳奇。"
+  narration: |
+    你現在腳踩的這片白沙灘，在當地漁民心中有個充滿詩意的名字——「魚湧く海」，意思是「魚兒從海中湧現的大海」。光聽這個名字，就能感受到這片海有多麼豐饒。
+    
+    白保海岸是石垣島東南側一片長達十公里的天然海岸線，幾乎不見任何人工建設，沒有消波塊，沒有人工沙灘整備。礁盤從海岸延伸入海，孕育著北半球最大的藍珊瑚（アオサンゴ）群落，超過一百二十種珊瑚、三百種以上的魚類在此共存。藍珊瑚和一般珊瑚不同，帶著獨特的藍綠光澤，有些群落甚至已在水中靜靜生長了數百年。
+    
+    這片海，差點就永遠消失了。1979年，日本政府宣布要在石垣島興建新機場，最初選址就在白保海域的外海——計畫填海造地，把這片珊瑚礁直接埋在跑道之下。消息傳出，引發了強烈的反對聲浪。1987年，國際自然保護聯盟（IUCN）派員到白保進行調查，正式確認這裡的藍珊瑚群落是北半球規模最大的。隔年，IUCN在哥斯大黎加召開的國際大會上通過決議，要求日本政府重新審視計畫。地方居民、漁民、環保人士，加上來自全球各地的聲援，聯合起來整整抗爭了二十年。
+    
+    最終，新機場選址遷移到陸地上的卡拉岳一帶，就是你今天降落的南ぬ島石垣空港，於2013年正式開港——而白保的海，保住了。
+    
+    2000年，WWF日本在此設立「しらほサンゴ村」研究中心，持續監測珊瑚的健康狀況。2007年，這片海域正式劃入西表石垣國立公園，受到法律保護。今日的白保，海岸邊那棟低調的小建築，就是這段歷史的見證者。
+    
+    站在這裡，看著那片清澈得透底的水色，你很難想像腳下的礁盤裡，正有一群已經活了幾個世紀的生命，在悄悄地呼吸著。
+  observationPrompt: "望向海面，試著找出水色從淺綠轉為深藍的那條界線——那裡就是礁盤的邊緣，北半球最大的藍珊瑚群落就藏在那片深色水域的礁石之下。你猜那些珊瑚今年幾歲了？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海灘
+        label: 海灘
+      - id: 自然
+        label: 自然
+      - id: 珊瑚礁
+        label: 珊瑚礁
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.353279
+    longitude: 124.243584
+    locationHint: "入口設有免費停車場（約4至6個車位，空間有限建議早到）。從新石垣空港沿390號國道南行約5至10分鐘，在「白保」巴士站附近往海側方向進入集落即達。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.353279,124.243584"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "北半球最大規模的藍珊瑚（アオサンゴ）群落所在地；1988年IUCN通過國際決議要求日本政府重審機場計畫，是二十世紀日本最具代表性的自然保育運動之一，2007年納入西表石垣國立公園保護。"
+    sources: [jp-ishigaki-shiraho-beach-source]
+  distinctiveness:
+    score: 5
+    note: "藍珊瑚在全球極為罕見，白保的群落規模為北半球之冠，部分群落已持續生長數百年；兼具保育運動歷史意義與稀有生態景觀，在日本乃至全球無可取代。"
+    sources: [jp-ishigaki-shiraho-beach-source]
+  interpretability:
+    score: 3
+    note: "海岸風景與集落氛圍易於感受，但最核心的藍珊瑚群落藏在礁盤水下，岸邊肉眼不可見，需乘坐玻璃船或參加浮潛導覽才能親眼目睹，建議事前安排活動。"
+    sources: [jp-ishigaki-shiraho-beach-source]
+  visitorValue:
+    score: 4
+    note: "海灘免費進入、停車場免費，距新石垣空港僅5至10分鐘車程，交通極便利；單純散步欣賞即有價值，若搭配在地浮潛或玻璃船導覽效果更佳，建議停留1至2小時。"
+    sources: [jp-ishigaki-shiraho-beach-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-shiraho-beach-source]
+  final: 4.25
+sources:
+  - id: jp-ishigaki-shiraho-beach-source
+    title: "白保サンゴ礁 - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E7%99%BD%E4%BF%9D%E3%82%B5%E3%83%B3%E3%82%B4%E7%A4%81
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:WWF_Coral_Reef_Conservation_and_Research_Centre.jpg
+    creator: "Shig ISO"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "675d0556f32a6cced460d85e65ed382f218768e81222d6c3bd6bc8098349d9cf"
+    compactPath: media/compact/jp-ishigaki-shiraho-beach.webp
+    completePath: media/complete/jp-ishigaki-shiraho-beach.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

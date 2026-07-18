@@ -1,0 +1,102 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-hirakubo-lighthouse
+  parentId: null
+  kind: venue
+  title: "平久保崎灯台"
+  summary: "石垣島最北端的白色燈塔，俯瞰翡翠色珊瑚礁海，守望的不只是船隻，更是三百多年前琉球王國烽火台的靈魂所在。2016年獲選日本「戀愛燈塔」，是島上最浪漫的天涯海角。"
+  narration: |
+    站在平久保崎的頂端，左手是東海、右手是太平洋，而你腳下這片翠綠草原，正是石垣島的最北端——再往前走幾步，就是大海了。那座白色燈塔靜靜立在懸崖邊，彷彿島嶼派駐在天涯的守門人，數十年如一日地為往來船隻指引方向。
+    
+    但你知道嗎？早在這座燈塔誕生的三百多年前，這片岬角就已經有人在守望了。十七世紀琉球王國時期，這裡設立了一座「遠見台」——也就是瞭望塔，用來監視往來的外國船隻，一旦發現異狀，就靠煙火訊號傳遞消息。那個沒有雷達、沒有通訊設備的年代，守望員就這樣日復一日，用一雙肉眼守護整座島嶼。這座遠見台遺址在2007年被日本政府列為國家史跡，就在燈塔旁邊，不妨仔細找找。
+    
+    現在這座白色混凝土燈塔，是1965年由琉球政府所建，比沖繩回歸日本還早了七年。燈塔本身只有13公尺高，卻因為建在海拔74公尺的高地上，光芒可以照耀方圓數十海里。1972年沖繩回歸後，它交由日本海上保安廳接管，至今仍忠誠執勤，每三秒閃爍一次白光。
+    
+    2016年，一件浪漫的事讓這裡多了新的意義：日本浪漫主義協會認定它為「戀愛燈塔」，而且是沖繩縣第一座。評審理由令人動容——從石垣市區往北開，穿過甘蔗田、牛群悠閒漫步的鄉間小路，抵達燈塔的那一瞬間，「原來世界的盡頭是這樣的」那種感動，讓人忍不住想和最重要的人分享。燈塔旁如今立著一塊心形的認定看板，已成情侶必訪的浪漫據點。
+  observationPrompt: "在燈塔旁的草地上，仔細尋找「平久保遠見台」的遺跡——這個比燈塔早三百多年的琉球王國烽火台，你能找到它的痕跡在哪裡嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 歷史
+        label: 歷史
+      - id: 建築
+        label: 建築
+      - id: 展望台
+        label: 展望台
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.6089
+    longitude: 124.315
+    locationHint: "從石垣市區沿縣道206號往北行駛約40公里，到達平久保半島最北端即可。路旁設有免費停車場，從停車場步行約5分鐘可抵達燈塔。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.6089,124.315"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "石垣島最北端地標，兼具琉球王國17世紀遠見台國家史跡（2007年指定）與現役燈塔雙重歷史地位，2016年獲選沖縄縣首座「戀愛燈塔」。"
+    sources: [jp-ishigaki-hirakubo-lighthouse-source]
+  distinctiveness:
+    score: 5
+    note: "三百年前烽火台與現代燈塔並存於島嶼最北端，同一地點見證琉球王國守望史與現代航海安全，加上「戀愛燈塔」認定，景觀與人文層次罕見。"
+    sources: [jp-ishigaki-hirakubo-lighthouse-source]
+  interpretability:
+    score: 3
+    note: "燈塔本身直觀易懂，但遠見台遺跡不明顯、琉球王國烽火台歷史需要背景知識輔助，現場解說牌有限。"
+    sources: [jp-ishigaki-hirakubo-lighthouse-source]
+  visitorValue:
+    score: 4
+    note: "完全免費，停車場免費，但從市區開車單程約40分鐘；抵達後視野絕佳，停留約20-40分鐘，適合開車環島順遊。"
+    sources: [jp-ishigaki-hirakubo-lighthouse-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-hirakubo-lighthouse-source]
+  final: 3.95
+sources:
+  - id: jp-ishigaki-hirakubo-lighthouse-source
+    title: "平久保埼灯台 - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E5%B9%B3%E4%B9%85%E4%BF%9D%E5%9F%BC%E7%81%AF%E5%8F%B0
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cape_Hirakubo_Lighthouse_Ishigaki.jpg
+    creator: "Kzaral"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "9061456d29c27ebb9c582a74f61d5ca53935fcc00ac992c44b3d0521dad7a8be"
+    compactPath: media/compact/jp-ishigaki-hirakubo-lighthouse.webp
+    completePath: media/complete/jp-ishigaki-hirakubo-lighthouse.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

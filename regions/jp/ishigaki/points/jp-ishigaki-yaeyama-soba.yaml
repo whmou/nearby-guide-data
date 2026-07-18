@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-yaeyama-soba
+  parentId: null
+  kind: venue
+  title: "八重山そば"
+  summary: "一碗清澈的湯，藏著琉球王國時代的中國記憶。八重山そば以纖細圓直麵配豬骨鰹魚清湯，撒上只有在地才有的島胡椒「ピパーツ」，是石垣島人日日離不開的靈魂美食，也是一段活生生的歷史旅行。"
+  narration: |
+    走進石垣市老街，空氣裡飄著一股若有似無的鰹魚香，你就知道快到了。
+    
+    八重山そば的故事，比你想象的還要古老。學者們追溯到琉球王國時代，福建省的商人帶著製麵技術渡過黑潮，在這個亞熱帶群島留下了屬於中國的麵食記憶。但八重山人沒有照單全收——他們用島上容易取得的豬骨和鰹魚熬出湯底，加上纖細的圓形直麵，再鋪上醬汁燉煮過的瘦豬肉和薄切魚板，就這樣一代傳一代，揉出了屬於自己的風味。
+    
+    和沖繩本島的そば比起來，八重山そば更細、更直、湯頭更清，像南海的陽光一樣，明亮而不刺眼。明治時代，麵食文化從那覇慢慢流傳到最南端的八重山諸島，但走著走著就走出了自己的路——這或許就是島嶼文化的本質：接受外來，卻始終保有自己。
+    
+    石垣市老町的「来夏世」（くなつゆ）是許多人心目中最正統的一碗。這個店名本身就藏著一個祈願——在八重山話裡，「来夏世」意味著「豐收的夏天降臨」，願五穀豐穰、萬事繁盛。踏入木造古民家，昏黃的燈光映著陶碗，湯頭端上來清澈得幾乎透明，但那口感之豐富，讓人愣了一下才回過神。
+    
+    別忘了桌上那罐小小的「ピパーツ」——那是八重山特有的島胡椒，帶著微微的花椒香氣和柑橘尾韻，是沖繩本島買不到的秘密香料。撒上一點，這碗湯立刻活了起來，層次一下深了好幾倍。
+    
+    石垣島人幾乎從小喝到大，有些老店規定「湯賣完就收攤」，每天中午前就掛起「本日終了」的牌子。這不是噱頭，是對食材最純粹的尊重。趁早來，才能喝到最好的那一碗。
+  observationPrompt: "仔細端詳碗裡的麵條——它的截面是圓的還是扁的？和你平常吃到的拉麵有何不同？再找找桌上有沒有「ピパーツ」（島胡椒），試試撒上前後這碗湯的味道有什麼變化？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 文化
+        label: 文化
+      - id: 歷史
+        label: 歷史
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 美食
+        label: 美食
+      - id: 體驗
+        label: 體驗
+  indoor: true
+  location:
+    latitude: 24.3388
+    longitude: 124.1567
+    locationHint: "石垣市字石垣の旧市街エリア。代表的な老舗「来夏世（くなつゆ）」は石垣小学校の隣（石垣市字石垣203）。徒歩圏内に「丸八食堂」など複数の老舗あり。駐車場なし、公設市場から徒歩5分。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3388,124.1567"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "八重山そばは石垣島を代表する郷土料理であり、琉球王国時代に中国から伝わった製麵文化を基盤に、独自の進化を遂げた地域固有の食文化遺産。沖縄本島のそばとは異なる細くストレートな丸麺と、ピパーツ（島胡椒）という固有香辛料が特色。"
+    sources: [jp-ishigaki-yaeyama-soba-source]
+  distinctiveness:
+    score: 5
+    note: "八重山群島限定的飲食文化，圓形直麵、清澈豬骨鰹魚湯底、島胡椒「ピパーツ」三者組合在沖繩本島與日本其他地方均無法複製，是名副其實只有在石垣島才能吃到的一碗麵。"
+    sources: [jp-ishigaki-yaeyama-soba-source]
+  interpretability:
+    score: 4
+    note: "食物本身直觀易懂，但麵條形狀差異、ピパーツ的使用方式、以及店名文化涵義等深層脈絡，需要在地嚮導解說才能充分體會；現場仍有菜單說明可輔助理解。"
+    sources: [jp-ishigaki-yaeyama-soba-source]
+  visitorValue:
+    score: 5
+    note: "一碗約600-800日圓，物超所值；老舍「来夏世」每日上午10點開始營業、售完即止，建議10:30前抵達。石垣市中心步行即可到達多家名店，停留時間約30-60分鐘。"
+    sources: [jp-ishigaki-yaeyama-soba-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-yaeyama-soba-source]
+  final: 4.6
+sources:
+  - id: jp-ishigaki-yaeyama-soba-source
+    title: "八重山そば - Wikipedia（日本語）"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E5%85%AB%E9%87%8D%E5%B1%B1%E3%81%9D%E3%81%B0
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yaeyama-soba,_Ishigaki,_Japan.JPG
+    creator: "(WT-shared) Shoestring at wts.wikivoyage"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "5794f9af54ae73504e4ad74b1082204b2751c43c8e887ce16ce05ed1860958c1"
+    compactPath: media/compact/jp-ishigaki-yaeyama-soba.webp
+    completePath: media/complete/jp-ishigaki-yaeyama-soba.webp
+admissions:
+  - label: "餐廳消費制，一碗約600-800日圓（依店家而異），無門票費用。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

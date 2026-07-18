@@ -1,0 +1,106 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-730-monument
+  parentId: null
+  kind: venue
+  title: "730記念碑"
+  summary: "站在這個普通的十字路口，你腳下踩的是一段沖繩「回家之路」的起點——1978年7月30日清晨，石垣島在短短八個小時內完成了從靠右行駛到靠左行駛的歷史切換，這塊石碑就是那個奇蹟之夜的見證。"
+  narration: |
+    站在這個叫做「730交差點」的路口，你可能覺得它看起來就是一個普通的市區十字路口，但這裡藏著一段讓石垣島人至今津津樂道的歷史。
+    
+    時間回到1945年，二次大戰末期，美軍佔領沖繩之後，強制把整個沖繩的行車方向從靠左改成靠右——跟美國本土一樣。這一改，就改了三十多年。
+    
+    1972年，沖繩正式回歸日本，但行車方向這件事卻沒有立刻跟著改。那六年間，沖繩人開車靠右，日本本土靠左，坐船到本州一出站，方向感整個打亂，各種驚魂記多的是。
+    
+    終於，在1978年7月30日，這一天到來了。
+    
+    為了讓這個歷史性的切換平安完成，當局從7月29日深夜10點開始，到30日早上6點的八個小時內，除了緊急車輛，全面禁止車輛上路。幾百名工人徹夜不眠，把全島的道路標誌、地上的標線全部換掉。
+    
+    早上6點整，消防署的警報器鳴響，石垣港的大小船隻同時拉起汽笛——這就是切換的信號。沖繩全縣在同一瞬間，所有車輛切換成靠左行駛。整個過程竟然順利完成，沒有發生重大事故，讓當時的人鬆了一大口氣。
+    
+    為了慶祝這個了不起的成功，石垣島在這個路口豎立了這塊730記念碑。有趣的是，記念碑的設計者其實是一位當地的警察官，他把這個重要的日子刻進石頭裡，留給後人記憶。
+    
+    2008年，切換三十週年的時候，這裡又加設了一對用八重山方言叫做「シィーシィー」的石獅子，把整個地方改建成小公園，命名為「730シィーシィーパーク」，讓這段歷史在南國的陽光下繼續活著。下次你在石垣島騎車靠著左側行駛時，或許會想起那個在黑夜中徹夜換標誌的奇蹟之夜。
+  observationPrompt: "仔細看看730記念碑的石碑正面——你能找出「730」這三個數字藏在碑文或圖案的哪個地方嗎？旁邊的一對石獅子（シーサー）表情各有不同，你覺得它們分別代表什麼意思？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3383
+    longitude: 124.1574
+    locationHint: "石垣市美崎町3、730交差点のすぐ脇。離島ターミナルから徒歩約3〜5分。駐車場なし、徒歩でのアクセス推奨。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3383,124.1574"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "象徵沖繩從美軍佔領時期強制右側通行，歷經返還後六年，終於在1978年恢復日本左側通行制度的歷史轉捩點，是八重山地區最具代表性的戰後史跡之一。"
+    sources: [jp-ishigaki-730-monument-source]
+  distinctiveness:
+    score: 4
+    note: "全世界少見以「交通行車方向切換」為主題的紀念碑，背後的八小時換標誌奇蹟故事極具戲劇性，且記念碑由警察官親自設計，獨一無二。"
+    sources: [jp-ishigaki-730-monument-source]
+  interpretability:
+    score: 2
+    note: "碑文簡短，現場缺乏詳細說明板，若無背景知識難以理解其深刻意義，非常需要導覽解說才能體會。"
+    sources: [jp-ishigaki-730-monument-source]
+  visitorValue:
+    score: 3
+    note: "免費參觀，24小時開放，離離島ターミナル步行3-5分鐘極為便利，停留約10分鐘即可，適合順道一訪。"
+    sources: [jp-ishigaki-730-monument-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-730-monument-source]
+  final: 3.35
+sources:
+  - id: jp-ishigaki-730-monument-source
+    title: "730シィーシィーパーク - Wikipedia"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/730%E3%82%B7%E3%82%A3%E3%83%BC%E3%82%B7%E3%82%A3%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:730記念碑_730_Monument_-_panoramio.jpg
+    creator: "iloverjoa"
+    license: "CC BY 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by/3.0
+    accessedAt: "2026-07-18"
+    originalSha256: "83f1e6bbbab8b910b7f257a1f7c15528e3a04c4b72cd19fe8ac4c2756403e304"
+    compactPath: media/compact/jp-ishigaki-730-monument.webp
+    completePath: media/complete/jp-ishigaki-730-monument.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

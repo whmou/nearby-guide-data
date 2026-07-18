@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-fusaki-beach
+  parentId: null
+  kind: venue
+  title: "フサキビーチ"
+  summary: "石垣島西岸に広がる天然の白砂ビーチ。珊瑚礁の海に沈む夕日と「エンジェルピア」が織りなす絶景、ウミガメが産卵に訪れる清澄な海水、そして1852年の悲劇を伝える唐人墓が隣接する、石垣島随一の夕日スポット。入場無料。"
+  narration: |
+    石垣島の西の端、夕日が海にまっすぐ落ちていく場所に、フサキビーチはあります。フサキビーチリゾートホテルに隣接していますが、宿泊客でなくても自由に立ち入ることができるんです。ホテルのロビーをすり抜けてビーチに出た瞬間、目の前に広がるのは珊瑚礁に囲まれた澄んだ海。遊泳エリアの中でも熱帯魚が泳いでいるのが素足で立っていても見えるほどです。
+    
+    このビーチで外せないのが「エンジェルピア」と呼ばれる桟橋です。沖へと伸びるその先端に立つと、小浜島や西表島のシルエットが夕焼けに浮かび上がる光景に出会えます。日が水平線に消える一瞬、空が緑色に輝く「グリーンフラッシュ」が現れることもあると地元の人は言います。また毎年夏には、ウミガメが産卵のためにひっそりとこの砂浜を訪れます。この白い砂浜が長年にわたって守られてきた理由のひとつが、まさにそのウミガメたちです。
+    
+    一方、ビーチの少し南に「唐人墓」という場所があります。1852年、アメリカの船「ロバート・バウン号」が400人の中国人労働者をカリフォルニアへ送る途中、石垣島沖で座礁しました。奴隷同然の扱いを受けていた彼らは船内で反乱を起こし島に上陸しましたが、駆けつけたイギリス兵に追い詰められ、銃撃・病死・自殺で次々と命を落としました。1971年に建てられた唐人墓には128人の霊が祀られ、鮮やかな中華風の装飾をまといながら、この美しい夕日の海を今も静かに見守っています。
+    
+    楽園の絶景と歴史の悲しみが同居するフサキビーチ。夕暮れ時にエンジェルピアの先端に立ってみてください。きっと、ただの「綺麗な海」以上の何かを感じるはずです。
+  observationPrompt: "夕暮れ時、エンジェルピアの先端に立って太陽が水平線に沈む瞬間をじっと見てください――消える直前、空に何色が一瞬だけ現れましたか？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海灘
+        label: 海灘
+      - id: 自然
+        label: 自然
+      - id: 歴史
+        label: 歴史
+      - id: 展望台
+        label: 展望台
+      - id: 珊瑚礁
+        label: 珊瑚礁
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.3363
+    longitude: 124.1337
+    locationHint: "フサキビーチリゾートホテル＆ヴィラズのロビーを通り抜けてビーチへ。無料駐車場あり（130台）。石垣市街地から車で約15分、空港から約30分。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.3363,124.1337"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "石垣島屈指の夕日スポットとして広く知られ、ウミガメの産卵地でもある。隣接する唐人墓は1852年のロバート・バウン号事件を伝える県指定史跡。"
+    sources: [jp-ishigaki-fusaki-beach-source]
+  distinctiveness:
+    score: 4
+    note: "エンジェルピアから望む八重山の島影と夕焼けは石垣島随一。天然ビーチ・ウミガメ・珊瑚礁の豊かな自然に加え、近代史の悲劇が刻まれた唐人墓が共存する稀有な場所。"
+    sources: [jp-ishigaki-fusaki-beach-source]
+  interpretability:
+    score: 3
+    note: "ビーチとしての魅力は直感的に楽しめるが、唐人墓の歴史的背景やグリーンフラッシュの科学的背景など、解説があると格段に深まる。"
+    sources: [jp-ishigaki-fusaki-beach-source]
+  visitorValue:
+    score: 5
+    note: "入場無料で宿泊不要。夕日・海水浴・シュノーケリング・ウミガメ観察と半日たっぷり楽しめる。市街地から15分とアクセスも抜群。"
+    sources: [jp-ishigaki-fusaki-beach-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-fusaki-beach-source]
+  final: 3.85
+sources:
+  - id: jp-ishigaki-fusaki-beach-source
+    title: "フサキビーチ | 石垣市観光交流協会"
+    publisher: ""
+    url: https://yaeyama.or.jp/%E3%83%95%E3%82%B5%E3%82%AD%E3%83%93%E3%83%BC%E3%83%81/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Fusaki-Beach_Ishigaki_Okinawa_Japan.jpg
+    creator: "Flickr user: ajari Japan https://www.flickr.com/people/ajari/"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "27cbf016173533f0f79658d75b9abf7bf73c8105db41fe702727978256342fa3"
+    compactPath: media/compact/jp-ishigaki-fusaki-beach.webp
+    completePath: media/complete/jp-ishigaki-fusaki-beach.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

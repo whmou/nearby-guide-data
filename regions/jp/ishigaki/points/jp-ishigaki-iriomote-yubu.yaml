@@ -1,0 +1,104 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-iriomote-yubu
+  parentId: null
+  kind: venue
+  title: "由布島・水牛車渡し"
+  summary: "坐上水牛拉著的木車，緩緩穿越膝蓋深的碧藍淺海——由布島的水牛車渡海體驗，是八重山群島最讓人難忘、全世界幾乎獨一無二的旅程，終點是一座被熱帶花卉覆蓋的夢幻小島。"
+  narration: |
+    站在西表島這一側的淺灘，看著眼前一頭黑色大水牛，踩著穩定的步伐，拉著滿載遊客的木車，慢慢走進那片碧藍的淺海——這個畫面，恐怕是八重山群島最獨特的風景之一了。
+    
+    由布島只有0.15平方公里，是一片「幾乎看得見底」的潮間帶把它與西表島隔開。這片海最深的地方大概才到膝蓋，漲潮時也不超過一公尺。正是因為如此，才有了這個世界少有的「坐水牛車過海」體驗。
+    
+    說到水牛，這裡的歷史比想像中更豐富。大約在1932年，隨著臺灣移民來到八重山，水牛第一次踏上這片土地。那個年代，一頭水牛的價值可以蓋一棟房子，是農家最珍貴的財產。二戰後，1947年，一批從竹富島和黑島疏散的居民來到由布島重建家園，種甘蔗、種鳳梨，每家每戶都有水牛耕作。然而，1969年的颱風幾乎毀了一切，大多數居民不得不遷往西表島的宮原地區。
+    
+    颱風之後，幾乎所有人都走了，但有一對老夫婦留下來了——西山昇治先生和他的太太。他們決定用剩下的一頭水牛，把泥土和堆肥一車一車地運上島，栽種棕櫚和各種熱帶花卉，把廢棄的農地一點一點變成夢想中的「花之樂園」。數十年的努力感動了許多人前來相助，1981年亞熱帶植物樂園正式開幕，如今整座小島幾乎都被花園覆蓋。
+    
+    水牛車之所以成為渡海工具，也有一段有趣故事。以前往返由布島的船班叫「春風丸」，只能在漲潮時開船，非常不便。農民索性改用水牛運送農產品，不管潮水高低，水牛都能穩穩走過去。後來搭水牛車成了觀光客最愛的體驗，車夫還會在車上彈奏三線琴、唱起沖繩民謠，讓這段約十五分鐘的「渡海之旅」變得格外有詩意。現在每年超過二十萬人造訪，但水牛車的節奏從未改變——牠們依然踩著緩慢的步伐，把旅客從喧囂世界輕輕渡送到那座花香滿溢的小島。
+  observationPrompt: "水牛沒有馬路可循，也看不見韁繩拉住牠，牠怎麼知道要往哪裡走？仔細觀察車夫是用什麼方式與水牛溝通的——是聲音、肢體動作，還是其他你意想不到的方法？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 離島
+        label: 離島
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  indoor: false
+  location:
+    latitude: 24.345
+    longitude: 123.935
+    locationHint: "西表島大原港（大原港）下船後，沿縣道215號往西約15分鐘車程，可到達西大見川附近的水牛車乘車處。停車場位於乘船處旁，免費。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.345,123.935"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "全日本唯一以水牛車渡海的觀光景點，每年超過20萬人造訪，是西表島觀光的代表性體驗，也是沖繩縣重要的文化資產。"
+    sources: [jp-ishigaki-iriomote-yubu-source]
+  distinctiveness:
+    score: 5
+    note: "水牛拉車穿越潮間帶淺海的渡島方式，在全世界極為罕見；加上車夫在車上演奏三線琴的文化演出，體驗獨一無二。"
+    sources: [jp-ishigaki-iriomote-yubu-source]
+  interpretability:
+    score: 3
+    note: "渡海體驗本身直覺易懂，但背後的歷史脈絡（臺灣移民、颱風遷居、老夫婦築園）在現場幾乎看不到說明，需要事先了解才能感受其深度。"
+    sources: [jp-ishigaki-iriomote-yubu-source]
+  visitorValue:
+    score: 5
+    note: "雖需購票（大人¥2,000），但含往返水牛車渡海及亞熱帶植物樂園入園，停留約1.5至2小時，CP值極高；從石垣島搭船至大原港約45分鐘，交通可達性中等。"
+    sources: [jp-ishigaki-iriomote-yubu-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-iriomote-yubu-source]
+  final: 4.4
+sources:
+  - id: jp-ishigaki-iriomote-yubu-source
+    title: "由布島の歴史 | 亜熱帯植物楽園（官方網站）"
+    publisher: ""
+    url: https://yubujima.com/history/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ox_cart_on_Yubu_Island.jpg
+    creator: "ブルーノ・プラス"
+    license: "CC BY 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "a54f213ce21274b7ace17bb4ff4ba5c1eef2741b4338030553495142f82f7c56"
+    compactPath: media/compact/jp-ishigaki-iriomote-yubu.webp
+    completePath: media/complete/jp-ishigaki-iriomote-yubu.webp
+admissions:
+  - label: "大人¥2,000、兒童¥1,000（含往返水牛車費用及亞熱帶植物楽園入園料）。營業時間9:15–16:30，最後入園15:45。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

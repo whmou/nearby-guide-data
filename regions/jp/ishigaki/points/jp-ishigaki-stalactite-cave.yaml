@@ -1,0 +1,99 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-stalactite-cave
+  parentId: null
+  kind: venue
+  title: "石垣島鍾乳洞"
+  summary: "超過二十萬年才孕育而成的地底奇境——珊瑚礁石灰岩中藏著貝類化石、天然形成的「龍貓石筍」與傳說中的長壽之湖，一步踏入洞，彷彿穿越億萬年時光！"
+  narration: |
+    走進洞口的那一刻，一股清涼撲面而來——洞內常年維持23°C、濕度高達90%，和外頭南國的烈日截然不同，彷彿瞬間進入另一個世界。這個地底秘境，已靜靜等待了超過二十萬年。
+    
+    石垣島鍾乳洞是由珊瑚礁石灰岩所形成的天然洞窟，全長3.2公里，是石垣島規模最大的鍾乳洞。遠古時代，這裡曾是一片汪洋，大型貝類與珊瑚礁在此繁盛生息；隨著地殼緩緩隆起，海底世界慢慢浮出地面，千萬年的地下水一滴一滴滲透、溶蝕，才雕刻出今日的奇景。如今洞壁上仍清晰可見貝類化石的印跡，那正是這段滄海桑田最無聲的見證者。
+    
+    這個洞穴有段有趣的「身世」。最初被命名為「龍宮城鍾乳洞」，入口那座白色建築，便是為了呼應海底龍王宮殿的傳說而設計，充滿神話色彩。直到2002年才正式改名為「石垣島鍾乳洞」，然而它的神秘魅力絲毫未減。
+    
+    開放參觀的路段約660公尺，只佔全洞五分之一，其餘四分之四仍是人跡未至的黑暗深處。沿途你會看到石筍與鍾乳石相互連結成一根根石柱，仙境廣場一帶尤其壯觀，彷彿誤入精靈居住的殿堂。洞內還有一座「不老長壽之湖」，透明清澈的泉水映著洞頂的倒影，傳說此水含有延年益壽的成分，是當地信仰中的聖地。
+    
+    最讓人驚呼的，是那根天然形成的「龍貓石筍」——一顆圓滾滾的大石筍頂端，竟然伸出兩根細細的石筍，神似宮崎駿《龍貓》裡的大耳精靈，這完全是大自然歷經萬年的鬼斧神工，連宮崎駿本人或許都要嘖嘖稱奇。走出洞口，熱帶果園的芒果樹、香蕉樹環繞著你，南國陽光讓你從二十萬年的地底時光輕盈地回到現實。
+  observationPrompt: "在洞內仔細尋找那根天然形成的「龍貓石筍」，看看它的耳朵形狀是否真的像動畫裡的龍貓——你認為大自然花了多少萬年，才「不小心」雕刻出這個巧合？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 歷史
+        label: 歷史
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 洞窟
+        label: 洞窟
+  indoor: true
+  location:
+    latitude: 24.361684
+    longitude: 124.154238
+    locationHint: "從石垣市區沿縣道87號向北行駛約10分鐘，位於石垣市石垣1666番地，路旁有明顯招牌指引，附設免費停車場，入口前有熱帶果園環繞。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.361684,124.154238"
+  trigger:
+    radiusMeters: 100.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日本最南端的大型觀光鍾乳洞，由珊瑚礁石灰岩形成、洞內保有貝類化石，地質獨特性在全日本屬罕見，為石垣島代表性自然景點。"
+    sources: [jp-ishigaki-stalactite-cave-source]
+  distinctiveness:
+    score: 4
+    note: "由古代海底珊瑚礁隆起形成，洞壁可見貝類化石；天然形成的「龍貓石筍」、「不老長壽之湖」與幻彩燈光演出，讓這座洞窟兼具地質奇觀與視覺趣味。"
+    sources: [jp-ishigaki-stalactite-cave-source]
+  interpretability:
+    score: 3
+    note: "現場設有多語言說明牌（含中文），但珊瑚礁石灰岩的地質形成過程較為抽象；搭配導覽解說效果最佳，自行遊覽亦可掌握主要亮點。"
+    sources: [jp-ishigaki-stalactite-cave-source]
+  visitorValue:
+    score: 4
+    note: "需購票入場（大人1,200円），距市區約10分鐘車程，附設免費停車場，參觀約30分鐘，附近有餐廳與伴手禮商店，整體CP值高。"
+    sources: [jp-ishigaki-stalactite-cave-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-stalactite-cave-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-stalactite-cave-source
+    title: "石垣島鍾乳洞官方網站（繁體中文）"
+    publisher: ""
+    url: https://www.ishigaki-cave.com/tw/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ishigaki_Stalactite_Cave_(52117117523).jpg
+    creator: "Raita Futo from Tokyo, Japan"
+    license: "CC BY 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "20b41fa80edbeb3f1e0bb07a159514282aac3b6fab406d737d2bb7d803716b01"
+    compactPath: media/compact/jp-ishigaki-stalactite-cave.webp
+    completePath: media/complete/jp-ishigaki-stalactite-cave.webp
+admissions:
+  - label: "大人1,200円、小人（4歲至國中生）600円、3歲以下免費；15人以上團體享折扣（大人1,080円）。開放時間9:00-18:30，最終入洞18:00。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

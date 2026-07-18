@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-sukuji-beach
+  parentId: null
+  kind: venue
+  title: "底地ビーチ"
+  summary: "底地ビーチ是石垣島最美的弧形白沙灘，遠淺平靜的水域是親子天堂，也是全日本最早宣告夏天來臨的海開き舞台，傍晚更搖身一變成絕美夕陽觀賞地。"
+  narration: |
+    站在底地ビーチ的白沙上，放眼望去是一條長達一公里的弧形海灣，潔白沙灘與翡翠色海水在眼前延展，入口的莿桐林隨風輕搖。這裡靜，這裡慢，卻藏著讓島民驕傲的故事。
+    
+    「すくじ（底地）」這個名字來自八重山古老方言，指地形低緩、與海面相接的土地。石垣島在琉球王國時代是統管八重山群島的行政中心，古老地名至今仍留在地圖上，底地就是其中之一，讀著這兩個漢字，彷彿能感受到幾百年前人們在此生活的氣息。
+    
+    每年三月，八重山最令人期待的盛事在這裡揭幕——全日本最早舉辦的「海開き」儀式，由石垣市、竹富町、與那國町三地輪流主辦，舉行祈求海上平安的神事。想想看，當台灣和本州還在穿外套的三月，這裡的孩子已在嬉水，這份南國驕傲讓島民每年都熱切期待。
+    
+    底地ビーチ的另一個秘密是它的水極淺，遠浅的海床讓你走了好遠水還是及膝，低潮時幾乎可以漫步海面，腳下白沙閃光。這樣的地形讓它成為石垣島最安全的海灘，當地潛水教練異口同聲把它列為親子首選。
+    
+    面朝西邊，遠方石崎半島是日本頂級的鬼蝠魟（マンタ）觀察聖地，搭船五分鐘便能在水下看見牠如飛毯滑翔。白天游水，傍晚看夕陽沉入東海，夜裡仰望八重山星空保護區的繁星——底地ビーチ，一天有三種截然不同的面貌。
+  observationPrompt: "站在沙灘中央往兩側望去，試著找出弧形沙灘的兩個端點——右手邊遠方那條青色山脊就是石崎半島，是日本頂級的鬼蝠魟出沒地，你能估算出它距這裡有多遠嗎？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海灘
+        label: 海灘
+      - id: 自然
+        label: 自然
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.4657909
+    longitude: 124.1239628
+    locationHint: "從石垣機場沿縣道79號往川平方向行駛約35分鐘，看到「底地ビーチ」指示牌即達；免費停車場可容納100輛，停車場正對沙灘入口。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4657909,124.1239628"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "石垣市指定海水浴場，位於西表・石垣國立公園內，與川平灣並列石垣島代表性景點，曾獲米其林綠色指南兩星推薦。"
+    sources: [jp-ishigaki-sukuji-beach-source]
+  distinctiveness:
+    score: 4
+    note: "全日本最早舉辦「海開き」的八重山海岸舞台、極為罕見的遠浅地形可在海中漫步、日落西海的絕佳視角，以及緊鄰日本頂級鬼蝠魟觀察地石崎半島。"
+    sources: [jp-ishigaki-sukuji-beach-source]
+  interpretability:
+    score: 4
+    note: "海灘美景一望即明，但「遠浅」地形的特殊性需親身體驗才能感受，海開き歷史背景與八重山方言地名由來需解說輔助理解。"
+    sources: [jp-ishigaki-sukuji-beach-source]
+  visitorValue:
+    score: 4
+    note: "完全免費且設施齊全（免費停車100輛、淋浴、更衣室），距川平灣僅3公里，建議停留1至2小時；唯一缺點是交通需租車前往。"
+    sources: [jp-ishigaki-sukuji-beach-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-sukuji-beach-source]
+  final: 3.6
+sources:
+  - id: jp-ishigaki-sukuji-beach-source
+    title: "石垣市指定海水浴場 底地ビーチ | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: ""
+    url: https://www.okinawastory.jp/spot/600007516
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Kabira_Bay_Ishigaki_Island41s3s4500.jpg
+    creator: "663highland"
+    license: "CC BY 2.5"
+    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    accessedAt: "2026-07-18"
+    originalSha256: "10bb23159c86dea6477b3974c7d3e0bc427d4863bf70035598fd485b8985404f"
+    compactPath: media/compact/jp-ishigaki-sukuji-beach.webp
+    completePath: media/complete/jp-ishigaki-sukuji-beach.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

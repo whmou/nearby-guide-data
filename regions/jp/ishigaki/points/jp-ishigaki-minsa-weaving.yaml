@@ -1,0 +1,99 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-minsa-weaving
+  parentId: null
+  kind: venue
+  title: "みんさー工芸館（ミンサー織り体験）"
+  summary: "「五格四格」的絣紋藏著花嫁的盼望：願你永遠來找我。八重山ミンサー傳承400年，在みんさー工芸館親手織出這份最古老的情書。"
+  narration: |
+    你知道嗎？石垣島這條小小的腰帶，藏著一段400年前的愛情故事。
+    
+    1642年，棉花第一次被帶進八重山群島，從此這裡的女性開始了ミンサー腰帶的織造文化。那個年代的八重山，流行一種叫「通婚」的習俗——男方不是直接迎娶，而是定期造訪女方家中。當一個女子愛上了某個男人，她不會說出口，而是悄悄坐在織機前，把心意一格一格地織進帶子裡。
+    
+    這個圖案叫做「五格四格」的絣紋——五個方格、四個方格交替排列。日語中，「五」唸做「いつ（itsu）」，「四」唸做「よ（yo）」，合起來就是「いつの世（よ）までも」——意思是「無論何時、在哪個世界，願你都來找我」。一條小小的腰帶，裝進了她最深的盼望。帶子兩側還有細長的縱線，象徵著「我會一直等著你」。
+    
+    時光流轉400年，這份溫柔的思念已成了石垣島的驕傲。今天「五格四格」的圖案印在包包、錢包、甚至夏天的カリユシウェア（沖縄版花樣短袖衫）上，走在島上，你到處都能見到它。每次看到這個圖案，想想背後那個在燈下獨自織布、默默等待的女子，是不是有點心疼？
+    
+    而在みんさー工芸館，你有機會親手織出這份情意。坐上傳統腰機，在師傅耐心指導下，一格一格推進橫線——短短20到30分鐘，一個屬於自己的ミンサー杯墊就誕生了。館內的展示室還可免費參觀，從紡線、染色到成品，整個製作流程一覽無遺。織的時候，你可能也會不由得想：如果是你，你想把這條帶子送給誰？
+  observationPrompt: "展示室裡的ミンサー腰帶，你能找到那個代表「永遠」的「五格四格」絣紋嗎？仔細數一數，是不是真的五個方格緊接著四個方格不斷重複？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歴史
+        label: 歴史
+      - id: 文化
+        label: 文化
+      - id: 藝術
+        label: 藝術
+      - id: 体驗
+        label: 体驗
+  indoor: true
+  location:
+    latitude: 24.341697
+    longitude: 124.1708
+    locationHint: "位於石垣市産業通り（産業大道）沿線，面向八重山警察署。最近公車站「みんさー工芸館前」步行約1分鐘。設有停車場。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.341697,124.1708"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "沖縄縣指定傳統工藝品，起源可追溯至1642年。みんさー工芸館為石垣島最具代表性的ミンサー織元，保存並傳承八重山紡織文化。"
+    sources: [jp-ishigaki-minsa-weaving-source]
+  distinctiveness:
+    score: 4
+    note: "「五格四格」絣紋背後承載著通婚時代花嫁寄語的愛情文化，是日本獨一無二、結合愛情傳說與傳統工藝的手作體驗。"
+    sources: [jp-ishigaki-minsa-weaving-source]
+  interpretability:
+    score: 4
+    note: "館內設有免費展示室說明歷史脈絡，體驗課程全程由師傅指導，初學者20至30分鐘即可完成杯墊，門檻極低。"
+    sources: [jp-ishigaki-minsa-weaving-source]
+  visitorValue:
+    score: 4
+    note: "體驗費2,000円起（コースター約20-30分），展示室免費參觀，營業時間9:00-18:00全年無休，距石垣市中心約2公里，交通便利。"
+    sources: [jp-ishigaki-minsa-weaving-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-minsa-weaving-source]
+  final: 3.9
+sources:
+  - id: jp-ishigaki-minsa-weaving-source
+    title: "あざみ屋みんさー工芸館 公式サイト"
+    publisher: ""
+    url: https://minsah.co.jp/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Weaving_a_MINSAH_belt_at_Taketomi-jima_Okinawa_Japan.jpg
+    creator: "Ken FUNAKOSHI"
+    license: "CC BY-SA 2.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/2.0
+    accessedAt: "2026-07-18"
+    originalSha256: "44e58a3dc19523cf04be7a65a43e08419bb95b7ee85dbd03f6a0b2a9fb6b37e8"
+    compactPath: media/compact/jp-ishigaki-minsa-weaving.webp
+    completePath: media/complete/jp-ishigaki-minsa-weaving.webp
+admissions:
+  - label: "展示室免費參觀；織造體驗另計費用（コースター2,000円、テーブルセンター3,500円起）"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

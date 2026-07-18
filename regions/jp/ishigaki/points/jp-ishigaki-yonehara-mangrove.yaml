@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-yonehara-mangrove
+  parentId: null
+  kind: venue
+  title: "米原マングローブ林（吹通川ヒルギ群落）"
+  summary: "石垣島北部米原ビーチ旁，隱藏著一片被指定為天然記念物的紅樹林迷宮——退潮時，泥灘上招潮蟹與彈塗魚同場演出，帶你見識熱帶濕地食物鏈最精彩的起點。"
+  narration: |
+    你現在站在的這片綠色迷宮，正式名稱叫「吹通川ヒルギ群落」，也就是本地人口中的「米原マングローブ林」。這條全長約兩公里的吹通川，從北部野底岳流淌而下，在靠近東海出口的地方，山上的淡水與潮水悄悄在這裡交融，形成了一片特殊的汽水域。正是這不淡不鹹的交界，讓紅樹林得以在這裡紮根。
+    
+    這裡的紅樹由三種ヒルギ共同構成：ヤエヤマヒルギ、オヒルギ和メヒルギ。你可以仔細觀察每棵樹根系的形狀——有的像竹竿叢叢插進泥土（呼吸根），有的則像章魚腳一樣向四方張開支撐整棵樹（支柱根）。這些千奇百怪的根，都是紅樹為了在水中缺氧的泥灘中存活而演化出的獨特把戲。正因為這片生態系的珍貴，早在1973年便被指定為石垣市天然記念物，後來更入選「日本重要濕地500選」，納入西表石垣國立公園範圍。
+    
+    退潮的時候最熱鬧。泥灘上招潮蟹高舉著那一大一小的螯，彷彿在揮手打招呼；彈塗魚用胸鰭撐起身體，在泥地上「走路」覓食，有時頭頂還有琉球翡翠鳥或蛇鵰悄悄掠過。這個生態系就像一間多功能的旅館：魚蝦在根系間產卵、育苗，候鳥飛來覓食，整條食物鏈在這裡悄悄運轉。
+    
+    很多人第一眼看到紅樹林，都覺得「這只是一堆奇怪的雜木」。但如果你划著獨木舟鑽進這片林子，樹蓋遮住陽光，耳邊只剩下水聲和蟲鳴，那種被大自然包覆的感覺，是任何照片都無法傳達的靜謐。
+  observationPrompt: "你能找到ヤエヤマヒルギ、オヒルギ、メヒルギ三種紅樹嗎？仔細比較它們的根系形狀——哪一種的根看起來最像在「用力呼吸」？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 自然
+        label: 自然
+      - id: 紅樹林
+        label: 紅樹林
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 體驗
+        label: 體驗
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.4868
+    longitude: 124.2305
+    locationHint: "沿縣道79號向北行駛，過吹通橋後右側有免費停車場（約可停8台車），從停車場走樓梯下去即是入口。無廁所設施，建議事先如廁。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4868,124.2305"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1973年指定為石垣市天然記念物，入選「日本重要濕地500選」，是西表石垣國立公園代表性紅樹林生態系之一"
+    sources: [jp-ishigaki-yonehara-mangrove-source]
+  distinctiveness:
+    score: 4
+    note: "同地可見三種ヒルギ植物並存，退潮時泥灘生態豐富（招潮蟹、彈塗魚、野鳥），且完全免費開放，還可搭配划獨木舟深入體驗"
+    sources: [jp-ishigaki-yonehara-mangrove-source]
+  interpretability:
+    score: 3
+    note: "現場解說牌不多，退潮時生態現象明顯易觀察；若有嚮導帶領划船，對物種辨識和生態理解會大幅提升"
+    sources: [jp-ishigaki-yonehara-mangrove-source]
+  visitorValue:
+    score: 4
+    note: "免費入場、免費停車、無需預約，步行即可觀賞；退潮前後2小時是最佳造訪時機，可搭配米原ビーチ行程，停留約30-60分鐘"
+    sources: [jp-ishigaki-yonehara-mangrove-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-yonehara-mangrove-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-yonehara-mangrove-source
+    title: "吹通川のヒルギ群落-石垣島の観光スポット | 石垣島ツアーズ"
+    publisher: ""
+    url: https://ishigaki-tours.com/spot/fukidou-hirugi-forest
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_of_Miyara_River.jpg
+    creator: "Babi Hijau"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    accessedAt: "2026-07-18"
+    originalSha256: "11483bf9270899c337b61529a37586d1a92d99f80c650f25a5c8570783d3a2e4"
+    compactPath: media/compact/jp-ishigaki-yonehara-mangrove.webp
+    completePath: media/complete/jp-ishigaki-yonehara-mangrove.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

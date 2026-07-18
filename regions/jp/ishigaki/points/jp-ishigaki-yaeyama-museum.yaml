@@ -1,0 +1,99 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-yaeyama-museum
+  parentId: null
+  kind: venue
+  title: "石垣市立八重山博物館"
+  summary: "只要200日圓，就能在這裡讀懂八重山群島的千年身世：人頭稅的沉重歷史、已失傳的帕納里陶、南方漂來的無名獨木舟，每一件靜靜陳列的文物背後，都是一個無聲卻震撼人心的故事。"
+  narration: |
+    站在這棟樸實的建築前，你可能不會想到，眼前這間入場費只要200日圓的小博物館，藏著整個八重山群島數百年的悲歡離合。
+    
+    八重山博物館開館於1972年，正是沖繩回歸日本的那一年。這個時間點本身就意味深長——在長達27年的美軍統治結束後，石垣人選擇用一座博物館來宣告自己的文化身份認同。館址原本就是石垣市役所的舊址，可以說是從行政中心蛻變成了文化的守護者。
+    
+    走進館內，最讓人動容的，是那些與「人頭稅」有關的文物。從古琉球時代一直到1903年明治政府廢止為止，八重山每個15歲到50歲的人都要繳稅——男人繳穀物，女人繳織物。那些女人一絲一線織出來的，就是現在被列為重要文化財的「八重山上布」。在琉球王府官員的監視下織布繳稅，那雙手既是生計，也是枷鎖。如今這些布料靜靜陳列在玻璃櫃裡，卻讓人感受到一種無聲的重量。
+    
+    館內還收藏了一艘從南方漂來的「くり舟」——用整塊原木挖鑿而成的獨木舟。沒有人知道它從哪裡出發，也不知道經歷了多少風浪才擱淺在八重山的海岸。這艘無名的舟，無聲訴說著南島文化圈之間那些說不清道不明的聯繫。
+    
+    而「パナリ焼」（新城島燒）這種已經失傳的陶器，如今只能在這裡見到實物。那粗獷質樸的釉面，承載著離島居民面對大海的倔強與韌性。
+    
+    整個博物館藏品約兩萬件，常設展只精選約600件展出。如果你想在出發去西表島或竹富島之前，先把這片群島的靈魂稍稍讀懂一些——這裡，就是最好的起點。
+  observationPrompt: "館內展示的八重山上布，是古代女性用雙手織出來當稅金繳給琉球王府的「御用布」——仔細看看那些細密的圖案，想想一位古代石垣女性究竟要花多少時間，才能織完一匹布來換取一年的免稅？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室內
+        label: 室內
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 文化
+        label: 文化
+      - id: 建築
+        label: 建築
+  indoor: true
+  location:
+    latitude: 24.338056
+    longitude: 124.159556
+    locationHint: "石垣市登野城4-1。從石垣港離島ターミナル步行約10分鐘，館門前設有公車站。停車場在館旁側邊。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.338056,124.159556"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "1972年沖繩回歸日本後首批開設的紀念設施之一，1983年成為沖繩縣第二座登錄博物館，收藏逾兩萬件八重山獨有文物，包括重要文化財級別的八重山上布圖稿。"
+    sources: [jp-ishigaki-yaeyama-museum-source]
+  distinctiveness:
+    score: 4
+    note: "館藏涵蓋人頭稅時代文書、已失傳的帕納里陶（パナリ焼）、從南方海上漂來的獨木舟等八重山獨有文物，是全日本唯一系統呈現八重山文化全貌的博物館。"
+    sources: [jp-ishigaki-yaeyama-museum-source]
+  interpretability:
+    score: 3
+    note: "解說牌以日文為主，部分展品有英文說明；視覺性強的實物展示（織品、陶器、獨木舟）即使不懂日文也能感受，但歷史脈絡說明需要一定的背景知識。"
+    sources: [jp-ishigaki-yaeyama-museum-source]
+  visitorValue:
+    score: 4
+    note: "入場費僅200日圓，性價比極高；距離離島渡輪碼頭步行10分鐘，可安排搭船前的空檔參觀；館內精緻緊湊，約60至90分鐘可逛完全館。"
+    sources: [jp-ishigaki-yaeyama-museum-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-yaeyama-museum-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-yaeyama-museum-source
+    title: "石垣市立八重山博物館 - Wikipedia（日本語）"
+    publisher: ""
+    url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E5%B8%82%E7%AB%8B%E5%85%AB%E9%87%8D%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yaeyama_Museum,_Ishigaki,_Japan.JPG
+    creator: "User: (WT-shared) Shoestring at wts wikivoyage"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-18"
+    originalSha256: "5cf717fde48123f622ad95f1d129ad2b56e0735cf28c221d2c200ef5879a9550"
+    compactPath: media/compact/jp-ishigaki-yaeyama-museum.webp
+    completePath: media/complete/jp-ishigaki-yaeyama-museum.webp
+admissions:
+  - label: "大人200日圓，中學生以上100日圓，小學生以下免費。20人以上團體享八折優惠。特別展免費。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []

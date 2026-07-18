@@ -1,0 +1,100 @@
+schemaVersion: 1
+point:
+  id: jp-ishigaki-yonehara-beach
+  parentId: null
+  kind: venue
+  title: "米原ビーチ"
+  summary: "石垣島北部最知名的岸邊浮潛聖地，踩幾步進海就能看見珊瑚礁與小丑魚，旁邊還有全球僅石垣島與西表島才有的天然記念物ヤエヤマヤシ群落——這片海，不是風景，是八重山的日常。"
+  narration: |
+    想像一下，腳踩細白沙灘，眼前是透明翡翠綠的海水，珊瑚礁就在腳下幾步外展開——這就是石垣島米原ビーチ，也是八重山最知名的岸邊浮潛聖地。這裡屬於「西表石垣國立公園」，大自然替你守著這片海。
+    
+    米原最讓人驚豔的，是完全不需要搭船出海。從岸邊踩進水裡幾步路，卡通裡才看得到的小丑魚（カクレクマノミ）就在身邊穿梭，彩色熱帶魚在珊瑚叢中進進出出。當地人說，來石垣島不來米原浮潛，就像去京都沒看金閣寺一樣可惜。
+    
+    走上岸往內陸走幾步，還有另一個驚喜——「米原のヤエヤマヤシ群落」，這裡生長著全世界只在石垣島與西表島才有的ヤエヤマヤシ，是日本國指定天然記念物。這種棕櫚樹高可達二十五公尺，一屬一種，孤傲地守護著八重山。科學家推測，它們約在一百萬年前，趁著海平面下降、陸地與大陸相連之際，從南方遷徙定居於此，從此再也沒有離開。
+    
+    浮潛要注意：礁盤很淺，退潮時珊瑚露出水面幾乎沒法游，漲潮才是入水的好時機。珊瑚礁特有的離岸流不容小覷，連在地人都對這裡的水流保持敬意，建議跟著潮汐走、或找在地浮潛團帶路。踩在沙灘上、看棕櫚樹影打在海面上，你會明白為什麼八重山人說——這片海，不是風景，是日常。
+  observationPrompt: "站在淺水區向海底看，試著找找橘白條紋的小丑魚——牠們最愛躲在哪一種珊瑚附近？你能數出幾條？"
+  countryCode: JP
+  adminAreaLevel1: 沖縄県
+  adminAreaLevel2: 石垣市
+  hierarchy: ["日本", "沖縄県", "石垣市"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海灘
+        label: 海灘
+      - id: 自然
+        label: 自然
+      - id: 珊瑚礁
+        label: 珊瑚礁
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 24.4530279
+    longitude: 124.1856135
+    locationHint: "縣道79號（県道79号）沿線，石垣市桴海。海灘旁設有停車場，收費500日圓/日，備有廁所與沖水設施。從石垣市區車程約30分鐘。"
+  googleMapsUrl: "https://maps.google.com/maps?q=24.4530279,124.1856135"
+  trigger:
+    radiusMeters: 250.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "石垣島最知名的浮潛景點，位於西表石垣國立公園內，鄰近日本國指定天然記念物ヤエヤマヤシ群落，是八重山生態與自然保育的代表性地點。"
+    sources: [jp-ishigaki-yonehara-beach-source]
+  distinctiveness:
+    score: 4
+    note: "全日本最容易從岸邊直接觀察珊瑚礁與熱帶魚的海灘之一，不需搭船即可浮潛；加上毗鄰全球唯二ヤエヤマヤシ自生地，自然稀有性極高。"
+    sources: [jp-ishigaki-yonehara-beach-source]
+  interpretability:
+    score: 3
+    note: "珊瑚礁與熱帶魚一眼可見，但潮汐判斷、離岸流安全、以及ヤエヤマヤシ的生態意義需要背景知識才能完整理解。"
+    sources: [jp-ishigaki-yonehara-beach-source]
+  visitorValue:
+    score: 4
+    note: "海灘免費入場，停車500日圓；可自行浮潛或參加在地導覽團；建議停留1.5至3小時。從市區無需轉乘，開車約30分鐘可達。"
+    sources: [jp-ishigaki-yonehara-beach-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [jp-ishigaki-yonehara-beach-source]
+  final: 3.7
+sources:
+  - id: jp-ishigaki-yonehara-beach-source
+    title: "Yonehara Beach - Must-See, Access, Hours & Price | GOOD LUCK TRIP"
+    publisher: ""
+    url: https://www.gltjp.com/en/directory/item/16355/
+    accessedAt: "2026-07-18"
+    language: ja
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonehara_Beach.jpg
+    creator: "Syced"
+    license: "CC0"
+    licenseUrl: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+    accessedAt: "2026-07-18"
+    originalSha256: "45d40362bc54bfd2a2f6da96915a97eb4a0111d9e90fb2c94d760bbccecf8a02"
+    compactPath: media/compact/jp-ishigaki-yonehara-beach.webp
+    completePath: media/complete/jp-ishigaki-yonehara-beach.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-18"
+  notes: []
