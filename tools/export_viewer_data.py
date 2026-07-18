@@ -15,6 +15,16 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
+def _flat_tags(tag_groups: list) -> list[str]:
+    tags = []
+    for g in tag_groups:
+        for t in g.get("tags", []):
+            label = t.get("label", "")
+            if label:
+                tags.append(label)
+    return tags
+
+
 def main() -> None:
     regions_dir = REPO_ROOT / "regions"
     output_dir = REPO_ROOT / "public"
@@ -30,35 +40,29 @@ def main() -> None:
             raw = yaml.safe_load(point_yaml.read_text(encoding="utf-8"))
             p = raw.get("point", {})
             loc = p.get("location", {})
-            media = p.get("media", [])
+            media_list = raw.get("media", [])
+            rating_ev = raw.get("ratingEvidence", {})
 
-            # Pick first media source URL for thumbnail preview
-            media_url = next(
-                (m["url"] for m in media if m.get("url")), None
-            )
-
-            # Admission summary
-            admissions = p.get("admissions", [])
-            admission_free = (
-                any(a.get("isFree") for a in admissions) if admissions else None
-            )
-
-            rating_block = p.get("rating")
-            rating_score = rating_block.get("score") if rating_block else None
+            # First media item
+            first_media = media_list[0] if media_list else {}
 
             points.append({
                 "id": p.get("id"),
                 "title": p.get("title", ""),
                 "summary": p.get("summary", ""),
+                "narration": p.get("narration", ""),
+                "observationPrompt": p.get("observationPrompt", ""),
                 "lat": loc.get("latitude"),
                 "lng": loc.get("longitude"),
+                "locationHint": loc.get("locationHint", ""),
                 "googleMapsUrl": p.get("googleMapsUrl"),
                 "indoor": p.get("indoor", False),
-                "tags": p.get("tags", []),
-                "mediaCount": len(media),
-                "mediaSourceUrl": media_url,
-                "rating": rating_score,
-                "admissionFree": admission_free,
+                "tags": _flat_tags(p.get("tagGroups", [])),
+                # Image paths (relative to guidepack ZIP root)
+                "compactPath": first_media.get("compactPath"),
+                "mediaSourceUrl": first_media.get("sourceUrl"),
+                "mediaCount": len(media_list),
+                "rating": rating_ev.get("final"),
                 "triggerRadiusM": p.get("trigger", {}).get("radiusMeters"),
             })
 
