@@ -1,0 +1,112 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-sanmin-street
+  parentId: null
+  kind: venue
+  title: "三民老街"
+  summary: "小琉球唯一的市集商圈，緊鄰大福漁港的三民路與新興路一帶，是全島居民日常生活的核心。清晨漁獲直送、人聲鼎沸，花枝丸香氣瀰漫，機車租借行大排長龍，是感受離島慢活節奏最直接的入口。"
+  narration: |
+    要認識小琉球，不妨從三民老街走起。這條緊鄰大福漁港、沿著三民路與新興路延伸的市街，是全島商業的命脈，也是居民從清晨便開始忙碌的生活場景。
+    
+    「三民」這個名字，來自台灣光復後以孫中山三民主義命名街道的慣例——民族、民權、民生，幾個抽象的大字，就這樣靜靜落在這座小島的門牌上。街雖不長，卻藏著幾百年歷史的縮影。
+    
+    小琉球的歷史，比多數人想像的更為沉重。17世紀初，馬卡道族原住民在此捕魚為生，過著與海共舞的日子。1636年，荷蘭東印度公司以島民殺害遭難荷蘭水手為由出兵攻打，幾乎將全島原住民屠盡或強制遷往爪哇，島嶼就此荒廢數十年。後來閩南漁民渡海而來，帶著媽祖香火與捕魚的手藝，一點一點在珊瑚礁盤上建起家園。三民老街，就是那個年代以後漁村商業活動自然聚集的地方——靠近碼頭方便交易，靠近廟宇方便出海前祈福。
+    
+    今日的老街，節奏依然跟著漁船走。天還沒亮，第一批漁船便已靠岸，鬼頭刀、飛魚、章魚一箱箱卸下，市場裡喊價聲和海水腥味交織。上午遊客從碼頭湧入，機車出租行門口大排長龍，現炸花枝丸的香氣飄上街頭。老街走一趟不過十分鐘，但你能在這裡嚐到島嶼日常的全貌：漁人清晨吃的那碗鹹魚飯、阿嬤現做的紅龜粿、一杯在地人才懂的青草茶。
+    
+    站在老街的巷口，背對著港邊的鹽風，你會明白為什麼小琉球沒有紅綠燈。不是沒有理由，而是連時間，都選擇在這座島上慢下來。
+  observationPrompt: "走進老街市場，找找看今天漁船帶回了什麼漁獲？試著問問攤販：今天的魚是從哪裡抓的、用什麼方式捕的？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 老街
+        label: 老街
+      - id: 漁港
+        label: 漁港
+      - id: 小吃
+        label: 小吃
+      - id: 在地生活
+        label: 在地生活
+      - id: 歷史
+        label: 歷史
+      - id: 離島
+        label: 離島
+      - id: 屏東
+        label: 屏東
+      - id: 珊瑚礁島嶼
+        label: 珊瑚礁島嶼
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 市場
+        label: 市場
+  indoor: false
+  location:
+    latitude: 22.347
+    longitude: 120.3728
+    locationHint: "大福漁港碼頭旁，三民路與新興路交叉口附近，機車出租行與市場集中處"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.347,120.3728"
+  trigger:
+    radiusMeters: 120.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "全島唯一商業市街，是居民生活核心與遊客入島第一站，具地方代表性，但非國家級景點"
+    sources: [tw-xiaoliuqiu-sanmin-street-source]
+  distinctiveness:
+    score: 3
+    note: "兼具漁村老街與離島氣氛，與澎湖、馬祖類似地點相比各有特色，但形式上不算罕見"
+    sources: [tw-xiaoliuqiu-sanmin-street-source]
+  interpretability:
+    score: 4
+    note: "街景直觀，食物、市場、漁獲一目瞭然，加上歷史背景說明後理解層次豐富"
+    sources: [tw-xiaoliuqiu-sanmin-street-source]
+  visitorValue:
+    score: 4
+    note: "提供租車、早餐、在地小吃等實用功能，同時是感受島嶼慢活節奏的最佳起點"
+    sources: [tw-xiaoliuqiu-sanmin-street-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-sanmin-street-source]
+  final: 3.35
+sources:
+  - id: tw-xiaoliuqiu-sanmin-street-source
+    title: "琉球鄉 - 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%84%89
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Liuqiu_Township_Pingtung_Taiwan_Sanmin-Road-01.jpg
+    creator: "Wikimedia Commons 貢獻者"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-sanmin-street.webp
+    completePath: media/complete/tw-xiaoliuqiu-sanmin-street.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

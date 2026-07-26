@@ -1,0 +1,107 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-tiantan-mountain
+  parentId: null
+  kind: venue
+  title: "天台山"
+  summary: "小琉球全島最高點，海拔約87公尺，由珊瑚礁地殼隆起而成。碧雲寺後方石階步道可達，登頂可俯瞰全島礁盤與台灣海峽，晴日遠眺屏東海岸線。"
+  narration: |
+    小琉球這座僅有6.8平方公里的珊瑚礁小島，最高點就是藏在碧雲寺後方的天台山，海拔約87公尺。別看數字小，對一座從海底隆起的礁島來說，這已經是站在頂頂上了。
+    
+    走進碧雲寺，香煙裊裊，信眾向觀世音菩薩祈福。寺廟後方有一條石階步道蜿蜒而上，這就是上天台山的入口。過去島上的漁民習慣在出海前來碧雲寺拜拜，平安歸來後再爬上天台山還願，俯瞰自己剛剛出沒的那片海，心裡的感恩之情更為踏實。
+    
+    「天台」兩個字，說的是「天神的高台」，也說的是「離天最近的地方」。腳下踩的不是普通的泥土，而是幾萬年前的海底珊瑚與貝類骸骨，被地殼力量慢慢推出海面，風化成今天這塊形狀奇特的石灰岩山頭。路邊岩壁的孔洞和皺折，正是古代珊瑚礁留下的印記，每一個細節都在提醒你：這整座島，曾經是海洋的一部分。
+    
+    登頂後，小琉球的輪廓一覽無遺。天氣晴朗時，遠方隱約可見台灣本島的屏東海岸線，以及南方大武山的稜線。海面湛藍，往返東港的交通船劃出白色浪跡。眼尖的旅人，偶爾能從這個高度發現礁盤淺灘附近悠游的綠蠵龜——牠們喜歡在退潮後的珊瑚礁覓食海草，從高處反而看得特別清楚。
+    
+    山頭被亞熱帶次生林覆蓋，榕樹氣根垂掛，林投葉刺向四方，夏天蟬鳴震耳，秋冬則清爽怡人。整段步道輕鬆易行，不需特殊裝備，半小時內即可來回。這裡沒有門票，沒有商業攤販，只有一片純樸的島嶼制高點，等著你親眼印證：小琉球確實是從海底長出來的。
+  observationPrompt: "站在山頂環顧四周，你能辨認出小琉球的哪些地標？仔細看腳邊的石灰岩，能找到古代珊瑚礁留下的孔洞或紋路嗎？天氣好的話，試試看能不能從高處在礁盤上發現綠蠵龜的身影。"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 制高點
+        label: 制高點
+      - id: 健行步道
+        label: 健行步道
+      - id: 珊瑚礁地形
+        label: 珊瑚礁地形
+      - id: 碧雲寺
+        label: 碧雲寺
+      - id: 展望台
+        label: 展望台
+      - id: 生態觀察
+        label: 生態觀察
+      - id: 小琉球
+        label: 小琉球
+      - id: 地質景觀
+        label: 地質景觀
+  indoor: false
+  location:
+    latitude: 22.3493
+    longitude: 120.3738
+    locationHint: "碧雲寺（主廟）後方山路入口，沿石階步道上行約15至20分鐘即達頂。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3493,120.3738"
+  trigger:
+    radiusMeters: 120.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球全島最高點，兼具地理、宗教（碧雲寺信仰圈）與生態觀察意義，是認識小琉球珊瑚礁地質的最佳視角。"
+    sources: [tw-xiaoliuqiu-tiantan-mountain-source]
+  distinctiveness:
+    score: 3
+    note: "珊瑚礁隆起而成的山頂在台灣離島中罕見，但山頂本身景觀設施簡樸，差異化程度中等。"
+    sources: [tw-xiaoliuqiu-tiantan-mountain-source]
+  interpretability:
+    score: 4
+    note: "珊瑚礁→地殼隆起→島嶼最高點的故事鏈清晰易懂，石灰岩岩壁上的珊瑚痕跡即時可見，現地解說感強。"
+    sources: [tw-xiaoliuqiu-tiantan-mountain-source]
+  visitorValue:
+    score: 4
+    note: "全島最佳俯瞰點、步道輕鬆、全程免費，適合各年齡層，搭配碧雲寺參訪效益更高。"
+    sources: [tw-xiaoliuqiu-tiantan-mountain-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-tiantan-mountain-source]
+  final: 3.35
+sources:
+  - id: tw-xiaoliuqiu-tiantan-mountain-source
+    title: "大鵬灣國家風景區 - 琉球嶼景點介紹"
+    publisher: ""
+    url: https://www.dbnsa.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tiantai_Mountain_(Panorama).jpg
+    creator: "Tokiwa Daijō"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "d0d89fe1db47c49d7f5f5aef2651008488af2325564bfcbfdd5c973d2d7c3bfb"
+    compactPath: media/compact/tw-xiaoliuqiu-tiantan-mountain.webp
+    completePath: media/complete/tw-xiaoliuqiu-tiantan-mountain.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

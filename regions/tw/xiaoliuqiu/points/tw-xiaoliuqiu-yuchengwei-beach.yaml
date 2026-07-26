@@ -1,0 +1,112 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-yuchengwei-beach
+  parentId: null
+  kind: venue
+  title: "漁埕尾沙灘"
+  summary: "小琉球東南角的迷你珊瑚礁沙灘，地名源自昔日漁民曬網的「漁埕」，是全島少數沙質海岸，也是與綠蠵龜近距離相遇的熱點。"
+  narration: |
+    站在漁埕尾沙灘，踩著細碎的珊瑚礁沙，你很快會發現這裡和台灣本島的海灘不太一樣——沙粒偏粗，夾著白色貝殼碎片，岸邊礁石上附著一層層活珊瑚，潮水拍來時發出沉悶的鼓聲。
+    
+    「漁埕」，閩南語裡是漁民整理漁獲、修補魚網的工作場地；「尾」則是最末端的意思。幾百年前，閩南移民渡過黑水溝來到這座珊瑚礁隆起的小島定居，在嶙峋的海岸邊尋找難得的沙地，搭起竹棚曬網、處理漁獲，這一帶便成了村子裡共用的漁作空間，久而久之就叫做「漁埕尾」。
+    
+    小琉球的海岸線幾乎全是礁石，能有一小片沙灘已屬珍貴，所以這裡自古就是聚落核心，沙灘旁小廟的香火從沒斷過，老一輩漁民出海前都要來拜一拜，求個平安。
+    
+    如今，這片沙灘最讓人驚喜的訪客是綠蠵龜。小琉球海域是台灣附近綠蠵龜密度最高的地方，退潮後在礁岩淺灘浮潛，往往能在三公尺內和一隻成年綠蠵龜靜靜對視。島上居民早已習慣與龜共存，出海捕魚時刻意繞道，孩子們從小就知道不能驚擾牠們。
+    
+    漁埕尾的節奏屬於那種沒有紅綠燈的島嶼時間，廟埕前總有幾個老人在聊天，機車停了又走，海風把一切都吹得鬆散。站在這裡，很容易理解小琉球為什麼讓人一來就捨不得走。
+  observationPrompt: "退潮時往礁岩淺灘看，你能找到正在悠游的綠蠵龜嗎？沙灘的沙粒和你去過的一般海灘有什麼不同——顏色、粗細、組成成分各有什麼差異？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 沙灘
+        label: 沙灘
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 漁村文化
+        label: 漁村文化
+      - id: 離島
+        label: 離島
+      - id: 生態觀光
+        label: 生態觀光
+      - id: 小琉球
+        label: 小琉球
+      - id: 屏東
+        label: 屏東
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 浮潛
+        label: 浮潛
+  indoor: false
+  location:
+    latitude: 22.336
+    longitude: 120.39
+    locationHint: "小琉球東南岸，廟口旁的珊瑚礁沙灘，環島公路沿線可見指標"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.336,120.39"
+  trigger:
+    radiusMeters: 120.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球具代表性的漁村歷史沙灘，為島上少數沙質海岸之一，具地方文史與生態雙重意義"
+    sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
+  distinctiveness:
+    score: 4
+    note: "珊瑚礁環境中稀有沙灘、地名藏漁村記憶、綠蠵龜棲地三者交疊，辨識度高"
+    sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
+  interpretability:
+    score: 4
+    note: "地名由來具體可說故事，生態可直接觀察，在地廟口生活氣息容易感受"
+    sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
+  visitorValue:
+    score: 4
+    note: "可浮潛賞龜、觀察礁岩地貌、體驗離島漁村日常，適合各年齡層"
+    sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
+  final: 3.6
+sources:
+  - id: tw-xiaoliuqiu-yuchengwei-beach-source
+    title: "屏東縣琉球鄉公所－小琉球旅遊資訊"
+    publisher: ""
+    url: https://www.liouciou.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Xiaoliuqiu_beach_%E5%B0%8F%E7%90%89%E7%90%83.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-yuchengwei-beach.webp
+    completePath: media/complete/tw-xiaoliuqiu-yuchengwei-beach.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

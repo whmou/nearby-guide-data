@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-rat-rock
+  parentId: null
+  kind: venue
+  title: "老鼠石"
+  summary: "小琉球北端海岸一塊形似老鼠的珊瑚礁石灰岩，與花瓶石相望。是環島路上讓人忍不住停車確認「真的好像！」的奇趣自然地標，退潮時輪廓最為清晰。"
+  narration: |
+    站在老鼠石旁邊看，你很難不笑出來。那塊珊瑚礁岩的前端微微尖起，就像一隻老鼠把鼻子探進海水裡喝水，兩側微隆的弧度活像兩片圓耳朵，身體則穩穩坐在礁盤上，渾然天成。小琉球的居民世代與海為鄰，最善於從礁石輪廓裡認出生活裡的形象——烏鬼洞、美人洞、花瓶石，每一塊石頭都有名字，有故事。老鼠石不是官方景區，沒有解說牌，卻是在地人騎車環島時最習慣停下來、指著說「欸，看那裡」的地方。
+    
+    這塊石頭的身世，要從小琉球的底子說起。整座島本身就是從海底緩緩隆起的珊瑚礁，沒有一粒火成岩或變質岩，從頭到腳都是石灰岩。數萬年來，東北季風一波一波把浪濤打上北岸，夏季颱風更是不手軟。海浪沿著岩層的紋理一點一點磨、掏、切，才磨出老鼠這般栩栩如生的身形。漲潮時鼠頭半沉水中，退潮後才現完整身形——每天的模樣都不盡相同，這也是它耐看的原因。
+    
+    老鼠石一帶同樣是綠蠵龜覓食的好去處。小琉球擁有台灣密度最高的綠蠵龜族群，退潮後礁石間的潮池長滿了海藻與海草，正是牠們最愛的食物。若你在老鼠石旁蹲低、靜靜往水裡看，一兩分鐘內看見海龜悠游而過的機率，遠比你想像的高。
+    
+    島上老一輩漁民說，以前討海出門，老鼠石是辨別方位的記號之一——看到那顆像老鼠的礁岩，就知道船已繞到島的北側，快到港了。如今環島公路把一個個礁石景點串了起來，老鼠石雖然名氣不及對面的花瓶石，卻往往是讓遊客最自然停車、拿起相機，然後帶著一個「原來大自然也很幽默」的心情繼續上路的地方。
+  observationPrompt: "站在老鼠石前，試著辨認「老鼠」的鼻子、耳朵和身體各在哪裡。現在是漲潮還是退潮？鼠頭有沒有被海水淹到？低頭看看旁邊的潮池，裡面有海藻、小魚或海膽嗎？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁岩
+        label: 珊瑚礁岩
+      - id: 奇岩地貌
+        label: 奇岩地貌
+      - id: 小琉球
+        label: 小琉球
+      - id: 北端海岸
+        label: 北端海岸
+      - id: 自然地標
+        label: 自然地標
+      - id: 綠蠵龜棲地
+        label: 綠蠵龜棲地
+      - id: 潮間帶
+        label: 潮間帶
+      - id: 屏東離島
+        label: 屏東離島
+  indoor: false
+  location:
+    latitude: 22.3644
+    longitude: 120.3626
+    locationHint: "小琉球環島公路北段，花瓶石景區步行約3至5分鐘，路邊有機車停車空間，面向北側海岸礁盤"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3644,120.3626"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 2
+    note: "小琉球眾多奇岩之一，為在地生活地標，知名度不及花瓶石，但具鮮明辨識造型"
+    sources: [tw-xiaoliuqiu-rat-rock-source]
+  distinctiveness:
+    score: 4
+    note: "老鼠輪廓辨識度極高，珊瑚礁差異侵蝕造型在台灣離島中罕見，趣味性強"
+    sources: [tw-xiaoliuqiu-rat-rock-source]
+  interpretability:
+    score: 4
+    note: "造型直覺易懂，不需解說牌即能讓多數訪客自行看出老鼠形象"
+    sources: [tw-xiaoliuqiu-rat-rock-source]
+  visitorValue:
+    score: 3
+    note: "適合騎車環島途中順路停留5至10分鐘，結合花瓶石一起造訪效益更高，單獨遠道而來動機稍弱"
+    sources: [tw-xiaoliuqiu-rat-rock-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-rat-rock-source]
+  final: 3.15
+sources:
+  - id: tw-xiaoliuqiu-rat-rock-source
+    title: "琉球鄉公所觀光旅遊資訊"
+    publisher: ""
+    url: https://www.liuqiu.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Solanum_nigrum_fruits.JPG
+    creator: "Vinayaraj"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    accessedAt: "2026-07-26"
+    originalSha256: "ddb9d3ce028237d176b6ccbc0e59651b46d5acc5abb5c9175949b0ae041c60c9"
+    compactPath: media/compact/tw-xiaoliuqiu-rat-rock.webp
+    completePath: media/complete/tw-xiaoliuqiu-rat-rock.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

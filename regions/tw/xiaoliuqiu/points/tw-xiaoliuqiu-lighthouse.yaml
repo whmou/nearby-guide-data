@@ -1,0 +1,114 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-lighthouse
+  parentId: null
+  kind: venue
+  title: "琉球燈塔（白燈塔）"
+  summary: "小琉球北端制高點的「白燈塔」建於日治昭和年間，是全島最醒目的地標。潔白塔身矗立珊瑚礁岩之上，守護台灣海峽航路近百年，晴天可遠眺屏東海岸，腳下海域是台灣最重要的綠蠵龜棲地之一。"
+  narration: |
+    站在小琉球最北端的白燈塔下抬頭一看，那一身雪白的塔身，在湛藍天空與深邃海洋之間格外醒目。島上的老人說，這座燈塔從日本時代起就守護著這片海峽，看著一代又一代的漁船出港、歸港，從未缺席。
+    
+    「琉球」這個名字大有來頭。明朝時，漢人的航海紀錄把台灣海峽附近的島嶼統稱「琉球」，為了與日本的琉球王國（今沖繩）有所區別，才慢慢有了「小琉球」的說法，台灣本島則叫「大琉球」。幾百年後叫法固定下來，這個12公里一圈、無紅綠燈的珊瑚礁小島，就這樣用一個名字，背負著整個西太平洋的海洋記憶。
+    
+    燈塔本身建於日治昭和年間，白色圓柱塔身是珊瑚礁海島上最容易辨認的地標。入夜後，燈光旋轉掃過台灣海峽，為往來東港與南洋航線的船隻指引方向。島民叫它「白燈塔」，不只因為顏色，更因為它像個不眠的老哨兵，颱風也好、大浪也罷，從未失職。
+    
+    從燈塔旁的制高點望出去，晴天可見屏東半島的海岸輪廓。腳下那片藍綠漸層的海水，是台灣最重要的綠蠵龜棲地之一，龜們在礁石間悠悠啃食海草，對頭頂的遊客視若無睹，活得比誰都自在。站在這裡，珊瑚礁化成的石灰岩在腳下，日殖時代的燈塔在頭頂，古老的海洋生命在眼前——小琉球把幾百年的海洋史與生態，全都壓縮在這個北端的小小制高點上了。
+  observationPrompt: "仔細看燈塔的塔身構造和材質，想想日治時代工程師如何在這座珊瑚礁小島上建造它。再往海面望——你能分辨出珊瑚礁區域和深水區在顏色上的差異嗎？這片淺藍綠色的海底，正是綠蠵龜最愛覓食的地方。"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 燈塔
+        label: 燈塔
+      - id: 日治時期
+        label: 日治時期
+      - id: 歷史建築
+        label: 歷史建築
+      - id: 景觀制高點
+        label: 景觀制高點
+      - id: 航海地標
+        label: 航海地標
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 小琉球
+        label: 小琉球
+      - id: 步行可達
+        label: 步行可達
+      - id: 海景
+        label: 海景
+  - id: access
+    label: 入場
+    tags:
+      - id: 免費
+        label: 免費
+  indoor: false
+  location:
+    latitude: 22.3685
+    longitude: 120.3738
+    locationHint: "小琉球北端最高點，沿環島公路北行、白燈塔路標即達，步行可達，無車道盡頭有觀景空地"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3685,120.3738"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "日治昭和年間建造，守護台灣海峽航路近百年，是小琉球最重要的歷史構造物，也是全島最具代表性的人文地標"
+    sources: [tw-xiaoliuqiu-lighthouse-source]
+  distinctiveness:
+    score: 4
+    note: "潔白塔身矗立珊瑚礁岩制高點，遠遠即可辨識，是小琉球最具代表性的天際線元素，視覺印象強烈"
+    sources: [tw-xiaoliuqiu-lighthouse-source]
+  interpretability:
+    score: 4
+    note: "地名歷史、日殖建築、航海功能、綠蠵龜生態層層疊加，現場故事豐富，引導性強"
+    sources: [tw-xiaoliuqiu-lighthouse-source]
+  visitorValue:
+    score: 4
+    note: "小琉球最佳制高點之一，歷史建築、海峽景觀、珊瑚礁海域三者兼具，步行即達且免費"
+    sources: [tw-xiaoliuqiu-lighthouse-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-lighthouse-source]
+  final: 3.9
+sources:
+  - id: tw-xiaoliuqiu-lighthouse-source
+    title: "琉球嶼燈塔 - 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/琉球嶼燈塔
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:%E7%90%89%E7%90%83%E5%B6%BC%E7%87%88%E5%A1%94_(14415396067).jpg
+    creator: "Solomon203"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-lighthouse.webp
+    completePath: media/complete/tw-xiaoliuqiu-lighthouse.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

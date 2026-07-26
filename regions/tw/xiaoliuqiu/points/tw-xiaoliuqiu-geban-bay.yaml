@@ -1,0 +1,112 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-geban-bay
+  parentId: null
+  kind: venue
+  title: "蛤板灣"
+  summary: "小琉球東南側珊瑚礁海灣，退潮後露出廣闊礁石平台與天然潮池，是全島最穩定與綠蠵龜相遇、欣賞熱帶珊瑚生態的浮潛勝地。"
+  narration: |
+    蛤板灣這個名字，問問島上的老漁民，大多只是笑著說「以前這裡蛤蜊很多嘛」。小琉球四面礁岩，潮間帶長年滋養著各式貝類，先民退潮後踩上礁板撿拾蛤蜊，時間一長，這片海灣便得了這個質樸的名字。蛤，是那些曾經密密麻麻附著礁石的貝；板，是退潮後平整浮出的礁石台地——名字裡藏著一代人下海討生活的記憶。
+    
+    位在島嶼東南側，蛤板灣相較於熱鬧的花瓶岩與美人洞，始終保持著一份從容。這裡沒有收票亭，只有一片向海延伸的珊瑚礁台地。退潮後礁石平台浮出水面，自然形成一個又一個淺水潮池，池裡藏著石斑幼魚、海膽、各色海葵隨流輕搖，還有偷偷縮進殼裡的寄居蟹。光是蹲在礁石邊往潮池裡看，就能消磨掉大半個下午。
+    
+    對許多人來說，蛤板灣最珍貴的風景其實在水面下。小琉球是台灣近海綠蠵龜最穩定的聚集地之一，牠們長年在此啃食礁石藻類、悠閒歇息，對人類鏡頭早已習以為常。浮潛時若能與一隻數十公斤的大海龜在同一片珊瑚礁上漂浮，看著牠緩慢伸長脖子覓食，那份靜謐會讓人忘了時間。
+    
+    小琉球的珊瑚礁生態能保存至今，部分要歸功於島嶼過去長期低度開發、交通不便。近年旅遊人潮大增，在地業者開始推行「不踩礁、不追龜、不餵魚」的生態守則。換個說法，這其實就是老一輩漁民心照不宣的老規矩——留條活路給海，才有明天的魚。
+    
+    退潮後的午後，坐在蛤板灣的礁岩上，屏東本島的山脈在海平面另一端若隱若現，整座島嶼沒有一盞紅綠燈，沒有一棟高樓。你會明白為什麼這座十二公里的小島，讓那麼多人一去再去。
+  observationPrompt: "退潮後站在礁石平台上往潮池裡看：你能找到幾種不同顏色的海葵？礁縫間藏著哪些生物？如果幸運遇見綠蠵龜，牠正在做什麼——覓食、休息、還是準備上浮換氣？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 潮間帶
+        label: 潮間帶
+      - id: 礁石海岸
+        label: 礁石海岸
+      - id: 小琉球
+        label: 小琉球
+      - id: 離島
+        label: 離島
+      - id: 生態旅遊
+        label: 生態旅遊
+      - id: 退潮景觀
+        label: 退潮景觀
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 浮潛
+        label: 浮潛
+  indoor: false
+  location:
+    latitude: 22.3352
+    longitude: 120.3825
+    locationHint: "小琉球東南側環島公路旁，花瓶岩景區南方約1公里處，路邊有礁岩坡道可下至海灘，退潮時礁石平台寬闊易入水。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3352,120.3825"
+  trigger:
+    radiusMeters: 120.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球代表性浮潛點之一，以綠蠵龜穩定出沒聞名，但知名度略低於花瓶岩等地標。"
+    sources: [tw-xiaoliuqiu-geban-bay-source]
+  distinctiveness:
+    score: 4
+    note: "退潮後礁石平台與潮池地形獨特，加上全台少見的綠蠵龜穩定棲息環境，辨識度高。"
+    sources: [tw-xiaoliuqiu-geban-bay-source]
+  interpretability:
+    score: 4
+    note: "潮池生物一眼即見，珊瑚礁色彩豐富，即使不下水也能在礁石平台觀察豐富潮間帶生態。"
+    sources: [tw-xiaoliuqiu-geban-bay-source]
+  visitorValue:
+    score: 4
+    note: "浮潛與綠蠵龜相遇體驗難忘，退潮時間點掌握好的話現場驚喜感極高，是小琉球行程必排點。"
+    sources: [tw-xiaoliuqiu-geban-bay-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-geban-bay-source]
+  final: 3.6
+sources:
+  - id: tw-xiaoliuqiu-geban-bay-source
+    title: "大鵬灣國家風景區管理處 — 小琉球景點介紹"
+    publisher: ""
+    url: https://www.dpwnsa.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Little_Liuqiu_coast_Pingtung.jpg/1200px-Little_Liuqiu_coast_Pingtung.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-geban-bay.webp
+    completePath: media/complete/tw-xiaoliuqiu-geban-bay.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

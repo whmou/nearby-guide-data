@@ -1,0 +1,107 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-beauty-cave
+  parentId: null
+  kind: venue
+  title: "美人洞"
+  summary: "小琉球北段的珊瑚礁岩洞秘境，步道穿越數十萬年海蝕礁洞，傳說荷蘭時期一位美麗原住民女子曾藏身於此因而得名。視野開闊可遠眺台灣本島，緊鄰花瓶石，為島上必訪收費景點。"
+  narration: |
+    美人洞這個名字聽起來浪漫，背後卻藏著一段悲涼的歷史。荷蘭人統治台灣的年代，小琉球島上原本住著西拉雅族的一支部落，荷蘭人為了掌控珊瑚礁資源與航路，在十七世紀中葉發動討伐，幾乎將部落趕盡殺絕。傳說中，有一位美麗的族中女子在兵荒馬亂之際，獨自躲入島嶼北端這片層層疊疊的礁岩洞穴之中，靠著海潮帶來的魚貝維生，卻終究難逃孤絕的命運。後人感念這位女子，便把這片岩洞群叫做「美人洞」，名字美麗，心情卻是沉重的。
+    
+    走進景區，你立刻就能感受到這裡為何藏得住人。數十萬年的珊瑚礁被太平洋的浪一刀一刀鑿進去，形成洞洞相連的礁岩迷宮，有的通道窄到只容一人側身穿過，轉個彎又忽然豁然開朗，天光從岩縫漏下來，帶著一絲神秘。步道全長約五百公尺，地勢起伏有致，最高的觀景台可以遠眺台灣本島，天氣晴朗的日子甚至能看見高雄港的城市輪廓。
+    
+    腳下踩的每一塊石頭，其實都是古代珊瑚蟲的骨骸，幾十萬年的生死積累成今天這片礁盤，每一道紋路都是海洋的年輪。小琉球四面環礁，地面上是奇岩異洞，水面下是同一片礁盤孕育出的珊瑚生態系，台灣數一數二完整。浮潛時常常遇到悠哉游哉的綠蠵龜，牠們在這裡住了幾千年，比觀光客要自在得多。
+    
+    出了美人洞，往南幾步路就是小琉球最上鏡的地標「花瓶石」，那顆底細頂寬、亭亭立在礁盤上的奇石，每天吸引遊客排隊等著拍日出。把兩個景點串在一起走，正好是小琉球北段最精華的一個上午。
+  observationPrompt: "站在步道最高點往外望，試著分辨哪些岩壁是被海浪直接掏空的海蝕洞，哪些是珊瑚礁堆積後再被侵蝕形成的地層紋路——數數岩石斷面有幾條明顯的分層，想想每一層大概代表多少萬年的時間？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 海蝕洞
+        label: 海蝕洞
+      - id: 步道
+        label: 步道
+      - id: 歷史傳說
+        label: 歷史傳說
+      - id: 小琉球
+        label: 小琉球
+      - id: 屏東
+        label: 屏東
+      - id: 礁岩地貌
+        label: 礁岩地貌
+      - id: 需購票
+        label: 需購票
+      - id: 原住民歷史
+        label: 原住民歷史
+  indoor: false
+  location:
+    latitude: 22.3693
+    longitude: 120.3659
+    locationHint: "環島公路北段，花瓶石景區旁，設有購票入口亭"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3693,120.3659"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球最知名付費景點之一，兼具歷史傳說與珊瑚礁地質教育價值"
+    sources: [tw-xiaoliuqiu-beauty-cave-source]
+  distinctiveness:
+    score: 4
+    note: "珊瑚礁海蝕洞穴迷宮地貌在台灣極為罕見，配合原住民悲歌傳說，兼具地質與人文雙重稀缺性"
+    sources: [tw-xiaoliuqiu-beauty-cave-source]
+  interpretability:
+    score: 3
+    note: "地名傳說豐富生動，但現場解說牌有限，需搭配導覽或語音輔助才能完整理解地質成因與歷史背景"
+    sources: [tw-xiaoliuqiu-beauty-cave-source]
+  visitorValue:
+    score: 4
+    note: "步道短而精華約30分鐘可走完，礁洞穿越體驗新奇，搭配花瓶石合併遊覽效益高，老少皆宜"
+    sources: [tw-xiaoliuqiu-beauty-cave-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-beauty-cave-source]
+  final: 3.4
+sources:
+  - id: tw-xiaoliuqiu-beauty-cave-source
+    title: "維基百科 — 小琉球"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%90%89%E7%90%83
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:小琉球美人洞.jpg
+    creator: "Outlookxp"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-26"
+    originalSha256: "9c3d55f70c68e286ac8af0c8a1cdadcdc62895261a13293ddaa1e265fd8b9584"
+    compactPath: media/compact/tw-xiaoliuqiu-beauty-cave.webp
+    completePath: media/complete/tw-xiaoliuqiu-beauty-cave.webp
+admissions:
+  - label: "成人約 NT$150，與花瓶石常有合售套票，建議現場確認最新票價"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

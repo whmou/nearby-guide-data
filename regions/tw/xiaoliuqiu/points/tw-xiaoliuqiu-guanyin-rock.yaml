@@ -1,0 +1,109 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-guanyin-rock
+  parentId: null
+  kind: venue
+  title: "觀音石"
+  summary: "小琉球北側海岸的礁岩奇景，隆起的珊瑚石灰岩歷經千年海浪侵蝕，形塑出側看酷似觀音菩薩打坐的天然石雕，是島上漁民世代祈求出海平安的精神地標，也是認識珊瑚礁島地質與潮間帶生態的最佳入口。"
+  narration: |
+    小琉球是台灣周圍島嶼裡唯一純粹由珊瑚礁構成的島嶼——沒有火成岩，沒有板岩，連你踩的路基都是幾萬年前海底珊瑚的遺骸。整座島就像是大海花了漫長歲月慢慢推出水面的一塊石頭拼圖，而觀音石，就是這片拼圖裡最有故事的一塊。
+    
+    這塊礁石之所以叫「觀音石」，全憑一個角度。從特定的側面望過去，石頭的輪廓線條像極了觀世音菩薩端正打坐的身影：飽滿的頭頂、低垂的視線、衣袍自然垂落的曲線，老一輩的漁民說，根本不像是大自然無意間的產物，比廟裡雕的還要傳神。「工匠」其實是幾千年不間斷的風和浪。含鹽分的海風日夜侵蝕，颱風浪花季節性衝擊，加上雨水沿著礁石裂縫滲入溶蝕，珊瑚石灰岩硬是被刻出了這個輪廓。
+    
+    在機動漁船普及之前，琉球漁民的生計全繫於難以捉摸的台灣海峽。每逢出海前，漁家男人會在天未亮就來到礁石邊，面對觀音石雙手合十默禱——不求大富，只求平安回來、魚貨夠全家溫飽。這個習俗讓觀音石變成了一個沒有屋頂的野外神龕，也讓它在島民心中的地位絲毫不亞於村裡的廟宇。
+    
+    從地質學來看，觀音石所在的北側海岸是典型的「裙礁」地形：珊瑚礁平台緊緊貼著島緣向海中延伸，退潮時會露出一大片高低起伏的礁盤。仔細蹲下來看，礁穴積水裡躲著海膽、陽燧足和各式小螃蟹；潮池邊緣的岩壁上，幾乎每一個坑洞都有房客。如果你在礁盤邊往海裡多看一會兒，說不定會發現水面上有個黑色的圓弧緩緩浮沉——那是綠蠵龜在換氣。小琉球的綠蠵龜族群是全台灣密度最高的，牠們和礁石、和觀音石，早就是同一片生態系裡的老鄰居了。
+    
+    站在這裡，背後是南台灣的陽光，面前是亙古的浪聲，礁石上的每一道紋路都是時間留下的紀錄。漁民的祈禱、珊瑚的化石、綠蠵龜的背鰭——全都在同一塊石頭前交疊。
+  observationPrompt: "繞著觀音石走一圈，找出從哪個角度看起來最像菩薩打坐的側影；再蹲低看腳下的礁岩表面，能找到珊瑚的化石結構或蜂窩狀溶蝕坑嗎？往海面多等幾分鐘，看看是否有綠蠵龜浮上來換氣。"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁地形
+        label: 珊瑚礁地形
+      - id: 奇石景觀
+        label: 奇石景觀
+      - id: 傳說故事
+        label: 傳說故事
+      - id: 海岸步道
+        label: 海岸步道
+      - id: 潮間帶生態
+        label: 潮間帶生態
+      - id: 綠蠵龜棲地
+        label: 綠蠵龜棲地
+      - id: 小琉球
+        label: 小琉球
+      - id: 免費景點
+        label: 免費景點
+      - id: 地質教育
+        label: 地質教育
+  indoor: false
+  location:
+    latitude: 22.3668
+    longitude: 120.37
+    locationHint: "環島公路北側海岸礁石區，沿海岸步道可見，緊鄰路旁，無需入山，觀音石立有解說牌。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3668,120.37"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球島內知名地標與民間信仰場所，具在地文化代表性，但主要為區域性知名度。"
+    sources: [tw-xiaoliuqiu-guanyin-rock-source]
+  distinctiveness:
+    score: 4
+    note: "珊瑚礁島地質造就的擬人化石形罕見，結合漁民信仰故事使其有別於一般礁石景觀。"
+    sources: [tw-xiaoliuqiu-guanyin-rock-source]
+  interpretability:
+    score: 4
+    note: "視覺上易辨認其「像觀音」的形象，加上解說牌與地質背景說明，適合各年齡層理解。"
+    sources: [tw-xiaoliuqiu-guanyin-rock-source]
+  visitorValue:
+    score: 3
+    note: "適合環島途中短暫停留（10-20分鐘），潮間帶觀察可延長至30分鐘；不具備長時間停留條件。"
+    sources: [tw-xiaoliuqiu-guanyin-rock-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-guanyin-rock-source]
+  final: 3.45
+sources:
+  - id: tw-xiaoliuqiu-guanyin-rock-source
+    title: "琉球鄉公所 — 觀光景點介紹"
+    publisher: ""
+    url: https://www.liuqiu.gov.tw/liuqiu_tour/index.aspx
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:GuanyinStreet.jpg
+    creator: "Shxpeng"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    accessedAt: "2026-07-26"
+    originalSha256: "88e03328885d68ec08438456054772f39114f6f97a741fcd31bda9b9091ad907"
+    compactPath: media/compact/tw-xiaoliuqiu-guanyin-rock.webp
+    completePath: media/complete/tw-xiaoliuqiu-guanyin-rock.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

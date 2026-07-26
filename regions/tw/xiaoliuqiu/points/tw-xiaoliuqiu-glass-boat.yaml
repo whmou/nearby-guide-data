@@ -1,0 +1,116 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-glass-boat
+  parentId: null
+  kind: venue
+  title: "玻璃船觀光 — 小琉球珊瑚礁透視之旅"
+  summary: "搭乘船底嵌有強化玻璃的觀光船，不必下水即可俯瞰小琉球珊瑚礁生態與悠游其間的野生綠蠵龜。從大福漁港或白燈塔碼頭出發，繞行西南礁區約四十至六十分鐘，是全台密度最高的海龜觀察熱點，老少皆宜。"
+  narration: |
+    小琉球這個名字，來自荷蘭人的一場地理錯亂。十七世紀，荷蘭東印度公司繪製台灣地圖時，把沖繩稱為「大琉球」，把這座屏東外海的小島稱為「小琉球」——字面意思就是「那個小小的琉球」。西方殖民者的筆誤，竟成了這座島嶼沿用至今的名字。
+    
+    荷蘭人來之前，島上住著馬卡道族原住民，靠海為生。荷蘭統治期間爆發衝突，部族幾乎滅村，「烏鬼洞」傳說便是那段悲史的印記——相傳族人被迫躲進海蝕洞，最終被燻死。如今洞口已成觀光景點，但歷史的重量，仍靜靜沉在珊瑚礁深處。
+    
+    玻璃船是讓你不必下水、便能直視礁石世界的窗口。船底嵌著強化玻璃，貼近一看，就像趴在一面巨大的魚缸上：珊瑚林搖曳、熱帶魚穿梭，偶爾一隻綠蠵龜從玻璃正下方緩緩游過，大得令人屏息。
+    
+    小琉球是台灣綠蠵龜密度最高的地方。這裡的海龜早已見慣遊客，在礁盤邊悠然吃草，對船底的視線毫不在意。牠們有的已在此生活三、四十年，年紀比許多遊客還大。每隻龜在台灣海龜資料庫都有專屬編號，研究人員長期追蹤牠們的遷徙與覓食行為。
+    
+    船從大福漁港或白燈塔碼頭出發，繞行西南側礁區，來回約四十至六十分鐘。珊瑚礁的顏色在陽光折射下千變萬化：清晨深藍泛紫，正午碧綠透亮，午後斜光把礁石染成暖橘。全島只有十二公里、沒有一盞紅綠燈，玻璃船體驗便是這座慢活小島最好的縮影——不趕時間，被海包圍著，靜靜凝視幾億年演化出來的珊瑚礁。
+    
+    到了現場，試著把臉貼近玻璃，等那隻不疾不徐的老海龜游來。那一刻，你會明白為什麼人們說，小琉球的海，是會讓人上癮的。
+  observationPrompt: "透過玻璃往下看，珊瑚礁呈現什麼顏色？試著分辨軟珊瑚（會隨浪搖動）與硬珊瑚（固定不動）的差異。若遇到綠蠵龜，仔細觀察牠甲殼上的花紋——每隻龜紋路都不相同，牠很可能在台灣海龜資料庫裡已有自己的編號！"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 海洋生態
+        label: 海洋生態
+      - id: 親子旅遊
+        label: 親子旅遊
+      - id: 小琉球
+        label: 小琉球
+      - id: 離島
+        label: 離島
+      - id: 屏東
+        label: 屏東
+      - id: 水上活動
+        label: 水上活動
+      - id: 慢活
+        label: 慢活
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 玻璃船
+        label: 玻璃船
+  indoor: false
+  location:
+    latitude: 22.3462
+    longitude: 120.378
+    locationHint: "大福漁港旁玻璃船售票亭，或白燈塔碼頭旁；各家業者在碼頭入口均設有招牌，可比較行程再購票"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3462,120.378"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球最具代表性的觀光體驗之一，也是推動台灣海龜保育意識的重要場域"
+    sources: [tw-xiaoliuqiu-glass-boat-source]
+  distinctiveness:
+    score: 5
+    note: "全台灣幾乎唯一能穩定在野外從玻璃船底近距離觀察綠蠵龜的地點，極具稀缺性"
+    sources: [tw-xiaoliuqiu-glass-boat-source]
+  interpretability:
+    score: 4
+    note: "體驗直觀，即使完全不懂潛水或海洋生態的遊客也能立即理解並投入"
+    sources: [tw-xiaoliuqiu-glass-boat-source]
+  visitorValue:
+    score: 4
+    note: "視覺衝擊強、老少咸宜，親子與銀髮族都能輕鬆參與，是來小琉球必排行程"
+    sources: [tw-xiaoliuqiu-glass-boat-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-glass-boat-source]
+  final: 4.15
+sources:
+  - id: tw-xiaoliuqiu-glass-boat-source
+    title: "琉球鄉 — 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%84%89
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Green_Sea_Turtle_grazing_seagrass.jpg/1280px-Green_Sea_Turtle_grazing_seagrass.jpg
+    creator: "Brocken Inaglory"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-glass-boat.webp
+    completePath: media/complete/tw-xiaoliuqiu-glass-boat.webp
+admissions:
+  - label: "各業者票價不一，約NT$300–500／人；建議現場比較行程內容與出發時間後再購票"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

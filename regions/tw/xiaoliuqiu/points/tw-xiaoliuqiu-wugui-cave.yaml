@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-wugui-cave
+  parentId: null
+  kind: venue
+  title: "烏鬼洞"
+  summary: "小琉球西南岸的珊瑚礁海蝕洞群，地名源自荷蘭殖民時期黑人奴隸在此罹難的歷史傳說，奇特礁岩地形與潮間帶生態並列，是全島最具歷史縱深的必訪景點。"
+  narration: |
+    走進烏鬼洞景區，迎面而來的不只是奇特的珊瑚礁石灰岩地形，還有一段讓人心頭一緊的歷史故事。「烏鬼」這兩個字，在台灣早期的語境裡，指的是黑皮膚的外來人——更具體地說，是十七世紀荷蘭人統治台灣時期，從東南亞或非洲帶來的奴隸。當時，這批被稱為「烏鬼」的異鄉人被迫在小琉球從事勞役，島民以這樣的稱呼記錄下他們的存在。
+    
+    傳說有一天，島上爆發了激烈衝突，這群人躲進礁岩海蝕洞裡避難，卻被追趕的人們在洞口點火，以濃煙逼死在洞穴之中。烏鬼洞，便是這段悲劇的見證者。時至今日，當地仍流傳著這裡鬼魂徘徊的說法，夜間不建議單獨前往。
+    
+    撇開沉重的歷史，烏鬼洞的地質本身就令人嘆為觀止。小琉球整座島都是由古老的珊瑚礁隆起而成，數萬年來海浪不斷侵蝕礁岩，在西南岸這一帶刻出了連串海蝕洞、海蝕崖與奇岩怪石。洞穴內部光影迷離，外頭的礁石平台延伸至海邊，退潮時可見豐富的潮間帶生態——海膽、寄居蟹、海星靜靜藏在礁石縫隙中。
+    
+    對小琉球來說，烏鬼洞是全島最具代表性的地標之一。它不只是拍照打卡的景點，更是一個把地質奇景與殖民歷史交織在一起的場所。站在洞口，看著海風拍打礁石，不禁想像幾百年前那些遠渡重洋、身不由己的靈魂，在這片礁岩間留下了什麼。
+  observationPrompt: "洞穴頂部和岩壁上，你能找到幾種不同的珊瑚礁岩層紋路？試著比較洞內與洞外礁石的顏色差異，推測日照與海水侵蝕如何在此留下時間的痕跡。"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 歷史
+        label: 歷史
+      - id: 地質
+        label: 地質
+      - id: 海蝕洞
+        label: 海蝕洞
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 傳說
+        label: 傳說
+      - id: 潮間帶
+        label: 潮間帶
+      - id: 荷蘭殖民
+        label: 荷蘭殖民
+      - id: 小琉球
+        label: 小琉球
+  indoor: false
+  location:
+    latitude: 22.3347
+    longitude: 120.3698
+    locationHint: "小琉球西南方環島公路旁，設有售票亭與停車場，步行進入洞穴區約5分鐘。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3347,120.3698"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球最知名地標之一，同時具備地質價值與殖民史意義，是理解島嶼歷史的重要場所。"
+    sources: [tw-xiaoliuqiu-wugui-cave-source]
+  distinctiveness:
+    score: 4
+    note: "荷蘭時期奴隸傳說與珊瑚礁海蝕地形的罕見組合，在台灣離島中極具辨識度。"
+    sources: [tw-xiaoliuqiu-wugui-cave-source]
+  interpretability:
+    score: 3
+    note: "地形可直接觀察，但「烏鬼」名稱由來與殖民史背景需要現場說明或導覽才能充分理解。"
+    sources: [tw-xiaoliuqiu-wugui-cave-source]
+  visitorValue:
+    score: 4
+    note: "地質景觀、生態觀察與歷史故事三合一，適合各年齡層，退潮時潮間帶觀察更加分。"
+    sources: [tw-xiaoliuqiu-wugui-cave-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-wugui-cave-source]
+  final: 3.7
+sources:
+  - id: tw-xiaoliuqiu-wugui-cave-source
+    title: "維基百科 — 琉球鄉"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%84%89
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:烏鬼洞出口與烏鬼洞風景區記事碑.jpg
+    creator: "Outlookxp"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-26"
+    originalSha256: "8606e6ba1172e94471b98cea78ccba59849f1bdc9c01e9349c8ab23aada39a6f"
+    compactPath: media/compact/tw-xiaoliuqiu-wugui-cave.webp
+    completePath: media/complete/tw-xiaoliuqiu-wugui-cave.webp
+admissions:
+  - label: "成人 NT$50，持學生證或敬老卡優惠，12歲以下兒童免費。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

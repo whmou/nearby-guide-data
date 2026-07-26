@@ -1,0 +1,118 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-night-snorkel
+  parentId: null
+  kind: venue
+  title: "小琉球夜間浮潛"
+  summary: "台灣珊瑚礁夜間生態的頂級體驗：入夜後下水，看睡覺的綠蠵龜、變色章魚與發光夜光藻。小琉球是全台最容易在水下近距離遇見綠蠵龜的地點，夜晚更展現截然不同的礁盤生態面貌。"
+  narration: |
+    白天的小琉球已經夠令人驚嘆——礁岩邊綠蠵龜悠悠打量著你，熱帶魚在珊瑚叢穿梭——但等太陽沉入台灣海峽，這座島才真正展示它最私密的一面。
+    
+    夜潛業者從白沙或大福碼頭出發，約十分鐘船程後，領隊會要你把手電筒關掉。黑暗裡，你才發現自己置身星海：那是夜光藻，輕拂水面便閃出藍白微光，像有人偷偷在海底點燃了螢火蟲。
+    
+    「小琉球」這名字其實是個美麗的誤會——古代閩南漁民遠望這座珊瑚礁島，以為是傳說中的琉球王國，就這樣叫了下去。島上無一盞紅綠燈，環島只有十二公里，幾百年來漁民在礁石間討生活。荷蘭人曾於十七世紀在此強力鎮壓馬卡道族原住民，讓這片珊瑚礁承載著不只是海洋生長的歲月，還有島民與外來者糾纏的歷史記憶。
+    
+    手電筒掃過珊瑚，白天活蹦亂跳的魚兒全都縮進礁縫睡著了。章魚悄悄在礁石上變色，海膽的刺在光線下像一把把張開的傘。最讓人屏息的，是礁盤邊趴著一隻正在「睡覺」的綠蠵龜，龜殼隨海流輕輕起伏，像整片海洋在幫牠打呼。
+    
+    這一刻你才懂，為何島民對這些龜有著近乎宗教的情感。牠們在礁石間游了幾十年，見過漁業興衰、觀光潮起，還是用同樣的節奏呼吸。回到碼頭，街燈和蚵仔煎的香氣迎面而來，才想起自己剛才身在的，是地球另一個時區。
+  observationPrompt: "領隊關掉手電筒的那一刻，你能看見夜光藻被擾動時發出的藍色微光嗎？手電筒照進礁縫，有幾種魚正在睡覺？礁盤上有沒有趴著不動的綠蠵龜——牠的胸鰭是否還在緩緩擺動？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 夜間浮潛
+        label: 夜間浮潛
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 夜觀生態
+        label: 夜觀生態
+      - id: 海洋體驗
+        label: 海洋體驗
+      - id: 夜光藻
+        label: 夜光藻
+      - id: 小琉球
+        label: 小琉球
+      - id: 琉球嶼
+        label: 琉球嶼
+      - id: 離島
+        label: 離島
+      - id: 屏東
+        label: 屏東
+      - id: 海洋保育
+        label: 海洋保育
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 浮潛
+        label: 浮潛
+  indoor: false
+  location:
+    latitude: 22.3478
+    longitude: 120.3713
+    locationHint: "白沙碼頭（主要渡輪碼頭）周邊，各夜潛業者於此集合出發，乘小船前往礁盤浮潛區"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3478,120.3713"
+  trigger:
+    radiusMeters: 300.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球是台灣本島週邊水域中族群最密集的綠蠵龜棲地，夜間浮潛讓人見識到白天難以觀察的礁盤生態節律"
+    sources: [tw-xiaoliuqiu-night-snorkel-source]
+  distinctiveness:
+    score: 5
+    note: "能在珊瑚礁上近距離見到熟睡中的野生綠蠵龜，並看見夜光藻發光，這種體驗在台灣幾乎只有小琉球能提供"
+    sources: [tw-xiaoliuqiu-night-snorkel-source]
+  interpretability:
+    score: 4
+    note: "持照潛導全程帶領並口頭解說生態，視覺衝擊強烈，但水下環境使得深入閱讀說明牌不可行"
+    sources: [tw-xiaoliuqiu-night-snorkel-source]
+  visitorValue:
+    score: 5
+    note: "絕大多數參與者反映是全趟旅程最難忘的經歷，親眼見到野生綠蠵龜睡眠的情感衝擊無可取代"
+    sources: [tw-xiaoliuqiu-night-snorkel-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-night-snorkel-source]
+  final: 4.3
+sources:
+  - id: tw-xiaoliuqiu-night-snorkel-source
+    title: "琉球嶼 - 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/琉球嶼
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Green_Sea_Turtle_grazing_seagrass.jpg
+    creator: "P.Lindgren"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    accessedAt: "2026-07-26"
+    originalSha256: "94f936ca3890dd8c17148e92bdef643dfa5c22f864a67a48d349572f54fe2d65"
+    compactPath: media/compact/tw-xiaoliuqiu-night-snorkel.webp
+    completePath: media/complete/tw-xiaoliuqiu-night-snorkel.webp
+admissions:
+  - label: "需向島上合法夜潛業者報名（費用約NT$500–800／人），含救生衣、防水手電筒與持照領隊帶領；建議提前預約，旺季（5–9月）名額常爆滿"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

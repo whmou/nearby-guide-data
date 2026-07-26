@@ -1,0 +1,109 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-seafood
+  parentId: null
+  kind: venue
+  title: "小琉球海鮮美食"
+  summary: "台灣西部唯一珊瑚礁島孕育出的礁石漁獲——石斑、龍蝦、海膽——在三民路、新興路一帶的海鮮攤與小館現撈現煮，是這座無紅綠燈慢活島最直接的滋味體驗。"
+  narration: |
+    小琉球最讓外地人驚訝的，不是海龜，而是這裡的人有多熟悉大海。在三民路和新興路交叉的小廣場邊，幾家開了幾十年的海鮮攤一字排開，老闆隨口就能說出今天的魚是從哪片礁石附近拉上來的。這座島只有十二公里的海岸線，卻是台灣西部唯一的珊瑚礁島。沒有河流帶沙入海，海水清澈，讓珊瑚礁魚類得以豐沛繁衍，也讓這裡的漁獲和西部沙泥底的漁港截然不同。
+    
+    說到「琉球」這個名字，其實大有來頭。荷蘭東印度公司在十七世紀佔領台灣時，這裡叫做「Lamey Island」，住著一支漢人稱為「雞心番」的原住民族群。一六三六年，荷蘭人以武力將全島原住民幾乎殺盡或擄走，留下的只有傳說——島上「黑鬼仔洞」據說就是當年原住民最後躲難之處。後來漢人移入，才漸漸有了「小琉球」的名字：早年的漢人把這一帶的島嶼統稱「琉球」，大的是如今的沖繩，小的這個便是小琉球。
+    
+    漢人移入後世代以捕魚為生，礁石魚類、海膽、龍蝦，是這島幾百年來最可靠的生計。不同於西部漁港的泥沙海底，礁石地形讓這裡的石斑、笛鯛肉質特別緊實，油脂豐潤卻不腥。三民路一帶的海鮮攤從傍晚就開始飄香，現撈的魚直接在路邊炭烤或清蒸，配一碗海鮮麵線或鮮蚵粥，是島民的日常，也是來這裡的遊客最容易記住的滋味。這裡沒有紅綠燈，沒有高樓，連吃飯的步調都慢下來——這才是小琉球最難忘的部分。
+  observationPrompt: "走進這一帶的餐廳或海鮮攤，找找看菜單上有哪幾種魚是西部漁港餐廳沒有的？問問老闆今天的漁獲是從島的哪一側抓來的，感受一下「珊瑚礁島的漁獲」和「沙泥底漁港的漁獲」有什麼不同。"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海鮮
+        label: 海鮮
+      - id: 漁村文化
+        label: 漁村文化
+      - id: 小吃
+        label: 小吃
+      - id: 現撈
+        label: 現撈
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 小琉球
+        label: 小琉球
+      - id: 屏東
+        label: 屏東
+      - id: 離島
+        label: 離島
+      - id: 石斑魚
+        label: 石斑魚
+      - id: 海膽
+        label: 海膽
+      - id: 慢活
+        label: 慢活
+  indoor: false
+  location:
+    latitude: 22.3464
+    longitude: 120.3728
+    locationHint: "三民路與新興路交叉口一帶，本部村主要商業街區，傍晚海鮮攤開始營業。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3464,120.3728"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "代表珊瑚礁島嶼獨特漁撈文化與飲食生態，非單一地標但為體驗小琉球生活方式的核心場域。"
+    sources: [tw-xiaoliuqiu-seafood-source]
+  distinctiveness:
+    score: 4
+    note: "台灣西部唯一珊瑚礁島的礁石漁獲，魚種與口感和西部沙泥底漁港截然不同，具高辨識度。"
+    sources: [tw-xiaoliuqiu-seafood-source]
+  interpretability:
+    score: 4
+    note: "海鮮攤直觀易懂，背後的珊瑚礁生態與歷史故事（Lamey Island屠殺、黑鬼仔洞）提供豐富解讀層次。"
+    sources: [tw-xiaoliuqiu-seafood-source]
+  visitorValue:
+    score: 4
+    note: "幾乎所有造訪小琉球的遊客都會在此用餐，現撈海鮮是島嶼體驗不可或缺的一環。"
+    sources: [tw-xiaoliuqiu-seafood-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-seafood-source]
+  final: 3.6
+sources:
+  - id: tw-xiaoliuqiu-seafood-source
+    title: "維基百科 — 琉球鄉"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/琉球鄉
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:EO1_ALI_Lamay_Island.jpg
+    creator: "Macos8"
+    license: "Public domain"
+    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "04de416e2d46acb2f643437fa73fdf47fe1973870404fd035600c29bac0e1cfe"
+    compactPath: media/compact/tw-xiaoliuqiu-seafood.webp
+    completePath: media/complete/tw-xiaoliuqiu-seafood.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

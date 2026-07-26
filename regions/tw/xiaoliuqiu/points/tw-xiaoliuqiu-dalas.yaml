@@ -1,0 +1,113 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-dalas
+  parentId: null
+  kind: venue
+  title: "打蠟場（王船祭場）"
+  summary: "小琉球三隆宮三年一科迎王平安祭典的核心場地。「打蠟」指在此為王船塗漆上油的工序，平日是大福漁港旁一片開闊空地，祭典時化身全島信仰中心，千人在此恭送王爺乘船歸天，是台灣保存最完整的海洋民俗祭典場域之一。"
+  narration: |
+    「打蠟場」這個名字，第一次聽到可能讓人摸不著頭緒。打蠟，就是替木船船身抹上桐油、塗漆、上蠟，讓船能防水耐鹹。而這裡，正是小琉球三年一科迎王平安祭典裡，師傅們動手打造王船的神聖工地。
+    
+    靠近大福漁港的這片開闊空地，平日安靜得像任何一塊普通廣場。但每隔三年，小琉球三隆宮的迎王祭典一啟動，這裡就搖身一變，成為全島最熱鬧、最神聖的核心。老師傅帶著學徒，在棚架下一釘一鋸，用真正的木料造出一艘等比例木帆船。船身彩繪神將、桅杆高掛旗幟、艙內供奉代天巡狩的千歲王爺神位——這條船，是神明在人間的座駕。
+    
+    台灣西南沿海漁村普遍奉行王爺信仰，核心概念是王爺受玉帝派遣，定期下凡巡察人間善惡、驅除瘟疫。先民在海上討生活，颱風與病疫隨時奪命，對海神的敬畏便化為這套嚴謹的祭典儀式代代傳承。小琉球因四面環海、與外隔絕，傳統保存得格外完整。每逢迎王年，在外打拚的遊子幾乎都趕回來，島上老人常說：「沒看過小琉球的迎王，你就沒真正認識這座島。」
+    
+    祭典高潮是「送王」之夜：王船從打蠟場出發，由信眾在前引路，繞行全島後來到海邊，選定吉時點火焚燒。船越燒越旺，象徵王爺滿載善信祈願乘船返回天庭。熊熊火光倒映在黑色的海面上，海浪拍岸、香煙直衝夜空，那個畫面，見過一次便難以忘懷。
+    
+    如今站在這片空地，若不在祭典年間，很難感受它的分量。但偶爾能看見地面殘留的香灰、廟方貼出的公告，提醒著路過的旅人：這塊地，三年後又將是火光沖天、萬人祈禱的聖地。
+  observationPrompt: "仔細觀察打蠟場地面與周邊環境，有沒有殘留祭典的痕跡——香灰、繩索、木屑或廟方告示？試著對比眼前的開闊平靜，想像三年一科時木船在此成型、千人齊聚送王火光沖天的震撼場景。你認為這種跨越三年的集體等待，對於生活在這座12公里小島上的居民，有什麼特別的意義？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 宗教祭典
+        label: 宗教祭典
+      - id: 王船祭
+        label: 王船祭
+      - id: 迎王平安祭典
+        label: 迎王平安祭典
+      - id: 漁村文化
+        label: 漁村文化
+      - id: 傳統信仰
+        label: 傳統信仰
+      - id: 三年一科
+        label: 三年一科
+      - id: 王爺信仰
+        label: 王爺信仰
+      - id: 無形文化遺產
+        label: 無形文化遺產
+      - id: 小琉球
+        label: 小琉球
+      - id: 屏東
+        label: 屏東
+      - id: 離島
+        label: 離島
+  indoor: false
+  location:
+    latitude: 22.337
+    longitude: 120.3922
+    locationHint: "大福漁港旁開闊空地，靠近三隆宮，沿環島公路大福段行駛可見，騎車約在大福社區入口附近"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.337,120.3922"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球迎王平安祭典已列入台灣重要民俗文化資產，三年一科的王船祭是台灣海洋信仰文化的代表性儀式，打蠟場為其核心祭典場域，文化意義深遠"
+    sources: [tw-xiaoliuqiu-dalas-source]
+  distinctiveness:
+    score: 4
+    note: "三年一科的節奏、四面環海離島的場景、從打造到焚燒王船的完整儀式保存，使小琉球版本在台灣諸多王爺祭典中格外獨特且完整"
+    sources: [tw-xiaoliuqiu-dalas-source]
+  interpretability:
+    score: 3
+    note: "非祭典期間外觀為普通空地，現場缺乏常設解說設施，需背景知識才能理解其重要性；祭典年間則極具震撼力，自我解說性強"
+    sources: [tw-xiaoliuqiu-dalas-source]
+  visitorValue:
+    score: 3
+    note: "平時到訪僅能感受氛圍與想像，適合有文化興趣的旅人；若恰逢三年一科祭典年（如2024、2027年）前往，體驗價值達滿分"
+    sources: [tw-xiaoliuqiu-dalas-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-dalas-source]
+  final: 3.55
+sources:
+  - id: tw-xiaoliuqiu-dalas-source
+    title: "迎王平安祭典 - 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/%E8%BF%8E%E7%8E%8B%E5%B9%B3%E5%AE%89%E7%A5%AD%E5%85%B8
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Donggang_Wangchuan_Festival.jpg/640px-Donggang_Wangchuan_Festival.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-dalas.webp
+    completePath: media/complete/tw-xiaoliuqiu-dalas.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

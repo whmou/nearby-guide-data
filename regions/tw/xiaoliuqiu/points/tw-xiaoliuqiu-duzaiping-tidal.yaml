@@ -1,0 +1,113 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-duzaiping-tidal
+  parentId: null
+  kind: venue
+  title: "肚仔坪潮間帶"
+  summary: "小琉球東岸最精彩的珊瑚礁潮間帶，退潮後一大片礁盤裸露，海膽、海星、寄居蟹盡收眼底。閩南語「肚仔坪」形容礁盤如鼓起的大肚皮，是早期漁民世代採集之地，也是綠蠵龜悠游出沒的生態秘境。"
+  narration: |
+    「肚仔坪」這名字，閩南語念起來就是「肚子的平地」。退潮後，這片珊瑚礁盤從海裡浮現，平平坦坦像一塊鼓起的大肚皮攤在太陽下，難怪早年來此謀生的漁民，一眼就給它起了這個又貼切又有趣的名字。
+    
+    小琉球的歷史說起來令人唏噓。島上原本有西拉雅族人世居，1636年荷蘭東印度公司以荷蘭船員遇難為由出兵，將島上居民幾乎屠盡，倖存者淪為奴隸，島嶼一度荒廢長達數十年。後來閩南漁民陸續移入，才又在礁石海岸間落地生根。肚仔坪這片豐饒的礁盤，便是他們世代採集的「天然糧倉」——海膽、螃蟹、章魚、貝類，退潮一到，生計就擺在眼前。
+    
+    如今肚仔坪成了生態保護區，那份豐饒卻依然動人。退潮後踏上礁盤，腳下是幾百年前先民走過的同一片石頭，潮池裡海星靜靜趴著，黑棘海膽縮在礁縫，寄居蟹拖著借來的殼忙進忙出。若夠幸運，淺灘外的海面上，一顆圓圓的頭悄悄浮出水面換氣——那是小琉球的主人綠蠵龜，牠在這裡生活的時間遠比任何觀光客都長。
+    
+    生態觀察有一條鐵則：只帶走照片與記憶，不翻動礁石、不帶走任何生物。每一塊石頭下都是一個小小的家，輕輕放下，下一位旅人也能看見同樣精彩的世界。
+  observationPrompt: "退潮後仔細觀察眼前的礁盤與潮池：你能找到幾種潮間帶生物？黑棘海膽躲在哪個礁縫、海星趴在哪個潮池底、寄居蟹背的是哪種貝殼？往外海望去，有沒有一顆圓頭悄悄浮出水面換氣的綠蠵龜？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 潮間帶
+        label: 潮間帶
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 海星
+        label: 海星
+      - id: 海膽
+        label: 海膽
+      - id: 生態保育
+        label: 生態保育
+      - id: 小琉球
+        label: 小琉球
+      - id: 退潮
+        label: 退潮
+      - id: 礁石
+        label: 礁石
+      - id: 離島
+        label: 離島
+      - id: 屏東
+        label: 屏東
+      - id: 親子
+        label: 親子
+  indoor: false
+  location:
+    latitude: 22.342
+    longitude: 120.394
+    locationHint: "小琉球東岸，大福漁港南方約500公尺，沿環島公路行駛見路旁「肚仔坪」指標即可停車，步行下礁岩步道；退潮前後2小時為最佳造訪時機，請事先查詢當日潮汐表"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.342,120.394"
+  trigger:
+    radiusMeters: 200.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球最知名的生態地標之一，珊瑚礁潮間帶生態系保存完整，兼具荷蘭殖民時期歷史背景與閩南漁民採集文化的雙重意義"
+    sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
+  distinctiveness:
+    score: 5
+    note: "台灣本島極為罕見的可步行珊瑚礁盤潮間帶體驗，加上全台最高的野生綠蠵龜出沒機率，是小琉球最具辨識度的自然地標"
+    sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
+  interpretability:
+    score: 4
+    note: "退潮後即可步行進入，無需特殊裝備，生物種類豐富且肉眼可見；唯需配合潮汐時間，造訪前須查詢潮汐表"
+    sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
+  visitorValue:
+    score: 5
+    note: "免費、親子友善、視覺震撼力強，綠蠵龜目擊機率高，是小琉球行程必訪景點，幾乎沒有遊客失望而歸"
+    sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
+  final: 4.3
+sources:
+  - id: tw-xiaoliuqiu-duzaiping-tidal-source
+    title: "大鵬灣國家風景區管理處——小琉球景點介紹"
+    publisher: ""
+    url: https://www.trimt-nsa.gov.tw
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Little_Liuqiu_coastline.jpg/1280px-Little_Liuqiu_coastline.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-duzaiping-tidal.webp
+    completePath: media/complete/tw-xiaoliuqiu-duzaiping-tidal.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

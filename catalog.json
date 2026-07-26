@@ -1,7 +1,7 @@
 {
   "format": "nearby-guide-index",
   "schemaVersion": 1,
-  "updatedAt": "2026-07-18T05:32:07Z",
+  "updatedAt": "2026-07-26T12:16:34Z",
   "packs": [
     {
       "packId": "jp-ishigaki",
@@ -125,6 +125,93 @@
           "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.5-complete.guidepack",
           "downloadBytes": 8316218,
           "sha256": "444eda385ca042724e23ee4e6355f8c8e51a32dbb52f1125a37a96cc98c8dd5d",
+          "includes": [
+            "text",
+            "images",
+            "media"
+          ]
+        }
+      ]
+    },
+    {
+      "packId": "tw-xiaoliuqiu",
+      "version": "1.0.0",
+      "title": "小琉球",
+      "subtitle": "珊瑚礁秘境與海龜共泳",
+      "region": {
+        "countryCode": "TW",
+        "countryName": "台灣",
+        "adminAreaLevel1": "屏東縣",
+        "adminAreaLevel2": "琉球鄉"
+      },
+      "contentLanguage": "zh-Hant-TW",
+      "guidePointCount": 22,
+      "minAppVersionCode": 8,
+      "variants": [
+        {
+          "variantId": "compact",
+          "mediaMode": "compact",
+          "title": "精簡離線",
+          "description": "文字與壓縮縮圖離線",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-xiaoliuqiu-1.0.0-compact.guidepack",
+          "downloadBytes": 642563,
+          "sha256": "fc5a1743bde150697ef33473d50b6ce7d933cd0377cd331a16680bc907c3adef",
+          "includes": [
+            "text",
+            "thumbnails"
+          ]
+        },
+        {
+          "variantId": "complete",
+          "mediaMode": "complete",
+          "title": "完整離線",
+          "description": "文字與完整多媒體離線，以圖片為主",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-xiaoliuqiu-1.0.0-complete.guidepack",
+          "downloadBytes": 3002827,
+          "sha256": "adbb457bdf8de71226628d40a682da2c6d00769f749d03362b326847243963d4",
+          "includes": [
+            "text",
+            "images",
+            "media"
+          ]
+        }
+      ]
+    },
+    {
+      "packId": "unknown",
+      "version": "1.0.0",
+      "title": "unknown",
+      "subtitle": "",
+      "region": {
+        "countryCode": "TW",
+        "countryName": "台灣",
+        "adminAreaLevel1": null
+      },
+      "contentLanguage": "zh-Hant-TW",
+      "guidePointCount": 8,
+      "minAppVersionCode": 8,
+      "variants": [
+        {
+          "variantId": "compact",
+          "mediaMode": "compact",
+          "title": "精簡離線",
+          "description": "文字與壓縮縮圖離線",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/unknown-1.0.0-compact.guidepack",
+          "downloadBytes": 279386,
+          "sha256": "9e89d201ba6d4b6ec83d0d179a9e113251f5af76a3c52ae3fce18b164e0cb254",
+          "includes": [
+            "text",
+            "thumbnails"
+          ]
+        },
+        {
+          "variantId": "complete",
+          "mediaMode": "complete",
+          "title": "完整離線",
+          "description": "文字與完整多媒體離線，以圖片為主",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/unknown-1.0.0-complete.guidepack",
+          "downloadBytes": 1489565,
+          "sha256": "6dcc4e2c1160a12fdcceb089017470b5336c5fd9b9c237669cd80b71d6b2d7a9",
           "includes": [
             "text",
             "images",

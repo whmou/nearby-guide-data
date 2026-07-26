@@ -1,0 +1,112 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-houshi-reef
+  parentId: null
+  kind: venue
+  title: "厚石裙礁"
+  summary: "小琉球南端最壯觀的珊瑚裙礁地形，退潮時礁盤向外延伸數十公尺，是台灣密度最高的野生綠蠵龜棲地之一，腳下每一塊礁石都是數百萬年珊瑚骨骼層層堆積的活地質博物館。"
+  narration: |
+    小琉球整座島，其實就是一塊從海底緩緩隆起的古老珊瑚礁台地。站在厚石裙礁，腳下踩的每一塊岩石，都是無數珊瑚蟲幾百萬年來骨骼堆積的遺跡。「裙礁」這個名字很傳神——珊瑚緊貼著海岸往外生長，像是給島嶼穿上一件向外展開的裙擺，退潮時礁盤往外延伸數十公尺，礁縫間藏著海星、彈塗魚、五彩珊瑚礁魚，偶爾還有章魚縮在暗處，瞪著你。
+    
+    「厚石」這個地名，說的正是這一帶礁石格外厚實、堅硬。幾百年前從澎湖和閩南渡海來的漁民，看上這塊巨大礁石可以擋浪，在此建港落腳，便取名厚石漁港，而裙礁也因此得名。
+    
+    但比漁民更早住在這裡的，是綠蠵龜。牠們在印太海域悠游了幾千萬年，小琉球珊瑚礁上長滿的海藻正是牠們愛吃的食物。老一輩漁民視龜為「海的守護神」，不捕、不傷，這個代代相傳的民間禁忌，意外保護了族群數量。如今小琉球是台灣最容易在水下邂逅野生綠蠵龜的地方，浮潛時幾乎必遇，牠們悠悠地啃著礁石，對身旁的遊客泰然自若——那副從容模樣，像是在提醒你：這片海，牠才是真正的主人。
+    
+    小琉球的歷史並不輕鬆。荷蘭殖民台灣時，島上住著平埔族人，荷蘭史料稱此島為「Lamey」。1636年荷蘭東印度公司與島民爆發激烈武裝衝突，倖存的原住民幾乎全數被迫離島，小琉球一度成為荒廢無人島。其後閩南與澎湖漁民陸續移入，帶來媽祖信仰與討海技藝，才慢慢建成今日的樣貌。厚石漁港旁的老廟，正是這段移民歷史的見證。
+    
+    海浪一波一波打來，拍在厚石礁盤上又散開，礁石紋絲不動。這塊「厚實的礁石」，靜靜承載著珊瑚礁的地質史、原住民的消逝、漁民的遷徙，還有世世代代游過的綠蠵龜。恍然大悟，就從踩上這片礁盤的那一刻開始。
+  observationPrompt: "退潮時走上礁盤，找找礁縫裡藏了哪些小生物（海星、彈塗魚、章魚）？再往海面看，有沒有綠蠵龜浮出水面換氣？算算今天的退潮礁盤大約延伸多遠？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚裙礁
+        label: 珊瑚裙礁
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 地質景觀
+        label: 地質景觀
+      - id: 自然生態
+        label: 自然生態
+      - id: 小琉球
+        label: 小琉球
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 海岸
+        label: 海岸
+      - id: 離島
+        label: 離島
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 浮潛
+        label: 浮潛
+  indoor: false
+  location:
+    latitude: 22.3342
+    longitude: 120.3738
+    locationHint: "小琉球南端厚石漁港旁，沿環島公路南段海岸步道步行可達，礁盤在漁港南側岸邊"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3342,120.3738"
+  trigger:
+    radiusMeters: 150.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球最具代表性的地質景觀之一，同時是台灣重要的野生綠蠵龜棲地，具生態保育、地質教育雙重意義"
+    sources: [tw-xiaoliuqiu-houshi-reef-source]
+  distinctiveness:
+    score: 4
+    note: "珊瑚裙礁地形壯觀，搭配全台罕見的大量可目擊野生綠蠵龜，此組合在台灣絕無僅有"
+    sources: [tw-xiaoliuqiu-houshi-reef-source]
+  interpretability:
+    score: 3
+    note: "礁石與海龜視覺上直觀易懂，但裙礁地質成因、歷史背景需引導說明才能深入理解"
+    sources: [tw-xiaoliuqiu-houshi-reef-source]
+  visitorValue:
+    score: 4
+    note: "浮潛即可高機率近距離觀察野生綠蠵龜，退潮礁盤生態豐富，攝影與生態體驗價值極高"
+    sources: [tw-xiaoliuqiu-houshi-reef-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-houshi-reef-source]
+  final: 3.7
+sources:
+  - id: tw-xiaoliuqiu-houshi-reef-source
+    title: "交通部觀光署 西南海岸國家風景區管理處"
+    publisher: ""
+    url: https://www.swcoast-nsa.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Houshi_Fringing_Reef_Xiaoliuqiu_Taiwan.jpg/1280px-Houshi_Fringing_Reef_Xiaoliuqiu_Taiwan.jpg
+    creator: "Wikimedia Commons contributor"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0/
+    accessedAt: "2026-07-26"
+    originalSha256: "5c85ce3d9e945c265ad3b52ebb7fb176fdc7183337a58d23b3e5b64731afd46c"
+    compactPath: media/compact/tw-xiaoliuqiu-houshi-reef.webp
+    completePath: media/complete/tw-xiaoliuqiu-houshi-reef.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

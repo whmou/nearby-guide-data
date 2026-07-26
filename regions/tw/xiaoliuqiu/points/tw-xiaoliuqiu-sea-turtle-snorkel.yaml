@@ -1,0 +1,110 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-sea-turtle-snorkel
+  parentId: null
+  kind: venue
+  title: "小琉球綠蠵龜浮潛"
+  summary: "全台最容易野外近距離目擊綠蠵龜的地方。在杉福廊道珊瑚礁區，跟著在地業者入水，水深三至五米即能與覓食中的綠蠵龜共游，是小琉球最震撼人心的生態體驗。"
+  narration: |
+    小琉球的名字，其實本來不屬於這座島。幾百年前，行經臺灣海峽的漁民望著這塊孤懸南海的珊瑚礁岩，遙想北方的琉球王國，就順口叫它「小琉球」。荷蘭人佔據時代把它稱為「黃金獅島」（Golden Lion Island），卻在1636年發動屠殺，讓原本在此定居的馬卡道平埔族幾乎滅絕。此後，來自福建的漁民重新落腳，才慢慢有了今天這個無紅綠燈、環島十二公里的慢活漁村。
+    
+    然而，島上有一種居民，比任何人類都更有資格說自己是「老住民」——那就是綠蠵龜。「蠵」是古漢語對大海龜的稱法，「綠」不是背殼的顏色，而是指牠的脂肪因長年啃食海草而染成墨綠。這些龜動輒活過八十、一百年，見過比任何漁民阿公更多的潮起潮落。
+    
+    在杉福廊道（杉福海洋保護區）礁石區，水深僅三到五米，珊瑚礁密密麻麻，海草隨洋流輕輕搖曳。綠蠵龜把這裡當成固定餐廳，低著頭一口一口啃草，完全不把身旁的浮潛者放在眼裡。當牠緩緩抬起頭、浮出水面換氣，那顆比你想像還大得多的腦袋，就在你面鏡前三十公分外——很多人說，那一刻，時間真的靜止了。
+    
+    跟著島上業者出發，業者對每隻龜幾乎都認識，有些龜和固定業者已「相識」逾十年。這裡是台灣最容易在野外近距離遇見綠蠵龜的地點，不需要深潛執照，戴上面鏡、套上蛙鞋，站在礁岸邊，整個侏儸紀就會緩緩向你游來。
+  observationPrompt: "入水後仔細觀察這隻綠蠵龜：牠的背甲上有沒有附著藤壺或其他共生生物？牠浮出水面換氣的間隔大概幾分鐘？試著估計牠的背甲長度，猜猜牠大約幾歲？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 海洋生態
+        label: 海洋生態
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 離島
+        label: 離島
+      - id: 小琉球
+        label: 小琉球
+      - id: 屏東
+        label: 屏東
+      - id: 生態旅遊
+        label: 生態旅遊
+      - id: 海洋保育
+        label: 海洋保育
+  - id: experience
+    label: 體驗
+    tags:
+      - id: 浮潛
+        label: 浮潛
+  indoor: false
+  location:
+    latitude: 22.338
+    longitude: 120.368
+    locationHint: "杉福廊道（杉福海洋保護區）或花瓶石海域，向島上浮潛業者報到後跟團從礁岸邊入水，多數業者集合點位於杉福漁港附近。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.338,120.368"
+  trigger:
+    radiusMeters: 300.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 5
+    note: "小琉球是台灣密度最高的綠蠵龜棲息與覓食地，也是全球少數可在近岸淺水徒手浮潛即能目擊野生綠蠵龜的地點，生態與保育意義極高。"
+    sources: [tw-xiaoliuqiu-sea-turtle-snorkel-source]
+  distinctiveness:
+    score: 5
+    note: "全台絕無僅有的體驗：無需深潛執照、無需前往深海，水深三至五米的近岸礁區即可與野生綠蠵龜零距離共游，成功率極高。"
+    sources: [tw-xiaoliuqiu-sea-turtle-snorkel-source]
+  interpretability:
+    score: 4
+    note: "業者通常提供現場解說，有助理解龜的生態與保育背景；建議事先了解小琉球的馬卡道族歷史與荷治背景，能大幅加深島嶼脈絡感。"
+    sources: [tw-xiaoliuqiu-sea-turtle-snorkel-source]
+  visitorValue:
+    score: 5
+    note: "幾乎所有訪客都能成功看到綠蠵龜，現場震撼感極強，是小琉球旅遊評價最高的單一體驗，適合各年齡層。"
+    sources: [tw-xiaoliuqiu-sea-turtle-snorkel-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-sea-turtle-snorkel-source]
+  final: 4.6
+sources:
+  - id: tw-xiaoliuqiu-sea-turtle-snorkel-source
+    title: "琉球嶼 - 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/琉球嶼
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:小琉球與綠蠵龜浮潛共游.jpg
+    creator: "大鵬灣國家風景區管理處"
+    license: "CC BY 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0
+    accessedAt: "2026-07-26"
+    originalSha256: "25a7033fb61840fcb10df36d3dd9661851297eeb81cb2bb4d6a2c86c62f44571"
+    compactPath: media/compact/tw-xiaoliuqiu-sea-turtle-snorkel.webp
+    completePath: media/complete/tw-xiaoliuqiu-sea-turtle-snorkel.webp
+admissions:
+  - label: "需向在地浮潛業者報名行程，費用約 NT$500–800／人（含裝備租借），部分業者附專業生態解說導覽。"
+    isFree: false
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

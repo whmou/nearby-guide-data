@@ -1,0 +1,109 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-vase-rock
+  parentId: null
+  kind: venue
+  title: "花瓶石"
+  summary: "花瓶石是小琉球北岸最具辨識度的珊瑚礁奇石，地殼抬升後歷經千萬年波浪侵蝕，雕出細腰寬頂如花瓶的身形。曾是漁民辨認北岸的天然地標，如今是登島必訪景點，礁盤周遭常見綠蠵龜悠游，地質與生態故事交匯於此。"
+  narration: |
+    站在小琉球北段的環島公路旁，往海邊望去，一根高約兩公尺的珊瑚礁柱靜靜矗立在潮間帶上，上寬下窄，活像擺在廳堂的老花瓶——島民就這樣叫了它幾十年，「花瓶石」就此得名。
+    
+    這塊石頭的前身是一整片珊瑚礁台地，幾萬年前隨地殼抬升緩緩出了水面。海浪日夜拍打、侵蝕，把較脆弱的礁岩一層層剝去，只留下這根最堅硬的柱子，被雕刻出今天細腰寬頂的身形。表面布滿墨綠藻類與微型珊瑚，紋路像老瓷器上的釉色；潮水退去後，礁盤積出一灣淺水，小魚和寄居蟹就躲在石縫裡過日子。
+    
+    小琉球自古是馬卡道平埔族的居住地，後來荷蘭人與漢人移民相繼登島。島上流傳的說法是：早年漁民行船返鄉，遠遠望見這根石柱就知道北岸到了，它當了幾百年無聲燈塔，指引歸家的方向，直到白燈塔建起才卸下這個任務。
+    
+    走近礁盤，往海裡一看才是最大的驚喜——綠蠵龜幾乎每天在礁岸附近悠游，偶爾把頭探出水面換氣，再靜靜潛入珊瑚叢，好像說「這是我的地盤」。這裡屬於珊瑚礁海岸保育區，礁盤上的每一步都可能踩到活珊瑚，請穿防滑鞋、在岸邊駐足欣賞即可。
+    
+    小琉球只有12公里的海岸線，沒有紅綠燈，沒有趕路的必要。花瓶石就是讓你第一次真正停下腳步、讀懂這座慢活小島的理由。
+  observationPrompt: "仔細看花瓶石的腰部和頂部——為什麼底部比頂部細？是什麼力量把礁岩雕成這個形狀？退潮後，礁盤上你能找到哪些生物正在生活？往海面看看，有沒有圓圓的頭探出水面？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 奇石地景
+        label: 奇石地景
+      - id: 潮間帶
+        label: 潮間帶
+      - id: 地質
+        label: 地質
+      - id: 綠蠵龜
+        label: 綠蠵龜
+      - id: 自然景觀
+        label: 自然景觀
+      - id: 小琉球
+        label: 小琉球
+      - id: 免費景點
+        label: 免費景點
+      - id: 打卡熱點
+        label: 打卡熱點
+  indoor: false
+  location:
+    latitude: 22.3682
+    longitude: 120.3768
+    locationHint: "環島公路北段白燈塔下方海岸，沿礁岸步道往海邊走約100公尺即可見礁柱矗立於潮間帶"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3682,120.3768"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "小琉球最具代表性的地標，幾乎所有登島遊客必訪，地質成因與生態價值兼備"
+    sources: [tw-xiaoliuqiu-vase-rock-source]
+  distinctiveness:
+    score: 4
+    note: "珊瑚礁受差異侵蝕成花瓶形的天然奇景，在台灣本島罕見，辨識度極高"
+    sources: [tw-xiaoliuqiu-vase-rock-source]
+  interpretability:
+    score: 4
+    note: "形狀直觀易懂，背後的地質成因、漁民歷史地標故事與綠蠵龜生態皆易於現場說明"
+    sources: [tw-xiaoliuqiu-vase-rock-source]
+  visitorValue:
+    score: 4
+    note: "親眼見到的衝擊感遠勝照片，退潮時礁盤生態豐富，加上高機率目擊綠蠵龜，停留價值高"
+    sources: [tw-xiaoliuqiu-vase-rock-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-vase-rock-source]
+  final: 3.9
+sources:
+  - id: tw-xiaoliuqiu-vase-rock-source
+    title: "維基百科——琉球嶼"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/琉球嶼
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:花瓶石.JPG
+    creator: "Jessepylin"
+    license: "CC BY-SA 3.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    accessedAt: "2026-07-26"
+    originalSha256: "152c923c0ac4da15a3036c816fd14e467dd08c731427f662a8451f85ace682e0"
+    compactPath: media/compact/tw-xiaoliuqiu-vase-rock.webp
+    completePath: media/complete/tw-xiaoliuqiu-vase-rock.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

@@ -1,0 +1,111 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-wild-boar-trench
+  parentId: null
+  kind: venue
+  title: "山豬溝"
+  summary: "小琉球東北角一條天然珊瑚礁溶蝕溝，相傳昔日野豬受獵人追趕時躲入此縫中藏匿而得名，溝壁保留珊瑚蟲骨骼痕跡，是花瓶石景區旁兼具地名故事與地質奇景的隱秘角落。"
+  narration: |
+    走在小琉球東北角，沿著花瓶石景區往南不遠，地面突然裂開一條深邃的礁岩地縫，兩側珊瑚石灰岩壁高聳，窄處幾乎要側身才能通過——這就是島民口中的「山豬溝」。
+    
+    說起這名字，老一輩琉球鄉親都能說段往事。早年小琉球樹林茂密，島上真的住著野豬。牠們平日翻找地瓜葉、野果為食，一旦被獵人追趕，便機靈地鑽進這條天然地縫躲藏。礁岩深溝彎彎曲曲，連獵犬都難以追入，山豬靠著這條裂縫屢次逃脫，久而久之，島人便把這裡喚做「山豬溝」，一個名字就此刻進了地圖。
+    
+    從地質來看，山豬溝是珊瑚礁台地歷經數萬年海浪與酸性雨水侵蝕所形成的「溶蝕溝」。小琉球整座島都是珊瑚礁隆起而成，石灰岩含鈣豐富，雨水順著岩縫滲入，一點一點將岩石溶掉，最終刻出這條深達數公尺的長溝。溝壁上若仔細端詳，還能發現一粒粒圓形小孔，那是古代珊瑚蟲的骨骼印記，每個小洞都藏著幾萬年前海底的記憶。
+    
+    小琉球的歷史並不只有悠閒的慢活。荷蘭東印度公司殖民台灣期間，一六三六年因衝突爆發，幾乎滅絕了島上的原住民「琉球番」，倖存者被擄往爪哇為奴，整座島從此沉寂。此後漢人漁民陸續移入，帶來閩南語、信仰與生活智慧，也帶來對這塊土地的重新命名。「山豬溝」這個名字，正是移民與野地共處、和野生動物周旋的生活印記。
+    
+    如今島上早已見不到野豬，山豬溝卻依然是小琉球難得一見的幽靜角落。溝底濕涼，蕨類與苔蘚頑強附著在岩壁上，空氣中帶著一絲鹹濕，與外頭的豔陽海風截然不同。往北走幾步，便能望見花瓶石那座在海中獨立挺立的礁岩柱——它與山豬溝其實出自同一套地質力量，一個向上突起、一個向下凹陷，一陽一陰，共同說盡了這座珊瑚礁小島立體而深邃的大地故事。
+  observationPrompt: "站在山豬溝旁，試著在溝壁石灰岩上找找圓形小孔——那是什麼生物留下的痕跡？往北走幾步看到花瓶石，再想想：山豬溝向下凹、花瓶石向上突，同一座島上為何會出現這兩種相反的地形？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 地質景觀
+        label: 地質景觀
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 溶蝕溝
+        label: 溶蝕溝
+      - id: 地名故事
+        label: 地名故事
+      - id: 小琉球
+        label: 小琉球
+      - id: 花瓶石周邊
+        label: 花瓶石周邊
+      - id: 免費景點
+        label: 免費景點
+      - id: 礁岩步道
+        label: 礁岩步道
+      - id: 生態
+        label: 生態
+      - id: 歷史
+        label: 歷史
+  indoor: false
+  location:
+    latitude: 22.3578
+    longitude: 120.3791
+    locationHint: "小琉球東北部，花瓶石景區步行約2-3分鐘可達，沿環島公路旁礁岩步道行走，留意地面裂開的深溝即是山豬溝入口。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3578,120.3791"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球知名景點之一，地名故事流傳在地，但在全台知名度屬地方級，非國家級地標。"
+    sources: [tw-xiaoliuqiu-wild-boar-trench-source]
+  distinctiveness:
+    score: 4
+    note: "天然溶蝕溝地形結合野豬藏匿傳說，台灣其他地方難以複製的地名故事與地景組合，加上鄰近花瓶石形成強烈地形對比，獨特性高。"
+    sources: [tw-xiaoliuqiu-wild-boar-trench-source]
+  interpretability:
+    score: 3
+    note: "裂溝本身視覺清晰易觀察，但珊瑚蟲骨骼小孔與地質成因需要解說才能被理解；地名由來也非現場可自行推論，需要導覽輔助。"
+    sources: [tw-xiaoliuqiu-wild-boar-trench-source]
+  visitorValue:
+    score: 3
+    note: "適合作為花瓶石行程的延伸順遊點，能補充地質與歷史層次，但本身體驗時間短（5-10分鐘），不建議單獨前往。"
+    sources: [tw-xiaoliuqiu-wild-boar-trench-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-wild-boar-trench-source]
+  final: 3.25
+sources:
+  - id: tw-xiaoliuqiu-wild-boar-trench-source
+    title: "琉球鄉公所 - 小琉球旅遊景點介紹"
+    publisher: ""
+    url: https://www.liuqiu.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:山豬溝礁岩石洞.jpg
+    creator: "Pigeorge"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-26"
+    originalSha256: "c6ac9da4afafa3af7a738feb1804fd451321f9dc27ae4608b3010ee1888275bf"
+    compactPath: media/compact/tw-xiaoliuqiu-wild-boar-trench.webp
+    completePath: media/complete/tw-xiaoliuqiu-wild-boar-trench.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

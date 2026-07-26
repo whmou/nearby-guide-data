@@ -1,0 +1,105 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-lobster-cave
+  parentId: null
+  kind: venue
+  title: "龍蝦洞"
+  summary: "小琉球西南角的珊瑚礁海蝕洞，因早年洞內棲息大量棘刺龍蝦而得名。退潮時可入洞探索礁池，洞頂遍布古珊瑚孔洞，是兼具地質、生態與傳奇故事的免費景點。"
+  narration: |
+    龍蝦洞坐落在小琉球西南角的珊瑚礁海岸，是環島公路上最令人驚奇的天然洞穴之一。這座洞穴並非人工開鑿，而是千萬年來珊瑚礁岩受到海浪不斷侵蝕溶蝕所形成的奇景。洞口面海，退潮時走進洞內，頭頂是穿孔的礁岩天花板，腳下是一個個圓潤的潮池，彷彿置身海底劇場的後台。
+    
+    「龍蝦」這個名字，老一輩琉球鄉親都知道由來。早年每當退潮，洞穴的岩縫裡擠滿了棘刺龍蝦，牠們白天躲在陰暗潮濕的縫隙裡休息，夜裡才出來獵食。老漁民只要拿著手電筒走進洞裡，蝦鬚從縫隙一根一根伸出來，叫人嘆為觀止。如今龍蝦已成珍稀，想在洞內見到活龍蝦需要緣分，但礁縫間的招潮蟹、小魚與海葵依然生機勃勃。
+    
+    從地質角度看，整座小琉球就是一塊隆起的珊瑚礁台地，大約在末次冰期結束之後，因地殼緩慢抬升而露出海面。龍蝦洞洞頂那些大大小小的孔洞，正是古老珊瑚骨架留下的痕跡——曾在水下繁衍的生命，如今化為陸上的天然雕塑。站在洞口向外望，台灣海峽的藍一望無際，晴天甚至能遠眺屏東恆春半島的山影輪廓。
+    
+    這裡不收門票、不需預約，卻藏著整座小島最濃縮的故事：一個因龍蝦而得名、因珊瑚礁而成形、因退潮而現身的地方。在這座沒有紅綠燈的慢活小島上，龍蝦洞提醒旅人，最動人的風景往往不在地圖標記，而在退一步、彎下腰、往岩縫裡細看的那一刻。
+  observationPrompt: "仔細看洞頂和礁石縫隙——你能找到珊瑚骨架留下的圓形孔洞嗎？在礁池裡有沒有發現招潮蟹或小魚的蹤跡？現在洞裡還看得到龍蝦嗎？"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 珊瑚礁
+        label: 珊瑚礁
+      - id: 海蝕洞
+        label: 海蝕洞
+      - id: 地質景觀
+        label: 地質景觀
+      - id: 潮池生態
+        label: 潮池生態
+      - id: 小琉球
+        label: 小琉球
+      - id: 免費景點
+        label: 免費景點
+      - id: 龍蝦傳說
+        label: 龍蝦傳說
+      - id: 礁石地形
+        label: 礁石地形
+  indoor: false
+  location:
+    latitude: 22.3374
+    longitude: 120.3632
+    locationHint: "環島公路西南段，鄰近西崎，路旁設有停車空間，步行幾步即可抵達洞口"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3374,120.3632"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "小琉球著名觀光景點，以特殊珊瑚礁地貌與龍蝦傳說聞名，但非全島獨一的最高地標等級"
+    sources: [tw-xiaoliuqiu-lobster-cave-source]
+  distinctiveness:
+    score: 4
+    note: "海蝕洞結合龍蝦命名傳說，在台灣西南海岸景點中形象鮮明獨特，不易與其他景點混淆"
+    sources: [tw-xiaoliuqiu-lobster-cave-source]
+  interpretability:
+    score: 3
+    note: "地質成因需要說明才能完整理解，但肉眼即可欣賞洞穴奇景，退潮時機影響體驗深度"
+    sources: [tw-xiaoliuqiu-lobster-cave-source]
+  visitorValue:
+    score: 4
+    note: "免費進入、交通便利、退潮時可步入洞內，視覺震撼度高，適合各年齡層，是環島必訪點之一"
+    sources: [tw-xiaoliuqiu-lobster-cave-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-lobster-cave-source]
+  final: 3.4
+sources:
+  - id: tw-xiaoliuqiu-lobster-cave-source
+    title: "琉球嶼 - 維基百科"
+    publisher: ""
+    url: https://zh.wikipedia.org/wiki/琉球嶼
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Spotfin_Lionfish,_小琉球（龍蝦洞岸潛左側）_imported_from_iNaturalist_photo_107573360.jpg
+    creator: "(c) 呂一起(Lu i-chi), some rights reserved (CC BY)"
+    license: "CC BY 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by/4.0
+    accessedAt: "2026-07-26"
+    originalSha256: "92b933684235693f9cbc5dd9ccfa521c6a1a37f6e579caa73960ccffe080847d"
+    compactPath: media/compact/tw-xiaoliuqiu-lobster-cave.webp
+    completePath: media/complete/tw-xiaoliuqiu-lobster-cave.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []

@@ -1,0 +1,103 @@
+schemaVersion: 1
+point:
+  id: tw-xiaoliuqiu-biyun-temple
+  parentId: null
+  kind: venue
+  title: "碧雲寺"
+  summary: "台灣最南端的三山國王廟，兩百多年來守護小琉球漁民出海的精神信仰核心，每年農曆三月遶境是全島最盛大的歲時慶典。"
+  narration: |
+    走進碧雲寺，腳下這片珊瑚礁地藏著一段兩百多年前的渡海故事。清朝中葉，大批潮州移民冒著「黑水溝」的駭浪，把家鄉廣東的三山國王神像請上舢舨，一路顛簸飄搖，終於落腳這座琉球嶼。三山國王供奉的是廣東揭西縣巾山、明山、獨山三位山神，傳說他們曾顯靈護佑百姓抵禦外侮，因此成為潮客移民出門闖蕩時最信賴的守護神，有人出海捕魚，有人渡台墾荒，每逢別離必先上香拜別。
+    
+    寺名「碧雲」取碧空雲彩之意，點出這座廟宇的氣象。晴天站在廟埕抬頭望，天空藍得像剛換過的海水，遠方屏東海岸線若隱若現——這對早年仰望天色決定能否出海的漁民來說，是再貼切不過的祈願所在。廟旁老榕樹的盤根錯節默默見證了漁村百年興衰：從鰹魚季滿載而歸的熱鬧、日治時期魚乾工廠的煙火，到戰後漁獲衰減的沉寂，再到今日摩托車嘟嘟載著觀光客繞島的新生。
+    
+    每年農曆三月三山國王聖誕，是小琉球一年中最熱血沸騰的時刻。神轎出巡，鑼鼓喧天，全島居民扶老攜幼跟著遶境隊伍穿街走巷，就連常年在外打拚的遊子也特地包船趕回。碧雲寺是台灣有文獻記載最南端的三山國王廟，這個「最南」不只是地理上的紀錄，更象徵著潮州移民的信仰跟著帆船一路向南，在這片三面環海的珊瑚礁島上紮下最深的根。
+  observationPrompt: "廟內三山國王的神像分別代表巾山、明山、獨山——你能從神像的冠冕或服飾顏色分辨哪位是主神嗎？廟埕旁的老榕樹氣根粗細各異，試估算它的樹齡，並找找看廟牆上是否留有歷次重修的碑記年份。"
+  countryCode: TW
+  adminAreaLevel1: 屏東縣
+  adminAreaLevel2: 琉球鄉
+  hierarchy: ["台灣", "屏東縣", "小琉球"]
+  tagGroups:
+  - id: setting
+    label: 場域
+    tags:
+      - id: 室外
+        label: 室外
+  - id: subject
+    label: 主題
+    tags:
+      - id: 廟宇
+        label: 廟宇
+      - id: 三山國王
+        label: 三山國王
+      - id: 潮州移民
+        label: 潮州移民
+      - id: 文化信仰
+        label: 文化信仰
+      - id: 歷史古蹟
+        label: 歷史古蹟
+      - id: 遶境
+        label: 遶境
+      - id: 小琉球
+        label: 小琉球
+      - id: 離島
+        label: 離島
+  indoor: false
+  location:
+    latitude: 22.3453
+    longitude: 120.373
+    locationHint: "小琉球島中部，從大福漁港或白沙尾遊憩區騎車約5分鐘可達，位於琉球鄉本福村主要道路旁。"
+  googleMapsUrl: "https://maps.google.com/maps?q=22.3453,120.373"
+  trigger:
+    radiusMeters: 80.0
+    dwellMillis: 2000
+    rearmDistanceMeters: 800.0
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "台灣有文獻記載最南端的三山國王廟，清代潮州移民渡台信仰史的重要見證，建廟逾兩百年，是小琉球居民凝聚社群認同的核心場域。"
+    sources: [tw-xiaoliuqiu-biyun-temple-source]
+  distinctiveness:
+    score: 4
+    note: "「最南端三山國王廟」具有不可替代的地理與文化稀缺性，每年遶境慶典規模遠超離島一般廟宇，是小琉球最具代表性的文化地標。"
+    sources: [tw-xiaoliuqiu-biyun-temple-source]
+  interpretability:
+    score: 4
+    note: "三山國王信仰起源、潮客移民渡台史、廟名意涵、遶境習俗等故事層次豐富，現場建築與碑刻均可輔助解說，適合深度文化體驗。"
+    sources: [tw-xiaoliuqiu-biyun-temple-source]
+  visitorValue:
+    score: 3
+    note: "對文化與歷史有興趣的遊客收穫豐富；若非遶境季節到訪，視覺刺激相對有限，但仍值得短暫停留感受島嶼信仰氛圍。"
+    sources: [tw-xiaoliuqiu-biyun-temple-source]
+  evidenceQuality:
+    score: 3
+    note: "網路資料為主"
+    sources: [tw-xiaoliuqiu-biyun-temple-source]
+  final: 3.75
+sources:
+  - id: tw-xiaoliuqiu-biyun-temple-source
+    title: "交通部觀光署大鵬灣國家風景區管理處——小琉球景點介紹"
+    publisher: ""
+    url: https://www.dbnsa.gov.tw/
+    accessedAt: "2026-07-26"
+    language: zh-TW
+    supports:
+      - "座標與景點基本資訊"
+media:
+  - id: primary-image
+    type: image
+    sourceUrl: https://commons.wikimedia.org/wiki/File:小琉球碧雲寺正立面.jpg
+    creator: "Koala0090"
+    license: "CC BY-SA 4.0"
+    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    accessedAt: "2026-07-26"
+    originalSha256: "5ac9793186d7287d4714bc63822288dd5d33b9c832de45ed522ce65946e923ce"
+    compactPath: media/compact/tw-xiaoliuqiu-biyun-temple.webp
+    completePath: media/complete/tw-xiaoliuqiu-biyun-temple.webp
+admissions:
+  - label: "免費"
+    isFree: true
+review:
+  status: draft
+  checkedAt: "2026-07-26"
+  notes: []
