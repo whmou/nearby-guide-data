@@ -26,16 +26,16 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 建築
+      - id: architecture
         label: 建築
   indoor: false
   location:
@@ -69,7 +69,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [jp-ishigaki-miyara-dunchi-source]
-  final: 3.85
+  final: 3.9
 sources:
   - id: jp-ishigaki-miyara-dunchi-source
     title: "宮良殿内 - Wikipedia（日本語）"

@@ -24,26 +24,24 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 制高點
+      - id: viewpoint
         label: 制高點
-      - id: 健行步道
+      - id: hiking
         label: 健行步道
-      - id: 珊瑚礁地形
+      - id: coral-reef
         label: 珊瑚礁地形
-      - id: 碧雲寺
+      - id: temple
         label: 碧雲寺
-      - id: 展望台
-        label: 展望台
-      - id: 生態觀察
+      - id: ecology
         label: 生態觀察
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 地質景觀
+      - id: geology
         label: 地質景觀
   indoor: false
   location:
@@ -77,7 +75,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-tiantan-mountain-source]
-  final: 3.35
+  final: 3.4
 sources:
   - id: tw-xiaoliuqiu-tiantan-mountain-source
     title: "大鵬灣國家風景區 - 琉球嶼景點介紹"

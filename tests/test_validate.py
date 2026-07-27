@@ -596,3 +596,91 @@ def test_committed_catalog_unique_pack_ids():
     catalog = json.loads((REPO_ROOT / "catalog.json").read_text(encoding="utf-8"))
     pack_ids = [p["packId"] for p in catalog["packs"]]
     assert len(pack_ids) == len(set(pack_ids)), f"Duplicate packId in catalog.json: {pack_ids}"
+
+
+# ---------------------------------------------------------------------------
+# v1.0.1 regression tests: tag slugs, rating precision, catalog integrity
+# ---------------------------------------------------------------------------
+
+import re as _re
+import yaml as _yaml_reg
+
+_SLUG_RE = _re.compile(r"^[a-z0-9][a-z0-9-]*$")
+_PROD_REGIONS = REPO_ROOT / "regions"
+_EXCLUDED_PARTS = {"tests", "fixtures", "invalid", "test"}
+
+
+def _production_point_files():
+    """Yield all YAML point files from production packs (not test fixtures)."""
+    for pf in sorted(_PROD_REGIONS.rglob("points/*.yaml")):
+        if not (_excluded_parts_in_path(pf)):
+            yield pf
+
+
+def _excluded_parts_in_path(p: Path) -> bool:
+    return bool(set(p.parts) & _EXCLUDED_PARTS)
+
+
+def test_no_fixture_in_catalog():
+    """catalog.json must not contain the spurious 'unknown' pack entry."""
+    catalog = json.loads((REPO_ROOT / "catalog.json").read_text(encoding="utf-8"))
+    pack_ids = [p["packId"] for p in catalog["packs"]]
+    assert "unknown" not in pack_ids, (
+        f"catalog.json still contains a pack with packId='unknown': {pack_ids}"
+    )
+
+
+def test_tag_ids_are_slugs():
+    """All tag IDs in all production point source YAMLs must be lowercase ASCII slugs."""
+    bad: list[str] = []
+    for pf in _production_point_files():
+        data = _yaml_reg.safe_load(pf.read_text(encoding="utf-8"))
+        point = data.get("point", {})
+        for tg in point.get("tagGroups", []):
+            for tag in tg.get("tags", []):
+                tid = str(tag.get("id", ""))
+                if not _SLUG_RE.match(tid):
+                    bad.append(f"{pf.name}: group={tg.get('id')} tag id={tid!r}")
+    assert not bad, (
+        f"Found {len(bad)} non-slug tag IDs in production source YAMLs:\n"
+        + "\n".join(bad[:20])
+    )
+
+
+def test_ratings_one_decimal():
+    """All nearbyGuideRating values in built packs must have at most 1 decimal place."""
+    _require_dist()
+    bad: list[str] = []
+    for archive in sorted(DIST_PACKS.glob("*.guidepack")):
+        with zipfile.ZipFile(archive) as zf:
+            if "points.json" not in zf.namelist():
+                continue
+            points_data = json.loads(zf.read("points.json"))
+        for pt in points_data.get("points", []):
+            rating = pt.get("nearbyGuideRating")
+            if rating is None:
+                continue
+            # Check that the value has at most 1 decimal place
+            s = f"{rating:.10f}".rstrip("0")
+            decimal_part = s.split(".")[-1] if "." in s else ""
+            if len(decimal_part) > 1:
+                bad.append(f"{archive.name} {pt['id']}: nearbyGuideRating={rating}")
+    assert not bad, (
+        f"Found {len(bad)} ratings with >1 decimal in built packs:\n"
+        + "\n".join(bad[:20])
+    )
+
+
+def test_catalog_region_fields():
+    """All catalog entries must have a non-null, non-empty adminAreaLevel1."""
+    catalog = json.loads((REPO_ROOT / "catalog.json").read_text(encoding="utf-8"))
+    bad: list[str] = []
+    for p in catalog["packs"]:
+        region = p.get("region", {})
+        val = region.get("adminAreaLevel1")
+        if not val:
+            bad.append(f"packId={p['packId']!r}: adminAreaLevel1={val!r}")
+    assert not bad, (
+        f"catalog.json has {len(bad)} entries with missing adminAreaLevel1:\n"
+        + "\n".join(bad)
+    )

@@ -20,27 +20,23 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 廟宇
+      - id: temple
         label: 廟宇
-      - id: 三山國王
+      - id: religion
         label: 三山國王
-      - id: 潮州移民
+      - id: migration-history
         label: 潮州移民
-      - id: 文化信仰
-        label: 文化信仰
-      - id: 歷史古蹟
+      - id: heritage
         label: 歷史古蹟
-      - id: 遶境
+      - id: festival
         label: 遶境
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 離島
-        label: 離島
   indoor: false
   location:
     latitude: 22.3453
@@ -73,7 +69,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-biyun-temple-source]
-  final: 3.75
+  final: 3.8
 sources:
   - id: tw-xiaoliuqiu-biyun-temple-source
     title: "交通部觀光署大鵬灣國家風景區管理處——小琉球景點介紹"

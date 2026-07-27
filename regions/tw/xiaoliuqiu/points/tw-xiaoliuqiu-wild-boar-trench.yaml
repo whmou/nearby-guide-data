@@ -24,30 +24,30 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 地質景觀
+      - id: geology
         label: 地質景觀
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 溶蝕溝
+      - id: karst
         label: 溶蝕溝
-      - id: 地名故事
+      - id: legend
         label: 地名故事
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 花瓶石周邊
+      - id: scenic
         label: 花瓶石周邊
-      - id: 免費景點
+      - id: free
         label: 免費景點
-      - id: 礁岩步道
+      - id: reef-rock
         label: 礁岩步道
-      - id: 生態
+      - id: ecology
         label: 生態
-      - id: 歷史
+      - id: history
         label: 歷史
   indoor: false
   location:
@@ -81,7 +81,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-wild-boar-trench-source]
-  final: 3.25
+  final: 3.3
 sources:
   - id: tw-xiaoliuqiu-wild-boar-trench-source
     title: "琉球鄉公所 - 小琉球旅遊景點介紹"

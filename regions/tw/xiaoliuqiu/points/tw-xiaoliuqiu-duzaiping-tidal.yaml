@@ -22,34 +22,30 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 潮間帶
+      - id: tidal-flat
         label: 潮間帶
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 綠蠵龜
+      - id: sea-turtle
         label: 綠蠵龜
-      - id: 海星
+      - id: marine-life
         label: 海星
-      - id: 海膽
-        label: 海膽
-      - id: 生態保育
+      - id: ecology
         label: 生態保育
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 退潮
+      - id: low-tide
         label: 退潮
-      - id: 礁石
+      - id: reef-rock
         label: 礁石
-      - id: 離島
-        label: 離島
-      - id: 屏東
+      - id: nature
         label: 屏東
-      - id: 親子
+      - id: family
         label: 親子
   indoor: false
   location:

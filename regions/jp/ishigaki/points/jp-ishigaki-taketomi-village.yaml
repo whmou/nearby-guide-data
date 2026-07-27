@@ -24,25 +24,25 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 建築
+      - id: architecture
         label: 建築
-      - id: 自然
+      - id: nature
         label: 自然
-      - id: 離島
+      - id: island
         label: 離島
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: false
   location:

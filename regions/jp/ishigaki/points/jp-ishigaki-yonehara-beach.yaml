@@ -22,21 +22,21 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 海灘
+      - id: beach
         label: 海灘
-      - id: 自然
+      - id: nature
         label: 自然
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: false
   location:

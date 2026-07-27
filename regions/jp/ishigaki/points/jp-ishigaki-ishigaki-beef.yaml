@@ -24,19 +24,19 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室內
+      - id: indoor
         label: 室內
   - id: subject
     label: 主題
     tags:
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 体験
+      - id: experience
         label: 体験
   - id: experience
     label: 體驗
     tags:
-      - id: 美食
+      - id: food
         label: 美食
   indoor: true
   location:

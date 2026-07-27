@@ -24,28 +24,28 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 珊瑚礁地形
+      - id: coral-reef
         label: 珊瑚礁地形
-      - id: 奇石景觀
+      - id: rock-formation
         label: 奇石景觀
-      - id: 傳說故事
+      - id: legend
         label: 傳說故事
-      - id: 海岸步道
+      - id: trail
         label: 海岸步道
-      - id: 潮間帶生態
+      - id: tidal-flat
         label: 潮間帶生態
-      - id: 綠蠵龜棲地
+      - id: sea-turtle
         label: 綠蠵龜棲地
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 免費景點
+      - id: free
         label: 免費景點
-      - id: 地質教育
+      - id: geology
         label: 地質教育
   indoor: false
   location:
@@ -79,7 +79,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-guanyin-rock-source]
-  final: 3.45
+  final: 3.5
 sources:
   - id: tw-xiaoliuqiu-guanyin-rock-source
     title: "琉球鄉公所 — 觀光景點介紹"

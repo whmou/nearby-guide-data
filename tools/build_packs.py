@@ -16,6 +16,7 @@ import argparse
 import hashlib
 import io
 import json
+import re
 import sys
 import zipfile
 from pathlib import Path
@@ -25,6 +26,29 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGIONS_DIR = REPO_ROOT / "regions"
+
+# Directory name parts that indicate non-production locations to exclude
+EXCLUDED_DIR_PARTS = {"tests", "fixtures", "invalid", "test"}
+
+
+def _is_production_pack(pack_yaml: Path) -> bool:
+    """Return True only if this pack.yaml belongs to a production pack directory."""
+    # Exclude any path containing test/fixture directory parts
+    parts = set(pack_yaml.parts)
+    if parts & EXCLUDED_DIR_PARTS:
+        return False
+    # Exclude packs with packId that doesn't match slug pattern
+    try:
+        data = yaml.safe_load(pack_yaml.read_text(encoding="utf-8"))
+        pack_id = data.get("packId", "")
+        region = data.get("region", {})
+        if not re.match(r"^[a-z][a-z0-9-]*$", pack_id):
+            return False
+        if not region.get("adminAreaLevel1"):
+            return False
+        return True
+    except Exception:
+        return False
 
 # Fixed ZIP entry timestamp for reproducible archives
 ZIP_TIMESTAMP = (2024, 1, 1, 0, 0, 0)
@@ -121,7 +145,7 @@ def _build_point_record(point_data: dict, variant: str, pack_dir: Path) -> dict:
         "title": p["title"],
         "summary": p["summary"],
         "narration": p["narration"],
-        "nearbyGuideRating": re_data.get("final"),
+        "nearbyGuideRating": round(float(re_data["final"]), 1) if re_data.get("final") is not None else None,
         "countryCode": p["countryCode"],
         "adminAreaLevel1": p["adminAreaLevel1"],
         "hierarchy": p["hierarchy"],
@@ -267,11 +291,13 @@ def build_pack(pack_dir: Path, output_dir: Path, verbose: bool = True) -> dict[s
 
 def build_all(output_dir: Path) -> list[dict]:
     entries = []
-    pack_dirs = sorted(
-        p.parent for p in REGIONS_DIR.rglob("pack.yaml") if p.parent != REGIONS_DIR
+    pack_yamls = sorted(
+        p for p in REGIONS_DIR.rglob("pack.yaml")
+        if p.parent != REGIONS_DIR and _is_production_pack(p)
     )
-    for pack_dir in pack_dirs:
-        pack_data = yaml.safe_load((pack_dir / "pack.yaml").read_text(encoding="utf-8"))
+    for pack_yaml in pack_yamls:
+        pack_dir = pack_yaml.parent
+        pack_data = yaml.safe_load(pack_yaml.read_text(encoding="utf-8"))
         print(f"Building {pack_data['packId']} v{pack_data['version']} …")
         entries.append(build_pack(pack_dir, output_dir))
     return entries

@@ -24,31 +24,29 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 綠蠵龜
+      - id: sea-turtle
         label: 綠蠵龜
-      - id: 潮間帶
+      - id: tidal-flat
         label: 潮間帶
-      - id: 礁石海岸
+      - id: reef-rock
         label: 礁石海岸
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 離島
-        label: 離島
-      - id: 生態旅遊
+      - id: ecology
         label: 生態旅遊
-      - id: 退潮景觀
+      - id: low-tide
         label: 退潮景觀
   - id: experience
     label: 體驗
     tags:
-      - id: 浮潛
+      - id: snorkeling
         label: 浮潛
   indoor: false
   location:

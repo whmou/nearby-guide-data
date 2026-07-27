@@ -24,37 +24,33 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 夜間浮潛
+      - id: night-snorkeling
         label: 夜間浮潛
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 綠蠵龜
+      - id: sea-turtle
         label: 綠蠵龜
-      - id: 夜觀生態
+      - id: night-activity
         label: 夜觀生態
-      - id: 海洋體驗
+      - id: ocean-experience
         label: 海洋體驗
-      - id: 夜光藻
+      - id: bioluminescence
         label: 夜光藻
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 琉球嶼
-        label: 琉球嶼
-      - id: 離島
-        label: 離島
-      - id: 屏東
+      - id: nature
         label: 屏東
-      - id: 海洋保育
+      - id: marine-ecology
         label: 海洋保育
   - id: experience
     label: 體驗
     tags:
-      - id: 浮潛
+      - id: snorkeling
         label: 浮潛
   indoor: false
   location:

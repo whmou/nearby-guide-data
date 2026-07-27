@@ -22,24 +22,24 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 自然
+      - id: nature
         label: 自然
-      - id: 展望台
+      - id: viewpoint
         label: 展望台
   - id: experience
     label: 體驗
     tags:
-      - id: 體驗
+      - id: experience
         label: 體驗
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: false
   location:
@@ -73,7 +73,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [jp-ishigaki-observatory-source]
-  final: 3.95
+  final: 4.0
 sources:
   - id: jp-ishigaki-observatory-source
     title: "石垣島天文台 公式サイト（むりかぶし）"

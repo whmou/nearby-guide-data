@@ -24,31 +24,31 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 老街
+      - id: old-street
         label: 老街
-      - id: 漁港
+      - id: fishing-port
         label: 漁港
-      - id: 小吃
+      - id: street-food
         label: 小吃
-      - id: 在地生活
+      - id: local-life
         label: 在地生活
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 離島
+      - id: island
         label: 離島
-      - id: 屏東
+      - id: nature
         label: 屏東
-      - id: 珊瑚礁島嶼
+      - id: coral-reef
         label: 珊瑚礁島嶼
   - id: experience
     label: 體驗
     tags:
-      - id: 市場
+      - id: market
         label: 市場
   indoor: false
   location:
@@ -82,7 +82,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-sanmin-street-source]
-  final: 3.35
+  final: 3.4
 sources:
   - id: tw-xiaoliuqiu-sanmin-street-source
     title: "琉球鄉 - 維基百科"

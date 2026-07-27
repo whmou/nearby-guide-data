@@ -104,6 +104,24 @@ def regenerate_catalog(dist_dir: Path, output_path: Path | None = None) -> None:
             print(f"WARNING: missing packId/version in {archive.name}", file=sys.stderr)
             continue
 
+        # Validate packId is a lowercase ASCII slug
+        if not re.match(r"^[a-z][a-z0-9-]*$", pack_id):
+            print(
+                f"WARNING: {archive.name}: packId {pack_id!r} is not a valid ASCII slug — skipping",
+                file=sys.stderr,
+            )
+            continue
+
+        # Validate region.adminAreaLevel1 is non-null and non-empty
+        region = manifest.get("region", {})
+        admin_level1 = region.get("adminAreaLevel1")
+        if not admin_level1:
+            print(
+                f"WARNING: {archive.name}: region.adminAreaLevel1 is null/empty — skipping",
+                file=sys.stderr,
+            )
+            continue
+
         try:
             _parse_semver(version)
         except ValueError as exc:

@@ -26,25 +26,25 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 自然
+      - id: nature
         label: 自然
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 展望台
+      - id: viewpoint
         label: 展望台
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: false
   location:
@@ -78,7 +78,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [jp-ishigaki-kabira-bay-source]
-  final: 4.25
+  final: 4.3
 sources:
   - id: jp-ishigaki-kabira-bay-source
     title: "川平湾 - Wikipedia"

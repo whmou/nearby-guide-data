@@ -22,35 +22,35 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 燈塔
+      - id: lighthouse
         label: 燈塔
-      - id: 日治時期
+      - id: colonial-history
         label: 日治時期
-      - id: 歷史建築
+      - id: heritage
         label: 歷史建築
-      - id: 景觀制高點
+      - id: viewpoint
         label: 景觀制高點
-      - id: 航海地標
+      - id: maritime
         label: 航海地標
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 綠蠵龜
+      - id: sea-turtle
         label: 綠蠵龜
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 步行可達
+      - id: walkable
         label: 步行可達
-      - id: 海景
+      - id: ocean-view
         label: 海景
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: false
   location:

@@ -24,18 +24,18 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室內
+      - id: indoor
         label: 室內
   - id: subject
     label: 主題
     tags:
-      - id: 自然
+      - id: nature
         label: 自然
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 洞窟
+      - id: cave
         label: 洞窟
   indoor: true
   location:

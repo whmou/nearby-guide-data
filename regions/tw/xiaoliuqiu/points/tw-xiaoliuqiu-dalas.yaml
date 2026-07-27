@@ -24,33 +24,23 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 宗教祭典
+      - id: festival
         label: 宗教祭典
-      - id: 王船祭
-        label: 王船祭
-      - id: 迎王平安祭典
-        label: 迎王平安祭典
-      - id: 漁村文化
+      - id: fishing-culture
         label: 漁村文化
-      - id: 傳統信仰
+      - id: religion
         label: 傳統信仰
-      - id: 三年一科
-        label: 三年一科
-      - id: 王爺信仰
-        label: 王爺信仰
-      - id: 無形文化遺產
+      - id: intangible-heritage
         label: 無形文化遺產
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 屏東
+      - id: nature
         label: 屏東
-      - id: 離島
-        label: 離島
   indoor: false
   location:
     latitude: 22.337
@@ -83,7 +73,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-dalas-source]
-  final: 3.55
+  final: 3.6
 sources:
   - id: tw-xiaoliuqiu-dalas-source
     title: "迎王平安祭典 - 維基百科"

@@ -26,33 +26,31 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 綠蠵龜
+      - id: sea-turtle
         label: 綠蠵龜
-      - id: 海洋生態
+      - id: marine-ecology
         label: 海洋生態
-      - id: 親子旅遊
+      - id: family
         label: 親子旅遊
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 離島
-        label: 離島
-      - id: 屏東
+      - id: nature
         label: 屏東
-      - id: 水上活動
+      - id: water-sports
         label: 水上活動
-      - id: 慢活
+      - id: local-life
         label: 慢活
   - id: experience
     label: 體驗
     tags:
-      - id: 玻璃船
+      - id: glass-boat
         label: 玻璃船
   indoor: false
   location:
@@ -86,7 +84,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [tw-xiaoliuqiu-glass-boat-source]
-  final: 4.15
+  final: 4.2
 sources:
   - id: tw-xiaoliuqiu-glass-boat-source
     title: "琉球鄉 — 維基百科"

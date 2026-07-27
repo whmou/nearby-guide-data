@@ -26,16 +26,16 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室內
+      - id: indoor
         label: 室內
   - id: subject
     label: 主題
     tags:
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 建築
+      - id: architecture
         label: 建築
   indoor: true
   location:

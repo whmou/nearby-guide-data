@@ -24,18 +24,18 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室內
+      - id: indoor
         label: 室內
   - id: subject
     label: 主題
     tags:
-      - id: 歴史
+      - id: history
         label: 歴史
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 藝術
+      - id: art
         label: 藝術
-      - id: 体驗
+      - id: experience
         label: 体驗
   indoor: true
   location:

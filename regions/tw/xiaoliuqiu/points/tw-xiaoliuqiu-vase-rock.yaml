@@ -24,28 +24,28 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 珊瑚礁
+      - id: coral-reef
         label: 珊瑚礁
-      - id: 奇石地景
+      - id: rock-formation
         label: 奇石地景
-      - id: 潮間帶
+      - id: tidal-flat
         label: 潮間帶
-      - id: 地質
+      - id: geology
         label: 地質
-      - id: 綠蠵龜
+      - id: sea-turtle
         label: 綠蠵龜
-      - id: 自然景觀
+      - id: scenic
         label: 自然景觀
-      - id: 小琉球
+      - id: island
         label: 小琉球
-      - id: 免費景點
+      - id: free
         label: 免費景點
-      - id: 打卡熱點
+      - id: photogenic
         label: 打卡熱點
   indoor: false
   location:

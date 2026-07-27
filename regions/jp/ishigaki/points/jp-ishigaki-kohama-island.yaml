@@ -26,28 +26,28 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室外
+      - id: outdoor
         label: 室外
   - id: subject
     label: 主題
     tags:
-      - id: 自然
+      - id: nature
         label: 自然
-      - id: 歷史
+      - id: history
         label: 歷史
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 離島
+      - id: island
         label: 離島
   - id: experience
     label: 體驗
     tags:
-      - id: 體驗
+      - id: experience
         label: 體驗
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: false
   location:
@@ -81,7 +81,7 @@ ratingEvidence:
     score: 3
     note: "網路資料為主"
     sources: [jp-ishigaki-kohama-island-source]
-  final: 3.95
+  final: 4.0
 sources:
   - id: jp-ishigaki-kohama-island-source
     title: "Kohama Island - Wikipedia"

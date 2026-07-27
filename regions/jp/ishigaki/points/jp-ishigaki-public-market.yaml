@@ -22,28 +22,28 @@ point:
   - id: setting
     label: 場域
     tags:
-      - id: 室內
+      - id: indoor
         label: 室內
   - id: subject
     label: 主題
     tags:
-      - id: 文化
+      - id: culture
         label: 文化
-      - id: 歷史
+      - id: history
         label: 歷史
   - id: experience
     label: 體驗
     tags:
-      - id: 美食
+      - id: food
         label: 美食
-      - id: 購物
+      - id: shopping
         label: 購物
-      - id: 體驗
+      - id: experience
         label: 體驗
   - id: access
     label: 入場
     tags:
-      - id: 免費
+      - id: free
         label: 免費
   indoor: true
   location:
