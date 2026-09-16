@@ -46,14 +46,14 @@ point:
         label: 體驗
   indoor: false
   location:
-    latitude: 24.404333
-    longitude: 124.144361
-    locationHint: "從石垣港離島ターミナル開車約20分鐘，從新石垣空港約30分鐘，入口旁設有免費停車場。搭乘公車可在「元名蔵」站下車步行1分鐘，或「やいま村入口」站步行7分鐘。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.404333,124.144361"
+    latitude: 24.40489006
+    longitude: 124.14463806
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.40489006,124.14463806
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 石垣やいま村（名蔵967-1）的官方園區地標點，不是指定古宅或售票門精確座標。由正式停車區循入村指示，園內依門票及開放規則活動。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -80,7 +80,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-yaima-village-source
     title: "石垣やいま村 - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E3%82%84%E3%81%84%E3%81%BE%E6%9D%91
     accessedAt: "2026-07-18"
     language: ja
@@ -104,3 +104,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：觀光局具名園區頁明確numeric place query，營運者地址與停車資訊一致；依landmark用途採用，不混用iframe視窗中心。原點距此約68公尺。
+  sources:
+  - url: https://www.okinawastory.jp/spot/1079
+    title: 沖縄観光情報 — 石垣やいま村
+    coordinateEvidence: 'Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.40489006,124.14463806. This is the page''s explicit place query, not an embed viewport centre.'
+  - url: https://www.yaimamura.com/aboutus/
+    title: 石垣やいま村公式 — ご利用案内
+    coordinateEvidence: Official address 名蔵967-1 and visitor parking confirmed. Its map embed identifies place CID 0x345fde2574308e13:0x12dd5381b1e480c7; preceding !2d/!3d viewport fields were NOT treated as entrance coordinates.
+  previousLocation:
+    latitude: 24.404333
+    longitude: 124.144361
+  verifiedLocation:
+    latitude: 24.40489006
+    longitude: 124.14463806

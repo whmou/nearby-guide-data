@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.81002
-    longitude: 120.96532
-  googleMapsUrl: "https://maps.google.com/maps?q=24.81002,120.96532"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 「鄭家古厝」未唯一辨識：可能混淆鄭氏家廟與鄭用錫宅第；不可依鄰近座標硬配。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +85,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Generic family-house title and nonmatching id lack an address or owner. Existing coordinate is near the distinct 鄭氏家廟, which is an ancestral temple rather than the described residential mansion; 鄭用錫宅第 is another separate heritage property. Do not guess one from proximity or the unrelated media filename.
+  sources:
+  - url: https://catalog.digitalarchives.tw/item/00/2f/eb/50.html
+    title: 數位典藏聯合目錄：進士第（鄭用錫宅第）
+    coordinateEvidence: 'Establishes the specific historic residence, but not that the YAML''s generic 鄭家古厝 denotes it. No usable outdoor coordinate extracted. Exact source: https://catalog.digitalarchives.tw/item/00/2f/eb/50.html'
+  - url: https://tcmb.culture.tw/zh-tw/detail?id=20040311000001&indexCode=BOCH_CountryCulture_12
+    title: 國家文化記憶庫：鄭家古厝
+    coordinateEvidence: 'Exact-name registered heritage site is at 屏東縣林邊鄉榮農路8號, not Hsinchu. No coordinate adopted; proves the name is not unique and a municipality mismatch must not be geocoded blindly. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=20040311000001&indexCode=BOCH_CountryCulture_12'
+  previousLocation:
+    latitude: 24.81002
+    longitude: 120.96532
+  verifiedLocation: null

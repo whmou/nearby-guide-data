@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.822819
-    longitude: 120.910339
-  googleMapsUrl: "https://maps.google.com/maps?q=24.822819,120.910339"
+    latitude: 24.8225
+    longitude: 120.91015
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8225,120.91015
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 海埔路600號港南濱海風景區公共自行車站旁抵達，再走運河岸邊步道；非運河水面。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +99,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Official transport point supplies a land-side arrival in the same named canal recreation area. YAML's historic canal-to-city transport/wooden-fishing-boat story is not verified and should not dictate the anchor. Reject the inconsistent tourism-feed canal coordinate.
+  sources:
+  - url: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json
+    title: 新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）
+    coordinateEvidence: 'Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=港南濱海風景區; 緯度=24.8225; 經度=120.91015; 站點位置=海埔路600號. Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json'
+  - url: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109
+    title: 交通部觀光署：十七公里海岸／港南濱海風景區
+    coordinateEvidence: 'Identity/access corroboration: 港南運河 crosses 港南濱海風景區, with cycleway and bridges. Page''s 120.92589/24.846239 is a general coastal overview pin and was NOT used for the canal. Exact source: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected Attraction_376580000A_000062: PositionLat=24.822818977953954, PositionLon=120.90776407604892. Address 海埔路600號 agrees with the transport arrival address but the coordinates differ. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.822819
+    longitude: 120.910339
+  verifiedLocation:
+    latitude: 24.8225
+    longitude: 120.91015

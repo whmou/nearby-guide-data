@@ -50,15 +50,10 @@ point:
       - id: free
         label: 免費
   indoor: false
-  location:
-    latitude: 24.3417
-    longitude: 123.9792
-    locationHint: "從石垣港離島フェリーターミナル搭高速船約25-30分鐘抵達小浜港，島上建議租借電動腳踏車遊覽，Sugar Road位於島嶼東側。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3417,123.9792"
-  trigger:
-    radiusMeters: 300.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 小浜島是整座島，Sugar Road、村落、展望台與小浜港為不同位置；行政區為竹富町。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -85,7 +80,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-kohama-island-source
     title: "Kohama Island - Wikipedia"
-    publisher: ""
+    publisher: "en.wikipedia.org"
     url: https://en.wikipedia.org/wiki/Kohama_Island
     accessedAt: "2026-07-18"
     language: ja
@@ -109,3 +104,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML混合全島介紹與Sugar Road觀察，未選定一個具名戶外定位點。不能用島中心或任意港口替代。
+  sources:
+  - url: https://painusima.com/modelcourse_kohama/
+    title: 竹富町観光協会 — 小浜島モデルコース
+    coordinateEvidence: Island-wide itinerary, not a single visitor point. No numeric coordinate adopted; a ferry terminal is not substituted for the YAML's sugarcane-road experience.
+  previousLocation:
+    latitude: 24.3417
+    longitude: 123.9792
+  verifiedLocation: null

@@ -33,15 +33,10 @@ point:
         - id: ticketed
           label: 收費
   indoor: false
-  location:
-    latitude: 24.7302
-    longitude: 125.432
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7302,125.432"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請先確認是否指「パンプキン鍾乳洞／保良泉鍾乳洞」，再依已預約業者的集合指示前往；不提供可自行步行入洞的圖釘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Cave identity/access are conflated with Bora spring/beach facilities. The operator's current notice distinguishes beach management from its tours and supplies meeting details only on enquiry. No verified entrance or fixed meeting point; also duplicates the cave narrative and exact coordinates of hora-spring.
+  sources:
+  - url: https://uminooto.com/maintenance/
+    title: アイランドワークス — official maintenance / tour notice
+    coordinateEvidence: https://uminooto.com/maintenance/ says tour meeting place and time are supplied on enquiry; no numeric fixed meeting coordinate published. It also says the current beach/pool manager is another company.
+  - url: https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/008/400/h30houkoku3.pdf
+    title: 沖縄県 — ガマ活用検討報告書
+    coordinateEvidence: https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/008/400/h30houkoku3.pdf lists 保良泉鍾乳洞 and the historical operator link, not a currently verified public outdoor cave entrance. No coordinate extracted.
+  previousLocation:
+    latitude: 24.7302
+    longitude: 125.432
+  verifiedLocation: null

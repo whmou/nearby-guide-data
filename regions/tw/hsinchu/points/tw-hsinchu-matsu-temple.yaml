@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.800756
-    longitude: 120.962166
-  googleMapsUrl: "https://maps.google.com/maps?q=24.800756,120.962166"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 「新竹天后宮」需辨別內天后宮、香山天后宮或長和宮；不得只憑舊座標猜廟。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +85,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Ambiguous/noncanonical title plus generic seafaring history. Original location happens to be near 內天后宮, but that alone cannot resolve identity; the narrative could also conflate 長和宮/香山天后宮. Require an explicit temple name/address before correcting.
+  sources:
+  - url: https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=288
+    title: 內政部宗教文化地圖：內天后宮
+    coordinateEvidence: 'Candidate only: 西門街184號; printed 120.96207,24.80093. Not adopted because YAML never specifies 內天后宮. The page itself contains an inconsistent 資產保存者 label (香山天后宮). Exact source: https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=288'
+  - url: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31
+    title: 內政部宗教文化地圖：新竹長和宮
+    coordinateEvidence: 'Another distinct Mazu temple at 北門街135號, 120.96490,24.80854. Coordinates are disambiguation evidence only; not a replacement for a vague temple identity. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31'
+  previousLocation:
+    latitude: 24.800756
+    longitude: 120.962166
+  verifiedLocation: null

@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.7973591
-    longitude: 125.2768616
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7973591,125.2768616"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: カママ嶺公園確為公共山丘公園。可接受地標圖釘，但尚未取得能明確對應此公園的官方數字座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +86,22 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: City material verifies the park. A magazine supplies a candidate park coordinate, but the inspected official numeric map belongs to a historical event listing three different parks, not an unambiguous individual-park record. Unresolved for source/entity ambiguity, not merely lack of a separately surveyed entrance.
+  sources:
+  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf
+    title: 宮古島市 — カママ嶺公園 cultural walk
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf verifies the hill park and its monuments, but no numeric outdoor arrival coordinate extracted.
+  - url: https://www.tanoshima.jp/facilities/detail/kamamamine_park?category=spot
+    title: たのしま — カママ嶺公園
+    coordinateEvidence: https://www.tanoshima.jp/facilities/detail/kamamamine_park?category=spot links https://maps.google.co.jp/maps?q=24.7963499346,125.2771481518. Candidate only; not an official-source park pin; not adopted.
+  - url: https://www.okinawastory.jp/event/600014675
+    title: おきなわ物語 — 宮古島大会2024 (multiple venues)
+    coordinateEvidence: https://www.okinawastory.jp/event/600014675 has iframe q=24.79745865,125.2767868 and route daddr=24.79745865,125.2767868, but lists カママ嶺公園、トゥリバー海浜公園、うえのドイツ文化村 together. Historical multi-venue event pin is not confidently attributable to the exact park feature; NOT adopted.
+  previousLocation:
+    latitude: 24.7973591
+    longitude: 125.2768616
+  verifiedLocation: null

@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.80120
-    longitude: 120.97180
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8012,120.9718"
+    latitude: 24.80239
+    longitude: 120.97138
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80239,120.97138
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 中正路1號新竹火車站前廣場、前站YouBike站旁集合，朝站房外觀觀賞；不進月台。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Precisely named official public forecourt location provides an outdoor viewing/arrival anchor. Cultural-heritage station pin corroborates the nearby station, but is not substituted for the forecourt. Original YAML latitude is about 130m south of this documented public arrival.
+  sources:
+  - url: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json
+    title: 新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）
+    coordinateEvidence: 'Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=新竹火車站(前站); 緯度=24.80239; 經度=120.97138; 站點位置=中正路1號(火車站前廣場). Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json'
+  - url: https://tcmb.culture.tw/zh-tw/detail?id=19980623000001&indexCode=BOCH_CountryCulture_11
+    title: 國家文化記憶庫：新竹火車站
+    coordinateEvidence: 'Explicit station heritage fields 緯度=24.8017064922572, 經度=120.971832361263 corroborate the building south-east of the public forecourt; reported coordinates come from the transport forecourt row, not the building. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=19980623000001&indexCode=BOCH_CountryCulture_11'
+  previousLocation:
+    latitude: 24.8012
+    longitude: 120.9718
+  verifiedLocation:
+    latitude: 24.80239
+    longitude: 120.97138

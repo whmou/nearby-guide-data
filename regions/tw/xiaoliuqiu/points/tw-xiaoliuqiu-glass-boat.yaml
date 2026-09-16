@@ -4,7 +4,7 @@ point:
   parentId: null
   kind: venue
   title: "玻璃船觀光 — 小琉球珊瑚礁透視之旅"
-  summary: "搭乘船底嵌有強化玻璃的觀光船，不必下水即可俯瞰小琉球珊瑚礁生態與悠游其間的野生綠蠵龜。從大福漁港或白燈塔碼頭出發，繞行西南礁區約四十至六十分鐘，是全台密度最高的海龜觀察熱點，老少皆宜。"
+  summary: "小琉球玻璃船／海底觀光船是無需下水的海洋觀察體驗，並非單一固定地點。集合港口、船型、航線與時間由實際業者確認，不能保證目擊海龜。"
   narration: |
     小琉球這個名字，來自荷蘭人的一場地理錯亂。十七世紀，荷蘭東印度公司繪製台灣地圖時，把沖繩稱為「大琉球」，把這座屏東外海的小島稱為「小琉球」——字面意思就是「那個小小的琉球」。西方殖民者的筆誤，竟成了這座島嶼沿用至今的名字。
     
@@ -14,10 +14,10 @@ point:
     
     小琉球是台灣綠蠵龜密度最高的地方。這裡的海龜早已見慣遊客，在礁盤邊悠然吃草，對船底的視線毫不在意。牠們有的已在此生活三、四十年，年紀比許多遊客還大。每隻龜在台灣海龜資料庫都有專屬編號，研究人員長期追蹤牠們的遷徙與覓食行為。
     
-    船從大福漁港或白燈塔碼頭出發，繞行西南側礁區，來回約四十至六十分鐘。珊瑚礁的顏色在陽光折射下千變萬化：清晨深藍泛紫，正午碧綠透亮，午後斜光把礁石染成暖橘。全島只有十二公里、沒有一盞紅綠燈，玻璃船體驗便是這座慢活小島最好的縮影——不趕時間，被海包圍著，靜靜凝視幾億年演化出來的珊瑚礁。
+    本筆未指定業者，出發港、航線、船型與航程時間均須依實際預約確認，不存在可套用於全部行程的「白燈塔碼頭」。珊瑚礁的顏色在陽光折射下千變萬化：清晨深藍泛紫，正午碧綠透亮，午後斜光把礁石染成暖橘。全島只有十二公里、沒有一盞紅綠燈，玻璃船體驗便是這座慢活小島最好的縮影——不趕時間，被海包圍著，靜靜凝視幾億年演化出來的珊瑚礁。
     
-    到了現場，試著把臉貼近玻璃，等那隻不疾不徐的老海龜游來。那一刻，你會明白為什麼人們說，小琉球的海，是會讓人上癮的。
-  observationPrompt: "透過玻璃往下看，珊瑚礁呈現什麼顏色？試著分辨軟珊瑚（會隨浪搖動）與硬珊瑚（固定不動）的差異。若遇到綠蠵龜，仔細觀察牠甲殼上的花紋——每隻龜紋路都不相同，牠很可能在台灣海龜資料庫裡已有自己的編號！"
+    請依船員指示使用觀景設施；能見度與生物出現受海況影響，不能保證看見海龜。
+  observationPrompt: "依船員指示在乘客區透過觀景窗觀察礁岩與魚群；若遇見海龜，安靜觀看，不要求船隻追逐或靠近。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -53,15 +53,10 @@ point:
       - id: glass-boat
         label: 玻璃船
   indoor: false
-  location:
-    latitude: 22.3462
-    longitude: 120.378
-    locationHint: "大福漁港旁玻璃船售票亭，或白燈塔碼頭旁；各家業者在碼頭入口均設有招牌，可比較行程再購票"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3462,120.378"
-  trigger:
-    radiusMeters: 150.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 玻璃船／半潛艇海上體驗主題，沒有指定業者、船班或集合售票處。需先選定實際行程，再另核對其陸上集合點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -70,7 +65,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-glass-boat-source]
   distinctiveness:
     score: 5
-    note: "全台灣幾乎唯一能穩定在野外從玻璃船底近距離觀察綠蠵龜的地點，極具稀缺性"
+    note: "可不下水觀察海洋環境，但野生海龜目擊、能見度及航線不保證。"
     sources: [tw-xiaoliuqiu-glass-boat-source]
   interpretability:
     score: 4
@@ -78,7 +73,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-glass-boat-source]
   visitorValue:
     score: 4
-    note: "視覺衝擊強、老少咸宜，親子與銀髮族都能輕鬆參與，是來小琉球必排行程"
+    note: "是否適合兒童、長者或個別健康條件，須先詢問實際業者並評估海況。"
     sources: [tw-xiaoliuqiu-glass-boat-source]
   evidenceQuality:
     score: 3
@@ -88,12 +83,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-glass-boat-source
     title: "琉球鄉 — 維基百科"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%84%89
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-glass-boat-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.tad.gov.tw"
+    url: https://www.tad.gov.tw/m1.aspx?id=2344&sno=0001016
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -106,9 +109,25 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-glass-boat.webp
     completePath: media/complete/tw-xiaoliuqiu-glass-boat.webp
 admissions:
-  - label: "各業者票價不一，約NT$300–500／人；建議現場比較行程內容與出發時間後再購票"
+  - label: "業者付費行程；票價、船型、出發港、時刻與參加條件以實際預約為準。"
     isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。YAML 是跨業者海上活動，不是一個具唯一地址的地點，且自列『大福漁港或白燈塔碼頭』兩種出發處，不能對應單點。官方旅遊資料反而提到白沙碼頭出發的海底觀光船，更證明不可按原文任選港口。不能用某家售票亭、白沙港或其他港口替代整個活動；移除GPS並保留為非定點主題。
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=2344&sno=0001016
+    title: 交通部觀光署：小琉球
+    coordinateEvidence: https://www.tad.gov.tw/m1.aspx?id=2344&sno=0001016 介紹可到白沙碼頭搭乘海底觀光潛水船；這只證明活動及出發港的概括關係，沒有與 YAML 唯一對應的業者或集合點座標。本報告沒有把整島景點座標、白沙港座標或任何商家搜尋結果當成玻璃船活動的座標。
+  - url: https://media.taiwan.net.tw/od/25_DB/109-%E5%B0%8F%E7%90%89%E7%90%83%E6%95%B4%E9%AB%94%E8%A7%80%E5%85%89%E7%99%BC%E5%B1%95%E8%A6%8F%E5%8A%83-%E5%AE%9A%E7%A8%BF%E6%9C%ACV6%28%E4%BF%AE%E8%A8%82%E7%89%881%29.pdf
+    title: 大鵬灣國家風景區管理處：小琉球整體觀光發展規劃成果報告
+    coordinateEvidence: https://media.taiwan.net.tw/od/25_DB/109-%E5%B0%8F%E7%90%89%E7%90%83%E6%95%B4%E9%AB%94%E8%A7%80%E5%85%89%E7%99%BC%E5%B1%95%E8%A6%8F%E5%8A%83-%E5%AE%9A%E7%A8%BF%E6%9C%ACV6%28%E4%BF%AE%E8%A8%82%E7%89%881%29.pdf 可檢索文字記載玻璃船由白沙尾觀光港啟程，有往西側箱網或東側龍蝦洞折返的不同路線。此為活動路線證據，沒有提取或採用單一集合點座標。
+  previousLocation:
+    latitude: 22.3462
+    longitude: 120.378
+  verifiedLocation: null

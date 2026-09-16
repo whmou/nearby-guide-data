@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8081
-    longitude: 120.9652
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8081,120.9652"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 真實的北門街，與 tw-hsinchu-beimen-old-street 同一街道；目前未取得可直接查核的官方街道座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +91,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: '2026-09-16 audit, revised duplicate policy. Duplicate content is noted but is not grounds to discard a real street: both IDs may share a single verified official street pin. Remains unresolved only because no directly checked official named-street coordinate was extracted. A third-party tourism-data mirror prints 24.805138,120.966092, but its precise official source row was not confirmed; the temple coordinates in the sources describe a different named feature.'
+  sources:
+  - url: https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf
+    title: 新竹市北區中山里里情沿革
+    coordinateEvidence: 'Identifies 北門大街''s historic shops and monuments as one street. No independent coordinate for a second 北門街 site was extracted. Exact source: https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf'
+  - url: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31
+    title: 內政部：新竹長和宮
+    coordinateEvidence: '北門街135號 and 120.96490,24.80854 identify a temple on the street, not a second street POI. Not used to manufacture a duplicate anchor. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31'
+  previousLocation:
+    latitude: 24.8081
+    longitude: 120.9652
+  verifiedLocation: null

@@ -33,15 +33,10 @@ point:
         - id: ticketed
           label: 需購票
   indoor: true
-  location:
-    latitude: 24.8063
-    longitude: 120.9701
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8063,120.9701"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: "博物館正門入口位於中山路與東大路交叉口附近，請依指示牌進入售票大廳。"
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 未證實存在所述「新竹市立博物館」；不要導向美術館或文化局辦公室。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +85,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Suspected fabricated/conflated museum. The alleged multi-floor permanent city-history museum has no matched institution or address. It shares its exact original coordinate with 新竹市美術館; the latter's former 開拓館 component is not evidence that this separately named modern museum exists.
+  sources:
+  - url: https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313
+    title: 文化部博物之島：新竹市美術館
+    coordinateEvidence: 'Actual institution is 新竹市美術館, 中央路116號. No coordinate for a distinct 新竹市立博物館 was extracted. Exact source: https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Hsinchu venue enumeration contains separately named art, glass, image and military-village museums, but no matching 新竹市立博物館. No candidate coordinate adopted; list absence alone is not proof of nonexistence. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8063
+    longitude: 120.9701
+  verifiedLocation: null

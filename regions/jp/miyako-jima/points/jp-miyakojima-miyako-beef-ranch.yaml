@@ -33,15 +33,10 @@ point:
         - id: limited-hours
           label: 限定時段
   indoor: false
-  location:
-    latitude: 24.760000
-    longitude: 125.320000
-  googleMapsUrl: "https://maps.google.com/maps?q=24.76,125.32"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 需先確認特定牧場、參訪許可及集合地點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Generic cattle-farming/food topic with no named public ranch. Regional agricultural evidence cannot establish access to private livestock land or a visitor entrance.
+  sources:
+  - url: https://miyako-island.net/charm/industry/
+    title: 宮古島観光協会 — 宮古島の産業
+    coordinateEvidence: https://miyako-island.net/charm/industry/ lists beef cattle as regional agriculture; no named visitor ranch and no coordinate extracted.
+  - url: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html
+    title: 沖縄県 — 宮古農業改良普及課の業務
+    coordinateEvidence: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html describes production support for beef cattle, not a visitor venue. No public arrival coordinate established.
+  previousLocation:
+    latitude: 24.76
+    longitude: 125.32
+  verifiedLocation: null

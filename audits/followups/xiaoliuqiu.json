@@ -1,0 +1,75 @@
+[
+  {
+    "id": "tw-xiaoliuqiu-guanyin-rock",
+    "status": "verified",
+    "latitude": 22.3227317,
+    "longitude": 120.3614075,
+    "anchorType": "landmark",
+    "locationHint": "東南岸厚石裙礁、環島公路沿線的觀音石。此座標是具名岩石地標，不是精測入口或可站立位置；在可通行道路岸側觀賞，不攀爬岩石、不跨入海蝕溝。",
+    "reason": "2026-09-16 補查。直接取得 Google Maps 的 Guanyin Rock 具名 feature（含唯一 feature ID、琉球鄉地址及座標），再與官方厚石裙礁沿線觀音石的身分及公路岸邊描述核對。採岩石 landmark，無須另造入口偏移。並未把厚石裙礁整區22.32275,120.36119套給岩石；原北岸敘述及22.3668,120.37不成立。",
+    "sources": [
+      {
+        "url": "https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E8%A7%80%E9%9F%B3%E7%9F%B3&output=embed",
+        "title": "Google Maps：Guanyin Rock／小琉球觀音石 feature",
+        "coordinateEvidence": "2026-09-16 直接唯讀 HTTP 取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E8%A7%80%E9%9F%B3%E7%9F%B3&output=embed；回傳選定地標陣列為 [[\"0x3471efc18faae139:0x844f06b1f0386077\",\"Guanyin Rock, Liuqiu Township, Pingtung County, 929\",[22.3227317,120.3614075],\"9533846297475833975\"],\"Guanyin Rock\",...]。採名稱、行政地址與唯一ID綁定的 feature 座標，不採前方相同數字的 viewport 陣列或 /@ 中心；官方來源另核對為東南岸同名岩石。"
+      },
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238",
+        "title": "大鵬灣國家風景區管理處：厚石裙礁（觀音石）",
+        "coordinateEvidence": "本次重新開啟 https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238，正文指出東南岸大福漁港至海子口間的環島公路沿線有觀音石，為背山面海、岸邊的珊瑚礁岩。此來源核對身分與陸岸觀看性質；明列的22.32275,120.36119屬厚石裙礁總體，沒有將其充作觀音石座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-yuchengwei-beach",
+    "status": "verified",
+    "latitude": 22.3482643,
+    "longitude": 120.3886064,
+    "anchorType": "visitor_area",
+    "locationHint": "東北岸漁福村環島公路34號的「漁埕尾潮間帶」具名岸側訪客錨點，用於漁埕尾沙灘／潮間帶的陸側接近；不是沙灘中央、精測入口或保育區界址。抵達後確認現場管制站與導覽安排，不照座標自行走入潮間帶。",
+    "reason": "2026-09-16 補查。『小琉球漁埕尾沙灘』Google 查詢僅回傳視窗，已拒用；改以官方確有的同岸段名稱『漁埕尾潮間帶』取得唯一具名 feature，地址為漁福村環島公路34號。縣府資料明述該訪客區包括沙灘、岸際平台、管制站及規劃步道，故採同名岸側 visitor_area，不宣稱已取得沙灘個別 feature、入口或集合亭的精測座標。原東南角及22.336,120.39錯誤；此處在東北側，北接中澳沙灘。主流程須保留錨點名稱及受管制接近的限定。",
+    "sources": [
+      {
+        "url": "https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E6%BC%81%E5%9F%95%E5%B0%BE%E6%BD%AE%E9%96%93%E5%B8%B6&output=embed",
+        "title": "Google Maps：漁埕尾潮間帶（環島公路34號）feature",
+        "coordinateEvidence": "2026-09-16 唯讀取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E6%BC%81%E5%9F%95%E5%B0%BE%E6%BD%AE%E9%96%93%E5%B8%B6&output=embed；選定 feature 原始陣列為 [[\"0x3471e578897f548f:0x82a28a3f851e4430\",\"929, Pingtung County, Liuqiu Township, Yufu Village, Huandao Rd, 34號號漁埕尾潮間帶\",[22.3482643,120.3886064],\"9413238176578683952\"],\"漁埕尾潮間帶\",...]，分類為教育機構。採該具名道路地址 feature 的座標，不取前方 viewport，也不取先前沙灘查詢的22.34163895,120.3821712視窗。這是同名潮間帶岸側訪客定位，非獨立沙灘圖釘。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1",
+        "title": "屏東縣潮琉生態保育網：漁埕尾潮間帶預約導覽",
+        "coordinateEvidence": "本次重新讀取及搜尋 https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1，官方指出東北側、南鄰漁港、北接中澳沙灘，構成包括防波堤、沙灘及海蝕平台；須抵達管制站並由合格導覽員沿規劃步道進入。此來源核對與漁埕尾沙灘同岸段的 visitor_area 身分和陸上受管制接近，不提供34號圖釘的數值，沒有由文字估算座標。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile",
+        "title": "大鵬灣管理處：113年度琉球風景特定區遊憩承載量成果報告",
+        "coordinateEvidence": "本次 web 搜尋取得 https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的可索引表文，第25項漁埕尾潮間帶明述緊鄰中澳沙灘、設管制站、為導覽點。直接開啟PDF遇工具錯誤，故僅以索引表文核對實際訪客區與管理設施；不從圖面、邊界或中心提取任何GPS。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-sanmin-street",
+    "status": "verified",
+    "latitude": 22.3527994,
+    "longitude": 120.3823635,
+    "anchorType": "visitor_area",
+    "locationHint": "白沙港周邊市街、三民路288–294號一帶的「小琉球三民老街」具名街道訪客圖釘。是戶外逛街接近點，不是整島中心、店家替代點或精測老街入口；留意車流，勿走入私人院落。不是大福漁港旁三民路與新興路口。",
+    "reason": "2026-09-16 補查。Google 直接回傳 Xiaoliuqiu Sanmin Old Street 的唯一具名 feature 與三民路288–294號地址；官方遊憩資源調查明列同名街道與行人活動空間，現地旅遊記錄另確認三民路傳統聚落及與民生路商街的關係。採 visitor_area，非任意選一店家或推算街區中心。原22.347,120.3728與大福港敘述不符；無須因沒有單一售票入口而排除真實街道。",
+    "sources": [
+      {
+        "url": "https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E4%B8%89%E6%B0%91%E8%80%81%E8%A1%97&output=embed",
+        "title": "Google Maps：Xiaoliuqiu Sanmin Old Street feature",
+        "coordinateEvidence": "2026-09-16 唯讀 HTTP 取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E4%B8%89%E6%B0%91%E8%80%81%E8%A1%97&output=embed；選定 feature 陣列開頭為 [[\"0x3471e5758249712d:0x5cf7d62fb09c23d4\",\"Xiaoliuqiu Sanmin Old Street, No. 294-288, Sanmin Rd, Zhongfu Village, Liuqiu Township, Pingtung County, 929\",[22.3527994,120.3823635],...]。數值直接來自具名 feature，不來自前方視窗陣列或 /@，也不是附近商家座標。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile",
+        "title": "大鵬灣管理處：113年度琉球風景特定區遊憩承載量成果報告（三民老街）",
+        "coordinateEvidence": "本次 web 搜尋取得 https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的可索引表文，第27項明列三民老街及遊客逛街、吃飯、購物等行人活動，部分路段限制較大型車輛。直接開啟PDF遇工具錯誤；只使用官方索引表文核對具名 visitor_area，未從示意圖估算座標。"
+      },
+      {
+        "url": "https://www.leeleelin.com/2018/07/Sanmin-Road.html",
+        "title": "熊本一家：小琉球三民老街／閩南式傳統建築",
+        "coordinateEvidence": "本次直接HTTP讀取 https://www.leeleelin.com/2018/07/Sanmin-Road.html，確認三民路老街及往漁福漁港的傳統聚落，並連結鄉公所舊版三民老街介紹；不是大福港旁路口。此為現地敘述的身分／街道交叉核對，沒有從照片、EXIF或地址地理編碼推算GPS。"
+      }
+    ]
+  }
+]

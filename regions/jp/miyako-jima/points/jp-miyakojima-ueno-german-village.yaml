@@ -38,14 +38,14 @@ point:
           label: 收費
   indoor: false
   location:
-    latitude: 24.7193
-    longitude: 125.3226
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7193,125.3226"
+    latitude: 24.7192626
+    longitude: 125.3239909
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7192626,125.3239909
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: うえのドイツ文化村官方地址 pin（上野宮国775-1）；供園區鄰近導覽，請依現場開館與售票指示進入，非精確入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 tourism association's village page gives explicit address map feature. Approximately 141 m east of original. Actual feature coordinate differs from map viewport, which was rejected.
+  sources:
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_030/
+    title: うえのドイツ文化村｜宮古島観光協会
+    coordinateEvidence: Fetched linked Maps iframe HTML. Initialization feature 0x34f456164cbca6ed:0x8dba62cf3c5350a5 has label 〒906-0203 沖縄県宮古島市上野宮国７７５−１ and associated [24.7192626,125.3239909]. Not viewport [24.7185139,125.3232247] or iframe's older viewport.
+  - url: https://www.hakuaiueno.com/information.html
+    title: うえのドイツ文化村公式：施設案内・アクセス
+    coordinateEvidence: Operator identity/access corroboration. Its older Google My Maps iframe ll=24.75182,125.318298 is a viewport and was NOT adopted.
+  previousLocation:
+    latitude: 24.7193
+    longitude: 125.3226
+  verifiedLocation:
+    latitude: 24.7192626
+    longitude: 125.3239909

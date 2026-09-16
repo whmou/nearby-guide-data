@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.802398
-    longitude: 120.966654
-  googleMapsUrl: "https://maps.google.com/maps?q=24.802398,120.966654"
+    latitude: 24.80274
+    longitude: 120.96663
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80274,120.96663
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 南門街109-1號關帝廟外廟埕，經龍邊禮門／虎邊義路出入；尊重祭祀動線。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +90,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. The Ministry of Interior identifies the temple and expressly documents its broad outdoor forecourt and side gates. Use its named landmark pin, not a promise of an exact gate threshold. Original YAML coordinate lies roughly 38m south.
+  sources:
+  - url: https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=147
+    title: 內政部宗教文化地圖：新竹關帝廟
+    coordinateEvidence: 'Printed 經緯度=120.96663,24.80274; address 南門街109-1號. The site''s architecture/access description identifies 廣闊的廟埕 and side gates 禮門/義路. Exact source: https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=147'
+  previousLocation:
+    latitude: 24.802398
+    longitude: 120.966654
+  verifiedLocation:
+    latitude: 24.80274
+    longitude: 120.96663

@@ -38,14 +38,14 @@ point:
           label: 收費
   indoor: true
   location:
-    latitude: 24.7905075
-    longitude: 125.2843943
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7905075,125.2843943"
+    latitude: 24.790285
+    longitude: 125.284452
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.790285,125.284452
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "古謝そば屋位於宮古島市平良市區，鄰近西里通商店街；店頭有昭和風格的木製招牌"
+  locationHint: 古謝そば屋店舖 pin，平良字下里1517-1；不是西里通內的店家，請依店面及現場停車指示抵達。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -104,3 +104,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 resolved both Google Maps links on the restaurant's own shop page; both identify the same restaurant and exact feature coordinate. Existing point differs by approximately 25 m, but its Nishizato shopping-street hint is misleading.
+  sources:
+  - url: https://kojasoba.com/shop/
+    title: 古謝そば屋公式：店舗のご案内
+    coordinateEvidence: HTML href https://maps.app.goo.gl/KR5r5xjKBvQzyqJt5 redirects to named 古謝そば屋 feature 0x34f4540dba2efc3d:0x4466541c4caca6c6 with !8m2!3d24.790285!4d125.284452. Second official href YECY8SK7h8fWoic36 has the same feature tuple. @ viewport ignored.
+  previousLocation:
+    latitude: 24.7905075
+    longitude: 125.2843943
+  verifiedLocation:
+    latitude: 24.790285
+    longitude: 125.284452

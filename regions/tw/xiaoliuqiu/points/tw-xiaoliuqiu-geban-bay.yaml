@@ -4,18 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "蛤板灣"
-  summary: "小琉球東南側珊瑚礁海灣，退潮後露出廣闊礁石平台與天然潮池，是全島最穩定與綠蠵龜相遇、欣賞熱帶珊瑚生態的浮潛勝地。"
+  summary: "蛤板灣位於小琉球西側，是白色貝殼沙灘與夕陽景觀。管理處警示請勿下水游泳；沙灘及潮間帶另有保育、導覽與季節性夜間管制。"
   narration: |
-    蛤板灣這個名字，問問島上的老漁民，大多只是笑著說「以前這裡蛤蜊很多嘛」。小琉球四面礁岩，潮間帶長年滋養著各式貝類，先民退潮後踩上礁板撿拾蛤蜊，時間一長，這片海灣便得了這個質樸的名字。蛤，是那些曾經密密麻麻附著礁石的貝；板，是退潮後平整浮出的礁石台地——名字裡藏著一代人下海討生活的記憶。
+    蛤板灣位於小琉球西部、蛤板至烏鬼洞一帶，以白色貝殼沙與海岸景觀聞名，也有人稱為威尼斯海灘。它不是島東南側的浮潛推薦點。
     
-    位在島嶼東南側，蛤板灣相較於熱鬧的花瓶岩與美人洞，始終保持著一份從容。這裡沒有收票亭，只有一片向海延伸的珊瑚礁台地。退潮後礁石平台浮出水面，自然形成一個又一個淺水潮池，池裡藏著石斑幼魚、海膽、各色海葵隨流輕搖，還有偷偷縮進殼裡的寄居蟹。光是蹲在礁石邊往潮池裡看，就能消磨掉大半個下午。
+    可在依法開放的岸上範圍散步、聽濤與欣賞夕陽。管理處提醒此處曾發生溺水事件，請勿下水游泳；本介紹不建議浮潛、踏浪或走入礁盤找海龜。
     
-    對許多人來說，蛤板灣最珍貴的風景其實在水面下。小琉球是台灣近海綠蠵龜最穩定的聚集地之一，牠們長年在此啃食礁石藻類、悠閒歇息，對人類鏡頭早已習以為常。浮潛時若能與一隻數十公斤的大海龜在同一片珊瑚礁上漂浮，看著牠緩慢伸長脖子覓食，那份靜謐會讓人忘了時間。
-    
-    小琉球的珊瑚礁生態能保存至今，部分要歸功於島嶼過去長期低度開發、交通不便。近年旅遊人潮大增，在地業者開始推行「不踩礁、不追龜、不餵魚」的生態守則。換個說法，這其實就是老一輩漁民心照不宣的老規矩——留條活路給海，才有明天的魚。
-    
-    退潮後的午後，坐在蛤板灣的礁岩上，屏東本島的山脈在海平面另一端若隱若現，整座島嶼沒有一盞紅綠燈，沒有一棟高樓。你會明白為什麼這座十二公里的小島，讓那麼多人一去再去。
-  observationPrompt: "退潮後站在礁石平台上往潮池裡看：你能找到幾種不同顏色的海葵？礁縫間藏著哪些生物？如果幸運遇見綠蠵龜，牠正在做什麼——覓食、休息、還是準備上浮換氣？"
+    官方公告每年5月1日至10月31日夜間20時至翌晨5時，沙灘及潮間帶禁止一般民眾擅入。潮間帶亦受導覽與觀光保育費管理；出發前仍須確認最新開放公告與現場告示。
+  observationPrompt: "留在當日開放的安全岸上觀察貝殼沙、浪線與夕陽色彩，不下水、不跨越管制線，也不採集沙石或生物。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -46,35 +42,35 @@ point:
   - id: experience
     label: 體驗
     tags:
-      - id: snorkeling
-        label: 浮潛
+      - id: shore-viewing
+        label: 岸上賞景
   indoor: false
   location:
-    latitude: 22.3352
-    longitude: 120.3825
-    locationHint: "小琉球東南側環島公路旁，花瓶岩景區南方約1公里處，路邊有礁岩坡道可下至海灘，退潮時礁石平台寬闊易入水。"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3352,120.3825"
+    latitude: 22.33456
+    longitude: 120.36022
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.33456,120.36022
   trigger:
     radiusMeters: 120.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 小琉球西側、蛤板至烏鬼洞一帶的蛤板灣沙灘；採官方岸側景點導航點，抵達後於開放的岸上觀景範圍停留。不是海中浮潛點；沙灘與潮間帶須遵守現場保育及導覽管制。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "小琉球代表性浮潛點之一，以綠蠵龜穩定出沒聞名，但知名度略低於花瓶岩等地標。"
+    note: "小琉球西側具代表性的貝殼沙灘與夕陽景觀，不作浮潛點推薦。"
     sources: [tw-xiaoliuqiu-geban-bay-source]
   distinctiveness:
     score: 4
-    note: "退潮後礁石平台與潮池地形獨特，加上全台少見的綠蠵龜穩定棲息環境，辨識度高。"
+    note: "白色貝殼沙與珊瑚礁海岸相鄰，具海岸景觀辨識度。"
     sources: [tw-xiaoliuqiu-geban-bay-source]
   interpretability:
     score: 4
-    note: "潮池生物一眼即見，珊瑚礁色彩豐富，即使不下水也能在礁石平台觀察豐富潮間帶生態。"
+    note: "可從安全岸上理解沙岸與礁岸差異；潮間帶進入另受導覽管制。"
     sources: [tw-xiaoliuqiu-geban-bay-source]
   visitorValue:
     score: 4
-    note: "浮潛與綠蠵龜相遇體驗難忘，退潮時間點掌握好的話現場驚喜感極高，是小琉球行程必排點。"
+    note: "以開放時段岸上賞景為限；請勿游泳，並遵守季節性夜間與保育管制。"
     sources: [tw-xiaoliuqiu-geban-bay-source]
   evidenceQuality:
     score: 3
@@ -84,12 +80,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-geban-bay-source
     title: "大鵬灣國家風景區管理處 — 小琉球景點介紹"
-    publisher: ""
+    publisher: "www.dpwnsa.gov.tw"
     url: https://www.dpwnsa.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-geban-bay-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=231
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-geban-bay-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -102,9 +114,27 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-geban-bay.webp
     completePath: media/complete/tw-xiaoliuqiu-geban-bay.webp
 admissions:
-  - label: "免費"
-    isFree: true
+  - label: "岸上與潮間帶開放範圍依公告；進入管理潮間帶須依觀光保育費及導覽規定辦理。"
+    isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。官方座標及導航明確對應西側蛤板灣白色貝殼沙灘，具停車場及岸上散步賞景用途。原座標偏離約2293公尺，東南側定位錯誤。原文鼓勵浮潛、退潮入水與海龜近距離體驗，與管理處『請勿下水游泳』警示矛盾，必須另修；官方亦公告季節性夜間管制。此處核准的是岸側 area 錨點，非一個推算的海灣中心。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=231
+    title: 交通部觀光署大鵬灣國家風景區管理處：蛤板灣沙灘
+    coordinateEvidence: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=231 的唯讀 HTML 明列『經度：120.36022 緯度：22.33456』，一鍵導航 href 為 https://maps.google.com/maps?q=22.33456,120.36022。頁面确认西部沙灘、停車場及賞景用途，並警告勿游泳和5月至10月夜間管制；未從海灣外形或地圖中心估計座標。
+  - url: https://liuchiu-intertidal.pthg.gov.tw/
+    title: 屏東縣潮琉生態保育網：蛤板灣開放與導覽須知
+    coordinateEvidence: https://liuchiu-intertidal.pthg.gov.tw/ 將蛤板灣列為受管理的潮間帶遊憩區，查核日已有2026-08-27恢復開放公告並列導覽要求；未抽取新的數值座標，只用於獨立管理機關的可進入條件核對。
+  previousLocation:
+    latitude: 22.3352
+    longitude: 120.3825
+  verifiedLocation:
+    latitude: 22.33456
+    longitude: 120.36022

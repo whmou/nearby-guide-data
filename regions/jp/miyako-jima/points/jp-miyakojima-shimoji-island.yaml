@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.81611
-    longitude: 125.15694
-  googleMapsUrl: "https://maps.google.com/maps?q=24.81611,125.15694"
-  trigger:
-    radiusMeters: 500.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 2000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 下地島為區域導覽，請選擇航廈、通り池等已具名景點抵達，不以島中心作導航。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -95,3 +90,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official island overview confirms multiple access routes, airport and coastal destinations. YAML is an island-level overview and does not choose a single arrival anchor. Do not copy the separate airport terminal or island centroid.
+  sources:
+  - url: https://www.okinawastory.jp/about/miyako_area/shimoji
+    title: 下地島｜おきなわ物語
+    coordinateEvidence: Official regional overview describes bridge-connected island and several attractions, not a single named arrival pin. No area-center coordinate adopted.
+  previousLocation:
+    latitude: 24.81611
+    longitude: 125.15694
+  verifiedLocation: null

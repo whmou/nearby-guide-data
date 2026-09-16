@@ -48,14 +48,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.4514
-    longitude: 124.1444
-    locationHint: "停車場位於川平公園展望台旁（石垣市川平934），從石垣市區搭路線巴士約40分鐘，下車後步行約2分鐘即抵展望台。玻璃船乘船處在展望台下方的海岸邊。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.4514,124.1444"
+    latitude: 24.4603939
+    longitude: 124.1428147
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.4603939,124.1428147
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 川平公園展望台；由川平公園步道抵達，俯瞰川平灣。不是海灣中央或玻璃船集合點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -82,7 +82,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-kabira-bay-source
     title: "川平湾 - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E5%B7%9D%E5%B9%B3%E6%B9%BE
     accessedAt: "2026-07-18"
     language: ja
@@ -106,3 +106,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府川平公園條目連到具名展望台圖釘，與YAML觀察提示一致。原24.4514,124.1444偏南約1公里。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 川平公園
+    coordinateEvidence: On 2026-09-16, the 川平公園 section links https://goo.gl/maps/Nhf8gifyj6zRFWmCA. Its HTTP redirect contains the named place's !8m2!3d24.4603939!4d124.1428147 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.4514
+    longitude: 124.1444
+  verifiedLocation:
+    latitude: 24.4603939
+    longitude: 124.1428147

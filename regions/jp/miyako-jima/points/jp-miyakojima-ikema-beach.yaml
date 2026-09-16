@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.9374
-    longitude: 125.2453
-  googleMapsUrl: "https://maps.google.com/maps?q=24.9374,125.2453"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請明確指定池間島上的目標海灘；勿自動選用フナクス、イキヅー或其他海灘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Title is only 池間島ビーチ and narrative mixes north-shore beach, bridge views and dugong feeding grounds. Multiple beaches fit parts of the description; no official source ties this record to one identifiable arrival.
+  sources:
+  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf
+    title: 宮古島市 — 池間湿原散策コース
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf maps different named places on Ikema, including フナクス. It does not establish which beach this generic YAML title means; no coordinate selected.
+  previousLocation:
+    latitude: 24.9374
+    longitude: 125.2453
+  verifiedLocation: null

@@ -42,15 +42,10 @@ point:
       - id: free
         label: 免費
   indoor: false
-  location:
-    latitude: 24.4868
-    longitude: 124.2305
-    locationHint: "沿縣道79號向北行駛，過吹通橋後右側有免費停車場（約可停8台車），從停車場走樓梯下去即是入口。無廁所設施，建議事先如廁。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.4868,124.2305"
-  trigger:
-    radiusMeters: 200.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 此項實際重複吹通川ヒルギ群落；「米原マングローブ林／米原ビーチ旁」的命名與位置混淆，不另設圖釘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -77,7 +72,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-yonehara-mangrove-source
     title: "吹通川のヒルギ群落-石垣島の観光スポット | 石垣島ツアーズ"
-    publisher: ""
+    publisher: "ishigaki-tours.com"
     url: https://ishigaki-tours.com/spot/fukidou-hirugi-forest
     accessedAt: "2026-07-18"
     language: ja
@@ -101,3 +96,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML正文、吹通橋入口、原座標與jp-ishigaki-mangrove-futsuu指向同一處；官方將吹通川列在伊土名以北，米原則另列ヤエヤマヤシ群落。須去重／修文，不能保留第二個verified點。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 — 吹通川ヒルギ群落／米原ヤエヤマヤシ群落
+    coordinateEvidence: Official page treats Fukido mangroves and Yonehara palm grove as distinct sites. Fukido link https://goo.gl/maps/bREzSBBDqza7hto27 resolves to feature !3d24.4868254!4d124.2303293; this establishes the duplicate identity, NOT a separate Yonehara mangrove arrival point.
+  previousLocation:
+    latitude: 24.4868
+    longitude: 124.2305
+  verifiedLocation: null

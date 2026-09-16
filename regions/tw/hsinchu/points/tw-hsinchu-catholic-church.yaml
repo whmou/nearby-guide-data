@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8093929
-    longitude: 120.9668426
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8093929,120.9668426"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 名稱混淆：新竹主教座堂是聖母聖心主教座堂，須先訂正實體名稱。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +91,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. The YAML's 聖若瑟主教座堂 (新竹) conflicts with the diocese's 聖母聖心主教座堂 at 中正路156號. Do not treat the plausible existing pin or the attached photo name as verification of the fictitious/misattributed saint-name combination.
+  sources:
+  - url: https://hcd.org.tw/church/01/
+    title: 天主教新竹教區：聖母聖心主教座堂
+    coordinateEvidence: 'Official page explicitly identifies 聖母聖心主教座堂, address 新竹市中正路156號. No coordinate extracted for the YAML''s 聖若瑟主教座堂; the footer map belongs to the diocesan office, not automatically to a cathedral arrival point. Exact source: https://hcd.org.tw/church/01/'
+  previousLocation:
+    latitude: 24.8093929
+    longitude: 120.9668426
+  verifiedLocation: null

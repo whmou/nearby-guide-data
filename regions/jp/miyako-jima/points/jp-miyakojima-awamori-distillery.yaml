@@ -36,14 +36,14 @@ point:
           label: 需付費
   indoor: true
   location:
-    latitude: 24.7309
-    longitude: 125.3523
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7309,125.3523"
+    latitude: 24.7308405
+    longitude: 125.3524826
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7308405,125.3524826
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "多良川酒造廠房入口，位於宮古島市平良字松原地區，設有停車場。"
+  locationHint: 多良川本社，城辺字砂川85。請於預約導覽開始前至遊客商店報到；勿直接導航至另一處地下貯藏庫。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +101,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: Official operator supplies this address pin and instructs visitors to arrive at its shop 10 minutes before the tour. It is a premises/meeting anchor, not a surveyed shop door. YAML's 平良字松原 address is wrong; the cave cellar is a separate feature south of the brewery.
+  sources:
+  - url: https://taragawa.co.jp/brewery-tour/
+    title: 多良川 — 洞窟貯蔵庫見学
+    coordinateEvidence: https://taragawa.co.jp/brewery-tour/ links GoogleMaps to https://goo.gl/maps/sUCD8JGk8WG9azCi9. Read-only redirect resolves to the address 城辺砂川85 with place data !1s0x34f457ae79cc3d33:0xa2410cbebfe6f606!8m2!3d24.7308405!4d125.3524826. Extracted !3d/!4d from the place record, NOT @24.7308454,125.3502886 viewport.
+  - url: https://taragawa.co.jp/tour_reserve/
+    title: 多良川 — 見学予約フォーム
+    coordinateEvidence: No separate coordinate. https://taragawa.co.jp/tour_reserve/ confirms operator/headquarters at 沖縄県宮古島市城辺砂川85 and reservation-based cave-storehouse visits.
+  previousLocation:
+    latitude: 24.7309
+    longitude: 125.3523
+  verifiedLocation:
+    latitude: 24.7308405
+    longitude: 125.3524826

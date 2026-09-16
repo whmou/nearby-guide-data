@@ -43,15 +43,10 @@ point:
       - id: experience
         label: 體驗
   indoor: true
-  location:
-    latitude: 24.3388
-    longitude: 124.1567
-    locationHint: "石垣市字石垣の旧市街エリア。代表的な老舗「来夏世（くなつゆ）」は石垣小学校の隣（石垣市字石垣203）。徒歩圏内に「丸八食堂」など複数の老舗あり。駐車場なし、公設市場から徒歩5分。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3388,124.1567"
-  trigger:
-    radiusMeters: 150.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 八重山そば為地方飲食主題；来夏世僅為文中例子，應另建指定餐廳條目才可導航。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -78,7 +73,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-yaeyama-soba-source
     title: "八重山そば - Wikipedia（日本語）"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E5%85%AB%E9%87%8D%E5%B1%B1%E3%81%9D%E3%81%B0
     accessedAt: "2026-07-18"
     language: ja
@@ -102,3 +97,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML描述多家老店與整體飲食文化，不能因提到来夏世就把主題改成該店，也不能保留不明市區點。
+  sources:
+  - url: https://ooritoori-ishigaki.com/activity/
+    title: 石垣市公式観光 — 定番の八重山そば
+    coordinateEvidence: The named subsection describes a local noodle dish and visiting different soba restaurants, not one venue. No unique numeric coordinate extracted or guessed.
+  previousLocation:
+    latitude: 24.3388
+    longitude: 124.1567
+  verifiedLocation: null

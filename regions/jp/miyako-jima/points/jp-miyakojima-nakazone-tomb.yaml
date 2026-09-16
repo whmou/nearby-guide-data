@@ -40,14 +40,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8089
-    longitude: 125.2799
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8089,125.2799"
+    latitude: 24.80862617
+    longitude: 125.27981567
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80862617,125.27981567
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 仲宗根豊見親の墓官方地標 pin；僅在開放參觀範圍觀看石造墓外觀，勿進入墓室或跨越圍界。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -105,3 +105,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official tourism page explicitly identifies the named tomb and its place marker. Approximately 32 m from existing coordinates; no invented entrance offset.
+  sources:
+  - url: https://www.okinawastory.jp/spot/30000070
+    title: 仲宗根豊見親の墓（国指定重要文化財）｜おきなわ物語
+    coordinateEvidence: HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.80862617,125.27981567&zoom=16; exact q place pin. Address 平良字西仲宗根真玉3.
+  previousLocation:
+    latitude: 24.8089
+    longitude: 125.2799
+  verifiedLocation:
+    latitude: 24.80862617
+    longitude: 125.27981567

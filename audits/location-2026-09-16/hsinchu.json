@@ -1,0 +1,757 @@
+[
+  {
+    "id": "tw-hsinchu-bamboo-culture",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "竹工藝主題；未指定工坊，不提供導航。",
+    "reason": "2026-09-16 audit. The YAML describes dispersed bamboo craft workshops without naming a venue, address or entrance. No single physical entity can be resolved. Do not turn a city-wide craft narrative into a guessed shop.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "No coordinate was extracted for a venue called 新竹竹文化工藝. Reading the Hsinchu attraction records does not identify the unnamed workshops in the YAML; absence from this list is not proof that no bamboo workshop exists. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-beimen-old-street",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "真實的北門街，與 tw-hsinchu-north-gate-street 為同一街道；目前未取得可直接查核的官方街道座標。",
+    "reason": "2026-09-16 audit, revised duplicate policy. 北門街老街 and 北門街 are the same real historic street; duplicate content alone does not invalidate either record, and both may share one verified street pin. Remains unresolved because no direct official coordinate for the named street was extracted. A third-party tourism-data mirror publishes 24.805138,120.966092, but its precise official source row was not confirmed. Do not replace the street with a nearby temple or shop.",
+    "sources": [
+      {
+        "url": "https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf",
+        "title": "新竹市北區中山里里情沿革",
+        "coordinateEvidence": "The official account describes 北門大街 as one historic commercial street. No separate 北門街老街 coordinate was extracted; this source is identity/duplicate evidence, not GPS evidence. Exact source: https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf"
+      },
+      {
+        "url": "https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31",
+        "title": "內政部宗教文化地圖：新竹長和宮",
+        "coordinateEvidence": "The page locates 長和宮 at 北門街135號 and prints 120.96490,24.80854. Those are temple coordinates, not evidence for a second street attraction, and are not adopted. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-catholic-church",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "名稱混淆：新竹主教座堂是聖母聖心主教座堂，須先訂正實體名稱。",
+    "reason": "2026-09-16 audit. The YAML's 聖若瑟主教座堂 (新竹) conflicts with the diocese's 聖母聖心主教座堂 at 中正路156號. Do not treat the plausible existing pin or the attached photo name as verification of the fictitious/misattributed saint-name combination.",
+    "sources": [
+      {
+        "url": "https://hcd.org.tw/church/01/",
+        "title": "天主教新竹教區：聖母聖心主教座堂",
+        "coordinateEvidence": "Official page explicitly identifies 聖母聖心主教座堂, address 新竹市中正路156號. No coordinate extracted for the YAML's 聖若瑟主教座堂; the footer map belongs to the diocesan office, not automatically to a cathedral arrival point. Exact source: https://hcd.org.tw/church/01/"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-cinema-museum",
+    "status": "verified",
+    "latitude": 24.804924,
+    "longitude": 120.96961,
+    "anchorType": "landmark",
+    "locationHint": "中正路65號影像博物館／有樂館外觀；從中正路側抵達，非中正路與林森路口。",
+    "reason": "2026-09-16 audit. Official tourism destination pin and address identify the actual cinema. Use for exterior arrival, not a claim of a surveyed door threshold or guaranteed exhibition opening. Reject the current Hsinchu bulk-feed record, which duplicates 南大路警察宿舍's coordinates.",
+    "sources": [
+      {
+        "url": "https://www.taiwan.net.tw/m1.aspx?id=10870&sNo=0001016",
+        "title": "交通部觀光署：影像博物館",
+        "coordinateEvidence": "Visible 經度/緯度 is 120.96961/24.804924; address is 新竹市東區中正路65號. Order explicitly converted from longitude/latitude to report latitude/longitude. Exact source: https://www.taiwan.net.tw/m1.aspx?id=10870&sNo=0001016"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected record Attraction_376580000A_000005: PositionLat=24.800269977968718, PositionLon=120.97178507604835, exactly equal to record 000004 南大路警察宿舍. Its 中正路65號 address conflicts with that duplicated location. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-city-art-museum",
+    "status": "verified",
+    "latitude": 24.8063455913574,
+    "longitude": 120.970086053087,
+    "anchorType": "landmark",
+    "locationHint": "中央路116號新竹市美術館（原新竹市役所）外側；不是菸酒專賣局，也不是中正路／勝利路口。",
+    "reason": "2026-09-16 audit. Cultural-heritage coordinates independently match the museum's current address. Keep as the mapped building/exterior landmark, not a surveyed entrance threshold. YAML building identity/history and entrance description need editorial correction. Reject the tourism bulk-feed location nearly a kilometre away.",
+    "sources": [
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=20010531000003&indexCode=BOCH_CountryCulture_11",
+        "title": "文化部國家文化記憶庫：新竹市役所",
+        "coordinateEvidence": "Explicit fields 緯度=24.8063455913574, 經度=120.970086053087; use information identifies the building's museum reuse and public visitation. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=20010531000003&indexCode=BOCH_CountryCulture_11"
+      },
+      {
+        "url": "https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313",
+        "title": "文化部博物之島：新竹市美術館",
+        "coordinateEvidence": "Identity/access corroboration only: 新竹市東區中央路116號, free admission and accessible approach; no numeric coordinate extracted from this page. Exact source: https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected Attraction_376580000A_000010 PositionLat=24.814075877959464, PositionLon=120.9641509760486; inconsistent with the cultural-heritage pin and 中央路116號. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-city-god-temple-snack",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "城隍廟口小吃商圈；與都城隍廟重疊，未確認獨立街區入口。",
+    "reason": "2026-09-16 audit, duplicate/landmark clarification. The food district is real and overlaps the temple; overlap alone is not a reason to remove it. However, no directly checked official pin identifying the named food district was extracted, and the available numerical source explicitly labels the temple, not the food district. A reliable named visitor-area pin would suffice without an independently surveyed entrance; no restaurant is guessed.",
+    "sources": [
+      {
+        "url": "https://www.taiwan.net.tw/m1.aspx?keystring=&page=2&sNo=0042291&uid=44",
+        "title": "交通部觀光署：竹塹城",
+        "coordinateEvidence": "Identifies the historic city/temple visit, not a separately pinned snack-street entrance. No separate coordinate extracted. Exact source: https://www.taiwan.net.tw/m1.aspx?keystring=&page=2&sNo=0042291&uid=44"
+      },
+      {
+        "url": "https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9",
+        "title": "內政部：新竹都城隍廟．竹塹中元城隍祭",
+        "coordinateEvidence": "120.96588,24.80449 is explicitly the temple's coordinate, not proof of a separate small-eats-street POI. Not adopted for this overlapping record. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-city-god-temple",
+    "status": "verified",
+    "latitude": 24.80449,
+    "longitude": 120.96588,
+    "anchorType": "landmark",
+    "locationHint": "中山路75號都城隍廟廟前抵達；原提示109號錯誤。廟內參觀依現場開放。",
+    "reason": "2026-09-16 audit. Official religious tourism pin identifies the temple, including its publicly visitable forecourt. Do not use the original 中山路109號 entrance hint. Landmark pin, not a surveyed gate threshold. The current city tourism feed has an inconsistent west-shifted coordinate.",
+    "sources": [
+      {
+        "url": "https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9",
+        "title": "內政部：新竹都城隍廟．竹塹中元城隍祭",
+        "coordinateEvidence": "Printed 經緯度=120.96588,24.80449; 地址=新竹市北區中山路75號; 景觀收費=免費. Coordinate is the named temple pin. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected Attraction_376580000A_000030 PositionLat=24.80450434749329, PositionLon=120.96294047592836; does not agree with the independent religious-tourism pin. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-city-museum",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "未證實存在所述「新竹市立博物館」；不要導向美術館或文化局辦公室。",
+    "reason": "2026-09-16 audit. Suspected fabricated/conflated museum. The alleged multi-floor permanent city-history museum has no matched institution or address. It shares its exact original coordinate with 新竹市美術館; the latter's former 開拓館 component is not evidence that this separately named modern museum exists.",
+    "sources": [
+      {
+        "url": "https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313",
+        "title": "文化部博物之島：新竹市美術館",
+        "coordinateEvidence": "Actual institution is 新竹市美術館, 中央路116號. No coordinate for a distinct 新竹市立博物館 was extracted. Exact source: https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Hsinchu venue enumeration contains separately named art, glass, image and military-village museums, but no matching 新竹市立博物館. No candidate coordinate adopted; list absence alone is not proof of nonexistence. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-coastal-park",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "南寮海岸範圍與沙灘入口不明；需確認具名岸上觀景點，不以17公里海岸總覽點代替。",
+    "reason": "2026-09-16 audit. The YAML's exact coordinate comes from the tourism entry for the entire 十七公里海岸風景區, not evidence of the described beach north of the fishing port or a safe access to it. Do not substitute a harbour, kite venue or beach based on proximity.",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109",
+        "title": "交通部觀光署：十七公里海岸風景區",
+        "coordinateEvidence": "Page prints 經度/緯度=120.92589/24.846239, exactly the YAML coordinate, but the page describes a 17km multi-site coastal corridor. Rejected as proof of a particular 南寮海岸遊憩區 beach entrance. Exact source: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-confucius-temple",
+    "status": "verified",
+    "latitude": 24.7998741796123,
+    "longitude": 120.978221808835,
+    "anchorType": "landmark",
+    "locationHint": "公園路289號新竹市孔廟之文化資產地標座標，供鄰近辨識／語音觸發，非正門門檻。由現場開放通道參觀，閉館時勿翻越圍牆或直穿建築。",
+    "reason": "2026-09-16 audit, landmark-pin review. Directly read the Ministry of Culture heritage record for 新竹市孔廟: its explicit coordinates and current 公園路289號 address resolve the named building. Adopt the heritage landmark, not an inferred entrance. The religious-tourism and city-feed pins remain rejected as conflicting. The YAML's historical dates and listed-heritage identifier also need editorial correction: this record is a historical building registered in 2010, relocated in 1958.",
+    "sources": [
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=20100316000002&indexCode=BOCH_CountryCulture_12",
+        "title": "文化部文化資產局／國家文化記憶庫：新竹市孔廟",
+        "coordinateEvidence": "Directly opened official record: 緯度=24.7998741796123 and 經度=120.978221808835 (visible lines 216-222), 現況地址=新竹市公園路289號. These are the heritage object's location fields, not the authority's 中正路120號 contact address. Record describes public opening and 1958 relocation. Adopt exact landmark coordinates, not a doorway or viewport. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=20100316000002&indexCode=BOCH_CountryCulture_12"
+      },
+      {
+        "url": "https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=169",
+        "title": "內政部宗教文化地圖：新竹市孔廟",
+        "coordinateEvidence": "Printed 經緯度=120.97913,24.80297 and address 公園路289號; this pin conflicts with cultural-heritage location near 24.79987 and is not adopted. Exact source: https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=169"
+      },
+      {
+        "url": "https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=26&module=travel&serno=9975f04e-4ab5-4944-ae6a-6c3cc40cf617",
+        "title": "新竹市觀光旅遊網：新竹孔廟",
+        "coordinateEvidence": "Identity/access only: 公園路、東山路口, inside 新竹公園 next to the gymnasium; describes relocation in 1958. No dependable entrance coordinate extracted from this HTML. Exact source: https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=26&module=travel&serno=9975f04e-4ab5-4944-ae6a-6c3cc40cf617"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected Attraction_376580000A_000024 PositionLat=24.800098847669236, PositionLon=120.97561807592837; inconsistent with the independent religious-map point and park address. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-east-gate",
+    "status": "verified",
+    "latitude": 24.80393,
+    "longitude": 120.97051,
+    "anchorType": "meeting_point",
+    "locationHint": "勝利路2號對面、東門圓環人行道的YouBike站旁集合；沿合法人行動線觀賞迎曦門，不穿越車道直衝城門。",
+    "reason": "2026-09-16 audit. Uses the explicitly documented outdoor pavement arrival point rather than a point in the road circle or the upper gate building. Official attraction coordinate 24.804160,120.97024 independently locates the nearby gate. Original YAML point is about 90m south of the safe arrival anchor.",
+    "sources": [
+      {
+        "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json",
+        "title": "新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）",
+        "coordinateEvidence": "Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=東門圓環; 緯度=24.80393; 經度=120.97051; 站點位置=勝利路2號(對面圓環人行道). Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json"
+      },
+      {
+        "url": "https://jp.taiwan.net.tw/m1.aspx?id=c100_408&sno=0000308",
+        "title": "交通部觀光署：竹塹城迎曦門",
+        "coordinateEvidence": "Explicit attraction 經度/緯度=120.97024/24.804160; text identifies the gate and public square. Used to corroborate identity near the transport-department pavement anchor, not as the reported arrival coordinate. Exact source: https://jp.taiwan.net.tw/m1.aspx?id=c100_408&sno=0000308"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-eighteen-peaks",
+    "status": "verified",
+    "latitude": 24.79703,
+    "longitude": 120.98755,
+    "anchorType": "meeting_point",
+    "locationHint": "博愛街5巷2號對面停車場（十八尖山／新竹高商YouBike站）集合，再沿博愛街入口步行登山；不是山頂。",
+    "reason": "2026-09-16 audit. The source YAML pins the hill interior without naming an accessible trail point. Replace with an explicitly mapped public arrival point associated with the documented 博愛街 approach. This does not claim views described in the narration are visible at the parking area.",
+    "sources": [
+      {
+        "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json",
+        "title": "新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）",
+        "coordinateEvidence": "Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=十八尖山(新竹高商); 緯度=24.79703; 經度=120.98755; 站點位置=博愛街5巷2號對面停車場. Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json"
+      },
+      {
+        "url": "https://dep-tourism.hccg.gov.tw/ch/home.jsp?dataserno=202402020002&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300177&parentpath=&t=MunicipalNews&toolsflag=Y",
+        "title": "新竹市城市行銷處：十八尖山博愛街入口路面改善公告",
+        "coordinateEvidence": "Officially identifies 博愛街入口 as a frequently used hiking access. No numerical coordinate from this news article; supports access/identity only, not current closure status. Exact source: https://dep-tourism.hccg.gov.tw/ch/home.jsp?dataserno=202402020002&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300177&parentpath=&t=MunicipalNews&toolsflag=Y"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Do not use conflicting records blindly: 000046 十八尖山 is 24.76789240314268,120.9052500412969; 000052 is 24.79248279097881,120.98473008711733. Neither is treated as a verified arrival point. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-glass-art-district",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "玻璃工藝主題／博物館周邊泛稱；未證實有獨立、可定位的「玻璃工藝區」。",
+    "reason": "2026-09-16 audit. Undefined thematic district, exact original-coordinate duplicate of tw-hsinchu-glass-museum. Named institutions/workshops exist but do not establish the narrated street of freely entered studios. Do not substitute a business or create a second museum pin.",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109",
+        "title": "交通部觀光署：玻璃工藝博物館",
+        "coordinateEvidence": "Explicit 120.97811/24.801313 belongs to the museum at 東大路一段2號, not a separately mapped 玻璃工藝區; not adopted for the theme. Exact source: https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "The feed separately names 玻璃工藝博物館, 新竹春室Glass Studio + The POOL, 玲瓏窯玻璃工藝 and 春池觀光玻璃工廠. No coordinate for the YAML's independent district is established. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-glass-museum",
+    "status": "verified",
+    "latitude": 24.801313,
+    "longitude": 120.97811,
+    "anchorType": "landmark",
+    "locationHint": "東大路一段2號玻璃工藝博物館外側、公園步行區抵達；館內展覽另依開館及票務規定。",
+    "reason": "2026-09-16 audit. Use the central tourism site's explicitly published museum pin for the exterior landmark. It is not a precision survey of the entrance. Reject current city-feed longitude that moves the museum away from the independent tourism destination location.",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109",
+        "title": "交通部觀光署：玻璃工藝博物館",
+        "coordinateEvidence": "Visible 經度/緯度=120.97811/24.801313 and 東大路一段2號; this is attraction data, not an image's GPS or map @ centre. Exact source: https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected coordinate for Attraction_376580000A_000011: PositionLat=24.80138897796795, PositionLon=120.97548107604825. Record's walking directions independently describe entering 新竹公園 to reach the museum, supporting public exterior approach. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-guandi-temple",
+    "status": "verified",
+    "latitude": 24.80274,
+    "longitude": 120.96663,
+    "anchorType": "landmark",
+    "locationHint": "南門街109-1號關帝廟外廟埕，經龍邊禮門／虎邊義路出入；尊重祭祀動線。",
+    "reason": "2026-09-16 audit. The Ministry of Interior identifies the temple and expressly documents its broad outdoor forecourt and side gates. Use its named landmark pin, not a promise of an exact gate threshold. Original YAML coordinate lies roughly 38m south.",
+    "sources": [
+      {
+        "url": "https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=147",
+        "title": "內政部宗教文化地圖：新竹關帝廟",
+        "coordinateEvidence": "Printed 經緯度=120.96663,24.80274; address 南門街109-1號. The site's architecture/access description identifies 廣闊的廟埕 and side gates 禮門/義路. Exact source: https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=147"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-harbor-canal",
+    "status": "verified",
+    "latitude": 24.8225,
+    "longitude": 120.91015,
+    "anchorType": "meeting_point",
+    "locationHint": "海埔路600號港南濱海風景區公共自行車站旁抵達，再走運河岸邊步道；非運河水面。",
+    "reason": "2026-09-16 audit. Official transport point supplies a land-side arrival in the same named canal recreation area. YAML's historic canal-to-city transport/wooden-fishing-boat story is not verified and should not dictate the anchor. Reject the inconsistent tourism-feed canal coordinate.",
+    "sources": [
+      {
+        "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json",
+        "title": "新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）",
+        "coordinateEvidence": "Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=港南濱海風景區; 緯度=24.8225; 經度=120.91015; 站點位置=海埔路600號. Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json"
+      },
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109",
+        "title": "交通部觀光署：十七公里海岸／港南濱海風景區",
+        "coordinateEvidence": "Identity/access corroboration: 港南運河 crosses 港南濱海風景區, with cycleway and bridges. Page's 120.92589/24.846239 is a general coastal overview pin and was NOT used for the canal. Exact source: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected Attraction_376580000A_000062: PositionLat=24.822818977953954, PositionLon=120.90776407604892. Address 海埔路600號 agrees with the transport arrival address but the coordinates differ. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-longhegong-temple",
+    "status": "verified",
+    "latitude": 24.80854,
+    "longitude": 120.9649,
+    "anchorType": "landmark",
+    "locationHint": "北門街135號長和宮廟前；位於北門街，不在南門。與旁邊水仙宮分辨。",
+    "reason": "2026-09-16 audit. Named official pin, matching address and public visitation establish the temple. The YAML incorrectly puts it near the south gate; correct the hint, not the temple identity. Coordinate denotes the landmark/front approach rather than a surveyed gate threshold.",
+    "sources": [
+      {
+        "url": "https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31",
+        "title": "內政部宗教文化地圖：新竹長和宮",
+        "coordinateEvidence": "Explicit 經緯度=120.96490,24.80854; 北門街135號; admission free; publicly open temple. No map viewport extraction. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31"
+      },
+      {
+        "url": "https://www.hccg.gov.tw/jphccg/app/artwebsite?id=10058&module=artwebsite",
+        "title": "新竹市政府：新竹長和宮",
+        "coordinateEvidence": "Independent city heritage account gives 北門街135号 and identifies its location outside the historical north gate; no new coordinate extracted. Exact source: https://www.hccg.gov.tw/jphccg/app/artwebsite?id=10058&module=artwebsite"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected city-feed Attraction_376580000A_000022 PositionLat=24.808564347331227, PositionLon=120.96233767592847; inconsistent longitude. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-matsu-temple",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "「新竹天后宮」需辨別內天后宮、香山天后宮或長和宮；不得只憑舊座標猜廟。",
+    "reason": "2026-09-16 audit. Ambiguous/noncanonical title plus generic seafaring history. Original location happens to be near 內天后宮, but that alone cannot resolve identity; the narrative could also conflate 長和宮/香山天后宮. Require an explicit temple name/address before correcting.",
+    "sources": [
+      {
+        "url": "https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=288",
+        "title": "內政部宗教文化地圖：內天后宮",
+        "coordinateEvidence": "Candidate only: 西門街184號; printed 120.96207,24.80093. Not adopted because YAML never specifies 內天后宮. The page itself contains an inconsistent 資產保存者 label (香山天后宮). Exact source: https://taiwangods.moi.gov.tw/Religious_Culture/html/Cultural/3_0011.aspx?i=288"
+      },
+      {
+        "url": "https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31",
+        "title": "內政部宗教文化地圖：新竹長和宮",
+        "coordinateEvidence": "Another distinct Mazu temple at 北門街135號, 120.96490,24.80854. Coordinates are disambiguation evidence only; not a replacement for a vague temple identity. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-mifun-culture",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "新竹米粉文化是產業主題，未指定可參觀工廠或曬場。",
+    "reason": "2026-09-16 audit. The YAML names no factory and supplies no visit arrangements. Do not silently replace it with 老鍋農莊 or any other guessed rice-noodle business.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "The dataset identifies an actual named 老鍋米粉/老鍋農莊 (Attraction_376580000A_000072) at 24.7384352,120.8895904, 西濱路六段569號. This is NOT evidence for the unnamed 新竹米粉文化 point, so no coordinate is adopted. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-military-village",
+    "status": "verified",
+    "latitude": 24.814074797667708,
+    "longitude": 120.96685381077023,
+    "anchorType": "landmark",
+    "locationHint": "東大路二段105號新竹市眷村博物館紅門／前廣場抵達；不是未指名的眷村保存區售票口。",
+    "reason": "2026-09-16 audit. Unlike several corrupted city-feed entries, this named museum record matches the source YAML's location closely and documents a red entrance gate and forecourt. Landmark arrival only, not a surveyed entrance threshold. Correct the vague access description.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_376580000A_000009 眷村博物館: PositionLat=24.814074797667708, PositionLon=120.96685381077023; address 東大路二段105號. Description explicitly identifies the red/white entrance design and forecourt with aircraft-drop-tank water tower. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      },
+      {
+        "url": "https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf",
+        "title": "國土管理署：新竹市博物館／地方文物館一覽表",
+        "coordinateEvidence": "Table 2-2-58 identifies 新竹市眷村博物館 at 東大路二段105號. Address/institution corroboration only; no new coordinate extracted. Exact source: https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-moat-park",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "真實的護城河帶狀公園；官方資料座標與街廓位置不符，目前尚缺可核實的具名公園地標 pin。",
+    "reason": "2026-09-16 audit, landmark-pin review. The park exists, but the current official tourism coordinate conflicts with its documented 林森路—東門—世界街 corridor. The health-bureau map uses a street-name directions query without an explicit numeric pin. A reliable named-park landmark would suffice; a separate entrance is not required. Remains unresolved for conflicting/missing coordinate evidence, not for being a linear park or lacking a surveyed entrance.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected Attraction_376580000A_000042 護城河 PositionLat=24.804876000000004, PositionLon=120.95426950781247; address says 林森路經東門城至世界街口, inconsistent with this westward pin. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      },
+      {
+        "url": "https://health.hcchb.gov.tw/healthmap-detail.php?category=2&nid=26",
+        "title": "新竹市衛生局健康飲食運動地圖：護城河親水公園",
+        "coordinateEvidence": "Read-only HTML gives directions href https://www.google.com/maps/dir//新竹市勝利路、文化街、府後街/ . No latitude/longitude or independently located entrance was extracted; do not geocode its first hit. Exact source: https://health.hcchb.gov.tw/healthmap-detail.php?category=2&nid=26"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-nanliaogang-port",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "南寮／新竹漁港確實存在；目前資料混有跨越風箏草坪至潮岸的描述，尚未釐清其 pin 是否對應所述作業漁港。",
+    "reason": "2026-09-16 audit, landmark-pin review. A reliable named-harbour landmark is acceptable without an entrance. This record remains unresolved because the current city-fed 新竹漁港 entry describes crossing the kite lawn from the visitor centre to a tide-dependent shore, rather than identifying the fishing-harbour feature narrated in the YAML; the same feed has demonstrated coordinate/entity errors elsewhere. The 17km-coast overview cannot resolve this mismatch. Do not substitute a fish-market building or a general coastal centroid.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_376580000A_000053 新竹漁港 publishes PositionLat=24.848839149957726, PositionLon=120.92667291108397 and broad address 東西向快速道路西端終點附近，頭前溪出海口. Not adopted pending reconciliation of this record's named harbour with its kite-lawn/tidal-shore description, not merely because it lacks a land-side entrance. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_376580000a_000053",
+        "title": "交通部觀光署開放資料：新竹漁港（新竹市政府提供）",
+        "coordinateEvidence": "Official detail page prints 緯度24.8488391499577, 經度120.926672911084 and update 2026-05-14. Description directs visitors across the kite lawn from 南寮旅遊服務中心 and advises daytime/tide awareness; it does not reconcile this pin with the working-harbour setting. Same upstream record as the ZIP, not independent confirmation. Exact source: https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_376580000a_000053"
+      },
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109",
+        "title": "交通部觀光署：十七公里海岸風景區",
+        "coordinateEvidence": "Describes 南寮休閒碼頭 and tourist service centre, but overview 120.92589/24.846239 does not identify a harbour arrival point; not adopted. Exact source: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-north-gate-street",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "真實的北門街，與 tw-hsinchu-beimen-old-street 同一街道；目前未取得可直接查核的官方街道座標。",
+    "reason": "2026-09-16 audit, revised duplicate policy. Duplicate content is noted but is not grounds to discard a real street: both IDs may share a single verified official street pin. Remains unresolved only because no directly checked official named-street coordinate was extracted. A third-party tourism-data mirror prints 24.805138,120.966092, but its precise official source row was not confirmed; the temple coordinates in the sources describe a different named feature.",
+    "sources": [
+      {
+        "url": "https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf",
+        "title": "新竹市北區中山里里情沿革",
+        "coordinateEvidence": "Identifies 北門大街's historic shops and monuments as one street. No independent coordinate for a second 北門街 site was extracted. Exact source: https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf"
+      },
+      {
+        "url": "https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31",
+        "title": "內政部：新竹長和宮",
+        "coordinateEvidence": "北門街135號 and 120.96490,24.80854 identify a temple on the street, not a second street POI. Not used to manufacture a duplicate anchor. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-park-zoo",
+    "status": "verified",
+    "latitude": 24.80018,
+    "longitude": 120.98126,
+    "anchorType": "meeting_point",
+    "locationHint": "食品路62號旁新竹動物園YouBike站集合，再沿食品路至動物園售票入口／新竹公園步道；不能假設動物園免費。",
+    "reason": "2026-09-16 audit. Public arrival anchor explicitly named 新竹動物園 and on its food-road approach, avoiding enclosure/interior centroid. The compound park/zoo title is retained; this pin is a meeting point, not the zoo interior or ticket gate. Current city tourism zoo pin is inconsistent.",
+    "sources": [
+      {
+        "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json",
+        "title": "新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）",
+        "coordinateEvidence": "Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=新竹動物園; 緯度=24.80018; 經度=120.98126; 站點位置=食品路62號旁. Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_376580000A_000055 independently supplies address 新竹市東區食品路66號. Its PositionLat=24.80015607796872, PositionLon=120.97734687604826 is rejected as the outdoor arrival pin because it differs from the official named transport stop on the same road. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-prefecture-hall",
+    "status": "verified",
+    "latitude": 24.806764,
+    "longitude": 120.96879,
+    "anchorType": "landmark",
+    "locationHint": "中正路120號新竹州廳／市政府正面外觀；辦公空間非全天自由參觀。",
+    "reason": "2026-09-16 audit. Central tourism and cultural-heritage pins corroborate the actual administrative building. Use exterior viewing/arrival only, not permission to enter working offices. YAML's green dome claim is not validated. Reject city-feed coordinate inconsistency.",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=10869&sNo=0001109",
+        "title": "交通部觀光署：新竹州廳（新竹市政府）",
+        "coordinateEvidence": "Explicit 經度/緯度=120.96879/24.806764, address 中正路120號; describes the front entrance porch. Exact source: https://www.tad.gov.tw/m1.aspx?id=10869&sNo=0001109"
+      },
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=483802&indexCode=Culture_Place",
+        "title": "國家文化記憶庫：從新竹廳治到新竹市治—新竹州廳",
+        "coordinateEvidence": "Independent cultural record lists 緯度=24.8067131, 經度=120.9688414 at 中正路120號, close to the tourism pin; 是否開放=否, supporting exterior-only guidance. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=483802&indexCode=Culture_Place"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Rejected Attraction_376580000A_000026 PositionLat=24.806795747401765, PositionLon=120.96638777592837, inconsistent with both independent official pins. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-qingcao-lake",
+    "status": "verified",
+    "latitude": 24.774934,
+    "longitude": 120.9709,
+    "anchorType": "landmark",
+    "locationHint": "青草湖官方地標位置，供鄰近辨識／語音觸發，並非岸上入口或可站立點。請留在開放的湖岸公共空間觀景，勿循座標直走入水；本報告未另推算岸邊座標。",
+    "reason": "2026-09-16 audit, revised under the user's landmark-anchor clarification. Central tourism explicitly maps the named physical lake at this coordinate. Accept as a landmark for proximity/audio, not as a pedestrian destination or surveyed shore entrance. Lack of a separate entrance pin is not a reason to discard this named landmark. The conflicting city bulk-feed coordinate remains rejected; no artificial shore offset is introduced.",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=C100_410&sNo=0001016",
+        "title": "交通部觀光署：青草湖",
+        "coordinateEvidence": "Reopened official page on 2026-09-16: explicit 經度/緯度=120.97090/24.774934 (visible lines 176-177) beneath the named 青草湖 heading. Adopt these published landmark coordinates, with longitude/latitude reordered, for proximity/audio only; they are not an entrance or a guaranteed dry-land standing point. No @ viewport or inferred shift used. Exact source: https://www.tad.gov.tw/m1.aspx?id=C100_410&sNo=0001016"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_376580000A_000058 publishes PositionLat=24.774934800000015, PositionLon=120.96678162695311. This differs markedly from central tourism and is not adopted. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-science-park",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "園區不是單一景點；應先確認是否改指科技五路1號科學園區探索館，並遵守預約。",
+    "reason": "2026-09-16 audit. YAML calls the entire industrial park a venue and describes an unnamed walk-in visitor centre. The actual official educational venue is 科學園區探索館, whose current policy requires reservations. Do not silently replace a vague park experience with a different specific venue or restricted factory.",
+    "sources": [
+      {
+        "url": "https://web.sipa.gov.tw/explore/viewContent.do?pno=20141112141624",
+        "title": "新竹科學園區管理局：科學園區探索館參觀預約",
+        "coordinateEvidence": "Official page identifies 科技五路1號, the yellow mosaic building behind the administration bureau, and reservation requirements. No exact outdoor arrival coordinate extracted; address is not geocoded. Exact source: https://web.sipa.gov.tw/explore/viewContent.do?pno=20141112141624"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_376580000A_000066 科學園區探索館 has PositionLat=24.783253348345287, PositionLon=121.00251897393186. Not adopted: the YAML names the entire park, and this bulk feed has demonstrated coordinate errors; no independent entrance pin was established. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-sports-park",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "需釐清體育場管理單位、田徑場（公園路283號）及體育館（295號）的實體對應；目前未取得可直接查核的場館地標座標。",
+    "reason": "2026-09-16 audit, landmark-pin review. The narration describes the running track, whereas the title also names the multi-venue administration. Official iPlay identifies the track and flags renovation, but no explicit coordinate for that facility was extracted. A reliable ordinary-facility landmark pin would suffice without a separate entrance. Remains unresolved for entity/coordinate evidence, not merely for lacking a safe entrance pin.",
+    "sources": [
+      {
+        "url": "https://iplay.sports.gov.tw/gyminfo/index/5269",
+        "title": "全國運動場館資訊網：新竹市立田徑場",
+        "coordinateEvidence": "Official record gives 新竹市公園路283號 and says 跑道整修中，大棚架仍開放. No entrance latitude/longitude extracted; HTML fetch returned 403, so no coordinate inferred. Exact source: https://iplay.sports.gov.tw/gyminfo/index/5269"
+      },
+      {
+        "url": "https://stadium.hc.edu.tw/ch/",
+        "title": "新竹市立體育場官方網站",
+        "coordinateEvidence": "Administrative address 公園路295號 is distinct from the track's 283號. No explicit outdoor arrival coordinate extracted from this source. Exact source: https://stadium.hc.edu.tw/ch/"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-train-station",
+    "status": "verified",
+    "latitude": 24.80239,
+    "longitude": 120.97138,
+    "anchorType": "meeting_point",
+    "locationHint": "中正路1號新竹火車站前廣場、前站YouBike站旁集合，朝站房外觀觀賞；不進月台。",
+    "reason": "2026-09-16 audit. Precisely named official public forecourt location provides an outdoor viewing/arrival anchor. Cultural-heritage station pin corroborates the nearby station, but is not substituted for the forecourt. Original YAML latitude is about 130m south of this documented public arrival.",
+    "sources": [
+      {
+        "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json",
+        "title": "新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）",
+        "coordinateEvidence": "Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=新竹火車站(前站); 緯度=24.80239; 經度=120.97138; 站點位置=中正路1號(火車站前廣場). Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json"
+      },
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=19980623000001&indexCode=BOCH_CountryCulture_11",
+        "title": "國家文化記憶庫：新竹火車站",
+        "coordinateEvidence": "Explicit station heritage fields 緯度=24.8017064922572, 經度=120.971832361263 corroborate the building south-east of the public forecourt; reported coordinates come from the transport forecourt row, not the building. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=19980623000001&indexCode=BOCH_CountryCulture_11"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-victory-park",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "未證實有符合敘述的新竹「勝利公園」；不可猜成新竹公園或忠烈祠。",
+    "reason": "2026-09-16 audit. Suspected fabricated/conflated named site. Exact-title searches did not establish a Hsinchu park matching the claimed shrine remains. Official cultural history places 新竹神社 at 枕頭山, but this does not authorize renaming another park as 勝利公園. No GPS retained.",
+    "sources": [
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=2222949&indexCode=Culture_Object",
+        "title": "新竹市文化局／國家文化記憶庫：新竹神社與潛園",
+        "coordinateEvidence": "Historical account identifies the shrine at 枕頭山; it does not identify 勝利公園 or provide a present-day visitor pin for that name. No coordinate extracted. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=2222949&indexCode=Culture_Object"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Hsinchu park enumeration does not identify a matching 勝利公園. This is a failed identity match, not a claim that list absence definitively proves nonexistence. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-wind-culture",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "未證實「新竹風文化展示館」存在；不要導航到文化局、美術館或風城願景館。",
+    "reason": "2026-09-16 audit. Suspected invented museum name/exhibitions. The supplied sources are generic homepages; the official attraction inventory and cultural-venue references do not resolve the claimed wind-speed/food exhibition centre. Similar names such as 風livehouse or 風城願景館 are not identity matches.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "No named 新竹風文化展示館 record or entrance coordinate was found in the read official Hsinchu attraction inventory. No numerical coordinate adopted. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      },
+      {
+        "url": "https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf",
+        "title": "國土管理署：新竹市博物館／地方文物館一覽表",
+        "coordinateEvidence": "The museum/venue table lists 風livehouse as a music-performance space, not the claimed wind-culture museum. No matching museum coordinate extracted; historical inventory used as corroboration, not definitive current absence proof. Exact source: https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-xiangshan-wetland",
+    "status": "verified",
+    "latitude": 24.783421,
+    "longitude": 120.91431,
+    "anchorType": "viewpoint",
+    "locationHint": "西濱路三段500巷17號香山濕地賞蟹步道陸側觀察／服務區；依潮汐及強風封閉公告行動，不下泥灘。",
+    "reason": "2026-09-16 audit. Replaces a wetland-wide/offshore-looking point with the central tourism site's explicitly named visitor boardwalk destination. Source describes a 250m boardwalk and service centre, not the YAML's two-kilometre wooden walkway. This is the landward visitor destination, not the wetland centroid; entry is conditional on tide/wind rules.",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=A12-00635&sNo=0001016",
+        "title": "交通部觀光署：香山濕地賞蟹步道",
+        "coordinateEvidence": "Printed 經度/緯度=120.91431/24.783421; address 西濱路三段500巷17號. Explicitly describes the visitor boardwalk and marine-conservation education/service centre, and tide/wind closures. No inferred movement from the original coordinate. Exact source: https://www.tad.gov.tw/m1.aspx?id=A12-00635&sNo=0001016"
+      },
+      {
+        "url": "https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=38&module=travel&serno=67dd54f9-7e6b-46f6-9dbc-df4da9ce9f7c",
+        "title": "新竹市觀光旅遊網：賞蟹步道",
+        "coordinateEvidence": "Corroborates public boardwalk, wetland centre and outdoor classroom at 美山. No coordinate adopted from this HTML; the current bulk-feed 000061 pin differs and was not used. Exact source: https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=38&module=travel&serno=67dd54f9-7e6b-46f6-9dbc-df4da9ce9f7c"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-zhulian-temple",
+    "status": "verified",
+    "latitude": 24.79828,
+    "longitude": 120.97042,
+    "anchorType": "meeting_point",
+    "locationHint": "竹蓮街72號對面人行道、竹蓮寺YouBike站旁集合，再沿竹蓮街至100號寺前；不是廟殿內。",
+    "reason": "2026-09-16 audit. Officially named public sidewalk anchor supplies a usable arrival near the independently identified temple. Original coordinate is northeast of the actual temple and about 200m from this arrival point. Temple-landmark coordinates and arrival coordinates are deliberately distinguished.",
+    "sources": [
+      {
+        "url": "https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json",
+        "title": "新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）",
+        "coordinateEvidence": "Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=竹蓮寺; 緯度=24.79828; 經度=120.97042; 站點位置=竹蓮街72號(對面人行道). Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json"
+      },
+      {
+        "url": "https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=191",
+        "title": "內政部宗教文化地圖：竹蓮寺",
+        "coordinateEvidence": "Actual temple printed 經緯度=120.97002,24.79889; this feature pin corroborates the nearby sidewalk meeting point, but is not the reported arrival coordinate. Exact source: https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=191"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_376580000A_000023 supplies 竹蓮街100號, but its PositionLat=24.80274384756354, PositionLon=120.96401607592826 is inconsistent and rejected. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchu-zhurenliyou-house",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "「鄭家古厝」未唯一辨識：可能混淆鄭氏家廟與鄭用錫宅第；不可依鄰近座標硬配。",
+    "reason": "2026-09-16 audit. Generic family-house title and nonmatching id lack an address or owner. Existing coordinate is near the distinct 鄭氏家廟, which is an ancestral temple rather than the described residential mansion; 鄭用錫宅第 is another separate heritage property. Do not guess one from proximity or the unrelated media filename.",
+    "sources": [
+      {
+        "url": "https://catalog.digitalarchives.tw/item/00/2f/eb/50.html",
+        "title": "數位典藏聯合目錄：進士第（鄭用錫宅第）",
+        "coordinateEvidence": "Establishes the specific historic residence, but not that the YAML's generic 鄭家古厝 denotes it. No usable outdoor coordinate extracted. Exact source: https://catalog.digitalarchives.tw/item/00/2f/eb/50.html"
+      },
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=20040311000001&indexCode=BOCH_CountryCulture_12",
+        "title": "國家文化記憶庫：鄭家古厝",
+        "coordinateEvidence": "Exact-name registered heritage site is at 屏東縣林邊鄉榮農路8號, not Hsinchu. No coordinate adopted; proves the name is not unique and a municipality mismatch must not be geocoded blindly. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=20040311000001&indexCode=BOCH_CountryCulture_12"
+      }
+    ]
+  },
+  {
+    "id": "tw-hsinchucounty-beipu-old-street",
+    "status": "verified",
+    "latitude": 24.69982,
+    "longitude": 121.05722,
+    "anchorType": "visitor_area",
+    "locationHint": "新竹縣北埔鄉北埔街公共老街步行區；非新竹市，亦非宣稱金廣福公館門檻。",
+    "reason": "2026-09-16 audit. Official national-scenic-area and county tourism open-data rows agree on a public street anchor. Original longitude 121.0584 is about 120m east. Treat as a street-area arrival, not the exact doorway of 金廣福公館 or 慈天宮.",
+    "sources": [
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00",
+        "coordinateEvidence": "Attraction_A15010700H_000008 北埔老街: PositionLat=24.69982, PositionLon=121.05722, address 北埔街. County record Attraction_376440000A_000221 independently publishes 24.6998246073078,121.057219606147, the same position at greater precision. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip"
+      },
+      {
+        "url": "https://www.trimt-nsa.gov.tw/zh-tw/attraction/48/",
+        "title": "參山國家風景區管理處：北埔老街",
+        "coordinateEvidence": "Official page, updated 2026-07-31, identifies public walking street 北埔街 with heritage sites and shops. Coordinates here are taken from this authority's explicit open-data row above, not a map viewport or an inferred business location. Exact source: https://www.trimt-nsa.gov.tw/zh-tw/attraction/48/"
+      }
+    ]
+  }
+]

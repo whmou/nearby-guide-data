@@ -35,15 +35,10 @@ point:
         - id: ticketed
           label: 需付費
   indoor: false
-  location:
-    latitude: 24.8028
-    longitude: 125.2713
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8028,125.2713"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 未指名的海灘裝備租借服務沒有固定到店點；請先確認實際店名與營業地點，不把パイナガマ海灘 pin 當作租借站。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +96,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 searched Painagama snorkel-rental shops and compared the official beach page. YAML refers to several unspecified shops and reuses the beach coordinate. No named operator or fixed rental station is established, so a beach location cannot verify this venue.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600006192
+    title: パイナガマビーチ｜おきなわ物語
+    coordinateEvidence: Official beach q=24.80275345,125.27103424 verifies only the beach. It provides no exact named rental-station coordinate; not adopted for the rental record.
+  - url: https://azamigroup.sakura.ne.jp/azami7/location.php
+    title: 周辺の観光スポット｜AZAMI7宮古島
+    coordinateEvidence: Accommodation's local information mentions seasonal marine-goods rentals without a fixed named shop pin. Supports the distinction between seasonal service and permanent arrival venue, not an adopted coordinate.
+  previousLocation:
+    latitude: 24.8028
+    longitude: 125.2713
+  verifiedLocation: null

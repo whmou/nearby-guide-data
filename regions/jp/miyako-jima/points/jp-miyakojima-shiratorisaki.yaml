@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8636
-    longitude: 125.1696
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8636,125.1696"
+    latitude: 24.8633995504
+    longitude: 125.162281179
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8633995504,125.162281179
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 白鳥崎岬角地標 pin；供西海岸公園岸上眺望，非燈塔入口，切勿沿 GPS 直線走入礁岸或崖邊。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -102,3 +102,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact named cape destination query from local tourism publisher, corroborated by official tourism association's description of the public coastal park extending to 白鳥崎. Original is approximately 740 m east. The claimed white lighthouse is not established and must not be used as the arrival cue.
+  sources:
+  - url: https://www.tanoshima.jp/spot/shiratorisaki
+    title: 白鳥崎｜宮古島観光情報たのしま
+    coordinateEvidence: Fetched HTML under 白鳥崎【伊良部島】 gives href=https://maps.google.co.jp/maps?q=24.8633995504,125.162281179. Named cape q pin, not viewport or inferred offset.
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_010/
+    title: 西海岸公園｜宮古島観光協会
+    coordinateEvidence: Corroborates 白鳥崎 as the end of a coastal park with paths/rest areas. Its different park marker (24°51′51.8″N 125°09′58.8″E) was NOT substituted for the cape pin.
+  previousLocation:
+    latitude: 24.8636
+    longitude: 125.1696
+  verifiedLocation:
+    latitude: 24.8633995504
+    longitude: 125.162281179

@@ -50,33 +50,38 @@ jobs:
       - name: Check release does not exist (refuse to overwrite)
         env:
           GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
         run: |
-          if gh release view "${{ inputs.tag }}" >/dev/null 2>&1; then
-            echo "ERROR: Release ${{ inputs.tag }} already exists. Delete it manually before re-releasing."
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "ERROR: Release already exists; choose a new version/tag."
             exit 1
           fi
-
-      - name: Update catalog.json
-        run: python tools/update_catalog.py --dist dist
-
-      - name: Commit updated catalog.json
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add catalog.json
-          git diff --staged --quiet || git commit -m "chore: update catalog.json for ${{ inputs.tag }}"
-          git push
 
       - name: Create GitHub Release and upload packs
         env:
           GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
         run: |
           PRERELEASE_FLAG=""
           if [ "${{ inputs.prerelease }}" = "true" ]; then
             PRERELEASE_FLAG="--prerelease"
           fi
-          gh release create "${{ inputs.tag }}" \
-            --title "NearbyGuide Packs ${{ inputs.tag }}" \
+          gh release create "$RELEASE_TAG" --target "$GITHUB_SHA" --latest=false \
+            --title "NearbyGuide Packs $RELEASE_TAG" \
             --notes "Automated pack release. See catalog.json for pack metadata." \
             $PRERELEASE_FLAG \
             dist/packs/*.guidepack
+
+      - name: Verify public assets and publish index only after assets exist
+        if: ${{ !inputs.prerelease }}
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          python tools/update_catalog.py --dist dist --release-tag "$RELEASE_TAG"
+          python tools/verify_release.py --catalog catalog.json
+          python tools/export_viewer_data.py
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add catalog.json public/viewer_data.json
+          git diff --staged --quiet || git commit -m "chore: publish verified catalog for $RELEASE_TAG"
+          git push origin HEAD:main

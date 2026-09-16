@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8580
-    longitude: 125.1152
-  googleMapsUrl: "https://maps.google.com/maps?q=24.858,125.1152"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 導航前，請依官方航路標識名稱確認確切燈塔；勿以池間燈塔或港口燈標替代。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -102,3 +97,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: No authoritative match found for the claimed western-Irabu white circular 伊良部島灯台. Exact-name searches and official lighthouse references do not establish that identity or public access; the existing point is not verified.
+  sources:
+  - url: https://www.kaiho.mlit.go.jp/info/lighthouse/card/coment/map06.html
+    title: 海上保安庁 — 沖縄灯台カード locations
+    coordinateEvidence: https://www.kaiho.mlit.go.jp/info/lighthouse/card/coment/map06.html names 平安名埼灯台 and 池間島灯台 with distinct addresses. It provides no match/coordinate for the YAML's 伊良部島灯台. This limited list is corroborative, not proof of nonexistence.
+  - url: https://miyako-island.net/charm/
+    title: 宮古島観光協会 — 伊良部地区
+    coordinateEvidence: https://miyako-island.net/charm/ identifies Irabu's named tourist features but does not establish the alleged western lighthouse or its arrival point. No coordinate extracted.
+  previousLocation:
+    latitude: 24.858
+    longitude: 125.1152
+  verifiedLocation: null

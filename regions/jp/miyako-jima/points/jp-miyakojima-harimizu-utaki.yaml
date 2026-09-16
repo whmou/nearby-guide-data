@@ -40,12 +40,12 @@ point:
   location:
     latitude: 24.807268
     longitude: 125.27951
-  googleMapsUrl: "https://maps.google.com/maps?q=24.807268,125.27951"
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.807268,125.27951
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 漲水御嶽的參拜處，鄰近公共石板參道；請尊重祭祀活動及禁止進入的神聖區域。此圖釘標示御嶽所在地，不代表可進入其神聖林地。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: City Board of Education cultural-heritage mapping explicitly publishes the same coordinates as YAML. A small, publicly approached sacred site; use the outside worship approach and follow local restrictions.
+  sources:
+  - url: https://miyakojimabunkazai.jp/bunkazaiinfo738/
+    title: 宮古島市教育委員会公認 — 漲水御嶽と石垣
+    coordinateEvidence: https://miyakojimabunkazai.jp/bunkazaiinfo738/ has map href https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.807268,+125.279510 (plus display parameters). Extracted explicit q target; ignored sll=24.805837,125.285543 and ll=24.817978,125.283022.
+  - url: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf
+    title: 宮古島市 — 観光ガイドマップ
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf identifies 漲水御嶽 on a city sightseeing/walking route. No additional numeric coordinate extracted.
+  previousLocation:
+    latitude: 24.807268
+    longitude: 125.27951
+  verifiedLocation:
+    latitude: 24.807268
+    longitude: 125.27951

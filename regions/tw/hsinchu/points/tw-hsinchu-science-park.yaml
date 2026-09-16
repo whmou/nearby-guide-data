@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.7823
-    longitude: 121.0064
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7823,121.0064"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 園區不是單一景點；應先確認是否改指科技五路1號科學園區探索館，並遵守預約。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +96,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. YAML calls the entire industrial park a venue and describes an unnamed walk-in visitor centre. The actual official educational venue is 科學園區探索館, whose current policy requires reservations. Do not silently replace a vague park experience with a different specific venue or restricted factory.
+  sources:
+  - url: https://web.sipa.gov.tw/explore/viewContent.do?pno=20141112141624
+    title: 新竹科學園區管理局：科學園區探索館參觀預約
+    coordinateEvidence: 'Official page identifies 科技五路1號, the yellow mosaic building behind the administration bureau, and reservation requirements. No exact outdoor arrival coordinate extracted; address is not geocoded. Exact source: https://web.sipa.gov.tw/explore/viewContent.do?pno=20141112141624'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_376580000A_000066 科學園區探索館 has PositionLat=24.783253348345287, PositionLon=121.00251897393186. Not adopted: the YAML names the entire park, and this bulk feed has demonstrated coordinate errors; no independent entrance pin was established. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.7823
+    longitude: 121.0064
+  verifiedLocation: null

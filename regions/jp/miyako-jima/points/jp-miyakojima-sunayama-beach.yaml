@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: attraction
   title: "砂山ビーチ（砂山海灘）"
-  summary: "以巨大天然拱形岩石聞名的秘境海灘，穿越拱岩後是一片安靜的珊瑚沙灣，拱岩本身是宮古島最具辨識度的自然地標之一。"
+  summary: "以巨大天然拱形岩石聞名的秘境海灘，白色珊瑚沙灣與碧藍海水相映，拱岩本身是宮古島最具辨識度的自然地標之一；請從開放的海灘範圍欣賞，不要穿越岩拱。"
   narration: |
-    砂山海灘得名於入口處那座高聳的沙丘，停好車後沿階梯翻越一座沙丘，便可俯瞰整個海灣。海灘中央矗立著一塊天然形成的拱形岩石，珊瑚岩被海浪侵蝕成圓弧形，陽光從拱洞打進來，形成只有在特定角度才能拍到的絕美構圖。拱岩兩側的海水格外清澈，珊瑚礁碎石讓海底紋理清晰可見。這裡的海流比与那覇前浜稍強，非游泳季節或浪大時需謹慎，但單純欣賞拱岩和在海灘散步完全不受影響。
-  observationPrompt: "站在拱岩正前方，找到讓拱框住遠方海面的位置——試試看正午和下午的光線角度有什麼不同？"
+    砂山海灘得名於入口處那座高聳的沙丘，停好車後沿階梯翻越一座沙丘，便可俯瞰整個海灣。海灘中央矗立著一塊天然形成的拱形岩石，珊瑚岩被海浪侵蝕成圓弧形，陽光從拱洞打進來，形成只有在特定角度才能拍到的絕美構圖。拱岩兩側的海水格外清澈，珊瑚礁碎石讓海底紋理清晰可見。觀賞與散步都應遵守現場開放範圍及警示，不進入岩拱下方或跨越圍欄；海況不佳時不要接近水邊。
+  observationPrompt: "從允許停留的海灘範圍遠觀天然岩拱，留意光線如何改變岩石與海面的色彩；不要為了取景穿越岩拱、跨越圍欄或進入封閉區。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.839485
-    longitude: 125.280581
-  googleMapsUrl: "https://maps.google.com/maps?q=24.839485,125.280581"
+    latitude: 24.83953094
+    longitude: 125.28069305
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.83953094,125.28069305
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 砂山ビーチ官方海灘地標 pin，非岩拱穿越路線；循現場砂丘步道與封閉標示，勿進入受管制岩拱下方。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -95,3 +95,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official tourism exact place query agrees within approximately 12 m. Coordinate verification does not approve the YAML's instruction to pass through the rock arch.
+  sources:
+  - url: https://www.okinawastory.jp/spot/1081
+    title: 砂山ビーチ｜おきなわ物語
+    coordinateEvidence: HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.83953094,125.28069305&zoom=16; named place marker q.
+  previousLocation:
+    latitude: 24.839485
+    longitude: 125.280581
+  verifiedLocation:
+    latitude: 24.83953094
+    longitude: 125.28069305

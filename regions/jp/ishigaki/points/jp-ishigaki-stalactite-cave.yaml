@@ -39,14 +39,14 @@ point:
         label: 洞窟
   indoor: true
   location:
-    latitude: 24.361684
-    longitude: 124.154238
-    locationHint: "從石垣市區沿縣道87號向北行駛約10分鐘，位於石垣市石垣1666番地，路旁有明顯招牌指引，附設免費停車場，入口前有熱帶果園環繞。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.361684,124.154238"
+    latitude: 24.361744
+    longitude: 124.1545115
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.361744,124.1545115
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 石垣島鍾乳洞（石垣1666）的設施地標圖釘，非精確洞口或地下遊覽點；循現場招牌至地上售票／停車區。勿誤入鄰近另一鍾乳洞。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -73,7 +73,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-stalactite-cave-source
     title: "石垣島鍾乳洞官方網站（繁體中文）"
-    publisher: ""
+    publisher: "www.ishigaki-cave.com"
     url: https://www.ishigaki-cave.com/tw/
     accessedAt: "2026-07-18"
     language: ja
@@ -97,3 +97,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府直接連到具名石垣島鍾乳洞feature pin；營運者確認同名同址並警告附近有相似設施。作接近解說landmark，不假稱入口。原點距此約29公尺。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 石垣島鍾乳洞
+    coordinateEvidence: On 2026-09-16, the 石垣島鍾乳洞 section links https://goo.gl/maps/homuFhNoBnCGwvuH8. Its HTTP redirect contains the named place's !8m2!3d24.361744!4d124.1545115 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  - url: https://www.ishigaki-cave.com/
+    title: 石垣島鍾乳洞公式 — アクセスマップ
+    coordinateEvidence: Confirms 石垣1666, surface visitor services and access via Route 208; explicitly warns of a different nearby cave. No coordinate inferred from photos, cave geometry, or MAPCODE.
+  previousLocation:
+    latitude: 24.361684
+    longitude: 124.154238
+  verifiedLocation:
+    latitude: 24.361744
+    longitude: 124.1545115

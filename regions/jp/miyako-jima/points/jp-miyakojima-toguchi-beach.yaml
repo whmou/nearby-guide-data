@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8115325
-    longitude: 125.1779407
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8115325,125.1779407"
+    latitude: 24.81194115
+    longitude: 125.18006897
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.81194115,125.18006897
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 渡口の浜官方海灘地標 pin；可從現場公共海灘通路接近，非特定停車場入口或安全游泳範圍。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official tourism explicit place query; approximately 220 m east of original point. Retained as named beach landmark without fabricating entrance coordinates.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600006197
+    title: 渡口の浜｜おきなわ物語
+    coordinateEvidence: HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.81194115,125.18006897&zoom=16; exact named place q.
+  previousLocation:
+    latitude: 24.8115325
+    longitude: 125.1779407
+  verifiedLocation:
+    latitude: 24.81194115
+    longitude: 125.18006897

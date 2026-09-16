@@ -1,6 +1,6 @@
 schemaVersion: 1
 packId: jp-ishigaki
-version: "1.0.1"
+version: "1.0.2"
 title: "石垣島"
 subtitle: "八重山の碧海と星空"
 region:
@@ -10,4 +10,4 @@ region:
   adminAreaLevel2: 石垣市
 contentLanguage: zh-Hant-TW
 minAppVersionCode: 8
-createdAt: "2026-07-18T00:00:00Z"
+createdAt: "2026-09-16T00:00:00Z"

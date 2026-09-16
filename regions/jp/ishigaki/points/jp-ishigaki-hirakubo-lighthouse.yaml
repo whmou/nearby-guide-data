@@ -42,14 +42,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.6089
-    longitude: 124.315
-    locationHint: "從石垣市區沿縣道206號往北行駛約40公里，到達平久保半島最北端即可。路旁設有免費停車場，從停車場步行約5分鐘可抵達燈塔。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.6089,124.315"
+    latitude: 24.6102576
+    longitude: 124.3160524
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.6102576,124.3160524
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 平久保埼灯台的塔體地標圖釘，僅供接近解說；不是停車場或可進入的塔門。由指定停車場走現地開放步道，在圍界外觀看，勿直接直線前往圖釘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -76,7 +76,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-hirakubo-lighthouse-source
     title: "平久保埼灯台 - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E5%B9%B3%E4%B9%85%E4%BF%9D%E5%9F%BC%E7%81%AF%E5%8F%B0
     accessedAt: "2026-07-18"
     language: ja
@@ -100,3 +100,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府具名燈塔連結的!3d/!4d為確切塔體座標；依landmark用途採用，不宣稱為入口。原點偏南約185公尺；另一觀光局頁的區域代表點與塔體相差約52公尺，未混用。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 平久保崎灯台
+    coordinateEvidence: On 2026-09-16, the 平久保崎灯台 section links https://goo.gl/maps/oUbVbX6bY8RJNoUt8. Its HTTP redirect contains the named place's !8m2!3d24.6102576!4d124.3160524 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.6089
+    longitude: 124.315
+  verifiedLocation:
+    latitude: 24.6102576
+    longitude: 124.3160524

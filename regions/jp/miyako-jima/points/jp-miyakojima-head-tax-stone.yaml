@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.812617
-    longitude: 125.281723
-  googleMapsUrl: "https://maps.google.com/maps?q=24.812617,125.281723"
+    latitude: 24.81279945
+    longitude: 125.28171539
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.81279945,125.28171539
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 人頭税石位於平良字荷川取路旁，為歷史標誌；請步行前往，勿妨礙居民或交通。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -104,3 +104,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: Adopt the official Okinawa tourism marker query. The original coordinate is approximately 20 m south. This verifies location only, not the YAML's literal historical claim that all taxation was determined by height.
+  sources:
+  - url: https://www.okinawastory.jp/spot/20340903
+    title: おきなわ物語 — 人頭税石
+    coordinateEvidence: https://www.okinawastory.jp/spot/20340903 HTML contains maps/embed/v1/place?q=24.81279945,125.28171539&zoom=16. Extracted the numeric q destination.
+  - url: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf
+    title: 宮古島市 — 観光ガイドマップ
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf includes 人頭税石 on the historical walking route; no additional coordinate extracted.
+  previousLocation:
+    latitude: 24.812617
+    longitude: 125.281723
+  verifiedLocation:
+    latitude: 24.81279945
+    longitude: 125.28171539

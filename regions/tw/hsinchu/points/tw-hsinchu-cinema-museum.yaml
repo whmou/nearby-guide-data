@@ -38,14 +38,14 @@ point:
           label: 售票
   indoor: true
   location:
-    latitude: 24.8049
-    longitude: 120.9696
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8049,120.9696"
+    latitude: 24.804924
+    longitude: 120.96961
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.804924,120.96961
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "主入口位於中正路與林森路交叉口轉角，面向中正路，可見Art Deco風格弧形外牆。"
+  locationHint: 中正路65號影像博物館／有樂館外觀；從中正路側抵達，非中正路與林森路口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Official tourism destination pin and address identify the actual cinema. Use for exterior arrival, not a claim of a surveyed door threshold or guaranteed exhibition opening. Reject the current Hsinchu bulk-feed record, which duplicates 南大路警察宿舍's coordinates.
+  sources:
+  - url: https://www.taiwan.net.tw/m1.aspx?id=10870&sNo=0001016
+    title: 交通部觀光署：影像博物館
+    coordinateEvidence: 'Visible 經度/緯度 is 120.96961/24.804924; address is 新竹市東區中正路65號. Order explicitly converted from longitude/latitude to report latitude/longitude. Exact source: https://www.taiwan.net.tw/m1.aspx?id=10870&sNo=0001016'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected record Attraction_376580000A_000005: PositionLat=24.800269977968718, PositionLon=120.97178507604835, exactly equal to record 000004 南大路警察宿舍. Its 中正路65號 address conflicts with that duplicated location. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8049
+    longitude: 120.9696
+  verifiedLocation:
+    latitude: 24.804924
+    longitude: 120.96961

@@ -38,14 +38,14 @@ point:
           label: 售票
   indoor: true
   location:
-    latitude: 24.8063
-    longitude: 120.9701
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8063,120.9701"
+    latitude: 24.8063455913574
+    longitude: 120.970086053087
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8063455913574,120.970086053087
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "主入口位於中正路與勝利路交叉口旁，面向中正路，有弧形雨庇的白色建築即是。"
+  locationHint: 中央路116號新竹市美術館（原新竹市役所）外側；不是菸酒專賣局，也不是中正路／勝利路口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Cultural-heritage coordinates independently match the museum's current address. Keep as the mapped building/exterior landmark, not a surveyed entrance threshold. YAML building identity/history and entrance description need editorial correction. Reject the tourism bulk-feed location nearly a kilometre away.
+  sources:
+  - url: https://tcmb.culture.tw/zh-tw/detail?id=20010531000003&indexCode=BOCH_CountryCulture_11
+    title: 文化部國家文化記憶庫：新竹市役所
+    coordinateEvidence: 'Explicit fields 緯度=24.8063455913574, 經度=120.970086053087; use information identifies the building''s museum reuse and public visitation. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=20010531000003&indexCode=BOCH_CountryCulture_11'
+  - url: https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313
+    title: 文化部博物之島：新竹市美術館
+    coordinateEvidence: 'Identity/access corroboration only: 新竹市東區中央路116號, free admission and accessible approach; no numeric coordinate extracted from this page. Exact source: https://museums.moc.gov.tw/MusData/Detail?museumsId=851fcd82-45fe-47c6-b07a-339930b37313'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected Attraction_376580000A_000010 PositionLat=24.814075877959464, PositionLon=120.9641509760486; inconsistent with the cultural-heritage pin and 中央路116號. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8063
+    longitude: 120.9701
+  verifiedLocation:
+    latitude: 24.8063455913574
+    longitude: 120.970086053087

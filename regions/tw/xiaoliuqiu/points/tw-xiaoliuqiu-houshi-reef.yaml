@@ -4,18 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "厚石裙礁"
-  summary: "小琉球南端最壯觀的珊瑚裙礁地形，退潮時礁盤向外延伸數十公尺，是台灣密度最高的野生綠蠵龜棲地之一，腳下每一塊礁石都是數百萬年珊瑚骨骼層層堆積的活地質博物館。"
+  summary: "厚石裙礁是小琉球東南沿海、大福漁港至海子口之間的礁岩景觀帶。可從安全開放的陸側觀察奇岩，不把區域定位當作下水或走礁盤的入口。"
   narration: |
-    小琉球整座島，其實就是一塊從海底緩緩隆起的古老珊瑚礁台地。站在厚石裙礁，腳下踩的每一塊岩石，都是無數珊瑚蟲幾百萬年來骨骼堆積的遺跡。「裙礁」這個名字很傳神——珊瑚緊貼著海岸往外生長，像是給島嶼穿上一件向外展開的裙擺，退潮時礁盤往外延伸數十公尺，礁縫間藏著海星、彈塗魚、五彩珊瑚礁魚，偶爾還有章魚縮在暗處，瞪著你。
+    厚石裙礁沿小琉球東南海岸展開。珊瑚礁地形緊貼島緣，像向海伸出的裙擺；大福漁港至海子口間的環島道路沿線可見觀音石、老鼠石等不同形態的奇岩。
     
-    「厚石」這個地名，說的正是這一帶礁石格外厚實、堅硬。幾百年前從澎湖和閩南渡海來的漁民，看上這塊巨大礁石可以擋浪，在此建港落腳，便取名厚石漁港，而裙礁也因此得名。
+    海浪、風化與岩石裂隙共同塑造海岸景觀。看見地圖上的厚石裙礁標記，代表抵達景觀路段，不代表可以走到任何礁池或下水浮潛。原稿的「厚石漁港旁老廟」及固定入礁盤動線未獲本次資料支持，不作到訪指引。
     
-    但比漁民更早住在這裡的，是綠蠵龜。牠們在印太海域悠游了幾千萬年，小琉球珊瑚礁上長滿的海藻正是牠們愛吃的食物。老一輩漁民視龜為「海的守護神」，不捕、不傷，這個代代相傳的民間禁忌，意外保護了族群數量。如今小琉球是台灣最容易在水下邂逅野生綠蠵龜的地方，浮潛時幾乎必遇，牠們悠悠地啃著礁石，對身旁的遊客泰然自若——那副從容模樣，像是在提醒你：這片海，牠才是真正的主人。
-    
-    小琉球的歷史並不輕鬆。荷蘭殖民台灣時，島上住著平埔族人，荷蘭史料稱此島為「Lamey」。1636年荷蘭東印度公司與島民爆發激烈武裝衝突，倖存的原住民幾乎全數被迫離島，小琉球一度成為荒廢無人島。其後閩南與澎湖漁民陸續移入，帶來媽祖信仰與討海技藝，才慢慢建成今日的樣貌。厚石漁港旁的老廟，正是這段移民歷史的見證。
-    
-    海浪一波一波打來，拍在厚石礁盤上又散開，礁石紋絲不動。這塊「厚實的礁石」，靜靜承載著珊瑚礁的地質史、原住民的消逝、漁民的遷徙，還有世世代代游過的綠蠵龜。恍然大悟，就從踩上這片礁盤的那一刻開始。
-  observationPrompt: "退潮時走上礁盤，找找礁縫裡藏了哪些小生物（海星、彈塗魚、章魚）？再往海面看，有沒有綠蠵龜浮出水面換氣？算算今天的退潮礁盤大約延伸多遠？"
+    請在安全且允許停留的陸側賞景，避開行車動線、護欄外與受管制海岸。若見海龜，保持至少五公尺距離，不追逐、觸碰或干擾。
+  observationPrompt: "從安全的陸側觀看礁岸輪廓與浪線，比較不同奇岩外形；不要走上礁盤測距、翻石找生物或自行下水。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -48,14 +44,14 @@ point:
         label: 浮潛
   indoor: false
   location:
-    latitude: 22.3342
-    longitude: 120.3738
-    locationHint: "小琉球南端厚石漁港旁，沿環島公路南段海岸步道步行可達，礁盤在漁港南側岸邊"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3342,120.3738"
+    latitude: 22.32275
+    longitude: 120.36119
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.32275,120.36119
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 大福漁港至海子口之間、環島公路東南沿岸厚石裙礁景觀路段；採官方遊憩區導航錨點，從可停留的陸側路旁賞景。不將此點當作入水點、潮池中心或觀音石專屬座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -64,7 +60,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-houshi-reef-source]
   distinctiveness:
     score: 4
-    note: "珊瑚裙礁地形壯觀，搭配全台罕見的大量可目擊野生綠蠵龜，此組合在台灣絕無僅有"
+    note: "連續礁岸與多種奇岩輪廓具辨識度，不以海龜目擊保證作為特色。"
     sources: [tw-xiaoliuqiu-houshi-reef-source]
   interpretability:
     score: 3
@@ -72,7 +68,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-houshi-reef-source]
   visitorValue:
     score: 4
-    note: "浮潛即可高機率近距離觀察野生綠蠵龜，退潮礁盤生態豐富，攝影與生態體驗價值極高"
+    note: "以陸侧海岸景觀觀察為主，不推薦自行踏礁或近距離浮潛賞龜。"
     sources: [tw-xiaoliuqiu-houshi-reef-source]
   evidenceQuality:
     score: 3
@@ -82,12 +78,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-houshi-reef-source
     title: "交通部觀光署 西南海岸國家風景區管理處"
-    publisher: ""
+    publisher: "www.swcoast-nsa.gov.tw"
     url: https://www.swcoast-nsa.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-houshi-reef-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=238
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-houshi-reef-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -106,3 +118,21 @@ review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。管理處有明列座標、一鍵導航及停車場，並描述沿公路可觀看的礁岩；其遊憩承載評估另列此區岸側觀賞活動。原座標偏離約1817公尺。厚石裙礁是延展海岸地貌，採 area 而不宣稱唯一入口；原文『厚石漁港旁』及鼓勵走礁盤、浮潛的描述未獲此陸上導航證據支持，不應沿用。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238
+    title: 交通部觀光署大鵬灣國家風景區管理處：厚石裙礁
+    coordinateEvidence: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238 的唯讀 HTML 明列『經度：120.36119 緯度：22.32275』，導航 href 為 https://maps.google.com/maps?q=22.32275,120.36119。頁面列停車場並將遊賞動線描述為環島公路沿線，故保留其區域導航用途，不把離岸海洋測站或礁盤幾何中心用作抵達點。
+  - url: https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile
+    title: 113年度琉球風景特定區遊憩承載量綜合評估：厚石裙礁
+    coordinateEvidence: https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的『10. 厚石裙礁』可檢索內容及圖說描述沿海岸道路的觀賞景觀活動範圍。此來源佐證陸側賞景用途，不從圖形比例尺、航照影像或中心位置反算新座標。
+  previousLocation:
+    latitude: 22.3342
+    longitude: 120.3738
+  verifiedLocation:
+    latitude: 22.32275
+    longitude: 120.36119

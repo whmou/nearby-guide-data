@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8395
-    longitude: 125.2806
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8395,125.2806"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 未確認敘述中的砂山木棧道展望台現址與開放狀態；不要把海灘 pin 當作台地邊緣或展望台位置。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +95,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact-name search found historical municipal planning/council references to a Sunayama viewpoint, including discussion of restoring access. These do not verify the current wooden-railed platform in YAML. Existing coordinate duplicates the beach; no explicit current viewpoint pin was established.
+  sources:
+  - url: https://www.city.miyakojima.lg.jp/gyosei/gikai/files/H3006dai5kaiteireikaikaigiroku.pdf
+    title: 平成30年6月宮古島市議会会議録：砂山ビーチの里道・展望台
+    coordinateEvidence: Searchable council record discusses restoration of the former path/viewpoint; no current exact coordinate. Historical existence must not be confused with a verified accessible platform today.
+  - url: https://www.okinawastory.jp/spot/1081
+    title: 砂山ビーチ｜おきなわ物語
+    coordinateEvidence: Explicit q=24.83953094,125.28069305 is the beach marker, not a separately established hilltop platform; not substituted.
+  previousLocation:
+    latitude: 24.8395
+    longitude: 125.2806
+  verifiedLocation: null

@@ -1,0 +1,273 @@
+[
+  {
+    "id": "tw-xiaoliuqiu-night-snorkel",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "夜間浮潛是需預約的海域活動；集合點及下水位置須由實際承辦業者確認，不能以白沙港或大福港代替。",
+    "reason": "2026-09-16 查核。YAML 未指定業者或行程，且同時提到白沙、大福兩港，沒有可驗證的唯一陸上集合點。官方資訊僅支持島上多處水域活動，不支持各夜潛業者一律在白沙港集合、固定十分鐘船程的說法。查得的夜潛商品有其自己的報到場所，而且是持證水肺潛水，不能替代此筆夜間浮潛。原 22.3478,120.3713 不予認證。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/PlanTrip/Articles?a=428",
+        "title": "大鵬灣國家風景區管理處－小琉球旅遊指引",
+        "coordinateEvidence": "查閱 https://www.dbnsa.gov.tw/zh-TW/PlanTrip/Articles?a=428 的水域活動指引，內容要求選擇合法、合格業者；沒有名為『小琉球夜間浮潛』的統一報到座標。本來源用於活動性質及承辦方式核對，未抽取任何座標。"
+      },
+      {
+        "url": "https://liuqiu-beardiving.rezio.shop/product/EGAI3L",
+        "title": "熊潛水－小琉球專業潛水行程（持有潛水證照）",
+        "coordinateEvidence": "https://liuqiu-beardiving.rezio.shop/product/EGAI3L 明列夜潛方案及集合地點『小琉球－熊潛水 Bear Diving』，而非全島共用港口。僅用來辨識業者特定集合方式；YAML 未指定此業者，故不採其地址或地圖座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-rat-rock",
+    "status": "verified",
+    "latitude": 22.3230315,
+    "longitude": 120.3622755,
+    "anchorType": "landmark",
+    "locationHint": "小琉球東南厚石裙礁帶、忠孝路沿線的老鼠岩／老鼠石實體地標，僅供岸上鄰近語音辨識；不是入口、步道或岩體可攀登位置。請留在開放且安全的岸上遠觀，勿為靠近pin跨越護欄、進入礁岩、涉水或攀爬；不得在行車道停留。",
+    "reason": "2026-09-16 整合複核。林業署確認老鼠石位於東南厚石奇岩帶；本次另找到單獨Rat Rock Google place連結，從!3d/!4d抽取22.3230315,120.3622755，而非@視窗中心。另一篇獨立遊記的具名短連結解析到同一place ID並標示老鼠岩、忠孝路72號，支持個別地標身分。故按整合要求改為verified landmark，非安全到達入口，亦未借用觀音石或整組奇岩登錄點。原22.3644,120.3626偏北約4.6公里；YAML北端、花瓶石步行三至五分鐘的說法應移除。",
+    "sources": [
+      {
+        "url": "https://landscape.forest.gov.tw/Front/land_search/Landscape.aspx?Sn=19&id=kVsq7hIIvoI%3D",
+        "title": "林業及自然保育署臺灣地景保育網－屏東琉球嶼的奇岩怪石（S62）",
+        "coordinateEvidence": "https://landscape.forest.gov.tw/Front/land_search/Landscape.aspx?Sn=19&id=kVsq7hIIvoI%3D 的『經緯座標』實際列出 22.32283056,120.3611944，但記錄名稱是整組『屏東琉球嶼的奇岩怪石』，描述含觀音石、紅番石、老鼠石及爬山虎。這是群體登錄點，未採為老鼠石座標。"
+      },
+      {
+        "url": "https://ahpekbiker.blogspot.com/2018/01/cycling-taiwan-2017-day-10-kaohsiung-to.html",
+        "title": "AhPek Biker－Cycling Taiwan 2017 Day 10（Rat Rock個別GPS及地圖連結）",
+        "coordinateEvidence": "直接HTTP讀取 https://ahpekbiker.blogspot.com/2018/01/cycling-taiwan-2017-day-10-kaohsiung-to.html，Places of Interest分別列Guanyin Rock與Rat Rock；後者明列GPS 22.32303,120.36227，其完整href為 https://www.google.com/maps/place/Rat+Rock/@22.3230315,120.3622755,17z/data=!3m1!4b1!4m6!3m5!1s0x3471efc1c48700a5:0x494f0dee88771221!8m2!3d22.3230315!4d120.3622755!16s%2Fg%2F11dxm8tl2m?entry=ttu 。採place資料!3d22.3230315!4d120.3622755，不採@值或另列的街景視角。Google頁直接讀取未回傳可解析數值，數字證據為此實際發佈的place連結；正文記錄親訪老鼠岩。"
+      },
+      {
+        "url": "https://yilinasia.wordpress.com/2022/02/05/xiaoliuqiu-travel/",
+        "title": "yilinasia－小琉球住宿杉灣小徑（老鼠岩位置連結）",
+        "coordinateEvidence": "直接HTTP讀取 https://yilinasia.wordpress.com/2022/02/05/xiaoliuqiu-travel/，老鼠岩段落的『老鼠岩位置在這裡』href雖前綴誤置文字，仍明含 https://goo.gl/maps/n891VMBVxLZtEqzG9 。只讀解析此短連結，最終URL為 https://www.google.com/maps?q=929%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%90%89%E7%90%83%E9%84%89%E5%BF%A0%E5%AD%9D%E8%B7%AF72%E8%99%9F%E8%80%81%E9%BC%A0%E5%B2%A9&ftid=0x3471efc1c48700a5:0x494f0dee88771221&hl=zh-Hant-TW&gl=tw&entry=gps&lucs=s2se,a2&shorturl=1 。q解碼為929屏東縣琉球鄉忠孝路72號老鼠岩，ftid與另一來源的個別Rat Rock完全相同；此來源核對身分，不从頁面預設視窗或地址地理編碼取得坐標。"
+      },
+      {
+        "url": "https://lucharger.com/%E8%A7%80%E9%9F%B3%E7%9F%B3/",
+        "title": "旅充小日子－觀音石、老鼠石、紅番石攻略",
+        "coordinateEvidence": "https://lucharger.com/%E8%A7%80%E9%9F%B3%E7%9F%B3/ 將三種奇岩描述在大福漁港與海子口之間的東南沿海，獨立支持方位及道路沿線身分；此頁不作個別老鼠石或路側觀賞点的坐標來源，未從照片或地圖視窗推算。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-sanmin-street",
+    "status": "verified",
+    "latitude": 22.3527994,
+    "longitude": 120.3823635,
+    "anchorType": "visitor_area",
+    "locationHint": "白沙港周邊市街、三民路288–294號一帶的「小琉球三民老街」具名街道訪客圖釘。是戶外逛街接近點，不是整島中心、店家替代點或精測老街入口；留意車流，勿走入私人院落。不是大福漁港旁三民路與新興路口。",
+    "reason": "2026-09-16 補查。Google 直接回傳 Xiaoliuqiu Sanmin Old Street 的唯一具名 feature 與三民路288–294號地址；官方遊憩資源調查明列同名街道與行人活動空間，現地旅遊記錄另確認三民路傳統聚落及與民生路商街的關係。採 visitor_area，非任意選一店家或推算街區中心。原22.347,120.3728與大福港敘述不符；無須因沒有單一售票入口而排除真實街道。",
+    "sources": [
+      {
+        "url": "https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E4%B8%89%E6%B0%91%E8%80%81%E8%A1%97&output=embed",
+        "title": "Google Maps：Xiaoliuqiu Sanmin Old Street feature",
+        "coordinateEvidence": "2026-09-16 唯讀 HTTP 取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E4%B8%89%E6%B0%91%E8%80%81%E8%A1%97&output=embed；選定 feature 陣列開頭為 [[\"0x3471e5758249712d:0x5cf7d62fb09c23d4\",\"Xiaoliuqiu Sanmin Old Street, No. 294-288, Sanmin Rd, Zhongfu Village, Liuqiu Township, Pingtung County, 929\",[22.3527994,120.3823635],...]。數值直接來自具名 feature，不來自前方視窗陣列或 /@，也不是附近商家座標。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile",
+        "title": "大鵬灣管理處：113年度琉球風景特定區遊憩承載量成果報告（三民老街）",
+        "coordinateEvidence": "本次 web 搜尋取得 https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的可索引表文，第27項明列三民老街及遊客逛街、吃飯、購物等行人活動，部分路段限制較大型車輛。直接開啟PDF遇工具錯誤；只使用官方索引表文核對具名 visitor_area，未從示意圖估算座標。"
+      },
+      {
+        "url": "https://www.leeleelin.com/2018/07/Sanmin-Road.html",
+        "title": "熊本一家：小琉球三民老街／閩南式傳統建築",
+        "coordinateEvidence": "本次直接HTTP讀取 https://www.leeleelin.com/2018/07/Sanmin-Road.html，確認三民路老街及往漁福漁港的傳統聚落，並連結鄉公所舊版三民老街介紹；不是大福港旁路口。此為現地敘述的身分／街道交叉核對，沒有從照片、EXIF或地址地理編碼推算GPS。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-seafood",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "全島海鮮飲食主題，並非單一攤販、餐廳或市場；需先選定真實場所，才能另建地點。",
+    "reason": "2026-09-16 查核。YAML 自稱非單一地標，也沒有可辨識的餐廳名稱、門牌或市場；所謂三民路與新興路交叉小廣場未獲查得資料支持。官方以多種在地料理與餐館介紹此飲食文化，不存在可從主題直接抽出的單一戶外抵達點。原 22.3464,120.3728 不予認證，不擅自替換為某家店。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/Experience/Articles?a=129",
+        "title": "大鵬灣國家風景區管理處－美食特產",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/Experience/Articles?a=129 以料理分類介紹小琉球蜂巢蝦等地方海味；這是飲食主題頁，未指認本筆所稱小廣場或統一餐飲集合座標。沒有抽取或移用個別商家座標。"
+      },
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?sNo=0042284",
+        "title": "交通部觀光署－小琉球（海灣旅遊）",
+        "coordinateEvidence": "https://www.tad.gov.tw/m1.aspx?sNo=0042284 將魷魚小封等作為島上餐廳及地方飲食文化介紹，未將『小琉球海鮮美食』定義成單一場所；不以島嶼位置替代體驗主題的GPS。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-sea-turtle-snorkel",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "賞龜浮潛是多海域活動，須依預約業者確認報到與合法下水處；杉福生態廊道的陸上入口不等於浮潛集合點。",
+    "reason": "2026-09-16 查核。YAML 同時指杉福及花瓶石，未指定業者，且體驗發生於水中，不具唯一陸上錨點。官方調查將花瓶岩、美人洞及杉福近岸列為不同浮潛區，無法支持原 22.338,120.368 是共通報到點。不借用杉福漁港或已核實的生態廊道入口。安全交接：tw-xiaoliuqiu-sea-turtle-snorkel.yaml第13行原句『就在你面鏡前三十公分外』及第66行ratingEvidence.distinctiveness.note『即可與野生綠蠵龜零距離共游』鼓勵或美化過度靠近；建議主流程最小範圍刪除這些近距離承諾，改為『與海龜保持至少五公尺距離，不觸碰、不追逐、不包圍、不干擾。』依據縣府潮琉生態保育網公開注意事項，並非本報告另行主張法定距離。本次沒有修改YAML。",
+    "sources": [
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile",
+        "title": "大鵬灣管理處－113年度琉球風景特定區遊憩承載量綜合評估成果報告（水上活動）",
+        "coordinateEvidence": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的水上活動段落分列花瓶岩、美人洞第二遊憩區及杉福漁港近岸浮潛區。這是多處海域而非一個報到點；未抽取海域中心、繫泊點或港口座標代替本體驗。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/",
+        "title": "屏東縣潮琉生態保育網－遊憩及海龜保育注意事項",
+        "coordinateEvidence": "直接HTTP讀取 https://liuchiu-intertidal.pthg.gov.tw/，注意事項明列『並與海龜保持五公尺以上的距離』；英文版 https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en 明列maintain a distance of at least 5 meters並要求不觸碰、干擾、追逐、包圍。這是安全文字修正依據，不含此未具名浮潛行程的集合座標，未抽取GPS。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-shanfu-corridor",
+    "status": "verified",
+    "latitude": 22.3438056,
+    "longitude": 120.3623889,
+    "anchorType": "entrance",
+    "locationHint": "西岸杉福生態廊道／舊砲陣地的陸上入口（琉行之道杉福端）。由環島道路進入舊軍事設施及景觀步道；不是杉福漁港水域或潮間帶的下水集合點，勿逕自進入受管制礁盤。",
+    "reason": "2026-09-16 查核。採官方明確標名的杉福砲陣地入口，不採琉行之道一般景點中心。另一份官方工程資料明確把此砲台定位於杉福生態廊道，建立兩名稱的同址關係。原 22.3625,120.3615 過度偏北；YAML 將陸上舊軍事廊道與潮間帶賞龜體驗混合，核實範圍限於陸上入口，不背書夜間龜群上岸等敘事。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=262",
+        "title": "大鵬灣國家風景區管理處－琉行之道（杉福砲陣地入口）",
+        "coordinateEvidence": "直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=262，正文明列『杉福砲陣地入口: 22°20'37.7\"N 120°21'44.6\"E』並連結 https://maps.app.goo.gl/sxyvSujiBMxkW7NT9?g_st=il 。以度+分/60+秒/3600換算為22.3438056,120.3623889；沒有使用網址@視窗中心，也未使用同頁一般景點座標22.34417,120.36219。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=34405&type=NewsAttFile",
+        "title": "大鵬灣管理處－琉行之道景點設施修繕工程杉福砲台環境現勘資料",
+        "coordinateEvidence": "https://admin.taiwan.net.tw/fapi/AttFile?id=34405&type=NewsAttFile 印刷頁16文字將杉福砲台列為琉行之道起點，並明指位於小琉球西側杉福生態廊道、由舊軍事基地改建。此來源用於入口身分與陸上步道用途核對，沒有另行抽取或推估座標。"
+      },
+      {
+        "url": "https://nanai.tw/liuqiu-old-cannon/",
+        "title": "Nana愛旅行札記－舊砲陣地（杉福生態廊道）",
+        "coordinateEvidence": "https://nanai.tw/liuqiu-old-cannon/ 的實地遊記將旧砲陣地與杉福生態廊道連結，說明入口原為軍事砲陣地、位於肚仔坪與杉福漁港之間；獨立核對同址及參觀動線。報告座標只取前述官方明列入口DMS，不取遊記照片或地图視窗。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-tiantan-mountain",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "尚未核實小琉球『天台山』及碧雲寺後方登頂步道的身分。勿導航至原點，亦勿直接改成八七高地、龜仔路山、碧雲寺或澎湖望安天台山。",
+    "reason": "2026-09-16 查核。YAML 把天台山描述為小琉球87公尺最高峰，且從碧雲寺後方石階登頂；查得官方資料僅支持東南台地最高87公尺，登山紀錄稱龜仔路山／八七高地，不能證明與此名稱、路線為同一景點。觀光署開放資料中的天台山則位在澎湖望安。身分疑似混淆，原22.3493,120.3738及步道敘述未獲支持；不擅改地名或移用別山座標。",
+    "sources": [
+      {
+        "url": "https://video.moa.gov.tw/theme_data.php?id=16&sub_theme=cvideos&theme=videos",
+        "title": "農業部虛擬博物館－100年樂活農村第029集：潛進琉球有GO讚",
+        "coordinateEvidence": "https://video.moa.gov.tw/theme_data.php?id=16&sub_theme=cvideos&theme=videos 的介紹說明最高點為東南台地87公尺；沒有名為天台山的入口或座標。未以高度相同推定兩名稱為同一地點。"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip",
+        "title": "交通部觀光署景點開放資料－AttractionList.json",
+        "coordinateEvidence": "2026-09-16 直接HTTP讀取 https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip，僅在記憶體解析AttractionList.json。Attraction_A15010200H_000135 的AttractionName='天台山'、PostalAddress.City='澎湖縣'、Town='望安鄉'、PositionLat=23.3807、PositionLon=119.49371。這是異島同名景點，明確拒絕移用其座標。"
+      },
+      {
+        "url": "https://www.keepon.com.tw/thread-6cb3a1cb-13d8-e411-93ec-000e04b74954.html?AspxAutoDetectCookieSupport=1",
+        "title": "登山補給站－小琉球之八七高地、竹林步道、大寮山等",
+        "coordinateEvidence": "https://www.keepon.com.tw/thread-6cb3a1cb-13d8-e411-93ec-000e04b74954.html?AspxAutoDetectCookieSupport=1 稱87公尺最高點為龜仔路山／八七高地，並列TWD67基點185162,2471640及其他山路點。這些是另一名稱的山頂及舊紀錄，不轉換、也不指派給身分未明的『天台山』。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-vase-rock",
+    "status": "verified",
+    "latitude": 22.35566,
+    "longitude": 120.38076,
+    "anchorType": "landmark",
+    "locationHint": "靈山寺前海岸、白沙觀光港附近的花瓶岩實體地標座標，僅供鄰近語音辨識；不是入口、步道或可安全抵達岩柱的導航點。請在開放且安全的岸上遠觀，勿為靠近定位點而進入潮間帶礁岩、涉水或攀爬岩體，遵守現場管制。",
+    "reason": "2026-09-16 整合複核。管理處以花瓶岩之名公布明確經緯度及數字地圖q，足以認證為實體landmark，供80至150公尺級鄰近語音觸發使用；不宣稱pin是入口或安全路線。原22.3682,120.3768及白燈塔下方提示錯誤。依整合要求撤銷先前因缺獨立岸上入口而給予的unresolved判定，直接採官方地標pin，未虛構步道座標。官方並建議保持距離遠觀。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=222",
+        "title": "大鵬灣國家風景區管理處－花瓶岩",
+        "coordinateEvidence": "直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=222，旅遊資訊顯示經度120.38076、緯度22.35566；iframe及一鍵導航均為 https://maps.google.com/maps?q=22.35566,120.38076 。直接抽取數字q並核對頁面名稱花瓶岩，採緯度22.35566、經度120.38076作landmark；不是@視窗中心，也不把岩體pin稱為岸上入口。"
+      },
+      {
+        "url": "https://deh.csie.ncku.edu.tw/poi_detail/8045",
+        "title": "國立成功大學文史脈流－小琉球花瓶岩",
+        "coordinateEvidence": "https://deh.csie.ncku.edu.tw/poi_detail/8045 另列緯度22.355418、經度120.381005，參考來源註為實際體驗，支持同一花瓶岩景觀的位置。此點未標明入口且地址帶問號，故不採其點作岸上觀景點；主座標採官方數字pin，不平均兩來源。"
+      },
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-tw/Experience/articles?a=347",
+        "title": "大鵬灣管理處－大鵬灣×小琉球兩天一夜無礙輕旅行",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-tw/Experience/articles?a=347 將花瓶岩及遊客中心列為相鄰但不同的遊程停留點，並描述遊客中心戶外平台；未提供可確定為花瓶岩岸上觀看點的單獨經緯度，因此未挪用整棟遊客中心或其附近公車站座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-wild-boar-trench",
+    "status": "verified",
+    "latitude": 22.33845,
+    "longitude": 120.36248,
+    "anchorType": "entrance",
+    "locationHint": "小琉球西岸環島公路60號山豬溝生態步道景區入口／售票抵達區。由道路進入有管理的森林步道；不是花瓶石旁地縫，也不是可以任意下切的溝底。入園依現場售票、開放及封閉公告。",
+    "reason": "2026-09-16 查核。採管理處對環島公路60號景區的明確導航目的地，觀光署同景點座標在約2公尺內一致，且官方交通資訊確認為西岸有門票的步道景區。原22.3578,120.3791及東北岸、花瓶石步行二至三分鐘的說法是重大方位錯誤；不是只需要小幅微調。座標用作道路側景區抵達點，不代表山溝中部或洞穴內部。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=229",
+        "title": "大鵬灣國家風景區管理處－山豬溝",
+        "coordinateEvidence": "直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=229，地址為屏東縣琉球鄉環島公路60號，明列經度120.36248、緯度22.33845；主iframe及一鍵導航網址為 https://maps.google.com/maps?q=22.33845,120.36248 。採此官方目的地，不採同頁周邊站牌座標或地图@中心。"
+      },
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=A12-00424&sNo=0001122",
+        "title": "交通部觀光署－山豬溝",
+        "coordinateEvidence": "https://www.tad.gov.tw/m1.aspx?id=A12-00424&sNo=0001122 的經度/緯度欄為120.36247/22.338438，名稱及地址為山豬溝生態步道；轉為緯度在前即22.338438,120.36247，与採用的管理處導航位置相符。兩頁同屬觀光主管體系，不宣稱為獨立實測。"
+      },
+      {
+        "url": "https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12049",
+        "title": "台灣好行－山豬溝",
+        "coordinateEvidence": "https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12049 明確描述西岸山豬溝生態步道及收票管理；直接HTTP取得的地圖連結只有 https://www.google.com.tw/maps/dir//山豬溝 ，不是數字坐標，故不另行用地名搜尋第一筆結果產生座標。此頁只核對景區身分及入園性質。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-wugui-cave",
+    "status": "verified",
+    "latitude": 22.33022,
+    "longitude": 120.35573,
+    "anchorType": "entrance",
+    "locationHint": "西南岸環島道路旁烏鬼洞風景區陸上步道入口／售票抵達區；先到入口，入園後才循步道往岩洞。不是洞內、海岸巨石或海上落點；依現場售票與開放公告進入。",
+    "reason": "2026-09-16 查核。管理處官方數字導航點與獨立登山紀錄明列的烏鬼洞步道口相差約3公尺，支持其是可用陸上到達處而非洞穴中心。原22.3347,120.3698明顯向東北偏離。核實僅限位置與入口；歷史傳說的真實性不在此座標認證範圍。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=236",
+        "title": "大鵬灣國家風景區管理處－烏鬼洞",
+        "coordinateEvidence": "直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=236，明列經度120.35573、緯度22.33022，主iframe及一鍵導航連到 https://maps.google.com/maps?q=22.33022,120.35573 。同頁介紹西南岸有管理景區、停車場及入口地形，未以周邊公車站座標替代。"
+      },
+      {
+        "url": "https://www.keepon.com.tw/thread-e95a3e2c-824d-e511-93ed-000e04b74954.html?AspxAutoDetectCookieSupport=1",
+        "title": "登山補給站－1040302小琉球之旅（烏鬼洞步道口紀錄）",
+        "coordinateEvidence": "https://www.keepon.com.tw/thread-e95a3e2c-824d-e511-93ed-000e04b74954.html?AspxAutoDetectCookieSupport=1 的搜尋索引可讀正文在14:44紀錄『烏鬼洞步道口』及N22 19 48.7 E120 21 20.6，換算22.3301944,120.3557222；14:48才抵洞入口涼亭，明確區分步道口與洞口。此次直接HTTP遇重新導向循環，故這是2015年實地文字紀錄的索引交叉佐證，主座標及現行景區資訊仍取官方頁。未下載照片或讀EXIF。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-yuchengwei-beach",
+    "status": "verified",
+    "latitude": 22.3482643,
+    "longitude": 120.3886064,
+    "anchorType": "visitor_area",
+    "locationHint": "東北岸漁福村環島公路34號的「漁埕尾潮間帶」具名岸側訪客錨點，用於漁埕尾沙灘／潮間帶的陸側接近；不是沙灘中央、精測入口或保育區界址。抵達後確認現場管制站與導覽安排，不照座標自行走入潮間帶。",
+    "reason": "2026-09-16 補查。『小琉球漁埕尾沙灘』Google 查詢僅回傳視窗，已拒用；改以官方確有的同岸段名稱『漁埕尾潮間帶』取得唯一具名 feature，地址為漁福村環島公路34號。縣府資料明述該訪客區包括沙灘、岸際平台、管制站及規劃步道，故採同名岸側 visitor_area，不宣稱已取得沙灘個別 feature、入口或集合亭的精測座標。原東南角及22.336,120.39錯誤；此處在東北側，北接中澳沙灘。主流程須保留錨點名稱及受管制接近的限定。",
+    "sources": [
+      {
+        "url": "https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E6%BC%81%E5%9F%95%E5%B0%BE%E6%BD%AE%E9%96%93%E5%B8%B6&output=embed",
+        "title": "Google Maps：漁埕尾潮間帶（環島公路34號）feature",
+        "coordinateEvidence": "2026-09-16 唯讀取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E6%BC%81%E5%9F%95%E5%B0%BE%E6%BD%AE%E9%96%93%E5%B8%B6&output=embed；選定 feature 原始陣列為 [[\"0x3471e578897f548f:0x82a28a3f851e4430\",\"929, Pingtung County, Liuqiu Township, Yufu Village, Huandao Rd, 34號號漁埕尾潮間帶\",[22.3482643,120.3886064],\"9413238176578683952\"],\"漁埕尾潮間帶\",...]，分類為教育機構。採該具名道路地址 feature 的座標，不取前方 viewport，也不取先前沙灘查詢的22.34163895,120.3821712視窗。這是同名潮間帶岸側訪客定位，非獨立沙灘圖釘。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1",
+        "title": "屏東縣潮琉生態保育網：漁埕尾潮間帶預約導覽",
+        "coordinateEvidence": "本次重新讀取及搜尋 https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1，官方指出東北側、南鄰漁港、北接中澳沙灘，構成包括防波堤、沙灘及海蝕平台；須抵達管制站並由合格導覽員沿規劃步道進入。此來源核對與漁埕尾沙灘同岸段的 visitor_area 身分和陸上受管制接近，不提供34號圖釘的數值，沒有由文字估算座標。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile",
+        "title": "大鵬灣管理處：113年度琉球風景特定區遊憩承載量成果報告",
+        "coordinateEvidence": "本次 web 搜尋取得 https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的可索引表文，第25項漁埕尾潮間帶明述緊鄰中澳沙灘、設管制站、為導覽點。直接開啟PDF遇工具錯誤，故僅以索引表文核對實際訪客區與管理設施；不從圖面、邊界或中心提取任何GPS。"
+      }
+    ]
+  }
+]

@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8421
-    longitude: 125.1406
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8421,125.1406"
+    latitude: 24.84230232
+    longitude: 125.14072418
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.84230232,125.14072418
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 17END 位於下地島機場跑道北端旁的海岸；請沿公共外圍道路步行抵達。勿進入機場範圍，也勿將海面設為行車目的地。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: Official Okinawa tourism destination pin confirms the coastal viewing site. The pin is not a vehicle-accessible airport entrance; the perimeter road is closed to motor vehicles. Original point is about 25 m away.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600013225
+    title: おきなわ物語 — 17END
+    coordinateEvidence: HTML at https://www.okinawastory.jp/spot/600013225 contains a Google Maps place iframe with q=24.84230232,125.14072418. This is the explicit place query, not the embedded map camera.
+  - url: https://www.okinawastory.jp/course/600013260
+    title: おきなわ物語 — 下地島・宮古島 cycling course
+    coordinateEvidence: No additional coordinate extracted. https://www.okinawastory.jp/course/600013260 independently describes the runway-side beach and says the perimeter road excludes cars but permits bicycles; supports outdoor access.
+  previousLocation:
+    latitude: 24.8421
+    longitude: 125.1406
+  verifiedLocation:
+    latitude: 24.84230232
+    longitude: 125.14072418

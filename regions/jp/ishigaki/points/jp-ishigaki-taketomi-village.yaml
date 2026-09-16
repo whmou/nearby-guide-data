@@ -45,15 +45,10 @@ point:
       - id: free
         label: 免費
   indoor: false
-  location:
-    latitude: 24.3233
-    longitude: 124.0917
-    locationHint: "從竹富港步行約10至15分鐘即可抵達集落；亦可在港口租借自行車沿珊瑚砂路騎行，或搭乘竹富觀光中心的水牛車遊覽集落一圈。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3233,124.0917"
-  trigger:
-    radiusMeters: 300.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 竹富島的東・西・仲筋三聚落為生活與保存區域；尊重私宅、御嶽與居民通行。行政區為竹富町。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -80,7 +75,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-taketomi-village-source
     title: "竹富島 - Wikipedia（日語）"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E7%AB%B9%E5%AF%8C%E5%B3%B6
     accessedAt: "2026-07-18"
     language: ja
@@ -104,3 +99,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML涵蓋多個聚落並泛稱スンマシャー，未指定哪個入口廣場。不能以島中心、私人住宅或猜測的廣場定位整個生活區。
+  sources:
+  - url: https://takekou.info/island-tourist-information/
+    title: 竹富島交通 — 竹富島集落
+    coordinateEvidence: Confirms protected traditional settlement rather than a unique entrance. No numeric point extracted; the YAML's unnamed スンマシャー is not resolved to an arbitrary square.
+  previousLocation:
+    latitude: 24.3233
+    longitude: 124.0917
+  verifiedLocation: null

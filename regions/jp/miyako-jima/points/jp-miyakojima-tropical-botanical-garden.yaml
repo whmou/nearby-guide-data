@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8002448
-    longitude: 125.315929
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8002448,125.315929"
+    latitude: 24.8000949
+    longitude: 125.3155536
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8000949,125.3155536
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 宮古島市熱帯植物園官方地址地標（平良東仲宗根添1166-286）；供園區鄰近導覽，循現場開放通路進園，非精確大門。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +90,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 fetched tourism association garden page and the actual address-feature array of its embedded map. Approximately 41 m from current coordinate, without inventing an entrance offset.
+  sources:
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_029/
+    title: 宮古島市熱帯植物園｜宮古島観光協会
+    coordinateEvidence: Page specifies garden address 平良東仲宗根添1166-286. Fetch iframe and inspect Maps initialization feature 0x34f4514f8e285181:0x5f88ccf18a08b475, address label 〒906-0011 沖縄県宮古島市平良東仲宗根添１１６６−２８６, associated [24.8000949,125.3155536]. Feature array, not viewport.
+  previousLocation:
+    latitude: 24.8002448
+    longitude: 125.315929
+  verifiedLocation:
+    latitude: 24.8000949
+    longitude: 125.3155536

@@ -39,15 +39,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.806471
-    longitude: 120.968438
-  googleMapsUrl: "https://maps.google.com/maps?q=24.806471,120.968438"
-  trigger:
-    radiusMeters: 100.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 500.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 真實的護城河帶狀公園；官方資料座標與街廓位置不符，目前尚缺可核實的具名公園地標 pin。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -97,3 +92,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit, landmark-pin review. The park exists, but the current official tourism coordinate conflicts with its documented 林森路—東門—世界街 corridor. The health-bureau map uses a street-name directions query without an explicit numeric pin. A reliable named-park landmark would suffice; a separate entrance is not required. Remains unresolved for conflicting/missing coordinate evidence, not for being a linear park or lacking a surveyed entrance.
+  sources:
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected Attraction_376580000A_000042 護城河 PositionLat=24.804876000000004, PositionLon=120.95426950781247; address says 林森路經東門城至世界街口, inconsistent with this westward pin. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  - url: https://health.hcchb.gov.tw/healthmap-detail.php?category=2&nid=26
+    title: 新竹市衛生局健康飲食運動地圖：護城河親水公園
+    coordinateEvidence: 'Read-only HTML gives directions href https://www.google.com/maps/dir//新竹市勝利路、文化街、府後街/ . No latitude/longitude or independently located entrance was extracted; do not geocode its first hit. Exact source: https://health.hcchb.gov.tw/healthmap-detail.php?category=2&nid=26'
+  previousLocation:
+    latitude: 24.806471
+    longitude: 120.968438
+  verifiedLocation: null

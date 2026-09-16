@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.807767
-    longitude: 125.280436
-  googleMapsUrl: "https://maps.google.com/maps?q=24.807767,125.280436"
+    latitude: 24.807785
+    longitude: 125.28043
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.807785,125.28043
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 宮古神社官方地圖標記（平良字西里5-1）；供鄰近導覽定位，抵達請循現場參道，不代表鳥居或停車入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 fetched the shrine's own access page. Its explicit Google Maps place query confirms the existing location to approximately 2 m; not a viewport coordinate.
+  sources:
+  - url: https://miyako-jinja.com/map.html
+    title: 宮古神社公式サイト：地図・連絡先
+    coordinateEvidence: HTML iframe[src] points to /maps/embed/v1/place; URL q=24.807785,125.28043. Page identifies 宮古神社, 沖縄県宮古島市平良字西里5-1. API key omitted.
+  previousLocation:
+    latitude: 24.807767
+    longitude: 125.280436
+  verifiedLocation:
+    latitude: 24.807785
+    longitude: 125.28043

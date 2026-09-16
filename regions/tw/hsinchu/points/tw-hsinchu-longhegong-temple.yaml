@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.808582
-    longitude: 120.964876
-  googleMapsUrl: "https://maps.google.com/maps?q=24.808582,120.964876"
+    latitude: 24.80854
+    longitude: 120.9649
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80854,120.9649
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 北門街135號長和宮廟前；位於北門街，不在南門。與旁邊水仙宮分辨。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Named official pin, matching address and public visitation establish the temple. The YAML incorrectly puts it near the south gate; correct the hint, not the temple identity. Coordinate denotes the landmark/front approach rather than a surveyed gate threshold.
+  sources:
+  - url: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31
+    title: 內政部宗教文化地圖：新竹長和宮
+    coordinateEvidence: 'Explicit 經緯度=120.96490,24.80854; 北門街135號; admission free; publicly open temple. No map viewport extraction. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31'
+  - url: https://www.hccg.gov.tw/jphccg/app/artwebsite?id=10058&module=artwebsite
+    title: 新竹市政府：新竹長和宮
+    coordinateEvidence: 'Independent city heritage account gives 北門街135号 and identifies its location outside the historical north gate; no new coordinate extracted. Exact source: https://www.hccg.gov.tw/jphccg/app/artwebsite?id=10058&module=artwebsite'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected city-feed Attraction_376580000A_000022 PositionLat=24.808564347331227, PositionLon=120.96233767592847; inconsistent longitude. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.808582
+    longitude: 120.964876
+  verifiedLocation:
+    latitude: 24.80854
+    longitude: 120.9649

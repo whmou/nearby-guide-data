@@ -4,18 +4,12 @@ point:
   parentId: null
   kind: venue
   title: "觀音石"
-  summary: "小琉球北側海岸的礁岩奇景，隆起的珊瑚石灰岩歷經千年海浪侵蝕，形塑出側看酷似觀音菩薩打坐的天然石雕，是島上漁民世代祈求出海平安的精神地標，也是認識珊瑚礁島地質與潮間帶生態的最佳入口。"
+  summary: "觀音石是小琉球東南厚石裙礁沿線的奇岩。定位採具名岩石地標，不是入口；請在開放的岸上位置觀賞，不繞岩或進入礁盤。"
   narration: |
-    小琉球是台灣周圍島嶼裡唯一純粹由珊瑚礁構成的島嶼——沒有火成岩，沒有板岩，連你踩的路基都是幾萬年前海底珊瑚的遺骸。整座島就像是大海花了漫長歲月慢慢推出水面的一塊石頭拼圖，而觀音石，就是這片拼圖裡最有故事的一塊。
+    官方將觀音石列在大福漁港至海子口之間的厚石裙礁沿線，屬島東南側，不是北岸。岩石的擬人輪廓讓人聯想到觀音，是認識奇岩地景的一種角度。這次已核對具名岩石圖釘，但它不是可直接站立的位置。
     
-    這塊礁石之所以叫「觀音石」，全憑一個角度。從特定的側面望過去，石頭的輪廓線條像極了觀世音菩薩端正打坐的身影：飽滿的頭頂、低垂的視線、衣袍自然垂落的曲線，老一輩的漁民說，根本不像是大自然無意間的產物，比廟裡雕的還要傳神。「工匠」其實是幾千年不間斷的風和浪。含鹽分的海風日夜侵蝕，颱風浪花季節性衝擊，加上雨水沿著礁石裂縫滲入溶蝕，珊瑚石灰岩硬是被刻出了這個輪廓。
-    
-    在機動漁船普及之前，琉球漁民的生計全繫於難以捉摸的台灣海峽。每逢出海前，漁家男人會在天未亮就來到礁石邊，面對觀音石雙手合十默禱——不求大富，只求平安回來、魚貨夠全家溫飽。這個習俗讓觀音石變成了一個沒有屋頂的野外神龕，也讓它在島民心中的地位絲毫不亞於村裡的廟宇。
-    
-    從地質學來看，觀音石所在的北側海岸是典型的「裙礁」地形：珊瑚礁平台緊緊貼著島緣向海中延伸，退潮時會露出一大片高低起伏的礁盤。仔細蹲下來看，礁穴積水裡躲著海膽、陽燧足和各式小螃蟹；潮池邊緣的岩壁上，幾乎每一個坑洞都有房客。如果你在礁盤邊往海裡多看一會兒，說不定會發現水面上有個黑色的圓弧緩緩浮沉——那是綠蠵龜在換氣。小琉球的綠蠵龜族群是全台灣密度最高的，牠們和礁石、和觀音石，早就是同一片生態系裡的老鄰居了。
-    
-    站在這裡，背後是南台灣的陽光，面前是亙古的浪聲，礁石上的每一道紋路都是時間留下的紀錄。漁民的祈禱、珊瑚的化石、綠蠵龜的背鰭——全都在同一塊石頭前交疊。
-  observationPrompt: "繞著觀音石走一圈，找出從哪個角度看起來最像菩薩打坐的側影；再蹲低看腳下的礁岩表面，能找到珊瑚的化石結構或蜂窩狀溶蝕坑嗎？往海面多等幾分鐘，看看是否有綠蠵龜浮上來換氣。"
+    本筆尚不能提供已核實的個別觀看動線。原稿的繞岩一圈、蹲到潮池邊及漁民固定到岩旁祈禱等敘述，不能當作可直接前往的指引。請僅於合法開放且安全的岸上觀察，不跨護欄、不攀岩，也不在行車道停留。
+  observationPrompt: "先核對現地標示與安全觀看範圍；不要為尋找特定側影繞入礁岩、潮間帶或私人土地。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -49,31 +43,31 @@ point:
         label: 地質教育
   indoor: false
   location:
-    latitude: 22.3668
-    longitude: 120.37
-    locationHint: "環島公路北側海岸礁石區，沿海岸步道可見，緊鄰路旁，無需入山，觀音石立有解說牌。"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3668,120.37"
+    latitude: 22.3227317
+    longitude: 120.3614075
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.3227317,120.3614075
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 東南岸厚石裙礁、環島公路沿線的觀音石。此座標是具名岩石地標，不是精測入口或可站立位置；在可通行道路岸側觀賞，不攀爬岩石、不跨入海蝕溝。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "小琉球島內知名地標與民間信仰場所，具在地文化代表性，但主要為區域性知名度。"
+    note: "官方確認其為東南厚石裙礁沿線奇岩；個別觀看位置仍待確認。"
     sources: [tw-xiaoliuqiu-guanyin-rock-source]
   distinctiveness:
     score: 4
-    note: "珊瑚礁島地質造就的擬人化石形罕見，結合漁民信仰故事使其有別於一般礁石景觀。"
+    note: "礁岩輪廓具有擬人化辨識特色；固定漁民祭祀故事未在本次核實。"
     sources: [tw-xiaoliuqiu-guanyin-rock-source]
   interpretability:
     score: 4
-    note: "視覺上易辨認其「像觀音」的形象，加上解說牌與地質背景說明，適合各年齡層理解。"
+    note: "依可靠現地標示辨識，不承諾特定解說牌或可環繞岩體。"
     sources: [tw-xiaoliuqiu-guanyin-rock-source]
   visitorValue:
     score: 3
-    note: "適合環島途中短暫停留（10-20分鐘），潮間帶觀察可延長至30分鐘；不具備長時間停留條件。"
+    note: "僅限安全開放岸上觀察，不能把礁岩定位當作可攀爬或入潮間帶的許可。"
     sources: [tw-xiaoliuqiu-guanyin-rock-source]
   evidenceQuality:
     score: 3
@@ -83,12 +77,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-guanyin-rock-source
     title: "琉球鄉公所 — 觀光景點介紹"
-    publisher: ""
+    publisher: "www.liuqiu.gov.tw"
     url: https://www.liuqiu.gov.tw/liuqiu_tour/index.aspx
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-guanyin-rock-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=238
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -107,3 +109,21 @@ review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 補查。直接取得 Google Maps 的 Guanyin Rock 具名 feature（含唯一 feature ID、琉球鄉地址及座標），再與官方厚石裙礁沿線觀音石的身分及公路岸邊描述核對。採岩石 landmark，無須另造入口偏移。並未把厚石裙礁整區22.32275,120.36119套給岩石；原北岸敘述及22.3668,120.37不成立。
+  sources:
+  - url: https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E8%A7%80%E9%9F%B3%E7%9F%B3&output=embed
+    title: Google Maps：Guanyin Rock／小琉球觀音石 feature
+    coordinateEvidence: 2026-09-16 直接唯讀 HTTP 取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E8%A7%80%E9%9F%B3%E7%9F%B3&output=embed；回傳選定地標陣列為 [["0x3471efc18faae139:0x844f06b1f0386077","Guanyin Rock, Liuqiu Township, Pingtung County, 929",[22.3227317,120.3614075],"9533846297475833975"],"Guanyin Rock",...]。採名稱、行政地址與唯一ID綁定的 feature 座標，不採前方相同數字的 viewport 陣列或 /@ 中心；官方來源另核對為東南岸同名岩石。
+  - url: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238
+    title: 大鵬灣國家風景區管理處：厚石裙礁（觀音石）
+    coordinateEvidence: 本次重新開啟 https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238，正文指出東南岸大福漁港至海子口間的環島公路沿線有觀音石，為背山面海、岸邊的珊瑚礁岩。此來源核對身分與陸岸觀看性質；明列的22.32275,120.36119屬厚石裙礁總體，沒有將其充作觀音石座標。
+  previousLocation:
+    latitude: 22.3668
+    longitude: 120.37
+  verifiedLocation:
+    latitude: 22.3227317
+    longitude: 120.3614075

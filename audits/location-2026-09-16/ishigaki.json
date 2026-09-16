@@ -1,0 +1,552 @@
+[
+  {
+    "id": "jp-ishigaki-730-monument",
+    "status": "verified",
+    "latitude": 24.3383039,
+    "longitude": 124.1574492,
+    "anchorType": "landmark",
+    "locationHint": "730交差点旁的730記念碑／小公園，從人行道步行觀察；不是路口車道中心。",
+    "reason": "2026-09-16：市府將此圖釘明確連到730記念碑；小型戶外紀念物可從旁邊人行空間觀看。原點僅數公尺差異。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 730記念碑",
+        "coordinateEvidence": "On 2026-09-16, the 730記念碑 section links https://goo.gl/maps/zgFtaDWtKJyVc5Qb7. Its HTTP redirect contains the named place's !8m2!3d24.3383039!4d124.1574492 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-banna-park",
+    "status": "verified",
+    "latitude": 24.3728981,
+    "longitude": 124.16225433,
+    "anchorType": "viewpoint",
+    "locationHint": "採YAML已指定的「エメラルドの海を見る展望台」（公園南側B展望區），不是整座公園中心或北入口；循公園道路與步道到觀景台。",
+    "reason": "2026-09-16：觀光局具名展望台頁的numeric place query已取得，營運者確認是公園南側展望台。原點距此約267公尺；市府另連到バンナ岳山體圖釘，不混用。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/600011796",
+        "title": "沖縄観光情報 — エメラルドの海を見る展望台",
+        "coordinateEvidence": "HTML read 2026-09-16: embed/v1/place?q=24.3728981,124.16225433&zoom=16. Used this named observatory query, NOT Banna mountain's !3d24.3724491!4d124.1636199 or any viewport centre."
+      },
+      {
+        "url": "https://banna.jp/",
+        "title": "バンナ公園公式",
+        "coordinateEvidence": "Identifies エメラルドの海を見る展望台 on the south side of the park; corroborates physical observation facility. No coordinate inferred from park area."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-fusaki-beach",
+    "status": "verified",
+    "latitude": 24.3710775,
+    "longitude": 124.1158754,
+    "anchorType": "viewpoint",
+    "locationHint": "定位為フサキビーチ桟橋的觀景點（可步行的棧橋，不是海灘停車場）。循Fusaki度假村指示到海灘，依現場開放狀況使用。",
+    "reason": "2026-09-16：市府海灘介紹明確連到桟橋，與YAML敘述的エンジェルピア一致；它是實體可步行觀景設施，不是任選海面點。原24.3363,124.1337距此約4.3公里。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — フサキビーチ",
+        "coordinateEvidence": "On 2026-09-16, the フサキビーチ section links https://goo.gl/maps/wR6biAz1mPcPPH4a7. Its HTTP redirect contains the named place's !8m2!3d24.3710775!4d124.1158754 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      },
+      {
+        "url": "https://yaeyama.or.jp/フサキビーチ/",
+        "title": "石垣市観光交流協会 — フサキビーチ",
+        "coordinateEvidence": "Identity/address corroboration: 新川1625; HTML iframe uses an address query, not numeric coordinate evidence. Not used to calculate the coordinate."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-hirakubo-lighthouse",
+    "status": "verified",
+    "latitude": 24.6102576,
+    "longitude": 124.3160524,
+    "anchorType": "landmark",
+    "locationHint": "平久保埼灯台的塔體地標圖釘，僅供接近解說；不是停車場或可進入的塔門。由指定停車場走現地開放步道，在圍界外觀看，勿直接直線前往圖釘。",
+    "reason": "2026-09-16：市府具名燈塔連結的!3d/!4d為確切塔體座標；依landmark用途採用，不宣稱為入口。原點偏南約185公尺；另一觀光局頁的區域代表點與塔體相差約52公尺，未混用。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 平久保崎灯台",
+        "coordinateEvidence": "On 2026-09-16, the 平久保崎灯台 section links https://goo.gl/maps/oUbVbX6bY8RJNoUt8. Its HTTP redirect contains the named place's !8m2!3d24.6102576!4d124.3160524 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-iriomote-mangrove",
+    "status": "verified",
+    "latitude": 24.2718566,
+    "longitude": 123.8828138,
+    "anchorType": "meeting_point",
+    "locationHint": "西表島・大原港なかまりんターミナル旁「ショップじゅごん」售票／報到設施圖釘，乘船處在店前；不是河道、巨木、任意碼頭或西表島中心。行政區為竹富町。",
+    "reason": "2026-09-16：YAML原已指名ショップじゅごん，營運者cruise頁同樣明訂該售票／出發位置；其店鋪頁嵌入Google地圖的具名place record成功抽取。原24.315,123.997距此約12.5公里，屬重大錯位。巨木步道路線目前暫停。",
+    "sources": [
+      {
+        "url": "https://iriomote.com/cruise/",
+        "title": "西表島交通公式 — 仲間川マングローブクルーズ",
+        "coordinateEvidence": "Specifies tickets at ショップじゅごん (30-second walk from Ohara terminal) and departure in front of it. Establishes this named operator/meeting point is already the YAML's intended cruise, not a guessed harbour."
+      },
+      {
+        "url": "https://iriomote.com/shop-dugong/",
+        "title": "西表島交通公式 — ショップじゅごん",
+        "coordinateEvidence": "Official shop ACCESS iframe identifies 0x34607c9f7240e60f:0x7980dfff2bce7349. Read-only fetch of that iframe on 2026-09-16 returns the selected feature record ['0x34607c9f7240e60f:0x7980dfff2bce7349','〒907-1434 沖縄県八重山郡竹富町南風見２０１ ショップじゅごん',[24.2718566,123.8828138],'8755243962652848969']. Used the named feature's pair, NOT iframe's !2d123.8802388760039!3d24.27185657831821 viewport. Exact iframe URL: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.139529363388!2d123.8802388760039!3d24.27185657831821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34607c9f7240e60f%3A0x7980dfff2bce7349!2z44K344On44OD44OX44GY44KF44GU44KT!5e0!3m2!1sja!2sjp!4v1764824994852!5m2!1sja!2sjp"
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-iriomote-yubu",
+    "status": "verified",
+    "latitude": 24.3448204,
+    "longitude": 123.9271995,
+    "anchorType": "meeting_point",
+    "locationHint": "西表島側「旅人の駅 チケット売り場」報到處地標，水牛車出發前依官方要求辦手續；不是由布島中心或海中水牛車行進路線。行政區為竹富町。",
+    "reason": "2026-09-16：營運者嵌入My Maps的可讀HTML含具名售票處placemark，成功取得實際座標（KML虽403但公開embed可讀）。原點在其東方約790公尺，不能作西表島側報到點。",
+    "sources": [
+      {
+        "url": "https://yubujima.com/",
+        "title": "由布島官方 — 水牛車／アクセス",
+        "coordinateEvidence": "Official text requires check-in at 西表島側『旅人の駅』. Embeds https://www.google.com/maps/d/embed?mid=15e18SZInkHR2u-wGxmgnx8Gm8Wj5QJpB ."
+      },
+      {
+        "url": "https://www.google.com/maps/d/embed?mid=15e18SZInkHR2u-wGxmgnx8Gm8Wj5QJpB",
+        "title": "由布島と旅人の駅 — operator-published Google My Maps",
+        "coordinateEvidence": "Read-only HTML _pageData contains feature 332DDFDCC4DF3C17 with geometry [[[24.3448204,123.9271995]]] and 名前 ['旅人の駅 チケット売り場'], place ID ChIJ6yI1OQt5YDQRddDY75iKaR0. Extracted this named feature, NOT map bounding box or the separate 由布島 / 大原港 markers."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-ishigaki-beef",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "石垣牛燒肉為飲食主題；先選擇實際餐廳並確認營業與入口。",
+    "reason": "2026-09-16：YAML標題與內容涵蓋多家餐廳、美崎町飲食街，沒有唯一店家。不能把飲食文化轉為猜測的店家或街區中心。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/recommend/",
+        "title": "石垣市公式観光 — おすすめベスト３／食べ物",
+        "coordinateEvidence": "The 食べ物 section describes 石垣牛 as food served as yakiniku, steak or sushi, without assigning a single restaurant. No unique numeric place coordinate exists in this thematic section; none adopted."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-kabira-bay",
+    "status": "verified",
+    "latitude": 24.4603939,
+    "longitude": 124.1428147,
+    "anchorType": "viewpoint",
+    "locationHint": "川平公園展望台；由川平公園步道抵達，俯瞰川平灣。不是海灣中央或玻璃船集合點。",
+    "reason": "2026-09-16：市府川平公園條目連到具名展望台圖釘，與YAML觀察提示一致。原24.4514,124.1444偏南約1公里。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 川平公園",
+        "coordinateEvidence": "On 2026-09-16, the 川平公園 section links https://goo.gl/maps/Nhf8gifyj6zRFWmCA. Its HTTP redirect contains the named place's !8m2!3d24.4603939!4d124.1428147 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-kabira-glass-boat",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "川平灣玻璃船有不同業者；依所訂業者的售票／集合通知前往，不共用海灣座標。",
+    "reason": "2026-09-16：YAML標題、提示與敘述均是通用玻璃船體驗，僅sources引用川平マリンサービス，不足以將全項目改成該公司。該公司實際集合點在川平コミュニティ施設內，與YAML「海灘入口購票」不一致。",
+    "sources": [
+      {
+        "url": "https://www.kabiramarine.jp/",
+        "title": "川平マリンサービス公式 — ACCESS",
+        "coordinateEvidence": "Official operator names 川平コミュニティ施設内 川平マリンサービス受付窓口 at 川平912-1. Embed identifies CID 0x345fddcbaf61878b:0xe0ed71890c07de97; !2d/!3d preceding it are viewport fields and were NOT accepted as coordinates. No universal meeting point exists for all operators."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-kohama-island",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "小浜島是整座島，Sugar Road、村落、展望台與小浜港為不同位置；行政區為竹富町。",
+    "reason": "2026-09-16：YAML混合全島介紹與Sugar Road觀察，未選定一個具名戶外定位點。不能用島中心或任意港口替代。",
+    "sources": [
+      {
+        "url": "https://painusima.com/modelcourse_kohama/",
+        "title": "竹富町観光協会 — 小浜島モデルコース",
+        "coordinateEvidence": "Island-wide itinerary, not a single visitor point. No numeric coordinate adopted; a ferry terminal is not substituted for the YAML's sugarcane-road experience."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-mangrove-futsuu",
+    "status": "verified",
+    "latitude": 24.4868254,
+    "longitude": 124.2303293,
+    "anchorType": "landmark",
+    "locationHint": "吹通川ヒルギ群落的官方自然地標圖釘，非停車位、河岸入口或SUP集合點。由吹通橋旁指定停車處按現場通路觀察；不要直線走入水道、泥灘或樹根。",
+    "reason": "2026-09-16：市府明確連到吹通川群落的named place pin，可作接近解說landmark；不聲稱其為可站立入口。官方說明岸邊步行觀察方式，並與重複的yonehara-mangrove區分。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 吹通川ヒルギ群落",
+        "coordinateEvidence": "On 2026-09-16, the 吹通川ヒルギ群落 section links https://goo.gl/maps/bREzSBBDqza7hto27. Its HTTP redirect contains the named place's !8m2!3d24.4868254!4d124.2303293 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-manta-scramble",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "川平石崎外海潛點，需向合法潛水業者預約；集合點依所訂行程，不設陸上自助導航。",
+    "reason": "2026-09-16：YAML本身明確為只能搭潛水船前往的海底活動地，不能以海中座標或任意碼頭作附近導覽到達點。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/activity/",
+        "title": "石垣市公式観光 — マンタに会いにいく",
+        "coordinateEvidence": "The activity section explicitly names マンタスクランブル as a manta-watching spot. Read alongside the YAML's diving-boat-only access: no land arrival/meeting point is specified; no underwater or harbour coordinates substituted."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-minsa-weaving",
+    "status": "verified",
+    "latitude": 24.341539,
+    "longitude": 124.1706862,
+    "anchorType": "landmark",
+    "locationHint": "あざみ屋本店みんさー工芸館，登野城909的官方本店地址圖釘；不是美崎店或機場店，也不聲稱精確門口。循館前停車場／入口指示；輪椅另依官方東側停車場斜坡動線。",
+    "reason": "2026-09-16：營運者店舗案内的本社・本店Google Maps連結直接解析到登野城909地址feature pin，與觀光局工藝館身份一致；原點約21公尺偏差。用landmark不作入口保證。",
+    "sources": [
+      {
+        "url": "https://minsah.co.jp/store-information/",
+        "title": "あざみ屋公式 — 本社・本店",
+        "coordinateEvidence": "The 本社・本店 (登野城909) entry links https://maps.app.goo.gl/2TVJm62JEYZiXPtQ7 . Read-only HTTP redirect on 2026-09-16 is a place record for 〒907-0004 沖縄県石垣市登野城９０９ with !1s0x34600aa139ea2f53:0xa11c88d111b9234c!8m2!3d24.341539!4d124.1706862. Response also contains [null,null,24.341539,124.1706862]. These are selected address-pin fields, NOT /@ viewport. The operator intentionally supplies this pin for its head office/shop."
+      },
+      {
+        "url": "https://mice.okinawastory.jp/service/souvenirs/s-158/",
+        "title": "沖縄コンベンションビューロー — あざみ屋みんさー工芸館",
+        "coordinateEvidence": "Independent identity/address corroboration: craft centre and weaving experience at 登野城909. No coordinate inferred from the address."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-miyara-dunchi",
+    "status": "verified",
+    "latitude": 24.3411417,
+    "longitude": 124.1596317,
+    "anchorType": "landmark",
+    "locationHint": "宮良殿内（大川178）的文化財地標圖釘，不是表門精確座標。先在公共街道找正式入口，按開放規則參觀庭園；勿穿越鄰地或進住宅內部。",
+    "reason": "2026-09-16：市府官方介紹直接連到宮良殿内的feature pin；用於接近解說，未宣稱門口。原點與此約8公尺。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 宮良殿内",
+        "coordinateEvidence": "On 2026-09-16, the 宮良殿内 section links https://goo.gl/maps/U5FJ2W1k15eUXwbY6. Its HTTP redirect contains the named place's !8m2!3d24.3411417!4d124.1596317 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-observatory",
+    "status": "verified",
+    "latitude": 24.37333107,
+    "longitude": 124.13922882,
+    "anchorType": "landmark",
+    "locationHint": "石垣島天文台（新川1024-1）的設施地標圖釘，非VERA觀測局，非第2停車場或入口座標。依天文台最新交通圖從前勢岳林道抵達第2停車場，再沿指定步道上坡至建築；夜間須預約，勿直接走／騎車上山。",
+    "reason": "2026-09-16：觀光局具名天文台頁明確numeric query，營運者確認同址並提供最新停車與步行規定。原點距此約32公尺。官網較新，收費／觀望安排採官網，不沿用觀光局舊『免費』描述。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/600011028",
+        "title": "沖縄観光情報 — 石垣島天文台",
+        "coordinateEvidence": "Read-only HTML on 2026-09-16: embed/v1/place?q=24.37333107,124.13922882&zoom=13. Explicit named-facility place query, not a viewport centre."
+      },
+      {
+        "url": "https://murikabushi.jp/?page_id=23",
+        "title": "国立天文台 石垣島天文台 — 交通案内",
+        "coordinateEvidence": "Confirms 新川1024-1 and the forest-road route to 第2駐車場, followed by a short uphill walk. Access corroboration only; parking coordinates were not invented."
+      },
+      {
+        "url": "https://murikabushi.jp/?page_id=6439",
+        "title": "石垣島天文台 — 施設公開",
+        "coordinateEvidence": "Current visit rules distinguish parking from building and prohibit nighttime walking/cycling approach. No numeric coordinates extracted from this access-rules page."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-public-market",
+    "status": "verified",
+    "latitude": 24.339768,
+    "longitude": 124.158004,
+    "anchorType": "landmark",
+    "locationHint": "石垣市公設市場（大川208）的館舍／官方步行目的地圖釘，不聲稱是精確門口。由ユーグレナモール的公共步行商店街抵達，再循市場入口標示；不能開車穿越拱廊。",
+    "reason": "2026-09-16：官方交通頁提供步行路線到具名市場的目的地座標；採landmark而非推定入口，不採iframe視窗中心。原點與此僅數公尺。",
+    "sources": [
+      {
+        "url": "https://ishigaki-kousetsu-ichiba.com/access",
+        "title": "石垣市公設市場公式 — アクセス",
+        "coordinateEvidence": "On 2026-09-16 read HTML directions embeds. The destination record is !4m5!1s0x34600aadd0a68715:0x7a91e828e2480b82 (石垣市大川208 石垣市公設市場), followed by !3m2!1d24.339768!2d124.15800399999999. The same destination occurs in terminal/bus-stop walking routes. These destination coordinates, NOT initial viewport !2d/!3d, are used."
+      },
+      {
+        "url": "https://ishigaki-kousetsu-ichiba.com/about",
+        "title": "石垣市公設市場公式 — 市場について",
+        "coordinateEvidence": "Confirms name/address 大川208 and its location within Euglena Mall; no additional numeric extraction."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-shiraho-beach",
+    "status": "verified",
+    "latitude": 24.35452843,
+    "longitude": 124.24560547,
+    "anchorType": "landmark",
+    "locationHint": "白保海岸的官方海岸地標代表點，非精確岸上入口、停車場或珊瑚礁入水點。只從白保聚落對外開放通路到海岸觀看，不照圖釘直線涉海。",
+    "reason": "2026-09-16：官方具名白保海岸頁公布numeric place query，地址白保2107-2與步行海岸介紹一致。依landmark用途採海岸代表點，不聲稱圖釘即安全站立位置；原點距此約247公尺。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/600013230",
+        "title": "沖縄観光情報 — 白保海岸",
+        "coordinateEvidence": "Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.35452843,124.24560547. This is the page's explicit place query, not an embed viewport centre."
+      },
+      {
+        "url": "https://www.okinawastory.jp/course/600013261",
+        "title": "沖縄観光情報 — 石垣島2泊3日",
+        "coordinateEvidence": "Describes walking through Shiraho village from the bus stop to a long coastline; does not prove that the spot page's numeric pin is a terrestrial entrance."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-souvenir-street",
+    "status": "verified",
+    "latitude": 24.3397963,
+    "longitude": 124.1582602,
+    "anchorType": "visitor_area",
+    "locationHint": "ユーグレナモール公共步行商店街的官方代表點；沿中央通り／銀座通り步行，非指定店家入口。",
+    "reason": "2026-09-16：市府直接連到具名拱廊商店街圖釘。採visitor_area而非假定單一入口；與公設市場是相鄰但不同項目。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — ユーグレナモール",
+        "coordinateEvidence": "On 2026-09-16, the ユーグレナモール section links https://goo.gl/maps/Rha6mpbgmGtaMnGp7. Its HTTP redirect contains the named place's !8m2!3d24.3397963!4d124.1582602 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-stalactite-cave",
+    "status": "verified",
+    "latitude": 24.361744,
+    "longitude": 124.1545115,
+    "anchorType": "landmark",
+    "locationHint": "石垣島鍾乳洞（石垣1666）的設施地標圖釘，非精確洞口或地下遊覽點；循現場招牌至地上售票／停車區。勿誤入鄰近另一鍾乳洞。",
+    "reason": "2026-09-16：市府直接連到具名石垣島鍾乳洞feature pin；營運者確認同名同址並警告附近有相似設施。作接近解說landmark，不假稱入口。原點距此約29公尺。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 石垣島鍾乳洞",
+        "coordinateEvidence": "On 2026-09-16, the 石垣島鍾乳洞 section links https://goo.gl/maps/homuFhNoBnCGwvuH8. Its HTTP redirect contains the named place's !8m2!3d24.361744!4d124.1545115 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      },
+      {
+        "url": "https://www.ishigaki-cave.com/",
+        "title": "石垣島鍾乳洞公式 — アクセスマップ",
+        "coordinateEvidence": "Confirms 石垣1666, surface visitor services and access via Route 208; explicitly warns of a different nearby cave. No coordinate inferred from photos, cave geometry, or MAPCODE."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-sukuji-beach",
+    "status": "verified",
+    "latitude": 24.46583557,
+    "longitude": 124.12395477,
+    "anchorType": "visitor_area",
+    "locationHint": "底地海水浴場（川平185-1）的海灘遊客區代表點；循公共停車場與岸邊設施到沙灘，不定位外海。",
+    "reason": "2026-09-16：觀光局明確數值query與地址、遊客設施相符，市府另確認公共海水浴場與岸上設施。不是精確停車格或唯一入口。原座標只差約5公尺。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/600007516",
+        "title": "沖縄観光情報 — 石垣市指定海水浴場 底地ビーチ",
+        "coordinateEvidence": "Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.46583557,124.12395477. This is the page's explicit place query, not an embed viewport centre."
+      },
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 — 底地海水浴場",
+        "coordinateEvidence": "Corroborates named public beach with shore-side showers/toilets. No second numeric coordinate used."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-sup-mangrove",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "宮良川SUP屬預約活動，依所選業者通知集合或接送；不是宮良橋任意停車處。",
+    "reason": "2026-09-16：YAML沒有唯一業者、售票處或集合点，不能把河流、橋中心或路旁空地代換為SUP到達點。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 — 宮良川ヒルギ群落",
+        "coordinateEvidence": "Confirms Miyara River supports SUP/kayak activities and viewing from Miyara Bridge, but gives no universal SUP meeting point. No numeric coordinate adopted."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-taketomi-kondoi",
+    "status": "verified",
+    "latitude": 24.32523537,
+    "longitude": 124.07756805,
+    "anchorType": "visitor_area",
+    "locationHint": "竹富島西岸コンドイ浜的岸邊遊客區代表點；由竹富港沿島上道路步行／騎車前往。行政區為竹富町。不要以退潮沙洲為固定抵達點。",
+    "reason": "2026-09-16：觀光局具名海灘明確query作岸邊海灘anchor；不保留原先偏西南約150公尺的點。區分岸上海灘與潮汐限定沙洲。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/1087",
+        "title": "沖縄観光情報 — コンドイ浜",
+        "coordinateEvidence": "Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.32523537,124.07756805. This is the page's explicit place query, not an embed viewport centre."
+      },
+      {
+        "url": "https://takekou.info/island-tourist-information/",
+        "title": "竹富島交通 — 島内観光案内",
+        "coordinateEvidence": "Corroborates Kondoi Beach on Taketomi and shore access; no numeric coordinate extracted from this corroborating source."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-taketomi-village",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "竹富島的東・西・仲筋三聚落為生活與保存區域；尊重私宅、御嶽與居民通行。行政區為竹富町。",
+    "reason": "2026-09-16：YAML涵蓋多個聚落並泛稱スンマシャー，未指定哪個入口廣場。不能以島中心、私人住宅或猜測的廣場定位整個生活區。",
+    "sources": [
+      {
+        "url": "https://takekou.info/island-tourist-information/",
+        "title": "竹富島交通 — 竹富島集落",
+        "coordinateEvidence": "Confirms protected traditional settlement rather than a unique entrance. No numeric point extracted; the YAML's unnamed スンマシャー is not resolved to an arbitrary square."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-tamatorizaki",
+    "status": "verified",
+    "latitude": 24.4906033,
+    "longitude": 124.2788917,
+    "anchorType": "viewpoint",
+    "locationHint": "玉取崎展望台本體的可使用戶外觀景位置；停車後沿園內步道前往。不是停車場。",
+    "reason": "2026-09-16：市府具名展望台連結中取得feature座標，與YAML原座標相差約1公尺。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 OORITOORI — 玉取崎展望台",
+        "coordinateEvidence": "On 2026-09-16, the 玉取崎展望台 section links https://goo.gl/maps/fsFqpGZVrRPk3RZu6. Its HTTP redirect contains the named place's !8m2!3d24.4906033!4d124.2788917 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-toujin-baka",
+    "status": "verified",
+    "latitude": 24.36570549,
+    "longitude": 124.11385345,
+    "anchorType": "landmark",
+    "locationHint": "唐人墓（新川富崎）的戶外紀念墓園觀覽點；由唐人墓巴士站旁公共通路进入，不是私人墳墓內部或觀音崎燈塔。",
+    "reason": "2026-09-16：觀光局具名墓園頁直接公布numeric place query，並記錄巴士站下車即達。採戶外landmark而非聲稱精確入口；原點偏西約56公尺。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/1371",
+        "title": "沖縄観光情報 — 唐人墓",
+        "coordinateEvidence": "Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.36570549,124.11385345. This is the page's explicit place query, not an embed viewport centre."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-yaeyama-museum",
+    "status": "verified",
+    "latitude": 24.33807182,
+    "longitude": 124.1595459,
+    "anchorType": "landmark",
+    "locationHint": "石垣市立八重山博物館（登野城4-1）的館舍地標點，非門口／展廳定位。先在館前公共道路或正式停車區抵達，再循入口標示；館內另受開館時間及門票限制。",
+    "reason": "2026-09-16：觀光局具名館舍明確numeric place query可供接近解說；不要求以屋頂位置實際到達。原點距此約2公尺。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/20400400",
+        "title": "沖縄観光情報 — 石垣市立八重山博物館",
+        "coordinateEvidence": "Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.33807182,124.1595459. This is the page's explicit place query, not an embed viewport centre."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-yaeyama-soba",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "八重山そば為地方飲食主題；来夏世僅為文中例子，應另建指定餐廳條目才可導航。",
+    "reason": "2026-09-16：YAML描述多家老店與整體飲食文化，不能因提到来夏世就把主題改成該店，也不能保留不明市區點。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/activity/",
+        "title": "石垣市公式観光 — 定番の八重山そば",
+        "coordinateEvidence": "The named subsection describes a local noodle dish and visiting different soba restaurants, not one venue. No unique numeric coordinate extracted or guessed."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-yaima-village",
+    "status": "verified",
+    "latitude": 24.40489006,
+    "longitude": 124.14463806,
+    "anchorType": "landmark",
+    "locationHint": "石垣やいま村（名蔵967-1）的官方園區地標點，不是指定古宅或售票門精確座標。由正式停車區循入村指示，園內依門票及開放規則活動。",
+    "reason": "2026-09-16：觀光局具名園區頁明確numeric place query，營運者地址與停車資訊一致；依landmark用途採用，不混用iframe視窗中心。原點距此約68公尺。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/1079",
+        "title": "沖縄観光情報 — 石垣やいま村",
+        "coordinateEvidence": "Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.40489006,124.14463806. This is the page's explicit place query, not an embed viewport centre."
+      },
+      {
+        "url": "https://www.yaimamura.com/aboutus/",
+        "title": "石垣やいま村公式 — ご利用案内",
+        "coordinateEvidence": "Official address 名蔵967-1 and visitor parking confirmed. Its map embed identifies place CID 0x345fde2574308e13:0x12dd5381b1e480c7; preceding !2d/!3d viewport fields were NOT treated as entrance coordinates."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-yonehara-beach",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "米原海岸（桴海）；僅沿對外開放通路到岸上，不跨私地、不以珊瑚礁入水處作陸上到達點。",
+    "reason": "2026-09-16：確有此具名海灘，非non_point。已查市府、觀光協會海岸利用規範與市府所連協議會資訊站，但未取得可追溯的官方數值地標圖釘。生態調查的外海採樣點不能代替海灘；不沿用YAML旅遊網站的未證實座標。",
+    "sources": [
+      {
+        "url": "https://yaeyama.or.jp/play/米原海岸利用ルール/",
+        "title": "石垣市観光交流協会 — 米原海岸利用ルール",
+        "coordinateEvidence": "Official rules page confirms Yonehara Coast identity and conservation/access obligations. No numeric public-access coordinates extracted from the text; no image or EXIF coordinates used."
+      },
+      {
+        "url": "https://www.city.ishigaki.okinawa.jp/soshiki/kanko_bunka/tourist_information/3412.html",
+        "title": "石垣市 — 米原海岸の情報発信サイト",
+        "coordinateEvidence": "City identifies the coastal-use council as publisher of the linked beach.yaeyamahazardmap.com information site. The linked site could not be retrieved in this audit. City text contains no coordinate-bearing place query; ecological offshore survey coordinates found in searches were not used as visitor anchors."
+      }
+    ]
+  },
+  {
+    "id": "jp-ishigaki-yonehara-mangrove",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "此項實際重複吹通川ヒルギ群落；「米原マングローブ林／米原ビーチ旁」的命名與位置混淆，不另設圖釘。",
+    "reason": "2026-09-16：YAML正文、吹通橋入口、原座標與jp-ishigaki-mangrove-futsuu指向同一處；官方將吹通川列在伊土名以北，米原則另列ヤエヤマヤシ群落。須去重／修文，不能保留第二個verified點。",
+    "sources": [
+      {
+        "url": "https://ooritoori-ishigaki.com/spot/",
+        "title": "石垣市公式観光 — 吹通川ヒルギ群落／米原ヤエヤマヤシ群落",
+        "coordinateEvidence": "Official page treats Fukido mangroves and Yonehara palm grove as distinct sites. Fukido link https://goo.gl/maps/bREzSBBDqza7hto27 resolves to feature !3d24.4868254!4d124.2303293; this establishes the duplicate identity, NOT a separate Yonehara mangrove arrival point."
+      }
+    ]
+  }
+]

@@ -8,12 +8,12 @@ point:
   narration: |
     走進烏鬼洞景區，迎面而來的不只是奇特的珊瑚礁石灰岩地形，還有一段讓人心頭一緊的歷史故事。「烏鬼」這兩個字，在台灣早期的語境裡，指的是黑皮膚的外來人——更具體地說，是十七世紀荷蘭人統治台灣時期，從東南亞或非洲帶來的奴隸。當時，這批被稱為「烏鬼」的異鄉人被迫在小琉球從事勞役，島民以這樣的稱呼記錄下他們的存在。
     
-    傳說有一天，島上爆發了激烈衝突，這群人躲進礁岩海蝕洞裡避難，卻被追趕的人們在洞口點火，以濃煙逼死在洞穴之中。烏鬼洞，便是這段悲劇的見證者。時至今日，當地仍流傳著這裡鬼魂徘徊的說法，夜間不建議單獨前往。
+    傳說有一天，島上爆發了激烈衝突，這群人躲進礁岩海蝕洞裡避難，卻被追趕的人們在洞口點火，以濃煙逼死在洞穴之中。這是與地名相連的地方傳說，不宜直接當作確定的事件經過。時至今日，當地仍流傳著這裡鬼魂徘徊的說法，夜間不建議單獨前往。
     
     撇開沉重的歷史，烏鬼洞的地質本身就令人嘆為觀止。小琉球整座島都是由古老的珊瑚礁隆起而成，數萬年來海浪不斷侵蝕礁岩，在西南岸這一帶刻出了連串海蝕洞、海蝕崖與奇岩怪石。洞穴內部光影迷離，外頭的礁石平台延伸至海邊，退潮時可見豐富的潮間帶生態——海膽、寄居蟹、海星靜靜藏在礁石縫隙中。
     
     對小琉球來說，烏鬼洞是全島最具代表性的地標之一。它不只是拍照打卡的景點，更是一個把地質奇景與殖民歷史交織在一起的場所。站在洞口，看著海風拍打礁石，不禁想像幾百年前那些遠渡重洋、身不由己的靈魂，在這片礁岩間留下了什麼。
-  observationPrompt: "洞穴頂部和岩壁上，你能找到幾種不同的珊瑚礁岩層紋路？試著比較洞內與洞外礁石的顏色差異，推測日照與海水侵蝕如何在此留下時間的痕跡。"
+  observationPrompt: "僅在開放步道與允許進入的洞穴範圍觀察岩壁紋路；低頭慢行，不攀爬、不往海岸礁盤延伸，封閉時不要自行進入。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -45,14 +45,14 @@ point:
         label: 小琉球
   indoor: false
   location:
-    latitude: 22.3347
-    longitude: 120.3698
-    locationHint: "小琉球西南方環島公路旁，設有售票亭與停車場，步行進入洞穴區約5分鐘。"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3347,120.3698"
+    latitude: 22.33022
+    longitude: 120.35573
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.33022,120.35573
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 西南岸環島道路旁烏鬼洞風景區陸上步道入口／售票抵達區；先到入口，入園後才循步道往岩洞。不是洞內、海岸巨石或海上落點；依現場售票與開放公告進入。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -69,7 +69,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-wugui-cave-source]
   visitorValue:
     score: 4
-    note: "地質景觀、生態觀察與歷史故事三合一，適合各年齡層，退潮時潮間帶觀察更加分。"
+    note: "以景區開放步道與地質景觀為主；狹窄濕滑處須評估體力，不鼓勵自行進入潮間帶。"
     sources: [tw-xiaoliuqiu-wugui-cave-source]
   evidenceQuality:
     score: 3
@@ -79,12 +79,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-wugui-cave-source
     title: "維基百科 — 琉球鄉"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%84%89
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-wugui-cave-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=236
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-wugui-cave-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -97,9 +113,27 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-wugui-cave.webp
     completePath: media/complete/tw-xiaoliuqiu-wugui-cave.webp
 admissions:
-  - label: "成人 NT$50，持學生證或敬老卡優惠，12歲以下兒童免費。"
+  - label: "需購票；票價、優惠及洞穴開放狀態依琉球鄉公所與現場公告確認。"
     isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: entrance
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。管理處官方數字導航點與獨立登山紀錄明列的烏鬼洞步道口相差約3公尺，支持其是可用陸上到達處而非洞穴中心。原22.3347,120.3698明顯向東北偏離。核實僅限位置與入口；歷史傳說的真實性不在此座標認證範圍。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=236
+    title: 大鵬灣國家風景區管理處－烏鬼洞
+    coordinateEvidence: 直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=236，明列經度120.35573、緯度22.33022，主iframe及一鍵導航連到 https://maps.google.com/maps?q=22.33022,120.35573 。同頁介紹西南岸有管理景區、停車場及入口地形，未以周邊公車站座標替代。
+  - url: https://www.keepon.com.tw/thread-e95a3e2c-824d-e511-93ed-000e04b74954.html?AspxAutoDetectCookieSupport=1
+    title: 登山補給站－1040302小琉球之旅（烏鬼洞步道口紀錄）
+    coordinateEvidence: https://www.keepon.com.tw/thread-e95a3e2c-824d-e511-93ed-000e04b74954.html?AspxAutoDetectCookieSupport=1 的搜尋索引可讀正文在14:44紀錄『烏鬼洞步道口』及N22 19 48.7 E120 21 20.6，換算22.3301944,120.3557222；14:48才抵洞入口涼亭，明確區分步道口與洞口。此次直接HTTP遇重新導向循環，故這是2015年實地文字紀錄的索引交叉佐證，主座標及現行景區資訊仍取官方頁。未下載照片或讀EXIF。
+  previousLocation:
+    latitude: 22.3347
+    longitude: 120.3698
+  verifiedLocation:
+    latitude: 22.33022
+    longitude: 120.35573

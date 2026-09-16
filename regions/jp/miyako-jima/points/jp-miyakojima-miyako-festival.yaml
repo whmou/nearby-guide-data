@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8062
-    longitude: 125.2820
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8062,125.282"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請使用日期與名稱皆正確的祭典活動及其實際公告場地；勿設為全年適用的港口圖釘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +96,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: The YAML mixes October, an uncorroborated クルバガー boat-race name, and Miyako's summer festival. Official information distinguishes the July summer festival from lunar-May ハーリー. A dated multi-venue event is not a permanent location trigger.
+  sources:
+  - url: https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html
+    title: 宮古島市 — 文化 Culture
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html distinguishes ハーリー (lunar May 4) from 宮古島夏まつり (late July). No coordinate for the claimed October クルバガー event is established.
+  - url: https://www.okinawastory.jp/event/600022601
+    title: おきなわ物語 — 宮古島夏まつり2026
+    coordinateEvidence: https://www.okinawastory.jp/event/600022601 dates the actual event to 2026-07-24/25. No permanent point accepted for this different, incorrectly described event.
+  previousLocation:
+    latitude: 24.8062
+    longitude: 125.282
+  verifiedLocation: null

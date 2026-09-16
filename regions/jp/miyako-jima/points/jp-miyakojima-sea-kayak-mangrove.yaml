@@ -37,15 +37,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.8777
-    longitude: 125.2884
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8777,125.2884"
-  trigger:
-    radiusMeters: 100.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 島尻紅樹林獨木舟為預約活動，須以所訂業者的集合通知為準；紅樹林地標 pin 不等於集合或下水位置。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 searched Shimajiri kayak departures. A real named operator offers a restricted tidal program, but YAML names no operator or fixed rendezvous. Cannot transfer the land-based mangrove landmark to this generic activity.
+  sources:
+  - url: https://act.shigira.com/top/products/6fda7797-1705-59eb-b621-ab16b09ad8d8?lng=ja-JP
+    title: マングローブカヤックナイトツアー｜宮古島アクティビティ予約サイト
+    coordinateEvidence: Operator-specific tidal kayak product, with separate meeting arrangements. No coordinate for the YAML's unspecified daytime experience established.
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_021/
+    title: 島尻のマングローブ｜宮古島観光協会
+    coordinateEvidence: Physical mangrove marker belongs to the separate landmark record; it is not evidence of this unnamed tour's meeting point.
+  previousLocation:
+    latitude: 24.8777
+    longitude: 125.2884
+  verifiedLocation: null

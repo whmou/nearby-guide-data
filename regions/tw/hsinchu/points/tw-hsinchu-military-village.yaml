@@ -36,14 +36,14 @@ point:
           label: 需購票
   indoor: true
   location:
-    latitude: 24.8140749
-    longitude: 120.9667714
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8140749,120.9667714"
+    latitude: 24.814074797667708
+    longitude: 120.96685381077023
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.814074797667708,120.96685381077023
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "博物館入口位於眷村保存區主要通道旁，請依路旁指示牌前往售票口。"
+  locationHint: 東大路二段105號新竹市眷村博物館紅門／前廣場抵達；不是未指名的眷村保存區售票口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +100,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Unlike several corrupted city-feed entries, this named museum record matches the source YAML's location closely and documents a red entrance gate and forecourt. Landmark arrival only, not a surveyed entrance threshold. Correct the vague access description.
+  sources:
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_376580000A_000009 眷村博物館: PositionLat=24.814074797667708, PositionLon=120.96685381077023; address 東大路二段105號. Description explicitly identifies the red/white entrance design and forecourt with aircraft-drop-tank water tower. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  - url: https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf
+    title: 國土管理署：新竹市博物館／地方文物館一覽表
+    coordinateEvidence: 'Table 2-2-58 identifies 新竹市眷村博物館 at 東大路二段105號. Address/institution corroboration only; no new coordinate extracted. Exact source: https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf'
+  previousLocation:
+    latitude: 24.8140749
+    longitude: 120.9667714
+  verifiedLocation:
+    latitude: 24.814074797667708
+    longitude: 120.96685381077023

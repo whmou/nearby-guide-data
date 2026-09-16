@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.834388
-    longitude: 125.186688
-  googleMapsUrl: "https://maps.google.com/maps?q=24.834388,125.186688"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請保留為伊良部島區域／上層資料項目，並導航至另行驗證的海灘、觀景點或橋頭。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Whole island is not a single point. The current central coordinate has no independently identified visitor arrival anchor. Moving it to a business, harbour or even another listed attraction would change its identity.
+  sources:
+  - url: https://miyako-island.net/charm/
+    title: 宮古島観光協会 — 伊良部地区
+    coordinateEvidence: https://miyako-island.net/charm/ describes seven settlements and multiple separate attractions on Irabu. No single island arrival pin extracted or chosen.
+  previousLocation:
+    latitude: 24.834388
+    longitude: 125.186688
+  verifiedLocation: null

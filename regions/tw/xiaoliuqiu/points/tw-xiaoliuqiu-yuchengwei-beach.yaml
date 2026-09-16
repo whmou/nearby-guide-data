@@ -4,18 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "漁埕尾沙灘"
-  summary: "小琉球東南角的迷你珊瑚礁沙灘，地名源自昔日漁民曬網的「漁埕」，是全島少數沙質海岸，也是與綠蠵龜近距離相遇的熱點。"
+  summary: "漁埕尾沙灘／潮間帶在小琉球東北側。本筆採環島公路34號的同名潮間帶訪客區圖釘，不是沙灘中心或精測入口；進入仍須遵守導覽與保育管制。"
   narration: |
-    站在漁埕尾沙灘，踩著細碎的珊瑚礁沙，你很快會發現這裡和台灣本島的海灘不太一樣——沙粒偏粗，夾著白色貝殼碎片，岸邊礁石上附著一層層活珊瑚，潮水拍來時發出沉悶的鼓聲。
+    海保署調查資料確有漁埕尾沙灘，縣府也介紹東北側的漁埕尾潮間帶。本次定位採同名潮間帶岸側訪客區，地址為漁福村環島公路34號，不是沙灘個別入口的精測位置；原稿東南角廟旁的位置與路線不能沿用。
     
-    「漁埕」，閩南語裡是漁民整理漁獲、修補魚網的工作場地；「尾」則是最末端的意思。幾百年前，閩南移民渡過黑水溝來到這座珊瑚礁隆起的小島定居，在嶙峋的海岸邊尋找難得的沙地，搭起竹棚曬網、處理漁獲，這一帶便成了村子裡共用的漁作空間，久而久之就叫做「漁埕尾」。
+    沙灘與潮間帶是不同的觀察範圍。前往前須確認實際公共入口、當日開放與導覽安排；不要以保育區界址、附近漁港或未核實小廟當作入口。
     
-    小琉球的海岸線幾乎全是礁石，能有一小片沙灘已屬珍貴，所以這裡自古就是聚落核心，沙灘旁小廟的香火從沒斷過，老一輩漁民出海前都要來拜一拜，求個平安。
-    
-    如今，這片沙灘最讓人驚喜的訪客是綠蠵龜。小琉球海域是台灣附近綠蠵龜密度最高的地方，退潮後在礁岩淺灘浮潛，往往能在三公尺內和一隻成年綠蠵龜靜靜對視。島上居民早已習慣與龜共存，出海捕魚時刻意繞道，孩子們從小就知道不能驚擾牠們。
-    
-    漁埕尾的節奏屬於那種沒有紅綠燈的島嶼時間，廟埕前總有幾個老人在聊天，機車停了又走，海風把一切都吹得鬆散。站在這裡，很容易理解小琉球為什麼讓人一來就捨不得走。
-  observationPrompt: "退潮時往礁岩淺灘看，你能找到正在悠游的綠蠵龜嗎？沙灘的沙粒和你去過的一般海灘有什麼不同——顏色、粗細、組成成分各有什麼差異？"
+    若在合法活動中遇到海龜，保持至少五公尺距離，不觸碰、不追逐、不包圍、不干擾。原稿三公尺內對視、退潮自行浮潛及固定廟口生活場景，不能作到訪承諾。
+  observationPrompt: "先確認公共入口與合格導覽安排，再於允許範圍觀察沙岸與礁岸差異；不自行下水、踏礁找龜或帶走沙石生物。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -46,35 +42,35 @@ point:
   - id: experience
     label: 體驗
     tags:
-      - id: snorkeling
-        label: 浮潛
+      - id: guided-ecology
+        label: 導覽生態觀察
   indoor: false
   location:
-    latitude: 22.336
-    longitude: 120.39
-    locationHint: "小琉球東南岸，廟口旁的珊瑚礁沙灘，環島公路沿線可見指標"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.336,120.39"
+    latitude: 22.3482643
+    longitude: 120.3886064
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.3482643,120.3886064
   trigger:
     radiusMeters: 120.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 東北岸漁福村環島公路34號的「漁埕尾潮間帶」具名岸側訪客錨點，用於漁埕尾沙灘／潮間帶的陸側接近；不是沙灘中央、精測入口或保育區界址。抵達後確認現場管制站與導覽安排，不照座標自行走入潮間帶。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "小琉球具代表性的漁村歷史沙灘，為島上少數沙質海岸之一，具地方文史與生態雙重意義"
+    note: "官方研究記錄沙灘名稱，縣府確認東北側潮間帶；本筆公共入口仍待確認。"
     sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
   distinctiveness:
     score: 4
-    note: "珊瑚礁環境中稀有沙灘、地名藏漁村記憶、綠蠵龜棲地三者交疊，辨識度高"
+    note: "沙岸與潮間帶景觀具有觀察價值，地名起源與廟口故事未在本次核實。"
     sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
   interpretability:
     score: 4
-    note: "地名由來具體可說故事，生態可直接觀察，在地廟口生活氣息容易感受"
+    note: "需先確認公共入口及管理範圍，不以未核實小廟或曬網場景作解說。"
     sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
   visitorValue:
     score: 4
-    note: "可浮潛賞龜、觀察礁岩地貌、體驗離島漁村日常，適合各年齡層"
+    note: "以依法開放的觀察活動為限，不推薦自行浮潛或三公尺內接近海龜。"
     sources: [tw-xiaoliuqiu-yuchengwei-beach-source]
   evidenceQuality:
     score: 3
@@ -84,12 +80,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-yuchengwei-beach-source
     title: "屏東縣琉球鄉公所－小琉球旅遊資訊"
-    publisher: ""
+    publisher: "www.liouciou.gov.tw"
     url: https://www.liouciou.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-yuchengwei-beach-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "liuchiu-intertidal.pthg.gov.tw"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-yuchengwei-beach-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -102,9 +114,30 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-yuchengwei-beach.webp
     completePath: media/complete/tw-xiaoliuqiu-yuchengwei-beach.webp
 admissions:
-  - label: "免費"
-    isFree: true
+  - label: "進入管理潮間帶須依預約、合格導覽及觀光保育費規定；不宣稱全區免費自由進入。"
+    isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 補查。『小琉球漁埕尾沙灘』Google 查詢僅回傳視窗，已拒用；改以官方確有的同岸段名稱『漁埕尾潮間帶』取得唯一具名 feature，地址為漁福村環島公路34號。縣府資料明述該訪客區包括沙灘、岸際平台、管制站及規劃步道，故採同名岸側 visitor_area，不宣稱已取得沙灘個別 feature、入口或集合亭的精測座標。原東南角及22.336,120.39錯誤；此處在東北側，北接中澳沙灘。主流程須保留錨點名稱及受管制接近的限定。
+  sources:
+  - url: https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E6%BC%81%E5%9F%95%E5%B0%BE%E6%BD%AE%E9%96%93%E5%B8%B6&output=embed
+    title: Google Maps：漁埕尾潮間帶（環島公路34號）feature
+    coordinateEvidence: 2026-09-16 唯讀取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E6%BC%81%E5%9F%95%E5%B0%BE%E6%BD%AE%E9%96%93%E5%B8%B6&output=embed；選定 feature 原始陣列為 [["0x3471e578897f548f:0x82a28a3f851e4430","929, Pingtung County, Liuqiu Township, Yufu Village, Huandao Rd, 34號號漁埕尾潮間帶",[22.3482643,120.3886064],"9413238176578683952"],"漁埕尾潮間帶",...]，分類為教育機構。採該具名道路地址 feature 的座標，不取前方 viewport，也不取先前沙灘查詢的22.34163895,120.3821712視窗。這是同名潮間帶岸側訪客定位，非獨立沙灘圖釘。
+  - url: https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1
+    title: 屏東縣潮琉生態保育網：漁埕尾潮間帶預約導覽
+    coordinateEvidence: 本次重新讀取及搜尋 https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=1，官方指出東北側、南鄰漁港、北接中澳沙灘，構成包括防波堤、沙灘及海蝕平台；須抵達管制站並由合格導覽員沿規劃步道進入。此來源核對與漁埕尾沙灘同岸段的 visitor_area 身分和陸上受管制接近，不提供34號圖釘的數值，沒有由文字估算座標。
+  - url: https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile
+    title: 大鵬灣管理處：113年度琉球風景特定區遊憩承載量成果報告
+    coordinateEvidence: 本次 web 搜尋取得 https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的可索引表文，第25項漁埕尾潮間帶明述緊鄰中澳沙灘、設管制站、為導覽點。直接開啟PDF遇工具錯誤，故僅以索引表文核對實際訪客區與管理設施；不從圖面、邊界或中心提取任何GPS。
+  previousLocation:
+    latitude: 22.336
+    longitude: 120.39
+  verifiedLocation:
+    latitude: 22.3482643
+    longitude: 120.3886064

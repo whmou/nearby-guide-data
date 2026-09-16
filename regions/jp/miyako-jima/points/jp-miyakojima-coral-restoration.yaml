@@ -37,15 +37,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.8060
-    longitude: 125.2850
-  googleMapsUrl: "https://maps.google.com/maps?q=24.806,125.285"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 設定地理位置前，請先選定具名珊瑚復育計畫及其業者指定的集合地點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -102,3 +97,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Generic conservation project, not an identified permanent visitor facility. Research found real conservation initiatives and a dated museum event, not evidence that the YAML pin identifies a tank/exhibition complex.
+  sources:
+  - url: https://reefmiyako.com/shop/csr/
+    title: 伊良部リーフ — 環境への取り組み
+    coordinateEvidence: https://reefmiyako.com/shop/csr/ describes a specific operator's coral planting/maintenance programmes. No coordinate links this operator or a visitor tank facility to the unnamed YAML project; none extracted.
+  - url: https://www.city.miyakojima.lg.jp/gyosei/ecoisland/ecoevent/files/2017miyako_sango_8koume_chirashi1215b_set.pdf
+    title: 宮古島市 — 2017 coral workshop notice
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/gyosei/ecoisland/ecoevent/files/2017miyako_sango_8koume_chirashi1215b_set.pdf concerns a dated event at the museum. No permanent-project arrival coordinate established.
+  previousLocation:
+    latitude: 24.806
+    longitude: 125.285
+  verifiedLocation: null

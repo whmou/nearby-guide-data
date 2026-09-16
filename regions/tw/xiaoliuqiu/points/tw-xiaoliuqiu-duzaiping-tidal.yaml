@@ -4,16 +4,16 @@ point:
   parentId: null
   kind: venue
   title: "肚仔坪潮間帶"
-  summary: "小琉球東岸最精彩的珊瑚礁潮間帶，退潮後一大片礁盤裸露，海膽、海星、寄居蟹盡收眼底。閩南語「肚仔坪」形容礁盤如鼓起的大肚皮，是早期漁民世代採集之地，也是綠蠵龜悠游出沒的生態秘境。"
+  summary: "肚仔坪位於小琉球西北側，是受管理的珊瑚礁潮間帶。須依預約、合格導覽及現場管制進入，不是退潮便可自行步入的免費礁盤。"
   narration: |
     「肚仔坪」這名字，閩南語念起來就是「肚子的平地」。退潮後，這片珊瑚礁盤從海裡浮現，平平坦坦像一塊鼓起的大肚皮攤在太陽下，難怪早年來此謀生的漁民，一眼就給它起了這個又貼切又有趣的名字。
     
     小琉球的歷史說起來令人唏噓。島上原本有西拉雅族人世居，1636年荷蘭東印度公司以荷蘭船員遇難為由出兵，將島上居民幾乎屠盡，倖存者淪為奴隸，島嶼一度荒廢長達數十年。後來閩南漁民陸續移入，才又在礁石海岸間落地生根。肚仔坪這片豐饒的礁盤，便是他們世代採集的「天然糧倉」——海膽、螃蟹、章魚、貝類，退潮一到，生計就擺在眼前。
     
-    如今肚仔坪成了生態保護區，那份豐饒卻依然動人。退潮後踏上礁盤，腳下是幾百年前先民走過的同一片石頭，潮池裡海星靜靜趴著，黑棘海膽縮在礁縫，寄居蟹拖著借來的殼忙進忙出。若夠幸運，淺灘外的海面上，一顆圓圓的頭悄悄浮出水面換氣——那是小琉球的主人綠蠵龜，牠在這裡生活的時間遠比任何觀光客都長。
+    如今肚仔坪成了生態保護區，那份豐饒卻依然動人。依開放規定由合格導覽員帶領進入後，腳下是幾百年前先民走過的同一片石頭，潮池裡海星靜靜趴著，黑棘海膽縮在礁縫，寄居蟹拖著借來的殼忙進忙出。若夠幸運，淺灘外的海面上，一顆圓圓的頭悄悄浮出水面換氣——那是小琉球的主人綠蠵龜，牠在這裡生活的時間遠比任何觀光客都長。
     
-    生態觀察有一條鐵則：只帶走照片與記憶，不翻動礁石、不帶走任何生物。每一塊石頭下都是一個小小的家，輕輕放下，下一位旅人也能看見同樣精彩的世界。
-  observationPrompt: "退潮後仔細觀察眼前的礁盤與潮池：你能找到幾種潮間帶生物？黑棘海膽躲在哪個礁縫、海星趴在哪個潮池底、寄居蟹背的是哪種貝殼？往外海望去，有沒有一顆圓頭悄悄浮出水面換氣的綠蠵龜？"
+    生態觀察有一條鐵則：只帶走照片與記憶，不翻動礁石、不帶走任何生物。每一塊石頭下都是一個小小的家，不要拿起生物或移動石頭，讓下一位旅人也能看見同樣精彩的世界。
+  observationPrompt: "先確認開放與導覽安排；僅在導覽允許的位置觀察潮池，不翻石、不採集、不觸碰生物，與海龜保持至少五公尺距離。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -49,14 +49,14 @@ point:
         label: 親子
   indoor: false
   location:
-    latitude: 22.342
-    longitude: 120.394
-    locationHint: "小琉球東岸，大福漁港南方約500公尺，沿環島公路行駛見路旁「肚仔坪」指標即可停車，步行下礁岩步道；退潮前後2小時為最佳造訪時機，請事先查詢當日潮汐表"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.342,120.394"
+    latitude: 22.34978
+    longitude: 120.3653
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.34978,120.3653
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 小琉球西北側肚仔坪；依環島公路往海景休閒渡假區方向的岔路下行約50公尺，先抵達岸側入口區。座標為官方景點導航錨點，非外海潛點；進潮間帶須依預約、導覽與現場管制，不得照原文自行踏入。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -65,15 +65,15 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
   distinctiveness:
     score: 5
-    note: "台灣本島極為罕見的可步行珊瑚礁盤潮間帶體驗，加上全台最高的野生綠蠵龜出沒機率，是小琉球最具辨識度的自然地標"
+    note: "西北側珊瑚礁潮間帶具生態觀察特色；野生動物目擊不能保證。"
     sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
   interpretability:
     score: 4
-    note: "退潮後即可步行進入，無需特殊裝備，生物種類豐富且肉眼可見；唯需配合潮汐時間，造訪前須查詢潮汐表"
+    note: "進入須有合格導覽員帶領並配合預約、潮汐及管制，不可因退潮便自行進入。"
     sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
   visitorValue:
     score: 5
-    note: "免費、親子友善、視覺震撼力強，綠蠵龜目擊機率高，是小琉球行程必訪景點，幾乎沒有遊客失望而歸"
+    note: "參與條件、裝備及觀光保育費依主管機關與導覽單位公告，不承諾免費或所有人皆適合。"
     sources: [tw-xiaoliuqiu-duzaiping-tidal-source]
   evidenceQuality:
     score: 3
@@ -83,12 +83,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-duzaiping-tidal-source
     title: "大鵬灣國家風景區管理處——小琉球景點介紹"
-    publisher: ""
+    publisher: "www.trimt-nsa.gov.tw"
     url: https://www.trimt-nsa.gov.tw
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-duzaiping-tidal-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=209
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-duzaiping-tidal-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -101,9 +117,30 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-duzaiping-tidal.webp
     completePath: media/complete/tw-xiaoliuqiu-duzaiping-tidal.webp
 admissions:
-  - label: "免費"
-    isFree: true
+  - label: "進入潮間帶須依現行預約、合格導覽及觀光保育費規定；費用與減免請查主管機關公告。"
+    isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。管理處明列座標，屏東縣潮琉生態保育網另核對西北側位置及陸上岔路抵達方式。原座標偏離約3076公尺，『東岸、大福港南方』是重大錯誤。官方導航點用於岸側抵達，並非保育範圍中心或海域調查測站。原文免費、無裝備即可自行進入的提示不適用，應另行修正文案與導覽限制。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=209
+    title: 交通部觀光署大鵬灣國家風景區管理處：肚仔坪潮間帶
+    coordinateEvidence: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=209 的唯讀 HTML 明列『經度：120.3653 緯度：22.34978』，導航 href 為 https://maps.google.com/maps?q=22.34978,120.3653。敘述由環島公路往海景休閒渡假區岔路下行約50公尺的陸路抵達方式；未使用海洋調查測站的離岸座標。
+  - url: https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=3
+    title: 屏東縣潮琉生態保育網：肚仔坪潮間帶預約導覽
+    coordinateEvidence: https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=3 明確對應肚仔坪，重述西北側及岔路下行約50公尺的抵達方式，並提供導覽申請。此頁未提取到獨立數值入口座標，因此只用於身分、岸側交通與導覽條件核對。
+  - url: https://liuchiu-intertidal.pthg.gov.tw/
+    title: 屏東縣潮琉生態保育網：最新消息與進入須知
+    coordinateEvidence: https://liuchiu-intertidal.pthg.gov.tw/ 於查核日列2026-08-27恢復開放公告及須由合格導覽員帶領的要求；無額外座標抽取。本來源只確認不能把導航抵達等同於不受限制進入礁盤。
+  previousLocation:
+    latitude: 22.342
+    longitude: 120.394
+  verifiedLocation:
+    latitude: 22.34978
+    longitude: 120.3653

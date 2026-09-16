@@ -1,6 +1,6 @@
 ﻿schemaVersion: 1
 packId: jp-miyakojima
-version: "1.0.4"
+version: "1.0.5"
 title: "宮古島"
 subtitle: "沖繩碧海與珊瑚礁"
 region:
@@ -9,4 +9,4 @@ region:
   adminAreaLevel1: 沖縄県
 contentLanguage: zh-Hant-TW
 minAppVersionCode: 8
-createdAt: "2026-07-15T00:00:00Z"
+createdAt: "2026-09-16T00:00:00Z"

@@ -287,15 +287,16 @@ _HEX64 = None
 
 def _require_dist():
     if not DIST_PACKS.exists() or not any(DIST_PACKS.glob("*.guidepack")):
-        pytest.skip("no built packs in dist/packs — run build_packs.py first")
+        pytest.fail("no built packs in dist/packs — run build_packs.py first")
 
 
 def _pack_path(pack_id: str, variant: str) -> Path:
     _require_dist()
-    cands = sorted(DIST_PACKS.glob(f"{pack_id}-*-{variant}.guidepack"))
-    if not cands:
-        pytest.skip(f"no {pack_id} {variant} pack built")
-    return cands[-1]
+    packs = [_yaml.safe_load(p.read_text(encoding="utf-8-sig")) for p in REGIONS.glob("*/*/pack.yaml")]
+    version = next(p["version"] for p in packs if p["packId"] == pack_id)
+    archive = DIST_PACKS / f"{pack_id}-{version}-{variant}.guidepack"
+    assert archive.exists(), f"Current source version not built: {archive.name}"
+    return archive
 
 
 def _open_pack(pack_id: str, variant: str):
@@ -313,7 +314,7 @@ def _iter_source_points():
         yield pf, data
 
 
-PACK_IDS = ("tw-hsinchu", "jp-miyakojima")
+PACK_IDS = tuple(_yaml.safe_load(p.read_text(encoding="utf-8-sig"))["packId"] for p in sorted(REGIONS.glob("*/*/pack.yaml")))
 VARIANTS = ("compact", "complete")
 
 
@@ -419,7 +420,7 @@ def test_subtitle_in_manifest():
 
 
 def test_point_counts():
-    expected = {"tw-hsinchu": 36, "jp-miyakojima": 71}
+    expected = {"tw-hsinchu": 35, "jp-miyakojima": 71, "jp-ishigaki": 30, "tw-xiaoliuqiu": 22}
     for pack_id, count in expected.items():
         _, points, _ = _open_pack(pack_id, "compact")
         assert len(points) == count, f"{pack_id}: expected {count} points, got {len(points)}"

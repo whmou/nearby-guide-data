@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.833
-    longitude: 125.217
-  googleMapsUrl: "https://maps.google.com/maps?q=24.833,125.217"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 佐良浜的鰹魚捕撈與加工文化屬區域／主題；任何工廠參訪皆須確認具名業者並取得許可。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: The tradition is real, but no particular public factory, display facility or village starting point is named. Do not replace cultural content with a guessed harbour or processing business.
+  sources:
+  - url: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf
+    title: 宮古島観光協会 — 伊良部島 cultural map
+    coordinateEvidence: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf describes 佐良浜 bonito fishing and multiple processing factories. No single coordinate is associated with the YAML's generic cultural experience.
+  - url: https://miyako-island.net/charm/industry/
+    title: 宮古島観光協会 — 宮古島の産業
+    coordinateEvidence: https://miyako-island.net/charm/industry/ corroborates 佐良浜's day-return pole-and-line bonito fishery, not an identified visitor venue. No coordinate extracted.
+  previousLocation:
+    latitude: 24.833
+    longitude: 125.217
+  verifiedLocation: null

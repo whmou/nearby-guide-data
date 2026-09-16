@@ -35,15 +35,10 @@ point:
         - id: ticketed
           label: 需付費
   indoor: true
-  location:
-    latitude: 24.800128
-    longitude: 125.31566
-  googleMapsUrl: "https://maps.google.com/maps?q=24.800128,125.31566"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: "位於宮古島市平良市區，請事先電話預約體驗時段，工房通常設有招牌與展示紅型布料的橱窗。"
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 需先確認具名業者及已預約工作坊的集合地點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +96,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: YAML describes multiple unnamed bingata workshops; it does not identify one venue. A real workshop elsewhere cannot justify this pin. Keep as a craft-experience theme.
+  sources:
+  - url: https://www.miyakojima-cci.jp/content/wp-content/uploads/2025/12/1766734722.pdf
+    title: 宮古島商工会議所 — 宮古島紅型作家
+    coordinateEvidence: No matching coordinate extracted. https://www.miyakojima-cci.jp/content/wp-content/uploads/2025/12/1766734722.pdf describes a particular artist's hotel workshops and future studio plans, not the unnamed central-Hirara workshop claimed in the YAML.
+  previousLocation:
+    latitude: 24.800128
+    longitude: 125.31566
+  verifiedLocation: null

@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.91889
-    longitude: 125.26194
-  googleMapsUrl: "https://maps.google.com/maps?q=24.91889,125.26194"
+    latitude: 24.913723
+    longitude: 125.267898
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.913723,125.267898
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 池間大橋宮古島本島側的橋頭；請使用陸側公共觀景／抵達區域，切勿在橋面車道停車。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: Replace the bridge-middle coordinate with the association's mainland bridgehead destination (roughly 0.8 km southeast of the old point). The pin is for arrival/viewing, not the bridge's geometric centre.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-893/
+    title: 宮古島観光協会 — 池間大橋
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-893/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.913723,125.267898; its place embed uses q=24.913723,125.267898. These are explicit destination coordinates, not a viewport centre.'
+  previousLocation:
+    latitude: 24.91889
+    longitude: 125.26194
+  verifiedLocation:
+    latitude: 24.913723
+    longitude: 125.267898

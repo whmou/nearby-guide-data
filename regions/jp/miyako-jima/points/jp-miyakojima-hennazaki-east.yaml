@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7189
-    longitude: 125.4693
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7189,125.4693"
+    latitude: 24.718962
+    longitude: 125.469101
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.718962,125.469101
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 東平安名崎燈塔附近的公共岬角步道；請將車輛停在指定的內陸停車場，再步行前往並留在步道上。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: Official tourism q pin is a usable land-side cape viewing location, not offshore cape centroid. It does not mean vehicles can reach the lighthouse.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-866/
+    title: 宮古島観光協会 — 東平安名崎
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-866/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.718962,125.469101; its place embed uses q=24.718962,125.469101. These are explicit destination coordinates, not a viewport centre.'
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_019/
+    title: 宮古島観光協会 — 東平安名崎
+    coordinateEvidence: https://miyako-island.net/beach_and_spot/beach_spot_019/ confirms maintained walking paths and a 50-space parking area. No separate numeric point extracted.
+  previousLocation:
+    latitude: 24.7189
+    longitude: 125.4693
+  verifiedLocation:
+    latitude: 24.718962
+    longitude: 125.469101

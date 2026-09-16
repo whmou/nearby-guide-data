@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8012867
-    longitude: 120.9811473
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8012867,120.9811473"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 需釐清體育場管理單位、田徑場（公園路283號）及體育館（295號）的實體對應；目前未取得可直接查核的場館地標座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit, landmark-pin review. The narration describes the running track, whereas the title also names the multi-venue administration. Official iPlay identifies the track and flags renovation, but no explicit coordinate for that facility was extracted. A reliable ordinary-facility landmark pin would suffice without a separate entrance. Remains unresolved for entity/coordinate evidence, not merely for lacking a safe entrance pin.
+  sources:
+  - url: https://iplay.sports.gov.tw/gyminfo/index/5269
+    title: 全國運動場館資訊網：新竹市立田徑場
+    coordinateEvidence: 'Official record gives 新竹市公園路283號 and says 跑道整修中，大棚架仍開放. No entrance latitude/longitude extracted; HTML fetch returned 403, so no coordinate inferred. Exact source: https://iplay.sports.gov.tw/gyminfo/index/5269'
+  - url: https://stadium.hc.edu.tw/ch/
+    title: 新竹市立體育場官方網站
+    coordinateEvidence: 'Administrative address 公園路295號 is distinct from the track''s 283號. No explicit outdoor arrival coordinate extracted from this source. Exact source: https://stadium.hc.edu.tw/ch/'
+  previousLocation:
+    latitude: 24.8012867
+    longitude: 120.9811473
+  verifiedLocation: null

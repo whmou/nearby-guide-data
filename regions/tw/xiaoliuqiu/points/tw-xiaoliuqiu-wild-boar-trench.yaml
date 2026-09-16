@@ -4,18 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "山豬溝"
-  summary: "小琉球東北角一條天然珊瑚礁溶蝕溝，相傳昔日野豬受獵人追趕時躲入此縫中藏匿而得名，溝壁保留珊瑚蟲骨骼痕跡，是花瓶石景區旁兼具地名故事與地質奇景的隱秘角落。"
+  summary: "山豬溝位於小琉球西岸環島公路60號，是高位珊瑚礁森林與山溝步道景區。不是花瓶岩旁地縫；須由管理入口依開放及售票規定參觀。"
   narration: |
-    走在小琉球東北角，沿著花瓶石景區往南不遠，地面突然裂開一條深邃的礁岩地縫，兩側珊瑚石灰岩壁高聳，窄處幾乎要側身才能通過——這就是島民口中的「山豬溝」。
+    山豬溝位於琉球嶼西側，官方介紹為斷崖形成的山溝，步道穿過珊瑚礁石灰岩植群，沿途有樹根、蕨類與礁岩景觀。它不是從花瓶岩往南幾步便能找到的裂縫。
     
-    說起這名字，老一輩琉球鄉親都能說段往事。早年小琉球樹林茂密，島上真的住著野豬。牠們平日翻找地瓜葉、野果為食，一旦被獵人追趕，便機靈地鑽進這條天然地縫躲藏。礁岩深溝彎彎曲曲，連獵犬都難以追入，山豬靠著這條裂縫屢次逃脫，久而久之，島人便把這裡喚做「山豬溝」，一個名字就此刻進了地圖。
+    地名有不同說法。管理處介紹包括野放豬隻被誤認為山豬、山豬精的民間故事，以及岩壁植物山豬枷的名稱聯想；這些應以傳說或命名說法呈現，不把單一獵人追豬情節當成確定史實。
     
-    從地質來看，山豬溝是珊瑚礁台地歷經數萬年海浪與酸性雨水侵蝕所形成的「溶蝕溝」。小琉球整座島都是珊瑚礁隆起而成，石灰岩含鈣豐富，雨水順著岩縫滲入，一點一點將岩石溶掉，最終刻出這條深達數公尺的長溝。溝壁上若仔細端詳，還能發現一粒粒圓形小孔，那是古代珊瑚蟲的骨骼印記，每個小洞都藏著幾萬年前海底的記憶。
-    
-    小琉球的歷史並不只有悠閒的慢活。荷蘭東印度公司殖民台灣期間，一六三六年因衝突爆發，幾乎滅絕了島上的原住民「琉球番」，倖存者被擄往爪哇為奴，整座島從此沉寂。此後漢人漁民陸續移入，帶來閩南語、信仰與生活智慧，也帶來對這塊土地的重新命名。「山豬溝」這個名字，正是移民與野地共處、和野生動物周旋的生活印記。
-    
-    如今島上早已見不到野豬，山豬溝卻依然是小琉球難得一見的幽靜角落。溝底濕涼，蕨類與苔蘚頑強附著在岩壁上，空氣中帶著一絲鹹濕，與外頭的豔陽海風截然不同。往北走幾步，便能望見花瓶石那座在海中獨立挺立的礁岩柱——它與山豬溝其實出自同一套地質力量，一個向上突起、一個向下凹陷，一陽一陰，共同說盡了這座珊瑚礁小島立體而深邃的大地故事。
-  observationPrompt: "站在山豬溝旁，試著在溝壁石灰岩上找找圓形小孔——那是什麼生物留下的痕跡？往北走幾步看到花瓶石，再想想：山豬溝向下凹、花瓶石向上突，同一座島上為何會出現這兩種相反的地形？"
+    沿開放步道可以觀察植物如何扎根礁岩，以及山溝陰影與外側日照的差別。請勿自行下切溝底、鑽入無標示岩縫或繞過封閉設施；票務與路線以現場公告為準。
+  observationPrompt: "留在管理步道上，觀察礁岩、樹根與蕨類的關係；不要下切山溝或尋找通往花瓶岩的捷徑。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -34,15 +30,15 @@ point:
       - id: coral-reef
         label: 珊瑚礁
       - id: karst
-        label: 溶蝕溝
+        label: 山溝地形
       - id: legend
         label: 地名故事
       - id: island
         label: 小琉球
       - id: scenic
-        label: 花瓶石周邊
-      - id: free
-        label: 免費景點
+        label: 西岸森林
+      - id: paid
+        label: 需購票
       - id: reef-rock
         label: 礁岩步道
       - id: ecology
@@ -51,14 +47,14 @@ point:
         label: 歷史
   indoor: false
   location:
-    latitude: 22.3578
-    longitude: 120.3791
-    locationHint: "小琉球東北部，花瓶石景區步行約2-3分鐘可達，沿環島公路旁礁岩步道行走，留意地面裂開的深溝即是山豬溝入口。"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3578,120.3791"
+    latitude: 22.33845
+    longitude: 120.36248
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.33845,120.36248
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 小琉球西岸環島公路60號山豬溝生態步道景區入口／售票抵達區。由道路進入有管理的森林步道；不是花瓶石旁地縫，也不是可以任意下切的溝底。入園依現場售票、開放及封閉公告。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -67,15 +63,15 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-wild-boar-trench-source]
   distinctiveness:
     score: 4
-    note: "天然溶蝕溝地形結合野豬藏匿傳說，台灣其他地方難以複製的地名故事與地景組合，加上鄰近花瓶石形成強烈地形對比，獨特性高。"
+    note: "高位珊瑚礁森林、山溝地形與多種地名傳說結合，不以鄰近花瓶岩為特色。"
     sources: [tw-xiaoliuqiu-wild-boar-trench-source]
   interpretability:
     score: 3
-    note: "裂溝本身視覺清晰易觀察，但珊瑚蟲骨骼小孔與地質成因需要解說才能被理解；地名由來也非現場可自行推論，需要導覽輔助。"
+    note: "可藉步道解說理解礁岩植群與地名說法；傳說不當成確定歷史。"
     sources: [tw-xiaoliuqiu-wild-boar-trench-source]
   visitorValue:
     score: 3
-    note: "適合作為花瓶石行程的延伸順遊點，能補充地質與歷史層次，但本身體驗時間短（5-10分鐘），不建議單獨前往。"
+    note: "依正式入口與開放步道參觀，不是花瓶岩旁五至十分鐘的地縫順遊點。"
     sources: [tw-xiaoliuqiu-wild-boar-trench-source]
   evidenceQuality:
     score: 3
@@ -85,12 +81,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-wild-boar-trench-source
     title: "琉球鄉公所 - 小琉球旅遊景點介紹"
-    publisher: ""
+    publisher: "www.liuqiu.gov.tw"
     url: https://www.liuqiu.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-wild-boar-trench-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=229
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -103,9 +107,30 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-wild-boar-trench.webp
     completePath: media/complete/tw-xiaoliuqiu-wild-boar-trench.webp
 admissions:
-  - label: "免費"
-    isFree: true
+  - label: "需購票；票價、優惠及開放範圍依琉球鄉公所與現場公告確認。"
+    isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: entrance
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。採管理處對環島公路60號景區的明確導航目的地，觀光署同景點座標在約2公尺內一致，且官方交通資訊確認為西岸有門票的步道景區。原22.3578,120.3791及東北岸、花瓶石步行二至三分鐘的說法是重大方位錯誤；不是只需要小幅微調。座標用作道路側景區抵達點，不代表山溝中部或洞穴內部。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=229
+    title: 大鵬灣國家風景區管理處－山豬溝
+    coordinateEvidence: 直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=229，地址為屏東縣琉球鄉環島公路60號，明列經度120.36248、緯度22.33845；主iframe及一鍵導航網址為 https://maps.google.com/maps?q=22.33845,120.36248 。採此官方目的地，不採同頁周邊站牌座標或地图@中心。
+  - url: https://www.tad.gov.tw/m1.aspx?id=A12-00424&sNo=0001122
+    title: 交通部觀光署－山豬溝
+    coordinateEvidence: https://www.tad.gov.tw/m1.aspx?id=A12-00424&sNo=0001122 的經度/緯度欄為120.36247/22.338438，名稱及地址為山豬溝生態步道；轉為緯度在前即22.338438,120.36247，与採用的管理處導航位置相符。兩頁同屬觀光主管體系，不宣稱為獨立實測。
+  - url: https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12049
+    title: 台灣好行－山豬溝
+    coordinateEvidence: https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12049 明確描述西岸山豬溝生態步道及收票管理；直接HTTP取得的地圖連結只有 https://www.google.com.tw/maps/dir//山豬溝 ，不是數字坐標，故不另行用地名搜尋第一筆結果產生座標。此頁只核對景區身分及入園性質。
+  previousLocation:
+    latitude: 22.3578
+    longitude: 120.3791
+  verifiedLocation:
+    latitude: 22.33845
+    longitude: 120.36248

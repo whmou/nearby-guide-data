@@ -1,0 +1,728 @@
+[
+  {
+    "id": "jp-miyakojima-17end-beach",
+    "status": "verified",
+    "latitude": 24.84230232,
+    "longitude": 125.14072418,
+    "anchorType": "viewpoint",
+    "locationHint": "17END 位於下地島機場跑道北端旁的海岸；請沿公共外圍道路步行抵達。勿進入機場範圍，也勿將海面設為行車目的地。",
+    "reason": "Official Okinawa tourism destination pin confirms the coastal viewing site. The pin is not a vehicle-accessible airport entrance; the perimeter road is closed to motor vehicles. Original point is about 25 m away.",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/600013225",
+        "title": "おきなわ物語 — 17END",
+        "coordinateEvidence": "HTML at https://www.okinawastory.jp/spot/600013225 contains a Google Maps place iframe with q=24.84230232,125.14072418. This is the explicit place query, not the embedded map camera."
+      },
+      {
+        "url": "https://www.okinawastory.jp/course/600013260",
+        "title": "おきなわ物語 — 下地島・宮古島 cycling course",
+        "coordinateEvidence": "No additional coordinate extracted. https://www.okinawastory.jp/course/600013260 independently describes the runway-side beach and says the perimeter road excludes cars but permits bicycles; supports outdoor access."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-aragusuku-beach",
+    "status": "verified",
+    "latitude": 24.75977,
+    "longitude": 125.42478,
+    "anchorType": "landmark",
+    "locationHint": "新城海岸公共海灘，可由海岸道路及小型停車區抵達；請留在沙灘上觸發導覽，不要前往離岸水域。",
+    "reason": "Use the tourism association's explicit beach destination. Source description's claim that this is south of Yoshino and undeveloped should not be treated as verified by this coordinate audit.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-781/",
+        "title": "宮古島観光協会 — 新城海岸",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-781/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.75977,125.42478; its place embed uses q=24.75977,125.42478. These are explicit destination coordinates, not a viewport centre."
+      },
+      {
+        "url": "https://miyako-island.net/beach_and_spot/beach_spot_005/",
+        "title": "宮古島観光協会 — 新城海岸",
+        "coordinateEvidence": "https://miyako-island.net/beach_and_spot/beach_spot_005/ confirms 城辺字新城, road access, parking and toilet. Its pb embed's !2d125.40735058308321!3d24.75985083247827 is a viewport, deliberately NOT used as coordinates; the actual destination was extracted from the separate official q link."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-awamori-distillery",
+    "status": "verified",
+    "latitude": 24.7308405,
+    "longitude": 125.3524826,
+    "anchorType": "meeting_point",
+    "locationHint": "多良川本社，城辺字砂川85。請於預約導覽開始前至遊客商店報到；勿直接導航至另一處地下貯藏庫。",
+    "reason": "Official operator supplies this address pin and instructs visitors to arrive at its shop 10 minutes before the tour. It is a premises/meeting anchor, not a surveyed shop door. YAML's 平良字松原 address is wrong; the cave cellar is a separate feature south of the brewery.",
+    "sources": [
+      {
+        "url": "https://taragawa.co.jp/brewery-tour/",
+        "title": "多良川 — 洞窟貯蔵庫見学",
+        "coordinateEvidence": "https://taragawa.co.jp/brewery-tour/ links GoogleMaps to https://goo.gl/maps/sUCD8JGk8WG9azCi9. Read-only redirect resolves to the address 城辺砂川85 with place data !1s0x34f457ae79cc3d33:0xa2410cbebfe6f606!8m2!3d24.7308405!4d125.3524826. Extracted !3d/!4d from the place record, NOT @24.7308454,125.3502886 viewport."
+      },
+      {
+        "url": "https://taragawa.co.jp/tour_reserve/",
+        "title": "多良川 — 見学予約フォーム",
+        "coordinateEvidence": "No separate coordinate. https://taragawa.co.jp/tour_reserve/ confirms operator/headquarters at 沖縄県宮古島市城辺砂川85 and reservation-based cave-storehouse visits."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-biyandam-viewpoint",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請勿導航至現有座標。名為「ビャクダン山展望台」的地點仍待確認。",
+    "reason": "Exact-name research did not identify an authoritative site with this name or a visitor entrance. Do not substitute 野原岳, 比嘉ロードパーク or 牧山展望台 merely because they are real high points.",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/bunkazai-NobarudakeTamaishi.html",
+        "title": "宮古島市 — 野原岳の霊石",
+        "coordinateEvidence": "No coordinate extracted for ビャクダン山. https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/bunkazai-NobarudakeTamaishi.html documents a differently named 野原岳 cultural site; it does not establish equivalence to the YAML name."
+      },
+      {
+        "url": "https://miyako-guide.net/spots-cat/beach/",
+        "title": "宮古島観光協会 — ビーチ・観光地",
+        "coordinateEvidence": "https://miyako-guide.net/spots-cat/beach/ identifies named viewpoints including 牧山展望台 and 比嘉ロードパーク, but supplies no matching ビャクダン山 destination. No coordinates accepted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-botanical-bingata",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "需先確認具名業者及已預約工作坊的集合地點。",
+    "reason": "YAML describes multiple unnamed bingata workshops; it does not identify one venue. A real workshop elsewhere cannot justify this pin. Keep as a craft-experience theme.",
+    "sources": [
+      {
+        "url": "https://www.miyakojima-cci.jp/content/wp-content/uploads/2025/12/1766734722.pdf",
+        "title": "宮古島商工会議所 — 宮古島紅型作家",
+        "coordinateEvidence": "No matching coordinate extracted. https://www.miyakojima-cci.jp/content/wp-content/uploads/2025/12/1766734722.pdf describes a particular artist's hotel workshops and future studio plans, not the unnamed central-Hirara workshop claimed in the YAML."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-city-museum",
+    "status": "verified",
+    "latitude": 24.7965306,
+    "longitude": 125.3178511,
+    "anchorType": "landmark",
+    "locationHint": "宮古島市総合博物館，平良字東仲宗根添1166-287。此為官方博物館建築圖釘，供鄰近定位使用；請於開放時間經公共參觀區域前往接待處。並非經測量確認的正門座標。",
+    "reason": "The city's embedded map resolves to the explicitly named museum PLACE record and matching official address. Extracted the place coordinate pair, not its camera centre. Original point is approximately 48 m north; no invented entrance offset.",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/kurashi/shisetsu/koukyo/shisetu25.html",
+        "title": "宮古島市 — 宮古島市総合博物館",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/kurashi/shisetsu/koukyo/shisetu25.html embeds the Google museum place 0x34f4514edaa868ab:0xf3e4cdde04aee0e8. Its named place data at the exact iframe URL below supplies [24.7965306,125.3178511]. Camera !2d125.31552271509198!3d24.796578084084125 was NOT used."
+      },
+      {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.9671580428303!2d125.31552271509198!3d24.796578084084125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4514edaa868ab%3A0xf3e4cdde04aee0e8!2z5a6u5Y-k5bO257eP5ZCI5Y2a54mp6aSo!5e0!3m2!1sja!2sjp!4v1538724691930",
+        "title": "City-embedded Google Maps — Miyakojima City Museum place record",
+        "coordinateEvidence": "Read-only HTTP response from https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.9671580428303!2d125.31552271509198!3d24.796578084084125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4514edaa868ab%3A0xf3e4cdde04aee0e8!2z5a6u5Y-k5bO257eP5ZCI5Y2a54mp6aSo!5e0!3m2!1sja!2sjp!4v1538724691930 contains [\"0x34f4514edaa868ab:0xf3e4cdde04aee0e8\",\"Miyakojima City Museum, Higashinakasonezoe-1166-287 Hirara, Miyakojima, Okinawa 906-0011\",[24.7965306,125.3178511],\"17574397999351521512\"]. Coordinates extracted from this named PLACE record, not the preceding viewport array."
+      },
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/index.html",
+        "title": "宮古島市総合博物館 — official visitor information",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/index.html corroborates the exact address and public visitor arrangements. No second coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-coral-restoration",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "設定地理位置前，請先選定具名珊瑚復育計畫及其業者指定的集合地點。",
+    "reason": "Generic conservation project, not an identified permanent visitor facility. Research found real conservation initiatives and a dated museum event, not evidence that the YAML pin identifies a tank/exhibition complex.",
+    "sources": [
+      {
+        "url": "https://reefmiyako.com/shop/csr/",
+        "title": "伊良部リーフ — 環境への取り組み",
+        "coordinateEvidence": "https://reefmiyako.com/shop/csr/ describes a specific operator's coral planting/maintenance programmes. No coordinate links this operator or a visitor tank facility to the unnamed YAML project; none extracted."
+      },
+      {
+        "url": "https://www.city.miyakojima.lg.jp/gyosei/ecoisland/ecoevent/files/2017miyako_sango_8koume_chirashi1215b_set.pdf",
+        "title": "宮古島市 — 2017 coral workshop notice",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/gyosei/ecoisland/ecoevent/files/2017miyako_sango_8koume_chirashi1215b_set.pdf concerns a dated event at the museum. No permanent-project arrival coordinate established."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-funasugi-banata",
+    "status": "verified",
+    "latitude": 24.86148,
+    "longitude": 125.177959,
+    "anchorType": "viewpoint",
+    "locationHint": "フナウサギバナタ觀景平台；請使用停車場及公共步道，遠離懸崖邊緣。",
+    "reason": "The official destination is the existing cliff observation platform. Official tourism says its former sashiba-bird sculpture was removed; the YAML's stone woman statue is unsupported.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-854/",
+        "title": "宮古島観光協会 — フナウサギバナタ",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-854/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.861480,125.177959; its place embed uses q=24.861480,125.177959. These are explicit destination coordinates, not a viewport centre."
+      },
+      {
+        "url": "https://miyako-island.net/beach_and_spot/beach_spot_020/",
+        "title": "宮古島観光協会 — フナウサギバナタ",
+        "coordinateEvidence": "https://miyako-island.net/beach_and_spot/beach_spot_020/ corroborates the observation platform, parking and removed bird sculpture. No second coordinate needed; coordinate comes from the official explicit q link, not pb camera fields."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-harimizu-utaki",
+    "status": "verified",
+    "latitude": 24.807268,
+    "longitude": 125.27951,
+    "anchorType": "landmark",
+    "locationHint": "漲水御嶽的參拜處，鄰近公共石板參道；請尊重祭祀活動及禁止進入的神聖區域。此圖釘標示御嶽所在地，不代表可進入其神聖林地。",
+    "reason": "City Board of Education cultural-heritage mapping explicitly publishes the same coordinates as YAML. A small, publicly approached sacred site; use the outside worship approach and follow local restrictions.",
+    "sources": [
+      {
+        "url": "https://miyakojimabunkazai.jp/bunkazaiinfo738/",
+        "title": "宮古島市教育委員会公認 — 漲水御嶽と石垣",
+        "coordinateEvidence": "https://miyakojimabunkazai.jp/bunkazaiinfo738/ has map href https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.807268,+125.279510 (plus display parameters). Extracted explicit q target; ignored sll=24.805837,125.285543 and ll=24.817978,125.283022."
+      },
+      {
+        "url": "https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf",
+        "title": "宮古島市 — 観光ガイドマップ",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf identifies 漲水御嶽 on a city sightseeing/walking route. No additional numeric coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-head-tax-stone",
+    "status": "verified",
+    "latitude": 24.81279945,
+    "longitude": 125.28171539,
+    "anchorType": "landmark",
+    "locationHint": "人頭税石位於平良字荷川取路旁，為歷史標誌；請步行前往，勿妨礙居民或交通。",
+    "reason": "Adopt the official Okinawa tourism marker query. The original coordinate is approximately 20 m south. This verifies location only, not the YAML's literal historical claim that all taxation was determined by height.",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/spot/20340903",
+        "title": "おきなわ物語 — 人頭税石",
+        "coordinateEvidence": "https://www.okinawastory.jp/spot/20340903 HTML contains maps/embed/v1/place?q=24.81279945,125.28171539&zoom=16. Extracted the numeric q destination."
+      },
+      {
+        "url": "https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf",
+        "title": "宮古島市 — 観光ガイドマップ",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf includes 人頭税石 on the historical walking route; no additional coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-hennazaki-east",
+    "status": "verified",
+    "latitude": 24.718962,
+    "longitude": 125.469101,
+    "anchorType": "viewpoint",
+    "locationHint": "東平安名崎燈塔附近的公共岬角步道；請將車輛停在指定的內陸停車場，再步行前往並留在步道上。",
+    "reason": "Official tourism q pin is a usable land-side cape viewing location, not offshore cape centroid. It does not mean vehicles can reach the lighthouse.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-866/",
+        "title": "宮古島観光協会 — 東平安名崎",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-866/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.718962,125.469101; its place embed uses q=24.718962,125.469101. These are explicit destination coordinates, not a viewport centre."
+      },
+      {
+        "url": "https://miyako-island.net/beach_and_spot/beach_spot_019/",
+        "title": "宮古島観光協会 — 東平安名崎",
+        "coordinateEvidence": "https://miyako-island.net/beach_and_spot/beach_spot_019/ confirms maintained walking paths and a 50-space parking area. No separate numeric point extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-hora-cave",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請先確認是否指「パンプキン鍾乳洞／保良泉鍾乳洞」，再依已預約業者的集合指示前往；不提供可自行步行入洞的圖釘。",
+    "reason": "Cave identity/access are conflated with Bora spring/beach facilities. The operator's current notice distinguishes beach management from its tours and supplies meeting details only on enquiry. No verified entrance or fixed meeting point; also duplicates the cave narrative and exact coordinates of hora-spring.",
+    "sources": [
+      {
+        "url": "https://uminooto.com/maintenance/",
+        "title": "アイランドワークス — official maintenance / tour notice",
+        "coordinateEvidence": "https://uminooto.com/maintenance/ says tour meeting place and time are supplied on enquiry; no numeric fixed meeting coordinate published. It also says the current beach/pool manager is another company."
+      },
+      {
+        "url": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/008/400/h30houkoku3.pdf",
+        "title": "沖縄県 — ガマ活用検討報告書",
+        "coordinateEvidence": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/008/400/h30houkoku3.pdf lists 保良泉鍾乳洞 and the historical operator link, not a currently verified public outdoor cave entrance. No coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-hora-spring",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "選定定位點前，請先區分湧泉／海灘與需導覽的洞穴體驗。",
+    "reason": "YAML repeats hora-cave coordinates and mainly describes cave exploration, not a separately documented spring entrance. Do not validate duplicate cave content using a beach pin. Current tour meeting point is not fixed in the published operator notice.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots-cat/beach/page/3/",
+        "title": "宮古島観光協会 — 保良泉ビーチ listing",
+        "coordinateEvidence": "https://miyako-guide.net/spots-cat/beach/page/3/ describes a beach in front of a park with a spring-fed pool, distinguishing it from the YAML cave narrative. No spring-specific arrival coordinate extracted."
+      },
+      {
+        "url": "https://uminooto.com/maintenance/",
+        "title": "アイランドワークス — current tour notice",
+        "coordinateEvidence": "https://uminooto.com/maintenance/ requires enquiry for the tour meeting place; no fixed numeric coordinate extracted. Beach/pool management has changed, so an assumed operator entrance is unsafe."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-ikema-beach",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請明確指定池間島上的目標海灘；勿自動選用フナクス、イキヅー或其他海灘。",
+    "reason": "Title is only 池間島ビーチ and narrative mixes north-shore beach, bridge views and dugong feeding grounds. Multiple beaches fit parts of the description; no official source ties this record to one identifiable arrival.",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf",
+        "title": "宮古島市 — 池間湿原散策コース",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf maps different named places on Ikema, including フナクス. It does not establish which beach this generic YAML title means; no coordinate selected."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-ikema-bridge",
+    "status": "verified",
+    "latitude": 24.913723,
+    "longitude": 125.267898,
+    "anchorType": "viewpoint",
+    "locationHint": "池間大橋宮古島本島側的橋頭；請使用陸側公共觀景／抵達區域，切勿在橋面車道停車。",
+    "reason": "Replace the bridge-middle coordinate with the association's mainland bridgehead destination (roughly 0.8 km southeast of the old point). The pin is for arrival/viewing, not the bridge's geometric centre.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-893/",
+        "title": "宮古島観光協会 — 池間大橋",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-893/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.913723,125.267898; its place embed uses q=24.913723,125.267898. These are explicit destination coordinates, not a viewport centre."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-ikema-dugong",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "此為海洋棲地／保育主題，並非公共野生動物觀察點；勿引導遊客進入海草床。",
+    "reason": "Dugong presence/feeding traces are regional marine observations, not a reliable outdoor arrival location. The sole-confirmed-area claim is contradicted by current ministry data listing multiple Miyako sea areas.",
+    "sources": [
+      {
+        "url": "https://www.env.go.jp/content/000395911.pdf",
+        "title": "環境省 — ジュゴン調査 results through 2025–2026",
+        "coordinateEvidence": "https://www.env.go.jp/content/000395911.pdf table 1-14 lists feeding-trace survey areas including 池間島東部, 伊良部島佐和田 and 来間島東部. No public viewing/meeting point coordinate is specified; marine survey areas are not adopted as visitor pins."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-ikema-island",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請將池間島視為島嶼區域／上層資料項目，並導航至另行驗證的具名景點。",
+    "reason": "Whole island with several villages, beaches and a freshwater wetland, not one arrival point. Do not certify the current island-centre coordinate or silently replace it with a harbour/business. Freshwater wetland is not dugong habitat.",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_yusumanishibe01.pdf",
+        "title": "宮古島市 — 池間島",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_yusumanishibe01.pdf identifies the island, its two settlements and central freshwater wetland. No single visitor-arrival coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-ikema-wetland",
+    "status": "verified",
+    "latitude": 24.9323891,
+    "longitude": 125.242831,
+    "anchorType": "landmark",
+    "locationHint": "池間湿原（ユニムイ）：此為縣府提供的濕地地標圖釘，供鄰近定位使用，並非觀察平台或入口的精確圖釘。請僅於指定賞鳥平台／公共步道觀察，勿進入或穿越沼澤。",
+    "reason": "Okinawa Prefecture's environmental department publishes this exact coordinate for the named wetland and describes viewing from its platform. Accepted as a named natural landmark, not a surveyed entrance; no guessed platform offset. Original point is about 360 m northeast. YAML's Ramsar claim is not supported by inspected official sources, which specify Important Wetlands 500 and national bird sanctuary status.",
+    "sources": [
+      {
+        "url": "https://www.midorihana-okinawa.jp/?page_id=2739",
+        "title": "沖縄県環境部環境再生課 — 池間湿原（ユニムイ）",
+        "coordinateEvidence": "https://www.midorihana-okinawa.jp/?page_id=2739 explicitly prints 緯度・経度 24.9323891_125.242831 for registration 044 池間湿原（ユニムイ） and links https://www.google.com/maps?q=24.9323891%2C125.242831. Direct official coordinate field and numeric destination query, not viewport. It describes a viewing platform without claiming the coordinate surveys that platform."
+      },
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf",
+        "title": "宮古島市 — 池間湿原散策コース",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf maps 野鳥観察展望台 and explains Important Wetlands 500 and 2011 national bird sanctuary status. Corroborates identity/designated viewing access; no numeric coordinate inferred from illustration."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-irabu-bridge",
+    "status": "verified",
+    "latitude": 24.794986,
+    "longitude": 125.256406,
+    "anchorType": "viewpoint",
+    "locationHint": "伊良部大橋宮古島側的陸上橋頭；請於陸側公共通道觀景並遵守標示。橋上禁止臨停或停車。",
+    "reason": "Official tourism destination is the Miyako bridgehead, approximately 2.4 km east of the original mid-span point. The official page says no parking; YAML's claim of on-bridge sightseeing parking bays must be removed.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-840/",
+        "title": "宮古島観光協会 — 伊良部大橋",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-840/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.794986,125.256406; its place embed uses q=24.794986,125.256406. These are explicit destination coordinates, not a viewport centre."
+      },
+      {
+        "url": "https://miyako-island.net/charm/",
+        "title": "宮古島観光協会 — 宮古島の魅力",
+        "coordinateEvidence": "https://miyako-island.net/charm/ confirms the bridge connects Miyako and Irabu and distinguishes viewpoints such as 牧山展望台. No separate coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-irabu-diving",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請預約具名且具執照的潛水業者，並依其集合指示前往；區域性的潛水體驗不設陸上定位圖釘。",
+    "reason": "Regional marine-only experience, mentioning several underwater features rather than one onshore attraction. Cannot substitute the land-side 通り池 viewpoint or an arbitrary departure harbour.",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/feature/activity/diving",
+        "title": "おきなわ物語 — ダイビング",
+        "coordinateEvidence": "https://www.okinawastory.jp/feature/activity/diving distinguishes Irabu/Shimoji diving sites including 通り池 and describes boat-based diving. No fixed land-arrival coordinate for 伊良部島ダイビング is supplied."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-irabu-island",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請保留為伊良部島區域／上層資料項目，並導航至另行驗證的海灘、觀景點或橋頭。",
+    "reason": "Whole island is not a single point. The current central coordinate has no independently identified visitor arrival anchor. Moving it to a business, harbour or even another listed attraction would change its identity.",
+    "sources": [
+      {
+        "url": "https://miyako-island.net/charm/",
+        "title": "宮古島観光協会 — 伊良部地区",
+        "coordinateEvidence": "https://miyako-island.net/charm/ describes seven settlements and multiple separate attractions on Irabu. No single island arrival pin extracted or chosen."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-irabu-katsuobushi",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "佐良浜的鰹魚捕撈與加工文化屬區域／主題；任何工廠參訪皆須確認具名業者並取得許可。",
+    "reason": "The tradition is real, but no particular public factory, display facility or village starting point is named. Do not replace cultural content with a guessed harbour or processing business.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf",
+        "title": "宮古島観光協会 — 伊良部島 cultural map",
+        "coordinateEvidence": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf describes 佐良浜 bonito fishing and multiple processing factories. No single coordinate is associated with the YAML's generic cultural experience."
+      },
+      {
+        "url": "https://miyako-island.net/charm/industry/",
+        "title": "宮古島観光協会 — 宮古島の産業",
+        "coordinateEvidence": "https://miyako-island.net/charm/industry/ corroborates 佐良浜's day-return pole-and-line bonito fishery, not an identified visitor venue. No coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-irabu-lighthouse",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "導航前，請依官方航路標識名稱確認確切燈塔；勿以池間燈塔或港口燈標替代。",
+    "reason": "No authoritative match found for the claimed western-Irabu white circular 伊良部島灯台. Exact-name searches and official lighthouse references do not establish that identity or public access; the existing point is not verified.",
+    "sources": [
+      {
+        "url": "https://www.kaiho.mlit.go.jp/info/lighthouse/card/coment/map06.html",
+        "title": "海上保安庁 — 沖縄灯台カード locations",
+        "coordinateEvidence": "https://www.kaiho.mlit.go.jp/info/lighthouse/card/coment/map06.html names 平安名埼灯台 and 池間島灯台 with distinct addresses. It provides no match/coordinate for the YAML's 伊良部島灯台. This limited list is corroborative, not proof of nonexistence."
+      },
+      {
+        "url": "https://miyako-island.net/charm/",
+        "title": "宮古島観光協会 — 伊良部地区",
+        "coordinateEvidence": "https://miyako-island.net/charm/ identifies Irabu's named tourist features but does not establish the alleged western lighthouse or its arrival point. No coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-irabu-panorama",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請明確指定伊良部島側的目標觀景點，是橋頭或具名觀景平台。",
+    "reason": "A generic bridge panorama is not enough to uniquely identify a viewpoint. Narrative mixes a small bridgehead road/parking area with a high vantage. Do not silently replace it with 牧山展望台 or いらぶ大橋海の駅.",
+    "sources": [
+      {
+        "url": "https://miyako-island.net/charm/",
+        "title": "宮古島観光協会 — 宮古島の魅力",
+        "coordinateEvidence": "https://miyako-island.net/charm/ names 牧山展望台 as one island viewpoint, but it does not equate it with this unnamed panorama. No coordinate accepted."
+      },
+      {
+        "url": "https://miyako-guide.net/spots/spots-2959/",
+        "title": "宮古島観光協会 — いらぶ大橋海の駅",
+        "coordinateEvidence": "https://miyako-guide.net/spots/spots-2959/ documents another bridge-viewing facility; identity differs from an unnamed public viewpoint. No coordinate substituted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kaijin-no-mori",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "名為「海人の森」的紅樹林地點，仍需權威來源確認其確切身分。",
+    "reason": "Exact-name research did not establish this as a public mangrove boardwalk in Miyako. Official tourism identifies different sites at 島尻 and 川満; these must not be substituted for an unsupported name.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots-cat/beach/",
+        "title": "宮古島観光協会 — named nature sites",
+        "coordinateEvidence": "https://miyako-guide.net/spots-cat/beach/ lists 島尻のマングローブ, not a verified matching 海人の森 location. No matching coordinate extracted."
+      },
+      {
+        "url": "https://miyako-guide.net/spots-cat/beach/page/2/",
+        "title": "宮古島観光協会 — ウプカーマングローブ",
+        "coordinateEvidence": "https://miyako-guide.net/spots-cat/beach/page/2/ documents the different 川満/ウプカー boardwalk. No evidence it is an alias of 海人の森; no coordinate adopted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kamama-ridge-park",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "カママ嶺公園確為公共山丘公園。可接受地標圖釘，但尚未取得能明確對應此公園的官方數字座標。",
+    "reason": "City material verifies the park. A magazine supplies a candidate park coordinate, but the inspected official numeric map belongs to a historical event listing three different parks, not an unambiguous individual-park record. Unresolved for source/entity ambiguity, not merely lack of a separately surveyed entrance.",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf",
+        "title": "宮古島市 — カママ嶺公園 cultural walk",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf verifies the hill park and its monuments, but no numeric outdoor arrival coordinate extracted."
+      },
+      {
+        "url": "https://www.tanoshima.jp/facilities/detail/kamamamine_park?category=spot",
+        "title": "たのしま — カママ嶺公園",
+        "coordinateEvidence": "https://www.tanoshima.jp/facilities/detail/kamamamine_park?category=spot links https://maps.google.co.jp/maps?q=24.7963499346,125.2771481518. Candidate only; not an official-source park pin; not adopted."
+      },
+      {
+        "url": "https://www.okinawastory.jp/event/600014675",
+        "title": "おきなわ物語 — 宮古島大会2024 (multiple venues)",
+        "coordinateEvidence": "https://www.okinawastory.jp/event/600014675 has iframe q=24.79745865,125.2767868 and route daddr=24.79745865,125.2767868, but lists カママ嶺公園、トゥリバー海浜公園、うえのドイツ文化村 together. Historical multi-venue event pin is not confidently attributable to the exact park feature; NOT adopted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kurima-bridge",
+    "status": "verified",
+    "latitude": 24.721198,
+    "longitude": 125.257565,
+    "anchorType": "viewpoint",
+    "locationHint": "来間大橋来間島側的陸上橋頭；請留在公共行人通道，切勿在橋上停車。",
+    "reason": "Use the tourism association's explicit bridge-end destination instead of the original central-span point (approximately 0.86 km away). This is an arrival/viewing anchor, not the bridge centre.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-881/",
+        "title": "宮古島観光協会 — 来間大橋",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-881/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.721198,125.257565; its place embed uses q=24.721198,125.257565. These are explicit destination coordinates, not a viewport centre."
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "おきなわ物語 — 来間島",
+        "coordinateEvidence": "https://www.okinawastory.jp/about/miyako_area/kurima corroborates bridge access to Kurima and its distinct viewing sites. No additional numeric coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kurima-island",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請將来間島視為區域／上層資料項目，並導航至具名的下層景點。",
+    "reason": "The whole island, its fields, beaches and cafes are not a single outdoor arrival point. Do not keep the arbitrary island-centre point or duplicate the separately listed 竜宮城展望台.",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "おきなわ物語 — 来間島",
+        "coordinateEvidence": "https://www.okinawastory.jp/about/miyako_area/kurima describes multiple sites including 竜宮城展望台 and western 長間浜. No single island-arrival coordinate selected."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kurima-nagama-beach",
+    "status": "verified",
+    "latitude": 24.7261944,
+    "longitude": 125.2398056,
+    "anchorType": "landmark",
+    "locationHint": "長間浜位於来間島西岸。此為官方海岸／海灘地標圖釘，供鄰近定位使用，並非經測量確認的入口或停車位置。請使用現有公共海灘通道，留在岸上觀景，勿阻塞道路。",
+    "reason": "Official tourism map supplies an explicit coordinate-labelled shore pin. Converted its DMS pin label, not the nearby camera centre. YAML's southern-coast description is contradicted: it is west-facing. Official page reports no parking, toilets, showers or shop and warns of waves with westerly winds.",
+    "sources": [
+      {
+        "url": "https://miyako-island.net/beach_and_spot/beach_spot_016/",
+        "title": "宮古島観光協会 — 長間浜",
+        "coordinateEvidence": "https://miyako-island.net/beach_and_spot/beach_spot_016/ embeds the map below. Pin label !2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ decodes to 24°43′34.3″N 125°14′23.3″E: 24 + 43/60 + 34.3/3600 = 24.7261944444; 125 + 14/60 + 23.3/3600 = 125.2398055556. Rounded to 7 decimals, no viewport or offset inference."
+      },
+      {
+        "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp",
+        "title": "Tourism-association embedded map — explicit DMS shore pin",
+        "coordinateEvidence": "Exact iframe URL https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp includes coordinate-labelled destination !2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ (base64-decoded UTF-8: 24°43′34.3″N 125°14′23.3″E). Camera fields !2d125.23981699999999!3d24.726201000000003 were NOT adopted."
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "おきなわ物語 — 長間浜 on 来間島",
+        "coordinateEvidence": "https://www.okinawastory.jp/about/miyako_area/kurima corroborates the western shore and inconspicuous access through vegetation. No independent numeric coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kurima-sugarcane",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "来間島道路沿線的農業景觀；勿進入私人田地。",
+    "reason": "Unnamed fields spread across an island are not a single public attraction or entrance. No official named field/viewpoint establishes this point. Keep as area interpretation rather than a GPS trigger.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/tanoshima-miyako46.pdf",
+        "title": "宮古島観光協会 — 来間島 overview",
+        "coordinateEvidence": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/tanoshima-miyako46.pdf describes much of Kurima as sugarcane/agricultural land. It does not select one public field entrance; no numeric coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-kurima-viewpoint",
+    "status": "verified",
+    "latitude": 24.72593,
+    "longitude": 125.25137,
+    "anchorType": "viewpoint",
+    "locationHint": "来間島上的竜宮城展望台；請由指定停車區步行至觀景塔的公共通道及階梯。",
+    "reason": "Explicit official observation-tower destination. Original pin is about 25 m away; adopt the named platform pin without claiming that it is a surveyed stair-door point.",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-858/",
+        "title": "宮古島観光協会 — 竜宮城展望台",
+        "coordinateEvidence": "Read-only HTML extraction from https://miyako-guide.net/spots/spots-858/: the attraction's GoogleMap link is https://www.google.co.jp/maps/place/24.725930,125.251370; its place embed uses q=24.725930,125.251370. These are explicit destination coordinates, not a viewport centre."
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "おきなわ物語 — 来間島",
+        "coordinateEvidence": "https://www.okinawastory.jp/about/miyako_area/kurima corroborates the tower as a public sightseeing destination with views toward Maehama. No second numeric point extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-mango-orchard",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "設定座標前，請先確認特定農場及其參訪活動。",
+    "reason": "宮古マンゴー農園 is used as a generic crop/farm theme, without a named operator, address or booking terms. Do not replace it with whichever orchard is near the old coordinate.",
+    "sources": [
+      {
+        "url": "https://miyako-island.net/charm/industry/",
+        "title": "宮古島観光協会 — 宮古島の農業",
+        "coordinateEvidence": "https://miyako-island.net/charm/industry/ establishes mango growing as a regional industry, not a single visitor orchard. No coordinate extracted."
+      },
+      {
+        "url": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html",
+        "title": "沖縄県 — 宮古農業改良普及課の業務",
+        "coordinateEvidence": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html describes support for multiple mango growers. No named public picking venue or arrival coordinate is established."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-maou-palace-cave",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "需搭船抵達的潛水地點；請安排合格業者，並使用其確認的集合地點。無法自行從陸路抵達。",
+    "reason": "Official tourism explicitly classifies 魔王の宮殿 on Shimoji as a boat dive, depth 27 m, for intermediate/advanced divers. It is not an accessible land cave or walking-navigation destination.",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/feature/activity/diving",
+        "title": "おきなわ物語 — 魔王の宮殿（下地島）",
+        "coordinateEvidence": "https://www.okinawastory.jp/feature/activity/diving lists ENTRY ボート, DEPTH 27m, LEVEL 中級以上 and LICENCE アドバンス. No public onshore arrival coordinate is supplied; no underwater coordinate adopted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-marine-park",
+    "status": "verified",
+    "latitude": 24.8788312,
+    "longitude": 125.2749104,
+    "anchorType": "entrance",
+    "locationHint": "宮古島海中公園的陸上抵達點，位於業者行車路線終點，地址為平良字狩俣2511-1。請依標示前往接待處；此圖釘並非離岸觀察室的位置。",
+    "reason": "Use the official access-map route's destination Point instead of the separate general facility marker (the YAML's old coordinates). North Miyako/狩俣, not near Yoshino Beach. Arrival is publicly routed to land-side facilities; paid access applies inside.",
+    "sources": [
+      {
+        "url": "https://miyakojima-kaichukoen.com/accesspage/",
+        "title": "宮古島海中公園 — official access map",
+        "coordinateEvidence": "https://miyakojima-kaichukoen.com/accesspage/ embeds https://www.google.com/maps/d/embed?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN and says it shows the driving route from the airport."
+      },
+      {
+        "url": "https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1",
+        "title": "Operator-published Google My Maps KML — airport to marine park",
+        "coordinateEvidence": "Read-only KML at https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1: the route-associated Placemark named 宮古島海中公園 has Point/coordinates 125.2749104,24.8788312,0 (longitude,latitude,altitude). The route LineString ends 125.27491,24.87883,0. A separate general park marker is 125.2747111,24.8787444,0; it was NOT used as the arrival point."
+      },
+      {
+        "url": "https://www.okinawastory.jp/spot/600010270",
+        "title": "おきなわ物語 — 宮古島海中公園",
+        "coordinateEvidence": "https://www.okinawastory.jp/spot/600010270 corroborates 平良狩俣2511-1, public opening and free 50-space parking. No second numeric coordinate extracted."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-miyako-beef-ranch",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "需先確認特定牧場、參訪許可及集合地點。",
+    "reason": "Generic cattle-farming/food topic with no named public ranch. Regional agricultural evidence cannot establish access to private livestock land or a visitor entrance.",
+    "sources": [
+      {
+        "url": "https://miyako-island.net/charm/industry/",
+        "title": "宮古島観光協会 — 宮古島の産業",
+        "coordinateEvidence": "https://miyako-island.net/charm/industry/ lists beef cattle as regional agriculture; no named visitor ranch and no coordinate extracted."
+      },
+      {
+        "url": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html",
+        "title": "沖縄県 — 宮古農業改良普及課の業務",
+        "coordinateEvidence": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html describes production support for beef cattle, not a visitor venue. No public arrival coordinate established."
+      }
+    ]
+  },
+  {
+    "id": "jp-miyakojima-miyako-festival",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "請使用日期與名稱皆正確的祭典活動及其實際公告場地；勿設為全年適用的港口圖釘。",
+    "reason": "The YAML mixes October, an uncorroborated クルバガー boat-race name, and Miyako's summer festival. Official information distinguishes the July summer festival from lunar-May ハーリー. A dated multi-venue event is not a permanent location trigger.",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html",
+        "title": "宮古島市 — 文化 Culture",
+        "coordinateEvidence": "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html distinguishes ハーリー (lunar May 4) from 宮古島夏まつり (late July). No coordinate for the claimed October クルバガー event is established."
+      },
+      {
+        "url": "https://www.okinawastory.jp/event/600022601",
+        "title": "おきなわ物語 — 宮古島夏まつり2026",
+        "coordinateEvidence": "https://www.okinawastory.jp/event/600022601 dates the actual event to 2026-07-24/25. No permanent point accepted for this different, incorrectly described event."
+      }
+    ]
+  }
+]

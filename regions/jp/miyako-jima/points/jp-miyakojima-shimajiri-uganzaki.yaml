@@ -34,14 +34,14 @@ point:
           label: 購票入場
   indoor: false
   location:
-    latitude: 24.8778
-    longitude: 125.2885
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8778,125.2885"
+    latitude: 24.87813888888889
+    longitude: 125.28825
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.87813888888889,125.28825
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 島尻紅樹林觀光協會地標 pin（宮古島北部）；供陸上遊步道鄰近解說，不是獨木舟集合或下水點，勿自行進入泥灘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +91,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 tourism association identifies the named mangrove landmark and publishes explicit DMS in its map marker label. Preserve the physical landmark, but the YAML's southern-island and kayak narrative must not be treated as validated access information.
+  sources:
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_021/
+    title: 島尻のマングローブ｜宮古島観光協会
+    coordinateEvidence: HTML Maps iframe pb feature 0x0:0x6ef9bfe4cad48dd6; !2zMjTCsDUyJzQxLjMiTiAxMjXCsDE3JzE3LjciRQ decodes to explicit marker label 24°52′41.3″N 125°17′17.7″E, converted to decimal 24.87813888888889,125.28825; not viewport.
+  previousLocation:
+    latitude: 24.8778
+    longitude: 125.2885
+  verifiedLocation:
+    latitude: 24.87813888888889
+    longitude: 125.28825

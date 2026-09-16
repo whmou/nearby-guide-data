@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.748698
-    longitude: 125.442441
-  googleMapsUrl: "https://maps.google.com/maps?q=24.748698,125.442441"
-  trigger:
-    radiusMeters: 100.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 海龜出沒與浮潛遭遇沒有固定 GPS 點；吉野海岸本身另有已查核地標，不以海龜活動區提供導航。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 checked official Yoshino Coast information against the YAML's specific sea-turtle encounter narrative. Named beach location is verified separately, but no stationary turtle-observation station or operator/meeting point is identified. Do not claim the beach's pin locates moving turtles or guarantees encounters.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600006188
+    title: 吉野海岸｜おきなわ物語
+    coordinateEvidence: Official place query 24.74835396,125.44252777 establishes the beach only. It does not establish the claimed turtle-feeding patch/encounter subspot; that coordinate is deliberately not adopted for this wildlife-activity record.
+  previousLocation:
+    latitude: 24.748698
+    longitude: 125.442441
+  verifiedLocation: null

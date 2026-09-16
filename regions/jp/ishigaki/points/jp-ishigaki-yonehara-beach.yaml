@@ -39,15 +39,10 @@ point:
       - id: free
         label: 免費
   indoor: false
-  location:
-    latitude: 24.4530279
-    longitude: 124.1856135
-    locationHint: "縣道79號（県道79号）沿線，石垣市桴海。海灘旁設有停車場，收費500日圓/日，備有廁所與沖水設施。從石垣市區車程約30分鐘。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.4530279,124.1856135"
-  trigger:
-    radiusMeters: 250.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 米原海岸（桴海）；僅沿對外開放通路到岸上，不跨私地、不以珊瑚礁入水處作陸上到達點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -74,7 +69,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-yonehara-beach-source
     title: "Yonehara Beach - Must-See, Access, Hours & Price | GOOD LUCK TRIP"
-    publisher: ""
+    publisher: "www.gltjp.com"
     url: https://www.gltjp.com/en/directory/item/16355/
     accessedAt: "2026-07-18"
     language: ja
@@ -98,3 +93,19 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：確有此具名海灘，非non_point。已查市府、觀光協會海岸利用規範與市府所連協議會資訊站，但未取得可追溯的官方數值地標圖釘。生態調查的外海採樣點不能代替海灘；不沿用YAML旅遊網站的未證實座標。
+  sources:
+  - url: https://yaeyama.or.jp/play/米原海岸利用ルール/
+    title: 石垣市観光交流協会 — 米原海岸利用ルール
+    coordinateEvidence: Official rules page confirms Yonehara Coast identity and conservation/access obligations. No numeric public-access coordinates extracted from the text; no image or EXIF coordinates used.
+  - url: https://www.city.ishigaki.okinawa.jp/soshiki/kanko_bunka/tourist_information/3412.html
+    title: 石垣市 — 米原海岸の情報発信サイト
+    coordinateEvidence: City identifies the coastal-use council as publisher of the linked beach.yaeyamahazardmap.com information site. The linked site could not be retrieved in this audit. City text contains no coordinate-bearing place query; ecological offshore survey coordinates found in searches were not used as visitor anchors.
+  previousLocation:
+    latitude: 24.4530279
+    longitude: 124.1856135
+  verifiedLocation: null

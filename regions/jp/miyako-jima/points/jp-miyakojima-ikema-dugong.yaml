@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.9050
-    longitude: 125.1730
-  googleMapsUrl: "https://maps.google.com/maps?q=24.905,125.173"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 此為海洋棲地／保育主題，並非公共野生動物觀察點；勿引導遊客進入海草床。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +96,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Dugong presence/feeding traces are regional marine observations, not a reliable outdoor arrival location. The sole-confirmed-area claim is contradicted by current ministry data listing multiple Miyako sea areas.
+  sources:
+  - url: https://www.env.go.jp/content/000395911.pdf
+    title: 環境省 — ジュゴン調査 results through 2025–2026
+    coordinateEvidence: https://www.env.go.jp/content/000395911.pdf table 1-14 lists feeding-trace survey areas including 池間島東部, 伊良部島佐和田 and 来間島東部. No public viewing/meeting point coordinate is specified; marine survey areas are not adopted as visitor pins.
+  previousLocation:
+    latitude: 24.905
+    longitude: 125.173
+  verifiedLocation: null

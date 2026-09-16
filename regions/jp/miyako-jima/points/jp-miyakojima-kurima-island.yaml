@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.7224
-    longitude: 125.247
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7224,125.247"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請將来間島視為區域／上層資料項目，並導航至具名的下層景點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: The whole island, its fields, beaches and cafes are not a single outdoor arrival point. Do not keep the arbitrary island-centre point or duplicate the separately listed 竜宮城展望台.
+  sources:
+  - url: https://www.okinawastory.jp/about/miyako_area/kurima
+    title: おきなわ物語 — 来間島
+    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima describes multiple sites including 竜宮城展望台 and western 長間浜. No single island-arrival coordinate selected.
+  previousLocation:
+    latitude: 24.7224
+    longitude: 125.247
+  verifiedLocation: null

@@ -6,8 +6,8 @@ point:
   title: "伊良部大橋"
   summary: "全長3,540公尺，2015年完工，是日本最長的免費通行橋梁，連接宮古島與伊良部島，橋面最高點約為海面上27公尺，兩側海景壯闊。"
   narration: |
-    伊良部大橋於2015年1月完工通車，以三千五百四十公尺的全長成為日本最長的免費橋梁。橋面最高處距海面約27公尺，行駛或步行其上，宮古海峽一覽無遺。晴天時，橋兩側的海水呈現宮古島特有的藍綠色澤，橋墩腳下珊瑚礁隱約可見。以往宮古島居民必須搭渡輪才能往返伊良部島，這座橋的完工讓兩島從此相連，也大幅改變了伊良部島的旅遊生態。橋上設有觀景停車灣，可以下車駐足，靜靜感受被海洋包圍的遼闊。
-  observationPrompt: "站在橋上觀景停車灣，低頭看橋墩周圍的海水——能在淺水區看到珊瑚礁的暗礁輪廓嗎？"
+    伊良部大橋於2015年1月完工通車，以三千五百四十公尺的全長連接宮古島與伊良部島。晴天時，橋兩側能看見層次豐富的藍綠海色。以往兩島居民往返依靠渡輪，橋梁通車也改變了日常交通。想慢慢看橋與海，請在陸側合法可停留的觀景位置欣賞；橋上沒有供遊客任意停車拍照的觀景停車灣，駕駛應專心行車，遵守現場標誌。
+  observationPrompt: "在陸側合法觀景位置看向橋梁：海色有哪些深淺變化？不要在橋上停車、下車或為拍照跨越護欄。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7992
-    longitude: 125.2333
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7992,125.2333"
+    latitude: 24.794986
+    longitude: 125.256406
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.794986,125.256406
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 1500.0
-  locationHint: null
+  locationHint: 伊良部大橋宮古島側的陸上橋頭；請於陸側公共通道觀景並遵守標示。橋上禁止臨停或停車。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -62,7 +62,7 @@ ratingEvidence:
     sources: [irabu-bridge-miyakojima-city]
   visitorValue:
     score: 4
-    note: "完全免費通行，全天開放，有觀景停車灣，橋梁也可步行或騎自行車，橋頭有休憩設施。"
+    note: "免費通行的跨島交通設施；賞景須選擇陸側合法可停留處，不能在橋上停車拍照。開放及交通限制依現場公告。"
     sources: [irabu-bridge-miyakojima-city]
   evidenceQuality:
     score: 4
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: Official tourism destination is the Miyako bridgehead, approximately 2.4 km east of the original mid-span point. The official page says no parking; YAML's claim of on-bridge sightseeing parking bays must be removed.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-840/
+    title: 宮古島観光協会 — 伊良部大橋
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-840/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.794986,125.256406; its place embed uses q=24.794986,125.256406. These are explicit destination coordinates, not a viewport centre.'
+  - url: https://miyako-island.net/charm/
+    title: 宮古島観光協会 — 宮古島の魅力
+    coordinateEvidence: https://miyako-island.net/charm/ confirms the bridge connects Miyako and Irabu and distinguishes viewpoints such as 牧山展望台. No separate coordinate extracted.
+  previousLocation:
+    latitude: 24.7992
+    longitude: 125.2333
+  verifiedLocation:
+    latitude: 24.794986
+    longitude: 125.256406

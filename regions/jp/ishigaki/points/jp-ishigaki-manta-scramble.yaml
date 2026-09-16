@@ -41,15 +41,10 @@ point:
       - id: experience
         label: 體驗
   indoor: false
-  location:
-    latitude: 24.4869
-    longitude: 124.1322
-    locationHint: "從川平灣的潛水業者碼頭搭乘潛水船出發，約10至15分鐘可抵達潛點。此潛點無法自行前往，必須事先向「海講座（Umicoza）」或其他川平灣在地業者報名，由專業導潛人員帶領下水。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.4869,124.1322"
-  trigger:
-    radiusMeters: 200.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 川平石崎外海潛點，需向合法潛水業者預約；集合點依所訂行程，不設陸上自助導航。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -76,7 +71,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-manta-scramble-source
     title: "川平石崎マンタスクランブル完全ガイド | 石垣島ミライズレンタカー"
-    publisher: ""
+    publisher: "miraisrentacar.jp"
     url: https://miraisrentacar.jp/sightseeing/manta-scramble/
     accessedAt: "2026-07-18"
     language: ja
@@ -100,3 +95,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML本身明確為只能搭潛水船前往的海底活動地，不能以海中座標或任意碼頭作附近導覽到達點。
+  sources:
+  - url: https://ooritoori-ishigaki.com/activity/
+    title: 石垣市公式観光 — マンタに会いにいく
+    coordinateEvidence: 'The activity section explicitly names マンタスクランブル as a manta-watching spot. Read alongside the YAML''s diving-boat-only access: no land arrival/meeting point is specified; no underwater or harbour coordinates substituted.'
+  previousLocation:
+    latitude: 24.4869
+    longitude: 124.1322
+  verifiedLocation: null

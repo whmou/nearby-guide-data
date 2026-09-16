@@ -43,14 +43,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.373583
-    longitude: 124.139389
-    locationHint: "從石垣市區車行約20分鐘，經班那公園南口對面的「前勢岳林道」入口進入，沿山路行駛約3公里即達第一停車場（免費）。停車後步行數分鐘即可抵達天文台入口。夜間觀測請提前預約（電話：0980-88-0013）。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.373583,124.139389"
+    latitude: 24.37333107
+    longitude: 124.13922882
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.37333107,124.13922882
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 石垣島天文台（新川1024-1）的設施地標圖釘，非VERA觀測局，非第2停車場或入口座標。依天文台最新交通圖從前勢岳林道抵達第2停車場，再沿指定步道上坡至建築；夜間須預約，勿直接走／騎車上山。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -77,7 +77,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-observatory-source
     title: "石垣島天文台 公式サイト（むりかぶし）"
-    publisher: ""
+    publisher: "murikabushi.jp"
     url: https://murikabushi.jp/
     accessedAt: "2026-07-18"
     language: ja
@@ -101,3 +101,24 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：觀光局具名天文台頁明確numeric query，營運者確認同址並提供最新停車與步行規定。原點距此約32公尺。官網較新，收費／觀望安排採官網，不沿用觀光局舊『免費』描述。
+  sources:
+  - url: https://www.okinawastory.jp/spot/600011028
+    title: 沖縄観光情報 — 石垣島天文台
+    coordinateEvidence: 'Read-only HTML on 2026-09-16: embed/v1/place?q=24.37333107,124.13922882&zoom=13. Explicit named-facility place query, not a viewport centre.'
+  - url: https://murikabushi.jp/?page_id=23
+    title: 国立天文台 石垣島天文台 — 交通案内
+    coordinateEvidence: Confirms 新川1024-1 and the forest-road route to 第2駐車場, followed by a short uphill walk. Access corroboration only; parking coordinates were not invented.
+  - url: https://murikabushi.jp/?page_id=6439
+    title: 石垣島天文台 — 施設公開
+    coordinateEvidence: Current visit rules distinguish parking from building and prohibit nighttime walking/cycling approach. No numeric coordinates extracted from this access-rules page.
+  previousLocation:
+    latitude: 24.373583
+    longitude: 124.139389
+  verifiedLocation:
+    latitude: 24.37333107
+    longitude: 124.13922882

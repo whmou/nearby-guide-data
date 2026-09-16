@@ -41,15 +41,10 @@ point:
       - id: free
         label: 免費
   indoor: false
-  location:
-    latitude: 24.3579
-    longitude: 124.2118
-    locationHint: "石垣市宮良地区。宮良橋バス停から徒歩約2分。ツアー会社の無料送迎が一般的で、ほとんどのショップが石垣市内から送迎あり。自家用車の場合は宮良川沿いの駐車スペースを利用。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3579,124.2118"
-  trigger:
-    radiusMeters: 200.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 宮良川SUP屬預約活動，依所選業者通知集合或接送；不是宮良橋任意停車處。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -76,7 +71,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-sup-mangrove-source
     title: "宮良川マングローブ｜石垣島最大のヒルギ林・SUP・カヌーツアー・アクセス完全ガイド"
-    publisher: ""
+    publisher: "miraisrentacar.jp"
     url: https://miraisrentacar.jp/sightseeing/miyara-river-mangrove/
     accessedAt: "2026-07-18"
     language: ja
@@ -100,3 +95,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML沒有唯一業者、售票處或集合点，不能把河流、橋中心或路旁空地代換為SUP到達點。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 — 宮良川ヒルギ群落
+    coordinateEvidence: Confirms Miyara River supports SUP/kayak activities and viewing from Miyara Bridge, but gives no universal SUP meeting point. No numeric coordinate adopted.
+  previousLocation:
+    latitude: 24.3579
+    longitude: 124.2118
+  verifiedLocation: null

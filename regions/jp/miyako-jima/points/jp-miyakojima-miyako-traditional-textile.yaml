@@ -36,14 +36,14 @@ point:
           label: 免費
   indoor: true
   location:
-    latitude: 24.7691
-    longitude: 125.3231
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7691,125.3231"
+    latitude: 24.7679089
+    longitude: 125.3235367
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7679089,125.3235367
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "宮古上布協同組合展示館，位於宮古島市平良字西里附近，請留意門口的織布機展示標誌。"
+  locationHint: 宮古織物事業協同組合所在的宮古島市伝統工芸品センター現址：上野字野原1190-188；建物地址 pin，非舊平良西里展示館，亦非精確門口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +101,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 matched the YAML's cooperative exhibition narrative to the cooperative's current public craft center. Official site explicitly warns that telephone navigation can select the old center. Adopted its current address feature coordinate, not the embedded map viewport 24.7677578666,125.2880108639. Approximately 140 m from YAML point; old Nishizato hint must be corrected.
+  sources:
+  - url: https://miyako-kougei.com/
+    title: 宮古島市伝統工芸品センター公式：ご利用案内・アクセス
+    coordinateEvidence: 'Official site states cooperative, exhibitions and 上野字野原1190-188. Fetched its Google Maps iframe, then the iframe HTML initialization data: feature 0x34f456bfe1166953:0x1714b09107e3bf26, label Nobaru-1190-188 Ueno, Miyakojima, Okinawa 906-0201, associated coordinate array [24.7679089,125.3235367]. Not viewport !2d/!3d.'
+  previousLocation:
+    latitude: 24.7691
+    longitude: 125.3231
+  verifiedLocation:
+    latitude: 24.7679089
+    longitude: 125.3235367

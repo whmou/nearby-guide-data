@@ -4,16 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "杉福生態廊道"
-  summary: "小琉球西北角、杉福漁港旁的珊瑚礁廊道，是台灣非繁殖季最容易目擊野生綠蠵龜的地點。白天觀察豐富潮間帶生態，夜間跟著嚮導可與趴岸休息的海龜四目相對。"
+  summary: "杉福生態廊道位於小琉球西岸，由舊軍事設施轉為陸上步道景觀。它不是潮間帶導覽的通用集合點，也不是夜間海龜上岸觀賞場所。"
   narration: |
-    杉福這個地名，老一輩的說法各有不同。有人說是早年漁民在礁岸旁種了幾棵杉木用來避風，「杉」字就這樣留下來了；「福」字則是討海人祈求平安出海的心願寄託。如今杉福漁港仍是島上最重要的漁業基地之一，而漁港旁的這條生態廊道，卻因為另一群更古老的訪客聲名大噪——那就是綠蠵龜。
+    杉福生態廊道的陸上入口與舊砲陣地相連，也是琉行之道的一端。昔日軍事設施與海岸景观在此交會，適合沿開放步道了解土地用途的轉變。
     
-    小琉球四面環繞珊瑚礁，海底食物豐沛，綠蠵龜幾乎全年可見。但杉福廊道的特別之處在於，牠們不只在海裡游，夜幕低垂後，這些體重動輒上百公斤的大龜會從礁盤爬上岸來休息、曬甲，有時甚至在礁石縫隙間一動不動地待上整夜。對牠們而言，這塊礁石平台就是臥室，幾千萬年來都如此。
+    陸上廊道、杉福漁港與杉福潮間帶是不同的參訪範圍。沿步道看海不等於可自行進入潮間帶；若要參加潮間帶活動，須另依預約、合格導覽及保育管制辦理。
     
-    這條廊道沿著礁盤鋪設了木棧道，讓遊客在不踩踏珊瑚的前提下，貼近觀察潮間帶生態。白天退潮時，礁盤上的小水窪裡有海星、寄居蟹、陽燧足、各色小魚爭奇鬥豔；夜裡，帶著紅光手電筒跟著嚮導低聲前行，說不定就能和一隻正在打盹的綠蠵龜四目相對。那種感覺，島民說：「是牠讓你看，不是你去找牠。」
-    
-    生態廊道的設立，正是小琉球近年保育意識抬頭的縮影。過去遊客可以隨意觸摸海龜、踩踏礁盤，現在島上有嚴格的賞龜守則——不能用白光手電筒、不能觸摸、不能擋在牠回海的路上。這些看似麻煩的規定，卻讓小琉球的海龜族群逐年增加，讓這座不到7平方公里的小島，成為全台灣最容易在野外與綠蠵龜相遇的地方。
-  observationPrompt: "站在礁盤旁往潮池裡仔細看：你能找到幾種不同的生物？礁石上有沒有海龜爬行留下的痕跡或磨損痕？如果是夜間來訪，在還沒看到海龜之前，你最先聽到的聲音是什麼？"
+    這裡不提供夜間尋找上岸海龜的參訪指引，也不應用燈光搜尋或靠近休息中的動物。若見海龜，保持至少五公尺距離，不觸碰、追逐或干擾。
+  observationPrompt: "沿開放的陸上步道觀察舊軍事設施與海景如何相鄰；不要離開步道搜尋海龜痕跡、夜間入礁盤或把廊道入口當作下水點。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -35,41 +33,41 @@ point:
         label: 潮間帶
       - id: ecology
         label: 生態廊道
-      - id: night-activity
-        label: 夜間觀察
+      - id: military-heritage
+        label: 舊軍事設施
       - id: island
         label: 離島
       - id: fishing-port
         label: 杉福漁港
       - id: trail
-        label: 木棧道
+        label: 陸上步道
   indoor: false
   location:
-    latitude: 22.3625
-    longitude: 120.3615
-    locationHint: "小琉球西北側，杉福漁港旁沿岸礁盤區，漁港停車場步行約3分鐘即可看到木棧道入口。"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3625,120.3615"
+    latitude: 22.3438056
+    longitude: 120.3623889
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.3438056,120.3623889
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 西岸杉福生態廊道／舊砲陣地的陸上入口（琉行之道杉福端）。由環島道路進入舊軍事設施及景觀步道；不是杉福漁港水域或潮間帶的下水集合點，勿逕自進入受管制礁盤。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "台灣非繁殖季野外觀龜首選地，是小琉球生態保育轉型的代表性場所，具全島指標意義。"
+    note: "舊軍事設施轉化為西岸陸上景觀步道，具地方地景與空間再利用意義。"
     sources: [tw-xiaoliuqiu-shanfu-corridor-source]
   distinctiveness:
     score: 4
-    note: "全台少見可在非繁殖季、非遠洋條件下近距離目擊野生綠蠵龜上岸休息的地點，體驗無可複製。"
+    note: "特色為舊砲陣地與海岸步道，不以非繁殖季海龜上岸休息作賣點。"
     sources: [tw-xiaoliuqiu-shanfu-corridor-source]
   interpretability:
     score: 4
-    note: "木棧道動線清楚，有在地導覽團可報名，生態解說豐富；夜間需跟團，白天則可自行探索。"
+    note: "陸上步道依現場開放標示行走；潮間帶須另依導覽及管制，不可自行探索。"
     sources: [tw-xiaoliuqiu-shanfu-corridor-source]
   visitorValue:
     score: 5
-    note: "夜間與野生綠蠵龜近距離相遇是極難忘的自然體驗，白天潮間帶生態同樣精彩，親子與生態愛好者皆適合。"
+    note: "以開放陸上步道與海景觀察為主，不承諾夜間近距離賞龜。"
     sources: [tw-xiaoliuqiu-shanfu-corridor-source]
   evidenceQuality:
     score: 3
@@ -79,12 +77,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-shanfu-corridor-source
     title: "琉球鄉公所觀光旅遊資訊"
-    publisher: ""
+    publisher: "tour.liuqiu.gov.tw"
     url: https://tour.liuqiu.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-shanfu-corridor-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=262
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-shanfu-corridor-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -97,9 +111,30 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-shanfu-corridor.webp
     completePath: media/complete/tw-xiaoliuqiu-shanfu-corridor.webp
 admissions:
-  - label: "免費"
+  - label: "陸上廊道依現場開放公告參觀；潮間帶導覽、預約及保育費另依規定，不屬同一活動。"
     isFree: true
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: entrance
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。採官方明確標名的杉福砲陣地入口，不採琉行之道一般景點中心。另一份官方工程資料明確把此砲台定位於杉福生態廊道，建立兩名稱的同址關係。原 22.3625,120.3615 過度偏北；YAML 將陸上舊軍事廊道與潮間帶賞龜體驗混合，核實範圍限於陸上入口，不背書夜間龜群上岸等敘事。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=262
+    title: 大鵬灣國家風景區管理處－琉行之道（杉福砲陣地入口）
+    coordinateEvidence: '直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=262，正文明列『杉福砲陣地入口: 22°20''37.7"N 120°21''44.6"E』並連結 https://maps.app.goo.gl/sxyvSujiBMxkW7NT9?g_st=il 。以度+分/60+秒/3600換算為22.3438056,120.3623889；沒有使用網址@視窗中心，也未使用同頁一般景點座標22.34417,120.36219。'
+  - url: https://admin.taiwan.net.tw/fapi/AttFile?id=34405&type=NewsAttFile
+    title: 大鵬灣管理處－琉行之道景點設施修繕工程杉福砲台環境現勘資料
+    coordinateEvidence: https://admin.taiwan.net.tw/fapi/AttFile?id=34405&type=NewsAttFile 印刷頁16文字將杉福砲台列為琉行之道起點，並明指位於小琉球西側杉福生態廊道、由舊軍事基地改建。此來源用於入口身分與陸上步道用途核對，沒有另行抽取或推估座標。
+  - url: https://nanai.tw/liuqiu-old-cannon/
+    title: Nana愛旅行札記－舊砲陣地（杉福生態廊道）
+    coordinateEvidence: https://nanai.tw/liuqiu-old-cannon/ 的實地遊記將旧砲陣地與杉福生態廊道連結，說明入口原為軍事砲陣地、位於肚仔坪與杉福漁港之間；獨立核對同址及參觀動線。報告座標只取前述官方明列入口DMS，不取遊記照片或地图視窗。
+  previousLocation:
+    latitude: 22.3625
+    longitude: 120.3615
+  verifiedLocation:
+    latitude: 22.3438056
+    longitude: 120.3623889

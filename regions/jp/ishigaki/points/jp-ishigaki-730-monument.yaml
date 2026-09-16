@@ -46,14 +46,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.3383
-    longitude: 124.1574
-    locationHint: "石垣市美崎町3、730交差点のすぐ脇。離島ターミナルから徒歩約3〜5分。駐車場なし、徒歩でのアクセス推奨。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3383,124.1574"
+    latitude: 24.3383039
+    longitude: 124.1574492
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.3383039,124.1574492
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 730交差点旁的730記念碑／小公園，從人行道步行觀察；不是路口車道中心。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -80,7 +80,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-730-monument-source
     title: "730シィーシィーパーク - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/730%E3%82%B7%E3%82%A3%E3%83%BC%E3%82%B7%E3%82%A3%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF
     accessedAt: "2026-07-18"
     language: ja
@@ -104,3 +104,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府將此圖釘明確連到730記念碑；小型戶外紀念物可從旁邊人行空間觀看。原點僅數公尺差異。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 730記念碑
+    coordinateEvidence: On 2026-09-16, the 730記念碑 section links https://goo.gl/maps/zgFtaDWtKJyVc5Qb7. Its HTTP redirect contains the named place's !8m2!3d24.3383039!4d124.1574492 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.3383
+    longitude: 124.1574
+  verifiedLocation:
+    latitude: 24.3383039
+    longitude: 124.1574492

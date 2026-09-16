@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.67648
-    longitude: 125.25637
-  googleMapsUrl: "https://maps.google.com/maps?q=24.67648,125.25637"
+    latitude: 24.73510742
+    longitude: 125.26185608
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.73510742,125.26185608
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 与那覇前浜ビーチ官方地標 pin（下地字与那覇1199-1）；用於海灘鄰近導覽，請由現場公共通路進入，不代表水域安全或精確停車入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 fetched the Okinawa Convention & Visitors Bureau beach page. Official explicit place query is near 24.7351, not the YAML's 24.67648. The original is approximately 6.54 km south; the previously reported approximately 24.7347 correction was directionally consistent. Do not revert to 24.67648 without new point evidence.
+  sources:
+  - url: https://www.okinawastory.jp/spot/1089
+    title: 与那覇前浜ビーチ｜おきなわ物語（沖縄観光コンベンションビューロー）
+    coordinateEvidence: 'Fetched HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.73510742,125.26185608&zoom=14; q is the named place marker, not @ viewport. Page address: 宮古島市下地字与那覇1199-1. API key omitted.'
+  previousLocation:
+    latitude: 24.67648
+    longitude: 125.25637
+  verifiedLocation:
+    latitude: 24.73510742
+    longitude: 125.26185608

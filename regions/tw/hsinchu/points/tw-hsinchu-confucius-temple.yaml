@@ -42,14 +42,14 @@ point:
           label: 限時開放
   indoor: false
   location:
-    latitude: 24.8000698
-    longitude: 120.9780377
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8000698,120.9780377"
+    latitude: 24.7998741796123
+    longitude: 120.978221808835
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7998741796123,120.978221808835
   trigger:
     radiusMeters: 70.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
-  locationHint: null
+  locationHint: 公園路289號新竹市孔廟之文化資產地標座標，供鄰近辨識／語音觸發，非正門門檻。由現場開放通道參觀，閉館時勿翻越圍牆或直穿建築。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +100,27 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: '2026-09-16 audit, landmark-pin review. Directly read the Ministry of Culture heritage record for 新竹市孔廟: its explicit coordinates and current 公園路289號 address resolve the named building. Adopt the heritage landmark, not an inferred entrance. The religious-tourism and city-feed pins remain rejected as conflicting. The YAML''s historical dates and listed-heritage identifier also need editorial correction: this record is a historical building registered in 2010, relocated in 1958.'
+  sources:
+  - url: https://tcmb.culture.tw/zh-tw/detail?id=20100316000002&indexCode=BOCH_CountryCulture_12
+    title: 文化部文化資產局／國家文化記憶庫：新竹市孔廟
+    coordinateEvidence: 'Directly opened official record: 緯度=24.7998741796123 and 經度=120.978221808835 (visible lines 216-222), 現況地址=新竹市公園路289號. These are the heritage object''s location fields, not the authority''s 中正路120號 contact address. Record describes public opening and 1958 relocation. Adopt exact landmark coordinates, not a doorway or viewport. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=20100316000002&indexCode=BOCH_CountryCulture_12'
+  - url: https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=169
+    title: 內政部宗教文化地圖：新竹市孔廟
+    coordinateEvidence: 'Printed 經緯度=120.97913,24.80297 and address 公園路289號; this pin conflicts with cultural-heritage location near 24.79987 and is not adopted. Exact source: https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=169'
+  - url: https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=26&module=travel&serno=9975f04e-4ab5-4944-ae6a-6c3cc40cf617
+    title: 新竹市觀光旅遊網：新竹孔廟
+    coordinateEvidence: 'Identity/access only: 公園路、東山路口, inside 新竹公園 next to the gymnasium; describes relocation in 1958. No dependable entrance coordinate extracted from this HTML. Exact source: https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=26&module=travel&serno=9975f04e-4ab5-4944-ae6a-6c3cc40cf617'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected Attraction_376580000A_000024 PositionLat=24.800098847669236, PositionLon=120.97561807592837; inconsistent with the independent religious-map point and park address. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8000698
+    longitude: 120.9780377
+  verifiedLocation:
+    latitude: 24.7998741796123
+    longitude: 120.978221808835

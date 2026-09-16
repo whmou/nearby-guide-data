@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8078
-    longitude: 120.9688
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8078,120.9688"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 真實的北門街，與 tw-hsinchu-north-gate-street 為同一街道；目前未取得可直接查核的官方街道座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +85,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit, revised duplicate policy. 北門街老街 and 北門街 are the same real historic street; duplicate content alone does not invalidate either record, and both may share one verified street pin. Remains unresolved because no direct official coordinate for the named street was extracted. A third-party tourism-data mirror publishes 24.805138,120.966092, but its precise official source row was not confirmed. Do not replace the street with a nearby temple or shop.
+  sources:
+  - url: https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf
+    title: 新竹市北區中山里里情沿革
+    coordinateEvidence: 'The official account describes 北門大街 as one historic commercial street. No separate 北門街老街 coordinate was extracted; this source is identity/duplicate evidence, not GPS evidence. Exact source: https://dep-civil.hccg.gov.tw/uploaddowndoc?file=Evolution%2F202301051517400.pdf&filedisplay=%E4%B8%AD%E5%B1%B1%E9%87%8C%E9%87%8C%E6%83%85%E6%B2%BF%E9%9D%A9.pdf&flag=pdf'
+  - url: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31
+    title: 內政部宗教文化地圖：新竹長和宮
+    coordinateEvidence: 'The page locates 長和宮 at 北門街135號 and prints 120.96490,24.80854. Those are temple coordinates, not evidence for a second street attraction, and are not adopted. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=31'
+  previousLocation:
+    latitude: 24.8078
+    longitude: 120.9688
+  verifiedLocation: null

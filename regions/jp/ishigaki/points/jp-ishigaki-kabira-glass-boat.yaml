@@ -43,15 +43,10 @@ point:
       - id: experience
         label: 體驗
   indoor: false
-  location:
-    latitude: 24.4514
-    longitude: 124.1444
-    locationHint: "川平湾海灘入口購票後，沿白沙海岸步行至岸邊即可上船；停車場位於川平公園展望台附近，步行約5分鐘可達各玻璃船業者售票處"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.4514,124.1444"
-  trigger:
-    radiusMeters: 150.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 川平灣玻璃船有不同業者；依所訂業者的售票／集合通知前往，不共用海灣座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -78,7 +73,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-kabira-glass-boat-source
     title: "川平マリンサービス 公式サイト"
-    publisher: ""
+    publisher: "www.kabiramarine.jp"
     url: https://www.kabiramarine.jp/
     accessedAt: "2026-07-18"
     language: ja
@@ -102,3 +97,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML標題、提示與敘述均是通用玻璃船體驗，僅sources引用川平マリンサービス，不足以將全項目改成該公司。該公司實際集合點在川平コミュニティ施設內，與YAML「海灘入口購票」不一致。
+  sources:
+  - url: https://www.kabiramarine.jp/
+    title: 川平マリンサービス公式 — ACCESS
+    coordinateEvidence: Official operator names 川平コミュニティ施設内 川平マリンサービス受付窓口 at 川平912-1. Embed identifies CID 0x345fddcbaf61878b:0xe0ed71890c07de97; !2d/!3d preceding it are viewport fields and were NOT accepted as coordinates. No universal meeting point exists for all operators.
+  previousLocation:
+    latitude: 24.4514
+    longitude: 124.1444
+  verifiedLocation: null

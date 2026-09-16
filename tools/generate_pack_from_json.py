@@ -174,8 +174,10 @@ def write_point_yaml(d: dict, points_dir: Path) -> None:
     if not pid:
         return
 
-    lat = d.get("lat") or 0.0
-    lng = d.get("lng") or 0.0
+    lat = d.get("lat")
+    lng = d.get("lng")
+    if not isinstance(lat, (int, float)) or not isinstance(lng, (int, float)):
+        raise ValueError(f"{pid}: explicit researched coordinates required; no 0,0 fallback")
     indoor = bool(d.get("indoor", False))
     final = rating_final(d)
     radius = float(d.get("triggerRadiusM") or 150)
@@ -225,7 +227,7 @@ def write_point_yaml(d: dict, points_dir: Path) -> None:
         f"  location:\n"
         f"    latitude: {lat}\n"
         f"    longitude: {lng}\n"
-        f'    locationHint: "{safe(d.get("locationHint",""))}"\n'
+        f'  locationHint: "{safe(d.get("locationHint",""))}"\n'
         f'  googleMapsUrl: "https://maps.google.com/maps?q={lat},{lng}"\n'
         f"  trigger:\n"
         f"    radiusMeters: {radius:.1f}\n"
@@ -300,7 +302,9 @@ def main() -> None:
 
     # Infer pack info from first point
     first = data[0]
-    pack_id    = first.get("packId", "unknown")
+    pack_id    = first.get("packId")
+    if not pack_id or not first.get("adminAreaLevel1"):
+        raise ValueError("packId and adminAreaLevel1 are required; never create an unknown pack")
     pack_title = first.get("packTitle", pack_id)
     subtitle   = first.get("packSubtitle", "")
     country    = first.get("countryCode", "TW")

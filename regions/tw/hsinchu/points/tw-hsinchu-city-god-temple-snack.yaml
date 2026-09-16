@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8042
-    longitude: 120.9661
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8042,120.9661"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 城隍廟口小吃商圈；與都城隍廟重疊，未確認獨立街區入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -90,3 +85,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit, duplicate/landmark clarification. The food district is real and overlaps the temple; overlap alone is not a reason to remove it. However, no directly checked official pin identifying the named food district was extracted, and the available numerical source explicitly labels the temple, not the food district. A reliable named visitor-area pin would suffice without an independently surveyed entrance; no restaurant is guessed.
+  sources:
+  - url: https://www.taiwan.net.tw/m1.aspx?keystring=&page=2&sNo=0042291&uid=44
+    title: 交通部觀光署：竹塹城
+    coordinateEvidence: 'Identifies the historic city/temple visit, not a separately pinned snack-street entrance. No separate coordinate extracted. Exact source: https://www.taiwan.net.tw/m1.aspx?keystring=&page=2&sNo=0042291&uid=44'
+  - url: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9
+    title: 內政部：新竹都城隍廟．竹塹中元城隍祭
+    coordinateEvidence: '120.96588,24.80449 is explicitly the temple''s coordinate, not proof of a separate small-eats-street POI. Not adopted for this overlapping record. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9'
+  previousLocation:
+    latitude: 24.8042
+    longitude: 120.9661
+  verifiedLocation: null

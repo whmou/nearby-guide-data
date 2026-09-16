@@ -4,16 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "老鼠石"
-  summary: "小琉球北端海岸一塊形似老鼠的珊瑚礁石灰岩，與花瓶石相望。是環島路上讓人忍不住停車確認「真的好像！」的奇趣自然地標，退潮時輪廓最為清晰。"
+  summary: "老鼠岩／老鼠石位於小琉球東南厚石裙礁帶，是輪廓引人聯想的珊瑚礁奇岩；不在北端，也不是花瓶岩對面。僅在安全開放岸上遠觀，不走到岩體旁。"
   narration: |
-    站在老鼠石旁邊看，你很難不笑出來。那塊珊瑚礁岩的前端微微尖起，就像一隻老鼠把鼻子探進海水裡喝水，兩側微隆的弧度活像兩片圓耳朵，身體則穩穩坐在礁盤上，渾然天成。小琉球的居民世代與海為鄰，最善於從礁石輪廓裡認出生活裡的形象——烏鬼洞、美人洞、花瓶石，每一塊石頭都有名字，有故事。老鼠石不是官方景區，沒有解說牌，卻是在地人騎車環島時最習慣停下來、指著說「欸，看那裡」的地方。
+    老鼠石的趣味，在於人們從天然岩石的外形認出熟悉的動物。林業署地景資料將它與觀音石、紅番石等並列在小琉球東南厚石裙礁帶；這不是北岸花瓶岩旁的景點。
     
-    這塊石頭的身世，要從小琉球的底子說起。整座島本身就是從海底緩緩隆起的珊瑚礁，沒有一粒火成岩或變質岩，從頭到腳都是石灰岩。數萬年來，東北季風一波一波把浪濤打上北岸，夏季颱風更是不手軟。海浪沿著岩層的紋理一點一點磨、掏、切，才磨出老鼠這般栩栩如生的身形。漲潮時鼠頭半沉水中，退潮後才現完整身形——每天的模樣都不盡相同，這也是它耐看的原因。
+    海浪、風化與岩石結構共同影響奇岩外形，換一個安全的觀看角度，輪廓也可能有所不同。
     
-    老鼠石一帶同樣是綠蠵龜覓食的好去處。小琉球擁有台灣密度最高的綠蠵龜族群，退潮後礁石間的潮池長滿了海藻與海草，正是牠們最愛的食物。若你在老鼠石旁蹲低、靜靜往水裡看，一兩分鐘內看見海龜悠游而過的機率，遠比你想像的高。
-    
-    島上老一輩漁民說，以前討海出門，老鼠石是辨別方位的記號之一——看到那顆像老鼠的礁岩，就知道船已繞到島的北側，快到港了。如今環島公路把一個個礁石景點串了起來，老鼠石雖然名氣不及對面的花瓶石，卻往往是讓遊客最自然停車、拿起相機，然後帶著一個「原來大自然也很幽默」的心情繼續上路的地方。
-  observationPrompt: "站在老鼠石前，試著辨認「老鼠」的鼻子、耳朵和身體各在哪裡。現在是漲潮還是退潮？鼠頭有沒有被海水淹到？低頭看看旁邊的潮池，裡面有海藻、小魚或海膽嗎？"
+    地圖pin標示的是岩石，不是入口或可站立的步道。請留在允許停留的安全岸上，不跨護欄、不涉水、不攀岩，也不要在行車道停車觀察。
+  observationPrompt: "從安全岸上辨認岩石輪廓像動物的哪些部分；不為尋找角度進入礁盤或走近岩體。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -34,7 +32,7 @@ point:
       - id: island
         label: 小琉球
       - id: coast
-        label: 北端海岸
+        label: 東南海岸
       - id: nature
         label: 自然地標
       - id: sea-turtle
@@ -43,14 +41,14 @@ point:
         label: 潮間帶
   indoor: false
   location:
-    latitude: 22.3644
-    longitude: 120.3626
-    locationHint: "小琉球環島公路北段，花瓶石景區步行約3至5分鐘，路邊有機車停車空間，面向北側海岸礁盤"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3644,120.3626"
+    latitude: 22.3230315
+    longitude: 120.3622755
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.3230315,120.3622755
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 小琉球東南厚石裙礁帶、忠孝路沿線的老鼠岩／老鼠石實體地標，僅供岸上鄰近語音辨識；不是入口、步道或岩體可攀登位置。請留在開放且安全的岸上遠觀，勿為靠近pin跨越護欄、進入礁岩、涉水或攀爬；不得在行車道停留。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -67,7 +65,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-rat-rock-source]
   visitorValue:
     score: 3
-    note: "適合騎車環島途中順路停留5至10分鐘，結合花瓶石一起造訪效益更高，單獨遠道而來動機稍弱"
+    note: "可作東南海岸景觀觀察；先確認安全停留處，不使用花瓶岩旁幾分鐘步行的錯誤動線。"
     sources: [tw-xiaoliuqiu-rat-rock-source]
   evidenceQuality:
     score: 3
@@ -77,12 +75,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-rat-rock-source
     title: "琉球鄉公所觀光旅遊資訊"
-    publisher: ""
+    publisher: "www.liuqiu.gov.tw"
     url: https://www.liuqiu.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-rat-rock-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "landscape.forest.gov.tw"
+    url: https://landscape.forest.gov.tw/Front/land_search/Landscape.aspx?Sn=19&id=kVsq7hIIvoI%3D
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -101,3 +107,27 @@ review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 整合複核。林業署確認老鼠石位於東南厚石奇岩帶；本次另找到單獨Rat Rock Google place連結，從!3d/!4d抽取22.3230315,120.3622755，而非@視窗中心。另一篇獨立遊記的具名短連結解析到同一place ID並標示老鼠岩、忠孝路72號，支持個別地標身分。故按整合要求改為verified landmark，非安全到達入口，亦未借用觀音石或整組奇岩登錄點。原22.3644,120.3626偏北約4.6公里；YAML北端、花瓶石步行三至五分鐘的說法應移除。
+  sources:
+  - url: https://landscape.forest.gov.tw/Front/land_search/Landscape.aspx?Sn=19&id=kVsq7hIIvoI%3D
+    title: 林業及自然保育署臺灣地景保育網－屏東琉球嶼的奇岩怪石（S62）
+    coordinateEvidence: https://landscape.forest.gov.tw/Front/land_search/Landscape.aspx?Sn=19&id=kVsq7hIIvoI%3D 的『經緯座標』實際列出 22.32283056,120.3611944，但記錄名稱是整組『屏東琉球嶼的奇岩怪石』，描述含觀音石、紅番石、老鼠石及爬山虎。這是群體登錄點，未採為老鼠石座標。
+  - url: https://ahpekbiker.blogspot.com/2018/01/cycling-taiwan-2017-day-10-kaohsiung-to.html
+    title: AhPek Biker－Cycling Taiwan 2017 Day 10（Rat Rock個別GPS及地圖連結）
+    coordinateEvidence: 直接HTTP讀取 https://ahpekbiker.blogspot.com/2018/01/cycling-taiwan-2017-day-10-kaohsiung-to.html，Places of Interest分別列Guanyin Rock與Rat Rock；後者明列GPS 22.32303,120.36227，其完整href為 https://www.google.com/maps/place/Rat+Rock/@22.3230315,120.3622755,17z/data=!3m1!4b1!4m6!3m5!1s0x3471efc1c48700a5:0x494f0dee88771221!8m2!3d22.3230315!4d120.3622755!16s%2Fg%2F11dxm8tl2m?entry=ttu 。採place資料!3d22.3230315!4d120.3622755，不採@值或另列的街景視角。Google頁直接讀取未回傳可解析數值，數字證據為此實際發佈的place連結；正文記錄親訪老鼠岩。
+  - url: https://yilinasia.wordpress.com/2022/02/05/xiaoliuqiu-travel/
+    title: yilinasia－小琉球住宿杉灣小徑（老鼠岩位置連結）
+    coordinateEvidence: 直接HTTP讀取 https://yilinasia.wordpress.com/2022/02/05/xiaoliuqiu-travel/，老鼠岩段落的『老鼠岩位置在這裡』href雖前綴誤置文字，仍明含 https://goo.gl/maps/n891VMBVxLZtEqzG9 。只讀解析此短連結，最終URL為 https://www.google.com/maps?q=929%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%90%89%E7%90%83%E9%84%89%E5%BF%A0%E5%AD%9D%E8%B7%AF72%E8%99%9F%E8%80%81%E9%BC%A0%E5%B2%A9&ftid=0x3471efc1c48700a5:0x494f0dee88771221&hl=zh-Hant-TW&gl=tw&entry=gps&lucs=s2se,a2&shorturl=1 。q解碼為929屏東縣琉球鄉忠孝路72號老鼠岩，ftid與另一來源的個別Rat Rock完全相同；此來源核對身分，不从頁面預設視窗或地址地理編碼取得坐標。
+  - url: https://lucharger.com/%E8%A7%80%E9%9F%B3%E7%9F%B3/
+    title: 旅充小日子－觀音石、老鼠石、紅番石攻略
+    coordinateEvidence: https://lucharger.com/%E8%A7%80%E9%9F%B3%E7%9F%B3/ 將三種奇岩描述在大福漁港與海子口之間的東南沿海，獨立支持方位及道路沿線身分；此頁不作個別老鼠石或路側觀賞点的坐標來源，未從照片或地圖視窗推算。
+  previousLocation:
+    latitude: 22.3644
+    longitude: 120.3626
+  verifiedLocation:
+    latitude: 22.3230315
+    longitude: 120.3622755

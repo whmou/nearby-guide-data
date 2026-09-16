@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8148
-    longitude: 125.1622
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8148,125.1622"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請明確指定伊良部島側的目標觀景點，是橋頭或具名觀景平台。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: A generic bridge panorama is not enough to uniquely identify a viewpoint. Narrative mixes a small bridgehead road/parking area with a high vantage. Do not silently replace it with 牧山展望台 or いらぶ大橋海の駅.
+  sources:
+  - url: https://miyako-island.net/charm/
+    title: 宮古島観光協会 — 宮古島の魅力
+    coordinateEvidence: https://miyako-island.net/charm/ names 牧山展望台 as one island viewpoint, but it does not equate it with this unnamed panorama. No coordinate accepted.
+  - url: https://miyako-guide.net/spots/spots-2959/
+    title: 宮古島観光協会 — いらぶ大橋海の駅
+    coordinateEvidence: https://miyako-guide.net/spots/spots-2959/ documents another bridge-viewing facility; identity differs from an unnamed public viewpoint. No coordinate substituted.
+  previousLocation:
+    latitude: 24.8148
+    longitude: 125.1622
+  verifiedLocation: null

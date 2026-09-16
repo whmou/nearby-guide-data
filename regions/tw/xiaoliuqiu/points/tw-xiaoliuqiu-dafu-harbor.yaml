@@ -4,16 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "大福漁港"
-  summary: "小琉球西側百年主漁港，也是東港航線渡輪碼頭之一。清晨漁獲交易、彩繪漁船、現撈海鮮飄香，是感受這座無紅綠燈慢活小島最真實生活脈動的第一站。"
+  summary: "大福漁港又稱大寮漁港，位於小琉球東側大福村，是觀察漁港景觀與島嶼交通的地方。僅在開放的港邊公共空間停留，船班與候船位置須向實際業者確認。"
   narration: |
-    站在大福漁港邊，看著一艘艘五顏六色的漁船整齊停靠，很難想像這個港口已經撐起小琉球人的生計將近三百年了。「大福」這個名字聽起來就是討個好彩頭——大大的福氣，好像每次出海都能滿載而歸。老一輩的漁民說，早年先民從閩南渡海來此落腳，把安身立命的盼望全都寄託在這個港口名裡了。
+    大福漁港又稱大寮漁港，位於小琉球東面海岸。漁船、港池與岸邊設施呈現了島嶼依海維生的日常；它不是原稿所說的西岸港口。
     
-    小琉球西側的海岸天然遮蔽效果好，南風大作時大福這邊的浪比東岸平靜許多，所以先民選在這裡建港。幾百年下來，從幾戶人家的小漁村，慢慢發展成今天的樣子。清晨四、五點，當島上大多數人還在睡夢中，漁船早就悄悄出港了；天剛亮，船回來，港邊的魚販已經備好秤子，一筐一筐的海鱺、飛魚、鬼頭刀過磅、議價，整個港區熱鬧得很。
+    港區同時有工作與交通需求。旅人可在開放的公共空間看船、聽港邊聲音，但不要走入作業碼頭、船席或擋住搬運動線。
     
-    這裡不只是漁港，也是小琉球對外的門戶之一。從屏東東港搭船過來，大約二十五分鐘就靠上大福碼頭，下船的第一眼就是這片漁港風景。早年完全依靠捕魚為生的島民，近幾十年因觀光興起，多了租機車、開民宿、賣海鮮的生意，港邊的小吃攤飄著現撈海鮮的香氣，讓人一下船就食指大動。
-    
-    大福漁港外側的海域也是綠蠵龜的活動範圍。小琉球周遭珊瑚礁豐富、海草床分布廣，吸引大批綠蠵龜長年定居，有時就在港口附近浮出水面換氣，讓剛下船的旅客還沒租到車就先看見龜了。漁民和海龜之間有著複雜的情感——老一輩的漁網曾不小心把龜纏住，現在的漁船都已改用對龜較友善的方式捕撈，算是這座小島慢慢長出來的生態意識。港口雖小，卻承載了一座島的歷史、生計與轉變。
-  observationPrompt: "站在碼頭邊，數數港內停靠的漁船有幾種顏色？仔細看船頭的裝飾——你能找到神明牌位或吉祥物嗎？如果清晨來訪，試著找到漁民與魚販交易的現場，今天的漁獲有哪些你認識的魚種？"
+    若預定搭船，請直接核對業者的出發港、候船處與當日航班，不把一般港區定位當作登船閘口。看見海龜也應留在安全岸上，不追逐或進入港池。
+  observationPrompt: "在開放的岸上公共空間觀察漁船的外形與用途，不妨礙作業、不靠近無護欄水邊，也不要自行尋找卸魚區。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -43,19 +41,19 @@ point:
         label: 漁市
   indoor: false
   location:
-    latitude: 22.3456
-    longitude: 120.3661
-    locationHint: "小琉球西側大福村旁的主漁港，往東港方向的渡輪碼頭所在地，從環島公路大福路段可直接走到港邊"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3456,120.3661"
+    latitude: 22.33444
+    longitude: 120.37396
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.33444,120.37396
   trigger:
     radiusMeters: 120.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 島東側大福村的大寮／大福漁港，採官方港區陸側導航錨點。於可通行港邊及停車區抵達賞景，不進作業碼頭、船席或港池；搭船者仍須確認實際業者的候船處。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "小琉球捕魚業核心，近三百年漁業歷史，也是島民對外聯絡的重要門戶與渡輪靠泊點"
+    note: "島東側的大福／大寮漁港是漁業與交通景觀場所；百年港史及固定魚市未在本次確認。"
     sources: [tw-xiaoliuqiu-dafu-harbor-source]
   distinctiveness:
     score: 3
@@ -63,11 +61,11 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-dafu-harbor-source]
   interpretability:
     score: 4
-    note: "港口功能直觀，清晨魚市提供豐富現場觀察素材，連結島嶼歷史與漁業文化的故事脈絡清晰"
+    note: "可在開放公共空間理解港口功能與漁業生活；固定清晨魚市未經本次來源確認。"
     sources: [tw-xiaoliuqiu-dafu-harbor-source]
   visitorValue:
     score: 3
-    note: "清晨 5–7 時漁獲交易時段最值得造訪，建議安排 15–30 分鐘；若只是路過下渡輪也能快速感受漁港氛圍"
+    note: "於允許的港邊公共空間短暫賞景，避免作業碼頭；不提供未核實的卸魚時段或候船位置。"
     sources: [tw-xiaoliuqiu-dafu-harbor-source]
   evidenceQuality:
     score: 3
@@ -77,12 +75,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-dafu-harbor-source
     title: "琉球鄉 - 維基百科"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/%E7%90%89%E7%90%83%E9%84%89
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-dafu-harbor-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=251
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -101,3 +107,21 @@ review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。管理處以此座標作為大寮（大福）漁港的訪客導航目的地，並列有停車場；台灣好行另有同名景點與路線停靠，核對為可從陸上抵達的東側港區。原座標偏離約1481公尺，原文『西側主漁港』與官方東側位置矛盾。採港區 area 錨點，不把一般港區定位冒稱特定渡輪登船閘口；原文清晨魚市、百年歷史與航班敘述未通過本次座標查核。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=251
+    title: 交通部觀光署大鵬灣國家風景區管理處：大寮（大福）漁港
+    coordinateEvidence: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=251 的唯讀 HTML 明列『經度：120.37396 緯度：22.33444』，其一鍵導航 href 為 https://maps.google.com/maps?q=22.33444,120.37396。頁面明述大福村東面海岸、別名大寮漁港及停車場；使用該港區訪客導航點，不使用海上船位或地圖 @ 中心。
+  - url: https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12072
+    title: 台灣好行旅遊服務網：大福漁港
+    coordinateEvidence: https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12072 確認大福／大寮為同一東岸漁港，亦是601小琉球線列出的旅遊景點。HTML 導航僅為 https://www.google.com.tw/maps/dir//大福漁港，未提供數值座標，因此只用於身分及陸上交通核對，不從名稱搜尋結果推定新座標。
+  previousLocation:
+    latitude: 22.3456
+    longitude: 120.3661
+  verifiedLocation:
+    latitude: 22.33444
+    longitude: 120.37396

@@ -37,15 +37,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.8010
-    longitude: 125.2755
-  googleMapsUrl: "https://maps.google.com/maps?q=24.801,125.2755"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 日落遊船為泛稱行程；先確認預約船公司，再依其登船／集合通知抵達，不能以平良港任意位置導航。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 checked real cruise operator information. MontBlanc has its own boat reception, but YAML describes generic glass-bottom/catamaran alternatives and multiple departures without naming that operator. Cannot silently replace the experience with MontBlanc or a port-center coordinate.
+  sources:
+  - url: https://www.hayate-montblanc.com/faq/
+    title: ベイクルーズ宮古島モンブラン公式 FAQ
+    coordinateEvidence: Operator-specific meeting/boarding guidance, not a coordinate for the unspecified YAML cruise. No named-operator identity match; no coordinates adopted.
+  - url: https://book.hayate-montblanc.com/top/products/f32298d1-21b8-5997-be60-f630b51445c0%3Flng%3Dja-JP
+    title: 宮古島サンセットディナークルーズ・ライトプラン｜はやて公式予約
+    coordinateEvidence: Official product explicitly describes check-in aboard MontBlanc at Hirara Port. YAML does not name MontBlanc and includes other boat types; this is not evidence of the unspecified tour's fixed meeting coordinate.
+  previousLocation:
+    latitude: 24.801
+    longitude: 125.2755
+  verifiedLocation: null

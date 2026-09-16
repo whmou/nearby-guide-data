@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8068
-    longitude: 120.9688
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8068,120.9688"
+    latitude: 24.806764
+    longitude: 120.96879
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.806764,120.96879
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 中正路120號新竹州廳／市政府正面外觀；辦公空間非全天自由參觀。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Central tourism and cultural-heritage pins corroborate the actual administrative building. Use exterior viewing/arrival only, not permission to enter working offices. YAML's green dome claim is not validated. Reject city-feed coordinate inconsistency.
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=10869&sNo=0001109
+    title: 交通部觀光署：新竹州廳（新竹市政府）
+    coordinateEvidence: 'Explicit 經度/緯度=120.96879/24.806764, address 中正路120號; describes the front entrance porch. Exact source: https://www.tad.gov.tw/m1.aspx?id=10869&sNo=0001109'
+  - url: https://tcmb.culture.tw/zh-tw/detail?id=483802&indexCode=Culture_Place
+    title: 國家文化記憶庫：從新竹廳治到新竹市治—新竹州廳
+    coordinateEvidence: 'Independent cultural record lists 緯度=24.8067131, 經度=120.9688414 at 中正路120號, close to the tourism pin; 是否開放=否, supporting exterior-only guidance. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=483802&indexCode=Culture_Place'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected Attraction_376580000A_000026 PositionLat=24.806795747401765, PositionLon=120.96638777592837, inconsistent with both independent official pins. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8068
+    longitude: 120.9688
+  verifiedLocation:
+    latitude: 24.806764
+    longitude: 120.96879

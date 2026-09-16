@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7598523
-    longitude: 125.4248602
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7598523,125.4248602"
+    latitude: 24.75977
+    longitude: 125.42478
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.75977,125.42478
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 新城海岸公共海灘，可由海岸道路及小型停車區抵達；請留在沙灘上觸發導覽，不要前往離岸水域。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +91,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: Use the tourism association's explicit beach destination. Source description's claim that this is south of Yoshino and undeveloped should not be treated as verified by this coordinate audit.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-781/
+    title: 宮古島観光協会 — 新城海岸
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-781/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.75977,125.42478; its place embed uses q=24.75977,125.42478. These are explicit destination coordinates, not a viewport centre.'
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_005/
+    title: 宮古島観光協会 — 新城海岸
+    coordinateEvidence: https://miyako-island.net/beach_and_spot/beach_spot_005/ confirms 城辺字新城, road access, parking and toilet. Its pb embed's !2d125.40735058308321!3d24.75985083247827 is a viewport, deliberately NOT used as coordinates; the actual destination was extracted from the separate official q link.
+  previousLocation:
+    latitude: 24.7598523
+    longitude: 125.4248602
+  verifiedLocation:
+    latitude: 24.75977
+    longitude: 125.42478

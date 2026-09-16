@@ -4,18 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "天台山"
-  summary: "小琉球全島最高點，海拔約87公尺，由珊瑚礁地殼隆起而成。碧雲寺後方石階步道可達，登頂可俯瞰全島礁盤與台灣海峽，晴日遠眺屏東海岸線。"
+  summary: "原文地點待核實：尚未證實小琉球「天台山」的名稱與碧雲寺後方登頂路線。不可依本筆找山路，也不自動替換成八七高地、龜仔路山或澎湖望安天台山。"
   narration: |
-    小琉球這座僅有6.8平方公里的珊瑚礁小島，最高點就是藏在碧雲寺後方的天台山，海拔約87公尺。別看數字小，對一座從海底隆起的礁島來說，這已經是站在頂頂上了。
+    原文地點待核實。原稿把天台山稱為小琉球87公尺最高點，並描述由碧雲寺後方石階登頂；本次資料不足以建立名稱、山頭與路線三者的關係。
     
-    走進碧雲寺，香煙裊裊，信眾向觀世音菩薩祈福。寺廟後方有一條石階步道蜿蜒而上，這就是上天台山的入口。過去島上的漁民習慣在出海前來碧雲寺拜拜，平安歸來後再爬上天台山還願，俯瞰自己剛剛出沒的那片海，心裡的感恩之情更為踏實。
+    官方資料介紹小琉球東南台地最高約87公尺，但高度相同不能證明它就是原稿的天台山。觀光署另有澎湖望安天台山資料，更不能移用到小琉球。
     
-    「天台」兩個字，說的是「天神的高台」，也說的是「離天最近的地方」。腳下踩的不是普通的泥土，而是幾萬年前的海底珊瑚與貝類骸骨，被地殼力量慢慢推出海面，風化成今天這塊形狀奇特的石灰岩山頭。路邊岩壁的孔洞和皺折，正是古代珊瑚礁留下的印記，每一個細節都在提醒你：這整座島，曾經是海洋的一部分。
-    
-    登頂後，小琉球的輪廓一覽無遺。天氣晴朗時，遠方隱約可見台灣本島的屏東海岸線，以及南方大武山的稜線。海面湛藍，往返東港的交通船劃出白色浪跡。眼尖的旅人，偶爾能從這個高度發現礁盤淺灘附近悠游的綠蠵龜——牠們喜歡在退潮後的珊瑚礁覓食海草，從高處反而看得特別清楚。
-    
-    山頭被亞熱帶次生林覆蓋，榕樹氣根垂掛，林投葉刺向四方，夏天蟬鳴震耳，秋冬則清爽怡人。整段步道輕鬆易行，不需特殊裝備，半小時內即可來回。這裡沒有門票，沒有商業攤販，只有一片純樸的島嶼制高點，等著你親眼印證：小琉球確實是從海底長出來的。
-  observationPrompt: "站在山頂環顧四周，你能辨認出小琉球的哪些地標？仔細看腳邊的石灰岩，能找到古代珊瑚礁留下的孔洞或紋路嗎？天氣好的話，試試看能不能從高處在礁盤上發現綠蠵龜的身影。"
+    因此暫不提供入口、步行時間、全島展望或免費登山承諾。請先取得主管機關或現地可靠資料，未核實前不要擅入寺後山坡、私人土地或無標示小徑。
+  observationPrompt: "地名與公共路線尚未確認，請勿依本筆登山；先查核正式地名及管理單位資料。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -29,14 +25,10 @@ point:
   - id: subject
     label: 主題
     tags:
-      - id: viewpoint
-        label: 制高點
-      - id: hiking
-        label: 健行步道
+      - id: pending-verification
+        label: 地點待核實
       - id: coral-reef
         label: 珊瑚礁地形
-      - id: temple
-        label: 碧雲寺
       - id: ecology
         label: 生態觀察
       - id: island
@@ -44,32 +36,27 @@ point:
       - id: geology
         label: 地質景觀
   indoor: false
-  location:
-    latitude: 22.3493
-    longitude: 120.3738
-    locationHint: "碧雲寺（主廟）後方山路入口，沿石階步道上行約15至20分鐘即達頂。"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3493,120.3738"
-  trigger:
-    radiusMeters: 120.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 尚未核實小琉球『天台山』及碧雲寺後方登頂步道的身分。勿導航至原點，亦勿直接改成八七高地、龜仔路山、碧雲寺或澎湖望安天台山。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "小琉球全島最高點，兼具地理、宗教（碧雲寺信仰圈）與生態觀察意義，是認識小琉球珊瑚礁地質的最佳視角。"
+    note: "地名與87公尺高地的對應未核實，原最高點及宗教路線理由暫不採用。"
     sources: [tw-xiaoliuqiu-tiantan-mountain-source]
   distinctiveness:
     score: 3
-    note: "珊瑚礁隆起而成的山頂在台灣離島中罕見，但山頂本身景觀設施簡樸，差異化程度中等。"
+    note: "無法確認本筆特定山頭，不能據此評述其現地稀缺性。"
     sources: [tw-xiaoliuqiu-tiantan-mountain-source]
   interpretability:
     score: 4
-    note: "珊瑚礁→地殼隆起→島嶼最高點的故事鏈清晰易懂，石灰岩岩壁上的珊瑚痕跡即時可見，現地解說感強。"
+    note: "缺少可靠現地對應與步道資料，暫不提供登頂解說。"
     sources: [tw-xiaoliuqiu-tiantan-mountain-source]
   visitorValue:
     score: 4
-    note: "全島最佳俯瞰點、步道輕鬆、全程免費，適合各年齡層，搭配碧雲寺參訪效益更高。"
+    note: "入口、路程、展望與收費均未核實，不建議依此筆安排登山。"
     sources: [tw-xiaoliuqiu-tiantan-mountain-source]
   evidenceQuality:
     score: 3
@@ -79,12 +66,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-tiantan-mountain-source
     title: "大鵬灣國家風景區 - 琉球嶼景點介紹"
-    publisher: ""
+    publisher: "www.dbnsa.gov.tw"
     url: https://www.dbnsa.gov.tw/
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-tiantan-mountain-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "video.moa.gov.tw"
+    url: https://video.moa.gov.tw/theme_data.php?id=16&sub_theme=cvideos&theme=videos
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -96,10 +91,27 @@ media:
     originalSha256: "d0d89fe1db47c49d7f5f5aef2651008488af2325564bfcbfdd5c973d2d7c3bfb"
     compactPath: media/compact/tw-xiaoliuqiu-tiantan-mountain.webp
     completePath: media/complete/tw-xiaoliuqiu-tiantan-mountain.webp
-admissions:
-  - label: "免費"
-    isFree: true
+admissions: []
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。YAML 把天台山描述為小琉球87公尺最高峰，且從碧雲寺後方石階登頂；查得官方資料僅支持東南台地最高87公尺，登山紀錄稱龜仔路山／八七高地，不能證明與此名稱、路線為同一景點。觀光署開放資料中的天台山則位在澎湖望安。身分疑似混淆，原22.3493,120.3738及步道敘述未獲支持；不擅改地名或移用別山座標。
+  sources:
+  - url: https://video.moa.gov.tw/theme_data.php?id=16&sub_theme=cvideos&theme=videos
+    title: 農業部虛擬博物館－100年樂活農村第029集：潛進琉球有GO讚
+    coordinateEvidence: https://video.moa.gov.tw/theme_data.php?id=16&sub_theme=cvideos&theme=videos 的介紹說明最高點為東南台地87公尺；沒有名為天台山的入口或座標。未以高度相同推定兩名稱為同一地點。
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署景點開放資料－AttractionList.json
+    coordinateEvidence: 2026-09-16 直接HTTP讀取 https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip，僅在記憶體解析AttractionList.json。Attraction_A15010200H_000135 的AttractionName='天台山'、PostalAddress.City='澎湖縣'、Town='望安鄉'、PositionLat=23.3807、PositionLon=119.49371。這是異島同名景點，明確拒絕移用其座標。
+  - url: https://www.keepon.com.tw/thread-6cb3a1cb-13d8-e411-93ec-000e04b74954.html?AspxAutoDetectCookieSupport=1
+    title: 登山補給站－小琉球之八七高地、竹林步道、大寮山等
+    coordinateEvidence: https://www.keepon.com.tw/thread-6cb3a1cb-13d8-e411-93ec-000e04b74954.html?AspxAutoDetectCookieSupport=1 稱87公尺最高點為龜仔路山／八七高地，並列TWD67基點185162,2471640及其他山路點。這些是另一名稱的山頂及舊紀錄，不轉換、也不指派給身分未明的『天台山』。
+  previousLocation:
+    latitude: 22.3493
+    longitude: 120.3738
+  verifiedLocation: null

@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7925323
-    longitude: 120.9846069
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7925323,120.9846069"
+    latitude: 24.79703
+    longitude: 120.98755
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.79703,120.98755
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 博愛街5巷2號對面停車場（十八尖山／新竹高商YouBike站）集合，再沿博愛街入口步行登山；不是山頂。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +99,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. The source YAML pins the hill interior without naming an accessible trail point. Replace with an explicitly mapped public arrival point associated with the documented 博愛街 approach. This does not claim views described in the narration are visible at the parking area.
+  sources:
+  - url: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json
+    title: 新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）
+    coordinateEvidence: 'Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=十八尖山(新竹高商); 緯度=24.79703; 經度=120.98755; 站點位置=博愛街5巷2號對面停車場. Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json'
+  - url: https://dep-tourism.hccg.gov.tw/ch/home.jsp?dataserno=202402020002&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300177&parentpath=&t=MunicipalNews&toolsflag=Y
+    title: 新竹市城市行銷處：十八尖山博愛街入口路面改善公告
+    coordinateEvidence: 'Officially identifies 博愛街入口 as a frequently used hiking access. No numerical coordinate from this news article; supports access/identity only, not current closure status. Exact source: https://dep-tourism.hccg.gov.tw/ch/home.jsp?dataserno=202402020002&id=16&mcustomize=municipalnews_view.jsp&mserno=201601300177&parentpath=&t=MunicipalNews&toolsflag=Y'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Do not use conflicting records blindly: 000046 十八尖山 is 24.76789240314268,120.9052500412969; 000052 is 24.79248279097881,120.98473008711733. Neither is treated as a verified arrival point. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.7925323
+    longitude: 120.9846069
+  verifiedLocation:
+    latitude: 24.79703
+    longitude: 120.98755

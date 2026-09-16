@@ -42,14 +42,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.3243
-    longitude: 124.0765
-    locationHint: "從竹富港租借腳踏車，沿珊瑚砂白路向西行駛約15-20分鐘，路旁有明顯指標。停車場在海灘入口前，設有免費淋浴間與廁所。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3243,124.0765"
+    latitude: 24.32523537
+    longitude: 124.07756805
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.32523537,124.07756805
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 竹富島西岸コンドイ浜的岸邊遊客區代表點；由竹富港沿島上道路步行／騎車前往。行政區為竹富町。不要以退潮沙洲為固定抵達點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -76,7 +76,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-taketomi-kondoi-source
     title: "コンドイビーチ | 沖縄ブックマーク"
-    publisher: ""
+    publisher: "okinawa-bookmark.com"
     url: https://okinawa-bookmark.com/beach/taketomi-beach/kondoi-beach/
     accessedAt: "2026-07-18"
     language: ja
@@ -100,3 +100,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：觀光局具名海灘明確query作岸邊海灘anchor；不保留原先偏西南約150公尺的點。區分岸上海灘與潮汐限定沙洲。
+  sources:
+  - url: https://www.okinawastory.jp/spot/1087
+    title: 沖縄観光情報 — コンドイ浜
+    coordinateEvidence: 'Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.32523537,124.07756805. This is the page''s explicit place query, not an embed viewport centre.'
+  - url: https://takekou.info/island-tourist-information/
+    title: 竹富島交通 — 島内観光案内
+    coordinateEvidence: Corroborates Kondoi Beach on Taketomi and shore access; no numeric coordinate extracted from this corroborating source.
+  previousLocation:
+    latitude: 24.3243
+    longitude: 124.0765
+  verifiedLocation:
+    latitude: 24.32523537
+    longitude: 124.07756805

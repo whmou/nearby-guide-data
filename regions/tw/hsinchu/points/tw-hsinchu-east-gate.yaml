@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.80310
-    longitude: 120.97008
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8031,120.97008"
+    latitude: 24.80393
+    longitude: 120.97051
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80393,120.97051
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 勝利路2號對面、東門圓環人行道的YouBike站旁集合；沿合法人行動線觀賞迎曦門，不穿越車道直衝城門。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Uses the explicitly documented outdoor pavement arrival point rather than a point in the road circle or the upper gate building. Official attraction coordinate 24.804160,120.97024 independently locates the nearby gate. Original YAML point is about 90m south of the safe arrival anchor.
+  sources:
+  - url: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json
+    title: 新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）
+    coordinateEvidence: 'Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=東門圓環; 緯度=24.80393; 經度=120.97051; 站點位置=勝利路2號(對面圓環人行道). Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json'
+  - url: https://jp.taiwan.net.tw/m1.aspx?id=c100_408&sno=0000308
+    title: 交通部觀光署：竹塹城迎曦門
+    coordinateEvidence: 'Explicit attraction 經度/緯度=120.97024/24.804160; text identifies the gate and public square. Used to corroborate identity near the transport-department pavement anchor, not as the reported arrival coordinate. Exact source: https://jp.taiwan.net.tw/m1.aspx?id=c100_408&sno=0000308'
+  previousLocation:
+    latitude: 24.8031
+    longitude: 120.97008
+  verifiedLocation:
+    latitude: 24.80393
+    longitude: 120.97051

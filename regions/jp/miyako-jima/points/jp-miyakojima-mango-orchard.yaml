@@ -35,15 +35,10 @@ point:
         - id: ticketed
           label: 需付費
   indoor: false
-  location:
-    latitude: 24.7855
-    longitude: 125.3282
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7855,125.3282"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 設定座標前，請先確認特定農場及其參訪活動。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +96,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 宮古マンゴー農園 is used as a generic crop/farm theme, without a named operator, address or booking terms. Do not replace it with whichever orchard is near the old coordinate.
+  sources:
+  - url: https://miyako-island.net/charm/industry/
+    title: 宮古島観光協会 — 宮古島の農業
+    coordinateEvidence: https://miyako-island.net/charm/industry/ establishes mango growing as a regional industry, not a single visitor orchard. No coordinate extracted.
+  - url: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html
+    title: 沖縄県 — 宮古農業改良普及課の業務
+    coordinateEvidence: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html describes support for multiple mango growers. No named public picking venue or arrival coordinate is established.
+  previousLocation:
+    latitude: 24.7855
+    longitude: 125.3282
+  verifiedLocation: null

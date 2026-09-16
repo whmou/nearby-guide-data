@@ -34,15 +34,10 @@ point:
         - id: free
           label: 免費（部分體驗另計費）
   indoor: false
-  location:
-    latitude: 24.8014
-    longitude: 120.9781
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8014,120.9781"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 玻璃工藝主題／博物館周邊泛稱；未證實有獨立、可定位的「玻璃工藝區」。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +95,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Undefined thematic district, exact original-coordinate duplicate of tw-hsinchu-glass-museum. Named institutions/workshops exist but do not establish the narrated street of freely entered studios. Do not substitute a business or create a second museum pin.
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109
+    title: 交通部觀光署：玻璃工藝博物館
+    coordinateEvidence: 'Explicit 120.97811/24.801313 belongs to the museum at 東大路一段2號, not a separately mapped 玻璃工藝區; not adopted for the theme. Exact source: https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'The feed separately names 玻璃工藝博物館, 新竹春室Glass Studio + The POOL, 玲瓏窯玻璃工藝 and 春池觀光玻璃工廠. No coordinate for the YAML''s independent district is established. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8014
+    longitude: 120.9781
+  verifiedLocation: null

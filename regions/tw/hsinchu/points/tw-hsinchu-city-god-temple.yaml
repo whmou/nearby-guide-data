@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: true
   location:
-    latitude: 24.8043
-    longitude: 120.9661
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8043,120.9661"
+    latitude: 24.80449
+    longitude: 120.96588
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80449,120.96588
   trigger:
     radiusMeters: 60.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
-  locationHint: "入口正門位於中山路109號，廟埕廣場正面。"
+  locationHint: 中山路75號都城隍廟廟前抵達；原提示109號錯誤。廟內參觀依現場開放。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Official religious tourism pin identifies the temple, including its publicly visitable forecourt. Do not use the original 中山路109號 entrance hint. Landmark pin, not a surveyed gate threshold. The current city tourism feed has an inconsistent west-shifted coordinate.
+  sources:
+  - url: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9
+    title: 內政部：新竹都城隍廟．竹塹中元城隍祭
+    coordinateEvidence: 'Printed 經緯度=120.96588,24.80449; 地址=新竹市北區中山路75號; 景觀收費=免費. Coordinate is the named temple pin. Exact source: https://taiwangods.moi.gov.tw/religious_culture/html/landscape/1_0011.aspx?i=9'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected Attraction_376580000A_000030 PositionLat=24.80450434749329, PositionLon=120.96294047592836; does not agree with the independent religious-tourism pin. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8043
+    longitude: 120.9661
+  verifiedLocation:
+    latitude: 24.80449
+    longitude: 120.96588

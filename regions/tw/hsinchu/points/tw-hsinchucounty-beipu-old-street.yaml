@@ -36,14 +36,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.6998
-    longitude: 121.0584
-  googleMapsUrl: "https://maps.google.com/maps?q=24.6998,121.0584"
+    latitude: 24.69982
+    longitude: 121.05722
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.69982,121.05722
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 新竹縣北埔鄉北埔街公共老街步行區；非新竹市，亦非宣稱金廣福公館門檻。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -101,3 +101,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Official national-scenic-area and county tourism open-data rows agree on a public street anchor. Original longitude 121.0584 is about 120m east. Treat as a street-area arrival, not the exact doorway of 金廣福公館 or 慈天宮.
+  sources:
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_A15010700H_000008 北埔老街: PositionLat=24.69982, PositionLon=121.05722, address 北埔街. County record Attraction_376440000A_000221 independently publishes 24.6998246073078,121.057219606147, the same position at greater precision. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  - url: https://www.trimt-nsa.gov.tw/zh-tw/attraction/48/
+    title: 參山國家風景區管理處：北埔老街
+    coordinateEvidence: 'Official page, updated 2026-07-31, identifies public walking street 北埔街 with heritage sites and shops. Coordinates here are taken from this authority''s explicit open-data row above, not a map viewport or an inferred business location. Exact source: https://www.trimt-nsa.gov.tw/zh-tw/attraction/48/'
+  previousLocation:
+    latitude: 24.6998
+    longitude: 121.0584
+  verifiedLocation:
+    latitude: 24.69982
+    longitude: 121.05722

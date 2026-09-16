@@ -4,18 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "小琉球夜間浮潛"
-  summary: "台灣珊瑚礁夜間生態的頂級體驗：入夜後下水，看睡覺的綠蠵龜、變色章魚與發光夜光藻。小琉球是全台最容易在水下近距離遇見綠蠵龜的地點，夜晚更展現截然不同的礁盤生態面貌。"
+  summary: "夜間浮潛是需事先確認業者、海況與合法活動範圍的海洋體驗，並非固定景點。生物目擊不可保證，不可為找海龜自行夜間入水或靠近休息中的動物。"
   narration: |
-    白天的小琉球已經夠令人驚嘆——礁岩邊綠蠵龜悠悠打量著你，熱帶魚在珊瑚叢穿梭——但等太陽沉入台灣海峽，這座島才真正展示它最私密的一面。
+    夜間的珊瑚礁環境與白天不同，參與活動前應先確認業者資格、帶領人員、裝備與取消條件。浮潛與持證水肺夜潛不是同一行程，不能混用參加資格或集合地點。
     
-    夜潛業者從白沙或大福碼頭出發，約十分鐘船程後，領隊會要你把手電筒關掉。黑暗裡，你才發現自己置身星海：那是夜光藻，輕拂水面便閃出藍白微光，像有人偷偷在海底點燃了螢火蟲。
+    本筆沒有指定業者，不能保證從白沙或大福港出發、十分鐘船程、夜光藻或睡眠海龜目擊。集合點、下水位置、照明與活動時間，均須由實際業者依合法範圍及當日海況安排。
     
-    「小琉球」這名字其實是個美麗的誤會——古代閩南漁民遠望這座珊瑚礁島，以為是傳說中的琉球王國，就這樣叫了下去。島上無一盞紅綠燈，環島只有十二公里，幾百年來漁民在礁石間討生活。荷蘭人曾於十七世紀在此強力鎮壓馬卡道族原住民，讓這片珊瑚礁承載著不只是海洋生長的歲月，還有島民與外來者糾纏的歷史記憶。
-    
-    手電筒掃過珊瑚，白天活蹦亂跳的魚兒全都縮進礁縫睡著了。章魚悄悄在礁石上變色，海膽的刺在光線下像一把把張開的傘。最讓人屏息的，是礁盤邊趴著一隻正在「睡覺」的綠蠵龜，龜殼隨海流輕輕起伏，像整片海洋在幫牠打呼。
-    
-    這一刻你才懂，為何島民對這些龜有著近乎宗教的情感。牠們在礁石間游了幾十年，見過漁業興衰、觀光潮起，還是用同樣的節奏呼吸。回到碼頭，街燈和蚵仔煎的香氣迎面而來，才想起自己剛才身在的，是地球另一個時區。
-  observationPrompt: "領隊關掉手電筒的那一刻，你能看見夜光藻被擾動時發出的藍色微光嗎？手電筒照進礁縫，有幾種魚正在睡覺？礁盤上有沒有趴著不動的綠蠵龜——牠的胸鰭是否還在緩緩擺動？"
+    不自行關燈、脫隊或擾動水體追求發光效果。若遇海龜，保持至少五公尺距離，不照射追逐、不觸碰、不包圍，不打擾休息或阻擋呼吸動線；受夜間管制的海岸不得擅入。
+  observationPrompt: "先完成業者的裝備與安全說明，在允許的活動範圍保持隊形觀察；不為找夜光藻或海龜而關燈、離隊或靠近動物。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -53,32 +49,27 @@ point:
       - id: snorkeling
         label: 浮潛
   indoor: false
-  location:
-    latitude: 22.3478
-    longitude: 120.3713
-    locationHint: "白沙碼頭（主要渡輪碼頭）周邊，各夜潛業者於此集合出發，乘小船前往礁盤浮潛區"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3478,120.3713"
-  trigger:
-    radiusMeters: 300.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 夜間浮潛是需預約的海域活動；集合點及下水位置須由實際承辦業者確認，不能以白沙港或大福港代替。
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "小琉球是台灣本島週邊水域中族群最密集的綠蠵龜棲地，夜間浮潛讓人見識到白天難以觀察的礁盤生態節律"
+    note: "夜間海洋生態體驗主題，並非單一地點；是否可辦理須依合法業者與海況確認。"
     sources: [tw-xiaoliuqiu-night-snorkel-source]
   distinctiveness:
     score: 5
-    note: "能在珊瑚礁上近距離見到熟睡中的野生綠蠵龜，並看見夜光藻發光，這種體驗在台灣幾乎只有小琉球能提供"
+    note: "夜間生態觀察有別於白天，但夜光藻與海龜目擊不保證，也不得近距離干擾。"
     sources: [tw-xiaoliuqiu-night-snorkel-source]
   interpretability:
     score: 4
-    note: "持照潛導全程帶領並口頭解說生態，視覺衝擊強烈，但水下環境使得深入閱讀說明牌不可行"
+    note: "需具適當資格人員帶領與安全說明；浮潛和水肺夜潛資格不可混用。"
     sources: [tw-xiaoliuqiu-night-snorkel-source]
   visitorValue:
     score: 5
-    note: "絕大多數參與者反映是全趟旅程最難忘的經歷，親眼見到野生綠蠵龜睡眠的情感衝擊無可取代"
+    note: "適合性取決於個人能力、裝備、海況與業者要求，不保證生物或體驗成果。"
     sources: [tw-xiaoliuqiu-night-snorkel-source]
   evidenceQuality:
     score: 3
@@ -88,12 +79,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-night-snorkel-source
     title: "琉球嶼 - 維基百科"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/琉球嶼
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-night-snorkel-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-TW/PlanTrip/Articles?a=428
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-night-snorkel-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -106,9 +113,25 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-night-snorkel.webp
     completePath: media/complete/tw-xiaoliuqiu-night-snorkel.webp
 admissions:
-  - label: "需向島上合法夜潛業者報名（費用約NT$500–800／人），含救生衣、防水手電筒與持照領隊帶領；建議提前預約，旺季（5–9月）名額常爆滿"
+  - label: "費用、裝備、集合點與參加資格依實際合法業者確認；不沿用未指定行程的概括報價。"
     isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。YAML 未指定業者或行程，且同時提到白沙、大福兩港，沒有可驗證的唯一陸上集合點。官方資訊僅支持島上多處水域活動，不支持各夜潛業者一律在白沙港集合、固定十分鐘船程的說法。查得的夜潛商品有其自己的報到場所，而且是持證水肺潛水，不能替代此筆夜間浮潛。原 22.3478,120.3713 不予認證。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-TW/PlanTrip/Articles?a=428
+    title: 大鵬灣國家風景區管理處－小琉球旅遊指引
+    coordinateEvidence: 查閱 https://www.dbnsa.gov.tw/zh-TW/PlanTrip/Articles?a=428 的水域活動指引，內容要求選擇合法、合格業者；沒有名為『小琉球夜間浮潛』的統一報到座標。本來源用於活動性質及承辦方式核對，未抽取任何座標。
+  - url: https://liuqiu-beardiving.rezio.shop/product/EGAI3L
+    title: 熊潛水－小琉球專業潛水行程（持有潛水證照）
+    coordinateEvidence: https://liuqiu-beardiving.rezio.shop/product/EGAI3L 明列夜潛方案及集合地點『小琉球－熊潛水 Bear Diving』，而非全島共用港口。僅用來辨識業者特定集合方式；YAML 未指定此業者，故不採其地址或地圖座標。
+  previousLocation:
+    latitude: 22.3478
+    longitude: 120.3713
+  verifiedLocation: null

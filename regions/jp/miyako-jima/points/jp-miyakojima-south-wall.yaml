@@ -37,15 +37,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.6948
-    longitude: 125.3048
-  googleMapsUrl: "https://maps.google.com/maps?q=24.6948,125.3048"
-  trigger:
-    radiusMeters: 100.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 尚未確認サウスウォール是否為宮古島此一具名潛點；不得以原海上 GPS 或其他相似壁潛地點代替。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -102,3 +97,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact searches for サウスウォール with 宮古/宮古島 and review of local operator dive-site catalogue did not establish this named Miyako south-coast dive site. No operator, meeting point or reliable feature coordinates; absence from one catalogue alone is not proof of nonexistence, therefore unresolved rather than invented replacement.
+  sources:
+  - url: https://www.aqua-story.com/point.html
+    title: 宮古島ダイビングポイント｜アクアストーリー
+    coordinateEvidence: Checked local operator's named-site catalogue as a disambiguation source; it lists Wall Cave and named drop-offs but does not establish サウスウォール at the YAML coordinate. No coordinate extracted or transferred from other sites.
+  previousLocation:
+    latitude: 24.6948
+    longitude: 125.3048
+  verifiedLocation: null

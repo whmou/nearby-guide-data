@@ -39,14 +39,14 @@ point:
         label: 建築
   indoor: true
   location:
-    latitude: 24.338056
-    longitude: 124.159556
-    locationHint: "石垣市登野城4-1。從石垣港離島ターミナル步行約10分鐘，館門前設有公車站。停車場在館旁側邊。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.338056,124.159556"
+    latitude: 24.33807182
+    longitude: 124.1595459
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.33807182,124.1595459
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 石垣市立八重山博物館（登野城4-1）的館舍地標點，非門口／展廳定位。先在館前公共道路或正式停車區抵達，再循入口標示；館內另受開館時間及門票限制。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -73,7 +73,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-yaeyama-museum-source
     title: "石垣市立八重山博物館 - Wikipedia（日本語）"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E5%B8%82%E7%AB%8B%E5%85%AB%E9%87%8D%E5%B1%B1%E5%8D%9A%E7%89%A9%E9%A4%A8
     accessedAt: "2026-07-18"
     language: ja
@@ -97,3 +97,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：觀光局具名館舍明確numeric place query可供接近解說；不要求以屋頂位置實際到達。原點距此約2公尺。
+  sources:
+  - url: https://www.okinawastory.jp/spot/20400400
+    title: 沖縄観光情報 — 石垣市立八重山博物館
+    coordinateEvidence: 'Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.33807182,124.1595459. This is the page''s explicit place query, not an embed viewport centre.'
+  previousLocation:
+    latitude: 24.338056
+    longitude: 124.159556
+  verifiedLocation:
+    latitude: 24.33807182
+    longitude: 124.1595459

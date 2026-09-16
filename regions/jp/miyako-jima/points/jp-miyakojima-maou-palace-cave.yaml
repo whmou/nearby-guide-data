@@ -37,15 +37,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.8277
-    longitude: 125.1332
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8277,125.1332"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 需搭船抵達的潛水地點；請安排合格業者，並使用其確認的集合地點。無法自行從陸路抵達。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Official tourism explicitly classifies 魔王の宮殿 on Shimoji as a boat dive, depth 27 m, for intermediate/advanced divers. It is not an accessible land cave or walking-navigation destination.
+  sources:
+  - url: https://www.okinawastory.jp/feature/activity/diving
+    title: おきなわ物語 — 魔王の宮殿（下地島）
+    coordinateEvidence: https://www.okinawastory.jp/feature/activity/diving lists ENTRY ボート, DEPTH 27m, LEVEL 中級以上 and LICENCE アドバンス. No public onshore arrival coordinate is supplied; no underwater coordinate adopted.
+  previousLocation:
+    latitude: 24.8277
+    longitude: 125.1332
+  verifiedLocation: null

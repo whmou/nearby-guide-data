@@ -4,18 +4,18 @@ point:
   parentId: null
   kind: venue
   title: "花瓶石"
-  summary: "花瓶石是小琉球北岸最具辨識度的珊瑚礁奇石，地殼抬升後歷經千萬年波浪侵蝕，雕出細腰寬頂如花瓶的身形。曾是漁民辨認北岸的天然地標，如今是登島必訪景點，礁盤周遭常見綠蠵龜悠游，地質與生態故事交匯於此。"
+  summary: "花瓶岩位於白沙觀光港附近的海岸，是上寬下窄的珊瑚礁地標。地圖標示岩體本身，不是入口；請在安全開放岸上遠觀，不涉水、踏礁或攀爬。"
   narration: |
-    站在小琉球北段的環島公路旁，往海邊望去，一根高約兩公尺的珊瑚礁柱靜靜矗立在潮間帶上，上寬下窄，活像擺在廳堂的老花瓶——島民就這樣叫了它幾十年，「花瓶石」就此得名。
+    從白沙觀光港附近開放且安全的岸上遠望，一根珊瑚礁柱靜靜矗立在潮間帶上，上寬下窄，活像擺在廳堂的老花瓶——島民就這樣叫了它幾十年，「花瓶石」就此得名。
     
     這塊石頭的前身是一整片珊瑚礁台地，幾萬年前隨地殼抬升緩緩出了水面。海浪日夜拍打、侵蝕，把較脆弱的礁岩一層層剝去，只留下這根最堅硬的柱子，被雕刻出今天細腰寬頂的身形。表面布滿墨綠藻類與微型珊瑚，紋路像老瓷器上的釉色；潮水退去後，礁盤積出一灣淺水，小魚和寄居蟹就躲在石縫裡過日子。
     
-    小琉球自古是馬卡道平埔族的居住地，後來荷蘭人與漢人移民相繼登島。島上流傳的說法是：早年漁民行船返鄉，遠遠望見這根石柱就知道北岸到了，它當了幾百年無聲燈塔，指引歸家的方向，直到白燈塔建起才卸下這個任務。
+    小琉球自古是馬卡道平埔族的居住地，後來荷蘭人與漢人移民相繼登島。島上流傳的說法是：早年漁民行船返鄉，遠遠望見這根石柱就知道北岸到了，它當了幾百年無聲燈塔，指引歸家的方向，這是地方敘事，不能據此推定白燈塔與花瓶岩相鄰；白燈塔實際位於島東南方。
     
-    走近礁盤，往海裡一看才是最大的驚喜——綠蠵龜幾乎每天在礁岸附近悠游，偶爾把頭探出水面換氣，再靜靜潛入珊瑚叢，好像說「這是我的地盤」。這裡屬於珊瑚礁海岸保育區，礁盤上的每一步都可能踩到活珊瑚，請穿防滑鞋、在岸邊駐足欣賞即可。
+    留在安全岸上遠觀海面，偶爾也可能見到海洋生物——綠蠵龜有時在海域活動，但目擊不能保證，偶爾把頭探出水面換氣，再靜靜潛入珊瑚叢，好像說「這是我的地盤」。這裡屬於珊瑚礁海岸保育區，礁盤上的每一步都可能踩到活珊瑚，請穿防滑鞋、在岸邊駐足欣賞即可。
     
     小琉球只有12公里的海岸線，沒有紅綠燈，沒有趕路的必要。花瓶石就是讓你第一次真正停下腳步、讀懂這座慢活小島的理由。
-  observationPrompt: "仔細看花瓶石的腰部和頂部——為什麼底部比頂部細？是什麼力量把礁岩雕成這個形狀？退潮後，礁盤上你能找到哪些生物正在生活？往海面看看，有沒有圓圓的頭探出水面？"
+  observationPrompt: "留在開放且安全的岸上，觀察花瓶岩頂部與底部的寬度差異，思考海浪侵蝕如何影響形狀；不要為觀察生物靠近礁盤。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -49,14 +49,14 @@ point:
         label: 打卡熱點
   indoor: false
   location:
-    latitude: 22.3682
-    longitude: 120.3768
-    locationHint: "環島公路北段白燈塔下方海岸，沿礁岸步道往海邊走約100公尺即可見礁柱矗立於潮間帶"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3682,120.3768"
+    latitude: 22.35566
+    longitude: 120.38076
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.35566,120.38076
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 靈山寺前海岸、白沙觀光港附近的花瓶岩實體地標座標，僅供鄰近語音辨識；不是入口、步道或可安全抵達岩柱的導航點。請在開放且安全的岸上遠觀，勿為靠近定位點而進入潮間帶礁岩、涉水或攀爬岩體，遵守現場管制。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -73,7 +73,7 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-vase-rock-source]
   visitorValue:
     score: 4
-    note: "親眼見到的衝擊感遠勝照片，退潮時礁盤生態豐富，加上高機率目擊綠蠵龜，停留價值高"
+    note: "以安全岸上觀察岩形與海景為主；不保證海龜目擊，不可因退潮而進入礁盤。"
     sources: [tw-xiaoliuqiu-vase-rock-source]
   evidenceQuality:
     score: 3
@@ -83,12 +83,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-vase-rock-source
     title: "維基百科——琉球嶼"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/琉球嶼
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-vase-rock-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=222
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-vase-rock-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -107,3 +123,24 @@ review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 整合複核。管理處以花瓶岩之名公布明確經緯度及數字地圖q，足以認證為實體landmark，供80至150公尺級鄰近語音觸發使用；不宣稱pin是入口或安全路線。原22.3682,120.3768及白燈塔下方提示錯誤。依整合要求撤銷先前因缺獨立岸上入口而給予的unresolved判定，直接採官方地標pin，未虛構步道座標。官方並建議保持距離遠觀。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=222
+    title: 大鵬灣國家風景區管理處－花瓶岩
+    coordinateEvidence: 直接HTTP讀取 https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=222，旅遊資訊顯示經度120.38076、緯度22.35566；iframe及一鍵導航均為 https://maps.google.com/maps?q=22.35566,120.38076 。直接抽取數字q並核對頁面名稱花瓶岩，採緯度22.35566、經度120.38076作landmark；不是@視窗中心，也不把岩體pin稱為岸上入口。
+  - url: https://deh.csie.ncku.edu.tw/poi_detail/8045
+    title: 國立成功大學文史脈流－小琉球花瓶岩
+    coordinateEvidence: https://deh.csie.ncku.edu.tw/poi_detail/8045 另列緯度22.355418、經度120.381005，參考來源註為實際體驗，支持同一花瓶岩景觀的位置。此點未標明入口且地址帶問號，故不採其點作岸上觀景點；主座標採官方數字pin，不平均兩來源。
+  - url: https://www.dbnsa.gov.tw/zh-tw/Experience/articles?a=347
+    title: 大鵬灣管理處－大鵬灣×小琉球兩天一夜無礙輕旅行
+    coordinateEvidence: https://www.dbnsa.gov.tw/zh-tw/Experience/articles?a=347 將花瓶岩及遊客中心列為相鄰但不同的遊程停留點，並描述遊客中心戶外平台；未提供可確定為花瓶岩岸上觀看點的單獨經緯度，因此未挪用整棟遊客中心或其附近公車站座標。
+  previousLocation:
+    latitude: 22.3682
+    longitude: 120.3768
+  verifiedLocation:
+    latitude: 22.35566
+    longitude: 120.38076

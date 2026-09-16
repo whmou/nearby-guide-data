@@ -42,14 +42,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.3657
-    longitude: 124.1133
-    locationHint: "從石垣港沿西海岸往川平灣方向行駛約20分鐘，石垣市新川地區觀音崎。路邊設有免費停車場，墓地直接面向海岸道路，顯眼易找。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3657,124.1133"
+    latitude: 24.36570549
+    longitude: 124.11385345
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.36570549,124.11385345
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 唐人墓（新川富崎）的戶外紀念墓園觀覽點；由唐人墓巴士站旁公共通路进入，不是私人墳墓內部或觀音崎燈塔。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -76,7 +76,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-toujin-baka-source
     title: "唐人墓 - Wikipedia（日本語版）"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E5%94%90%E4%BA%BA%E5%A2%93
     accessedAt: "2026-07-18"
     language: ja
@@ -100,3 +100,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：觀光局具名墓園頁直接公布numeric place query，並記錄巴士站下車即達。採戶外landmark而非聲稱精確入口；原點偏西約56公尺。
+  sources:
+  - url: https://www.okinawastory.jp/spot/1371
+    title: 沖縄観光情報 — 唐人墓
+    coordinateEvidence: 'Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.36570549,124.11385345. This is the page''s explicit place query, not an embed viewport centre.'
+  previousLocation:
+    latitude: 24.3657
+    longitude: 124.1133
+  verifiedLocation:
+    latitude: 24.36570549
+    longitude: 124.11385345

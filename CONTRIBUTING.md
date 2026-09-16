@@ -71,3 +71,10 @@ Rounding: half-up (3.85 → 3.9, not 3.8).
 | Point YAML    | `<point-id>.yaml`                   | `tw-hsinchu-east-gate.yaml`         |
 | Pack YAML     | `pack.yaml`                         | `regions/tw/hsinchu/pack.yaml`      |
 | Media source  | `media/source.yaml`                 | `regions/tw/hsinchu/media/source.yaml` |
+# Coordinate evidence is a publication requirement
+
+Read [LOCATION_REVIEW.md](LOCATION_REVIEW.md) before adding or changing any point.
+Every production point needs an evidence-backed location review, or an explicit
+unresolved/non-point status with no GPS/trigger/navigation link. Search results
+are candidates, not proof. Never reuse a region centre or generic experience as
+a precise attraction. Changing reviewed coordinates invalidates that review.

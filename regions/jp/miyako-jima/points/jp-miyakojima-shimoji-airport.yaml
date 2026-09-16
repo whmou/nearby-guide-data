@@ -36,14 +36,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8268
-    longitude: 125.1448
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8268,125.1448"
+    latitude: 24.8291633
+    longitude: 125.149189
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8291633,125.149189
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: みやこ下地島空港旅客航廈地標 pin；請循航廈公共交通與停車指示抵達，勿前往跑道或機場管制區。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -93,3 +93,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 airport operator's own map link resolves to the passenger-terminal named feature. Original point approximately 515 m southwest does not identify this public terminal anchor. Street-view camera @ position was ignored.
+  sources:
+  - url: https://shimojishima.jp/
+    title: みやこ下地島空港ターミナル公式サイト
+    coordinateEvidence: Official href https://maps.app.goo.gl/hwnWhAJzdfZ3qLEo8 resolves to みやこ下地島空港ターミナル, feature 0x34f5abf2774fbddf:0x4052ebc4675369ff; !8m2!3d24.8291633!4d125.149189 and response feature array [null,null,24.8291633,125.149189]. Not @24.829918,125.1493802 camera.
+  previousLocation:
+    latitude: 24.8268
+    longitude: 125.1448
+  verifiedLocation:
+    latitude: 24.8291633
+    longitude: 125.149189

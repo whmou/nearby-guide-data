@@ -47,14 +47,14 @@ point:
         label: 免費
   indoor: true
   location:
-    latitude: 24.339472
-    longitude: 124.157972
-    locationHint: "從石垣港離島ターミナル步行約10分鐘，位於730交叉路口旁的大川通り沿線；商店街本身無專屬停車場，建議使用周邊付費停車場或從市區步行前往。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.339472,124.157972"
+    latitude: 24.3397963
+    longitude: 124.1582602
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.3397963,124.1582602
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: ユーグレナモール公共步行商店街的官方代表點；沿中央通り／銀座通り步行，非指定店家入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -81,7 +81,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-souvenir-street-source
     title: "ユーグレナモール - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%A2%E3%83%BC%E3%83%AB
     accessedAt: "2026-07-18"
     language: ja
@@ -105,3 +105,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: visitor_area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府直接連到具名拱廊商店街圖釘。採visitor_area而非假定單一入口；與公設市場是相鄰但不同項目。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — ユーグレナモール
+    coordinateEvidence: On 2026-09-16, the ユーグレナモール section links https://goo.gl/maps/Rha6mpbgmGtaMnGp7. Its HTTP redirect contains the named place's !8m2!3d24.3397963!4d124.1582602 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.339472
+    longitude: 124.157972
+  verifiedLocation:
+    latitude: 24.3397963
+    longitude: 124.1582602

@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8382
-    longitude: 125.214
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8382,125.214"
+    latitude: 24.8381863631
+    longitude: 125.2140340536
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8381863631,125.2140340536
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 佐良浜港具名港灣 pin，供港邊公共區域鄰近導覽；非碼頭登船口，勿進入卸魚或作業管制區。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +91,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 fetched local destination publisher's exact port map query, corroborated entity with national Fisheries Agency account of public visitor facilities at Sarahama fishing port. Existing point agrees within approximately 4 m. YAML's west-coast description is not endorsed.
+  sources:
+  - url: https://www.tanoshima.jp/facilities/detail/sarahamakou?category=spot
+    title: 佐良浜港｜宮古島観光情報たのしま
+    coordinateEvidence: Fetched HTML named Sarahama port page contains href=https://maps.google.co.jp/maps?q=24.8381863631,125.2140340536; explicit destination q, not map viewport.
+  - url: https://www.jfa.maff.go.jp/j/keikaku/attach/pdf/230718-65.pdf
+    title: 佐良浜漁港・漁業体験施設｜水産庁
+    coordinateEvidence: 'Entity/access corroboration only: identifies 佐良浜漁港 in 宮古島市 and land-side fish-market, restaurant and fisheries-experience facilities; no replacement coordinate extracted.'
+  previousLocation:
+    latitude: 24.8382
+    longitude: 125.214
+  verifiedLocation:
+    latitude: 24.8381863631
+    longitude: 125.2140340536

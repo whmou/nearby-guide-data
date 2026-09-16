@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.748500
-    longitude: 125.291800
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7485,125.2918"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 砂川地區有多處御嶽，須先確認此筆祭祀場所的正式名稱；不以砂川神社或另一御嶽自動替代，勿進入未獲准的聖域。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact-name search identifies multiple distinct Uruka/Sunagawa sacred places, while the YAML gives only a generic forest-shrine description. Research reports dozens of utaki in the district. Cannot uniquely identify a specific shrine or establish accessible landmark coordinates.
+  sources:
+  - url: https://shimamukwansei.hatenablog.com/entry/20130130/1359532286
+    title: 砂川のマウガン祭祀｜関西学院大学・島村恭則研究室
+    coordinateEvidence: Field-research account identifies multiple/different utaki in 城辺砂川; no unique 砂川御嶽 marker matching YAML. Source used for ambiguity, not coordinate inference.
+  - url: https://umut.jp/
+    title: 宮古島の御嶽：御嶽一覧
+    coordinateEvidence: Local cultural inventory lists 砂川神社 under GUSUKUBE URUKA, not sufficient evidence that this is the YAML's unnamed forest altar. No same-name replacement coordinate adopted.
+  previousLocation:
+    latitude: 24.7485
+    longitude: 125.2918
+  verifiedLocation: null

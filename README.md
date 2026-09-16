@@ -11,7 +11,9 @@ Data repository for the [NearbyGuide](https://github.com/whmou/nearby-guide) And
 ```
 regions/           Source YAML files organized by country/region
   tw/hsinchu/      新竹市 (Hsinchu City, Taiwan)
+  tw/xiaoliuqiu/   小琉球 (Liuqiu Township, Taiwan)
   jp/miyako-jima/  宮古島 (Miyakojima, Okinawa, Japan)
+  jp/ishigaki/     石垣島與八重山 (Ishigaki/Yaeyama, Okinawa)
 schemas/           JSON Schema definitions for all file formats
 taxonomy/          Shared tag and kind definitions
 tools/             Build and validation scripts
@@ -24,8 +26,16 @@ catalog.json       Published pack index (updated by tools/update_catalog.py)
 
 | Pack ID         | Title  | Points | Status |
 |-----------------|--------|--------|--------|
-| tw-hsinchu      | 新竹市 | 7      | draft  |
-| jp-miyakojima   | 宮古島 | 7      | draft  |
+| tw-hsinchu      | 新竹市 | 35     | See location review |
+| jp-miyakojima   | 宮古島 | 71     | See location review |
+| jp-ishigaki     | 石垣島與八重山 | 30 | See location review |
+| tw-xiaoliuqiu   | 小琉球 | 22     | See location review |
+
+Counts include text-only themes and unresolved entries, not only GPS attractions.
+The [location review rules](LOCATION_REVIEW.md) and per-point `locationReview`
+record evidence, anchor meaning, and original coordinates. Unresolved/non-point
+entries do not supply GPS triggers or navigation links. Coordinate review does
+not certify old narratives, ratings, photos, opening times, or safe access.
 
 ## Quick start
 

@@ -39,14 +39,14 @@ point:
         label: 建築
   indoor: false
   location:
-    latitude: 24.3411
-    longitude: 124.1597
-    locationHint: "位於石垣市大川178，鄰近桃林寺，從石垣市中心步行約5分鐘可達。無專用停車場，建議停在附近市區收費停車場後步行前往。入口為南面的薬医門形式表門。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3411,124.1597"
+    latitude: 24.3411417
+    longitude: 124.1596317
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.3411417,124.1596317
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 宮良殿内（大川178）的文化財地標圖釘，不是表門精確座標。先在公共街道找正式入口，按開放規則參觀庭園；勿穿越鄰地或進住宅內部。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -73,7 +73,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-miyara-dunchi-source
     title: "宮良殿内 - Wikipedia（日本語）"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E8%89%AF%E6%AE%BF%E5%86%85
     accessedAt: "2026-07-18"
     language: ja
@@ -97,3 +97,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府官方介紹直接連到宮良殿内的feature pin；用於接近解說，未宣稱門口。原點與此約8公尺。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 宮良殿内
+    coordinateEvidence: On 2026-09-16, the 宮良殿内 section links https://goo.gl/maps/U5FJ2W1k15eUXwbY6. Its HTTP redirect contains the named place's !8m2!3d24.3411417!4d124.1596317 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.3411
+    longitude: 124.1597
+  verifiedLocation:
+    latitude: 24.3411417
+    longitude: 124.1596317

@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.801056
-    longitude: 120.979472
-  googleMapsUrl: "https://maps.google.com/maps?q=24.801056,120.979472"
+    latitude: 24.80018
+    longitude: 120.98126
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80018,120.98126
   trigger:
     radiusMeters: 120.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 食品路62號旁新竹動物園YouBike站集合，再沿食品路至動物園售票入口／新竹公園步道；不能假設動物園免費。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Public arrival anchor explicitly named 新竹動物園 and on its food-road approach, avoiding enclosure/interior centroid. The compound park/zoo title is retained; this pin is a meeting point, not the zoo interior or ticket gate. Current city tourism zoo pin is inconsistent.
+  sources:
+  - url: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json
+    title: 新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）
+    coordinateEvidence: 'Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=新竹動物園; 緯度=24.80018; 經度=120.98126; 站點位置=食品路62號旁. Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_376580000A_000055 independently supplies address 新竹市東區食品路66號. Its PositionLat=24.80015607796872, PositionLon=120.97734687604826 is rejected as the outdoor arrival pin because it differs from the official named transport stop on the same road. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.801056
+    longitude: 120.979472
+  verifiedLocation:
+    latitude: 24.80018
+    longitude: 120.98126

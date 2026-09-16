@@ -39,15 +39,10 @@ point:
         - id: limited-hours
           label: 限定時段
   indoor: false
-  location:
-    latitude: 24.915981
-    longitude: 125.3079275
-  googleMapsUrl: "https://maps.google.com/maps?q=24.915981,125.3079275"
-  trigger:
-    radiusMeters: 200.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1500.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 大神島為整座島嶼，不能用島中心導航；從島尻港搭大神海運，登島後遵守聖域與現場通行規定。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -106,3 +101,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: area
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 read the ferry operator's access and sacred-area rules. YAML describes the whole island, not a named island-side wharf marker. Operator's map is the departure-office address on Miyako, so neither that coordinate nor an island centroid is a justified island arrival anchor.
+  sources:
+  - url: https://oogamikaiun.com/
+    title: 大神海運公式：大神島へのアクセス・注意点
+    coordinateEvidence: Operator specifies ferry from 島尻港 and restricted sacred areas. HTML iframe place label is 平良島尻6, on the departure island; no coordinate from this departure-office map was substituted for 大神島 itself.
+  previousLocation:
+    latitude: 24.915981
+    longitude: 125.3079275
+  verifiedLocation: null

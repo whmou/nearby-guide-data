@@ -39,7 +39,7 @@ def main() -> None:
         for point_yaml in sorted(pack_dir.glob("points/*.yaml")):
             raw = yaml.safe_load(point_yaml.read_text(encoding="utf-8"))
             p = raw.get("point", {})
-            loc = p.get("location", {})
+            loc = p.get("location") or {}
             media_list = raw.get("media", [])
             rating_ev = raw.get("ratingEvidence", {})
 
@@ -54,7 +54,8 @@ def main() -> None:
                 "observationPrompt": p.get("observationPrompt", ""),
                 "lat": loc.get("latitude"),
                 "lng": loc.get("longitude"),
-                "locationHint": loc.get("locationHint", ""),
+                "locationHint": p.get("locationHint") or loc.get("locationHint", ""),
+                "locationReview": raw.get("locationReview"),
                 "googleMapsUrl": p.get("googleMapsUrl"),
                 "indoor": p.get("indoor", False),
                 "tags": _flat_tags(p.get("tagGroups", [])),
@@ -63,7 +64,7 @@ def main() -> None:
                 "mediaSourceUrl": first_media.get("sourceUrl"),
                 "mediaCount": len(media_list),
                 "rating": rating_ev.get("final"),
-                "triggerRadiusM": p.get("trigger", {}).get("radiusMeters"),
+                "triggerRadiusM": (p.get("trigger") or {}).get("radiusMeters"),
             })
 
         packs.append({

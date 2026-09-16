@@ -1,31 +1,179 @@
 groups:
-  - id: setting
-    label: 場域
-    tags:
-      - {id: outdoor, label: 戶外}
-      - {id: indoor, label: 室內}
-      - {id: mixed, label: 室內外混合}
-  - id: subject
-    label: 主題
-    tags:
-      - {id: architecture, label: 建築}
-      - {id: history, label: 歷史}
-      - {id: nature, label: 自然}
-      - {id: art, label: 藝術}
-      - {id: religion, label: 宗教}
-      - {id: engineering, label: 工程}
-      - {id: daily-life, label: 日常生活}
+- id: setting
+  label: 場域
+  tags:
+  - id: outdoor
+    label: 戶外
+  - id: indoor
+    label: 室內
+  - id: mixed
+    label: 室內外混合
+- id: subject
+  label: 主題
+  tags:
+  - id: architecture
+    label: 建築
+  - id: history
+    label: 歷史
+  - id: nature
+    label: 自然
+  - id: art
+    label: 藝術
+  - id: religion
+    label: 宗教
+  - id: engineering
+    label: 工程
+  - id: daily-life
+    label: 日常生活
+  - id: culture
+    label: 文化
+  - id: viewpoint
+    label: 展望台
+  - id: experience
+    label: 体験
+  - id: beach
+    label: 海灘
+  - id: coral-reef
+    label: 珊瑚礁
+  - id: mangrove
+    label: 紅樹林
+  - id: island
+    label: 離島
+  - id: cave
+    label: 洞窟
+  - id: sea-cave
+    label: 海蝕洞
+  - id: trail
+    label: 步道
+  - id: legend
+    label: 歷史傳說
+  - id: reef-rock
+    label: 礁岩地貌
+  - id: paid
+    label: 需購票
+  - id: indigenous-history
+    label: 原住民歷史
+  - id: temple
+    label: 廟宇
+  - id: migration-history
+    label: 潮州移民
+  - id: heritage
+    label: 歷史古蹟
+  - id: festival
+    label: 遶境
+  - id: fishing-port
+    label: 漁港
+  - id: accessible
+    label: 交通門戶
+  - id: seafood
+    label: 海鮮
+  - id: fishing-culture
+    label: 漁村文化
+  - id: sea-turtle
+    label: 綠蠵龜
+  - id: market
+    label: 漁市
+  - id: intangible-heritage
+    label: 無形文化遺產
+  - id: tidal-flat
+    label: 潮間帶
+  - id: marine-life
+    label: 海星
+  - id: ecology
+    label: 生態保育
+  - id: low-tide
+    label: 退潮
+  - id: family
+    label: 親子
+  - id: marine-ecology
+    label: 海洋生態
+  - id: water-sports
+    label: 水上活動
+  - id: local-life
+    label: 慢活
+  - id: rock-formation
+    label: 奇石景觀
+  - id: free
+    label: 免費景點
+  - id: geology
+    label: 地質教育
+  - id: coast
+    label: 海岸
+  - id: lighthouse
+    label: 燈塔
+  - id: colonial-history
+    label: 日治時期
+  - id: maritime
+    label: 航海地標
+  - id: walkable
+    label: 步行可達
+  - id: ocean-view
+    label: 海景
+  - id: night-snorkeling
+    label: 夜間浮潛
+  - id: night-activity
+    label: 夜觀生態
+  - id: ocean-experience
+    label: 海洋體驗
+  - id: bioluminescence
+    label: 夜光藻
+  - id: old-street
+    label: 老街
+  - id: street-food
+    label: 小吃
+  - id: hiking
+    label: 健行步道
+  - id: scenic
+    label: 自然景觀
+  - id: photogenic
+    label: 打卡熱點
+  - id: karst
+    label: 溶蝕溝
+  - id: local-belief
+    label: 地方信仰
+  - id: regulated
+    label: 保育管制
+  - id: local-cuisine
+    label: 地方料理
+  - id: military-heritage
+    label: 舊軍事設施
+  - id: pending-verification
+    label: 地點待核實
+- id: experience
+  label: 體驗
+  tags:
+  - id: viewpoint
+    label: 景觀
+  - id: walking
+    label: 步行
+  - id: family
+    label: 親子
+  - id: photography
+    label: 攝影
+  - id: quiet
+    label: 靜謐
   - id: experience
     label: 體驗
-    tags:
-      - {id: viewpoint, label: 景觀}
-      - {id: walking, label: 步行}
-      - {id: family, label: 親子}
-      - {id: photography, label: 攝影}
-      - {id: quiet, label: 靜謐}
-  - id: access
-    label: 入場
-    tags:
-      - {id: free, label: 免費}
-      - {id: ticketed, label: 需購票}
-      - {id: limited-hours, label: 限時開放}
+  - id: food
+    label: 美食
+  - id: shopping
+    label: 購物
+  - id: snorkeling
+    label: 浮潛
+  - id: glass-boat
+    label: 玻璃船
+  - id: market
+    label: 市場
+  - id: shore-viewing
+    label: 岸上賞景
+  - id: guided-ecology
+    label: 導覽生態觀察
+- id: access
+  label: 入場
+  tags:
+  - id: free
+    label: 免費
+  - id: ticketed
+    label: 需購票
+  - id: limited-hours
+    label: 限時開放

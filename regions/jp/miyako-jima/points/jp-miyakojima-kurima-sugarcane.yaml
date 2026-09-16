@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.7213
-    longitude: 125.247
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7213,125.247"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 来間島道路沿線的農業景觀；勿進入私人田地。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -98,3 +93,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Unnamed fields spread across an island are not a single public attraction or entrance. No official named field/viewpoint establishes this point. Keep as area interpretation rather than a GPS trigger.
+  sources:
+  - url: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/tanoshima-miyako46.pdf
+    title: 宮古島観光協会 — 来間島 overview
+    coordinateEvidence: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/tanoshima-miyako46.pdf describes much of Kurima as sugarcane/agricultural land. It does not select one public field entrance; no numeric coordinate extracted.
+  previousLocation:
+    latitude: 24.7213
+    longitude: 125.247
+  verifiedLocation: null

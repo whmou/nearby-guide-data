@@ -44,14 +44,14 @@ point:
         label: 體驗
   indoor: false
   location:
-    latitude: 24.345
-    longitude: 123.935
-    locationHint: "西表島大原港（大原港）下船後，沿縣道215號往西約15分鐘車程，可到達西大見川附近的水牛車乘車處。停車場位於乘船處旁，免費。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.345,123.935"
+    latitude: 24.3448204
+    longitude: 123.9271995
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.3448204,123.9271995
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 西表島側「旅人の駅 チケット売り場」報到處地標，水牛車出發前依官方要求辦手續；不是由布島中心或海中水牛車行進路線。行政區為竹富町。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -78,7 +78,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-iriomote-yubu-source
     title: "由布島の歴史 | 亜熱帯植物楽園（官方網站）"
-    publisher: ""
+    publisher: "yubujima.com"
     url: https://yubujima.com/history/
     accessedAt: "2026-07-18"
     language: ja
@@ -102,3 +102,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：營運者嵌入My Maps的可讀HTML含具名售票處placemark，成功取得實際座標（KML虽403但公開embed可讀）。原點在其東方約790公尺，不能作西表島側報到點。
+  sources:
+  - url: https://yubujima.com/
+    title: 由布島官方 — 水牛車／アクセス
+    coordinateEvidence: Official text requires check-in at 西表島側『旅人の駅』. Embeds https://www.google.com/maps/d/embed?mid=15e18SZInkHR2u-wGxmgnx8Gm8Wj5QJpB .
+  - url: https://www.google.com/maps/d/embed?mid=15e18SZInkHR2u-wGxmgnx8Gm8Wj5QJpB
+    title: 由布島と旅人の駅 — operator-published Google My Maps
+    coordinateEvidence: Read-only HTML _pageData contains feature 332DDFDCC4DF3C17 with geometry [[[24.3448204,123.9271995]]] and 名前 ['旅人の駅 チケット売り場'], place ID ChIJ6yI1OQt5YDQRddDY75iKaR0. Extracted this named feature, NOT map bounding box or the separate 由布島 / 大原港 markers.
+  previousLocation:
+    latitude: 24.345
+    longitude: 123.935
+  verifiedLocation:
+    latitude: 24.3448204
+    longitude: 123.9271995

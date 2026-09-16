@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7485
-    longitude: 125.4422
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7485,125.4422"
+    latitude: 24.74835396
+    longitude: 125.44252777
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.74835396,125.44252777
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 吉野海岸官方海灘地標 pin，供岸上鄰近導覽；請依現場停車與下灘規定抵達，不代表安全浮潛入水點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +91,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official tourism place query confirms Yoshino Coast; original approximately 37 m away. Verification does not substantiate the narration's turtle guarantees or swimming-safety claims.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600006188
+    title: 吉野海岸｜おきなわ物語
+    coordinateEvidence: Fetched HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.74835396,125.44252777&zoom=16; explicit named place marker q.
+  previousLocation:
+    latitude: 24.7485
+    longitude: 125.4422
+  verifiedLocation:
+    latitude: 24.74835396
+    longitude: 125.44252777

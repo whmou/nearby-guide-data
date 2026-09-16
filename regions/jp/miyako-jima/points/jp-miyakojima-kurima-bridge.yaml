@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7258527
-    longitude: 125.2643988
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7258527,125.2643988"
+    latitude: 24.721198
+    longitude: 125.257565
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.721198,125.257565
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 来間大橋来間島側的陸上橋頭；請留在公共行人通道，切勿在橋上停車。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +99,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: Use the tourism association's explicit bridge-end destination instead of the original central-span point (approximately 0.86 km away). This is an arrival/viewing anchor, not the bridge centre.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-881/
+    title: 宮古島観光協会 — 来間大橋
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-881/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.721198,125.257565; its place embed uses q=24.721198,125.257565. These are explicit destination coordinates, not a viewport centre.'
+  - url: https://www.okinawastory.jp/about/miyako_area/kurima
+    title: おきなわ物語 — 来間島
+    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima corroborates bridge access to Kurima and its distinct viewing sites. No additional numeric coordinate extracted.
+  previousLocation:
+    latitude: 24.7258527
+    longitude: 125.2643988
+  verifiedLocation:
+    latitude: 24.721198
+    longitude: 125.257565

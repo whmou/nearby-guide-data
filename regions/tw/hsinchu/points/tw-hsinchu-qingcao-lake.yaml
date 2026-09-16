@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7749
+    latitude: 24.774934
     longitude: 120.9709
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7749,120.9709"
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.774934,120.9709
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 青草湖官方地標位置，供鄰近辨識／語音觸發，並非岸上入口或可站立點。請留在開放的湖岸公共空間觀景，勿循座標直走入水；本報告未另推算岸邊座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +99,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit, revised under the user's landmark-anchor clarification. Central tourism explicitly maps the named physical lake at this coordinate. Accept as a landmark for proximity/audio, not as a pedestrian destination or surveyed shore entrance. Lack of a separate entrance pin is not a reason to discard this named landmark. The conflicting city bulk-feed coordinate remains rejected; no artificial shore offset is introduced.
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=C100_410&sNo=0001016
+    title: 交通部觀光署：青草湖
+    coordinateEvidence: 'Reopened official page on 2026-09-16: explicit 經度/緯度=120.97090/24.774934 (visible lines 176-177) beneath the named 青草湖 heading. Adopt these published landmark coordinates, with longitude/latitude reordered, for proximity/audio only; they are not an entrance or a guaranteed dry-land standing point. No @ viewport or inferred shift used. Exact source: https://www.tad.gov.tw/m1.aspx?id=C100_410&sNo=0001016'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_376580000A_000058 publishes PositionLat=24.774934800000015, PositionLon=120.96678162695311. This differs markedly from central tourism and is not adopted. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.7749
+    longitude: 120.9709
+  verifiedLocation:
+    latitude: 24.774934
+    longitude: 120.9709

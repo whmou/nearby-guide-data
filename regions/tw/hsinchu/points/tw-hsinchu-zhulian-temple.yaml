@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.79980
-    longitude: 120.97150
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7998,120.9715"
+    latitude: 24.79828
+    longitude: 120.97042
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.79828,120.97042
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 竹蓮街72號對面人行道、竹蓮寺YouBike站旁集合，再沿竹蓮街至100號寺前；不是廟殿內。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Officially named public sidewalk anchor supplies a usable arrival near the independently identified temple. Original coordinate is northeast of the actual temple and about 200m from this arrival point. Temple-landmark coordinates and arrival coordinates are deliberately distinguished.
+  sources:
+  - url: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json
+    title: 新竹市交通處：公共自行車場站資料（政府資料開放平臺 dataset/67781）
+    coordinateEvidence: 'Read-only HTTP, UTF-8 decoded JSON row: 站點名稱=竹蓮寺; 緯度=24.79828; 經度=120.97042; 站點位置=竹蓮街72號(對面人行道). Only these fields were read; no images downloaded. This is a public arrival/meeting point, not a building centroid or map viewport. Exact source: https://odws.hccg.gov.tw/001/Upload/25/opendataback/9059/59/5776ed30-fa3c-48f4-9876-d8fb28df0501.json'
+  - url: https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=191
+    title: 內政部宗教文化地圖：竹蓮寺
+    coordinateEvidence: 'Actual temple printed 經緯度=120.97002,24.79889; this feature pin corroborates the nearby sidewalk meeting point, but is not the reported arrival coordinate. Exact source: https://taiwangods.moi.gov.tw/html/cultural/3_0011.aspx?i=191'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_376580000A_000023 supplies 竹蓮街100號, but its PositionLat=24.80274384756354, PositionLon=120.96401607592826 is inconsistent and rejected. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.7998
+    longitude: 120.9715
+  verifiedLocation:
+    latitude: 24.79828
+    longitude: 120.97042

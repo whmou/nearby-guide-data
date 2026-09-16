@@ -4,10 +4,10 @@ point:
   parentId: jp-miyakojima-shimoji-island
   kind: venue
   title: "下地島洞窟ダイビング入口"
-  summary: "下地島西岸的洞窟潛水入水點，是通往通り池地下洞穴系統的海面開口，潛水員從這個蔚藍海洞入水後，可穿越水下岩洞連通至兩個內陸水池，是宮古島最刺激的地形潛水體驗起點。"
+  summary: "下地島的通り池與外海透過水下洞穴相連，是特殊的地形潛水景觀；洞穴潛水屬進階活動，本導覽不提供可步行抵達的入水點或自行穿越路線。"
   narration: |
-    在下地島西岸崎嶇的石灰岩礁盤上，有一個對外觀看似不起眼的海面開口，但對全球洞穴潛水愛好者而言，這裡是絕對不能錯過的神聖入水點。潛水員從這個藍色海洞下潛，進入幽暗的石灰岩洞穴系統，洞壁上珊瑚化石清晰可見，偶有各式珊瑚礁魚穿梭其中。隨著洞穴向內延伸，前方出現兩個光亮的圓形光圈從深藍中升起——那正是通り池兩個水面投射下來的天光。穿越這段地下連通洞穴，從池底仰望浮上水面的瞬間，是宮古潛水體驗中最令人難忘的高潮。此行程須與持有洞穴潛水執照的在地潛水店合作進行，初學者也可參加體驗潛水方案，在教練引導下體驗洞口附近的海底地形。
-  observationPrompt: "在洞口附近的礁盤上，觀察石灰岩表面的化石珊瑚紋路——你能辨認出哪些化石是古代珊瑚礁留下的痕跡嗎？"
+    下地島通り池的兩個內陸水池在水下相連，並透過洞穴連通外海。這套隱藏於石灰岩中的連通構造，是通り池地形景觀的重要特色。從岸上觀看池水，可以想像眼前平靜的水面與外海之間，還有肉眼看不到的地下聯繫。官方觀光資料將需要穿越黑暗水下隧道的通り池潛水列為進階潛點，不能視為初學者體驗方案。本導覽沒有核實可供遊客自行抵達的洞口或入水路線；陸上遊客請留在通り池開放步道與觀景處，潛水安排應由所訂專業業者評估資格、海況與集合方式，勿自行前往礁盤尋找入口。
+  observationPrompt: "若從通り池開放的岸上觀景處欣賞池水，試著比較兩池的水色與波紋；請留在開放範圍，不要為尋找海中洞口而離開步道或下水。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.824028
-    longitude: 125.136417
-  googleMapsUrl: "https://maps.google.com/maps?q=24.824028,125.136417"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 通り池海中洞窟潛水需由所訂專業業者安排集合與入水；此筆不是遊客可步行抵達的洞口或陸上入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -56,11 +51,11 @@ ratingEvidence:
     sources: [toriki-ike-wikipedia-ja]
   interpretability:
     score: 3
-    note: "地面入口本身不明顯，需要潛水導覽或示意圖才能完整理解地下連通系統的規模與結構。"
+    note: "地下連通系統可透過解說或示意圖理解；本導覽未確認可步行抵達的洞口，不應作為尋找入水路線的指引。"
     sources: [toriki-ike-wikipedia-ja]
   visitorValue:
     score: 4
-    note: "洞口周邊礁盤可免費觀察，潛水體驗需搭配在地業者，但各等級潛水者皆有合適方案。"
+    note: "通り池洞穴潛水屬進階活動，不適合作為初學者通用體驗推薦；一般遊客應於開放的岸上觀景範圍欣賞，不自行尋找洞口。"
     sources: [miyakojima-dive-guide]
   evidenceQuality:
     score: 3
@@ -101,3 +96,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official island and culture descriptions confirm an advanced underwater connection to Toriike, not a public shore-entry venue. YAML names no operator or fixed safe arrival point, and its beginner-access narrative conflicts with official advanced-diver description.
+  sources:
+  - url: https://www.okinawastory.jp/about/miyako_area/shimoji
+    title: 下地島・通り池｜おきなわ物語
+    coordinateEvidence: Official text describes dark underwater tunnels and advanced-level diving. No land arrival coordinate for the supposed cave-diving entrance; pool landmark coordinate was not substituted.
+  previousLocation:
+    latitude: 24.824028
+    longitude: 125.136417
+  verifiedLocation: null

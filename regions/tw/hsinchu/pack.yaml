@@ -1,6 +1,6 @@
 ﻿schemaVersion: 1
 packId: tw-hsinchu
-version: "1.0.5"
+version: "1.0.6"
 title: "新竹市"
 subtitle: "風城歷史與自然"
 region:
@@ -9,4 +9,4 @@ region:
   adminAreaLevel1: 新竹市
 contentLanguage: zh-Hant-TW
 minAppVersionCode: 8
-createdAt: "2026-07-15T00:00:00Z"
+createdAt: "2026-09-16T00:00:00Z"

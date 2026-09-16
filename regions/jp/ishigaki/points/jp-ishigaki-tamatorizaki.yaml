@@ -40,14 +40,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.4906
-    longitude: 124.2789
-    locationHint: "沿國道390號往伊原間方向，接縣道206號，見到玉取崎的路標後轉入即可抵達免費停車場（可停約30台），停車場到展望台步行約3至5分鐘。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.4906,124.2789"
+    latitude: 24.4906033
+    longitude: 124.2788917
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.4906033,124.2788917
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 玉取崎展望台本體的可使用戶外觀景位置；停車後沿園內步道前往。不是停車場。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -74,7 +74,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-tamatorizaki-source
     title: "玉取崎展望台 | 石垣市観光交流協会"
-    publisher: ""
+    publisher: "yaeyama.or.jp"
     url: https://yaeyama.or.jp/%E7%8E%89%E5%8F%96%E5%B4%8E%E5%B1%95%E6%9C%9B%E5%8F%B0/
     accessedAt: "2026-07-18"
     language: ja
@@ -98,3 +98,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府具名展望台連結中取得feature座標，與YAML原座標相差約1公尺。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 玉取崎展望台
+    coordinateEvidence: On 2026-09-16, the 玉取崎展望台 section links https://goo.gl/maps/fsFqpGZVrRPk3RZu6. Its HTTP redirect contains the named place's !8m2!3d24.4906033!4d124.2788917 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.4906
+    longitude: 124.2789
+  verifiedLocation:
+    latitude: 24.4906033
+    longitude: 124.2788917

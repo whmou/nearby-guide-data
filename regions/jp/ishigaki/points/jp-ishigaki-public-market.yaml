@@ -47,14 +47,14 @@ point:
         label: 免費
   indoor: true
   location:
-    latitude: 24.33975
-    longitude: 124.157972
-    locationHint: "位於石垣島最熱鬧的ユーグレナモール（綠藻購物街）商店街內，從石垣港離島碼頭步行約9分鐘，市場入口面向商店街主要通道，三層樓建築十分醒目。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.33975,124.157972"
+    latitude: 24.339768
+    longitude: 124.158004
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.339768,124.158004
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 石垣市公設市場（大川208）的館舍／官方步行目的地圖釘，不聲稱是精確門口。由ユーグレナモール的公共步行商店街抵達，再循市場入口標示；不能開車穿越拱廊。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -81,7 +81,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-public-market-source
     title: "石垣市公設市場 - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E5%B8%82%E5%85%AC%E8%A8%AD%E5%B8%82%E5%A0%B4
     accessedAt: "2026-07-18"
     language: ja
@@ -105,3 +105,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：官方交通頁提供步行路線到具名市場的目的地座標；採landmark而非推定入口，不採iframe視窗中心。原點與此僅數公尺。
+  sources:
+  - url: https://ishigaki-kousetsu-ichiba.com/access
+    title: 石垣市公設市場公式 — アクセス
+    coordinateEvidence: On 2026-09-16 read HTML directions embeds. The destination record is !4m5!1s0x34600aadd0a68715:0x7a91e828e2480b82 (石垣市大川208 石垣市公設市場), followed by !3m2!1d24.339768!2d124.15800399999999. The same destination occurs in terminal/bus-stop walking routes. These destination coordinates, NOT initial viewport !2d/!3d, are used.
+  - url: https://ishigaki-kousetsu-ichiba.com/about
+    title: 石垣市公設市場公式 — 市場について
+    coordinateEvidence: Confirms name/address 大川208 and its location within Euglena Mall; no additional numeric extraction.
+  previousLocation:
+    latitude: 24.33975
+    longitude: 124.157972
+  verifiedLocation:
+    latitude: 24.339768
+    longitude: 124.158004

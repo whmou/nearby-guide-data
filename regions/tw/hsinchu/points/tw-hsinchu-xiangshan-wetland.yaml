@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.7797076
-    longitude: 120.9034147
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7797076,120.9034147"
+    latitude: 24.783421
+    longitude: 120.91431
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.783421,120.91431
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 西濱路三段500巷17號香山濕地賞蟹步道陸側觀察／服務區；依潮汐及強風封閉公告行動，不下泥灘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +100,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Replaces a wetland-wide/offshore-looking point with the central tourism site's explicitly named visitor boardwalk destination. Source describes a 250m boardwalk and service centre, not the YAML's two-kilometre wooden walkway. This is the landward visitor destination, not the wetland centroid; entry is conditional on tide/wind rules.
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=A12-00635&sNo=0001016
+    title: 交通部觀光署：香山濕地賞蟹步道
+    coordinateEvidence: 'Printed 經度/緯度=120.91431/24.783421; address 西濱路三段500巷17號. Explicitly describes the visitor boardwalk and marine-conservation education/service centre, and tide/wind closures. No inferred movement from the original coordinate. Exact source: https://www.tad.gov.tw/m1.aspx?id=A12-00635&sNo=0001016'
+  - url: https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=38&module=travel&serno=67dd54f9-7e6b-46f6-9dbc-df4da9ce9f7c
+    title: 新竹市觀光旅遊網：賞蟹步道
+    coordinateEvidence: 'Corroborates public boardwalk, wetland centre and outdoor classroom at 美山. No coordinate adopted from this HTML; the current bulk-feed 000061 pin differs and was not used. Exact source: https://tourism.hccg.gov.tw/chtravel/app/travel/view?id=38&module=travel&serno=67dd54f9-7e6b-46f6-9dbc-df4da9ce9f7c'
+  previousLocation:
+    latitude: 24.7797076
+    longitude: 120.9034147
+  verifiedLocation:
+    latitude: 24.783421
+    longitude: 120.91431

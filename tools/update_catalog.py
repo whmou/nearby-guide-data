@@ -7,8 +7,8 @@ archives (e.g. 1.0.1 and 1.0.2) is therefore safe — stale artifacts are
 silently superseded.
 
 Usage:
-    python tools/update_catalog.py --dist dist
-    python tools/update_catalog.py --dist dist --output /tmp/catalog.json
+    python tools/update_catalog.py --dist dist --release-tag data-YYYY-MM-DD
+    python tools/update_catalog.py --dist dist --release-tag data-YYYY-MM-DD --output /tmp/catalog.json
 """
 
 from __future__ import annotations
@@ -80,7 +80,7 @@ def _read_manifest(archive_path: Path) -> dict:
         return json.loads(zf.read("manifest.json"))
 
 
-def regenerate_catalog(dist_dir: Path, output_path: Path | None = None) -> None:
+def regenerate_catalog(dist_dir: Path, output_path: Path | None = None, release_tag: str | None = None) -> None:
     packs_dir = dist_dir / "packs"
     if not packs_dir.exists():
         print(f"ERROR: {packs_dir} does not exist", file=sys.stderr)
@@ -137,9 +137,12 @@ def regenerate_catalog(dist_dir: Path, output_path: Path | None = None) -> None:
             continue
 
         tag = VARIANT_META.get(variant, {})
-        base_url = (
-            f"https://github.com/whmou/nearby-guide-data/releases/latest/download/{archive.name}"
-        )
+        if release_tag:
+            if not re.fullmatch(r"[a-zA-Z0-9._-]+", release_tag):
+                raise ValueError("Invalid release tag")
+            base_url = f"https://github.com/whmou/nearby-guide-data/releases/download/{release_tag}/{archive.name}"
+        else:
+            base_url = f"https://github.com/whmou/nearby-guide-data/releases/latest/download/{archive.name}"
         raw_groups[pack_id][version][variant] = {
             "variantId": variant,
             "mediaMode": variant,
@@ -209,11 +212,12 @@ def regenerate_catalog(dist_dir: Path, output_path: Path | None = None) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Regenerate catalog.json from dist/packs/")
     parser.add_argument("--dist", default="dist", metavar="DIR")
+    parser.add_argument("--release-tag", required=True, help="Immutable release tag containing these exact archives")
     parser.add_argument("--output", default=None, metavar="FILE",
                         help="Output path (default: catalog.json in repo root)")
     args = parser.parse_args()
     output = Path(args.output) if args.output else None
-    regenerate_catalog(REPO_ROOT / args.dist, output_path=output)
+    regenerate_catalog(REPO_ROOT / args.dist, output_path=output, release_tag=args.release_tag)
     return 0
 
 

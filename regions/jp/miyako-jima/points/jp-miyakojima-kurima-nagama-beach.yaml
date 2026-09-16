@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.725968
-    longitude: 125.239806
-  googleMapsUrl: "https://maps.google.com/maps?q=24.725968,125.239806"
+    latitude: 24.7261944
+    longitude: 125.2398056
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7261944,125.2398056
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 長間浜位於来間島西岸。此為官方海岸／海灘地標圖釘，供鄰近定位使用，並非經測量確認的入口或停車位置。請使用現有公共海灘通道，留在岸上觀景，勿阻塞道路。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +99,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 'Official tourism map supplies an explicit coordinate-labelled shore pin. Converted its DMS pin label, not the nearby camera centre. YAML''s southern-coast description is contradicted: it is west-facing. Official page reports no parking, toilets, showers or shop and warns of waves with westerly winds.'
+  sources:
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_016/
+    title: 宮古島観光協会 — 長間浜
+    coordinateEvidence: 'https://miyako-island.net/beach_and_spot/beach_spot_016/ embeds the map below. Pin label !2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ decodes to 24°43′34.3″N 125°14′23.3″E: 24 + 43/60 + 34.3/3600 = 24.7261944444; 125 + 14/60 + 23.3/3600 = 125.2398055556. Rounded to 7 decimals, no viewport or offset inference.'
+  - url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp
+    title: Tourism-association embedded map — explicit DMS shore pin
+    coordinateEvidence: 'Exact iframe URL https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp includes coordinate-labelled destination !2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ (base64-decoded UTF-8: 24°43′34.3″N 125°14′23.3″E). Camera fields !2d125.23981699999999!3d24.726201000000003 were NOT adopted.'
+  - url: https://www.okinawastory.jp/about/miyako_area/kurima
+    title: おきなわ物語 — 長間浜 on 来間島
+    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima corroborates the western shore and inconspicuous access through vegetation. No independent numeric coordinate extracted.
+  previousLocation:
+    latitude: 24.725968
+    longitude: 125.239806
+  verifiedLocation:
+    latitude: 24.7261944
+    longitude: 125.2398056

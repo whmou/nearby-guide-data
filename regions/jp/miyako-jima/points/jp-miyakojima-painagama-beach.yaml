@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8028
-    longitude: 125.2713
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8028,125.2713"
+    latitude: 24.80275345
+    longitude: 125.27103424
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80275345,125.27103424
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: パイナガマビーチ官方海灘 pin；供岸上鄰近導覽，從公共海灘通路接近，不作為裝備店或安全入水點定位。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 fetched official tourism beach page and exact place query. Approximately 27 m from existing coordinate.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600006192
+    title: パイナガマビーチ｜おきなわ物語
+    coordinateEvidence: HTML iframe.p-detail-media__iframe src Google Maps /embed/v1/place?q=24.80275345,125.27103424&zoom=16; named beach place marker q.
+  previousLocation:
+    latitude: 24.8028
+    longitude: 125.2713
+  verifiedLocation:
+    latitude: 24.80275345
+    longitude: 125.27103424

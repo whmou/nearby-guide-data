@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.9342
-    longitude: 125.2458
-  googleMapsUrl: "https://maps.google.com/maps?q=24.9342,125.2458"
+    latitude: 24.9323891
+    longitude: 125.242831
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.9323891,125.242831
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 池間湿原（ユニムイ）：此為縣府提供的濕地地標圖釘，供鄰近定位使用，並非觀察平台或入口的精確圖釘。請僅於指定賞鳥平台／公共步道觀察，勿進入或穿越沼澤。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +91,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: Okinawa Prefecture's environmental department publishes this exact coordinate for the named wetland and describes viewing from its platform. Accepted as a named natural landmark, not a surveyed entrance; no guessed platform offset. Original point is about 360 m northeast. YAML's Ramsar claim is not supported by inspected official sources, which specify Important Wetlands 500 and national bird sanctuary status.
+  sources:
+  - url: https://www.midorihana-okinawa.jp/?page_id=2739
+    title: 沖縄県環境部環境再生課 — 池間湿原（ユニムイ）
+    coordinateEvidence: https://www.midorihana-okinawa.jp/?page_id=2739 explicitly prints 緯度・経度 24.9323891_125.242831 for registration 044 池間湿原（ユニムイ） and links https://www.google.com/maps?q=24.9323891%2C125.242831. Direct official coordinate field and numeric destination query, not viewport. It describes a viewing platform without claiming the coordinate surveys that platform.
+  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf
+    title: 宮古島市 — 池間湿原散策コース
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf maps 野鳥観察展望台 and explains Important Wetlands 500 and 2011 national bird sanctuary status. Corroborates identity/designated viewing access; no numeric coordinate inferred from illustration.
+  previousLocation:
+    latitude: 24.9342
+    longitude: 125.2458
+  verifiedLocation:
+    latitude: 24.9323891
+    longitude: 125.242831

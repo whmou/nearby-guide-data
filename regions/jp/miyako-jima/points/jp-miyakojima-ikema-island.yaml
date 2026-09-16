@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.9292515
-    longitude: 125.243599
-  googleMapsUrl: "https://maps.google.com/maps?q=24.9292515,125.243599"
-  trigger:
-    radiusMeters: 500.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 2000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請將池間島視為島嶼區域／上層資料項目，並導航至另行驗證的具名景點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -95,3 +90,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Whole island with several villages, beaches and a freshwater wetland, not one arrival point. Do not certify the current island-centre coordinate or silently replace it with a harbour/business. Freshwater wetland is not dugong habitat.
+  sources:
+  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_yusumanishibe01.pdf
+    title: 宮古島市 — 池間島
+    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_yusumanishibe01.pdf identifies the island, its two settlements and central freshwater wetland. No single visitor-arrival coordinate extracted.
+  previousLocation:
+    latitude: 24.9292515
+    longitude: 125.243599
+  verifiedLocation: null

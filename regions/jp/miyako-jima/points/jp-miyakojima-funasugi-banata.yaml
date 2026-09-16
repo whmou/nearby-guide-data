@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8613796
-    longitude: 125.1780562
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8613796,125.1780562"
+    latitude: 24.86148
+    longitude: 125.177959
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.86148,125.177959
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: フナウサギバナタ觀景平台；請使用停車場及公共步道，遠離懸崖邊緣。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: The official destination is the existing cliff observation platform. Official tourism says its former sashiba-bird sculpture was removed; the YAML's stone woman statue is unsupported.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-854/
+    title: 宮古島観光協会 — フナウサギバナタ
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-854/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.861480,125.177959; its place embed uses q=24.861480,125.177959. These are explicit destination coordinates, not a viewport centre.'
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_020/
+    title: 宮古島観光協会 — フナウサギバナタ
+    coordinateEvidence: https://miyako-island.net/beach_and_spot/beach_spot_020/ corroborates the observation platform, parking and removed bird sculpture. No second coordinate needed; coordinate comes from the official explicit q link, not pb camera fields.
+  previousLocation:
+    latitude: 24.8613796
+    longitude: 125.1780562
+  verifiedLocation:
+    latitude: 24.86148
+    longitude: 125.177959

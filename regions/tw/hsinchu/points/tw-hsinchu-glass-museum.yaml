@@ -42,14 +42,14 @@ point:
           label: 限時開放
   indoor: true
   location:
-    latitude: 24.8014
-    longitude: 120.9781
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8014,120.9781"
+    latitude: 24.801313
+    longitude: 120.97811
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.801313,120.97811
   trigger:
     radiusMeters: 60.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
-  locationHint: "博物館入口位於東大路一段2號，新竹公園南側。"
+  locationHint: 東大路一段2號玻璃工藝博物館外側、公園步行區抵達；館內展覽另依開館及票務規定。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +100,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Use the central tourism site's explicitly published museum pin for the exterior landmark. It is not a precision survey of the entrance. Reject current city-feed longitude that moves the museum away from the independent tourism destination location.
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109
+    title: 交通部觀光署：玻璃工藝博物館
+    coordinateEvidence: 'Visible 經度/緯度=120.97811/24.801313 and 東大路一段2號; this is attraction data, not an image''s GPS or map @ centre. Exact source: https://www.tad.gov.tw/m1.aspx?id=5486&sNo=0001109'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Rejected coordinate for Attraction_376580000A_000011: PositionLat=24.80138897796795, PositionLon=120.97548107604825. Record''s walking directions independently describe entering 新竹公園 to reach the museum, supporting public exterior approach. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8014
+    longitude: 120.9781
+  verifiedLocation:
+    latitude: 24.801313
+    longitude: 120.97811

@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.73472
-    longitude: 125.26278
-  googleMapsUrl: "https://maps.google.com/maps?q=24.73472,125.26278"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 「前浜東岸」沒有確認為獨立具名景點；請勿把這筆當成島尻海灘或與那霸前濱另一個已核實入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact-name search and official Maehama beach page do not establish a separate eastern sunrise beach matching this id and narrative. Existing point is near Maehama, but proximity alone cannot prove the invented-looking subsite label or its access; the genuine beach has a separate verified record.
+  sources:
+  - url: https://www.okinawastory.jp/spot/1089
+    title: 与那覇前浜ビーチ｜おきなわ物語
+    coordinateEvidence: Official exact q=24.73510742,125.26185608 identifies 与那覇前浜ビーチ, not a distinct 前浜東岸 or 島尻 beach. Not reused to silently replace the ambiguous entity.
+  previousLocation:
+    latitude: 24.73472
+    longitude: 125.26278
+  verifiedLocation: null

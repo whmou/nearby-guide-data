@@ -4,16 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "龍蝦洞"
-  summary: "小琉球西南角的珊瑚礁海蝕洞，因早年洞內棲息大量棘刺龍蝦而得名。退潮時可入洞探索礁池，洞頂遍布古珊瑚孔洞，是兼具地質、生態與傳奇故事的免費景點。"
+  summary: "龍蝦洞位於小琉球東側礁岩海岸，不是西南角。岸上景觀與受管制潮間帶須分開看待；不得把退潮視為可自行入洞、踏礁或下水的許可。"
   narration: |
-    龍蝦洞坐落在小琉球西南角的珊瑚礁海岸，是環島公路上最令人驚奇的天然洞穴之一。這座洞穴並非人工開鑿，而是千萬年來珊瑚礁岩受到海浪不斷侵蝕溶蝕所形成的奇景。洞口面海，退潮時走進洞內，頭頂是穿孔的礁岩天花板，腳下是一個個圓潤的潮池，彷彿置身海底劇場的後台。
+    龍蝦洞是小琉球東側的礁岩景觀，原稿所稱西南角位置錯誤。潮汐改變海岸的可見範圍，但海水退去不代表洞穴、礁盤或潮池就可任意進入。
     
-    「龍蝦」這個名字，老一輩琉球鄉親都知道由來。早年每當退潮，洞穴的岩縫裡擠滿了棘刺龍蝦，牠們白天躲在陰暗潮濕的縫隙裡休息，夜裡才出來獵食。老漁民只要拿著手電筒走進洞裡，蝦鬚從縫隙一根一根伸出來，叫人嘆為觀止。如今龍蝦已成珍稀，想在洞內見到活龍蝦需要緣分，但礁縫間的招潮蟹、小魚與海葵依然生機勃勃。
+    縣府已將龍蝦洞列入自然人文生態景觀區，並設有核心區管制。核心區除当地居民與獲許可者外禁止進入；不是報名一般導覽即可進入所有範圍。請依最新公告與現場界線，僅於允許的安全岸上觀看。
     
-    從地質角度看，整座小琉球就是一塊隆起的珊瑚礁台地，大約在末次冰期結束之後，因地殼緩慢抬升而露出海面。龍蝦洞洞頂那些大大小小的孔洞，正是古老珊瑚骨架留下的痕跡——曾在水下繁衍的生命，如今化為陸上的天然雕塑。站在洞口向外望，台灣海峽的藍一望無際，晴天甚至能遠眺屏東恆春半島的山影輪廓。
-    
-    這裡不收門票、不需預約，卻藏著整座小島最濃縮的故事：一個因龍蝦而得名、因珊瑚礁而成形、因退潮而現身的地方。在這座沒有紅綠燈的慢活小島上，龍蝦洞提醒旅人，最動人的風景往往不在地圖標記，而在退一步、彎下腰、往岩縫裡細看的那一刻。
-  observationPrompt: "仔細看洞頂和礁石縫隙——你能找到珊瑚骨架留下的圓形孔洞嗎？在礁池裡有沒有發現招潮蟹或小魚的蹤跡？現在洞裡還看得到龍蝦嗎？"
+    關於昔日龍蝦與地名的故事，可作地方傳說理解，不代表現在能進洞找龍蝦或採集生物。
+  observationPrompt: "在依法開放的安全岸上觀察海岸岩形；不要攀下洞口、照入礁縫尋找龍蝦或跨越核心區界線。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -37,22 +35,22 @@ point:
         label: 潮池生態
       - id: island
         label: 小琉球
-      - id: free
-        label: 免費景點
+      - id: regulated
+        label: 保育管制
       - id: legend
         label: 龍蝦傳說
       - id: reef-rock
         label: 礁石地形
   indoor: false
   location:
-    latitude: 22.3374
-    longitude: 120.3632
-    locationHint: "環島公路西南段，鄰近西崎，路旁設有停車空間，步行幾步即可抵達洞口"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3374,120.3632"
+    latitude: 22.3450703
+    longitude: 120.3878456
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.3450703,120.3878456
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 小琉球東北岸龍蝦洞的陸側景點／步道抵達標記；從路旁指示牌步行穿過樹蔭到岸上觀景處。不是洞內、海中潛點或潮池，勿依原文自行攀下洞口；進入管制潮間帶须依導覽與現場規定。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -65,11 +63,11 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-lobster-cave-source]
   interpretability:
     score: 3
-    note: "地質成因需要說明才能完整理解，但肉眼即可欣賞洞穴奇景，退潮時機影響體驗深度"
+    note: "從開放岸上了解礁岩與潮汐景觀；不能以退潮推定洞穴可入。"
     sources: [tw-xiaoliuqiu-lobster-cave-source]
   visitorValue:
     score: 4
-    note: "免費進入、交通便利、退潮時可步入洞內，視覺震撼度高，適合各年齡層，是環島必訪點之一"
+    note: "依核心區、導覽及現場管制活動，不承諾免費自由入洞或所有年齡適合。"
     sources: [tw-xiaoliuqiu-lobster-cave-source]
   evidenceQuality:
     score: 3
@@ -79,12 +77,28 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-lobster-cave-source
     title: "琉球嶼 - 維基百科"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/琉球嶼
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-lobster-cave-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "liuchiu-intertidal.pthg.gov.tw"
+    url: https://liuchiu-intertidal.pthg.gov.tw/
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
+  - id: tw-xiaoliuqiu-lobster-cave-safety-20260916
+    title: "屏東縣潮琉生態保育網：進入限制與海龜保育距離"
+    publisher: "屏東縣政府"
+    url: https://liuchiu-intertidal.pthg.gov.tw/index.php?lang=en
+    accessedAt: "2026-09-16"
+    language: en
+    supports:
+      - "合格導覽與海岸保育限制；與海龜保持至少五公尺，不觸碰、追逐、包圍或干擾"
 media:
   - id: primary-image
     type: image
@@ -97,9 +111,33 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-lobster-cave.webp
     completePath: media/complete/tw-xiaoliuqiu-lobster-cave.webp
 admissions:
-  - label: "免費"
-    isFree: true
+  - label: "依自然人文生態景觀區與核心區管制；核心區非一般遊客可入，其他區域導覽及費用依公告。"
+    isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。取得名稱為龍蝦洞的 Google place 固定 feature pin，並用實地遊記的導航、指示牌、樹蔭步道及岸上平台描述核對陸側抵達用途；官方另確認此為真實景點與管制生態區。原座標偏離約2674公尺，西南角定位錯誤。官方海域資料另有龍蝦洞潛點22.34616,120.38896，但那不是此陸上景點，本報告明確不採。此 pin 是景點導航標記，不聲稱為精測洞口，也不代表保證可自由進入礁盤。
+  sources:
+  - url: https://maps.app.goo.gl/uavuiXkUjnBXX96SA
+    title: Google Maps：龍蝦洞固定地點 pin
+    coordinateEvidence: 2026-09-16 對 https://maps.app.goo.gl/uavuiXkUjnBXX96SA 作唯讀 HTTP 展開，回傳名為『龍蝦洞』的 place URL，feature ID 為0x3471e57f368160b3:0x82a43f09c9b7aa1a。目的地資料片段為 !8m2!3d22.3450703!4d120.3878456，HTML 同時出現 [null,null,22.3450703,120.3878456]。採此 place pin；特別排除同一URL中的 @22.3449823,120.3857141 視窗中心。精確展開URL為 https://www.google.com/maps/place/%E9%BE%8D%E8%9D%A6%E6%B4%9E/@22.3449823,120.3857141,18.51z/data=!4m12!3m11!1s0x3471e57f368160b3:0x82a43f09c9b7aa1a!5m4!1s2024-12-11!2i3!4m1!1i2!8m2!3d22.3450703!4d120.3878456!15sChLlsI_nkInnkIPpvo3onabmtJ6SAQtzY2VuaWNfc3BvdOABAA!16s%2Fg%2F11g726rsx8?authuser=0&entry=tts&g_ep=EgoyMDI0MDkzMC4wIPu8ASoASAFQAw%3D%3D。
+  - url: https://yulifestory.com/xiaoliuqiu-lobster-cave/
+    title: YU山海相遇：小琉球龍蝦洞實地抵達與岸上平台說明
+    coordinateEvidence: https://yulifestory.com/xiaoliuqiu-lobster-cave/ 的 HTML 實際連向 https://maps.app.goo.gl/uavuiXkUjnBXX96SA；文字記錄依導航至指示牌、停機車、穿過樹木路徑，繼續可到看海平台，並把向下攀洞口另作區分。數值從該連結展開的 Google feature pin 取得，不由遊記照片或EXIF取得。此為抵達方式的次級佐證，非官方測量。
+  - url: https://admin.taiwan.net.tw/dbnsa/ServiceDbnsa/FAQ?a=917&c=&id=160&p=1&pi=30&q=
+    title: 大鵬灣國家風景區管理處：轄內景點介紹
+    coordinateEvidence: https://admin.taiwan.net.tw/dbnsa/ServiceDbnsa/FAQ?a=917&c=&id=160&p=1&pi=30&q= 將龍蝦洞明列為琉球风景特定區景點，核對其身分；無可抽取的獨立陸上數值座標，不假稱官方FAQ提供Google pin。
+  - url: https://liuchiu-intertidal.pthg.gov.tw/
+    title: 屏東縣潮琉生態保育網：龍蝦洞等自然人文生態景觀區須知
+    coordinateEvidence: https://liuchiu-intertidal.pthg.gov.tw/ 明列龍蝦洞為自然人文生態景觀區，須由合格導覽員帶領進入；未抽取座標，只用於避免將陸側抵達 pin 錯解為可任意入洞、踩礁或下水的許可。
+  previousLocation:
+    latitude: 22.3374
+    longitude: 120.3632
+  verifiedLocation:
+    latitude: 22.3450703
+    longitude: 120.3878456

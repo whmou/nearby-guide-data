@@ -1,6 +1,6 @@
 schemaVersion: 1
 packId: tw-xiaoliuqiu
-version: "1.0.1"
+version: "1.0.2"
 title: "小琉球"
 subtitle: "珊瑚礁秘境與海龜共泳"
 region:
@@ -10,4 +10,4 @@ region:
   adminAreaLevel2: 琉球鄉
 contentLanguage: zh-Hant-TW
 minAppVersionCode: 8
-createdAt: "2026-07-26T00:00:00Z"
+createdAt: "2026-09-16T00:00:00Z"

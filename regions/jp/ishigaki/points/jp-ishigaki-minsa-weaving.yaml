@@ -39,14 +39,14 @@ point:
         label: 体驗
   indoor: true
   location:
-    latitude: 24.341697
-    longitude: 124.1708
-    locationHint: "位於石垣市産業通り（産業大道）沿線，面向八重山警察署。最近公車站「みんさー工芸館前」步行約1分鐘。設有停車場。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.341697,124.1708"
+    latitude: 24.341539
+    longitude: 124.1706862
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.341539,124.1706862
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: あざみ屋本店みんさー工芸館，登野城909的官方本店地址圖釘；不是美崎店或機場店，也不聲稱精確門口。循館前停車場／入口指示；輪椅另依官方東側停車場斜坡動線。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -73,7 +73,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-minsa-weaving-source
     title: "あざみ屋みんさー工芸館 公式サイト"
-    publisher: ""
+    publisher: "minsah.co.jp"
     url: https://minsah.co.jp/
     accessedAt: "2026-07-18"
     language: ja
@@ -97,3 +97,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：營運者店舗案内的本社・本店Google Maps連結直接解析到登野城909地址feature pin，與觀光局工藝館身份一致；原點約21公尺偏差。用landmark不作入口保證。
+  sources:
+  - url: https://minsah.co.jp/store-information/
+    title: あざみ屋公式 — 本社・本店
+    coordinateEvidence: The 本社・本店 (登野城909) entry links https://maps.app.goo.gl/2TVJm62JEYZiXPtQ7 . Read-only HTTP redirect on 2026-09-16 is a place record for 〒907-0004 沖縄県石垣市登野城９０９ with !1s0x34600aa139ea2f53:0xa11c88d111b9234c!8m2!3d24.341539!4d124.1706862. Response also contains [null,null,24.341539,124.1706862]. These are selected address-pin fields, NOT /@ viewport. The operator intentionally supplies this pin for its head office/shop.
+  - url: https://mice.okinawastory.jp/service/souvenirs/s-158/
+    title: 沖縄コンベンションビューロー — あざみ屋みんさー工芸館
+    coordinateEvidence: 'Independent identity/address corroboration: craft centre and weaving experience at 登野城909. No coordinate inferred from the address.'
+  previousLocation:
+    latitude: 24.341697
+    longitude: 124.1708
+  verifiedLocation:
+    latitude: 24.341539
+    longitude: 124.1706862

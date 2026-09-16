@@ -44,14 +44,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.353279
-    longitude: 124.243584
-    locationHint: "入口設有免費停車場（約4至6個車位，空間有限建議早到）。從新石垣空港沿390號國道南行約5至10分鐘，在「白保」巴士站附近往海側方向進入集落即達。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.353279,124.243584"
+    latitude: 24.35452843
+    longitude: 124.24560547
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.35452843,124.24560547
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 白保海岸的官方海岸地標代表點，非精確岸上入口、停車場或珊瑚礁入水點。只從白保聚落對外開放通路到海岸觀看，不照圖釘直線涉海。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -78,7 +78,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-shiraho-beach-source
     title: "白保サンゴ礁 - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E7%99%BD%E4%BF%9D%E3%82%B5%E3%83%B3%E3%82%B4%E7%A4%81
     accessedAt: "2026-07-18"
     language: ja
@@ -102,3 +102,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：官方具名白保海岸頁公布numeric place query，地址白保2107-2與步行海岸介紹一致。依landmark用途採海岸代表點，不聲稱圖釘即安全站立位置；原點距此約247公尺。
+  sources:
+  - url: https://www.okinawastory.jp/spot/600013230
+    title: 沖縄観光情報 — 白保海岸
+    coordinateEvidence: 'Read-only HTML inspection on 2026-09-16: Google Maps embed/v1/place iframe has q=24.35452843,124.24560547. This is the page''s explicit place query, not an embed viewport centre.'
+  - url: https://www.okinawastory.jp/course/600013261
+    title: 沖縄観光情報 — 石垣島2泊3日
+    coordinateEvidence: Describes walking through Shiraho village from the bus stop to a long coastline; does not prove that the spot page's numeric pin is a terrestrial entrance.
+  previousLocation:
+    latitude: 24.353279
+    longitude: 124.243584
+  verifiedLocation:
+    latitude: 24.35452843
+    longitude: 124.24560547

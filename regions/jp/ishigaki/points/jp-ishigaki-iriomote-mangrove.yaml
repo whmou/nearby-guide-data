@@ -47,14 +47,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.315
-    longitude: 123.997
-    locationHint: "搭石垣島渡輪約40分鐘抵達西表島大原港（おおはらこう）後，往左步行約30秒即可到達乘船場「ショップじゅごん」前桟橋。停車場位於大原港碼頭附近。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.315,123.997"
+    latitude: 24.2718566
+    longitude: 123.8828138
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.2718566,123.8828138
   trigger:
     radiusMeters: 150.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 西表島・大原港なかまりんターミナル旁「ショップじゅごん」售票／報到設施圖釘，乘船處在店前；不是河道、巨木、任意碼頭或西表島中心。行政區為竹富町。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -81,7 +81,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-iriomote-mangrove-source
     title: "仲間川マングローブクルーズ - 西表島交通【公式】"
-    publisher: ""
+    publisher: "iriomote.com"
     url: https://iriomote.com/cruise/
     accessedAt: "2026-07-18"
     language: ja
@@ -105,3 +105,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: meeting_point
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML原已指名ショップじゅごん，營運者cruise頁同樣明訂該售票／出發位置；其店鋪頁嵌入Google地圖的具名place record成功抽取。原24.315,123.997距此約12.5公里，屬重大錯位。巨木步道路線目前暫停。
+  sources:
+  - url: https://iriomote.com/cruise/
+    title: 西表島交通公式 — 仲間川マングローブクルーズ
+    coordinateEvidence: Specifies tickets at ショップじゅごん (30-second walk from Ohara terminal) and departure in front of it. Establishes this named operator/meeting point is already the YAML's intended cruise, not a guessed harbour.
+  - url: https://iriomote.com/shop-dugong/
+    title: 西表島交通公式 — ショップじゅごん
+    coordinateEvidence: 'Official shop ACCESS iframe identifies 0x34607c9f7240e60f:0x7980dfff2bce7349. Read-only fetch of that iframe on 2026-09-16 returns the selected feature record [''0x34607c9f7240e60f:0x7980dfff2bce7349'',''〒907-1434 沖縄県八重山郡竹富町南風見２０１ ショップじゅごん'',[24.2718566,123.8828138],''8755243962652848969'']. Used the named feature''s pair, NOT iframe''s !2d123.8802388760039!3d24.27185657831821 viewport. Exact iframe URL: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.139529363388!2d123.8802388760039!3d24.27185657831821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34607c9f7240e60f%3A0x7980dfff2bce7349!2z44K344On44OD44OX44GY44KF44GU44KT!5e0!3m2!1sja!2sjp!4v1764824994852!5m2!1sja!2sjp'
+  previousLocation:
+    latitude: 24.315
+    longitude: 123.997
+  verifiedLocation:
+    latitude: 24.2718566
+    longitude: 123.8828138

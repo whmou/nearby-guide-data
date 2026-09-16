@@ -44,14 +44,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.3363
-    longitude: 124.1337
-    locationHint: "フサキビーチリゾートホテル＆ヴィラズのロビーを通り抜けてビーチへ。無料駐車場あり（130台）。石垣市街地から車で約15分、空港から約30分。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3363,124.1337"
+    latitude: 24.3710775
+    longitude: 124.1158754
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.3710775,124.1158754
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 定位為フサキビーチ桟橋的觀景點（可步行的棧橋，不是海灘停車場）。循Fusaki度假村指示到海灘，依現場開放狀況使用。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -78,7 +78,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-fusaki-beach-source
     title: "フサキビーチ | 石垣市観光交流協会"
-    publisher: ""
+    publisher: "yaeyama.or.jp"
     url: https://yaeyama.or.jp/%E3%83%95%E3%82%B5%E3%82%AD%E3%83%93%E3%83%BC%E3%83%81/
     accessedAt: "2026-07-18"
     language: ja
@@ -102,3 +102,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府海灘介紹明確連到桟橋，與YAML敘述的エンジェルピア一致；它是實體可步行觀景設施，不是任選海面點。原24.3363,124.1337距此約4.3公里。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — フサキビーチ
+    coordinateEvidence: On 2026-09-16, the フサキビーチ section links https://goo.gl/maps/wR6biAz1mPcPPH4a7. Its HTTP redirect contains the named place's !8m2!3d24.3710775!4d124.1158754 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  - url: https://yaeyama.or.jp/フサキビーチ/
+    title: 石垣市観光交流協会 — フサキビーチ
+    coordinateEvidence: 'Identity/address corroboration: 新川1625; HTML iframe uses an address query, not numeric coordinate evidence. Not used to calculate the coordinate.'
+  previousLocation:
+    latitude: 24.3363
+    longitude: 124.1337
+  verifiedLocation:
+    latitude: 24.3710775
+    longitude: 124.1158754

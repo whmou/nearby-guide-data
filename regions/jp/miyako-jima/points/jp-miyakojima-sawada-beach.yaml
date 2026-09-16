@@ -38,14 +38,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8361
-    longitude: 125.1603
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8361,125.1603"
+    latitude: 24.83909607
+    longitude: 125.15924072
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.83909607,125.15924072
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 佐和田の浜官方海岸地標 pin；供岸上觀景與鄰近導覽，不是礁石、可下水點或精確停車入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +103,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official tourism place marker confirms the named beach; original coordinates are approximately 350 m south-east of that pin.
+  sources:
+  - url: https://www.okinawastory.jp/spot/600006198/
+    title: 佐和田の浜｜おきなわ物語
+    coordinateEvidence: HTML iframe.p-detail-media__iframe Google Maps /embed/v1/place?q=24.83909607,125.15924072&zoom=16; place q pin, not viewport. Page address 伊良部佐和田1725.
+  previousLocation:
+    latitude: 24.8361
+    longitude: 125.1603
+  verifiedLocation:
+    latitude: 24.83909607
+    longitude: 125.15924072

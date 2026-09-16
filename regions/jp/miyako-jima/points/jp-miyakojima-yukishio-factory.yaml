@@ -38,14 +38,14 @@ point:
           label: 收費
   indoor: false
   location:
-    latitude: 24.902215
-    longitude: 125.268416
-  googleMapsUrl: "https://maps.google.com/maps?q=24.902215,125.268416"
+    latitude: 24.9022357
+    longitude: 125.2683734
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.9022357,125.2683734
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 雪塩ミュージアム（製塩所）官方設施 pin，平良狩俣191；請前往開放的見學與賣店區，不進入生產管制區。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -104,3 +104,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 official museum introduction identifies the visitor facility at the saltworks. Fetched embedded map's actual named feature array; approximately 5 m from existing location.
+  sources:
+  - url: https://museum.yukishio.com/museum-introduction/
+    title: 施設紹介｜雪塩ミュージアム公式
+    coordinateEvidence: Fetched official Google Maps iframe, then iframe HTML initialization data. Feature 0x34f44d99eacc8e9f:0xae40bcc9eb5de1f9, label 〒906-0002 沖縄県宮古島市平良狩俣１９１ 雪塩ミュージアム, associated array [24.9022357,125.2683734], CID 12556243336532189689. Used feature array, not embed viewport.
+  previousLocation:
+    latitude: 24.902215
+    longitude: 125.268416
+  verifiedLocation:
+    latitude: 24.9022357
+    longitude: 125.2683734

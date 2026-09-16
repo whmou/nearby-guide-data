@@ -34,14 +34,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.726
-    longitude: 125.2516
-  googleMapsUrl: "https://maps.google.com/maps?q=24.726,125.2516"
+    latitude: 24.72593
+    longitude: 125.25137
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.72593,125.25137
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 来間島上的竜宮城展望台；請由指定停車區步行至觀景塔的公共通道及階梯。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +99,21 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: Explicit official observation-tower destination. Original pin is about 25 m away; adopt the named platform pin without claiming that it is a surveyed stair-door point.
+  sources:
+  - url: https://miyako-guide.net/spots/spots-858/
+    title: 宮古島観光協会 — 竜宮城展望台
+    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-858/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.725930,125.251370; its place embed uses q=24.725930,125.251370. These are explicit destination coordinates, not a viewport centre.'
+  - url: https://www.okinawastory.jp/about/miyako_area/kurima
+    title: おきなわ物語 — 来間島
+    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima corroborates the tower as a public sightseeing destination with views toward Maehama. No second numeric point extracted.
+  previousLocation:
+    latitude: 24.726
+    longitude: 125.2516
+  verifiedLocation:
+    latitude: 24.72593
+    longitude: 125.25137

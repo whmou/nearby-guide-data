@@ -39,15 +39,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.824028
-    longitude: 125.136417
-  googleMapsUrl: "https://maps.google.com/maps?q=24.824028,125.136417"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 請預約具名且具執照的潛水業者，並依其集合指示前往；區域性的潛水體驗不設陸上定位圖釘。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -105,3 +100,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Regional marine-only experience, mentioning several underwater features rather than one onshore attraction. Cannot substitute the land-side 通り池 viewpoint or an arbitrary departure harbour.
+  sources:
+  - url: https://www.okinawastory.jp/feature/activity/diving
+    title: おきなわ物語 — ダイビング
+    coordinateEvidence: https://www.okinawastory.jp/feature/activity/diving distinguishes Irabu/Shimoji diving sites including 通り池 and describes boat-based diving. No fixed land-arrival coordinate for 伊良部島ダイビング is supplied.
+  previousLocation:
+    latitude: 24.824028
+    longitude: 125.136417
+  verifiedLocation: null

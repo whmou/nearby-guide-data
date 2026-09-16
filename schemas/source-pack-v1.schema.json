@@ -42,6 +42,7 @@
           "type": "string",
           "minLength": 1
         },
+        "adminAreaLevel2": {"type": "string", "minLength": 1},
         "adminAreaLevel1": {
           "type": "string",
           "minLength": 1

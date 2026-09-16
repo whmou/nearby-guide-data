@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.846239
-    longitude: 120.92589
-  googleMapsUrl: "https://maps.google.com/maps?q=24.846239,120.92589"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 南寮海岸範圍與沙灘入口不明；需確認具名岸上觀景點，不以17公里海岸總覽點代替。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. The YAML's exact coordinate comes from the tourism entry for the entire 十七公里海岸風景區, not evidence of the described beach north of the fishing port or a safe access to it. Do not substitute a harbour, kite venue or beach based on proximity.
+  sources:
+  - url: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109
+    title: 交通部觀光署：十七公里海岸風景區
+    coordinateEvidence: 'Page prints 經度/緯度=120.92589/24.846239, exactly the YAML coordinate, but the page describes a 17km multi-site coastal corridor. Rejected as proof of a particular 南寮海岸遊憩區 beach entrance. Exact source: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109'
+  previousLocation:
+    latitude: 24.846239
+    longitude: 120.92589
+  verifiedLocation: null

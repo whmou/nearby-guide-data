@@ -42,14 +42,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.375
-    longitude: 124.161
-    locationHint: "石垣市街地から国道390号を北上し、バンナ公園の案内板に従って進む。公園は5つのゾーンに分かれており、エメラルドの海を見る展望台はBゾーン（北口）からアクセスが便利。各ゾーンに無料駐車場あり。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.375,124.161"
+    latitude: 24.3728981
+    longitude: 124.16225433
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.3728981,124.16225433
   trigger:
     radiusMeters: 300.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 採YAML已指定的「エメラルドの海を見る展望台」（公園南側B展望區），不是整座公園中心或北入口；循公園道路與步道到觀景台。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -76,7 +76,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-banna-park-source
     title: "バンナ公園公式サイト（ECCOM八重山グループ）"
-    publisher: ""
+    publisher: "banna.jp"
     url: https://banna.jp/
     accessedAt: "2026-07-18"
     language: ja
@@ -100,3 +100,21 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: viewpoint
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：觀光局具名展望台頁的numeric place query已取得，營運者確認是公園南側展望台。原點距此約267公尺；市府另連到バンナ岳山體圖釘，不混用。
+  sources:
+  - url: https://www.okinawastory.jp/spot/600011796
+    title: 沖縄観光情報 — エメラルドの海を見る展望台
+    coordinateEvidence: 'HTML read 2026-09-16: embed/v1/place?q=24.3728981,124.16225433&zoom=16. Used this named observatory query, NOT Banna mountain''s !3d24.3724491!4d124.1636199 or any viewport centre.'
+  - url: https://banna.jp/
+    title: バンナ公園公式
+    coordinateEvidence: Identifies エメラルドの海を見る展望台 on the south side of the park; corroborates physical observation facility. No coordinate inferred from park area.
+  previousLocation:
+    latitude: 24.375
+    longitude: 124.161
+  verifiedLocation:
+    latitude: 24.3728981
+    longitude: 124.16225433

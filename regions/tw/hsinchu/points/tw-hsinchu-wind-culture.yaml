@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: true
-  location:
-    latitude: 24.8045
-    longitude: 120.9698
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8045,120.9698"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: "展示館位於新竹市文化局園區內，請由正門進入後依指標前往風文化展區。"
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 未證實「新竹風文化展示館」存在；不要導航到文化局、美術館或風城願景館。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +95,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Suspected invented museum name/exhibitions. The supplied sources are generic homepages; the official attraction inventory and cultural-venue references do not resolve the claimed wind-speed/food exhibition centre. Similar names such as 風livehouse or 風城願景館 are not identity matches.
+  sources:
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'No named 新竹風文化展示館 record or entrance coordinate was found in the read official Hsinchu attraction inventory. No numerical coordinate adopted. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  - url: https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf
+    title: 國土管理署：新竹市博物館／地方文物館一覽表
+    coordinateEvidence: 'The museum/venue table lists 風livehouse as a music-performance space, not the claimed wind-culture museum. No matching museum coordinate extracted; historical inventory used as corroboration, not definitive current absence proof. Exact source: https://www.nlma.gov.tw/uploads/files/ae5bc8ff1d019fc65574bd3a7b1a6c41.pdf'
+  previousLocation:
+    latitude: 24.8045
+    longitude: 120.9698
+  verifiedLocation: null

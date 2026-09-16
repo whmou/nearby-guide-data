@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.84694
-    longitude: 120.9225
-  googleMapsUrl: "https://maps.google.com/maps?q=24.84694,120.9225"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 南寮／新竹漁港確實存在；目前資料混有跨越風箏草坪至潮岸的描述，尚未釐清其 pin 是否對應所述作業漁港。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,22 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit, landmark-pin review. A reliable named-harbour landmark is acceptable without an entrance. This record remains unresolved because the current city-fed 新竹漁港 entry describes crossing the kite lawn from the visitor centre to a tide-dependent shore, rather than identifying the fishing-harbour feature narrated in the YAML; the same feed has demonstrated coordinate/entity errors elsewhere. The 17km-coast overview cannot resolve this mismatch. Do not substitute a fish-market building or a general coastal centroid.
+  sources:
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Attraction_376580000A_000053 新竹漁港 publishes PositionLat=24.848839149957726, PositionLon=120.92667291108397 and broad address 東西向快速道路西端終點附近，頭前溪出海口. Not adopted pending reconciliation of this record''s named harbour with its kite-lawn/tidal-shore description, not merely because it lacks a land-side entrance. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  - url: https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_376580000a_000053
+    title: 交通部觀光署開放資料：新竹漁港（新竹市政府提供）
+    coordinateEvidence: 'Official detail page prints 緯度24.8488391499577, 經度120.926672911084 and update 2026-05-14. Description directs visitors across the kite lawn from 南寮旅遊服務中心 and advises daytime/tide awareness; it does not reconcile this pin with the working-harbour setting. Same upstream record as the ZIP, not independent confirmation. Exact source: https://media.taiwan.net.tw/en-us/portal/travel/details/attraction_376580000a_000053'
+  - url: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109
+    title: 交通部觀光署：十七公里海岸風景區
+    coordinateEvidence: 'Describes 南寮休閒碼頭 and tourist service centre, but overview 120.92589/24.846239 does not identify a harbour arrival point; not adopted. Exact source: https://www.tad.gov.tw/m1.aspx?id=9729&sNo=0001109'
+  previousLocation:
+    latitude: 24.84694
+    longitude: 120.9225
+  verifiedLocation: null

@@ -37,15 +37,10 @@ point:
         - id: ticketed
           label: 付費
   indoor: false
-  location:
-    latitude: 24.8135
-    longitude: 125.1453
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8135,125.1453"
-  trigger:
-    radiusMeters: 100.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 中の島チャネル為下地島海中潛點；請依預約潛水業者指定集合，不能循原 GPS 當作陸上入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -102,3 +97,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 searched the exact dive site and operator descriptions. It is a submarine topographic dive site, not a fixed visitor meeting point; YAML names no operator. Its story of a strait between Miyako main island and an island called Nakanoshima is inconsistent with the operator's Shimoji Nakanoshima Bay description.
+  sources:
+  - url: https://miyako-aquaticadventure.com/nakanoshima-channel.html
+    title: 下地島・中の島チャネル｜アクアティックアドベンチャー
+    coordinateEvidence: Operator describes a dive site in 中の島湾, not the YAML's purported main-island strait or a named arrival venue. No fixed meeting-point coordinate adopted.
+  - url: https://miyakojima-codesea.com/meeting-place
+    title: CODE SEA宮古島：ツアー集合場所
+    coordinateEvidence: Operator states its tour meeting place varies among four locations with sea conditions. This illustrates why a dive-site center must not be substituted for an unspecified tour's meeting point.
+  previousLocation:
+    latitude: 24.8135
+    longitude: 125.1453
+  verifiedLocation: null

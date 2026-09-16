@@ -20,6 +20,7 @@ from typing import Any
 
 import jsonschema
 import yaml
+from location_contract import location_errors
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
@@ -162,16 +163,20 @@ def _validate_point_yaml(point_path: Path, taxonomy: dict[str, set[str]]) -> Val
             result.add(rel, f"point.{field_name} contains placeholder text")
 
     # Coordinate validity
-    loc = point.get("location", {})
+    loc = point.get("location") or {}
     lat = loc.get("latitude")
     lon = loc.get("longitude")
-    if lat is None or lon is None:
+    if loc and (lat is None or lon is None):
         result.add(rel, "point.location missing latitude or longitude")
-    else:
+    elif loc:
         if not (-90 <= lat <= 90):
             result.add(rel, f"point.location.latitude {lat} is out of range [-90, 90]")
         if not (-180 <= lon <= 180):
             result.add(rel, f"point.location.longitude {lon} is out of range [-180, 180]")
+
+    production = point_path.resolve().is_relative_to((REPO_ROOT / "regions").resolve())
+    for error in location_errors(data, require_review=production):
+        result.add(rel, error)
 
     # Indoor requires locationHint
     if point.get("indoor") is True:

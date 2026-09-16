@@ -38,14 +38,14 @@ point:
           label: 限時開放
   indoor: true
   location:
-    latitude: 24.8787444
-    longitude: 125.2747111
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8787444,125.2747111"
+    latitude: 24.8788312
+    longitude: 125.2749104
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8788312,125.2749104
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: "售票入口在海上棧橋陸地端，吉野海岸附近，路邊有指示牌。"
+  locationHint: 宮古島海中公園的陸上抵達點，位於業者行車路線終點，地址為平良字狩俣2511-1。請依標示前往接待處；此圖釘並非離岸觀察室的位置。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -96,3 +96,24 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: entrance
+  checkedAt: '2026-09-16'
+  reason: Use the official access-map route's destination Point instead of the separate general facility marker (the YAML's old coordinates). North Miyako/狩俣, not near Yoshino Beach. Arrival is publicly routed to land-side facilities; paid access applies inside.
+  sources:
+  - url: https://miyakojima-kaichukoen.com/accesspage/
+    title: 宮古島海中公園 — official access map
+    coordinateEvidence: https://miyakojima-kaichukoen.com/accesspage/ embeds https://www.google.com/maps/d/embed?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN and says it shows the driving route from the airport.
+  - url: https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1
+    title: Operator-published Google My Maps KML — airport to marine park
+    coordinateEvidence: 'Read-only KML at https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1: the route-associated Placemark named 宮古島海中公園 has Point/coordinates 125.2749104,24.8788312,0 (longitude,latitude,altitude). The route LineString ends 125.27491,24.87883,0. A separate general park marker is 125.2747111,24.8787444,0; it was NOT used as the arrival point.'
+  - url: https://www.okinawastory.jp/spot/600010270
+    title: おきなわ物語 — 宮古島海中公園
+    coordinateEvidence: https://www.okinawastory.jp/spot/600010270 corroborates 平良狩俣2511-1, public opening and free 50-space parking. No second numeric coordinate extracted.
+  previousLocation:
+    latitude: 24.8787444
+    longitude: 125.2747111
+  verifiedLocation:
+    latitude: 24.8788312
+    longitude: 125.2749104

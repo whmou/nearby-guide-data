@@ -45,14 +45,14 @@ point:
         label: 免費
   indoor: false
   location:
-    latitude: 24.487
-    longitude: 124.231
-    locationHint: "縣道79號吹通橋旁設有免費停車場（約8台），停車後沿樓梯下行即可抵達河邊。入口在橋的東側。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.487,124.231"
+    latitude: 24.4868254
+    longitude: 124.2303293
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.4868254,124.2303293
   trigger:
     radiusMeters: 200.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 吹通川ヒルギ群落的官方自然地標圖釘，非停車位、河岸入口或SUP集合點。由吹通橋旁指定停車處按現場通路觀察；不要直線走入水道、泥灘或樹根。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -79,7 +79,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-mangrove-futsuu-source
     title: "吹通川マングローブ群落 観光ガイド｜石垣島ツアーズ"
-    publisher: ""
+    publisher: "ishigaki-tours.com"
     url: https://ishigaki-tours.com/column/fukido-river
     accessedAt: "2026-07-18"
     language: ja
@@ -103,3 +103,18 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：市府明確連到吹通川群落的named place pin，可作接近解說landmark；不聲稱其為可站立入口。官方說明岸邊步行觀察方式，並與重複的yonehara-mangrove區分。
+  sources:
+  - url: https://ooritoori-ishigaki.com/spot/
+    title: 石垣市公式観光 OORITOORI — 吹通川ヒルギ群落
+    coordinateEvidence: On 2026-09-16, the 吹通川ヒルギ群落 section links https://goo.gl/maps/bREzSBBDqza7hto27. Its HTTP redirect contains the named place's !8m2!3d24.4868254!4d124.2303293 feature coordinates. Extracted those fields, NOT the preceding /@ viewport coordinates.
+  previousLocation:
+    latitude: 24.487
+    longitude: 124.231
+  verifiedLocation:
+    latitude: 24.4868254
+    longitude: 124.2303293

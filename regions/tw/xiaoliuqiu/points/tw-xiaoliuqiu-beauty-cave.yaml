@@ -4,16 +4,14 @@ point:
   parentId: null
   kind: venue
   title: "美人洞"
-  summary: "小琉球北段的珊瑚礁岩洞秘境，步道穿越數十萬年海蝕礁洞，傳說荷蘭時期一位美麗原住民女子曾藏身於此因而得名。視野開闊可遠眺台灣本島，緊鄰花瓶石，為島上必訪收費景點。"
+  summary: "小琉球西北側的高位珊瑚礁洞穴景區，步道串連奇岩、谷地與望海景觀。依現場售票及開放動線參觀；美人洞與花瓶岩是不同景點，不是出洞往南幾步即達。"
   narration: |
-    美人洞這個名字聽起來浪漫，背後卻藏著一段悲涼的歷史。荷蘭人統治台灣的年代，小琉球島上原本住著西拉雅族的一支部落，荷蘭人為了掌控珊瑚礁資源與航路，在十七世紀中葉發動討伐，幾乎將部落趕盡殺絕。傳說中，有一位美麗的族中女子在兵荒馬亂之際，獨自躲入島嶼北端這片層層疊疊的礁岩洞穴之中，靠著海潮帶來的魚貝維生，卻終究難逃孤絕的命運。後人感念這位女子，便把這片岩洞群叫做「美人洞」，名字美麗，心情卻是沉重的。
+    美人洞位於琉球嶼西北角，背山面海，岩洞與曲折的步道共同構成景區的特色。官方介紹列有曲徑探幽、一線天、榕岩谷、望海亭等十三景，適合循園區標示慢慢觀察。
     
-    走進景區，你立刻就能感受到這裡為何藏得住人。數十萬年的珊瑚礁被太平洋的浪一刀一刀鑿進去，形成洞洞相連的礁岩迷宮，有的通道窄到只容一人側身穿過，轉個彎又忽然豁然開朗，天光從岩縫漏下來，帶著一絲神秘。步道全長約五百公尺，地勢起伏有致，最高的觀景台可以遠眺台灣本島，天氣晴朗的日子甚至能看見高雄港的城市輪廓。
+    礁岩孔隙、樹根與洞口透入的光線，讓同一段步道有不同的景深。地名故事應與可核實的歷史分開看待；原稿把荷蘭時期原住民女子遭難故事直接歸給美人洞，尚無本次來源支持，不作定論。
     
-    腳下踩的每一塊石頭，其實都是古代珊瑚蟲的骨骸，幾十萬年的生死積累成今天這片礁盤，每一道紋路都是海洋的年輪。小琉球四面環礁，地面上是奇岩異洞，水面下是同一片礁盤孕育出的珊瑚生態系，台灣數一數二完整。浮潛時常常遇到悠哉游哉的綠蠵龜，牠們在這裡住了幾千年，比觀光客要自在得多。
-    
-    出了美人洞，往南幾步路就是小琉球最上鏡的地標「花瓶石」，那顆底細頂寬、亭亭立在礁盤上的奇石，每天吸引遊客排隊等著拍日出。把兩個景點串在一起走，正好是小琉球北段最精華的一個上午。
-  observationPrompt: "站在步道最高點往外望，試著分辨哪些岩壁是被海浪直接掏空的海蝕洞，哪些是珊瑚礁堆積後再被侵蝕形成的地層紋路——數數岩石斷面有幾條明顯的分層，想想每一層大概代表多少萬年的時間？"
+    參觀請留在開放步道，遇封閉路段不要繞行礁岸。若另往花瓶岩，須重新確認公共道路與現場指標，不沿原稿所稱的幾步路捷徑行走。
+  observationPrompt: "留在開放步道，觀察洞口光影、礁岩孔隙與樹根如何共同塑造景觀；不要攀岩或從岩層條紋直接推算年代。"
   countryCode: TW
   adminAreaLevel1: 屏東縣
   adminAreaLevel2: 琉球鄉
@@ -43,18 +41,16 @@ point:
         label: 礁岩地貌
       - id: paid
         label: 需購票
-      - id: indigenous-history
-        label: 原住民歷史
   indoor: false
   location:
-    latitude: 22.3693
-    longitude: 120.3659
-    locationHint: "環島公路北段，花瓶石景區旁，設有購票入口亭"
-  googleMapsUrl: "https://maps.google.com/maps?q=22.3693,120.3659"
+    latitude: 22.35379
+    longitude: 120.37318
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=22.35379,120.37318
   trigger:
     radiusMeters: 80.0
     dwellMillis: 2000
     rearmDistanceMeters: 800.0
+  locationHint: 小琉球西北側環島公路的美人洞遊憩區；採官方景區導航標記，抵達後依現場購票與步道指標行走。不是特定洞穴深處，也不宣稱是精測售票亭座標。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -63,15 +59,15 @@ ratingEvidence:
     sources: [tw-xiaoliuqiu-beauty-cave-source]
   distinctiveness:
     score: 4
-    note: "珊瑚礁海蝕洞穴迷宮地貌在台灣極為罕見，配合原住民悲歌傳說，兼具地質與人文雙重稀缺性"
+    note: "高位珊瑚礁洞穴與海景步道具辨識度；地名傳說不等同已證實歷史。"
     sources: [tw-xiaoliuqiu-beauty-cave-source]
   interpretability:
     score: 3
-    note: "地名傳說豐富生動，但現場解說牌有限，需搭配導覽或語音輔助才能完整理解地質成因與歷史背景"
+    note: "可循官方十三景與步道標示理解礁岩景觀，地名傳說及殖民歷史不得混為確定事實。"
     sources: [tw-xiaoliuqiu-beauty-cave-source]
   visitorValue:
     score: 4
-    note: "步道短而精華約30分鐘可走完，礁洞穿越體驗新奇，搭配花瓶石合併遊覽效益高，老少皆宜"
+    note: "沿開放步道欣賞礁岩與海景；需注意狹窄、起伏路段，不承諾所有年齡皆適合。"
     sources: [tw-xiaoliuqiu-beauty-cave-source]
   evidenceQuality:
     score: 3
@@ -81,12 +77,20 @@ ratingEvidence:
 sources:
   - id: tw-xiaoliuqiu-beauty-cave-source
     title: "維基百科 — 小琉球"
-    publisher: ""
+    publisher: "zh.wikipedia.org"
     url: https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%90%89%E7%90%83
     accessedAt: "2026-07-26"
     language: zh-TW
     supports:
       - "座標與景點基本資訊"
+  - id: tw-xiaoliuqiu-beauty-cave-content-20260916
+    title: "2026-09-16 地理與參訪文字修正依據"
+    publisher: "www.dbnsa.gov.tw"
+    url: https://www.dbnsa.gov.tw/zh-tw/attraction/AttractionPage?a=186
+    accessedAt: "2026-09-16"
+    language: zh-TW
+    supports:
+      - "本次地理、身分或參訪限制修正；不代表全文故事與媒體已查核"
 media:
   - id: primary-image
     type: image
@@ -99,9 +103,27 @@ media:
     compactPath: media/compact/tw-xiaoliuqiu-beauty-cave.webp
     completePath: media/complete/tw-xiaoliuqiu-beauty-cave.webp
 admissions:
-  - label: "成人約 NT$150，與花瓶石常有合售套票，建議現場確認最新票價"
+  - label: "需購票；票價、優惠及聯票範圍依琉球鄉公所與現場公告確認。"
     isFree: false
 review:
   status: draft
   checkedAt: "2026-07-26"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 查核。大鵬灣官方明列座標並提供相同數值的導航目的地；觀光署另一景點頁的座標相距約28公尺，支持同一景區。官方確認環島公路地址、停車場與可參訪步道。原座標偏離約1880公尺，不能保留；原文花瓶石相對方位及原住民女子傳說並未隨座標通過查核。此處核准的是戶外景區地標錨點，不是任意指定的洞穴入口。
+  sources:
+  - url: https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=186
+    title: 交通部觀光署大鵬灣國家風景區管理處：美人洞
+    coordinateEvidence: 2026-09-16 唯讀取得 https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=186 的 HTML；明列『經度：120.37318 緯度：22.35379』，導航 href 為 https://maps.google.com/maps?q=22.35379,120.37318，iframe 亦使用相同 q。取明列數值及導航目的地，不取地圖視窗中心；同頁列環島公路、停車場與步道十三景。
+  - url: https://www.taiwan.net.tw/m1.aspx?id=A12-00422&sNo=0001016
+    title: 交通部觀光署臺灣觀光資訊網：美人洞
+    coordinateEvidence: https://www.taiwan.net.tw/m1.aspx?id=A12-00422&sNo=0001016 明列『經度/緯度：120.37321/22.353539』，即緯度22.353539、經度120.37321，距採用的管理處景區標記約28公尺；確認西北側美人洞及步道參訪。此為另一官方頁面，可能同屬觀光資料供應鏈，不冒稱完全獨立測量。
+  previousLocation:
+    latitude: 22.3693
+    longitude: 120.3659
+  verifiedLocation:
+    latitude: 22.35379
+    longitude: 120.37318

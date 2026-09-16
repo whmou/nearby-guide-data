@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.818000
-    longitude: 125.316800
-  googleMapsUrl: "https://maps.google.com/maps?q=24.818,125.3168"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 名為「海人の森」的紅樹林地點，仍需權威來源確認其確切身分。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +86,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: Exact-name research did not establish this as a public mangrove boardwalk in Miyako. Official tourism identifies different sites at 島尻 and 川満; these must not be substituted for an unsupported name.
+  sources:
+  - url: https://miyako-guide.net/spots-cat/beach/
+    title: 宮古島観光協会 — named nature sites
+    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/ lists 島尻のマングローブ, not a verified matching 海人の森 location. No matching coordinate extracted.
+  - url: https://miyako-guide.net/spots-cat/beach/page/2/
+    title: 宮古島観光協会 — ウプカーマングローブ
+    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/page/2/ documents the different 川満/ウプカー boardwalk. No evidence it is an alias of 海人の森; no coordinate adopted.
+  previousLocation:
+    latitude: 24.818
+    longitude: 125.3168
+  verifiedLocation: null

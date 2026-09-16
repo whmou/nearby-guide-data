@@ -1,0 +1,253 @@
+[
+  {
+    "id": "tw-xiaoliuqiu-beauty-cave",
+    "status": "verified",
+    "latitude": 22.35379,
+    "longitude": 120.37318,
+    "anchorType": "landmark",
+    "locationHint": "小琉球西北側環島公路的美人洞遊憩區；採官方景區導航標記，抵達後依現場購票與步道指標行走。不是特定洞穴深處，也不宣稱是精測售票亭座標。",
+    "reason": "2026-09-16 查核。大鵬灣官方明列座標並提供相同數值的導航目的地；觀光署另一景點頁的座標相距約28公尺，支持同一景區。官方確認環島公路地址、停車場與可參訪步道。原座標偏離約1880公尺，不能保留；原文花瓶石相對方位及原住民女子傳說並未隨座標通過查核。此處核准的是戶外景區地標錨點，不是任意指定的洞穴入口。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=186",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：美人洞",
+        "coordinateEvidence": "2026-09-16 唯讀取得 https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=186 的 HTML；明列『經度：120.37318 緯度：22.35379』，導航 href 為 https://maps.google.com/maps?q=22.35379,120.37318，iframe 亦使用相同 q。取明列數值及導航目的地，不取地圖視窗中心；同頁列環島公路、停車場與步道十三景。"
+      },
+      {
+        "url": "https://www.taiwan.net.tw/m1.aspx?id=A12-00422&sNo=0001016",
+        "title": "交通部觀光署臺灣觀光資訊網：美人洞",
+        "coordinateEvidence": "https://www.taiwan.net.tw/m1.aspx?id=A12-00422&sNo=0001016 明列『經度/緯度：120.37321/22.353539』，即緯度22.353539、經度120.37321，距採用的管理處景區標記約28公尺；確認西北側美人洞及步道參訪。此為另一官方頁面，可能同屬觀光資料供應鏈，不冒稱完全獨立測量。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-biyun-temple",
+    "status": "verified",
+    "latitude": 22.33814,
+    "longitude": 120.36992,
+    "anchorType": "landmark",
+    "locationHint": "屏東縣琉球鄉大福村和平路61號碧雲寺；以寺前戶外廟埕及外觀為抵達觀察範圍，不需進入正殿。座標是官方寺廟地標，非精測大門。",
+    "reason": "2026-09-16 查核。官方景點座標、導航與和平路61號一致，文化部建檔資料另確認同址碧雲寺。原座標偏離約857公尺。重大身分敘事錯誤：實際主祀觀音菩薩，不是原文的三山國王廟；大福村也不是原提示中的本福村。僅寺廟地點通過查核，三山國王、潮州移民與聖誕描述均須另行人工修正。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=249",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：碧雲寺",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=249 的唯讀 HTML 明列『經度：120.36992 緯度：22.33814』，導航 href 為 https://maps.google.com/maps?q=22.33814,120.36992。頁面地址為大福村和平路61號，主祀觀音菩薩，列有參訪時間與停車場；採寺廟地標，沒有把該數值重新描述成精確門口。"
+      },
+      {
+        "url": "https://tcmb.culture.tw/zh-tw/detail?id=505781&indexCode=Culture_Place",
+        "title": "國家文化記憶庫：東港公學校琉球嶼分教場",
+        "coordinateEvidence": "https://tcmb.culture.tw/zh-tw/detail?id=505781&indexCode=Culture_Place 記錄昔日分教場租用觀音堂廟地，並明確對應今日大福村和平路61號碧雲寺。此來源只用於獨立核對名稱、觀音堂身分與地址；未從它提取入口座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-dafu-harbor",
+    "status": "verified",
+    "latitude": 22.33444,
+    "longitude": 120.37396,
+    "anchorType": "visitor_area",
+    "locationHint": "島東側大福村的大寮／大福漁港，採官方港區陸側導航錨點。於可通行港邊及停車區抵達賞景，不進作業碼頭、船席或港池；搭船者仍須確認實際業者的候船處。",
+    "reason": "2026-09-16 查核。管理處以此座標作為大寮（大福）漁港的訪客導航目的地，並列有停車場；台灣好行另有同名景點與路線停靠，核對為可從陸上抵達的東側港區。原座標偏離約1481公尺，原文『西側主漁港』與官方東側位置矛盾。採港區 area 錨點，不把一般港區定位冒稱特定渡輪登船閘口；原文清晨魚市、百年歷史與航班敘述未通過本次座標查核。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=251",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：大寮（大福）漁港",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=251 的唯讀 HTML 明列『經度：120.37396 緯度：22.33444』，其一鍵導航 href 為 https://maps.google.com/maps?q=22.33444,120.37396。頁面明述大福村東面海岸、別名大寮漁港及停車場；使用該港區訪客導航點，不使用海上船位或地圖 @ 中心。"
+      },
+      {
+        "url": "https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12072",
+        "title": "台灣好行旅遊服務網：大福漁港",
+        "coordinateEvidence": "https://www.taiwantrip.com.tw/Frontend/Attractions/TripSpecialp/S12072 確認大福／大寮為同一東岸漁港，亦是601小琉球線列出的旅遊景點。HTML 導航僅為 https://www.google.com.tw/maps/dir//大福漁港，未提供數值座標，因此只用於身分及陸上交通核對，不從名稱搜尋結果推定新座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-dalas",
+    "status": "unresolved",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "尚未確認存在名為『打蠟場（王船祭場）』的固定公開地點；不要導航到原座標，也不要以三隆宮、王船閣或大福漁港自動替換。",
+    "reason": "2026-09-16 查核。逐字搜尋『小琉球 打蠟場』及相關王船用語，未找到可核對此名稱、地址和座標的官方場地紀錄。官方資料證實迎王祭典與造王船，但文獻使用三隆宮王船閣等名稱，不支持 YAML 所述大福漁港旁固定『打蠟場』。這是疑似杜撰或混用名稱，不能由真實祭典反推出一塊空地。保留文字供人工辨識，GPS 應移除。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/Experience/Articles?a=127",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：傳統／迎王平安祭典",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/Experience/Articles?a=127 列小琉球三隆宮迎王、造王船及送王等程序；沒有提取到名為『打蠟場』的地點座標。祭典存在不能證明 YAML 指定的固定場地存在。"
+      },
+      {
+        "url": "https://ws.th.gov.tw/002/TH/tjpdf20241015/var/www/html/new_site/05publish/03publishquery/02journal/tj/401072105.pdf",
+        "title": "國史館臺灣文獻館：東港王船沿革與承造工法保存調查",
+        "coordinateEvidence": "https://ws.th.gov.tw/002/TH/tjpdf20241015/var/www/html/new_site/05publish/03publishquery/02journal/tj/401072105.pdf 的可檢索文字指出在『小琉球三隆宮王船閣』施作王船。沒有可抽取並歸屬於『打蠟場』的座標，亦未以王船閣座標替代待查名稱。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-duzaiping-tidal",
+    "status": "verified",
+    "latitude": 22.34978,
+    "longitude": 120.3653,
+    "anchorType": "visitor_area",
+    "locationHint": "小琉球西北側肚仔坪；依環島公路往海景休閒渡假區方向的岔路下行約50公尺，先抵達岸側入口區。座標為官方景點導航錨點，非外海潛點；進潮間帶須依預約、導覽與現場管制，不得照原文自行踏入。",
+    "reason": "2026-09-16 查核。管理處明列座標，屏東縣潮琉生態保育網另核對西北側位置及陸上岔路抵達方式。原座標偏離約3076公尺，『東岸、大福港南方』是重大錯誤。官方導航點用於岸側抵達，並非保育範圍中心或海域調查測站。原文免費、無裝備即可自行進入的提示不適用，應另行修正文案與導覽限制。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=209",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：肚仔坪潮間帶",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=209 的唯讀 HTML 明列『經度：120.3653 緯度：22.34978』，導航 href 為 https://maps.google.com/maps?q=22.34978,120.3653。敘述由環島公路往海景休閒渡假區岔路下行約50公尺的陸路抵達方式；未使用海洋調查測站的離岸座標。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=3",
+        "title": "屏東縣潮琉生態保育網：肚仔坪潮間帶預約導覽",
+        "coordinateEvidence": "https://liuchiu-intertidal.pthg.gov.tw/index.php?inter=apply&site=3 明確對應肚仔坪，重述西北側及岔路下行約50公尺的抵達方式，並提供導覽申請。此頁未提取到獨立數值入口座標，因此只用於身分、岸側交通與導覽條件核對。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/",
+        "title": "屏東縣潮琉生態保育網：最新消息與進入須知",
+        "coordinateEvidence": "https://liuchiu-intertidal.pthg.gov.tw/ 於查核日列2026-08-27恢復開放公告及須由合格導覽員帶領的要求；無額外座標抽取。本來源只確認不能把導航抵達等同於不受限制進入礁盤。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-geban-bay",
+    "status": "verified",
+    "latitude": 22.33456,
+    "longitude": 120.36022,
+    "anchorType": "visitor_area",
+    "locationHint": "小琉球西側、蛤板至烏鬼洞一帶的蛤板灣沙灘；採官方岸側景點導航點，抵達後於開放的岸上觀景範圍停留。不是海中浮潛點；沙灘與潮間帶須遵守現場保育及導覽管制。",
+    "reason": "2026-09-16 查核。官方座標及導航明確對應西側蛤板灣白色貝殼沙灘，具停車場及岸上散步賞景用途。原座標偏離約2293公尺，東南側定位錯誤。原文鼓勵浮潛、退潮入水與海龜近距離體驗，與管理處『請勿下水游泳』警示矛盾，必須另修；官方亦公告季節性夜間管制。此處核准的是岸側 area 錨點，非一個推算的海灣中心。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=231",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：蛤板灣沙灘",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=231 的唯讀 HTML 明列『經度：120.36022 緯度：22.33456』，一鍵導航 href 為 https://maps.google.com/maps?q=22.33456,120.36022。頁面确认西部沙灘、停車場及賞景用途，並警告勿游泳和5月至10月夜間管制；未從海灣外形或地圖中心估計座標。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/",
+        "title": "屏東縣潮琉生態保育網：蛤板灣開放與導覽須知",
+        "coordinateEvidence": "https://liuchiu-intertidal.pthg.gov.tw/ 將蛤板灣列為受管理的潮間帶遊憩區，查核日已有2026-08-27恢復開放公告並列導覽要求；未抽取新的數值座標，只用於獨立管理機關的可進入條件核對。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-glass-boat",
+    "status": "non_point",
+    "latitude": null,
+    "longitude": null,
+    "anchorType": "none",
+    "locationHint": "玻璃船／半潛艇海上體驗主題，沒有指定業者、船班或集合售票處。需先選定實際行程，再另核對其陸上集合點。",
+    "reason": "2026-09-16 查核。YAML 是跨業者海上活動，不是一個具唯一地址的地點，且自列『大福漁港或白燈塔碼頭』兩種出發處，不能對應單點。官方旅遊資料反而提到白沙碼頭出發的海底觀光船，更證明不可按原文任選港口。不能用某家售票亭、白沙港或其他港口替代整個活動；移除GPS並保留為非定點主題。",
+    "sources": [
+      {
+        "url": "https://www.tad.gov.tw/m1.aspx?id=2344&sno=0001016",
+        "title": "交通部觀光署：小琉球",
+        "coordinateEvidence": "https://www.tad.gov.tw/m1.aspx?id=2344&sno=0001016 介紹可到白沙碼頭搭乘海底觀光潛水船；這只證明活動及出發港的概括關係，沒有與 YAML 唯一對應的業者或集合點座標。本報告沒有把整島景點座標、白沙港座標或任何商家搜尋結果當成玻璃船活動的座標。"
+      },
+      {
+        "url": "https://media.taiwan.net.tw/od/25_DB/109-%E5%B0%8F%E7%90%89%E7%90%83%E6%95%B4%E9%AB%94%E8%A7%80%E5%85%89%E7%99%BC%E5%B1%95%E8%A6%8F%E5%8A%83-%E5%AE%9A%E7%A8%BF%E6%9C%ACV6%28%E4%BF%AE%E8%A8%82%E7%89%881%29.pdf",
+        "title": "大鵬灣國家風景區管理處：小琉球整體觀光發展規劃成果報告",
+        "coordinateEvidence": "https://media.taiwan.net.tw/od/25_DB/109-%E5%B0%8F%E7%90%89%E7%90%83%E6%95%B4%E9%AB%94%E8%A7%80%E5%85%89%E7%99%BC%E5%B1%95%E8%A6%8F%E5%8A%83-%E5%AE%9A%E7%A8%BF%E6%9C%ACV6%28%E4%BF%AE%E8%A8%82%E7%89%881%29.pdf 可檢索文字記載玻璃船由白沙尾觀光港啟程，有往西側箱網或東側龍蝦洞折返的不同路線。此為活動路線證據，沒有提取或採用單一集合點座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-guanyin-rock",
+    "status": "verified",
+    "latitude": 22.3227317,
+    "longitude": 120.3614075,
+    "anchorType": "landmark",
+    "locationHint": "東南岸厚石裙礁、環島公路沿線的觀音石。此座標是具名岩石地標，不是精測入口或可站立位置；在可通行道路岸側觀賞，不攀爬岩石、不跨入海蝕溝。",
+    "reason": "2026-09-16 補查。直接取得 Google Maps 的 Guanyin Rock 具名 feature（含唯一 feature ID、琉球鄉地址及座標），再與官方厚石裙礁沿線觀音石的身分及公路岸邊描述核對。採岩石 landmark，無須另造入口偏移。並未把厚石裙礁整區22.32275,120.36119套給岩石；原北岸敘述及22.3668,120.37不成立。",
+    "sources": [
+      {
+        "url": "https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E8%A7%80%E9%9F%B3%E7%9F%B3&output=embed",
+        "title": "Google Maps：Guanyin Rock／小琉球觀音石 feature",
+        "coordinateEvidence": "2026-09-16 直接唯讀 HTTP 取得 https://maps.google.com/maps?q=%E5%B0%8F%E7%90%89%E7%90%83%E8%A7%80%E9%9F%B3%E7%9F%B3&output=embed；回傳選定地標陣列為 [[\"0x3471efc18faae139:0x844f06b1f0386077\",\"Guanyin Rock, Liuqiu Township, Pingtung County, 929\",[22.3227317,120.3614075],\"9533846297475833975\"],\"Guanyin Rock\",...]。採名稱、行政地址與唯一ID綁定的 feature 座標，不採前方相同數字的 viewport 陣列或 /@ 中心；官方來源另核對為東南岸同名岩石。"
+      },
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238",
+        "title": "大鵬灣國家風景區管理處：厚石裙礁（觀音石）",
+        "coordinateEvidence": "本次重新開啟 https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238，正文指出東南岸大福漁港至海子口間的環島公路沿線有觀音石，為背山面海、岸邊的珊瑚礁岩。此來源核對身分與陸岸觀看性質；明列的22.32275,120.36119屬厚石裙礁總體，沒有將其充作觀音石座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-houshi-reef",
+    "status": "verified",
+    "latitude": 22.32275,
+    "longitude": 120.36119,
+    "anchorType": "visitor_area",
+    "locationHint": "大福漁港至海子口之間、環島公路東南沿岸厚石裙礁景觀路段；採官方遊憩區導航錨點，從可停留的陸側路旁賞景。不將此點當作入水點、潮池中心或觀音石專屬座標。",
+    "reason": "2026-09-16 查核。管理處有明列座標、一鍵導航及停車場，並描述沿公路可觀看的礁岩；其遊憩承載評估另列此區岸側觀賞活動。原座標偏離約1817公尺。厚石裙礁是延展海岸地貌，採 area 而不宣稱唯一入口；原文『厚石漁港旁』及鼓勵走礁盤、浮潛的描述未獲此陸上導航證據支持，不應沿用。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：厚石裙礁",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=238 的唯讀 HTML 明列『經度：120.36119 緯度：22.32275』，導航 href 為 https://maps.google.com/maps?q=22.32275,120.36119。頁面列停車場並將遊賞動線描述為環島公路沿線，故保留其區域導航用途，不把離岸海洋測站或礁盤幾何中心用作抵達點。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile",
+        "title": "113年度琉球風景特定區遊憩承載量綜合評估：厚石裙礁",
+        "coordinateEvidence": "https://admin.taiwan.net.tw/fapi/AttFile?id=37812&type=AttFile 的『10. 厚石裙礁』可檢索內容及圖說描述沿海岸道路的觀賞景觀活動範圍。此來源佐證陸側賞景用途，不從圖形比例尺、航照影像或中心位置反算新座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-lighthouse",
+    "status": "verified",
+    "latitude": 22.32886,
+    "longitude": 120.36651,
+    "anchorType": "landmark",
+    "locationHint": "島東南方厚石裙礁西側山頂的琉球嶼白燈塔；抵達燈塔外部開放空間觀賞，不進塔內，也不是白沙尾港防波堤燈標。採官方燈塔地標導航，不聲稱是精測大門。",
+    "reason": "2026-09-16 查核。觀光管理處的數值 pin 與航港局燈塔位置相符，航港局並確認可參觀及外部屬開放空間。原座標偏離約4471公尺，是本組最大誤差；原『最北端』應為東南方山頂。地標本體與戶外參觀區緊鄰，採 landmark 並明確限制於外部，不將內部登塔當成可用抵達活動。",
+    "sources": [
+      {
+        "url": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=248",
+        "title": "交通部觀光署大鵬灣國家風景區管理處：白燈塔",
+        "coordinateEvidence": "https://www.dbnsa.gov.tw/zh-TW/attraction/AttractionPage?a=248 的唯讀 HTML 明列『經度：120.36651 緯度：22.32886』，導航 href 為 https://maps.google.com/maps?q=22.32886,120.36651；文字明示東南方、厚石裙礁西側山頂及停車場。不是地圖 @ 中心。"
+      },
+      {
+        "url": "https://www.motcmpb.gov.tw/",
+        "title": "交通部航港局：琉球嶼燈塔資訊卡",
+        "coordinateEvidence": "https://www.motcmpb.gov.tw/ 的琉球嶼燈塔卡明列『北緯 22° 19.729′ 東經 120° 21′.991』及『是否開放參觀：是』。按度與十進位分換算為22.3288166667、120.3665166667，與採用的官方觀光 pin 約5公尺相符；此為燈塔本體位置的獨立主管機關核對，不冒稱入口測量。"
+      },
+      {
+        "url": "https://www.motcmpb.gov.tw/ServerFile/Get/c94a0238-a8c5-4ceb-9d72-268179c62213?DLCount=1",
+        "title": "交通部航港局：運輸產業論壇海運提問彙整",
+        "coordinateEvidence": "https://www.motcmpb.gov.tw/ServerFile/Get/c94a0238-a8c5-4ceb-9d72-268179c62213?DLCount=1 可檢索文字將琉球嶼燈塔列入無人駐守、屬開放空間且民眾可自由參訪的燈塔；本來源僅佐證外部抵達可行，不提供另一組門口座標。"
+      }
+    ]
+  },
+  {
+    "id": "tw-xiaoliuqiu-lobster-cave",
+    "status": "verified",
+    "latitude": 22.3450703,
+    "longitude": 120.3878456,
+    "anchorType": "landmark",
+    "locationHint": "小琉球東北岸龍蝦洞的陸側景點／步道抵達標記；從路旁指示牌步行穿過樹蔭到岸上觀景處。不是洞內、海中潛點或潮池，勿依原文自行攀下洞口；進入管制潮間帶须依導覽與現場規定。",
+    "reason": "2026-09-16 查核。取得名稱為龍蝦洞的 Google place 固定 feature pin，並用實地遊記的導航、指示牌、樹蔭步道及岸上平台描述核對陸側抵達用途；官方另確認此為真實景點與管制生態區。原座標偏離約2674公尺，西南角定位錯誤。官方海域資料另有龍蝦洞潛點22.34616,120.38896，但那不是此陸上景點，本報告明確不採。此 pin 是景點導航標記，不聲稱為精測洞口，也不代表保證可自由進入礁盤。",
+    "sources": [
+      {
+        "url": "https://maps.app.goo.gl/uavuiXkUjnBXX96SA",
+        "title": "Google Maps：龍蝦洞固定地點 pin",
+        "coordinateEvidence": "2026-09-16 對 https://maps.app.goo.gl/uavuiXkUjnBXX96SA 作唯讀 HTTP 展開，回傳名為『龍蝦洞』的 place URL，feature ID 為0x3471e57f368160b3:0x82a43f09c9b7aa1a。目的地資料片段為 !8m2!3d22.3450703!4d120.3878456，HTML 同時出現 [null,null,22.3450703,120.3878456]。採此 place pin；特別排除同一URL中的 @22.3449823,120.3857141 視窗中心。精確展開URL為 https://www.google.com/maps/place/%E9%BE%8D%E8%9D%A6%E6%B4%9E/@22.3449823,120.3857141,18.51z/data=!4m12!3m11!1s0x3471e57f368160b3:0x82a43f09c9b7aa1a!5m4!1s2024-12-11!2i3!4m1!1i2!8m2!3d22.3450703!4d120.3878456!15sChLlsI_nkInnkIPpvo3onabmtJ6SAQtzY2VuaWNfc3BvdOABAA!16s%2Fg%2F11g726rsx8?authuser=0&entry=tts&g_ep=EgoyMDI0MDkzMC4wIPu8ASoASAFQAw%3D%3D。"
+      },
+      {
+        "url": "https://yulifestory.com/xiaoliuqiu-lobster-cave/",
+        "title": "YU山海相遇：小琉球龍蝦洞實地抵達與岸上平台說明",
+        "coordinateEvidence": "https://yulifestory.com/xiaoliuqiu-lobster-cave/ 的 HTML 實際連向 https://maps.app.goo.gl/uavuiXkUjnBXX96SA；文字記錄依導航至指示牌、停機車、穿過樹木路徑，繼續可到看海平台，並把向下攀洞口另作區分。數值從該連結展開的 Google feature pin 取得，不由遊記照片或EXIF取得。此為抵達方式的次級佐證，非官方測量。"
+      },
+      {
+        "url": "https://admin.taiwan.net.tw/dbnsa/ServiceDbnsa/FAQ?a=917&c=&id=160&p=1&pi=30&q=",
+        "title": "大鵬灣國家風景區管理處：轄內景點介紹",
+        "coordinateEvidence": "https://admin.taiwan.net.tw/dbnsa/ServiceDbnsa/FAQ?a=917&c=&id=160&p=1&pi=30&q= 將龍蝦洞明列為琉球风景特定區景點，核對其身分；無可抽取的獨立陸上數值座標，不假稱官方FAQ提供Google pin。"
+      },
+      {
+        "url": "https://liuchiu-intertidal.pthg.gov.tw/",
+        "title": "屏東縣潮琉生態保育網：龍蝦洞等自然人文生態景觀區須知",
+        "coordinateEvidence": "https://liuchiu-intertidal.pthg.gov.tw/ 明列龍蝦洞為自然人文生態景觀區，須由合格導覽員帶領進入；未抽取座標，只用於避免將陸側抵達 pin 錯解為可任意入洞、踩礁或下水的許可。"
+      }
+    ]
+  }
+]

@@ -10,6 +10,8 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import yaml
+from location_contract import maps_url
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -17,12 +19,15 @@ REGIONS = REPO_ROOT / "regions"
 
 
 def make_maps_url(lat: float, lng: float) -> str:
-    return f"https://maps.google.com/maps?q={lat},{lng}"
+    return maps_url(lat, lng)
 
 
 def inject_url(path: Path, dry_run: bool = False) -> str | None:
     """Return the URL added, or None if already set or no coordinates."""
     text = path.read_text(encoding="utf-8")
+    source = yaml.safe_load(text)
+    if source.get("locationReview", {}).get("status") != "verified":
+        return None
 
     # Skip if already has googleMapsUrl
     if "googleMapsUrl:" in text:

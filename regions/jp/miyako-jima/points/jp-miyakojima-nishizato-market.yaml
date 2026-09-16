@@ -37,15 +37,10 @@ point:
         - id: free
           label: 免費
   indoor: true
-  location:
-    latitude: 24.8038
-    longitude: 125.279
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8038,125.279"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: "市場入口位於西里通商店街的半途，大門上方有「公設市場」字樣的招牌"
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 須先確認「西里公設市場」是否指宮古島市公設市場；官方後者地址為平良字下里1，不可僅按近似名稱自動換點。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -103,3 +98,16 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact-name search and municipal market page establish 宮古島市公設市場 at 下里1, but not the stated Nishizato-street market identity/signage. No explicit coordinate for the claimed entity was found; do not force a same-name/nearby market replacement.
+  sources:
+  - url: https://www.city.miyakojima.lg.jp/soshiki/shityo/kankosyoukou/kankou/publicmarket.html
+    title: 宮古島市公設市場｜宮古島市
+    coordinateEvidence: Municipal operator page identifies 下里1 and tenants; fetched HTML yielded no map pin establishing a separate 西里公設市場. Address is disambiguation evidence, not an inferred coordinate.
+  previousLocation:
+    latitude: 24.8038
+    longitude: 125.279
+  verifiedLocation: null

@@ -35,15 +35,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.7582
-    longitude: 125.3128
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7582,125.3128"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 「友利御嶽」有同名異島疑義；須先確認宮古島城辺友利的具體御嶽，勿轉用鳩間島同名地點或進入私人聖域。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -100,3 +95,22 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 exact-name search found a documented 友利御嶽 on Hatoma, while Miyako municipal scholarship identifies named shrines such as 嶺間御嶽 in 城辺友利. YAML says western Miyako and names no shrine alias; identity and coordinates remain unproven. Explicitly rejected a same-name Hatoma replacement.
+  sources:
+  - url: https://www.town.taketomi.lg.jp/sp/userfiles/files/topics/syabun/choshi/choshidayori49.pdf
+    title: 友利御嶽の扁額にみる鳩間与人について｜竹富町史だより49
+    coordinateEvidence: Municipal historical source ties the same name 友利御嶽 to Hatoma. Entity-disambiguation evidence only; no Hatoma coordinate adopted.
+  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/files/s.kazuhiro2013.pdf
+    title: 宮古における鍛冶伝承｜宮古島市総合博物館
+    coordinateEvidence: Identifies 嶺間御嶽 in 城辺字友利; no proof it is the YAML entity and no matching exact landmark coordinate extracted.
+  - url: https://geoshape.ex.nii.ac.jp/nrct-poi/resource/48/480000191600.html
+    title: 友利御嶽｜日本歴史地名大系・CODH/国立情報学研究所
+    coordinateEvidence: Read explicit address 沖縄県 八重山郡竹富町 字鳩間 and coordinate row 24.470949,123.821270. These are for Hatoma, not Miyako; the same-name coordinates are recorded here as REJECTED evidence and are not adopted.
+  previousLocation:
+    latitude: 24.7582
+    longitude: 125.3128
+  verifiedLocation: null

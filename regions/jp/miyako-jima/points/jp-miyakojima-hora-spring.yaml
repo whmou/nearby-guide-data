@@ -33,15 +33,10 @@ point:
         - id: ticketed
           label: 購票入場
   indoor: false
-  location:
-    latitude: 24.7302
-    longitude: 125.432
-  googleMapsUrl: "https://maps.google.com/maps?q=24.7302,125.432"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 選定定位點前，請先區分湧泉／海灘與需導覽的洞穴體驗。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -91,3 +86,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: YAML repeats hora-cave coordinates and mainly describes cave exploration, not a separately documented spring entrance. Do not validate duplicate cave content using a beach pin. Current tour meeting point is not fixed in the published operator notice.
+  sources:
+  - url: https://miyako-guide.net/spots-cat/beach/page/3/
+    title: 宮古島観光協会 — 保良泉ビーチ listing
+    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/page/3/ describes a beach in front of a park with a spring-fed pool, distinguishing it from the YAML cave narrative. No spring-specific arrival coordinate extracted.
+  - url: https://uminooto.com/maintenance/
+    title: アイランドワークス — current tour notice
+    coordinateEvidence: https://uminooto.com/maintenance/ requires enquiry for the tour meeting place; no fixed numeric coordinate extracted. Beach/pool management has changed, so an assumed operator entrance is unsafe.
+  previousLocation:
+    latitude: 24.7302
+    longitude: 125.432
+  verifiedLocation: null

@@ -33,15 +33,10 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.8062
-    longitude: 120.9668
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8062,120.9668"
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: null
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 未證實有符合敘述的新竹「勝利公園」；不可猜成新竹公園或忠烈祠。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -99,3 +94,19 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: unresolved
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 audit. Suspected fabricated/conflated named site. Exact-title searches did not establish a Hsinchu park matching the claimed shrine remains. Official cultural history places 新竹神社 at 枕頭山, but this does not authorize renaming another park as 勝利公園. No GPS retained.
+  sources:
+  - url: https://tcmb.culture.tw/zh-tw/detail?id=2222949&indexCode=Culture_Object
+    title: 新竹市文化局／國家文化記憶庫：新竹神社與潛園
+    coordinateEvidence: 'Historical account identifies the shrine at 枕頭山; it does not identify 勝利公園 or provide a present-day visitor pin for that name. No coordinate extracted. Exact source: https://tcmb.culture.tw/zh-tw/detail?id=2222949&indexCode=Culture_Object'
+  - url: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip
+    title: 交通部觀光署 AttractionList.json, UpdateTime 2026-09-16T14:30:03+08:00
+    coordinateEvidence: 'Hsinchu park enumeration does not identify a matching 勝利公園. This is a failed identity match, not a claim that list absence definitively proves nonexistence. Exact source: https://media.taiwan.net.tw/XMLReleaseAll_public/v2.0/Zh_tw/Attraction-json.zip'
+  previousLocation:
+    latitude: 24.8062
+    longitude: 120.9668
+  verifiedLocation: null

@@ -39,15 +39,10 @@ point:
       - id: food
         label: 美食
   indoor: true
-  location:
-    latitude: 24.3393
-    longitude: 124.1563
-    locationHint: "石垣市中心部・美崎町の飲食街エリア。離島ターミナル（ユーグレナ石垣港離島ターミナル）から徒歩5〜10分圏内に焼肉店が多数集中。夜は看板が明るく迷わず見つかる。"
-  googleMapsUrl: "https://maps.google.com/maps?q=24.3393,124.1563"
-  trigger:
-    radiusMeters: 200.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 800.0
+  location: null
+  googleMapsUrl: null
+  trigger: null
+  locationHint: 石垣牛燒肉為飲食主題；先選擇實際餐廳並確認營業與入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -74,7 +69,7 @@ ratingEvidence:
 sources:
   - id: jp-ishigaki-ishigaki-beef-source
     title: "石垣牛 - Wikipedia"
-    publisher: ""
+    publisher: "ja.wikipedia.org"
     url: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%9E%A3%E7%89%9B
     accessedAt: "2026-07-18"
     language: ja
@@ -98,3 +93,16 @@ review:
   status: draft
   checkedAt: "2026-07-18"
   notes: []
+locationReview:
+  status: non_point
+  anchorType: none
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16：YAML標題與內容涵蓋多家餐廳、美崎町飲食街，沒有唯一店家。不能把飲食文化轉為猜測的店家或街區中心。
+  sources:
+  - url: https://ooritoori-ishigaki.com/recommend/
+    title: 石垣市公式観光 — おすすめベスト３／食べ物
+    coordinateEvidence: The 食べ物 section describes 石垣牛 as food served as yakiniku, steak or sushi, without assigning a single restaurant. No unique numeric place coordinate exists in this thematic section; none adopted.
+  previousLocation:
+    latitude: 24.3393
+    longitude: 124.1563
+  verifiedLocation: null

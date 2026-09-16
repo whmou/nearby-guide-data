@@ -36,14 +36,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.8242599
-    longitude: 125.1368284
-  googleMapsUrl: "https://maps.google.com/maps?q=24.8242599,125.1368284"
+    latitude: 24.824333333333335
+    longitude: 125.13638888888889
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.824333333333335,125.13638888888889
   trigger:
     radiusMeters: 75.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 通り池官方地標 pin；僅用於池岸鄰近解說，請留在開放步道與觀景處，地標落在池區，不是下水入口。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -93,3 +93,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 tourism association's place marker explicitly labels the pools with DMS coordinates. Approximately 45 m from existing location. Retained named physical landmark; no fabricated walkway offset or dive-entry claim.
+  sources:
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_014/
+    title: 通り池｜宮古島観光協会
+    coordinateEvidence: HTML Maps iframe feature 0x0:0x39e445ed59b22a52 has !2zMjTCsDQ5JzI3LjYiTiAxMjXCsDA4JzExLjAiRQ, decoded label 24°49′27.6″N 125°08′11.0″E. DMS conversion gives 24.824333333333335,125.13638888888889. Embed viewport ignored.
+  previousLocation:
+    latitude: 24.8242599
+    longitude: 125.1368284
+  verifiedLocation:
+    latitude: 24.824333333333335
+    longitude: 125.13638888888889

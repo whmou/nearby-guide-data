@@ -40,14 +40,14 @@ point:
           label: 免費
   indoor: false
   location:
-    latitude: 24.90951
-    longitude: 125.25726
-  googleMapsUrl: "https://maps.google.com/maps?q=24.90951,125.25726"
+    latitude: 24.9095
+    longitude: 125.25725
+  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.9095,125.25725
   trigger:
     radiusMeters: 100.0
     dwellMillis: 2000
     rearmDistanceMeters: 1000.0
-  locationHint: null
+  locationHint: 西平安名崎觀光協會標記；於岬角開放區欣賞海景，並非風機設施入口，勿進入管制區或接近危險崖緣。
 ratingEvidence:
   rubricVersion: 1
   significance:
@@ -97,3 +97,18 @@ review:
   status: draft
   checkedAt: "2026-07-15"
   notes: []
+locationReview:
+  status: verified
+  anchorType: landmark
+  checkedAt: '2026-09-16'
+  reason: 2026-09-16 fetched Miyakojima Tourism Association's named cape page. Its map feature label explicitly gives DMS coordinates; used those rather than the embed's viewport. Existing point agrees within approximately 2 m.
+  sources:
+  - url: https://miyako-island.net/beach_and_spot/beach_spot_024/
+    title: 西平安名崎｜宮古島観光協会公式情報サイト
+    coordinateEvidence: HTML Google Maps iframe pb feature 0x0:0x1de214ed11b5a1ca has !2zMjTCsDU0JzM0LjIiTiAxMjXCsDE1JzI2LjEiRQ, base64-decoded label 24°54′34.2″N 125°15′26.1″E; DMS conversion = 24.9095,125.25725. Not the !2d/!3d viewport values.
+  previousLocation:
+    latitude: 24.90951
+    longitude: 125.25726
+  verifiedLocation:
+    latitude: 24.9095
+    longitude: 125.25725
