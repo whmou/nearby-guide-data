@@ -1,0 +1,28 @@
+name: Verify public release downloads
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag to verify against current source
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - name: Build expected artifacts from source
+        run: python tools/build_packs.py --all --output dist
+      - name: Download public URLs and verify all content
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          python tools/update_catalog.py --dist dist --release-tag "$RELEASE_TAG" --output "$RUNNER_TEMP/verification-catalog.json"
+          python tools/verify_release.py --catalog "$RUNNER_TEMP/verification-catalog.json"
