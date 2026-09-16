@@ -1,11 +1,11 @@
 {
   "format": "nearby-guide-index",
   "schemaVersion": 1,
-  "updatedAt": "2026-07-27T11:23:19Z",
+  "updatedAt": "2026-09-16T12:09:46Z",
   "packs": [
     {
       "packId": "jp-ishigaki",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "石垣島",
       "subtitle": "八重山の碧海と星空",
       "region": {
@@ -23,9 +23,9 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-ishigaki-1.0.1-compact.guidepack",
-          "downloadBytes": 1257756,
-          "sha256": "ff6d9714244e20a4853d148d45ae0996cc60f2277bdbb0c2f43d92bdadc4b8ed",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/jp-ishigaki-1.0.2-compact.guidepack",
+          "downloadBytes": 1291195,
+          "sha256": "39eb9927b4d0df2da941b31e2a1cab71fc4e5ad8231c1423da26e76c2a7061a3",
           "includes": [
             "text",
             "thumbnails"
@@ -36,9 +36,9 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-ishigaki-1.0.1-complete.guidepack",
-          "downloadBytes": 6227354,
-          "sha256": "c129952b3379e9cd4e75ef5581f711901b6c50cb756f3f8ea412c10f786136fa",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/jp-ishigaki-1.0.2-complete.guidepack",
+          "downloadBytes": 6260793,
+          "sha256": "cde79bca171836ae48c03fbe86f51c7502c31ceb7995317170fb83080087feb6",
           "includes": [
             "text",
             "images",
@@ -49,7 +49,7 @@
     },
     {
       "packId": "jp-miyakojima",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "title": "宮古島",
       "subtitle": "沖繩碧海與珊瑚礁",
       "region": {
@@ -66,9 +66,9 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.4-compact.guidepack",
-          "downloadBytes": 2559087,
-          "sha256": "694d8776e8bf3b0a927b5b63863486770600f0f8ca154f257024284a18012e37",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/jp-miyakojima-1.0.5-compact.guidepack",
+          "downloadBytes": 2654106,
+          "sha256": "0e538290fa830dd03ad532c3dfb0924f3da2a9cd3558cfee98986c5e4e7fbd35",
           "includes": [
             "text",
             "thumbnails"
@@ -79,9 +79,9 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/jp-miyakojima-1.0.4-complete.guidepack",
-          "downloadBytes": 14731896,
-          "sha256": "c6fc4e24ab9dd8cbf0c5b78c742ad29923040028ad33451c2751c0fc328c44fc",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/jp-miyakojima-1.0.5-complete.guidepack",
+          "downloadBytes": 14826915,
+          "sha256": "fc76cd2f806974c73e5e57b8c81ba6581e07e08f1d14266c5f91fef9c0789ada",
           "includes": [
             "text",
             "images",
@@ -92,7 +92,7 @@
     },
     {
       "packId": "tw-hsinchu",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "title": "新竹市",
       "subtitle": "風城歷史與自然",
       "region": {
@@ -109,9 +109,9 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.5-compact.guidepack",
-          "downloadBytes": 1539784,
-          "sha256": "0230715b58f3d6e81aeb115a35da2274d751d9c26ffb558c8daeed3c3720f38f",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/tw-hsinchu-1.0.6-compact.guidepack",
+          "downloadBytes": 1605652,
+          "sha256": "6af07a546c972c1b7fc0cc432ae5fa61da378e1105f4597df9d5c316b6eb62d1",
           "includes": [
             "text",
             "thumbnails"
@@ -122,9 +122,9 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-hsinchu-1.0.5-complete.guidepack",
-          "downloadBytes": 8316218,
-          "sha256": "444eda385ca042724e23ee4e6355f8c8e51a32dbb52f1125a37a96cc98c8dd5d",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/tw-hsinchu-1.0.6-complete.guidepack",
+          "downloadBytes": 8382086,
+          "sha256": "f186a8c2f020c2d304ad774214037b01f9c04e3e38e5a9e75f79288833de4f98",
           "includes": [
             "text",
             "images",
@@ -135,7 +135,7 @@
     },
     {
       "packId": "tw-xiaoliuqiu",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "小琉球",
       "subtitle": "珊瑚礁秘境與海龜共泳",
       "region": {
@@ -153,9 +153,9 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-xiaoliuqiu-1.0.1-compact.guidepack",
-          "downloadBytes": 639907,
-          "sha256": "3a49571538c7636f44d83e7c69f4ce25214e0f45cf2e3c5e1807b5b74005d83b",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/tw-xiaoliuqiu-1.0.2-compact.guidepack",
+          "downloadBytes": 668754,
+          "sha256": "dfdaa3d19a51a31d0b95a662d3a9f6ee73fadaae3f61b6af92debcbac305a1fb",
           "includes": [
             "text",
             "thumbnails"
@@ -166,9 +166,9 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/latest/download/tw-xiaoliuqiu-1.0.1-complete.guidepack",
-          "downloadBytes": 3000171,
-          "sha256": "6dd8f6f05317b29a3d88778beb2f648b27ebaf010124cbd2f2f39f8b30a952d2",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-2026-09-16-location-review/tw-xiaoliuqiu-1.0.2-complete.guidepack",
+          "downloadBytes": 3029018,
+          "sha256": "82681c5a4a279f6e2fb078e03b2628db5c0b2b74250448c7950101d1904b2a86",
           "includes": [
             "text",
             "images",
