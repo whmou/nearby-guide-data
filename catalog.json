@@ -1,7 +1,7 @@
 {
   "format": "nearby-guide-index",
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T00:08:55Z",
+  "updatedAt": "2026-09-17T00:27:17Z",
   "packs": [
     {
       "packId": "jp-ishigaki",
@@ -23,7 +23,7 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/jp-ishigaki-1.0.2-compact.guidepack",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/jp-ishigaki-1.0.2-compact.guidepack",
           "downloadBytes": 1291195,
           "sha256": "39eb9927b4d0df2da941b31e2a1cab71fc4e5ad8231c1423da26e76c2a7061a3",
           "includes": [
@@ -36,7 +36,7 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/jp-ishigaki-1.0.2-complete.guidepack",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/jp-ishigaki-1.0.2-complete.guidepack",
           "downloadBytes": 6260793,
           "sha256": "cde79bca171836ae48c03fbe86f51c7502c31ceb7995317170fb83080087feb6",
           "includes": [
@@ -49,7 +49,7 @@
     },
     {
       "packId": "jp-miyakojima",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "title": "宮古島",
       "subtitle": "沖繩碧海與珊瑚礁",
       "region": {
@@ -66,9 +66,9 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/jp-miyakojima-1.1.0-compact.guidepack",
-          "downloadBytes": 1484480,
-          "sha256": "e503800679d8be577ce403b688928de374557fbdec89c9d3ac852f37847c5766",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/jp-miyakojima-1.1.1-compact.guidepack",
+          "downloadBytes": 1484734,
+          "sha256": "3184dcffddfd5b93f0d734ca05b72879e8957729a8e883a0461e9a933bf23a1a",
           "includes": [
             "text",
             "thumbnails"
@@ -79,9 +79,9 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/jp-miyakojima-1.1.0-complete.guidepack",
-          "downloadBytes": 5678601,
-          "sha256": "97a2297eb0497668bbe2914e897bc83d77c79f212aff212f2270c059edccce4d",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/jp-miyakojima-1.1.1-complete.guidepack",
+          "downloadBytes": 5678855,
+          "sha256": "ff420d0a35ed6f68d1910bd1a85e5150bf86cfee92bf38b7541a3222b54934ea",
           "includes": [
             "text",
             "images",
@@ -109,7 +109,7 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/tw-hsinchu-1.0.6-compact.guidepack",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/tw-hsinchu-1.0.6-compact.guidepack",
           "downloadBytes": 1605652,
           "sha256": "6af07a546c972c1b7fc0cc432ae5fa61da378e1105f4597df9d5c316b6eb62d1",
           "includes": [
@@ -122,7 +122,7 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/tw-hsinchu-1.0.6-complete.guidepack",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/tw-hsinchu-1.0.6-complete.guidepack",
           "downloadBytes": 8382086,
           "sha256": "f186a8c2f020c2d304ad774214037b01f9c04e3e38e5a9e75f79288833de4f98",
           "includes": [
@@ -153,7 +153,7 @@
           "mediaMode": "compact",
           "title": "精簡離線",
           "description": "文字與壓縮縮圖離線",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/tw-xiaoliuqiu-1.0.2-compact.guidepack",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/tw-xiaoliuqiu-1.0.2-compact.guidepack",
           "downloadBytes": 668754,
           "sha256": "dfdaa3d19a51a31d0b95a662d3a9f6ee73fadaae3f61b6af92debcbac305a1fb",
           "includes": [
@@ -166,7 +166,7 @@
           "mediaMode": "complete",
           "title": "完整離線",
           "description": "文字與完整多媒體離線，以圖片為主",
-          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.0/tw-xiaoliuqiu-1.0.2-complete.guidepack",
+          "downloadUrl": "https://github.com/whmou/nearby-guide-data/releases/download/data-miyakojima-v1.1.1/tw-xiaoliuqiu-1.0.2-complete.guidepack",
           "downloadBytes": 3029018,
           "sha256": "82681c5a4a279f6e2fb078e03b2628db5c0b2b74250448c7950101d1904b2a86",
           "includes": [
