@@ -1,6 +1,6 @@
 ﻿schemaVersion: 1
 packId: jp-miyakojima
-version: "1.1.0"
+version: "1.1.1"
 reviewBatch: miyako-trip-2026-09-23
 mediaPolicy: referenced-only
 title: "宮古島"
@@ -11,4 +11,4 @@ region:
   adminAreaLevel1: 沖縄県
 contentLanguage: zh-Hant-TW
 minAppVersionCode: 8
-createdAt: "2026-09-16T00:00:00Z"
+createdAt: "2026-09-17T00:00:00Z"

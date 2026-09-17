@@ -21,6 +21,7 @@ from typing import Any
 import jsonschema
 import yaml
 from location_contract import location_errors
+from android_contract import point_errors
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMAS_DIR = REPO_ROOT / "schemas"
@@ -149,6 +150,8 @@ def _validate_point_yaml(point_path: Path, taxonomy: dict[str, set[str]]) -> Val
         return result
 
     point = data.get("point", {})
+    for error in point_errors(point):
+        result.add(rel, error)
 
     # Blank field check
     for field_name in ("title", "summary", "narration", "observationPrompt"):

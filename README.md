@@ -27,7 +27,7 @@ catalog.json       Published pack index (updated by tools/update_catalog.py)
 | Pack ID         | Title  | Points | Status |
 |-----------------|--------|--------|--------|
 | tw-hsinchu      | 新竹市 | 35     | See location review |
-| jp-miyakojima   | 宮古島 | 108    | v1.1.0: 72 located / 36 text-only |
+| jp-miyakojima   | 宮古島 | 108    | v1.1.1: 72 located / 36 text-only |
 | jp-ishigaki     | 石垣島與八重山 | 30 | See location review |
 | tw-xiaoliuqiu   | 小琉球 | 22     | See location review |
 
@@ -44,6 +44,10 @@ not certify old narratives, ratings, photos, opening times, or safe access.
 見 [五組區域選點與旅期提醒](MIYAKO_TRIP_2026-09.md) 及 [查核紀錄](audits/miyako-trip-2026-09-23/)。
 
 ## Quick start
+
+宮古島 v1.1.1 修正兩筆無 GPS 的 `view` 缺少 `locationHint` 而被 Android 拒絕安裝。
+定位與景點數未變；請重新載入 catalog 並安裝 v1.1.1，不要再下載 v1.1.0。
+原因、修正範圍與防回歸規則見 [Android 相容性修正紀錄](audits/android-location-hint-2026-09-17.md)。
 
 ```bash
 python -m venv .venv

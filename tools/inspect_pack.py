@@ -15,6 +15,7 @@ import sys
 import zipfile
 from io import BytesIO
 from pathlib import Path
+from android_contract import point_errors
 
 FORBIDDEN_PATH = re.compile(
     r"(\.\.|^/|\\|\.DS_Store$|Thumbs\.db$|desktop\.ini$)", re.IGNORECASE
@@ -133,6 +134,9 @@ def inspect(archive_path: Path) -> bool:
 
                 for pt in points_obj.get("points", []):
                     pid = pt.get("id", "?")
+                    for error in point_errors(pt):
+                        print(f"ERROR: {pid}: {error}", file=sys.stderr)
+                        ok = False
                     for m in pt.get("media", []):
                         mid = m.get("id", "?")
                         path = m.get("path")

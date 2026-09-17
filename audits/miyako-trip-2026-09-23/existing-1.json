@@ -169,7 +169,7 @@
     "anchorType": "none",
     "latitude": null,
     "longitude": null,
-    "locationHint": null,
+    "locationHint": "地點名稱與公共入口尚未確認；本筆僅供待辨識閱讀，不提供GPS或導航，請勿依舊座標前往。",
     "reason": "獨立搜尋及重抓市府野原岳文化資產頁，未建立ビャクダン山展望台的同名身份或地址。主流程Chrome查詢返回牧山、松の木、竜宮城等不同地點，沒有匹配本名；既有最高113公尺敘述不足採信，保持unresolved、不改名挪用另一座山。",
     "sources": [
       {
@@ -733,7 +733,7 @@
     "anchorType": "none",
     "latitude": null,
     "longitude": null,
-    "locationHint": null,
+    "locationHint": "這是儒艮與海草床保育的閱讀主題，沒有已確認的固定公共觀賞點；不提供GPS或追尋動物的下水位置。",
     "reason": "池間島周邊海域是儒艮生態調查的一部分，不是已公告的固定公共觀察設施。重讀環境省調查方法及範圍，不從研究海域或野生動物紀錄生成GPS；保留non_point。",
     "sources": [
       {

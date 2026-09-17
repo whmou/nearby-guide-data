@@ -66,6 +66,12 @@ Rounding: half-up (3.85 → 3.9, not 3.8).
 - No placeholder text (`TODO`, `TBD`, `PLACEHOLDER`, `...`) in title/summary/narration.
 - Coordinates in valid ranges (lat −90..90, lon −180..180).
 - If `indoor: true`, then `locationHint` must not be null.
+- Android also requires a nonblank `locationHint` whenever `location` is absent
+  and `kind` (case-insensitive) is `zone`, `artwork`, `exhibit`, or `view`, even
+  when the source says `indoor: false`. The runtime format has no `indoor` flag.
+  For unresolved/text-only entries, describe the limitation; never invent GPS
+  coordinates or change the kind just to bypass this rule. Source validation,
+  the builder, archive inspection and public-download verification all enforce it.
 
 ## Pull request checklist
 

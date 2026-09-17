@@ -9,6 +9,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 from location_contract import location_errors
+from android_contract import point_errors
 
 
 def verify(catalog_path, transport="urllib"):
@@ -47,9 +48,11 @@ def verify(catalog_path, transport="urllib"):
                     assert len(data) == entry["bytes"]
                     assert hashlib.sha256(data).hexdigest() == entry["sha256"]
                 for point in points:
+                    errors = point_errors(point)
+                    assert not errors, (point["id"], errors)
                     errors = location_errors({"point": point, "locationReview": point.get("extensions", {}).get("nearbyGuide.locationReview")}, True)
                     assert not errors, (point["id"], errors)
-            print(f"OK {pack['packId']} {pack['version']} {variant['variantId']}: {len(points)} points, hash + coordinates verified", flush=True)
+            print(f"OK {pack['packId']} {pack['version']} {variant['variantId']}: {len(points)} points, hash + coordinates + Android locationHint verified", flush=True)
 
 
 if __name__ == "__main__":

@@ -25,6 +25,7 @@ from typing import Any
 import yaml
 from location_contract import location_errors
 from audit_contract import sealed_batch
+from android_contract import point_errors
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGIONS_DIR = REPO_ROOT / "regions"
@@ -137,6 +138,9 @@ def _build_media_record(m: dict, variant: str, pack_dir: Path, point_id: str) ->
 def _build_point_record(point_data: dict, variant: str, pack_dir: Path) -> dict:
     """Convert source point YAML to a variant-specific runtime record."""
     p = point_data["point"]
+    errors = point_errors(p)
+    if errors:
+        raise ValueError(f"[{p['id']}] Android contract: " + "; ".join(errors))
     errors = location_errors(point_data, require_review=pack_dir.resolve().is_relative_to(REGIONS_DIR.resolve()))
     if errors:
         raise ValueError(f"[{p['id']}] coordinate gate: " + "; ".join(errors))

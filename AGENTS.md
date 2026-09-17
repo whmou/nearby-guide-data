@@ -10,6 +10,11 @@ successful build is not evidence that a place exists or its coordinates work.
   for a generic food/activity theme. Distinguish landmarks from entrances.
 - Keep `location`, trigger eligibility, `googleMapsUrl`, and `locationHint`
   consistent. Unresolved/non-point entries retain text, not guessed navigation.
+- A no-GPS `zone`, `artwork`, `exhibit`, or `view` still needs a nonblank
+  `locationHint` under Android's contract, even for `indoor: false`. Explain
+  unconfirmed/non-point status rather than dropping the hint or inventing a pin.
+  Reproduce reported installer errors against the supplied Android validator;
+  add regression coverage at source, build and downloaded-artifact gates.
 - Use bounded, non-overlapping review batches. Inspect and integrate their
   output; completion of agents is not completion of valid dataset files.
 - Correct discovered unsafe/misleading directions; keep remaining editorial
