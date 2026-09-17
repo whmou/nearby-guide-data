@@ -1,0 +1,129 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-harimizu-stone-road"
+  parentId: null
+  kind: "attraction"
+  title: "漲水石疊道"
+  summary: "港口舊街裡留下的石鋪道路，連著震災後整備與城市變遷。"
+  narration: "腳下這段石路，曾經比現在長得多：漲水石疊道原本沿著舊政廳「藏元」南側，從漲水御嶽前一路接到祥雲寺東北側的路口，把港邊的重要場所串在一起。宮古島市的解說推測，1696年大地震之後，人們在十八世紀初的土木整備中把道路拓寬，並利用石材鋪路；這是根據地方史料作出的解釋。後來築港、神社遷移、戰爭和道路施工接連改變街景，官方記錄說，如今大約只剩原來的三分之一。低頭看看石塊的大小和接縫，再抬頭對照周圍的現代街道，便能感覺這不是一條為觀光另外造出的古風小巷，而是老城市留下的一小段骨架。走過去的幾步路，剛好跨過了不同年代的平良。"
+  observationPrompt: "比較石鋪路與周圍現代道路的交界，想想原本更長的道路如何連接港邊公共場所。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.807217
+    longitude: 125.279913
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採官方數字q所指漲水石疊道本體，非漲水御嶽內部。沿現有公開街道觀察鋪石；不踏入祭祀區，雨後石面可能濕滑，留意車輛與居民出入。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.807217,125.279913"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 4
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.9
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo760/"
+    title: "【市指定：史跡】漲水石畳道～はりみずいしだたみみち～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "石疊道原沿藏元南側，自漲水御嶽前通往祥雲寺東北側路口。"
+      - "官方推測1696年地震後、十八世紀初土木整備時拓寬並鋪石。"
+      - "築港、神社遷移、戰爭及戰後道路施工使道路損失，官方記錄約留三分之一。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki.html"
+    title: "宮古島市 — 史跡1～25"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "漲水石疊道 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo760/"
+      title: "【市指定：史跡】漲水石畳道～はりみずいしだたみみち～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.807217,+125.279913&amp;aq=&amp;sll=24.807256,125.280898&amp;sspn=0.008736,0.016512&amp;gl=jp&amp;brcurrent=3,0x34f4538cdba9c129:0xbcb8bb374c55d8f5,0,0x34f4538cd942ea61:0x1b36c205b4898356&amp;ie=UTF8&amp;t=m&amp;ll=24.817121,125.281649&amp;spn=0.031162,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.807217,125.279913；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki.html"
+      title: "宮古島市 — 史跡1～25"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 漲水石疊道 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.807217
+    longitude: 125.279913

@@ -1,0 +1,26 @@
+{
+  "layers": [
+    {
+      "name": "location-2026-09-16",
+      "files": [
+        "location-2026-09-16/hsinchu.json",
+        "location-2026-09-16/ishigaki.json",
+        "location-2026-09-16/miyakojima-a.json",
+        "location-2026-09-16/miyakojima-b.json",
+        "location-2026-09-16/xiaoliuqiu-a.json",
+        "location-2026-09-16/xiaoliuqiu-b.json"
+      ]
+    },
+    {
+      "name": "miyako-trip-2026-09-23",
+      "files": [
+        "miyako-trip-2026-09-23/existing-1.json",
+        "miyako-trip-2026-09-23/existing-2.json",
+        "miyako-trip-2026-09-23/existing-3.json",
+        "miyako-trip-2026-09-23/existing-4.json",
+        "miyako-trip-2026-09-23/new-north.json",
+        "miyako-trip-2026-09-23/new-south.json"
+      ]
+    }
+  ]
+}

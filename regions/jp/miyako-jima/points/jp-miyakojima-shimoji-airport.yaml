@@ -1,107 +1,147 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-shimoji-airport
-  parentId: jp-miyakojima-shimoji-island
-  kind: venue
+  id: "jp-miyakojima-shimoji-airport"
+  parentId: "jp-miyakojima-shimoji-island"
+  kind: "venue"
   title: "下地島空港"
-  summary: "下地島空港擁有全長3,000公尺的跑道，自1979年起長期作為全日空與日本航空飛行員技術審查的訓練機場，近年轉型為國際定期航班起降點，旅客大廳設計融入宮古島海洋元素，是探訪下地島的主要門戶。"
-  narration: |
-    下地島空港的歷史與日本民航業的養成息息相關。這條三千公尺長的跑道自1979年啟用後，數十年來專門供全日空與日本航空的飛行員在此進行模擬緊急降落、側風降落等高難度技術審查，是日本民間航空培訓體系中不可或缺的一環。由於不對外開放商業旅客，島上長期保持低度開發，反而讓周圍的珊瑚礁與自然環境得以完好保存。2019年，Solaseed Air等低成本航空開始引進定期航班，隨後更有來自台灣、東南亞的包機，讓旅人終於能直接飛抵這座傳說中的訓練聖地。現在的航廈以白色與藍色為主調，候機大廳的大片落地窗讓旅客在等候時便能望見外頭一望無際的宮古藍海。
-  observationPrompt: "在航廈候機大廳或戶外觀景區，注意看停機坪上的飛機機型——與一般大型機場相比，你覺得這裡的飛機有什麼不同之處？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "下地島航廈以木質屋頂、深屋簷與自然通風回應海島氣候；從候機場所讀懂訓練機場轉向旅客門戶的變化。"
+  narration: "抬頭看看航廈的屋頂，再留意屋簷如何伸向室外；下地島空港值得看的，不只有飛機，也有建築怎麼和海島的陽光相處。營運方的二〇一九年竣工資料介紹，屋頂採用直交集成板，也就是把木板方向交錯、層層黏合成的大型構材；木頭在這裡不只是裝飾，而是結構的一部分。深屋簷用來遮陽，大開口則配合自然通風，都是當時降低建築能源負荷的設計，而不是保證全年不用冷氣。這座航廈在二〇一九年三月完成，讓原本以飛行員訓練聞名的機場增加一般旅客服務，交通與建築的角色一起改變。等車或辦理手續時，可以從公共區域比較屋頂、陰影與出入口的關係；有些候機與水庭空間位在管制區內，沒有搭機也不必硬找入口，公共區同樣能讀到設計。\n"
+  observationPrompt: "在航廈開放公共區觀察木質屋頂、深屋簷和開口；陰影落在哪裡？不要為拍攝機坪或水庭越過管制線。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: mixed
-          label: 室內外
-    - id: subject
-      label: 主題
+        -
+          id: "mixed"
+          label: "室內外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: engineering
-          label: 工程
-        - id: history
-          label: 歷史
-    - id: experience
-      label: 體驗
+        -
+          id: "engineering"
+          label: "工程"
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        -
+          id: "photography"
+          label: "攝影"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.8291633
     longitude: 125.149189
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8291633,125.149189
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8291633,125.149189"
   trigger:
-    radiusMeters: 150.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: みやこ下地島空港旅客航廈地標 pin；請循航廈公共交通與停車指示抵達，勿前往跑道或機場管制區。
+    rearmDistanceMeters: 1000
+  locationHint: "みやこ下地島空港旅客航廈具名建物pin，伊良部佐和田1727；非跑道、17END或街景相機位置。循公共交通、停車及航廈入口標示，管制區須符合搭機規定。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "日本民航史上唯一長期作為飛行員技術審查場地的訓練機場，具有重要的航空文化與產業歷史意義。"
-    sources: [shimoji-airport-wikipedia-ja]
+    note: "2019年3月竣工資料介紹航廈採CLT直交集成板作屋頂結構材，為交錯方向黏合的木板構材。"
+    sources:
+      - "src1"
+      - "src2"
   distinctiveness:
     score: 4
-    note: "訓練機場轉型為觀光門戶的獨特定位，加上3,000m跑道端緊鄰海灘，在日本機場中極為罕見。"
-    sources: [shimoji-airport-wikipedia-ja]
+    note: "深屋簷遮陽與大開口自然通風，是降低能源負荷的設計；資料描述由訓練功能延伸一般旅客服務。"
+    sources:
+      - "src1"
+      - "src2"
   interpretability:
-    score: 3
-    note: "航廈設施現代，但訓練機場的歷史意義需要解說才能理解，現場背景說明有限。"
-    sources: [shimoji-airport-wikipedia-ja]
+    score: 4
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
   visitorValue:
     score: 3
-    note: "主要價值在於作為下地島的交通入口，觀景體驗需搭配17END海灘，航廈本身滯留體驗一般。"
-    sources: [shimoji-airport-wikipedia-ja]
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
   evidenceQuality:
     score: 3
-    note: "維基百科、國土交通省官網均有詳細記載，訓練飛行場的歷史資料較為豐富。"
-    sources: [shimoji-airport-wikipedia-ja]
-  final: 3.6  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+  final: 3.8
 sources:
-  - id: shimoji-airport-wikipedia-ja
-    title: "下地島空港 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%9C%B0%E5%B3%B6%E7%A9%BA%E6%B8%AF
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://shimojishima.jp/wp-content/themes/shimoji-airport/pdf/190318PressRelease_final.pdf"
+    title: "2019年3月18日：みやこ下地島空港ターミナル竣工"
+    publisher: "三菱地所・下地島エアポートマネジメント"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "滑走路長3,000m、パイロット訓練専用飛行場として1979年開港"
-      - "ANAとJALのパイロット技能審査に使用されてきた"
-      - "2019年以降、定期旅客便が就航開始"
+      - "2019年3月竣工資料介紹航廈採CLT直交集成板作屋頂結構材，為交錯方向黏合的木板構材。"
+      - "深屋簷遮陽與大開口自然通風，是降低能源負荷的設計；資料描述由訓練功能延伸一般旅客服務。"
+  -
+    id: "src2"
+    url: "https://shimojishima.jp/"
+    title: "みやこ下地島空港ターミナル"
+    publisher: "みやこ下地島空港ターミナル"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "官方首頁提供旅客航廈設施與交通分類，Google連結對應旅客航廈，非17END。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimojishima.airport.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Shimojishima.airport.jpg"
     creator: "ブルーノ"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "1eb5bb325ec7ed6bc590d6464bdbe0ccf8f6997003378cbb72514d5aedaeaff4"
-    compactPath: media/compact/jp-miyakojima-shimoji-airport.webp
-    completePath: media/complete/jp-miyakojima-shimoji-airport.webp
+    compactPath: "media/compact/jp-miyakojima-shimoji-airport.webp"
+    completePath: "media/complete/jp-miyakojima-shimoji-airport.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除錯誤首航航空公司、全廳海景及機場低度開發造成珊瑚完整等因果猜測；改用已抓取竣工新聞稿的結構與節能設計。"
+    - "保留既有 https://commons.wikimedia.org/wiki/File:Shimojishima.airport.jpg；僅檔名主題無明顯衝突，未重新核驗圖片內容、作者或授權，不代表媒體通過認證。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 airport operator's own map link resolves to the passenger-terminal named feature. Original point approximately 515 m southwest does not identify this public terminal anchor. Street-view camera @ position was ignored.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取航廈官網原始Google街景短連結並實際展開；採同一feature的!8m2!3d24.8291633!4d125.149189，不採@24.829918,125.1493802街景相機。主線Chrome同名航廈與佐和田1727地址交叉佐證；觸發半徑由150縮為80公尺，不覆蓋跑道。"
   sources:
-  - url: https://shimojishima.jp/
-    title: みやこ下地島空港ターミナル公式サイト
-    coordinateEvidence: Official href https://maps.app.goo.gl/hwnWhAJzdfZ3qLEo8 resolves to みやこ下地島空港ターミナル, feature 0x34f5abf2774fbddf:0x4052ebc4675369ff; !8m2!3d24.8291633!4d125.149189 and response feature array [null,null,24.8291633,125.149189]. Not @24.829918,125.1493802 camera.
+    -
+      url: "https://shimojishima.jp/"
+      title: "みやこ下地島空港ターミナル"
+      coordinateEvidence: "原始 href=https://maps.app.goo.gl/hwnWhAJzdfZ3qLEo8；本次HTTP 200展開=https://www.google.com/maps/place/%E3%81%BF%E3%82%84%E3%81%93%E4%B8%8B%E5%9C%B0%E5%B3%B6%E7%A9%BA%E6%B8%AF%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB/@24.829918,125.1493802,3a,90y,185.67h,82.03t/data=!3m8!1e1!3m6!1sAF1QipPuHq8c9euU5DBuWQF0iW-c1koahlR79BNVH8YO!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fp%2FAF1QipPuHq8c9euU5DBuWQF0iW-c1koahlR79BNVH8YO%3Dw900-h600-k-no-pi7.969999999999999-ya276.47233764648433-ro0-fo100!7i8192!8i4096!4m9!3m8!1s0x34f5abf2774fbddf:0x4052ebc4675369ff!8m2!3d24.8291633!4d125.149189!10e5!14m1!1BCgIgARICCAI!16s%2Fm%2F03m5839?entry=tts&g_ep=EgoyMDI1MDkxMC4wIPu8ASoASAFQAw%3D%3D&skid=0fab301a-5d0a-4152-acb8-03f7946f8e4d；feature!3d24.8291633!4d125.149189可讀。正文僅啟用JavaScript提示，沒有自行視覺確認街景；@24.829918,125.1493802不採。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E4%B8%8B%E5%9C%B0%E5%B3%B6%E7%A9%BA%E6%B8%AF%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "みやこ下地島空港ターミナル - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:38:07.281Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=みやこ下地島空港ターミナル。原始分享 href=https://maps.app.goo.gl/YT8JiV4cvUp9wq1N7；resolvedShareUrl=https://maps.app.goo.gl/YT8JiV4cvUp9wq1N7；具名結果 href=[]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。具名旅客航廈、地址佐和田1727及shimojishima.jp吻合。"
   previousLocation:
     latitude: 24.8268
     longitude: 125.1448

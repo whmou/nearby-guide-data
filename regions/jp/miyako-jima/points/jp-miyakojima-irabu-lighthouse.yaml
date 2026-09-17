@@ -4,14 +4,10 @@ point:
   parentId: jp-miyakojima-irabu-island
   kind: attraction
   title: "伊良部島灯台"
-  summary: "伊良部島灯台矗立於島嶼西端的珊瑚礁台地上，白色圓柱燈塔俯瞰東海，是引導往來宮古海峽船隻的重要航標，也是欣賞西海夕陽與無邊水平線的靜謐展望點。"
+  summary: "舊文所稱「伊良部島西端白色圓柱燈塔」尚未確認正式名稱；保留待查，不套用池間、平安名埼或佐良浜港燈台座標。"
   narration: |
-    伊良部島西端的珊瑚礁地形有著比其他地方更為突出的視野，正因如此，日本海上保安廳選在此處設立燈塔，守護往來宮古海峽的漁船與貨輪。白色的圓柱燈塔不高，卻在一片低矮的濱海植被中顯得格外挺拔。
-
-    燈塔附近的台地邊緣是眺望西海的絕佳位置。宮古諸島位於太平洋與東海的交界，這一帶海域自古便是重要的海上通道，往來琉球與中國大陸的貿易船、南洋漁船都曾從這片海面駛過。站在此處往西望，天晴時海面幾乎延伸到視線的極限，沒有任何島嶼遮擋，那種「到達盡頭」的開闊感令人心曠神怡。
-
-    傍晚時分，夕陽從正西方沉落，整個海面被染成橙金色，燈塔的白色在逆光中勾勒出清晰的輪廓。若計畫追夕陽，建議提前30分鐘抵達，在台地上找好位置靜待日落——這是伊良部島最安靜、最私密的看日落地點之一。
-  observationPrompt: "觀察燈塔的燈室玻璃——你能看到裡面的菲涅耳透鏡或反射鏡裝置嗎？燈塔的光束大約每隔幾秒閃爍一次？"
+    看見海邊的燈塔照片，先讀正式名稱，往往比先猜它在哪一座島更有用。這一項原本叫作「伊良部島灯台」，但目前的官方資料與具名地圖結果，還不能把它對應到舊文描述的西端白色圓塔。海上保安部確實公告過伊良部島的「佐良浜港第一防波堤南灯台」；二○二五年的通知談的是燈器更換，以及燈光、構造物高度的變動，並不是開放觀光的通知。這讓我們看見，航標首先是航行設施，名字裡的港口與防波堤，也不能隨意省略成一座泛稱的島嶼燈塔。資料未釐清前，這段只作辨識提醒：不要照著舊座標去找海崖，也別走上防波堤尋找拍攝位置。若另有官方開放的燈塔景點，請使用它完整的名稱與獨立驗證的資訊。
+  observationPrompt: "核對照片或說明牌上的完整航標名稱與管理單位；沒有同名官方資料和公共通行資訊，就不要據圖前往。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -31,85 +27,52 @@ point:
       tags:
         - id: viewpoint
           label: 景觀
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 導航前，請依官方航路標識名稱確認確切燈塔；勿以池間燈塔或港口燈標替代。
+  locationHint: "尚未確認原題名所指燈塔，無GPS、觸發或導航。佐良浜港防波堤南燈台、池間島燈台及平安名埼燈台皆不可擅自視作本項；勿自行進入防波堤或海崖。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "現役航標設施，具備實際功能意義，但作為觀光景點知名度屬地區性"
-    sources: [src1]
+    score: 0
+    note: "原景點身分未建立，不給場所重要性分數。"
+    sources: ["lighthouse"]
   distinctiveness:
-    score: 3
-    note: "燈塔景觀在沖縄各島不乏類似案例，但西向夕陽視野具一定特色"
-    sources: [src1]
+    score: 0
+    note: "不能用另一座燈塔特色評分。"
+    sources: ["lighthouse"]
   interpretability:
-    score: 3
-    note: "海上保安與航行歷史可作為解說切入點，但需額外資料補充"
-    sources: [src1]
+    score: 2
+    note: "可提供航標名稱辨識提醒。"
+    sources: ["lighthouse"]
   visitorValue:
-    score: 3
-    note: "免費，夕陽時分景色優美，適合途經停留，建議停留約20分鐘"
-    sources: [src2]
+    score: 0
+    note: "無確認公共抵達點，不宜排入導航。"
+    sources: ["lighthouse"]
   evidenceQuality:
-    score: 3
-    note: "海上保安廳官方燈塔資料庫提供基本資訊"
-    sources: [src1]
-  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.9+0.75+0.6+0.45+0.3 = 3.0
+    score: 1
+    note: "有相鄰正式航標資料，但不能證明原文場所。"
+    sources: ["lighthouse"]
+  final: 0.5
 sources:
-  - id: src1
-    title: "伊良部島灯台 - 海上保安庁灯台データベース"
-    publisher: "海上保安庁"
-    url: https://www6.kaiho.mlit.go.jp/miyakojima/lighthouse/irabu.html
-    accessedAt: "2026-07-15"
+  - id: lighthouse
+    title: "【伊良部島】佐良浜港第一防波堤南灯台現状変更"
+    publisher: "宮古島海上保安部"
+    url: "https://www6.kaiho.mlit.go.jp/n/11kanku/miyakojima/anzen/1104_20251218174125294_JA_207_NOR.html"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "伊良部島灯台位於島嶼西端，為運作中的航行安全設施"
-      - "燈塔引導往來宮古海峽的船隻航行"
-  - id: src2
-    title: "伊良部島観光スポット - 宮古島観光協会"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/irabu-lighthouse/
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "伊良部島灯台是島上欣賞西海夕陽的知名觀景地點"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "14753c000bc542ebceefd58df5c790363e81e1897201b701dc3026e2d638b486"
-    compactPath: media/compact/jp-miyakojima-irabu-lighthouse.webp
-    completePath: media/complete/jp-miyakojima-irabu-lighthouse.webp
+    supports: ["海保公告具名航標為伊良部島佐良浜港第一防波堤南灯台，而非原文未確定的泛稱。","2025-12-18公告記載燈器更換及光度、光達距離、構造物高度變更，未提供觀光開放許可。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","撤除白圓塔、西端台地、菲涅耳透鏡、固定夕陽方向與安靜私密觀景地等未證實敘述。","移除 File:Irabu_sarahama_port.jpg：佐良浜港照片不能證實原稱西端燈塔身分；未替換另一燈塔照片。"]
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: No authoritative match found for the claimed western-Irabu white circular 伊良部島灯台. Exact-name searches and official lighthouse references do not establish that identity or public access; the existing point is not verified.
-  sources:
-  - url: https://www.kaiho.mlit.go.jp/info/lighthouse/card/coment/map06.html
-    title: 海上保安庁 — 沖縄灯台カード locations
-    coordinateEvidence: https://www.kaiho.mlit.go.jp/info/lighthouse/card/coment/map06.html names 平安名埼灯台 and 池間島灯台 with distinct addresses. It provides no match/coordinate for the YAML's 伊良部島灯台. This limited list is corroborative, not proof of nonexistence.
-  - url: https://miyako-island.net/charm/
-    title: 宮古島観光協会 — 伊良部地区
-    coordinateEvidence: https://miyako-island.net/charm/ identifies Irabu's named tourist features but does not establish the alleged western lighthouse or its arrival point. No coordinate extracted.
-  previousLocation:
-    latitude: 24.858
-    longitude: 125.1152
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓海保具名公告，僅確認另一正式航標「佐良浜港第一防波堤南灯台」；主工作者即時Maps搜尋原名得到平安名埼、池間等不同場所，未證實舊文西端白色圓塔身分。維持unresolved，不把其他燈塔或航標移植到原ID。"
+  sources: [{"url":"https://www6.kaiho.mlit.go.jp/n/11kanku/miyakojima/anzen/1104_20251218174125294_JA_207_NOR.html","title":"【伊良部島】佐良浜港第一防波堤南灯台現状変更","coordinateEvidence":"2026-09-16重新抓取原頁全文；重抓海保具名公告，僅確認另一正式航標「佐良浜港第一防波堤南灯台」；主工作者即時Maps搜尋原名得到平安名埼、池間等不同場所，未證實舊文西端白色圓塔身分。維持unresolved，不把其他燈塔或航標移植到原ID。 未從不同場所採用座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6%E7%81%AF%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 實際Chrome搜尋：伊良部島灯台 宮古島","coordinateEvidence":"讀取主工作者2026-09-16T13:36:44.076ZChrome實際結果；沒有可確定對應原名／原敘述的場所。候選原始連結及place座標（均未採用）：平安名埼灯台：https://www.google.com/maps/place/%E5%B9%B3%E5%AE%89%E5%90%8D%E5%9F%BC%E7%81%AF%E5%8F%B0/data=!4m7!3m6!1s0x34f459306b1f5673:0x4f830bbaf0ef834c!8m2!3d24.7194948!4d125.4685517!16s%2Fg%2F1239_9pw!19sChIJc1YfazBZ9DQRTIPv8LoLg08?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7194948,125.4685517 | 池間島灯台：https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E5%B3%B6%E7%81%AF%E5%8F%B0/data=!4m7!3m6!1s0x34f44cdfed9e6ddb:0x278e82a0b78f9407!8m2!3d24.9363485!4d125.2356303!16s%2Fg%2F120rg084!19sChIJ222e7d9M9DQRB5SPt6CCjic?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.9363485,125.2356303。不使用搜尋頁@視窗中心。"}]
+  previousLocation: {"latitude":24.858,"longitude":125.1152}
   verifiedLocation: null

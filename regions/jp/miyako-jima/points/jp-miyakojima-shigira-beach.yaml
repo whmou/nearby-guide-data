@@ -1,0 +1,139 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-shigira-beach"
+  parentId: null
+  kind: "attraction"
+  title: "Shigira海灘（シギラビーチ）"
+  summary: "在珊瑚礁環繞的白沙海岸看海，理解海洋生物與度假設施共用的空間。"
+  narration: "先從岸上看白沙、淺水和遠處海面，Shigira海灘不只是飯店旁的一張藍色背景。沖繩觀光資料把這裡介紹為珊瑚礁環繞的白沙海岸，海中有珊瑚與熱帶魚；偶爾也可能出現海龜，但牠們不是每天按時上班的演員，這次沒遇見也很正常。沙灘旁的Beach House提供器材租用、更衣與沖洗等服務，讓原本的海岸多了一層人們安排休假的生活場景。看海時可以留意自然岸線和人工設施怎麼相接，也看看現場對遊泳區域與時間的說明。這些規則會隨天候、海況調整，不是看到別人下水就能照做。岸上停留同樣能享受這一站；停車及非住客使用設施另有費用，先問清楚，不把海灘、泳池與飯店專用區當成同一個免費空間。"
+  observationPrompt: "從岸上觀察白沙、淺水與人工設施的界線，現場哪些標示區分公共海岸、活動區與專用設施？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "coast"
+          label: "海岸"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "shore-viewing"
+          label: "岸上賞景"
+  indoor: false
+  location:
+    latitude: 24.7202654
+    longitude: 125.3408467
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "Google「シギラビーチ」海灘本體pin，位於上野新里，不是停車場或飯店大門。依現場Beach House／海灘公共動線抵達；停車、非住客設施使用及活動可能收費，不進泳池或飯店專用區。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7202654,125.3408467"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "ocvb"
+  distinctiveness:
+    score: 4
+    note: "珊瑚礁環繞白沙海灘，海中有珊瑚與熱帶魚，海龜僅可能遇見而非保證。"
+    sources:
+      - "ocvb"
+  interpretability:
+    score: 4
+    note: "從岸上觀察白沙、淺水與人工設施的界線，現場哪些標示區分公共海岸、活動區與專用設施？"
+    sources:
+      - "ocvb"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "ocvb"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "ocvb"
+      - "operator"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "ocvb"
+    title: "シギラビーチ（2026年5月15日更新）"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/spot/1138"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "珊瑚礁環繞白沙海灘，海中有珊瑚與熱帶魚，海龜僅可能遇見而非保證。"
+      - "Beach House提供租借與相關設施；入場與設施利用、停車屬不同收費項目。"
+  -
+    id: "operator"
+    title: "宮古島で一番早い海開き2026：シギラビーチFAQ"
+    publisher: "シギラセブンマイルズリゾート"
+    url: "https://shigira.com/lp/miyakojima-beach-season/event-2026.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "遊泳時間與開放依天候海況調整；沙灘旁Beach House設更衣、沖洗與器材服務。"
+  -
+    id: "google"
+    title: "シギラビーチ｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E3%82%B7%E3%82%AE%E3%83%A9%E3%83%93%E3%83%BC%E3%83%81/@24.720265,125.3408467,15z/data=!3m1!4b1!4m6!3m5!1s0x34f4563674125a01:0x8baa9102344228d5!8m2!3d24.7202654!4d125.3408467!16s%2Fg%2F11bw1zmcwn?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=31f953fd-dd1d-4f88-aaaa-dd7d75003809"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「シギラビーチ」身分及地址相符；採實際地點 !3d/!4d 24.7202654,125.3408467。錨點為具名參觀區地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://www.okinawastory.jp/spot/1138"
+      title: "シギラビーチ（2026年5月15日更新）"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://shigira.com/lp/miyakojima-beach-season/event-2026.html"
+      title: "宮古島で一番早い海開き2026：シギラビーチFAQ"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/place/%E3%82%B7%E3%82%AE%E3%83%A9%E3%83%93%E3%83%BC%E3%83%81/@24.720265,125.3408467,15z/data=!3m1!4b1!4m6!3m5!1s0x34f4563674125a01:0x8baa9102344228d5!8m2!3d24.7202654!4d125.3408467!16s%2Fg%2F11bw1zmcwn?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=31f953fd-dd1d-4f88-aaaa-dd7d75003809"
+      title: "シギラビーチ｜Google Maps 具名頁"
+      coordinateEvidence: "EXACT raw Google share href=https://maps.app.goo.gl/c2nMQkY4Ld6TNq4g8；實際resolvedShareUrl=https://www.google.com/maps/place/%E3%82%B7%E3%82%AE%E3%83%A9%E3%83%93%E3%83%BC%E3%83%81/@24.720265,125.3408467,15z/data=!3m1!4b1!4m6!3m5!1s0x34f4563674125a01:0x8baa9102344228d5!8m2!3d24.7202654!4d125.3408467!16s%2Fg%2F11bw1zmcwn?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=31f953fd-dd1d-4f88-aaaa-dd7d75003809；採地點 !3d24.7202654!4d125.3408467，不採 @ 視窗中心。live heading=シギラビーチ；地址與已抓取具名來源交叉核對。"
+  verifiedLocation:
+    latitude: 24.7202654
+    longitude: 125.3408467

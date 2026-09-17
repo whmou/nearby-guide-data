@@ -1,0 +1,127 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-ikeda-stone-bridge"
+  parentId: null
+  kind: "attraction"
+  title: "池田矼石拱橋"
+  summary: "國道旁的琉球石灰岩古橋，以拱形石組留下下地舊道路的交通記憶。"
+  narration: "把目光從旁邊的現代道路移開，這座不大的石橋，曾是下地往來交通的一部分。池田矼靠近崎田川河口，以琉球石灰岩堆成拱形；橋上的「矼」字看來陌生，在這裡說的就是石橋。官方引述一七二七年的《雍正舊記》，已經記下池田矼的長、寬與高度，而一八一七年又有和下地矼道一起大修的紀錄。所以眼前不是一個固定不變的古物，而是一代代人修補、維持通行的成果。舊路串連平良、川滿、洲鎌等聚落，走橋的人帶著什麼貨物、要去見誰，我們不能替他們編答案，但可以看懂石匠留下的方法。請從公共可站立處觀察拱頂石塊如何排列，不下河道、不站上車道，也不要攀附古橋。"
+  observationPrompt: "石塊在拱頂與兩側的排列方向有什麼不同？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "heritage"
+          label: "歷史古蹟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "quiet"
+          label: "靜謐"
+  indoor: false
+  location:
+    latitude: 24.753347
+    longitude: 125.285709
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "定位是國道390號旁池田矼古橋本體；從公共安全位置觀察，不把車道當拍照點，不下河床或攀爬石橋。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.753347,125.285709"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "指定文化財，具有可追溯的地方歷史價值。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  distinctiveness:
+    score: 4
+    note: "古橋靠近崎田川河口，採琉球石灰岩拱形砌築。"
+    sources:
+      - "heritage"
+  interpretability:
+    score: 3
+    note: "可由遺構外形與解說理解故事，部分細節需史料輔助。"
+    sources:
+      - "heritage"
+  visitorValue:
+    score: 2
+    note: "適合短暫文化停留；僅限公開外側，不保證內部開放或現場路況。"
+    sources:
+      - "heritage"
+  evidenceQuality:
+    score: 3
+    note: "已抓取官方詳介及另頁具名核對；地圖為官方 pin，非現地視覺驗證。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  final: 3.4
+sources:
+  -
+    id: "heritage"
+    title: "【県指定：史跡】下地町の池田矼～しもじちょうのいけだばし～"
+    publisher: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo609/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "古橋靠近崎田川河口，採琉球石灰岩拱形砌築。"
+      - "一七二七年已有尺寸記錄，一八一七年曾與下地矼道一起大修。"
+      - "具名文化財地理位置及實際 Google Maps 圖釘。"
+  -
+    id: "corroboration"
+    title: "宮古島市の文化財：下地町の池田矼"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "同名文化財身分及所屬地區交叉核對。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際重新抓取來源，依明載事實編寫繁體中文口語導覽；未確認旅行當日開放、路況或活動。"
+    - "Google 原始連結已實際請求，但僅回傳需 JavaScript 頁面；以官方 pin 與另頁具名資料佐證，不宣稱視覺驗證。"
+    - "全新點 media: []，未新增照片或宣稱任何媒體授權已認證；待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "採宮古島市教育委員會公認文化財頁「【県指定：史跡】下地町の池田矼」實際 Google pin 24.753347,125.285709，另以具名官方資料核對身分；圖釘為遺構本體，僅外側公共參觀，並非洞內、墓室或導航入口。Google GET 回傳 JavaScript 提示，未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo609/"
+      title: "【県指定：史跡】下地町の池田矼～しもじちょうのいけだばし～"
+      coordinateEvidence: "本次抓取具名官方頁面的原始 Google Maps href：https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.753347,+125.285709&aq=&sll=24.812376,125.20851&sspn=0.017471,0.033023&gl=jp&brcurrent=3,0x34f455b8f48b2da7:0x97988004ea40c77c,0&ie=UTF8&t=m&ll=24.763355,125.289459&spn=0.031175,0.047121&z=14&iwloc=near；採 q 擷取 24.753347,125.285709。不採 ll／sll／@ 視窗中心；定位為文化財本體，非入口測量。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+      title: "宮古島市の文化財：下地町の池田矼"
+      coordinateEvidence: "另行抓取具名文化財資料，核對同一文化財名稱及所屬地區；此頁作身分／地址佐證，不另提供入口座標。"
+  verifiedLocation:
+    latitude: 24.753347
+    longitude: 125.285709

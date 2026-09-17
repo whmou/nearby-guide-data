@@ -1,111 +1,122 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-botanical-bingata
+  id: "jp-miyakojima-botanical-bingata"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "紅型染色體驗工房"
-  summary: "紅型（Bingata）是源自琉球王朝的傳統防染染色工藝，以鮮豔的珊瑚色、海藍色描繪熱帶花鳥圖案，宮古島各工房提供親手製作手巾或扇子的體驗課程，是最受台灣旅客歡迎的文化活動之一。"
-  narration: |
-    紅型的「紅」在古琉球語中泛指所有鮮豔色彩，「型」則指紙模板染印的技法——將型紙放在布料上，以豬油混合天然顏料的「糊」填入鏤空花紋，再以天然染料上色，最後水洗固色，便呈現出那種飽和卻不俗氣的琉球獨特色調。
-
-    走進工房，桌上已備好刻好花紋的型紙、顏料盤與刮刀。工作人員會先示範如何將型紙固定在布上，再引導你一格一格填入色彩。第一刀下去可能手會有些抖，但很快就會沉浸在填色的節奏裡。宮古島工房常見的圖案有宮古藍的珊瑚礁、紅色扶桑花、橘黃色鳳梨——每一個都像是這座島嶼在布料上的縮影。完成後的作品當場晾乾，帶走當伴手禮既獨一無二又輕薄好攜帶。
-  observationPrompt: "觀察工房展示的型紙（鏤空模板）——數一數一張型紙上大約有多少個鏤空花紋，感受職人刻製這些細緻圖案所需的工夫。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: indoor
-          label: 室內
-    - id: subject
-      label: 主題
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: art
-          label: 藝術工藝
-    - id: experience
-      label: 體驗
+        -
+          id: "art"
+          label: "藝術工藝"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 手作體驗
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "手作體驗"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 需付費
+        -
+          id: "ticketed"
+          label: "需付費"
   indoor: true
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 需先確認具名業者及已預約工作坊的集合地點。
+  locationHint: "紅型工藝主題，尚未確認宮古島具名體驗工房；不是可抵達的室內場館定位，請先另行核對工房名稱與地址。"
+  summary: "紅型型染的工藝主題，從防染糊、豆汁與漸層上色認識布面；尚未指定宮古島某一間體驗工房。"
+  narration: |
+    看一塊紅型布時，可以先找圖案邊緣那些沒有被顏色吃掉的細線。它們不只是畫得仔細，也和「先擋住顏色」的工序有關。藤崎紅型工房公開的型染流程說明，工匠把型紙放在布上，塗上米糠與糯米調製的防染糊；糊不是豬油，也不是最後留在作品上的顏料。接著，豆汁處理幫助顏料定著、減少暈開，再一層層上色。日文叫「隈取」的漸層，則讓平面的花葉多出表情。蒸過定色、洗去糊之後，先前被遮住的部分才清楚顯現。下次看到成品，可以比較同一片葉子的深淺和輪廓，想一想哪些地方靠筆刷，哪些地方靠事前留白。這裡介紹的是工藝，不是已核實的宮古島店家；若想親手體驗，仍要另找具名工房確認課程，不預設當天能完成全部流程或立刻帶走作品。
+  observationPrompt: "觀看紅型成品或另行確認的體驗示範時，比較輪廓留白與隈取漸層；這筆不提供未具名工房的導航。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "紅型是琉球重要的傳統工藝，但在宮古島的體驗設施為推廣性商業場所，文化意義次於沖繩本島的正統傳承機構。"
-    sources: [src1]
+    note: "紅型是有完整工序可理解的工藝主題。"
+    sources:
+      - "bingata-process"
   distinctiveness:
-    score: 4
-    note: "紅型工藝為琉球所獨有，在宮古島能親手操作完整染色流程的體驗設施不多，具有明確的地方獨特性。"
-    sources: [src1]
+    score: 3
+    note: "防染糊與隈取形成辨識特色。"
+    sources:
+      - "bingata-process"
   interpretability:
-    score: 4
-    note: "現場工作人員全程引導，體驗流程設計清楚，即使完全沒有手工藝背景的旅客也能完成作品。"
-    sources: [src2]
+    score: 3
+    note: "可由成品輪廓與漸層對照工序。"
+    sources:
+      - "bingata-process"
   visitorValue:
-    score: 5
-    note: "動手參與度極高，作品可直接帶走；親子、情侶或個人旅行者均適合，體驗時間約1.5至2小時，CP值高。"
-    sources: [src2]
+    score: 1
+    note: "尚無具名在地工房，不能規劃到訪。"
+    sources:
+      - "bingata-process"
   evidenceQuality:
     score: 3
-    note: "紅型工藝有充分的歷史記載；宮古島體驗設施的資料主要來自旅遊網站，學術性稍弱。"
-    sources: [src1]
-  final: 3.8  # 0.30*3 + 0.25*4 + 0.20*4 + 0.15*5 + 0.10*3 = 0.90+1.00+0.80+0.75+0.30 = 3.75 → 3.8
+    note: "工匠第一手流程可支持技法，不能支持宮古島店址。"
+    sources:
+      - "bingata-process"
+  final: 2.7
 sources:
-  - id: src1
-    title: "紅型 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E7%B4%85%E5%9E%8B
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "bingata-process"
+    url: "https://www.bingata-fujisaki.com/process"
+    title: "工程 — 紅型制作"
+    publisher: "藤崎紅型工房"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "紅型是琉球王朝時代發展出的傳統染色工藝，以型紙防染搭配天然顏料為主要技法"
-      - "圖案以熱帶花鳥、珊瑚礁及龍鳳為常見主題，色彩鮮豔飽和"
-  - id: src2
-    title: "宮古島文化体験 - 観光みやこじま"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "宮古島市內有多處提供紅型染色體驗的工房，適合親子與情侶參與"
-      - "體驗課程通常包含手巾或扇子的染色，費用約2,000至3,500日圓"
+      - "型染以米糠與糯米製防染糊，非豬油。"
+      - "豆汁處理有助顏料定著；隈取以漸層製造表情，蒸後洗去防染糊。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Bingata_kimono_Okinawa.png
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Bingata_kimono_Okinawa.png"
     creator: "Unknown Ryukyu artisans. Photo by Museum"
     license: "Public domain"
-    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    licenseUrl: "https://creativecommons.org/publicdomain/mark/1.0/"
     accessedAt: "2026-07-15"
     originalSha256: "31fffc08f8028efbb6b18065d6b0e85e33603fe5da71399e2127f44fbcf2dee9"
-    compactPath: media/compact/jp-miyakojima-botanical-bingata.webp
-    completePath: media/complete/jp-miyakojima-botanical-bingata.webp
+    compactPath: "media/compact/jp-miyakojima-botanical-bingata.webp"
+    completePath: "media/complete/jp-miyakojima-botanical-bingata.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "修正以豬油防染的錯誤；不把引用的藤崎工房改寫為本地體驗工房，不保證預約、材料或當日交件。"
+    - "原條目沒有工房正式名稱、地址或可匹配的Google listing；本次以實抓工匠工序頁校正技法，該工房不是用來冒充宮古島店家的定位來源。保留紅型工藝主題為non_point，不建立位置、觸發或導航。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。保留的是一般紅型衣物題材，不視為宮古島特定店家或本次體驗成品。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: YAML describes multiple unnamed bingata workshops; it does not identify one venue. A real workshop elsewhere cannot justify this pin. Keep as a craft-experience theme.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "原條目沒有工房正式名稱、地址或可匹配的Google listing；本次以實抓工匠工序頁校正技法，該工房不是用來冒充宮古島店家的定位來源。保留紅型工藝主題為non_point，不建立位置、觸發或導航。"
   sources:
-  - url: https://www.miyakojima-cci.jp/content/wp-content/uploads/2025/12/1766734722.pdf
-    title: 宮古島商工会議所 — 宮古島紅型作家
-    coordinateEvidence: No matching coordinate extracted. https://www.miyakojima-cci.jp/content/wp-content/uploads/2025/12/1766734722.pdf describes a particular artist's hotel workshops and future studio plans, not the unnamed central-Hirara workshop claimed in the YAML.
+    -
+      url: "https://www.bingata-fujisaki.com/process"
+      title: "工程 — 紅型制作"
+      coordinateEvidence: "實抓工藝作者製作說明，非宮古島具名課程地址；僅支持工藝主題，不採此工房為原記錄的導航點。"
   previousLocation:
     latitude: 24.800128
     longitude: 125.31566
-  verifiedLocation: null

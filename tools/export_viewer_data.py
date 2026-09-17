@@ -54,7 +54,7 @@ def main() -> None:
                 "observationPrompt": p.get("observationPrompt", ""),
                 "lat": loc.get("latitude"),
                 "lng": loc.get("longitude"),
-                "locationHint": p.get("locationHint") or loc.get("locationHint", ""),
+                "locationHint": p.get("locationHint", loc.get("locationHint")),
                 "locationReview": raw.get("locationReview"),
                 "googleMapsUrl": p.get("googleMapsUrl"),
                 "indoor": p.get("indoor", False),

@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: venue
   title: "宮古島海中公園"
-  summary: "日本少數設有水下觀察室的海洋公園，步道延伸至海中觀察室可在水面下直接觀察珊瑚礁與熱帶魚，無需潛水即能體驗海底世界。"
+  summary: "狩俣的海中觀察設施，以24扇壓克力窗觀看自然海域；官方路線終點是陸上接待區，輪椅升降機故障公告須出發前確認。"
   narration: |
-    宮古島海中公園的最大特色是一條延伸入海中的棧橋，盡頭連接一個建在珊瑚礁上的水下觀察室。沿著螺旋梯走到水面以下約一公尺處，透過強化玻璃窗，珊瑚礁群就在眼前展開，各種熱帶魚穿梭其中。這種觀看方式無需任何潛水技能或裝備，讓老人和孩子也能清楚看見平時只有潛水員才能接近的珊瑚生態。水上部分還有玻璃底觀光船可預約，從水面上直視水底，效果同樣震撼。天氣晴朗時水下能見度極高，午前光線最好。
-  observationPrompt: "在水下觀察窗前，找找有沒有藍色的雀鯛（シリキルリスズメダイ）聚集在珊瑚枝叉間——牠們的身體有多小？"
+    先留意管理棟像龜殼的輪廓，這座建築把入口設計成了認識海洋的第一個提示。宮古島海中公園的主角則在階梯下方：大約海面下四公尺的觀察空間，透過二十四扇壓克力窗，讓人穿著平常的衣服看向真正的海。這裡不是把魚養進水槽，再排好一場表演；官方特別提醒，海況和天氣會改變每天的畫面，魚群出現的種類也不固定。不妨先在一扇窗前看一會兒，分辨岩石、海底和移動中的小小輪廓，再換個角度比較光線。需要注意的是，官網八月十五日公告輪椅用階梯升降機故障，修復時間尚未確定；九月行程若需要無障礙協助，務必先向園方確認，不要把有室內觀察室誤當成全程無階梯。
+  observationPrompt: "在已開放的觀察窗前，能分出固定的海底地形和移動中的生物嗎？不同窗戶的光線是否一樣？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -37,83 +37,72 @@ point:
         - id: limited-hours
           label: 限時開放
   indoor: true
-  location:
-    latitude: 24.8788312
-    longitude: 125.2749104
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8788312,125.2749104
-  trigger:
-    radiusMeters: 80.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 宮古島海中公園的陸上抵達點，位於業者行車路線終點，地址為平良字狩俣2511-1。請依標示前往接待處；此圖釘並非離岸觀察室的位置。
+  location: {"latitude":24.8788312,"longitude":125.2749104}
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8788312,125.2749104"
+  trigger: {"radiusMeters":80,"dwellMillis":2000,"rearmDistanceMeters":1000}
+  locationHint: "業者官方Google My Maps機場行車路線終點，為平良狩俣2511-1陸上接待區，非離岸觀察室；館內觀察需購票。2026-08-15公告輪椅階梯升降機故障且修期未定，需無障礙協助者先洽園方確認。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "日本少見的水下觀察設施，讓非潛水者也能接觸珊瑚礁生態，具有環境教育與觀光雙重價值。"
-    sources: [miyakojima-marine-park-official]
+    score: 3
+    note: "讓不潛水者接觸自然海域的地方設施。"
+    sources: ["parkfac","parkaccess","parkocvb","parklift"]
   distinctiveness:
-    score: 5
-    note: "水下觀察室在日本沖繩僅少數幾處存在，無需裝備即能近距離觀察珊瑚礁的體驗極為稀有。"
-    sources: [miyakojima-marine-park-official]
+    score: 4
+    note: "固定海中窗觀看自然海域有特色。"
+    sources: ["parkfac","parkaccess","parkocvb","parklift"]
   interpretability:
     score: 5
-    note: "透過玻璃窗直視水下，珊瑚與魚類清晰可辨，自明性極高，現場有魚種說明牌輔助識別。"
-    sources: [miyakojima-marine-park-official]
+    note: "建築造型與觀察窗有具體解說依據。"
+    sources: ["parkfac","parkaccess","parkocvb","parklift"]
   visitorValue:
-    score: 3
-    note: "需購票，開放時間09:00-17:30，颱風或天候不佳時水下能見度降低甚至暫停，需自駕前往。"
-    sources: [miyakojima-marine-park-official]
+    score: 2
+    note: "購票並受海況影響；最新升降機故障限制無障礙使用。"
+    sources: ["parkfac","parkaccess","parkocvb","parklift"]
   evidenceQuality:
-    score: 4
-    note: "設施官方網站資料完整，宮古島市觀光協會亦有收錄，設施存在及特色有充分佐證。"
-    sources: [miyakojima-marine-park-official]
-  final: 4.3
-  # 0.30×4 + 0.25×5 + 0.20×5 + 0.15×3 + 0.10×4 = 1.20+1.25+1.00+0.45+0.40 = 4.30
+    score: 5
+    note: "業者詳細設施頁、最新公告、官方KML及縣觀光頁交叉核對。"
+    sources: ["parkfac","parkaccess","parkocvb","parklift"]
+  final: 3.7
 sources:
-  - id: miyakojima-marine-park-official
-    title: "宮古島海中公園"
+  - id: parkfac
+    title: "施設紹介 — 宮古島海中公園"
     publisher: "宮古島海中公園"
-    url: https://www.miyakojima-marine-park.com/
-    accessedAt: "2026-07-15"
+    url: "https://miyakojima-kaichukoen.com/facilities/"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "設有水下觀察室，可在水面下直接觀察珊瑚礁"
-      - "開放時間09:00-17:30"
-      - "提供玻璃底觀光船服務"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "4a5f3e37e7e0219f1ec96920eb428acb508647cc1d3eb59caf374a9b667004aa"
-    compactPath: media/compact/jp-miyakojima-marine-park.webp
-    completePath: media/complete/jp-miyakojima-marine-park.webp
+    supports: ["管理棟以龜殼為造型；階梯通往約海面下4公尺的海中觀察空間。","設有24扇壓克力觀察窗，觀看自然海域，景象受天候海況影響。"]
+  - id: parkaccess
+    title: "アクセス — 宮古島海中公園"
+    publisher: "宮古島海中公園"
+    url: "https://miyakojima-kaichukoen.com/accesspage/"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["官網提供從機場開車前往園區的Google My Maps路線，地址平良字狩俣2511-1。"]
+  - id: parkocvb
+    title: "宮古島海中公園"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/spot/600010270"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["地址平良狩俣2511-1，設陸上停車及海中觀察設施；海況惡化可能休園。"]
+  - id: parklift
+    title: "車いす用階段昇降機の故障について（2026年8月15日）"
+    publisher: "宮古島海中公園"
+    url: "https://miyakojima-kaichukoen.com/blog/2026/08/post-404.php"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["2026-08-15公告輪椅用階梯升降機故障，修繕日期尚未確定。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除海下1公尺、螺旋梯、附設玻璃底船與保證能見度等無依據敘述。","保留8月15日故障公告的日期及修期未定，不宣稱已電話確認9月23–27日設施狀態。","移除 File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg：宮古機場不能代表海中公園；未另配島嶼照片或改動影像檔。"]
 locationReview:
-  status: verified
-  anchorType: entrance
-  checkedAt: '2026-09-16'
-  reason: Use the official access-map route's destination Point instead of the separate general facility marker (the YAML's old coordinates). North Miyako/狩俣, not near Yoshino Beach. Arrival is publicly routed to land-side facilities; paid access applies inside.
-  sources:
-  - url: https://miyakojima-kaichukoen.com/accesspage/
-    title: 宮古島海中公園 — official access map
-    coordinateEvidence: https://miyakojima-kaichukoen.com/accesspage/ embeds https://www.google.com/maps/d/embed?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN and says it shows the driving route from the airport.
-  - url: https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1
-    title: Operator-published Google My Maps KML — airport to marine park
-    coordinateEvidence: 'Read-only KML at https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1: the route-associated Placemark named 宮古島海中公園 has Point/coordinates 125.2749104,24.8788312,0 (longitude,latitude,altitude). The route LineString ends 125.27491,24.87883,0. A separate general park marker is 125.2747111,24.8787444,0; it was NOT used as the arrival point.'
-  - url: https://www.okinawastory.jp/spot/600010270
-    title: おきなわ物語 — 宮古島海中公園
-    coordinateEvidence: https://www.okinawastory.jp/spot/600010270 corroborates 平良狩俣2511-1, public opening and free 50-space parking. No second numeric coordinate extracted.
-  previousLocation:
-    latitude: 24.8787444
-    longitude: 125.2747111
-  verifiedLocation:
-    latitude: 24.8788312
-    longitude: 125.2749104
+  status: "verified"
+  anchorType: "entrance"
+  checkedAt: "2026-09-16"
+  reason: "重抓業者accesspage原始Google My Maps iframe及公開KML，具名行車終點「宮古島海中公園」Point座標為125.2749104,24.8788312,0（經度、緯度、高度）。保留此陸上抵達點，不改用另一個一般公園marker；縣觀光頁及即時Maps同名、狩俣2511-1地址佐證。"
+  sources: [{"url":"https://miyakojima-kaichukoen.com/facilities/","title":"施設紹介 — 宮古島海中公園","coordinateEvidence":"2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"},{"url":"https://miyakojima-kaichukoen.com/accesspage/","title":"アクセス — 宮古島海中公園","coordinateEvidence":"2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.com/maps/d/embed?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN。官網iframe所屬公開KML https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1 中，行車路線終點具名Placemark「宮古島海中公園」Point/coordinates=125.2749104,24.8788312,0，順序為經度、緯度、高度。採24.8788312,125.2749104；另一個同名一般marker125.2747111,24.8787444不替換抵達點。"},{"url":"https://www.okinawastory.jp/spot/600010270","title":"宮古島海中公園","coordinateEvidence":"2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"},{"url":"https://miyakojima-kaichukoen.com/blog/2026/08/post-404.php","title":"車いす用階段昇降機の故障について（2026年8月15日）","coordinateEvidence":"2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E5%AE%AE%E5%8F%A4%E5%B3%B6%E6%B5%B7%E4%B8%AD%E5%85%AC%E5%9C%92%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 即時Chrome頁面：宮古島海中公園 宮古島","coordinateEvidence":"讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：宮古島海中公園。同名、地址與官方景點相符；未取得可採用的place數字座標，不解析@視窗中心。 即時頁面地址為沖縄県宮古島市平良狩俣2511-1，連出的業者網站為miyakojima-kaichukoen.com。"}]
+  previousLocation: {"latitude":24.8787444,"longitude":125.2747111}
+  verifiedLocation: {"latitude":24.8788312,"longitude":125.2749104}

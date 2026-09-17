@@ -1,108 +1,114 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-shimajiri-beach
+  id: "jp-miyakojima-shimajiri-beach"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "前浜東岸"
-  summary: "前浜海灘東段是與那霸前浜7公里長沙灘的較安靜區域，遊客較少，是欣賞宮古島日出的絕佳地點，清晨時分金色光芒映照在宮古藍海面上景色迷人。"
-  narration: |
-    與那霸前浜是日本最美海灘排行榜的常客，但多數遊客只到達靠近停車場的中西段，東岸這一帶反而保留了一分清幽。這裡的沙灘同樣細白如粉，海水同樣清澈見底，卻少了人潮的喧嚷。清晨時分，東方天際逐漸泛紅，陽光從地平線升起的第一道光線便會灑落在這片海面上，海水從墨藍轉為橙金、再化為翠藍，短短半小時之內呈現三種截然不同的色調。這裡也是浮潛的好地方，珊瑚礁緊鄰沙灘外緣，熱帶魚豐富。若想在前浜找到屬於自己的一片靜謐，請往東走。
-  observationPrompt: "觀察東岸沙灘上的沙粒紋路——是否能看到退潮留下的波浪紋？試著找找看沙灘上有沒有貝殼或珊瑚碎片，辨認看看是哪種貝類。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "「前浜東岸」未查得獨立景點或入口；這筆只說明與那霸前濱的海岸背景，不將名稱疑點轉成另一個GPS。"
+  narration: "白沙與海水交界的線條，可以慢慢看；但出發前，先把地名弄清楚，會比跟著一個看似精準的圖釘更重要。舊資料把這筆叫作「前浜東岸」，識別碼卻寫著島尻，兩者無法直接對上，本次也沒有查得獨立景點或正式入口。能確認的是，官方介紹的與那霸前濱位於下地與那霸，白沙綿延約七公里，當地也稱它「マイパマ」；那是一個已有其他導覽紀錄的真實海灘，不能悄悄拿它來替這個疑似誤記的名稱補座標。原本宣稱的東岸日出、固定少人與往東就有珊瑚，都缺乏支持，請不要照著這些方向尋路。若已在經確認的前濱公共範圍，看看乾濕沙面的分界與海色色帶就很好；這筆暫時只留作地名釐清與海岸閱讀，不是可執行的抵達指引。\n"
+  observationPrompt: "若已在另行確認的前濱公共範圍，觀察乾濕沙面分界與海色色帶；不要按「東岸」這個未核實名稱尋找新入口。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 「前浜東岸」沒有確認為獨立具名景點；請勿把這筆當成島尻海灘或與那霸前濱另一個已核實入口。
+  locationHint: "「前浜東岸」尚未確認為獨立景點，且與shimajiri識別碼不一致；無導航、無自動觸發。勿據此尋找島尻海灘或前濱東側入口。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "屬於日本最美海灘前浜的一部分，東段以較少人潮與日出景色獨具特色。"
-    sources: [src1]
+    score: 1
+    note: "官方與那霸前濱地址下地字與那霸1199-1，白沙約7公里，當地又稱マイパマ。"
+    sources:
+      - "src1"
   distinctiveness:
-    score: 3
-    note: "前浜各段海灘景色相似，東段的差異化主要在於人潮較少與日出方位優勢。"
-    sources: [src1]
+    score: 1
+    note: "該官方頁描述的是與那霸前濱整體，不能佐證獨立「前浜東岸」入口、日出方位或固定少人。"
+    sources:
+      - "src1"
   interpretability:
-    score: 3
-    note: "純自然海灘景觀，日出時間訊息需額外說明，整體解讀門檻低。"
-    sources: [src2]
+    score: 1
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
   visitorValue:
-    score: 4
-    note: "對攝影愛好者與早起旅客而言是前浜最具價值的區段，日出景色無需費用。"
-    sources: [src2]
+    score: 0
+    note: "本筆不提供固定導航；需另確認實際場所或業者安排。"
+    sources:
+      - "src1"
   evidenceQuality:
-    score: 3
-    note: "與那霸前浜整體資料充足，但專門針對東段的文獻較少。"
-    sources: [src1]
-  final: 3.2   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.9+0.75+0.6+0.6+0.3 = 3.15 → 3.2
+    score: 2
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 1
 sources:
-  - id: src1
-    title: "与那覇前浜 | 沖縄観光情報WEBサイト おきなわ物語"
-    publisher: "沖縄県文化観光スポーツ部"
-    url: https://www.okinawastory.jp/spot/600043
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://www.okinawastory.jp/spot/1089"
+    title: "与那覇前浜ビーチ | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "與那霸前浜全長約7公里，被評為日本最美海灘"
-      - "海水透明度極高，沙粒細白"
-  - id: src2
-    title: "与那覇前浜ビーチ | 宮古島観光ナビ"
-    publisher: "宮古島市観光商工局"
-    url: https://www.miyako-guide.net/spot/spot.php?id=2
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "海灘東段遊客較少，日出景色佳"
-      - "適合浮潛，沙灘外緣有珊瑚礁"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_maipama_1.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "822b2cc0a4efe977ad3045c867ae0487483ed384aec3d86b7f6ef2b9852312c5"
-    compactPath: media/compact/jp-miyakojima-shimajiri-beach.webp
-    completePath: media/complete/jp-miyakojima-shimajiri-beach.webp
+      - "官方與那霸前濱地址下地字與那霸1199-1，白沙約7公里，當地又稱マイパマ。"
+      - "該官方頁描述的是與那霸前濱整體，不能佐證獨立「前浜東岸」入口、日出方位或固定少人。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除未支持的東方日出、安靜區與浮潛方向；沒有為保留GPS將發明式子景點改名成其他實體。"
+    - "移除原媒體紀錄：Miyako_maipama_1.jpg是與那霸前濱泛景，不能證明未核實的「前浜東岸」子景點；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact-name search and official Maehama beach page do not establish a separate eastern sunrise beach matching this id and narrative. Existing point is near Maehama, but proximity alone cannot prove the invented-looking subsite label or its access; the genuine beach has a separate verified record.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取OCVB與那霸前濱頁並檢視主線Chrome「前浜東岸」搜尋，僅得到與那霸前濱、其停車場與前濱港等其他具名候選，沒有此獨立東岸景點。保留原ID與標題待釐清，不把附近真實海灘更名代入。"
   sources:
-  - url: https://www.okinawastory.jp/spot/1089
-    title: 与那覇前浜ビーチ｜おきなわ物語
-    coordinateEvidence: Official exact q=24.73510742,125.26185608 identifies 与那覇前浜ビーチ, not a distinct 前浜東岸 or 島尻 beach. Not reused to silently replace the ambiguous entity.
+    -
+      url: "https://www.okinawastory.jp/spot/1089"
+      title: "与那覇前浜ビーチ | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "本次重抓官方place q=24.73510742,125.26185608；其名為与那覇前浜ビーチ，不等於未核定前浜東岸或島尻海灘，未採座標。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E6%B5%9C%E6%9D%B1%E5%B2%B8%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "前浜東岸 宮古島 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:38:02.010Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=。原始分享 href=無；resolvedShareUrl=無；具名結果 href=[{\"text\":\"与那覇前浜\",\"href\":\"https://www.google.com/maps/place/%E4%B8%8E%E9%82%A3%E8%A6%87%E5%89%8D%E6%B5%9C/data=!4m7!3m6!1s0x34f4559004ecf939:0x4a5129e59bbe4503!8m2!3d24.7349726!4d125.2629745!16s%2Fg%2F11b6yq67r6!19sChIJOfnsBJBV9DQRA0W-m-UpUUo?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"与那覇前浜ビーチ\",\"href\":\"https://www.google.com/maps/place/%E4%B8%8E%E9%82%A3%E8%A6%87%E5%89%8D%E6%B5%9C%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f455007abe9961:0xe9b8ff5a8b90163b!8m2!3d24.7347422!4d125.26264!16s%2Fg%2F11vyrzj8lf!19sChIJYZm-egBV9DQROxaQi1r_uOk?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"来間前浜港\",\"href\":\"https://www.google.com/maps/place/%E6%9D%A5%E9%96%93%E5%89%8D%E6%B5%9C%E6%B8%AF/data=!4m7!3m6!1s0x34f4559b74f05b31:0x16f142a40fb7d4f5!8m2!3d24.7338909!4d125.265195!16s%2Fg%2F11byygy953!19sChIJMVvwdJtV9DQR9dS3D6RC8RY?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"与那覇前浜ビーチ駐車場\",\"href\":\"https://www.google.com/maps/place/%E4%B8%8E%E9%82%A3%E8%A6%87%E5%89%8D%E6%B5%9C%E3%83%93%E3%83%BC%E3%83%81%E9%A7%90%E8%BB%8A%E5%A0%B4/data=!4m7!3m6!1s0x34f455202861ccb1:0x44411246b39851a4!8m2!3d24.735232!4d125.262731!16s%2Fg%2F11h1y9yg5f!19sChIJscxhKCBV9DQRpFGYs0YSQUQ?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"HEATH前浜\",\"href\":\"https://www.google.com/maps/place/HEATH%E5%89%8D%E6%B5%9C/data=!4m10!3m9!1s0x34f455a97c820d21:0xc67289b824bff8b5!5m2!4m1!1i2!8m2!3d24.7503!4d125.2675416!16s%2Fg%2F11l5zcmhfd!19sChIJIQ2CfKlV9DQRtfi_JLiJcsY?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"前浜港駐車場\",\"href\":\"https://www.google.com/maps/place/%E5%89%8D%E6%B5%9C%E6%B8%AF%E9%A7%90%E8%BB%8A%E5%A0%B4/data=!4m7!3m6!1s0x34f4559c5f3d9ddb:0x3f3cc89f81b92264!8m2!3d24.7346978!4d125.265777!16s%2Fg%2F11f38vlb24!19sChIJ2509X5xV9DQRZCK5gZ_IPD8?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"与那覇ビーチ北\",\"href\":\"https://www.google.com/maps/place/%E4%B8%8E%E9%82%A3%E8%A6%87%E3%83%93%E3%83%BC%E3%83%81%E5%8C%97/data=!4m7!3m6!1s0x34f455ca1ac557c9:0xace369cc599907b2!8m2!3d24.7485844!4d125.2579108!16s%2Fg%2F11t4gx41nx!19sChIJyVfFGspV9DQRsgeZWcxp46w?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1\"}]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。候選清單無「前浜東岸」；不把其中任何海灘、停車場或港口feature移植到本ID。"
   previousLocation:
     latitude: 24.73472
     longitude: 125.26278

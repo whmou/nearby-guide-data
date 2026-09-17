@@ -1,120 +1,130 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-harimizu-utaki
+  id: "jp-miyakojima-harimizu-utaki"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "漲水御嶽"
-  summary: "漲水御嶽是宮古島最神聖的御嶽（聖林）之一，數百年來是島民舉行祈雨、豐年祭等儀式的靈性中心，在市區鬧中取靜，至今仍供奉香火。"
-  narration: |
-    在宮古島的信仰世界裡，御嶽（utaki）是最神聖的場所——那是與神靈溝通、傳遞祈願的自然聖所。漲水御嶽正是宮古諸島中地位最崇高的御嶽之一，藏身於市區的一片古老樹林之中，與周圍的街道形成強烈對比。
-
-    御嶽的信仰根植於宮古島原有的精靈崇拜傳統，早在琉球王國統治之前便已存在。島民相信聖林之中居住著守護宮古島的神靈，每逢旱季或重大節日，掌管儀式的女性神官（ツカサ）會在此主持祈禱，祈求降雨與五穀豐收。這項傳統雖隨時代更迭而逐漸式微，但漲水御嶽至今仍有居民前來奉香祭拜，神聖氣息未曾消散。
-
-    踏入聖林的那一刻，氣溫彷彿降了幾度，光線透過枝葉篩落，空氣中帶著潮濕的土壤氣息。這裡不只是觀光景點，更是宮古人精神生活的延續——請輕聲行走，帶著尊重走進這片神域。
-  observationPrompt: "觀察御嶽中央的祭祀台或石砌祭壇，留意是否有鮮花、香或貝殼等供品——這些是島民近期祭拜留下的痕跡，代表御嶽的信仰傳統至今仍在延續。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: religion
-          label: 宗教
-    - id: experience
-      label: 體驗
+        -
+          id: "religion"
+          label: "宗教"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.807268
     longitude: 125.27951
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.807268,125.27951
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.807268,125.27951"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 漲水御嶽的參拜處，鄰近公共石板參道；請尊重祭祀活動及禁止進入的神聖區域。此圖釘標示御嶽所在地，不代表可進入其神聖林地。
+    rearmDistanceMeters: 1000
+  locationHint: "官方文化資產圖釘指向漲水御嶽所在地及鄰近參拜處，非神聖林地入口；只在開放石板參道與參拜範圍停留，祭祀時禮讓並遵守禁入標示。"
+  summary: "從御嶽南側石垣讀宮古的創世傳說與奉納記憶；這裡仍是信仰場所，請在開放參拜範圍安靜觀察。"
+  narration: |
+    先看御嶽旁一塊接一塊的石頭，別急著往樹林裡走。漲水御嶽和宮古島的起源故事緊緊相連，官方文化資產介紹提到創世與人蛇婚的傳說；這些是島民理解自身來處的故事，不是可以逐句當成史實的年代紀錄。南側石垣則有另一條線索：忠導氏本宗家譜記載，仲宗根豊見親在一五〇〇年赴八重山作戰前許願，戰後以築牆奉納。牆因此保存了信仰，也留下戰爭時代的記憶。但官方特別提醒，別只記住領袖的名字，石垣同樣是許多民眾勞動與石造技術的成果。你可以在允許參拜的外側，看看不規則石塊怎麼彼此配合。把目光從英雄故事移回一雙雙搬石、砌石的手，這道牆就多了一層日常的重量；若有人祭祀，請留出空間，安靜等候。
+  observationPrompt: "從開放參拜處觀察南側石垣如何排列不規則石塊；不跨越祭祀界線、不觸碰供物。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "宮古島地位最崇高的御嶽之一，是沖繩固有靈性信仰體系的核心場所，文化重要性極高"
-    sources: [src1, src2]
+    note: "市指定史跡與地方信仰的重要據點。"
+    sources:
+      - "harimizu-heritage"
   distinctiveness:
     score: 4
-    note: "御嶽信仰為宮古島特有的文化現象，與一般神社或佛寺截然不同，具有高度獨特性"
-    sources: [src1]
+    note: "石垣連結家譜與地方創世傳說。"
+    sources:
+      - "harimizu-heritage"
   interpretability:
     score: 3
-    note: "現場說明有限，若無背景知識難以充分理解其文化意涵；但環境氛圍本身已能傳達神聖感"
-    sources: [src2]
+    note: "可由外部石造直接理解，傳說與史料分開說明。"
+    sources:
+      - "harimizu-heritage"
   visitorValue:
     score: 3
-    note: "對文化與靈性有興趣的訪客體驗深刻；一般觀光客可能需要較多背景說明才能充分欣賞"
-    sources: [src1]
+    note: "適合安靜短訪，祭祀及禁入範圍優先。"
+    sources:
+      - "harimizu-heritage"
   evidenceQuality:
-    score: 3
-    note: "資料來自宮古島文化研究及沖繩觀光資訊，可信度合理"
-    sources: [src1, src2]
-  final: 3.6   # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+    score: 5
+    note: "重抓教育委員會公認頁及Google具名條目。"
+    sources:
+      - "harimizu-heritage"
+  final: 3.8
 sources:
-  - id: src1
-    title: "宮古島の御嶽信仰 - おきなわ物語"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.okinawastory.jp/feature/3200020
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "harimizu-heritage"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo738/"
+    title: "【市指定：史跡】漲水御嶽と石垣"
+    publisher: "宮古島市教育委員会公認・綾道"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "御嶽信仰的文化背景及其在宮古島的重要性"
-      - "漲水御嶽作為最重要御嶽之一的地位"
-  - id: src2
-    title: "宮古島観光情報 - 漲水御嶽"
-    publisher: "宮古島市観光商工課"
-    url: https://www.city.miyakojima.lg.jp/kanko/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "御嶽與宮古創世、人蛇婚傳說相關，屬傳說而非史實。"
+      - "忠導氏本宗家譜記載南側石垣與仲宗根豊見親1500年戰後奉納有關。"
+      - "官方強調石垣也是民眾勞動及石造技術的成果。"
+  -
+    id: "google-live"
+    title: "Google Maps — 漲水御嶽"
+    url: "https://www.google.com/maps/place/%E6%BC%B2%E6%B0%B4%E5%BE%A1%E5%B6%BD/@24.8073672,125.2796286,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538cdcf70001:0x6a1d4151fb0f386c!8m2!3d24.8073672!4d125.2796286!16s%2Fg%2F122hv6l6?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=683159f0-c57e-4944-8359-e5a25af2c5b6"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "御嶽的地理位置及訪客注意事項"
-      - "宮古島傳統信仰習俗的現況"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_07.jpg
-    creator: "Hyppolyte de Saint-Rambert"
-    license: "CC BY 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "30352e459e7c4c9250a02d3d7fc6ae13645f278809bb9436b897a8dd85aa8bd9"
-    compactPath: media/compact/jp-miyakojima-harimizu-utaki.webp
-    completePath: media/complete/jp-miyakojima-harimizu-utaki.webp
+      - "Google具名漲水御嶽與官方名稱相符；place座標24.8073672,125.2796286僅作身份佐證，保留官方q參拜側座標。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "刪除未證實的現場感官描寫；將創世、人蛇婚明標傳說，奉納故事歸屬家譜記載，不美化戰爭。"
+    - "重抓教育委員會公認文化資產頁的原始Google href，採q=24.807268,125.279510而非sll/ll視窗。主流程Chrome的具名御嶽條目佐證身份；其place中心稍異，不覆蓋官方參拜側定位。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_07.jpg；原圖是沖繩本島南城市齋場御嶽，並非宮古漲水御嶽。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: City Board of Education cultural-heritage mapping explicitly publishes the same coordinates as YAML. A small, publicly approached sacred site; use the outside worship approach and follow local restrictions.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重抓教育委員會公認文化資產頁的原始Google href，採q=24.807268,125.279510而非sll/ll視窗。主流程Chrome的具名御嶽條目佐證身份；其place中心稍異，不覆蓋官方參拜側定位。"
   sources:
-  - url: https://miyakojimabunkazai.jp/bunkazaiinfo738/
-    title: 宮古島市教育委員会公認 — 漲水御嶽と石垣
-    coordinateEvidence: https://miyakojimabunkazai.jp/bunkazaiinfo738/ has map href https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.807268,+125.279510 (plus display parameters). Extracted explicit q target; ignored sll=24.805837,125.285543 and ll=24.817978,125.283022.
-  - url: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf
-    title: 宮古島市 — 観光ガイドマップ
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf identifies 漲水御嶽 on a city sightseeing/walking route. No additional numeric coordinate extracted.
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo738/"
+      title: "【市指定：史跡】漲水御嶽と石垣"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 href=https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.807268,+125.279510&aq=&sll=24.805837,125.285543&sspn=0.008736,0.016512&gl=jp&brcurrent=3,0x34f4538cc2cf3cd1:0x39e9ede54deec56d,0,0x34f4538cc3197f6d:0xe36f92cebc082822&ie=UTF8&t=m&ll=24.817978,125.283022&spn=0.031162,0.047121&z=14&iwloc=near 。提取 q=24.807268,125.279510；sll 與 ll 為顯示參數未採用。"
+    -
+      url: "https://www.google.com/maps/place/%E6%BC%B2%E6%B0%B4%E5%BE%A1%E5%B6%BD/@24.8073672,125.2796286,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538cdcf70001:0x6a1d4151fb0f386c!8m2!3d24.8073672!4d125.2796286!16s%2Fg%2F122hv6l6?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=683159f0-c57e-4944-8359-e5a25af2c5b6"
+      title: "Google Maps — 漲水御嶽"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:01.962Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/%E6%BC%B2%E6%B0%B4%E5%BE%A1%E5%B6%BD/@24.8073672,125.2796286,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538cdcf70001:0x6a1d4151fb0f386c!8m2!3d24.8073672!4d125.2796286!16s%2Fg%2F122hv6l6?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=683159f0-c57e-4944-8359-e5a25af2c5b6。具名place參數 !3d=24.8073672、!4d=125.2796286；未採@lat,lng視窗中心。 Google具名漲水御嶽與官方名稱相符；place座標24.8073672,125.2796286僅作身份佐證，保留官方q參拜側座標。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.807268
     longitude: 125.27951

@@ -1,0 +1,127 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-takausu-castle"
+  parentId: null
+  kind: "attraction"
+  title: "高腰城跡"
+  summary: "比嘉北側山丘上的城郭遺址，從天然石砌礎石認識琉球統治前的宮古。"
+  narration: "如果你期待的是一座高大的天守閣，高腰城跡會請你把視線放低。這裡真正值得看的是山丘上的天然石砌與城壁礎石，官方記錄遺址東西約七十公尺、南北約四十公尺，坐落在比嘉聚落北側的丘頂。宮古舊記把城主記作高腰按司，而考古發掘找到十三至十五世紀的土器、陶瓷、古錢和鐵製品，讓這座城不只活在人物傳說裡，也留下可以研究的實物線索。它幫助我們理解琉球王國勢力進入前，宮古地方社會的樣子。慢慢辨認石塊排列成的邊界，比急著找一棟完整建築更有收穫；請只走現場開放的參觀動線，不爬石壁、不採集碎片，草木遮蔽或路面封閉時就在公開解說位置停留。"
+  observationPrompt: "開放動線旁的石塊，哪些看來形成連續排列的城壁或礎石邊界？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "heritage"
+          label: "歷史古蹟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "quiet"
+          label: "靜謐"
+  indoor: false
+  location:
+    latitude: 24.779078
+    longitude: 125.381972
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採高腰城跡本體 pin，非停車場入口；由現場公開動線參觀，不翻越石壁或進入封閉林地，路況不明時只在解說位置觀看。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.779078,125.381972"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "指定文化財，具有可追溯的地方歷史價值。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  distinctiveness:
+    score: 4
+    note: "遺址在比嘉北側丘頂，約東西七十公尺、南北四十公尺，保存天然石砌礎石。"
+    sources:
+      - "heritage"
+  interpretability:
+    score: 3
+    note: "可由遺構外形與解說理解故事，部分細節需史料輔助。"
+    sources:
+      - "heritage"
+  visitorValue:
+    score: 2
+    note: "適合短暫文化停留；僅限公開外側，不保證內部開放或現場路況。"
+    sources:
+      - "heritage"
+  evidenceQuality:
+    score: 3
+    note: "已抓取官方詳介及另頁具名核對；地圖為官方 pin，非現地視覺驗證。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  final: 3.4
+sources:
+  -
+    id: "heritage"
+    title: "【県指定：史跡】高腰城跡～たかうすじょうせき～"
+    publisher: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo601/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "遺址在比嘉北側丘頂，約東西七十公尺、南北四十公尺，保存天然石砌礎石。"
+      - "發掘確認十三至十五世紀土器、陶瓷、古錢與鐵製品。"
+      - "具名文化財地理位置及實際 Google Maps 圖釘。"
+  -
+    id: "corroboration"
+    title: "宮古島市の文化財：高腰城跡"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "同名文化財身分及所屬地區交叉核對。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際重新抓取來源，依明載事實編寫繁體中文口語導覽；未確認旅行當日開放、路況或活動。"
+    - "Google 原始連結已實際請求，但僅回傳需 JavaScript 頁面；以官方 pin 與另頁具名資料佐證，不宣稱視覺驗證。"
+    - "全新點 media: []，未新增照片或宣稱任何媒體授權已認證；待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "採宮古島市教育委員會公認文化財頁「【県指定：史跡】高腰城跡」實際 Google pin 24.779078,125.381972，另以具名官方資料核對身分；圖釘為遺構本體，僅外側公共參觀，並非洞內、墓室或導航入口。Google GET 回傳 JavaScript 提示，未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo601/"
+      title: "【県指定：史跡】高腰城跡～たかうすじょうせき～"
+      coordinateEvidence: "本次抓取具名官方頁面的原始 Google Maps href：https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.779078,+125.381972&aq=&sll=24.726563,125.351894&sspn=0.008741,0.016512&brcurrent=3,0x34f459e510196219:0x5af99d51d2caa664,0&ie=UTF8&t=m&ll=24.790163,125.386105&spn=0.031169,0.047121&z=14&iwloc=near；採 q 擷取 24.779078,125.381972。不採 ll／sll／@ 視窗中心；定位為文化財本體，非入口測量。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+      title: "宮古島市の文化財：高腰城跡"
+      coordinateEvidence: "另行抓取具名文化財資料，核對同一文化財名稱及所屬地區；此頁作身分／地址佐證，不另提供入口座標。"
+  verifiedLocation:
+    latitude: 24.779078
+    longitude: 125.381972

@@ -1,118 +1,148 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-awamori-distillery
+  id: "jp-miyakojima-awamori-distillery"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "多良川酒造"
-  summary: "多良川酒造是宮古島具代表性的泡盛釀造廠，以宮古島天然地下水及長期古酒（クース）工藝聞名，提供工廠參觀與品酒體驗，是深入了解琉球蒸餾酒文化的絕佳去處。"
-  narration: |
-    泡盛是琉球群島獨有的蒸餾酒，以泰國米為原料、以黑麴菌發酵，釀造歷史超過五百年，遠早於日本清酒傳入前即已存在。多良川酒造坐落於宮古島南部平良附近，廠區內可見一排排沉睡的古酒甕——這些陶甕裡存放的，是靜待時間淬鍊的「古酒（クース）」，陳年越久風味越醇厚。
-
-    參觀路線帶領你走過原料倉庫、發酵室到蒸餾鍋，親眼見證米粒如何一步步轉化為透明的烈酒。導覽人員會說明黑麴菌與宮古島地下水的特殊關係——深層珊瑚礁過濾的水質賦予泡盛柔和的礦物尾韻。最後的品酒環節可以比較新酒與熟成古酒的差異，感受時間在酒液裡留下的印記。
-  observationPrompt: "品酒區展示著不同年份的古酒甕——請注意甕身上的年份標記，找一找廠內現存最老的古酒甕是哪一年份的。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: indoor
-          label: 室內
-    - id: subject
-      label: 主題
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: history
-          label: 歷史文化
-    - id: experience
-      label: 體驗
+        -
+          id: "history"
+          label: "歷史文化"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 導覽參觀
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "導覽參觀"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 需付費
+        -
+          id: "ticketed"
+          label: "需付費"
   indoor: true
   location:
     latitude: 24.7308405
     longitude: 125.3524826
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7308405,125.3524826
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7308405,125.3524826"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 多良川本社，城辺字砂川85。請於預約導覽開始前至遊客商店報到；勿直接導航至另一處地下貯藏庫。
+    rearmDistanceMeters: 1000
+  locationHint: "多良川官方連結的本社地址錨點，城辺砂川85；參觀先至賣店報到並確認預約，不是南方約150公尺的洞窟貯藏庫入口。不可自行進入生產區；駕駛勿飲酒。"
+  summary: "在多良川本社認識泡盛與洞窟貯藏：木牌記下的紀念日，使熟成時間成為看得見的生活記憶。"
+  narration: |
+    如果參加多良川安排的貯藏庫見學，不妨留意酒瓶旁的木牌。那些名字與紀念日，讓泡盛不只是一排商品，也像替生日、新居或人生轉折留下一個慢慢等待的位置。業者介紹，洞窟裡的溫度與濕度相對穩定，適合古酒熟成；參觀者看到的等待，其實也有環境條件在支持。這裡要分清楚兩個地方：先到城辺砂川的本社賣店報到，洞窟貯藏庫則在酒廠南方約一百五十公尺，不能把地圖上的公司圖釘當成可以自行鑽入的洞口。官方目前介紹的內容是製酒影片和洞窟貯藏庫，不等於能走進每一道發酵、蒸餾工序旁邊。見學以預約者優先，出發前確認安排。到時可以看看瓶子與木牌如何一起保存時間；若負責開車，就把品飲留給別人，照樣能從這些物件理解一瓶酒與人的日子怎麼連在一起。
+  observationPrompt: "在業者允許的見學範圍觀察酒瓶與紀念木牌；分辨本社報到處和洞窟貯藏庫，不自行進入作業區。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "泡盛是琉球五百年釀造傳統的具體體現，多良川為宮古島知名酒造之一，具文化與產業雙重重要性。"
-    sources: [src1]
+    score: 3
+    note: "泡盛業者展示地方產業與生活連結。"
+    sources:
+      - "taragawa-tour"
+      - "taragawa-reserve"
   distinctiveness:
     score: 4
-    note: "宮古泡盛以宮古島地下水釀製，風味有別於沖繩本島，古酒工藝是全球罕見的蒸餾酒熟成方式。"
-    sources: [src1]
+    note: "紀念木牌及洞窟熟成容易形成具體記憶。"
+    sources:
+      - "taragawa-tour"
+      - "taragawa-reserve"
   interpretability:
     score: 4
-    note: "工廠導覽配合品酒體驗，感官體驗與說明並重，即使對泡盛陌生的訪客也能快速理解。"
-    sources: [src1]
+    note: "業者安排影片與貯藏庫解說。"
+    sources:
+      - "taragawa-tour"
+      - "taragawa-reserve"
   visitorValue:
-    score: 4
-    note: "兼具知識性與趣味性的體驗，購買伴手禮也方便，幾乎適合所有成年訪客。"
-    sources: [src1]
-  evidenceQuality:
     score: 3
-    note: "有官方網站與日本食品業界資料佐證，但學術研究資料較少。"
-    sources: [src1]
-  final: 3.9  # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.00+0.80+0.60+0.30 = 3.90
+    note: "需確認見學預約，並非自由進入整個工廠。"
+    sources:
+      - "taragawa-tour"
+      - "taragawa-reserve"
+  evidenceQuality:
+    score: 5
+    note: "業者正文、官方Maps地址跳轉及具名本社交叉核對。"
+    sources:
+      - "taragawa-tour"
+      - "taragawa-reserve"
+  final: 3.7
 sources:
-  - id: src1
-    title: "多良川 - 宮古島の泡盛蔵元"
+  -
+    id: "taragawa-tour"
+    url: "https://taragawa.co.jp/brewery-tour/"
+    title: "洞窟貯蔵庫見学"
     publisher: "株式会社多良川"
-    url: https://www.tarakawa.jp/
-    accessedAt: "2026-07-15"
-    language: ja
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "多良川酒造提供工廠參觀與品酒體驗，是宮古島知名的泡盛釀造廠"
-      - "以宮古島地下水與黑麴菌釀造泡盛，並生產長期熟成的古酒"
-  - id: src2
-    title: "泡盛 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E6%B3%A1%E7%9B%9B
-    accessedAt: "2026-07-15"
-    language: ja
+      - "洞窟貯藏庫位於酒廠南方約150公尺；存放客戶紀念泡盛與木牌。"
+      - "參觀內容為製酒影片及洞窟貯藏庫，預約優先，先到賣店報到。"
+      - "洞窟溫濕度相對穩定，適合古酒熟成。"
+  -
+    id: "taragawa-reserve"
+    url: "https://taragawa.co.jp/tour_reserve/"
+    title: "見学予約フォーム"
+    publisher: "株式会社多良川"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "泡盛是琉球群島獨有的蒸餾酒，以黑麴菌發酵泰國米製成，歷史超過五百年"
-      - "古酒（クース）是泡盛經三年以上熟成後的特殊規格，風味更為醇厚"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Various_Awamori_bottles_by_jetalone_in_Ginza,_Tokyo.jpg
-    creator: "jetalone from Ginza, Tokyo"
-    license: "CC BY 2.0"
-    licenseUrl: https://creativecommons.org/licenses/by/2.0
-    accessedAt: "2026-07-15"
-    originalSha256: "fe96a3f8c5caf4cee7c6f0862e0f29078fc511b407bdf8e88d39c6c1f343d279"
-    compactPath: media/compact/jp-miyakojima-awamori-distillery.webp
-    completePath: media/complete/jp-miyakojima-awamori-distillery.webp
+      - "本社地址城辺砂川85；見學需確認預約安排。"
+  -
+    id: "google-live"
+    title: "Google Maps — (株)多良川 本社"
+    url: "https://www.google.com/maps/place/%28%E6%A0%AA%29%E5%A4%9A%E8%89%AF%E5%B7%9D+%E6%9C%AC%E7%A4%BE/data=!4m7!3m6!1s0x34f457ae79d0f0d1:0xdaca4cade3c252eb!8m2!3d24.7307616!4d125.3522427!16s%2Fg%2F1tf9w522!19sChIJ0fDQea5X9DQR61LC461Myto?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "手動匹配（株）多良川本社、城辺砂川85，不採同名宮古営業所；本社place座標24.7307616,125.3522427僅作旁證，保留官方地址連結的報到錨點。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "以實際見學內容取代泛稱工廠全程導覽；區分本社、洞窟及同名營業所，不承諾當天有導覽或試飲。"
+    - "重抓多良川官方見學頁及原始goo.gl Maps連結，跳轉至城辺砂川85地址place，提取!3d24.7308405!4d125.3524826，非@視窗。主流程Chrome手動匹配（株）多良川本社，排除平良的宮古営業所；維持官方地址報到錨點。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Various_Awamori_bottles_by_jetalone_in_Ginza,_Tokyo.jpg；東京銀座拍攝的多種泡盛酒瓶，不能充作多良川酒廠現場。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: verified
-  anchorType: meeting_point
-  checkedAt: '2026-09-16'
-  reason: Official operator supplies this address pin and instructs visitors to arrive at its shop 10 minutes before the tour. It is a premises/meeting anchor, not a surveyed shop door. YAML's 平良字松原 address is wrong; the cave cellar is a separate feature south of the brewery.
+  status: "verified"
+  anchorType: "meeting_point"
+  checkedAt: "2026-09-16"
+  reason: "重抓多良川官方見學頁及原始goo.gl Maps連結，跳轉至城辺砂川85地址place，提取!3d24.7308405!4d125.3524826，非@視窗。主流程Chrome手動匹配（株）多良川本社，排除平良的宮古営業所；維持官方地址報到錨點。"
   sources:
-  - url: https://taragawa.co.jp/brewery-tour/
-    title: 多良川 — 洞窟貯蔵庫見学
-    coordinateEvidence: https://taragawa.co.jp/brewery-tour/ links GoogleMaps to https://goo.gl/maps/sUCD8JGk8WG9azCi9. Read-only redirect resolves to the address 城辺砂川85 with place data !1s0x34f457ae79cc3d33:0xa2410cbebfe6f606!8m2!3d24.7308405!4d125.3524826. Extracted !3d/!4d from the place record, NOT @24.7308454,125.3502886 viewport.
-  - url: https://taragawa.co.jp/tour_reserve/
-    title: 多良川 — 見学予約フォーム
-    coordinateEvidence: No separate coordinate. https://taragawa.co.jp/tour_reserve/ confirms operator/headquarters at 沖縄県宮古島市城辺砂川85 and reservation-based cave-storehouse visits.
+    -
+      url: "https://taragawa.co.jp/brewery-tour/"
+      title: "洞窟貯蔵庫見学"
+      coordinateEvidence: "2026-09-16 實抓官方 GoogleMaps 原始 href=https://goo.gl/maps/sUCD8JGk8WG9azCi9；HTTP 200 重新導向=https://www.google.co.jp/maps/place/%E3%80%92906-0108+%E6%B2%96%E7%B8%84%E7%9C%8C%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E5%9F%8E%E8%BE%BA%E7%A0%82%E5%B7%9D%EF%BC%98%EF%BC%95/@24.7308454,125.3502886,17z/data=!3m1!4b1!4m5!3m4!1s0x34f457ae79cc3d33:0xa2410cbebfe6f606!8m2!3d24.7308405!4d125.3524826?hl=ja&shorturl=1。採地址 PLACE 的 !3d24.7308405!4d125.3524826，不採 @24.7308454,125.3502886。地址為城辺砂川85；屬本社報到區而非洞窟入口。"
+    -
+      url: "https://taragawa.co.jp/tour_reserve/"
+      title: "見学予約フォーム"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/place/%28%E6%A0%AA%29%E5%A4%9A%E8%89%AF%E5%B7%9D+%E6%9C%AC%E7%A4%BE/data=!4m7!3m6!1s0x34f457ae79d0f0d1:0xdaca4cade3c252eb!8m2!3d24.7307616!4d125.3522427!16s%2Fg%2F1tf9w522!19sChIJ0fDQea5X9DQR61LC461Myto?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+      title: "Google Maps — (株)多良川 本社"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:35:47.067Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/%28%E6%A0%AA%29%E5%A4%9A%E8%89%AF%E5%B7%9D+%E6%9C%AC%E7%A4%BE/data=!4m7!3m6!1s0x34f457ae79d0f0d1:0xdaca4cade3c252eb!8m2!3d24.7307616!4d125.3522427!16s%2Fg%2F1tf9w522!19sChIJ0fDQea5X9DQR61LC461Myto?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1。具名place參數 !3d=24.7307616、!4d=125.3522427；未採@lat,lng視窗中心。 手動匹配（株）多良川本社、城辺砂川85，不採同名宮古営業所；本社place座標24.7307616,125.3522427僅作旁證，保留官方地址連結的報到錨點。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.7309
     longitude: 125.3523

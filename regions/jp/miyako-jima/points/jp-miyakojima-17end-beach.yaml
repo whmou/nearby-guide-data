@@ -1,120 +1,192 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-17end-beach
-  parentId: jp-miyakojima-shimoji-island
-  kind: attraction
+  id: "jp-miyakojima-17end-beach"
+  parentId: "jp-miyakojima-shimoji-island"
+  kind: "attraction"
   title: "下地島17エンド"
-  summary: "17ENDは下地島空港滑走路17號跑道終點延伸至海灘的特殊觀景點，旅客可在白沙灘上仰望飛機從頭頂僅數十公尺低空飛越降落，是社群媒體上極具話題性的宮古島絕景。"
-  narration: |
-    「17END」這個名稱來自下地島空港跑道的編號——第17號跑道的降落端，正好就落在這片面向宮古海峽的白沙灘上。當飛機準備著陸時，從正面筆直飛來，越過沙灘上方數十公尺的低空切入，發動機的轟鳴聲、機腹上清晰可見的輪胎架、以及碧藍海面與飛機身影疊合的畫面，構成了宮古島最令人心跳加速的攝影機位。這個地點從原本的飛行訓練觀察地，隨著社群媒體的傳播成為全國矚目的打卡熱點，吸引航空迷、攝影愛好者和一般旅客特地驅車前來。沙灘本身也頗為美麗，寬闊的白沙與透明海水即使沒有飛機也值得造訪。飛機起降的時間表可事先查詢，挑好時段前來，就能拍下這張宮古島最獨特的航空海景。
-  observationPrompt: "當飛機從正面飛來時，試著注意機腹收起的起落架輪胎與機翼下方的細節——你能看清楚哪家航空公司的塗裝嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-        - id: engineering
-          label: 工程
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "engineering"
+          label: "工程"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+        -
+          id: "photography"
+          label: "攝影"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.84230232
     longitude: 125.14072418
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.84230232,125.14072418
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.84230232,125.14072418"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 17END 位於下地島機場跑道北端旁的海岸；請沿公共外圍道路步行抵達。勿進入機場範圍，也勿將海面設為行車目的地。
+    rearmDistanceMeters: 1000
+  locationHint: "沖繩官方旅遊頁的17END岸側觀景定位，非停車場、跑道入口或保證可下水的沙灘入口。一般車輛禁止駛入機場管理通路，依現場標示步行；潮位與臨時管制可能限制停留。"
+  summary: "下地島跑道端部的海岸步行景觀；白沙露出隨潮位變化，17END的名字來自跑道編號，不是每天都有的飛行表演。"
+  narration: |
+    來到這裡，可以先找兩種線條：機場邊界筆直、規整，海岸的白沙邊緣卻會隨潮位改變。17END聽起來像某個神祕景點代號，其實官方航空相關介紹說，名字結合了跑道識別號十七，以及英文的跑道末端。這個看似為拍照而生的地方，首先是一座仍在使用的機場旁邊。沖繩官方旅遊資料也提醒，低潮時才會露出那片常見於照片中的白沙；抵達時看見多少沙，不能拿別人的照片當保證。至於從頭頂掠過的訓練機，更不是固定安排的表演。慢慢走在允許通行的管理道路，看看直線的人工設施和彎曲的潮水邊界如何相鄰，已經很有意思。一般車輛不能開進這段路，路面也可能有沙和高差；請讓觀察留在安全範圍，不為一張照片靠近跑道設施或追逐飛機。
+  observationPrompt: "從允許通行的道路觀察機場直線邊界與海岸曲線；比較眼前露出的沙灘範圍，不預設一定能看到飛機。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "日本社群媒體上極具知名度的奇特景觀，將飛機與海灘融合的視覺體驗在日本境內難覓第二處。"
-    sources: [shimoji-airport-wikipedia-ja, visitokinawa-shimoji]
+    score: 3
+    note: "運作中機場與海岸的地方景觀。"
+    sources:
+      - "okinawa-17end"
+      - "film-17end"
   distinctiveness:
-    score: 5
-    note: "飛機低空飛越白沙灘的組合景觀在日本獨一無二，也是宮古島社群媒體辨識度最高的地標之一。"
-    sources: [visitokinawa-shimoji]
+    score: 4
+    note: "跑道直線和低潮白沙形成辨識度。"
+    sources:
+      - "okinawa-17end"
+      - "film-17end"
   interpretability:
     score: 4
-    note: "情境非常直觀，跑道編號17的由來和海灘關係清晰，任何遊客都能立即理解並欣賞。"
-    sources: [shimoji-airport-wikipedia-ja]
+    note: "可從公共管理通路理解人工與自然邊界。"
+    sources:
+      - "okinawa-17end"
+      - "film-17end"
   visitorValue:
-    score: 5
-    note: "完全免費，全天開放，有停車空間，搭配航班時刻表體驗極佳，即使無飛機也是美麗海灘。"
-    sources: [visitokinawa-shimoji]
-  evidenceQuality:
     score: 3
-    note: "維基百科與觀光官網均有記載，但學術或政府詳細資料相對有限。"
-    sources: [shimoji-airport-wikipedia-ja]
-  final: 4.3  # 0.30×4 + 0.25×5 + 0.20×4 + 0.15×5 + 0.10×3 = 1.20+1.25+0.80+0.75+0.30 = 4.30
+    note: "步行有價值，但潮位與管制影響體驗。"
+    sources:
+      - "okinawa-17end"
+      - "film-17end"
+  evidenceQuality:
+    score: 5
+    note: "多個官方來源及同一PLACE ID交叉驗證。"
+    sources:
+      - "okinawa-17end"
+      - "film-17end"
+  final: 3.7
 sources:
-  - id: shimoji-airport-wikipedia-ja
-    title: "下地島空港 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%9C%B0%E5%B3%B6%E7%A9%BA%E6%B8%AF
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "okinawa-17end"
+    url: "https://www.okinawastory.jp/spot/600013225"
+    title: "17END"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "滑走路17のエンドが海岸に面しており、着陸機が低空で通過する"
-      - "下地島空港は3,000m滑走路を持つ訓練飛行場"
-  - id: visitokinawa-shimoji
-    title: "下地島・17ENDビーチ"
-    publisher: "沖縄観光コンベンションビューロー (Visit Okinawa)"
-    url: https://www.visitokinawa.jp/information/shimoji-17end
-    accessedAt: "2026-07-15"
-    language: ja
+      - "位於下地島空港端部；低潮時出現白沙灘。"
+      - "周邊道路車輛通行受限。"
+  -
+    id: "film-17end"
+    url: "https://filmoffice.ocvb.or.jp/location-search/17end"
+    title: "17END — 沖縄フィルムオフィス"
+    publisher: "沖縄県／沖縄フィルムオフィス"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "17ENDは滑走路17番の着陸端に位置する海岸"
-      - "飛行機が頭上すれすれに着陸する様子が人気の撮影スポット"
+      - "伊良部佐和田的下地島空港端部海岸；低潮白沙。"
+  -
+    id: "airport-access"
+    url: "https://www.pref.okinawa.jp/machizukuri/kowankuko/1012617/1012639/1023024.html"
+    title: "17側管理用通路（通称「17END」）の通行"
+    publisher: "沖縄県下地島空港管理事務所"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "17END 是機場管理通路，禁止一般車輛進入。"
+      - "自行車等僅能在不妨礙行人且能立即停止的速度通行；路面可能有高差與沙。"
+  -
+    id: "airport-name"
+    url: "https://www.mitsubishi.com/ja/profile/csr/mpac/monthly/local_info/2026/05/1.html"
+    title: "下地島エアポートマネジメントの皆さんがおすすめする宮古島のグルメやスポットとは？"
+    publisher: "三菱グループ公式サイト／下地島エアポートマネジメント受訪者"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "17END 名稱來自跑道識別號 17 與 Runway End。"
+      - "訓練飛行非固定安排。"
+  -
+    id: "google-live"
+    title: "Google Maps — 17ENDビーチ"
+    url: "https://www.google.com/maps/place/17END%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f5add80a02f697:0x621d023620d2e93c!8m2!3d24.8421325!4d125.1398185!16s%2Fg%2F11mv63lxkg!19sChIJl_YCCtit9TQRPOnSIDYCHWI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "手動選擇17ENDビーチ而非17END駐車場；其place座標24.8421325,125.1398185及PLACE ID與官方Film Office嵌入相符，僅交叉佐證身份。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Shimojishima_Runway17.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Shimojishima_Runway17.jpg"
     creator: "Cassiopeia sweet"
     license: "Public domain"
-    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    licenseUrl: "https://creativecommons.org/publicdomain/mark/1.0/"
     accessedAt: "2026-07-15"
     originalSha256: "f14cd2072296e66b88e04fabe3e76e28fa5f456734a8d7fe7ec600a6f1d27b76"
-    compactPath: media/compact/jp-miyakojima-17end-beach.webp
-    completePath: media/complete/jp-miyakojima-17end-beach.webp
+    compactPath: "media/compact/jp-miyakojima-17end-beach.webp"
+    completePath: "media/complete/jp-miyakojima-17end-beach.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "去除日落、低空飛機與沙灘必見的保證；未將機場或車道視為可任意進入的景區。"
+    - "重抓沖繩官方頁的數值q=24.84230232,125.14072418與Film Office原始Google嵌入PLACE ID；後者與主流程Chrome的17ENDビーチ一致。保留既有官方岸側抵達點，未用約百公尺外的Google沙灘place中心或數百公尺外的停車場替換。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。"
 locationReview:
-  status: verified
-  anchorType: viewpoint
-  checkedAt: '2026-09-16'
-  reason: Official Okinawa tourism destination pin confirms the coastal viewing site. The pin is not a vehicle-accessible airport entrance; the perimeter road is closed to motor vehicles. Original point is about 25 m away.
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "重抓沖繩官方頁的數值q=24.84230232,125.14072418與Film Office原始Google嵌入PLACE ID；後者與主流程Chrome的17ENDビーチ一致。保留既有官方岸側抵達點，未用約百公尺外的Google沙灘place中心或數百公尺外的停車場替換。"
   sources:
-  - url: https://www.okinawastory.jp/spot/600013225
-    title: おきなわ物語 — 17END
-    coordinateEvidence: HTML at https://www.okinawastory.jp/spot/600013225 contains a Google Maps place iframe with q=24.84230232,125.14072418. This is the explicit place query, not the embedded map camera.
-  - url: https://www.okinawastory.jp/course/600013260
-    title: おきなわ物語 — 下地島・宮古島 cycling course
-    coordinateEvidence: No additional coordinate extracted. https://www.okinawastory.jp/course/600013260 independently describes the runway-side beach and says the perimeter road excludes cars but permits bicycles; supports outdoor access.
+    -
+      url: "https://www.okinawastory.jp/spot/600013225"
+      title: "17END"
+      coordinateEvidence: "2026-09-16 HTTP 200，官方 HTML 的 Google Maps place iframe 明確 q=24.84230232,125.14072418；採目的地 query，非 viewport。未呼叫帶 key 的 embed/v1 API，也未保存其公開嵌入金鑰；另於本紀錄保存不含金鑰的官方原始 pb iframe 與主流程實抓具名地標連結。"
+    -
+      url: "https://filmoffice.ocvb.or.jp/location-search/17end"
+      title: "17END — 沖縄フィルムオフィス"
+      coordinateEvidence: "2026-09-16 HTTP 200；官方原始 iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14483.183534840984!2d125.14262707063929!3d24.836653065410985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f5add80a02f697%3A0x621d023620d2e93c!2zMTdFTkTjg5Pjg7zjg4E!5e0!3m2!1sja!2sjp!4v1683616040475!5m2!1sja!2sjp。具名 PLACE ID 0x34f5add80a02f697:0x621d023620d2e93c 與 Chrome 的 17ENDビーチ一致；pb 中 !2d125.14262707063929!3d24.836653065410985 是視窗，未採用。保留另一官方頁的岸側 q 定位。"
+    -
+      url: "https://www.pref.okinawa.jp/machizukuri/kowankuko/1012617/1012639/1023024.html"
+      title: "17側管理用通路（通称「17END」）の通行"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.mitsubishi.com/ja/profile/csr/mpac/monthly/local_info/2026/05/1.html"
+      title: "下地島エアポートマネジメントの皆さんがおすすめする宮古島のグルメやスポットとは？"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/place/17END%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f5add80a02f697:0x621d023620d2e93c!8m2!3d24.8421325!4d125.1398185!16s%2Fg%2F11mv63lxkg!19sChIJl_YCCtit9TQRPOnSIDYCHWI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+      title: "Google Maps — 17ENDビーチ"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:35:35.721Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/17END%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f5add80a02f697:0x621d023620d2e93c!8m2!3d24.8421325!4d125.1398185!16s%2Fg%2F11mv63lxkg!19sChIJl_YCCtit9TQRPOnSIDYCHWI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1。具名place參數 !3d=24.8421325、!4d=125.1398185；未採@lat,lng視窗中心。 手動選擇17ENDビーチ而非17END駐車場；其place座標24.8421325,125.1398185及PLACE ID與官方Film Office嵌入相符，僅交叉佐證身份。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.8421
     longitude: 125.1406

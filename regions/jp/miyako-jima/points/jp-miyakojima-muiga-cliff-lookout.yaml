@@ -1,0 +1,139 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-muiga-cliff-lookout"
+  parentId: null
+  kind: "attraction"
+  title: "姆伊嘎斷崖展望處（ムイガー）"
+  summary: "從崖頂公共展望設施看七又海岸，認識隆起珊瑚礁斷崖與地下水的生活史。"
+  narration: "把視線沿海岸慢慢移動，你會發現這裡的主角不是一個孤零零的觀景台，而是一整道向遠方延伸的斷崖。觀光協會把七又海岸介紹為由隆起珊瑚礁形成、高約三十公尺的斷層海岸；崖下有稱作姆伊嘎的泉水，海景與居民的用水史其實連在一起。地方報導記錄，這處展望設施在二〇一九年二月底完成，增設步道、涼亭等休憩空間，居民也一起種植樹苗。更早的一九五七至一九七〇年間，崖下泉水曾供應附近聚落的簡易自來水。站在崖頂，試著同時看見海岸的長尺度和一口泉支撐日常的小尺度。請只走開放的上方觀景動線，不沿陡階下崖找水；看板提到的鯨魚，也不是九月旅行可以預約的景色。"
+  observationPrompt: "從崖頂開放展望處，海岸的崖線如何延伸？能否辨認人工步道與自然斷崖的界線？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "geology"
+          label: "地質教育"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "viewpoint"
+          label: "景觀"
+  indoor: false
+  location:
+    latitude: 24.7258887
+    longitude: 125.3827058
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採Google「ムイガー断崖」具名pin24.7258887,125.3827058，作崖頂展望設施地標；不採東側「ムイガー」泉水pin，也不採舊觀光頁偏西座標。由県道235號現場標示停車／步道抵達，不下崖探泉。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7258887,125.3827058"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "tourism"
+  distinctiveness:
+    score: 4
+    note: "七又海岸是高約三十公尺的隆起珊瑚礁斷層海岸，姆伊嘎設有展望處，崖下有湧泉。"
+    sources:
+      - "tourism"
+  interpretability:
+    score: 4
+    note: "從崖頂開放展望處，海岸的崖線如何延伸？能否辨認人工步道與自然斷崖的界線？"
+    sources:
+      - "tourism"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "tourism"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "tourism"
+      - "local-report"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "tourism"
+    title: "七又海岸とムイガー"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_011/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "七又海岸是高約三十公尺的隆起珊瑚礁斷層海岸，姆伊嘎設有展望處，崖下有湧泉。"
+  -
+    id: "local-report"
+    title: "眼下に絶景広がる／城辺地区（2019年3月24日）"
+    publisher: "宮古毎日新聞"
+    url: "https://www.miyakomainichi.com/news/post-118139/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "姆伊嘎展望設施二〇一九年二月底完成，整備遊步道、涼亭等，居民參與植栽。"
+      - "崖下泉水一九五七至一九七〇年供應仲原、西東、福里簡易水道。"
+  -
+    id: "google"
+    title: "ムイガー断崖｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC%E6%96%AD%E5%B4%96/@24.7258887,125.3827058,17z/data=!3m1!4b1!4m6!3m5!1s0x34f459d4506ad1a7:0x2362f34f87dc659e!8m2!3d24.7258887!4d125.3827058!16s%2Fg%2F11g723442_?authuser=0&entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=21cee8dc-87fd-485c-b053-8ab377a84017"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「ムイガー断崖」身分及地址相符；採實際地點 !3d/!4d 24.7258887,125.3827058。錨點為公共展望設施地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_011/"
+      title: "七又海岸とムイガー"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.miyakomainichi.com/news/post-118139/"
+      title: "眼下に絶景広がる／城辺地区（2019年3月24日）"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC%E6%96%AD%E5%B4%96/@24.7258887,125.3827058,17z/data=!3m1!4b1!4m6!3m5!1s0x34f459d4506ad1a7:0x2362f34f87dc659e!8m2!3d24.7258887!4d125.3827058!16s%2Fg%2F11g723442_?authuser=0&entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=21cee8dc-87fd-485c-b053-8ab377a84017"
+      title: "ムイガー断崖｜Google Maps 具名頁"
+      coordinateEvidence: "EXACT raw Google share href=https://maps.app.goo.gl/7iAo4CWxCYsABq9LA；實際resolvedShareUrl=https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC%E6%96%AD%E5%B4%96/@24.7258887,125.3827058,17z/data=!3m1!4b1!4m6!3m5!1s0x34f459d4506ad1a7:0x2362f34f87dc659e!8m2!3d24.7258887!4d125.3827058!16s%2Fg%2F11g723442_?authuser=0&entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=21cee8dc-87fd-485c-b053-8ab377a84017；採地點 !3d24.7258887!4d125.3827058，不採 @ 視窗中心。live heading=ムイガー断崖；地址與已抓取具名來源交叉核對。"
+  verifiedLocation:
+    latitude: 24.7258887
+    longitude: 125.3827058

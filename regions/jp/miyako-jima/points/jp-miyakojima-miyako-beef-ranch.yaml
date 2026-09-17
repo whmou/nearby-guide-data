@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: venue
   title: "宮古牛農場"
-  summary: "宮古島飼育的宮古牛（黑毛和牛）以海風吹拂的開闊牧場環境與低壓力放牧方式聞名，肉質油花細緻，是宮古島美食體驗中不可錯過的島產和牛。"
+  summary: "宮古牛與畜牧業主題，並非已確認的觀光牧場；可從菜單、產地標示認識地方農產，未提供私人牧場定位。"
   narration: |
-    宮古島不只有海，這裡的牧場同樣令人印象深刻。宮古牛是宮古島本地飼育的黑毛和牛品種，在海拔平緩的島內牧場上自由生長，終日沐浴在海風與充足陽光之中。島上的低壓力放牧環境讓牛隻生長緩慢而健康，肌肉紋理細緻，油花分布均勻，造就了宮古牛獨特的柔嫩口感。來到牧場，可以近距離觀察黑毛和牛悠然吃草的日常，感受宮古島農業生活的另一面向。宮古牛在島上的燒肉店與高級餐廳均有供應，是以食物形式認識宮古島土地的最直接方式。如需參觀牧場，建議事先聯繫確認開放時間。
-  observationPrompt: "觀察牧場內的牛隻——黑毛和牛的毛色是純黑還是帶有光澤的深棕？注意牠們的耳標顏色與編號，這些是宮古牛個體管理系統的一部分。"
+    菜單上看見「宮古牛」三個字時，可以先把目光從漂亮的肉片照片移到食材說明：這份餐點，怎麼和島上的農業接起來？ＪＡ沖繩的あたらす市場介紹，將宮古牛列在地方特色商品之中；宮古農業改良普及課的工作資料，也把肉用牛和甘蔗並列為需要推動生產的項目。這些記錄讓牛肉不只是旅遊菜單上的名字，也連著飼養與供應的日常。觀光協會介紹的在地餐廳，則清楚分開宮古牛與阿古豬，點餐時值得逐項確認，不要把一張沖繩肉品照片就當作相同食材。至於原本叫作「宮古牛農場」的這一項，目前沒有具名、允許遊客進入的牧場；想了解飼育，應先找到有正式參訪安排的業者，不靠近牛舍、不餵食，也不把私人農地當成免費動物園。
+  observationPrompt: "讀菜單或商品標示時，宮古牛與其他牛、豬肉是否分開寫？向販售者確認產地，不以照片推定飼養方式。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -27,86 +27,66 @@ point:
       tags:
         - id: walking
           label: 步行
-    - id: access
-      label: 入場
-      tags:
-        - id: limited-hours
-          label: 限定時段
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 需先確認特定牧場、參訪許可及集合地點。
+  locationHint: "畜牧與食材主題，沒有具名公開牧場或參訪許可，因此不設GPS及觸發。不得自行進入牛舍、牧地或餵食；市場、餐廳只作故事來源，不替代牧場。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 2
-    note: "宮古牛是宮古島重要的農畜產品，但牧場本身並非主要觀光景點，以農業場所評分。"
-    sources: [src1]
+    note: "畜牧是地方生產的一部分。"
+    sources: ["jabeef","agri","beefmenu"]
   distinctiveness:
-    score: 3
-    note: "海島和牛牧場的概念具差異化，但在日本和牛產地中競爭激烈，特色需透過食材體驗呈現。"
-    sources: [src1, src2]
+    score: 2
+    note: "具地方食材名稱，牧場特色尚無證據。"
+    sources: ["jabeef","agri","beefmenu"]
   interpretability:
     score: 3
-    note: "牧場觀察直觀，但和牛飼育特色（油花、等級）需要說明才能完整理解其價值。"
-    sources: [src2]
+    note: "商品標示可支持有限的生活文化解說。"
+    sources: ["jabeef","agri","beefmenu"]
   visitorValue:
-    score: 3
-    note: "美食愛好者可透過品嚐宮古牛獲得高度滿足，但牧場參觀本身的視覺體驗有限。"
-    sources: [src1]
+    score: 1
+    note: "未建立公開牧場，不提供實地參訪承諾。"
+    sources: ["jabeef","agri","beefmenu"]
   evidenceQuality:
-    score: 2
-    note: "宮古牛有官方農業資料記載，但特定牧場的觀光資訊較少，需現場確認開放狀況。"
-    sources: [src1]
-  final: 2.6   # 0.30*2 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*2 = 0.6+0.75+0.6+0.45+0.2 = 2.6
+    score: 4
+    note: "正式生產及商品頁已重抓，但場地身分未確定。"
+    sources: ["jabeef","agri","beefmenu"]
+  final: 2.3
 sources:
-  - id: src1
-    title: "宮古牛 - 宮古島市農業振興"
-    publisher: "宮古島市"
-    url: https://www.city.miyakojima.lg.jp/soshiki/sangyoushinko/nogyo/
-    accessedAt: "2026-07-15"
+  - id: jabeef
+    title: "宮古島市 ファーマーズマーケットみやこ「あたらす市場」"
+    publisher: "JAおきなわ"
+    url: "https://www.ja-okinawa.or.jp/store/detail.php?id=476"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "宮古島飼育黑毛和牛，以宮古牛品牌行銷"
-      - "島內低壓力放牧環境有利於和牛肉質發展"
-  - id: src2
-    title: "宮古牛 | 宮古島観光ナビ"
-    publisher: "宮古島市観光商工局"
-    url: https://www.miyako-guide.net/gourmet/
-    accessedAt: "2026-07-15"
+    supports: ["JAあたらす市場頁將宮古牛列為地方特色商品。"]
+  - id: agri
+    title: "宮古農業改良普及課の業務（2026年9月11日更新）"
+    publisher: "沖縄県"
+    url: "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "宮古牛在島上燒肉店及高級餐廳均有供應"
-      - "黑毛和牛油花細緻，為宮古島代表性食材"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Wagyu.jpg
-    creator: "Cgoodwin"
-    license: "CC BY 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by/3.0
-    accessedAt: "2026-07-15"
-    originalSha256: "61f70cffda67aee03ad0e22fa13ab9fd8c69d0b9a2c4a6462f064be507006d50"
-    compactPath: media/compact/jp-miyakojima-miyako-beef-ranch.webp
-    completePath: media/complete/jp-miyakojima-miyako-beef-ranch.webp
+    supports: ["2026年宮古農業工作明列肉用牛與甘蔗的生產振興。"]
+  - id: beefmenu
+    title: "しゃぶ庵"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/gourmet/gourmet_spot_028/"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["觀光協會しゃぶ庵頁分列宮古牛與阿古豬等食材，不等於開放牧場資料。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除把宮古牛說成獨立品種、自由放牧及低壓力必然造成油花等無支持因果。","移除 File:Wagyu.jpg：泛稱和牛照片無法建立宮古產地或此未具名牧場身分；不保留作特定農場示意，也未新增照片。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Generic cattle-farming/food topic with no named public ranch. Regional agricultural evidence cannot establish access to private livestock land or a visitor entrance.
-  sources:
-  - url: https://miyako-island.net/charm/industry/
-    title: 宮古島観光協会 — 宮古島の産業
-    coordinateEvidence: https://miyako-island.net/charm/industry/ lists beef cattle as regional agriculture; no named visitor ranch and no coordinate extracted.
-  - url: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html
-    title: 沖縄県 — 宮古農業改良普及課の業務
-    coordinateEvidence: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html describes production support for beef cattle, not a visitor venue. No public arrival coordinate established.
-  previousLocation:
-    latitude: 24.76
-    longitude: 125.32
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。"
+  sources: [{"url":"https://www.ja-okinawa.or.jp/store/detail.php?id=476","title":"宮古島市 ファーマーズマーケットみやこ「あたらす市場」","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html","title":"宮古農業改良普及課の業務（2026年9月11日更新）","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://miyako-island.net/gourmet/gourmet_spot_028/","title":"しゃぶ庵","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.76,"longitude":125.32}
   verifiedLocation: null

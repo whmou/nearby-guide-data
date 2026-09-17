@@ -1,113 +1,139 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-yonaha-maehama
+  id: "jp-miyakojima-yonaha-maehama"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "与那覇前浜"
-  summary: "多次榮獲日本最美海灘評比第一的白沙灘，長達7公里的細白沙與透明碧藍海水讓人難以置信這是真實存在的景色。"
-  narration: |
-    与那覇前浜是宮古島最廣為人知的海灘，長達七公里的弧形白沙海岸線是整個日本最長的白沙灘之一。這裡的沙細如麵粉，走在上面完全沒有粗礫感，而海水的透明度讓你可以清晰看見水下數公尺的沙紋。晴天時，淺水區呈現迷幻的翡翠藍，稍深處漸層轉為靛藍，這種色彩過渡被稱為「宮古藍」。早晨人少時，沙灘倒映出天空的顏色，幾乎分不清海與天的邊界。這裡水流相對平緩，適合游泳，但仍建議在有旗幟指示的安全區域活動。
-  observationPrompt: "觀察海水的顏色漸層——從腳邊的翡翠綠到遠處的深藍，能數出幾個明顯的色帶？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "約七公里延伸的白沙岸線，也承載宮古島鐵人三項的運動記憶；採實際Google具名海灘pin，不冒稱入口。"
+  narration: |-
+    先別急著找「最美海灘」的拍照角度，試著沿著岸線望遠：前濱真正讓人記住的，是白沙一路延伸、視線很難一次收完的尺度。沖繩觀光局介紹，這段岸線約有七公里，在宮古島也親切地被叫作「マイパマビーチ」。同一片沙灘不只出現在度假照片裡，還被介紹為宮古島鐵人三項賽的起點；想一想，平常散步的人與比賽出發的選手，會用多麼不同的步調看待這片海。今天不必追著紀錄或排行榜走，可以從安全的岸上比較近處沙線與遠處海面的方向，留意光線與雲影是否讓水色看起來不同。七公里是整段海岸的尺度，不代表要走完全程，也不代表每一處都適合下水；導航標示的是具名海灘，停車與下灘仍請依公共通路、現場告示與管理人員指引。
+  observationPrompt: "從安全岸段沿著白沙岸線望遠，看看光線、雲影與不同遠近的水色；不要把顏色判作水深或安全依據。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: photography
-          label: 攝影
-        - id: family
-          label: 親子
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+        - id: "photography"
+          label: "攝影"
+        - id: "family"
+          label: "親子"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
-    latitude: 24.73510742
-    longitude: 125.26185608
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.73510742,125.26185608
+    latitude: 24.7349726
+    longitude: 125.2629745
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7349726,125.2629745"
   trigger:
-    radiusMeters: 150.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 与那覇前浜ビーチ官方地標 pin（下地字与那覇1199-1）；用於海灘鄰近導覽，請由現場公共通路進入，不代表水域安全或精確停車入口。
+    rearmDistanceMeters: 1000
+  locationHint: "Google Maps「与那覇前浜」具名海灘本體pin，地址下地与那覇1199番；非停車場或精確入口。由現場公共通路抵達，遵守水域告示；觀光局另有約114公尺西側的海灘pin，不代表兩處不同海灘。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 5
-    note: "多次在「日本最美海灘」評比中名列第一，「宮古藍」已成為日本觀光的代表意象之一。"
-    sources: [yonaha-maehama-okinawa-tourism]
+    score: 4
+    note: "宮古島代表海岸，兼有地方運動活動背景。"
+    sources:
+      - "yonaha-ocvb"
+      - "yonaha-google"
   distinctiveness:
-    score: 5
-    note: "7公里細白沙灘加上頂級透明度海水，全球難找類似等級的組合，是宮古島最具辨識度的景觀。"
-    sources: [yonaha-maehama-okinawa-tourism]
+    score: 4
+    note: "長段白沙與宮古島海岸尺度具有辨識性。"
+    sources:
+      - "yonaha-ocvb"
+      - "yonaha-google"
   interpretability:
     score: 4
-    note: "美景完全自明，不需任何說明即能感受，宮古藍的色彩漸層一眼驚豔。"
-    sources: [yonaha-maehama-okinawa-tourism]
+    note: "岸上可直接觀察沙線與水色。"
+    sources:
+      - "yonaha-ocvb"
+      - "yonaha-google"
   visitorValue:
-    score: 4
-    note: "免費入場，有停車場及更衣設施，夏季旺季擁擠，建議早晨或平日前往；需自駕。"
-    sources: [yonaha-maehama-okinawa-tourism]
+    score: 3
+    note: "天然海灘需核對水域與公共通路限制。"
+    sources:
+      - "yonaha-ocvb"
+      - "yonaha-google"
   evidenceQuality:
-    score: 5
-    note: "沖縄縣觀光振興局及多個日本旅遊媒體均有詳細記錄，評比資料可查。"
-    sources: [yonaha-maehama-okinawa-tourism]
-  final: 4.7
-  # 0.30×5 + 0.25×5 + 0.20×4 + 0.15×4 + 0.10×5 = 1.50+1.25+0.80+0.60+0.50 = 4.65 → 4.7
+    score: 4
+    note: "實際觀光局資料與主代理Google具名地標、地址交叉核定。"
+    sources:
+      - "yonaha-ocvb"
+      - "yonaha-google"
+  final: 3.9
 sources:
-  - id: yonaha-maehama-okinawa-tourism
-    title: "与那覇前浜ビーチ"
+  - id: "yonaha-ocvb"
+    title: "与那覇前浜ビーチ｜おきなわ物語"
     publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.okinawastory.jp/spot/600012
-    accessedAt: "2026-07-15"
-    language: ja
+    url: "https://www.okinawastory.jp/spot/1089"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "全長約7公里的白沙灘"
-      - "多次獲日本最美海灘評比第一"
-      - "「宮古藍」海水透明度著稱"
+      - "与那覇前浜又稱マイパマビーチ，白沙岸線約7公里。"
+      - "觀光局介紹此處為宮古島鐵人三項賽起點；官方頁地址下地字与那覇1199-1。"
+  - id: "yonaha-google"
+    title: "与那覇前浜｜Google Maps 具名地標"
+    publisher: "Google Maps"
+    url: "https://maps.app.goo.gl/rKbpVGCRZ82v5Hi88"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "主代理fresh-profile Chrome見与那覇前浜，地址下地与那覇1199番；分享頁!3d24.7349726!4d125.2629745為實際地標pin。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan02bs3s4592.jpg
+  - id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan02bs3s4592.jpg"
     creator: "663highland"
     license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    licenseUrl: "https://creativecommons.org/licenses/by/2.5"
     accessedAt: "2026-07-15"
     originalSha256: "bad9f20d1c5338559de5b119a4231a2f4bb9dcb034e5c4bd8e6a2b9c9ffe0598"
-    compactPath: media/compact/jp-miyakojima-yonaha-maehama.webp
-    completePath: media/complete/jp-miyakojima-yonaha-maehama.webp
+    compactPath: "media/compact/jp-miyakojima-yonaha-maehama.webp"
+    completePath: "media/complete/jp-miyakojima-yonaha-maehama.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除日本最美第一、世界頂級、沙如麵粉無礫與平緩適游等無證據保證。"
+    - "保存舊錯誤24.67648於previousLocation；本次座標與canonical Maps query同步，觸發半徑80公尺。"
+    - "保留 Yonahamaehama_Miyakojima_Okinawa_Japan02bs3s4592.jpg，其檔名符合前濱；本次不重宣稱影像、作者、授權皆已認證。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 fetched the Okinawa Convention & Visitors Bureau beach page. Official explicit place query is near 24.7351, not the YAML's 24.67648. The original is approximately 6.54 km south; the previously reported approximately 24.7347 correction was directionally consistent. Do not revert to 24.67648 without new point evidence.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新取得觀光局官方海灘q=24.73510742,125.26185608，並讀取主代理maps-yonaha.json具名頁與分享。本代理亦實際GET分享並在跳轉URL及Google初始化資料取得!3d24.7349726!4d125.2629745；改採此具名海灘landmark。兩pin約114公尺差，官方q沒有入口證據，不冒稱公共停車抵達點，亦不使用@viewport。"
   sources:
-  - url: https://www.okinawastory.jp/spot/1089
-    title: 与那覇前浜ビーチ｜おきなわ物語（沖縄観光コンベンションビューロー）
-    coordinateEvidence: 'Fetched HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.73510742,125.26185608&zoom=14; q is the named place marker, not @ viewport. Page address: 宮古島市下地字与那覇1199-1. API key omitted.'
+    - url: "https://maps.app.goo.gl/rKbpVGCRZ82v5Hi88"
+      title: "与那覇前浜｜Google Maps 具名地標"
+      coordinateEvidence: "EXACT raw share href=https://maps.app.goo.gl/rKbpVGCRZ82v5Hi88 ; resolved=https://www.google.com/maps/place/%E4%B8%8E%E9%82%A3%E8%A6%87%E5%89%8D%E6%B5%9C/@24.7349722,125.2629745,15z/data=!3m1!4b1!4m6!3m5!1s0x34f4559004ecf939:0x4a5129e59bbe4503!8m2!3d24.7349726!4d125.2629745!16s%2Fg%2F11b6yq67r6?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=99352f38-ba32-4962-ad08-865675e655f0 ; 擷取!8m2!3d24.7349726!4d125.2629745，Google feature 0x34f4559004ecf939:0x4a5129e59bbe4503，名稱与那覇前浜。@24.7349722,125.2629745,15z是視窗，不用作pin。主代理heading及地址〒906-0305沖縄県宮古島市下地与那覇1199番匹配。"
+    - url: "https://www.okinawastory.jp/spot/1089"
+      title: "与那覇前浜ビーチ｜おきなわ物語"
+      coordinateEvidence: "2026-09-16重新取得HTML place q=24.73510742,125.26185608、zoom=14，地址下地字与那覇1199-1；位於採用named pin約114公尺西側，未證實其為入口。本次採具名landmark，不把差異掩蓋為更大觸發半徑。"
   previousLocation:
     latitude: 24.67648
     longitude: 125.25637
   verifiedLocation:
-    latitude: 24.73510742
-    longitude: 125.26185608
+    latitude: 24.7349726
+    longitude: 125.2629745

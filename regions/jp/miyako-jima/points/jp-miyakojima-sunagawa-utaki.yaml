@@ -1,111 +1,120 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sunagawa-utaki
+  id: "jp-miyakojima-sunagawa-utaki"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "砂川御嶽"
-  summary: "砂川御嶽是宮古島砂川地區一處傳統琉球聖地，密林中的石灰岩聖壇保留著宮古島原住民信仰的核心精神，是感受宮古島古老宗教文化的重要場所。"
-  narration: |
-    在宮古島，「御嶽」（うたき）是傳統琉球信仰中最神聖的場所，每個村落都有自己守護的御嶽。砂川御嶽藏於砂川地區的雜木林深處，林蔭遮天，陽光只能從葉隙間透入，形成斑駁光影。踏入這片神聖的空間，腳步自然放輕，氣氛肅穆而寧靜。石灰岩堆砌的聖壇前，有時可見當地居民供奉的鮮花與香燭，提醒造訪者這裡至今仍是活躍的信仰場所。宮古島有別於首里城的官方琉球文化，御嶽所承載的是更貼近庶民生活的原生信仰，與自然緊密融合，無需宏偉建築，一塊岩石、一棵老樹，便是神靈棲居之所。請以尊重的態度靜靜感受這份古老的宮古精神。
-  observationPrompt: "進入御嶽林地時，注意周圍樹木的種類——是否有榕樹的氣生根或老樟樹的粗壯樹幹？找找看聖壇附近是否有居民留下的供品或繫在樹枝上的繩索。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "砂川地區有不同御嶽與祭祀歸屬；本筆尚未查明正式名稱，不把砂川神社或其他御嶽視作同一地點。"
+  narration: |-
+    如果村路旁出現一片樹林或石圍，先別急著把它當作可以參觀的御嶽入口。砂川的信仰生活，比地圖上一個名稱複雜得多：二〇一三年刊出的田野報告，記錄居民如何與各自所屬御嶽、稱為マウガン的守護神連結，也談到家中的香爐與命名儀禮。這些記錄讓我們看見，御嶽不只是林子裡的一座祭壇，還牽連家庭與個人的生命歷程。不過，報告不是一份今日參觀指南，也不能證明舊資料所寫的「砂川御嶽」究竟是哪一處；地方名錄與實際地圖還列出砂川神社等不同場所。身分確認之前，不把任何一座的祭神、樹種或歷史套過來。若在公共道路看到場所名牌，先讀名字與限制，尊重居民，不跨過圍界去找祭壇或供品。
+  observationPrompt: "只在公共道路可見處確認場所名牌與限制標示；不要為辨識地點走入林地、靠近祭壇或拍攝儀式。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: religion
-          label: 宗教
-    - id: experience
-      label: 體驗
+        - id: "religion"
+          label: "宗教"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        - id: "quiet"
+          label: "靜謐"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 砂川地區有多處御嶽，須先確認此筆祭祀場所的正式名稱；不以砂川神社或另一御嶽自動替代，勿進入未獲准的聖域。
+  locationHint: "未確認正式名稱及與砂川神社、キサマムトゥ等場所的關係；不提供 GPS，勿擅入村落聖域。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "御嶽是琉球信仰核心場所，砂川御嶽為宮古島重要的地方信仰據點，代表宮古島非物質文化遺產。"
-    sources: [src1]
-  distinctiveness:
-    score: 4
-    note: "宮古島御嶽信仰有別於首里城等主流琉球觀光，展現更原生的南島宗教景觀，稀有性高。"
-    sources: [src1, src2]
-  interpretability:
-    score: 3
-    note: "需要背景說明才能理解御嶽信仰的文化意義，視覺上呈現的神聖氛圍有助於感受但需文字導覽。"
-    sources: [src2]
-  visitorValue:
-    score: 3
-    note: "對文化旅遊者具高度吸引力，但無視覺奇觀，需要文化敏感度才能欣賞其價值。"
-    sources: [src1]
-  evidenceQuality:
     score: 2
-    note: "御嶽信仰有學術文獻記載，但針對砂川御嶽本身的資料相對有限，主要依賴地方文獻。"
-    sources: [src1]
-  final: 3.2   # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*2 = 0.9+1.0+0.6+0.45+0.2 = 3.15 → 3.2
+    note: "砂川信仰有田野記錄，但本筆個別地點未定。"
+    sources:
+      - "uruka-fieldwork"
+      - "utaki-inventory"
+  distinctiveness:
+    score: 2
+    note: "地方祭祀背景值得理解，不推論某一未知御嶽特色。"
+    sources:
+      - "uruka-fieldwork"
+      - "utaki-inventory"
+  interpretability:
+    score: 1
+    note: "只可核對公開名牌，不能假定祭壇可見。"
+    sources:
+      - "uruka-fieldwork"
+      - "utaki-inventory"
+  visitorValue:
+    score: 0
+    note: "沒有確認公共參訪範圍。"
+    sources:
+      - "uruka-fieldwork"
+      - "utaki-inventory"
+  evidenceQuality:
+    score: 1
+    note: "文獻支持區域背景，不能唯一辨識此筆。"
+    sources:
+      - "uruka-fieldwork"
+      - "utaki-inventory"
+  final: 1.4
 sources:
-  - id: src1
-    title: "宮古島の御嶽 - 宮古島市公式ホームページ"
-    publisher: "宮古島市"
-    url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/bunkazai/
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "uruka-fieldwork"
+    title: "砂川のマウガン祭祀"
+    publisher: "関西学院大学 現代民俗学 島村恭則研究室・上田晴菜"
+    url: "https://shimamukwansei.hatenablog.com/entry/20130130/1359532286"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "御嶽是宮古島傳統信仰的核心聖地，各村落均有守護御嶽"
-      - "砂川地區有重要的御嶽信仰場所"
-  - id: src2
-    title: "御嶽 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E5%BE%A1%E5%B6%BD
-    accessedAt: "2026-07-15"
-    language: ja
+      - "2013年刊出的田野報告記錄砂川居民、各自歸屬御嶽與守護神マウガン的關係。"
+      - "報告記載命名儀禮、神籤決定歸屬及家中香爐等習俗，並非單一砂川御嶽的遊覽說明。"
+  - id: "utaki-inventory"
+    title: "宮古島の御嶽"
+    publisher: "宮古島の御嶽"
+    url: "https://umut.jp/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "御嶽是琉球・宮古島傳統信仰中神靈棲居的神聖場所"
-      - "御嶽通常位於森林或岩石旁，至今仍是活躍信仰場所"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nasu-nu-utaki_07.jpg
-    creator: "Bérangère444"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "9987abb8c70c885351093f49e4725bd1789a55ce077e7520da24bce485f077f7"
-    compactPath: media/compact/jp-miyakojima-sunagawa-utaki.webp
-    completePath: media/complete/jp-miyakojima-sunagawa-utaki.webp
+      - "名錄分列城辺砂川的砂川神社、城辺友利的嶺間御嶽。"
+      - "不能僅按村名將不同御嶽合併成一個導航點。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "移除虛構聖壇、供品、樹種及邀請進入聖林的導覽；田野記錄明示為歷史背景，非現行儀式時程。"
+    - "移除 Nasu-nu-utaki_07.jpg：檔名為其他御嶽，無證據屬砂川此筆；不以別處聖域照片代替。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact-name search identifies multiple distinct Uruka/Sunagawa sacred places, while the YAML gives only a generic forest-shrine description. Research reports dozens of utaki in the district. Cannot uniquely identify a specific shrine or establish accessible landmark coordinates.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新取得砂川マウガン田野報告與御嶽名錄；Google實際搜尋另列砂川神社24.7323988,125.3541904及キサマムトゥ24.7285316,125.3518129，均無證據等同原文泛稱砂川御嶽，維持 unresolved。"
   sources:
-  - url: https://shimamukwansei.hatenablog.com/entry/20130130/1359532286
-    title: 砂川のマウガン祭祀｜関西学院大学・島村恭則研究室
-    coordinateEvidence: Field-research account identifies multiple/different utaki in 城辺砂川; no unique 砂川御嶽 marker matching YAML. Source used for ambiguity, not coordinate inference.
-  - url: https://umut.jp/
-    title: 宮古島の御嶽：御嶽一覧
-    coordinateEvidence: Local cultural inventory lists 砂川神社 under GUSUKUBE URUKA, not sufficient evidence that this is the YAML's unnamed forest altar. No same-name replacement coordinate adopted.
+    - url: "https://shimamukwansei.hatenablog.com/entry/20130130/1359532286"
+      title: "砂川のマウガン祭祀"
+      coordinateEvidence: "田野報告描述不同個人歸屬與御嶽，不能將村名視為唯一場所；未採座標。"
+    - url: "https://umut.jp/"
+      title: "宮古島の御嶽"
+      coordinateEvidence: "城辺砂川條目名為砂川神社，不能證明與原紀錄同一身分。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E7%A0%82%E5%B7%9D%E5%BE%A1%E5%B6%BD%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "砂川御嶽｜Google Maps 實際查詢"
+      coordinateEvidence: "主代理fresh-profile Chrome回傳砂川神社及御嶽キサマムトゥ等不同候選。兩者座標僅用於排除自動代換，未採入point.location。 REJECTED exact raw href=https://www.google.com/maps/place/%E7%A0%82%E5%B7%9D%E7%A5%9E%E7%A4%BE/data=!4m7!3m6!1s0x34f457a53c937ed9:0xf42c3f4a4f40f1da!8m2!3d24.7323988!4d125.3541904!16s%2Fg%2F11h320l81f!19sChIJ2X6TPKVX9DQR2vFAT0o_LPQ?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1 ; 名稱砂川神社不等於本筆。 REJECTED exact raw href=https://www.google.com/maps/place/%E5%BE%A1%E5%B6%BD+%E3%82%AD%E3%82%B5%E3%83%9E%E3%83%A0%E3%83%88%E3%82%A5/data=!4m7!3m6!1s0x34f4570079951d1d:0xa57e4876376f80e0!8m2!3d24.7285316!4d125.3518129!16s%2Fg%2F11w2xtj8wg!19sChIJHR2VeQBX9DQR4IBvN3ZIfqU?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1 ; 名稱御嶽 キサマムトゥ不等於本筆。"
   previousLocation:
     latitude: 24.7485
     longitude: 125.2918

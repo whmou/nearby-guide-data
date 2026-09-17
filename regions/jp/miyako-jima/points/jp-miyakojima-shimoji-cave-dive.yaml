@@ -1,110 +1,106 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-shimoji-cave-dive
-  parentId: jp-miyakojima-shimoji-island
-  kind: venue
-  title: "下地島洞窟ダイビング入口"
-  summary: "下地島的通り池與外海透過水下洞穴相連，是特殊的地形潛水景觀；洞穴潛水屬進階活動，本導覽不提供可步行抵達的入水點或自行穿越路線。"
-  narration: |
-    下地島通り池的兩個內陸水池在水下相連，並透過洞穴連通外海。這套隱藏於石灰岩中的連通構造，是通り池地形景觀的重要特色。從岸上觀看池水，可以想像眼前平靜的水面與外海之間，還有肉眼看不到的地下聯繫。官方觀光資料將需要穿越黑暗水下隧道的通り池潛水列為進階潛點，不能視為初學者體驗方案。本導覽沒有核實可供遊客自行抵達的洞口或入水路線；陸上遊客請留在通り池開放步道與觀景處，潛水安排應由所訂專業業者評估資格、海況與集合方式，勿自行前往礁盤尋找入口。
-  observationPrompt: "若從通り池開放的岸上觀景處欣賞池水，試著比較兩池的水色與波紋；請留在開放範圍，不要為尋找海中洞口而離開步道或下水。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  id: "jp-miyakojima-shimoji-cave-dive"
+  parentId: "jp-miyakojima-shimoji-island"
+  kind: "venue"
+  title: "下地島洞窟ダイビング（通り池・海中活動）"
+  summary: "通り池的水面下連向另一座池與外海，構成特殊洞穴地形；這是進階海中活動的故事，不是可自行步行抵達的入水口。"
+  narration: "如果從通り池開放的陸上觀景處看過兩個水面，可以先記住它們隔著岩地並排的樣子；真正有意思的連結，藏在看不見的水下。官方介紹說，兩池在水面下相通，並連向外海，這也是「通り池」名稱所指的特徵，並不是兩個完全封閉的淡水水坑。海水深度不同，鹽分與水溫條件也有差異，讓一張平面的池面照片，背後其實有立體的地下構造。正因為海中路線要穿過黑暗隧道，官方把這裡列為相當進階的潛點；美麗的地形不等於容易的活動，更不等於沿岸找個洞就可以進去。這筆導覽只保留洞穴與海洋相連的故事，沒有固定集合GPS。一般遊客留在開放步道欣賞即可，潛水資格、裝備、路線及當日海況，都須由所訂專業業者評估，別把岸上可看的池當成可自由下水的入口。\n"
+  observationPrompt: "若在通り池開放觀景處，從安全位置比較兩池形狀、水色與周圍岩地；不離開步道、不靠近洞口或下水。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
+        -
+          id: "walking"
+          label: "步行"
+        -
+          id: "photography"
+          label: "攝影"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 通り池海中洞窟潛水需由所訂專業業者安排集合與入水；此筆不是遊客可步行抵達的洞口或陸上入口。
+  locationHint: "通り池海中洞穴活動，無本筆通用集合或入水pin；專業業者另行安排。陸上只使用開放步道與觀景區，不能步行尋找潛水入口。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "通り池洞穴潛水是宮古島最知名的進階潛水體驗之一，在全球洞穴潛水圈享有高度評價。"
-    sources: [toriki-ike-wikipedia-ja, miyakojima-dive-guide]
+    note: "通り池兩池在水面下相通並連向外海，名稱與此水下連通特徵相關。"
+    sources:
+      - "src1"
   distinctiveness:
-    score: 5
-    note: "海洋洞穴連通內陸水池的地形構造全球罕見，潛水路線的戲劇性在日本境內無可比擬。"
-    sources: [toriki-ike-wikipedia-ja]
-  interpretability:
-    score: 3
-    note: "地下連通系統可透過解說或示意圖理解；本導覽未確認可步行抵達的洞口，不應作為尋找入水路線的指引。"
-    sources: [toriki-ike-wikipedia-ja]
-  visitorValue:
     score: 4
-    note: "通り池洞穴潛水屬進階活動，不適合作為初學者通用體驗推薦；一般遊客應於開放的岸上觀景範圍欣賞，不自行尋找洞口。"
-    sources: [miyakojima-dive-guide]
+    note: "官方說明不同深度有鹽分與水溫差異；穿越黑暗海中隧道的潛水屬相當進階活動。"
+    sources:
+      - "src1"
+  interpretability:
+    score: 2
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+  visitorValue:
+    score: 1
+    note: "本筆不提供固定導航；需另確認實際場所或業者安排。"
+    sources:
+      - "src1"
   evidenceQuality:
     score: 3
-    note: "地質構造已有學術記載，但洞口本身的獨立資料主要來自潛水業者與旅遊網站。"
-    sources: [toriki-ike-wikipedia-ja]
-  final: 4.0  # 0.30×4 + 0.25×5 + 0.20×3 + 0.15×4 + 0.10×3 = 1.20+1.25+0.60+0.60+0.30 = 3.95 → 4.0
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 3.1
 sources:
-  - id: toriki-ike-wikipedia-ja
-    title: "通り池 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E9%80%9A%E3%82%8A%E6%B1%A0
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://www.okinawastory.jp/about/miyako_area/shimoji"
+    title: "下地島 | 宮古諸島 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "通り池は海と地下洞穴で繋がっており、ダイバーが洞穴を通って池と海を行き来できる"
-      - "海側入口から池まで洞穴ダイビングのルートが存在する"
-  - id: miyakojima-dive-guide
-    title: "宮古島ダイビングガイド - 通り池"
-    publisher: "宮古島市観光商工スポーツ部"
-    url: https://www.city.miyakojima.lg.jp/kanko/diving.html
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "下地島周辺は宮古島を代表するダイビングエリア"
-      - "洞窟ダイビングは地元ダイビングショップのガイドが必要"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabujima_sky_view.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "aba031168a56fce0eaa017f9ab03636862161da9f98181614508d35e0936571e"
-    compactPath: media/compact/jp-miyakojima-shimoji-cave-dive.webp
-    completePath: media/complete/jp-miyakojima-shimoji-cave-dive.webp
+      - "通り池兩池在水面下相通並連向外海，名稱與此水下連通特徵相關。"
+      - "官方說明不同深度有鹽分與水溫差異；穿越黑暗海中隧道的潛水屬相當進階活動。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "移除入口與免費步入海中活動的暗示，刪除泛用free標籤；保留岸上觀察與進階潛水的清楚區別。"
+    - "移除原媒體紀錄：Irabujima_sky_view.jpg是伊良部島空拍，不能作通り池水下洞穴或下水入口影像；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official island and culture descriptions confirm an advanced underwater connection to Toriike, not a public shore-entry venue. YAML names no operator or fixed safe arrival point, and its beginner-access narrative conflicts with official advanced-diver description.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取OCVB下地島專頁，明載通り池水下相連外海，穿越黑暗隧道屬相當進階潛點。原題「入口」會暗示公共岸上入水場所，改為同一通り池海中活動的明確標題；未新增場所、未套用岸上池景pin，維持non_point。"
   sources:
-  - url: https://www.okinawastory.jp/about/miyako_area/shimoji
-    title: 下地島・通り池｜おきなわ物語
-    coordinateEvidence: Official text describes dark underwater tunnels and advanced-level diving. No land arrival coordinate for the supposed cave-diving entrance; pool landmark coordinate was not substituted.
+    -
+      url: "https://www.okinawastory.jp/about/miyako_area/shimoji"
+      title: "下地島 | 宮古諸島 | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "本次HTTP 200重新讀取通り池兩池、外海連通及高階潛水說明；無可供一般遊客使用的岸上洞口或通用業者集合Google pin，未採岸上景點GPS。"
   previousLocation:
     latitude: 24.824028
     longitude: 125.136417

@@ -1,111 +1,187 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ikema-wetland
+  id: "jp-miyakojima-ikema-wetland"
   parentId: null
-  kind: attraction
-  title: "池間湿地"
-  summary: "池間濕地是列入拉姆薩公約的重要濕地，冬季候鳥雲集，是宮古島生態保育的象徵，也是賞鳥愛好者的朝聖地。"
-  narration: |
-    池間濕地位於宮古島北端、池間大橋旁，是沖縄縣重要的候鳥棲息地，也是日本少數列入拉姆薩濕地公約的場域之一。每逢冬季，來自西伯利亞與中國大陸的候鳥大批南下，在此度冬，包括斑尾鷸、彩鷸與多種鷺科鳥類，為濕地增添豐富的生命力。濕地周圍設有觀察步道，旅客可以在不干擾野生動物的前提下，靜靜觀賞鳥群在水面上起落。夏季水鳥種類雖較少，但周遭的蘆葦與紅樹林仍充滿生機。造訪此地需要一點耐心與安靜，但換來的是一種在熱帶島嶼上難以尋得的、與自然共處的靜謐時刻。
-  observationPrompt: "沿著觀察步道緩步前行，試著在水面上找到至少三種不同的水鳥——注意牠們的嘴型、腳的長短與羽毛顏色有什麼差異？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "attraction"
+  title: "池間湿原（展望台）"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
-    latitude: 24.9323891
-    longitude: 125.242831
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.9323891,125.242831
+    latitude: 24.9348056
+    longitude: 125.2424515
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.9348056,125.2424515"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 池間湿原（ユニムイ）：此為縣府提供的濕地地標圖釘，供鄰近定位使用，並非觀察平台或入口的精確圖釘。請僅於指定賞鳥平台／公共步道觀察，勿進入或穿越沼澤。
+    rearmDistanceMeters: 1000
+  locationHint: "導航至池間湿原展望台的觀察位置，不是濕地中心或停車場入口。沿道路與現場『池間湿原』指標抵達；只在開放的觀察設施停留，勿穿越濕地、翻越圍欄或為觸發而離開通行區。遇封閉標示不進入；不保證旅期開放或鳥況。"
+  summary: "池間島中央約38公頃的濕地，曾是海灣，因港口工程後逐漸淡水化；請只在指定觀察區看水面與植被。"
+  narration: |
+    到了展望台，看看開闊水面和成片水生植物怎麼交錯。池間濕地面積約三十八公頃，雖然被海包圍在小島中央，它的淡水環境卻不是從來如此。環境省的介紹說，這裡過去是一處海灣，港口工程使灣口封閉，之後逐漸淡水化。看似安靜的一片水，也留下了人為工程改變環境的歷史。它被列入日本重要濕地五百，池間鳥獸保護區則在二〇一一年設定。對鳥來說，水面、草叢和周邊棲地的差異都很重要，但今天會有哪種鳥出現，沒有辦法保證。不妨先觀察植被邊緣和開水面的分布，有鳥時再安靜看牠的活動。導航標的是展望台，不是濕地中央；循道路與現場指標到觀察位置，若設施封閉就不要進入。不穿越濕地、不以聲音或食物引鳥，把一點不被打擾的空間留下來。
+  observationPrompt: "從指定觀察位置比較水生植物與開闊水面的分布；安靜等待，不保證鳥種、不餵食，也不穿越濕地。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "拉姆薩公約登錄濕地，具有國際認定的生態保育重要性，是宮古島最具代表性的鳥類棲息地。"
-    sources: [src1]
+    note: "官方重要濕地及鳥獸保護區的自然價值。"
+    sources:
+      - "wetland-pref"
+      - "wetland-environment"
   distinctiveness:
     score: 4
-    note: "在以海洋景點為主的宮古島中，提供罕見的候鳥觀察體驗，且具國際公約認可背書。"
-    sources: [src1]
+    note: "海灣轉淡水濕原的環境歷程鮮明。"
+    sources:
+      - "wetland-pref"
+      - "wetland-environment"
   interpretability:
     score: 3
-    note: "自然環境直觀，但鳥類識別與生態背景需要額外的解說資料輔助。"
-    sources: [src1]
+    note: "可從指定觀察區辨認水面及植被差異。"
+    sources:
+      - "wetland-pref"
+      - "wetland-environment"
   visitorValue:
-    score: 3
-    note: "免費開放，最佳觀賞時節（冬季）限定，夏季旅遊旺季體驗相對有限。"
-    sources: [src1]
+    score: 2
+    note: "採展望台觀察位置，仍受設施通行、天候與鳥況限制。"
+    sources:
+      - "wetland-pref"
+      - "wetland-environment"
   evidenceQuality:
-    score: 4
-    note: "有拉姆薩公約官方登錄資料及日本環境省資料作為佐證，資料可信度高。"
-    sources: [src1]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*4 = 1.20+1.00+0.60+0.45+0.40 = 3.65 → 3.7
+    score: 5
+    note: "縣環境資料與環境省正文及具名Maps消歧義。"
+    sources:
+      - "wetland-pref"
+      - "wetland-environment"
+  final: 3.6
 sources:
-  - id: src1
-    title: "池間湿地｜ラムサール条約湿地｜環境省自然環境局"
-    publisher: "環境省"
-    url: https://www.env.go.jp/nature/ramsar/wetland/2_21.html
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "wetland-pref"
+    url: "https://www.midorihana-okinawa.jp/?page_id=2739"
+    title: "池間湿原（ユニムイ）"
+    publisher: "沖縄県環境部環境再生課"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "池間濕地列入拉姆薩公約國際重要濕地名錄"
-      - "冬季有大批候鳥南下在此度冬，包括多種鷸科與鷺科鳥類"
-      - "位於宮古島北端池間島附近，生態保育價值高"
+      - "濕地約38公頃，列入日本重要濕地500。"
+      - "官方介紹從展望台觀察水生植物與野鳥。"
+  -
+    id: "wetland-environment"
+    url: "https://www.env.go.jp/nature/important_wetland/wetland/w606.html"
+    title: "重要湿地 No.606 池間湿原と周辺サンゴ礁"
+    publisher: "環境省"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "濕原過去為海灣，港口工程封閉灣口後淡水化。"
+      - "保育範圍含濕原及周邊珊瑚礁，不等同全部為淡水環境。"
+  -
+    id: "wetland-bird"
+    url: "https://kyushu.env.go.jp/okinawa/wildlife/hogoku.html"
+    title: "管内の国指定鳥獣保護区 — 池間鳥獣保護区"
+    publisher: "環境省沖縄奄美自然環境事務所"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "池間鳥獸保護區2011年設定，淡水濕原為鳥類繁殖與候鳥飛來地。"
+  -
+    id: "google-live"
+    title: "Google Maps — 池間湿原 展望台"
+    url: "https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E6%B9%BF%E5%8E%9F+%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f44d8f94853d7d:0xbbb7730993487d50!8m2!3d24.9348056!4d125.2424515!16s%2Fg%2F11j4xq3fjl!19sChIJfT2FlI9N9DQRUH1Ikwlzt7s"
+    publisher: "Google Maps（主流程公開Chrome實際開啟）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "2026-09-16T13:45:39.074Z fresh-profile Chrome實際開啟『池間湿原 展望台』；具名place !3d24.9348056!4d125.2424515，分享連結解析一致；不是@視窗中心。縣環境頁確認有展望台，觀光協會舊文記錄道路通往觀察小屋；設施對應為交叉核對推論，非實測或旅期開放保證。"
+  -
+    id: "ikema-association"
+    title: "イーヌブー（池間湿原）に行ってみよう！"
+    url: "https://ameblo.jp/ikemajimakankoukyoukai/entry-12251672830.html"
+    publisher: "池間島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "記錄沿道路與濕原指標到觀察小屋；歷史文章不保證目前通行。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_ikema_shitsugen.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Miyako_ikema_shitsugen.jpg"
     creator: "Paipateroma"
     license: "CC BY-SA 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
     accessedAt: "2026-07-15"
     originalSha256: "f79a502afc305b9af09e4f3ec90ad3ea248cb193144c4517fb090de611bd28f4"
-    compactPath: media/compact/jp-miyakojima-ikema-wetland.webp
-    completePath: media/complete/jp-miyakojima-ikema-wetland.webp
+    compactPath: "media/compact/jp-miyakojima-ikema-wetland.webp"
+    completePath: "media/complete/jp-miyakojima-ikema-wetland.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "獨立複核改採Chrome實際開啟的『池間湿原 展望台』具名place座標24.9348056,125.2424515；官方自然地標中心距此271公尺，不能作為可到達觀察位置。縣環境介紹確認展望台用途，池間島觀光協會記錄沿道路與指標到觀察小屋；不放大觸發半徑，不保證旅期設施開放。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: Okinawa Prefecture's environmental department publishes this exact coordinate for the named wetland and describes viewing from its platform. Accepted as a named natural landmark, not a surveyed entrance; no guessed platform offset. Original point is about 360 m northeast. YAML's Ramsar claim is not supported by inspected official sources, which specify Important Wetlands 500 and national bird sanctuary status.
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "獨立複核改採Chrome實際開啟的『池間湿原 展望台』具名place座標24.9348056,125.2424515；官方自然地標中心距此271公尺，不能作為可到達觀察位置。縣環境介紹確認展望台用途，池間島觀光協會記錄沿道路與指標到觀察小屋；不放大觸發半徑，不保證旅期設施開放。"
   sources:
-  - url: https://www.midorihana-okinawa.jp/?page_id=2739
-    title: 沖縄県環境部環境再生課 — 池間湿原（ユニムイ）
-    coordinateEvidence: https://www.midorihana-okinawa.jp/?page_id=2739 explicitly prints 緯度・経度 24.9323891_125.242831 for registration 044 池間湿原（ユニムイ） and links https://www.google.com/maps?q=24.9323891%2C125.242831. Direct official coordinate field and numeric destination query, not viewport. It describes a viewing platform without claiming the coordinate surveys that platform.
-  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf
-    title: 宮古島市 — 池間湿原散策コース
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf maps 野鳥観察展望台 and explains Important Wetlands 500 and 2011 national bird sanctuary status. Corroborates identity/designated viewing access; no numeric coordinate inferred from illustration.
+    -
+      url: "https://www.midorihana-okinawa.jp/?page_id=2739"
+      title: "池間湿原（ユニムイ）"
+      coordinateEvidence: "沖繩縣頁『緯度・経度』24.9323891_125.242831及原始Google q為自然地標中心，本輪不採為導航；正文確認展望台可觀察水生植物與野鳥。展望台另採Google具名place，兩種錨點相距271公尺。"
+    -
+      url: "https://www.env.go.jp/nature/important_wetland/wetland/w606.html"
+      title: "重要湿地 No.606 池間湿原と周辺サンゴ礁"
+      coordinateEvidence: "已抓環境省具名頁 corroborate identity；該頁聲明位置點為概略代表地點，故不從其概略圖另取導航 GPS。"
+    -
+      url: "https://kyushu.env.go.jp/okinawa/wildlife/hogoku.html"
+      title: "管内の国指定鳥獣保護区 — 池間鳥獣保護区"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E6%B9%BF%E5%8E%9F+%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f44d8f94853d7d:0xbbb7730993487d50!8m2!3d24.9348056!4d125.2424515!16s%2Fg%2F11j4xq3fjl!19sChIJfT2FlI9N9DQRUH1Ikwlzt7s"
+      title: "Google Maps — 池間湿原 展望台"
+      coordinateEvidence: "2026-09-16T13:45:39.074Z fresh-profile Chrome實際開啟『池間湿原 展望台』；具名place !3d24.9348056!4d125.2424515，分享連結解析一致；不是@視窗中心。縣環境頁確認有展望台，觀光協會舊文記錄道路通往觀察小屋；設施對應為交叉核對推論，非實測或旅期開放保證。"
+    -
+      url: "https://ameblo.jp/ikemajimakankoukyoukai/entry-12251672830.html"
+      title: "イーヌブー（池間湿原）に行ってみよう！"
+      coordinateEvidence: "2026-09-16實際擷取；池間島觀光協會記錄沿フナクス停車場前道路與濕原指標抵達觀察小屋。支持有道路可達的觀察設施，文章年代較早，不保證目前通行或旅期開放；未由此頁提取座標。"
   previousLocation:
     latitude: 24.9342
     longitude: 125.2458
   verifiedLocation:
-    latitude: 24.9323891
-    longitude: 125.242831
+    latitude: 24.9348056
+    longitude: 125.2424515

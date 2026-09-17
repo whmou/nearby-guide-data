@@ -1,115 +1,100 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sunset-cruise
+  id: "jp-miyakojima-sunset-cruise"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "宮古島サンセットクルーズ"
-  summary: "搭乘玻璃底船或帆船雙體船出海，在來間島與砂山海岸周邊的海域欣賞宮古島醉人的落日，是當地最受歡迎的浪漫黃昏體驗行程。"
-  narration: |
-    宮古島的夕陽，常被形容為「一生必看一次」的景致。而從船上眺望這抹落日，更有一種只有置身大海才能感受到的遼闊與感動。
-
-    宮古島サンセットクルーズ通常從平良港或砂山海岸附近出發，航行至來間島（くりまじま）外海，在夕陽最壯麗的時間帶抵達最佳觀賞位置。船型有兩種選擇：玻璃底觀光船讓你一邊看夕陽一邊俯瞰腳下的珊瑚礁；帆船雙體船則讓你坐在甲板邊緣，感受海風吹過臉龐，伴著船帆剪影迎接落日。
-
-    夕陽沉入地平線後，天空會短暫呈現橘紅、粉紫交織的「魔幻時刻」（マジックアワー），海面倒映著彩霞，美得如同油畫。部分業者會在船上提供宮古島的泡盛或熱帶水果飲料，讓你以一杯舉手敬天邊的金色餘暉。回港時，繁星開始浮現，為這趟航程畫下完美句點。
-  observationPrompt: "太陽碰觸地平線的那一刻，請觀察海面的顏色——從靠近夕陽的金橘色到遠處的深藍色，中間過渡了哪幾種顏色？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "宮古島日落遊船的背景與登船提醒；船型、航線和碼頭依具名業者而異，本筆不是固定集合點。"
+  narration: |-
+    上船前，先看船身的名字，再看登船口的指示，這兩樣往往比地圖上寫著「平良港」更有用。宮古島確實有晚餐遊船，例如モンブラン的官方說明，把集合處寫得很具體：在平良港停泊的船內一樓櫃檯辦理手續；同一頁也提醒，天氣與海況可能讓航程更動或取消。這是一家船公司的做法，不能套用到所有日落船、帆船或包船。從這個小細節就能理解，遊船不是海面上的一枚固定圖釘，而是一段由船、人與當天天候共同決定的行程。本筆沒有指定業者，所以不保證從哪個海灘出發、會繞到哪座島，也不保證看得到落日。確認預約後，依通知到正確登船口，在工作人員允許的區域留意港岸輪廓與天空的變化，別為了追最後一抹光靠近碼頭邊緣。
+  observationPrompt: "抵達已預訂業者的集合地點後，核對船身名稱與登船口告示；只在允許停留處觀察岸線與天空。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 付費
+        - id: "ticketed"
+          label: "付費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 日落遊船為泛稱行程；先確認預約船公司，再依其登船／集合通知抵達，不能以平良港任意位置導航。
+  locationHint: "泛稱日落遊船，沒有統一碼頭或船隻；集合地點以預約業者通知為準，不使用平良港中心或海上座標。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島日落景色全島著名，夕陽遊船為當地最受歡迎的休閒活動之一。"
-    sources: [src1]
+    score: 2
+    note: "作為島嶼海上旅遊主題，無單一文化景點定位。"
+    sources:
+      - "cruise-example"
   distinctiveness:
-    score: 3
-    note: "玻璃底船與雙體帆船夕陽巡航體驗在宮古島具特色，但類似活動在其他離島亦普遍。"
-    sources: [src1, src2]
+    score: 2
+    note: "夕景體驗不能視為某一船型的專有特色。"
+    sources:
+      - "cruise-example"
   interpretability:
     score: 3
-    note: "體驗直觀，無需解說即能感受夕陽之美；船長偶爾會分享宮古島海洋故事。"
-    sources: [src2]
+    note: "船名與登船指示具體可辨。"
+    sources:
+      - "cruise-example"
   visitorValue:
-    score: 4
-    note: "老少咸宜、浪漫感強，是蜜月或情侶旅遊的熱門安排，也適合家庭出遊。"
-    sources: [src2]
+    score: 1
+    note: "未選定業者，不提供集合或保證出航資訊。"
+    sources:
+      - "cruise-example"
   evidenceQuality:
-    score: 3
-    note: "觀光資料及旅遊平台評論充足，反映真實訪客體驗。"
-    sources: [src1]
-  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+    score: 2
+    note: "具名業者官方資料僅用作明示例子。"
+    sources:
+      - "cruise-example"
+  final: 2.1
 sources:
-  - id: src1
-    title: "宮古島サンセットクルーズ｜観光アクティビティ"
-    publisher: "宮古島観光ガイド miyako-guide.net"
-    url: https://miyako-guide.net/activity/sunset-cruise
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "cruise-example"
+    title: "FAQ｜ベイクルーズ宮古島モンブラン"
+    publisher: "株式会社はやて"
+    url: "https://www.hayate-montblanc.com/faq/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島サンセットクルーズ從平良港附近出發，航行至來間島外海欣賞落日"
-      - "提供玻璃底船與帆船雙體船兩種選擇"
-  - id: src2
-    title: "宮古島の夕日・サンセット情報 - Visit Okinawa"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.visitokinawa.jp/experiences/miyako-sunset-cruise
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "宮古島夕陽景色是沖縄南西諸島最知名的自然景觀之一"
-      - "夕陽遊船是蜜月與情侶旅遊的熱門推薦行程"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Cruise_Ship_Sunset_View.jpg
-    creator: "Shelley Steinhorst"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "028b9ed1d733917752a456fe7d0a5f91cee4cb1593d925d5834f44a123160579"
-    compactPath: media/compact/jp-miyakojima-sunset-cruise.webp
-    completePath: media/complete/jp-miyakojima-sunset-cruise.webp
+      - "以 MontBlanc 為具名例子：停泊平良港，船內一樓櫃檯受理登船。"
+      - "船公司指出天候、海況可能造成停航或更改航程；不能視作所有日落船的共同集合點。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除砂山出發、來間島航線、玻璃底或雙體船、免費飲品與必見星空等通用幻想敘事。"
+    - "移除 Cruise_Ship_Sunset_View.jpg：通用遊輪夕景未證明是宮古島或本主題的實際業者；不以陌生船隻代替。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 checked real cruise operator information. MontBlanc has its own boat reception, but YAML describes generic glass-bottom/catamaran alternatives and multiple departures without naming that operator. Cannot silently replace the experience with MontBlanc or a port-center coordinate.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新取得モンブラン官方FAQ，確認該船自己的平良港船內櫃檯及海況限制。原YAML是未指定業者的日落遊船主題，不能改成モンブラン或把其集合點配給所有遊船。"
   sources:
-  - url: https://www.hayate-montblanc.com/faq/
-    title: ベイクルーズ宮古島モンブラン公式 FAQ
-    coordinateEvidence: Operator-specific meeting/boarding guidance, not a coordinate for the unspecified YAML cruise. No named-operator identity match; no coordinates adopted.
-  - url: https://book.hayate-montblanc.com/top/products/f32298d1-21b8-5997-be60-f630b51445c0%3Flng%3Dja-JP
-    title: 宮古島サンセットディナークルーズ・ライトプラン｜はやて公式予約
-    coordinateEvidence: Official product explicitly describes check-in aboard MontBlanc at Hirara Port. YAML does not name MontBlanc and includes other boat types; this is not evidence of the unspecified tour's fixed meeting coordinate.
+    - url: "https://www.hayate-montblanc.com/faq/"
+      title: "FAQ｜ベイクルーズ宮古島モンブラン"
+      coordinateEvidence: "官方FAQ有モンブラン自身的船內一樓受付及平良港地址；僅為具名例子，沒有身分證據讓本泛稱主題採用其座標。"
   previousLocation:
     latitude: 24.801
     longitude: 125.2755

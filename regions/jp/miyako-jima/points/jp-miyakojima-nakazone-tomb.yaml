@@ -1,119 +1,151 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-nakazone-tomb
+  id: "jp-miyakojima-nakazone-tomb"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "仲宗根豊見親の墓"
-  summary: "建於16世紀初期的仲宗根豊見親之墓，是宮古島保存最完整的琉球時代石造墓葬，見證了宮古島統一歷史與琉球建築工藝，已指定為國家重要文化財。"
-  narration: |
-    宮古島北部的一片靜謐台地上，矗立著一座外觀嚴整、氣勢沉穩的石造古墓——這裡長眠著16世紀初宮古島的最重要統治者，仲宗根豊見親（Nakazone Toyomiya）。
-
-    仲宗根豊見親是宮古島歷史上的關鍵人物。他在15至16世紀之交統一了宮古諸島，結束長期分裂的部落紛爭，並確立了向琉球王國朝貢的政治體制。他的統治開創了宮古島相對穩定的發展期，墓葬規模反映了其在島上的崇高地位。
-
-    這座墓葬建造於1500年代初期，以宮古島本地的珊瑚石灰岩砌成，採用當時琉球貴族常見的龜甲形墓制（亀甲墓風格），墓室外圍有精工砌築的石牆環繞。歷經五百年風雨，整體結構保存狀況出奇地良好，石塊之間的接縫工藝至今仍令工匠嘖嘖稱奇。
-
-    1972年，此墓被日本政府指定為重要文化財，是宮古島歷史建築中規格最高的保護文物之一。
-  observationPrompt: "仔細觀察墓室外牆的石砌工法——珊瑚石灰岩塊是如何堆疊固定的？是否使用了砂漿，還是純粹依靠石塊的形狀與重量咬合？試著找出最能展示這種古代工藝的角落。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "仲宗根豐見親之墓結合宮古巨石墓與橫穴式樣；墓前屏牆與頂部石柱，比「龜甲墓」的套用更能說出地方特色。"
+  narration: "先看墓前擋住正面的石牆，再把視線移到墓室上方：那排短石柱，不只是讓外觀顯得整齊的裝飾。宮古島教育委員會介紹，豐見親墓群的石柱頂端有凹口，祭祀時可架上木料、樑與覆蓋物，讓石造墓葬暫時多出屋頂；一個小缺口，就把家族祭祀的做法留在建築上。這座墓與十五世紀末至十六世紀初的宮古首長仲宗根豐見親及忠導氏一門有關，市府另保留他為父親建墓的傳說，但傳說年代不能直接等同眼前每塊石頭的年代。墓制結合宮古原有的巨石墓和沖繩本島橫穴式樣，別急著把它叫成常見的龜甲墓。從開放的外側比較屏牆、墓體與石柱，已足以看出不同地方的建築知識如何相遇；這裡仍有家族祭祀意義，不必跨入墓域才能理解它。\n"
+  observationPrompt: "從開放外側找找墓前屏牆與墓頂短石柱；能否看見柱頂凹口？請勿攀爬、觸摸或進入墓室。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: history
-          label: 歷史
-    - id: experience
-      label: 體驗
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.80862617
     longitude: 125.27981567
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80862617,125.27981567
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.80862617,125.27981567"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 仲宗根豊見親の墓官方地標 pin；僅在開放參觀範圍觀看石造墓外觀，勿進入墓室或跨越圍界。
+    rearmDistanceMeters: 1000
+  locationHint: "仲宗根豐見親之墓官方觀光地標 pin，平良西仲宗根；非墓室或精確入口。僅在現場允許的外側觀看，家族墓域與祭祀活動請保持距離。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "國家重要文化財指定；宮古島統一者的陵墓，在宮古史上地位舉足輕重"
-    sources: [src1, src2]
+    note: "豐見親墓群由三墓組成，仲宗根豐見親之墓祭祀仲宗根豐見親及忠導氏一門。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   distinctiveness:
     score: 4
-    note: "珊瑚石灰岩龜甲形墓制在宮古島獨一無二，是最完整的琉球時代石造建築之一"
-    sources: [src1]
+    note: "墓前有屏牆，墓頂短石柱凹口可於祭祀時承放木料、樑與覆蓋物。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   interpretability:
-    score: 3
-    note: "現場有說明板，但歷史背景複雜；石砌工法可直觀觀察，但需要背景知識才能充分欣賞"
-    sources: [src2]
+    score: 4
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   visitorValue:
     score: 3
-    note: "對歷史和建築有興趣的訪客體驗深刻；一般觀光客可能覺得場所較為低調"
-    sources: [src1]
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   evidenceQuality:
-    score: 3
-    note: "日本文化廳文化財資料庫及Wikipedia有明確記載，資訊可信"
-    sources: [src1, src2]
-  final: 3.6   # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+    score: 4
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
+  final: 3.9
 sources:
-  - id: src1
-    title: "仲宗根豊見親の墓 - 文化遺産オンライン"
-    publisher: "文化庁"
-    url: https://bunka.nii.ac.jp/heritages/detail/208965
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyakojimabunkazai.jp/?p=80"
+    title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【国指定：建造物】豊見親墓・三基～とぅゆみゃばか・さんき～"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "國家重要文化財指定的事實及指定年份"
-      - "墓葬的建造年代及建築特色"
-  - id: src2
-    title: "仲宗根豊見親 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E4%BB%B2%E5%AE%97%E6%A0%B9%E8%B1%8A%E8%A6%8B%E8%A6%AA
-    accessedAt: "2026-07-15"
-    language: ja
+      - "豐見親墓群由三墓組成，仲宗根豐見親之墓祭祀仲宗根豐見親及忠導氏一門。"
+      - "墓前有屏牆，墓頂短石柱凹口可於祭祀時承放木料、樑與覆蓋物。"
+  -
+    id: "src2"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo598/"
+    title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【県指定：史跡】仲宗根豊見親の墓～なかそねとぅゆみゃのはか～"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "仲宗根豊見親的歷史地位及統一宮古島的事蹟"
-      - "墓葬建造的歷史背景"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-nakazone-tomb.webp
-    completePath: media/complete/jp-miyakojima-nakazone-tomb.webp
+      - "此墓融合宮古巨石墓與沖繩本島橫穴式樣；為父親建墓的說法在官方頁明示為傳說。"
+  -
+    id: "src3"
+    url: "https://www.okinawastory.jp/spot/30000070"
+    title: "仲宗根豊見親の墓(国指定重要文化財) | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "官方觀光頁確認同名墓及平良字西仲宗根地址，嵌入place q=24.80862617,125.27981567。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除1500年代原物保存五百年、龜甲墓、1972年國家指定等無支持敘述；不把傳說築墓年代當現存建築斷代。"
+    - "移除原媒體紀錄：Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg是海灘，與石造墓完全無關；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official tourism page explicitly identifies the named tomb and its place marker. Approximately 32 m from existing coordinates; no invented entrance offset.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取OCVB具名墓頁place q=24.80862617,125.27981567，並以教育委員會另一原始q=24.808593,125.279926及主線Maps同名墓、官方文化財網站交叉佐證；保留既有官方地標座標，不採文化財頁ll視窗中心或街景@位置。"
   sources:
-  - url: https://www.okinawastory.jp/spot/30000070
-    title: 仲宗根豊見親の墓（国指定重要文化財）｜おきなわ物語
-    coordinateEvidence: HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.80862617,125.27981567&zoom=16; exact q place pin. Address 平良字西仲宗根真玉3.
+    -
+      url: "https://www.okinawastory.jp/spot/30000070"
+      title: "仲宗根豊見親の墓(国指定重要文化財) | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "本次取得 /maps/embed/v1/place?q=24.80862617,125.27981567&zoom=16；第三方嵌入key不保存或使用。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo598/"
+      title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【県指定：史跡】仲宗根豊見親の墓～なかそねとぅゆみゃのはか～"
+      coordinateEvidence: "原始 href=https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.808593,+125.279926&aq=&sll=24.779078,125.381972&sspn=0.017475,0.033023&brcurrent=3,0x34f4538d3b361497:0x6e2dddfeae481c6f,0,0x34f45392aacbb2fb:0x73f153696582a513&ie=UTF8&t=m&ll=24.819224,125.283194&spn=0.031161,0.047121&z=14&iwloc=near；q=24.808593,125.279926是點位交叉佐證；ll=24.819224,125.283194為顯示中心，不採。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E4%BB%B2%E5%AE%97%E6%A0%B9%E8%B1%8A%E8%A6%8B%E8%A6%AA%E3%81%AE%E5%A2%93%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "仲宗根豊見親の墓 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:35.925Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=仲宗根豊見親の墓。原始分享 href=https://maps.app.goo.gl/r3HWgQ6Upj1Lvhmt9；resolvedShareUrl=https://maps.app.goo.gl/r3HWgQ6Upj1Lvhmt9；具名結果 href=[]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。具名墓地址平良西仲宗根3-4，官網連回miyakojimabunkazai.jp；墓前地標非墓室入口。"
   previousLocation:
     latitude: 24.8089
     longitude: 125.2799

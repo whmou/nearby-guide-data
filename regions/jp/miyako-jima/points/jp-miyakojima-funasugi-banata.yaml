@@ -1,120 +1,158 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-funasugi-banata
-  parentId: jp-miyakojima-irabu-island
-  kind: attraction
+  id: "jp-miyakojima-funasugi-banata"
+  parentId: "jp-miyakojima-irabu-island"
+  kind: "attraction"
   title: "フナウサギバナタ"
-  summary: "フナウサギバナタ是伊良部島北端的一處海崖展望台，宮古語意為「送別遠行船隻之端」，崖頂矗立著一尊凝視遠洋的石雕女子像，承載著漁村女性盼夫歸來的千年深情。"
-  narration: |
-    「フナウサギ」在宮古語中意為「送船」，「バナタ」則是「端頭」——這個名字本身便訴說著一段段離別的故事。數百年來，伊良部島的男人們從佐良濱出海，駕著木造船前往遙遠的海域捕撈鰹魚，有時一去便是數月；而留在島上的妻子與母親，便會走到這處崖邊，目送船影消失在地平線盡頭，再獨自等待歸期。
-
-    崖邊豎立的石雕像面朝東北，雙目遠眺，衣帶在風中微微飄起——那是一位漁夫之妻的形象，被永遠定格在守望的瞬間。站在她身旁，北風從東海呼嘯而來，崖下浪濤拍打礁石的聲音不絕於耳，讓人不難體會當年那份望穿秋水的等待有多漫長。
-
-    展望台的視野開闊壯麗，天氣晴朗時可遠眺多良間島，而腳下的崖壁直落入碧藍大海，礁石上不時有海燕飛過。無論是對攝影者、或對想要感受宮古島人情溫度的旅人，這裡都是一處令人久久不忍離去的角落。
-  observationPrompt: "石雕女子像的面朝方向是東北——你能憑著海風與日光方向，大略判斷她眺望的是哪片海域嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: history
-          label: 歷史
-    - id: experience
-      label: 體驗
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.86148
     longitude: 125.177959
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.86148,125.177959
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.86148,125.177959"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: フナウサギバナタ觀景平台；請使用停車場及公共步道，遠離懸崖邊緣。
+    rearmDistanceMeters: 1000
+  locationHint: "官方觀光頁標示的フナウサギバナタ展望區，不是崖下海岸或舊鳥像入口；由現場公共通道進入可開放平台，留在護欄內，遵守臨時封閉標示。"
+  summary: "伊良部島的送船崖：送行、祈安與木材裝船的地方史，比舊照片裡已拆除的鳥像更值得停下來看。"
+  narration: |
+    如果你帶著舊照片來找一隻張開翅膀的大鳥，先別懷疑自己走錯路：觀光協會說明，這裡原來的鷹形鳥像已經撤除，留下的是展望台與海岸景觀。フナウサギバナタ這個名字，意思是送船的崖。以前人們在這裡為離島出行的人送別、祈求平安，所以眼前的海不只是風景，也是離開家鄉的路。官方還記錄另一種很實際的用途：松木等木材曾從崖上落到海面，再裝船運走。同一段海岸，既承接人的牽掛，也參與島上的搬運工作。現在可以在護欄內，看看高處、海面與水平線之間的關係，想一想沒有公路直達外島時，港口和船如何安排生活。一處看海的展望台，因為送行與勞動的記憶，多出了人的尺度。離開前再回望海面，你看到的也許不再只是漂亮的藍，而是曾經把島與外界接起來的路。
+  observationPrompt: "在護欄內比較崖頂與海面的高度關係，想想昔日送船與木材裝船如何利用這段地形；不要尋找已拆除的鳥像。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "結合自然景觀與漁村文化歷史，具有強烈的在地精神象徵意義"
-    sources: [src1]
-  distinctiveness:
-    score: 5
-    note: "宮古語命名、石雕像敘事與海崖景觀三者合一，在日本絕無僅有"
-    sources: [src1, src2]
-  interpretability:
-    score: 5
-    note: "地名典故與石像敘事賦予景點強烈情感脈絡，解說潛力極高"
-    sources: [src1]
-  visitorValue:
-    score: 4
-    note: "免費入場，視野開闊，情感共鳴強烈，是伊良部必訪地標"
-    sources: [src2]
-  evidenceQuality:
     score: 3
-    note: "有宮古島觀光協會資料及地方文化記載支持"
-    sources: [src1, src2]
-  final: 4.4  # 0.30*4 + 0.25*5 + 0.20*5 + 0.15*4 + 0.10*3 = 1.2+1.25+1.0+0.6+0.3 = 4.35 → 4.4
+    note: "地方送行與運輸史可在地形上理解。"
+    sources:
+      - "funasugi-official"
+      - "funasugi-new"
+  distinctiveness:
+    score: 4
+    note: "送船崖兼具木材裝船記憶。"
+    sources:
+      - "funasugi-official"
+      - "funasugi-new"
+  interpretability:
+    score: 4
+    note: "現存展望區與故事的高低關係清楚。"
+    sources:
+      - "funasugi-official"
+      - "funasugi-new"
+  visitorValue:
+    score: 3
+    note: "適合短暫停留，須尊重崖岸安全限制。"
+    sources:
+      - "funasugi-official"
+      - "funasugi-new"
+  evidenceQuality:
+    score: 5
+    note: "兩個官方觀光頁與Google具名條目交叉核對。"
+    sources:
+      - "funasugi-official"
+      - "funasugi-new"
+  final: 3.7
 sources:
-  - id: src1
-    title: "フナウサギバナタ - 宮古島観光協会"
+  -
+    id: "funasugi-official"
+    url: "https://miyako-guide.net/spots/spots-854/"
+    title: "フナウサギバナタ"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/funasugi-banata/
-    accessedAt: "2026-07-15"
-    language: ja
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "フナウサギバナタ是宮古語，意指送別出航漁船的崖端"
-      - "崖頂矗立著漁夫之妻石雕像，象徵等待丈夫出海歸來的妻子"
-  - id: src2
-    title: "伊良部島の見どころ - 沖縄観光情報WEBサイト"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://visitokinawa.jp/information/funasugi-banata/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "名稱意為送船的崖，曾為出島者祈安送行。"
+      - "曾由崖上將松木等木材落海裝船；現存展望台，原サシバ鳥像已撤除。"
+  -
+    id: "funasugi-new"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_020/"
+    title: "フナウサギバナタ — Meets More MIYAKOJIMA"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "フナウサギバナタ展望台可眺望多良間島，視野絕佳"
-      - "是體驗宮古島漁村歷史文化的代表性景點"
+      - "現場為展望台，舊サシバ鳥像已撤除；有停車場所。"
+  -
+    id: "google-live"
+    title: "Google Maps — フナウサギバナタ"
+    url: "https://www.google.com/maps/place/%E3%83%95%E3%83%8A%E3%82%A6%E3%82%B5%E3%82%AE%E3%83%90%E3%83%8A%E3%82%BF/@24.861253,125.1779987,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5acfbb72919e1:0x1326b70c16bbd781!8m2!3d24.861253!4d125.1779987!16s%2Fg%2F11b75lcb1j?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1e08acba-32a1-4f1f-a8ed-7f704fb4afdd"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "具名フナウサギバナタ條目相符；place座標24.861253,125.1779987與官方展望區接近，未據此改寫官方抵達點。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:フナウサギバナタの断崖_20130207_-_panoramio.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:フナウサギバナタの断崖_20130207_-_panoramio.jpg"
     creator: "690 Noda"
     license: "CC BY 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by/3.0
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0"
     accessedAt: "2026-07-15"
     originalSha256: "0a52341ca99484c0c01c717a85a6ada6702f724b603cad0023c79295efa2b6aa"
-    compactPath: media/compact/jp-miyakojima-funasugi-banata.webp
-    completePath: media/complete/jp-miyakojima-funasugi-banata.webp
+    compactPath: "media/compact/jp-miyakojima-funasugi-banata.webp"
+    completePath: "media/complete/jp-miyakojima-funasugi-banata.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "移除原稿無來源的石化女子、求歸傳說及塑像情節；明確提醒舊サシバ鳥像已撤除。"
+    - "重抓觀光協會頁原始Google href中的24.861480, 125.177959數值目的地；主流程Chrome具名展望台place位置稍偏南，僅佐證同一處，保留官方展望區錨點。官方已說明鳥像撤除。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。原有2013年崖岸照片屬歷史影像，不可拿來證明現今鳥像仍在。"
 locationReview:
-  status: verified
-  anchorType: viewpoint
-  checkedAt: '2026-09-16'
-  reason: The official destination is the existing cliff observation platform. Official tourism says its former sashiba-bird sculpture was removed; the YAML's stone woman statue is unsupported.
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "重抓觀光協會頁原始Google href中的24.861480, 125.177959數值目的地；主流程Chrome具名展望台place位置稍偏南，僅佐證同一處，保留官方展望區錨點。官方已說明鳥像撤除。"
   sources:
-  - url: https://miyako-guide.net/spots/spots-854/
-    title: 宮古島観光協会 — フナウサギバナタ
-    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-854/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.861480,125.177959; its place embed uses q=24.861480,125.177959. These are explicit destination coordinates, not a viewport centre.'
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_020/
-    title: 宮古島観光協会 — フナウサギバナタ
-    coordinateEvidence: https://miyako-island.net/beach_and_spot/beach_spot_020/ corroborates the observation platform, parking and removed bird sculpture. No second coordinate needed; coordinate comes from the official explicit q link, not pb camera fields.
+    -
+      url: "https://miyako-guide.net/spots/spots-854/"
+      title: "フナウサギバナタ"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 GoogleMap href=https://www.google.co.jp/maps/place/24.861480, 125.177959。從 /maps/place/ 後的數字目的地提取座標，非 @lat,lng 視窗；原始空格／尾端 & 原樣保留於此證據，App URL 另規範化。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_020/"
+      title: "フナウサギバナタ — Meets More MIYAKOJIMA"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/place/%E3%83%95%E3%83%8A%E3%82%A6%E3%82%B5%E3%82%AE%E3%83%90%E3%83%8A%E3%82%BF/@24.861253,125.1779987,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5acfbb72919e1:0x1326b70c16bbd781!8m2!3d24.861253!4d125.1779987!16s%2Fg%2F11b75lcb1j?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1e08acba-32a1-4f1f-a8ed-7f704fb4afdd"
+      title: "Google Maps — フナウサギバナタ"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:35:58.055Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/%E3%83%95%E3%83%8A%E3%82%A6%E3%82%B5%E3%82%AE%E3%83%90%E3%83%8A%E3%82%BF/@24.861253,125.1779987,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5acfbb72919e1:0x1326b70c16bbd781!8m2!3d24.861253!4d125.1779987!16s%2Fg%2F11b75lcb1j?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1e08acba-32a1-4f1f-a8ed-7f704fb4afdd。具名place參數 !3d=24.861253、!4d=125.1779987；未採@lat,lng視窗中心。 具名フナウサギバナタ條目相符；place座標24.861253,125.1779987與官方展望區接近，未據此改寫官方抵達點。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.8613796
     longitude: 125.1780562

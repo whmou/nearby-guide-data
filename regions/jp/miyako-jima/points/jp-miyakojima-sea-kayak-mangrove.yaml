@@ -1,115 +1,141 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sea-kayak-mangrove
+  id: "jp-miyakojima-sea-kayak-mangrove"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "島尻マングローブ シーカヤック"
-  summary: "宮古島南端的島尻地區有一片紅樹林水道，搭乘海上獨木舟穿梭其間，可近距離觀察蒼鷺、招潮蟹與各種潮間帶生物，是兼具趣味與生態的體驗行程。"
-  narration: |
-    宮古島的形象，常常是湛藍大海與白色沙灘，但在島嶼南端的島尻（しまじり）海岸，卻藏著一片截然不同的風景——一座安靜的紅樹林水道，遠離觀光人潮，只有鳥鳴與水聲。
-
-    搭上輕巧的海上獨木舟，順著蜿蜒的水道緩緩划行，高大的海茄苳（オヒルギ）和紅茄苳（メヒルギ）在兩側交織成一道綠色隧道，根系盤錯於水中，構成無數生物的庇護所。蒼鷺靜立於枝頭，等待獵魚時機；泥灘上密密麻麻的招潮蟹（シオマネキ）不時揮舞著紅色大螯，像是在向你打招呼。
-
-    島尻的紅樹林規模雖不及西表島，但在宮古島屬難得一見的生態場景。當地業者提供導覽行程，通常一至兩小時即可完成，導覽員會邊划邊介紹紅樹林的生態功能與潮間帶生物，適合親子家庭與自然愛好者。行前建議準備防曬與防蟲措施，並穿著可弄濕的衣物。
-  observationPrompt: "請在泥灘上尋找招潮蟹的蹤跡——公蟹的一隻螯特別大，你能觀察到牠們是如何用大螯進行求偶展示的嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "島尻紅樹林獨木舟屬需另行預約的活動主題；湧水、潮汐與樹根是觀察重點，不把步道地標當成通用集合處。"
+  narration: "若已預約並由合格業者帶領，先留意樹根與水面的交界，而不是急著把船划進最密的地方；紅樹林值得看的，正是植物怎麼生活在海水與淡水交會的環境。島尻位在宮古島北部，教育委員會介紹這片林沿集落西側約一公里深的入江發展，湧水流入的條件也讓它具有植物地理上的意義，並非舊稿所說的南端河流。獨木舟是否能進入，則是另一件事：本次查到的REEF KNOT產品只在大潮前後的夜間安排，時間會隨潮位調整，不能推成每天都有的通用白天路線。這筆沒有選定一家業者的行程，也不提供集合GPS；如果沒有訂到活動，可以依開放規範從既有遊步道看樹根與泥灘，仍能讀到同一段生態故事，不需要自行把船推進林間。\n"
+  observationPrompt: "在已確認開放的步道或業者指定路線，觀察水位與樹根、泥灘的相對位置；不離開允許範圍追逐動物。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 活動
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "活動"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 付費
+        -
+          id: "ticketed"
+          label: "付費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 島尻紅樹林獨木舟為預約活動，須以所訂業者的集合通知為準；紅樹林地標 pin 不等於集合或下水位置。
+  locationHint: "泛稱島尻紅樹林獨木舟活動，無通用集合或入水GPS；須依已訂業者的潮位、海況及行程通知，陸上步道pin不能代替下水點。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "島尻紅樹林是宮古島少數保存完好的潮間帶生態系，具有在地自然保育意義。"
-    sources: [src1]
+    note: "島尻林位於集落西側約1公里深的入江，湧水流入促成群落發展。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   distinctiveness:
     score: 3
-    note: "宮古島以海洋聞名，紅樹林獨木舟行程提供截然不同的生態體驗，但規模不及西表島。"
-    sources: [src1, src2]
+    note: "島尻林位於集落西側約1公里深的入江，湧水流入促成群落發展。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   interpretability:
-    score: 3
-    note: "導覽員說明詳盡，但若無導覽則生態意義不易自行理解。"
-    sources: [src2]
+    score: 2
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   visitorValue:
-    score: 4
-    note: "老少咸宜，親子體驗友善，與宮古島主流海洋活動互補，提供多元選擇。"
-    sources: [src2]
+    score: 1
+    note: "本筆不提供固定導航；需另確認實際場所或業者安排。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   evidenceQuality:
     score: 3
-    note: "觀光資料及當地業者網站有記載，資料可靠但較無深度學術文獻。"
-    sources: [src1]
-  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
+  final: 2.5
 sources:
-  - id: src1
-    title: "島尻のマングローブ｜宮古島自然情報"
-    publisher: "宮古島観光ガイド miyako-guide.net"
-    url: https://miyako-guide.net/nature/shimajiri-mangrove
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo717/"
+    title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【市指定：天然記念物・自然】島尻のマングローブ林～しまじりのまんぐろーぶりん～"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "島尻地區有宮古島規模最大的紅樹林群落"
-      - "可見蒼鷺、招潮蟹等多種潮間帶生物"
-  - id: src2
-    title: "宮古島シーカヤックツアー｜アクティビティ情報"
-    publisher: "宮古島市観光商工局"
-    url: https://www.city.miyakojima.lg.jp/kanko/activity-kayak.html
-    accessedAt: "2026-07-15"
-    language: ja
+      - "島尻林位於集落西側約1公里深的入江，湧水流入促成群落發展。"
+  -
+    id: "src2"
+    url: "https://act.shigira.com/top/products/6fda7797-1705-59eb-b621-ab16b09ad8d8?lng=ja-JP"
+    title: "【１組限定・大潮のみ催行】マングローブカヤックナイトツアー (器材貸出・貸切・当店限定メニュー） |  宮古島アクティビティ予約サイト"
+    publisher: "宮古島アクティビティ予約サイト／REEF KNOT"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "當地業者提供紅樹林海上獨木舟導覽行程，行程約一至兩小時"
-      - "適合親子家庭參與的自然體驗活動"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg
-    creator: "Anagounagi"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "812be3d0a1b4f3e6b086578ee9ae443c3f6f23c8aa77565c5140196e8460e9e0"
-    compactPath: media/compact/jp-miyakojima-sea-kayak-mangrove.webp
-    completePath: media/complete/jp-miyakojima-sea-kayak-mangrove.webp
+      - "實際REEF KNOT產品標示大潮前後夜間催行，時間依潮位變動；不代表任意日期或其他業者的活動。"
+  -
+    id: "src3"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_021/"
+    title: "島尻のマングローブ - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "島尻橋與遊步道於2002年9月完成，提供陸上觀察紅樹林的途徑。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "修正北部位置、移除樹種中日文誤配與保證親子適用；不保證星空、螢火蟲或潮位符合旅行日。"
+    - "移除原媒體紀錄：Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg檔名明指西表島紅樹林，並非宮古島島尻；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 searched Shimajiri kayak departures. A real named operator offers a restricted tidal program, but YAML names no operator or fixed rendezvous. Cannot transfer the land-based mangrove landmark to this generic activity.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取文化財紅樹林頁與實際REEF KNOT夜間產品，後者限大潮前後並依潮位調時，且有其自身集合短連結。本筆仍是未指定業者的泛稱活動，不能默認採用該商業產品或將陸上紅樹林地標當通用出發點。"
   sources:
-  - url: https://act.shigira.com/top/products/6fda7797-1705-59eb-b621-ab16b09ad8d8?lng=ja-JP
-    title: マングローブカヤックナイトツアー｜宮古島アクティビティ予約サイト
-    coordinateEvidence: Operator-specific tidal kayak product, with separate meeting arrangements. No coordinate for the YAML's unspecified daytime experience established.
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_021/
-    title: 島尻のマングローブ｜宮古島観光協会
-    coordinateEvidence: Physical mangrove marker belongs to the separate landmark record; it is not evidence of this unnamed tour's meeting point.
+    -
+      url: "https://act.shigira.com/top/products/6fda7797-1705-59eb-b621-ab16b09ad8d8?lng=ja-JP"
+      title: "【１組限定・大潮のみ催行】マングローブカヤックナイトツアー (器材貸出・貸切・当店限定メニュー） |  宮古島アクティビティ予約サイト"
+      coordinateEvidence: "本次HTTP 200；產品內原始 href=https://maps.app.goo.gl/k2W8uFVww9JAAJr6A，明示REEF KNOT夜間專案集合。非本筆未指定業者之通用集合，故不採座標。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo717/"
+      title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【市指定：天然記念物・自然】島尻のマングローブ林～しまじりのまんぐろーぶりん～"
+      coordinateEvidence: "已重新讀取具名紅樹林自然資料；陸上地標與活動集合位置有別，未採GPS。"
   previousLocation:
     latitude: 24.8777
     longitude: 125.2884

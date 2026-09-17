@@ -1,0 +1,857 @@
+[
+  {
+    "id": "jp-miyakojima-irabu-bridge",
+    "title": "伊良部大橋",
+    "status": "verified",
+    "anchorType": "viewpoint",
+    "latitude": 24.794986,
+    "longitude": 125.256406,
+    "locationHint": "官方導航點為伊良部大橋宮古島側陸上橋頭，並非橋中央或停車場。請依現場標示使用公共通道；勿在橋上停車、下車拍照。",
+    "reason": "重新抓取觀光協會伊良部大橋頁的原始 Google Maps href，數值指向宮古島側橋頭；主工作者即時 Google Maps 結果另有同名「伊良部大橋宮古島口」及平良久貝386-1地址佐證。保留官方陸側定位，不採用橋中央地標；縮小舊200公尺觸發半徑至80公尺。",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-840/",
+        "title": "伊良部大橋",
+        "coordinateEvidence": "2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.co.jp/maps/place/24.794986, 125.256406。/place/目的地數值緯度24.794986、經度125.256406，非@視窗中心；逗號後空白原樣保留。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/irabu",
+        "title": "伊良部島",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 即時Chrome頁面：伊良部大橋 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：結果／。結果需人工選擇同一陸側地標「伊良部大橋宮古島口」，原始href=https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%8F%A3/data=!4m7!3m6!1s0x34f455847296cc21:0xc35e2db59e855581!8m2!3d24.7950803!4d125.2564785!16s%2Fg%2F11fr_zpg9_!19sChIJIcyWcoRV9DQRgVWFnrUtXsM?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d24.7950803!4d125.2564785，地址平良久貝386-1，支持官方陸側圖釘而非取代它。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "official_embedded_pin",
+      "originalUrl": "https://www.google.co.jp/maps/place/24.794986, 125.256406",
+      "result": "官方原始地圖連結已重新抓取並解析。/place/目的地數值緯度24.794986、經度125.256406，非@視窗中心；逗號後空白原樣保留。 直接Google Maps文字抓取無法讀取完整地圖（cache miss／動態頁）；另讀取主工作者即時Chrome同名地標或人工選擇的名稱／地址記錄作交叉佐證，未宣稱街景、入口或現場視覺核驗。"
+    },
+    "storyClaims": [
+      {
+        "claim": "伊良部大橋連接宮古島與伊良部島，全長3,540公尺。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-840/"
+      },
+      {
+        "claim": "2015年1月開通，官方介紹為免費通行長橋；景點頁標示無停車場。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-840/"
+      },
+      {
+        "claim": "2015年1月大橋開通後，宮古島往伊良部島的交通更便利。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/irabu"
+      }
+    ],
+    "mediaNotes": [
+      "保留既有 File:Miyako_irabu_ohashi_2014_1.jpg 記錄；檔名年份早於通車，僅可視為歷史工程影像，並非2026現況認證。此批未重新認證影像內容及授權。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-irabu-diving",
+    "title": "伊良部島ダイビング",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "區域性海上活動，不提供陸上導航或觸發。依已預約合格業者確認的集合地點抵達；勿自行從水道、通り池或海崖入水。",
+    "reason": "重抓縣觀光潛水頁，伊良部、下地島包含多個船潛點，並非單一陸上景點。沒有具名預約業者或集合港口，維持non_point；不把通り池陸上觀景點或任意碼頭改作本項位置。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/feature/activity/diving",
+        "title": "ダイビング — 宮古エリア",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓縣觀光潛水頁，伊良部、下地島包含多個船潛點，並非單一陸上景點。沒有具名預約業者或集合港口，維持non_point；不把通り池陸上觀景點或任意碼頭改作本項位置。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為區域／文化或海上活動主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、港口或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "伊良部島Ｗアーチ有兩座相連拱門，其中一座由特定角度看呈心形。",
+        "sourceUrl": "https://www.okinawastory.jp/feature/activity/diving"
+      },
+      {
+        "claim": "魔王の宮殿位於下地島，官方列船潛、中級以上，不能視為同一條普通陸上遊程。",
+        "sourceUrl": "https://www.okinawastory.jp/feature/activity/diving"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Irabu_sarahama_port.jpg：港口照片不能代表海底潛點或作為出發港證據；未替換照片。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-irabu-island",
+    "title": "伊良部島",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "全島區域介紹，不設島中心圖釘或自動觸發。請導航到另行驗證的具名海灘、觀景點或橋頭，勿以私人住宅作為停留點。",
+    "reason": "重抓縣觀光伊良部島介紹與文化地圖，確認整島包含不同聚落與海岸，不能指定唯一抵達點。維持non_point，保留區域及原有ID，不替換成港口、商店或其他景點。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/irabu",
+        "title": "伊良部島",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓縣觀光伊良部島介紹與文化地圖，確認整島包含不同聚落與海岸，不能指定唯一抵達點。維持non_point，保留區域及原有ID，不替換成港口、商店或其他景點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf",
+        "title": "伊良部島・下地島文化散策マップ（2021年版）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓縣觀光伊良部島介紹與文化地圖，確認整島包含不同聚落與海岸，不能指定唯一抵達點。維持non_point，保留區域及原有ID，不替換成港口、商店或其他景點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為區域／文化或海上活動主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、港口或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "伊良部島是宮古群島第二大島，2015年1月大橋開通使陸路交通更便利。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/irabu"
+      },
+      {
+        "claim": "佐良浜房屋沿坡密集排列；渡口之浜為島上另一個海岸景點。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/irabu"
+      },
+      {
+        "claim": "文化地圖記載北側聚落以漁業、南側以農業為主，過去有物產交換。",
+        "sourceUrl": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf"
+      }
+    ],
+    "mediaNotes": [
+      "保留 File:Irabu_Island_ISS045.jpg 作全島尺度既有影像；此批未認證像素、拍攝日期及授權，不當作抵達證據。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-irabu-katsuobushi",
+    "title": "佐良浜かつお節文化",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "佐良浜漁業與加工文化主題，沒有指定公共工廠、展示館或集合地點，不提供GPS。任何工廠參訪需具名業者許可，港口作業區不可自行進入。",
+    "reason": "重抓2021文化地圖與觀光協會產業頁，文化及加工業存在，但舊文未指定可公開參觀的工廠或村落導覽起點。維持non_point，不以港口或任意加工店替換此主題。",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf",
+        "title": "伊良部島・下地島文化散策マップ（2021年版）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓2021文化地圖與觀光協會產業頁，文化及加工業存在，但舊文未指定可公開參觀的工廠或村落導覽起點。維持non_point，不以港口或任意加工店替換此主題。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://miyako-island.net/charm/industry/",
+        "title": "宮古島の産業",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓2021文化地圖與觀光協會產業頁，文化及加工業存在，但舊文未指定可公開參觀的工廠或村落導覽起點。維持non_point，不以港口或任意加工店替換此主題。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為區域／文化或海上活動主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、港口或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "文化地圖記載佐良浜鰹魚漁業始於明治42年（1909），大正時期興盛，昭和時代有南方海域作業歷史。",
+        "sourceUrl": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf"
+      },
+      {
+        "claim": "文化地圖列出かつお節、なまり節等加工品及多處工廠，未建立本項的公共參觀許可。",
+        "sourceUrl": "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf"
+      },
+      {
+        "claim": "觀光協會產業介紹記載佐良浜有當日往返的一本釣鰹魚漁業。",
+        "sourceUrl": "https://miyako-island.net/charm/industry/"
+      }
+    ],
+    "mediaNotes": [
+      "保留 File:Irabu_sarahama_port.jpg 作佐良浜港的既有背景影像，不當作柴魚製程、工廠開放或2026現況證明；未重認證內容及授權。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-irabu-lighthouse",
+    "title": "伊良部島灯台",
+    "status": "unresolved",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "尚未確認原題名所指燈塔，無GPS、觸發或導航。佐良浜港防波堤南燈台、池間島燈台及平安名埼燈台皆不可擅自視作本項；勿自行進入防波堤或海崖。",
+    "reason": "重抓海保具名公告，僅確認另一正式航標「佐良浜港第一防波堤南灯台」；主工作者即時Maps搜尋原名得到平安名埼、池間等不同場所，未證實舊文西端白色圓塔身分。維持unresolved，不把其他燈塔或航標移植到原ID。",
+    "sources": [
+      {
+        "url": "https://www6.kaiho.mlit.go.jp/n/11kanku/miyakojima/anzen/1104_20251218174125294_JA_207_NOR.html",
+        "title": "【伊良部島】佐良浜港第一防波堤南灯台現状変更",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文；重抓海保具名公告，僅確認另一正式航標「佐良浜港第一防波堤南灯台」；主工作者即時Maps搜尋原名得到平安名埼、池間等不同場所，未證實舊文西端白色圓塔身分。維持unresolved，不把其他燈塔或航標移植到原ID。 未從不同場所採用座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6%E7%81%AF%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 實際Chrome搜尋：伊良部島灯台 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16T13:36:44.076ZChrome實際結果；沒有可確定對應原名／原敘述的場所。候選原始連結及place座標（均未採用）：平安名埼灯台：https://www.google.com/maps/place/%E5%B9%B3%E5%AE%89%E5%90%8D%E5%9F%BC%E7%81%AF%E5%8F%B0/data=!4m7!3m6!1s0x34f459306b1f5673:0x4f830bbaf0ef834c!8m2!3d24.7194948!4d125.4685517!16s%2Fg%2F1239_9pw!19sChIJc1YfazBZ9DQRTIPv8LoLg08?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7194948,125.4685517 | 池間島灯台：https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E5%B3%B6%E7%81%AF%E5%8F%B0/data=!4m7!3m6!1s0x34f44cdfed9e6ddb:0x278e82a0b78f9407!8m2!3d24.9363485!4d125.2356303!16s%2Fg%2F120rg084!19sChIJ222e7d9M9DQRB5SPt6CCjic?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.9363485,125.2356303。不使用搜尋頁@視窗中心。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6%E7%81%AF%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+      "result": "已讀取主工作者即時Chrome原名搜尋結果並人工比對候選名稱／地址，未確立同一景點。不同場所的原始href與!3d/!4d僅作排除證據存入coordinateEvidence，未採用任何候選座標；不宣稱具名位置或現場視覺驗證完成。"
+    },
+    "storyClaims": [
+      {
+        "claim": "海保公告具名航標為伊良部島佐良浜港第一防波堤南灯台，而非原文未確定的泛稱。",
+        "sourceUrl": "https://www6.kaiho.mlit.go.jp/n/11kanku/miyakojima/anzen/1104_20251218174125294_JA_207_NOR.html"
+      },
+      {
+        "claim": "2025-12-18公告記載燈器更換及光度、光達距離、構造物高度變更，未提供觀光開放許可。",
+        "sourceUrl": "https://www6.kaiho.mlit.go.jp/n/11kanku/miyakojima/anzen/1104_20251218174125294_JA_207_NOR.html"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Irabu_sarahama_port.jpg：佐良浜港照片不能證實原稱西端燈塔身分；未替換另一燈塔照片。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-irabu-panorama",
+    "title": "伊良部大橋展望",
+    "status": "unresolved",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "舊稱未對應唯一展望設施，無GPS／觸發。橋頭、牧山展望台、海の駅是不同場所，請各依具名且已驗證的項目安排；橋上不可臨停。",
+    "reason": "重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-840/",
+        "title": "伊良部大橋",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文；重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。 未從不同場所採用座標。"
+      },
+      {
+        "url": "https://miyako-guide.net/spots/spots-2959/",
+        "title": "いらぶ大橋海の駅（伊良部島産業振興株式会社）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文；重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。 未從不同場所採用座標。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/irabu",
+        "title": "伊良部島",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文；重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。 未從不同場所採用座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%B1%95%E6%9C%9B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 實際Chrome搜尋：伊良部大橋展望 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16T13:36:47.951ZChrome實際結果；沒有可確定對應原名／原敘述的場所。候選原始連結及place座標（均未採用）：伊良部大橋：https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B/data=!4m7!3m6!1s0x34f45488132ce049:0x41dcbaef99b8684b!8m2!3d24.7962883!4d125.2410596!16s%2Fg%2F122dyfgw!19sChIJSeAsE4hU9DQRS2i4me-63EE?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7962883,125.2410596 | 伊良部大橋伊良部島橋詰：https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6%E6%A9%8B%E8%A9%B0/data=!4m7!3m6!1s0x34f45583bb6ea9c5:0xdb85ff856ffc01fd!8m2!3d24.8096285!4d125.2189845!16s%2Fg%2F11j7vclxxc!19sChIJxaluu4NV9DQR_QH8b4X_hds?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8096285,125.2189845 | 来間大橋展望台：https://www.google.com/maps/place/%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f4ff80faefb999:0x45adc1091e192d12!8m2!3d24.7221097!4d125.255486!16s%2Fg%2F11c7s4sppl!19sChIJmbnv-oD_9DQREi0ZHgnBrUU?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7221097,125.255486 | 牧山展望台：https://www.google.com/maps/place/%E7%89%A7%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f45395de13dd09:0xcd791ddf1a9780bb!8m2!3d24.8178419!4d125.2182529!16s%2Fg%2F11ry5cl6mf!19sChIJCd0T3pVT9DQRu4CXGt8dec0?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8178419,125.2182529 | 伊良部大橋宮古島口：https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%8F%A3/data=!4m7!3m6!1s0x34f455847296cc21:0xc35e2db59e855581!8m2!3d24.7950803!4d125.2564785!16s%2Fg%2F11fr_zpg9_!19sChIJIcyWcoRV9DQRgVWFnrUtXsM?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7950803,125.2564785 | 佐和田の浜展望台：https://www.google.com/maps/place/%E4%BD%90%E5%92%8C%E7%94%B0%E3%81%AE%E6%B5%9C%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f5ac76213f7af1:0xe80aca44b58ed952!8m2!3d24.8335912!4d125.1560237!16s%2Fg%2F11dxm4h6mr!19sChIJ8Xo_IXas9TQRUtmOtUTKCug?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8335912,125.1560237 | いらぶ大橋 海の駅：https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8111392,125.2185239。不使用搜尋頁@視窗中心。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%B1%95%E6%9C%9B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+      "result": "已讀取主工作者即時Chrome原名搜尋結果並人工比對候選名稱／地址，未確立同一景點。不同場所的原始href與!3d/!4d僅作排除證據存入coordinateEvidence，未採用任何候選座標；不宣稱具名位置或現場視覺驗證完成。"
+    },
+    "storyClaims": [
+      {
+        "claim": "伊良部大橋全長3,540公尺，2015年1月開通。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-840/"
+      },
+      {
+        "claim": "觀光協會將いらぶ大橋海の駅列為具名購物、用餐設施，與橋梁本體分開。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-2959/"
+      },
+      {
+        "claim": "伊良部島官方旅遊頁另外介紹牧山展望台，不能只憑看橋用途認定為同一設施。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/irabu"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Irabu_ohashi_20120815.jpg：2012年橋梁工程影像不能證明未具名展望平台及現況；不替配其他觀景點照片。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kaijin-no-mori",
+    "title": "海人の森",
+    "status": "unresolved",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "「海人の森」場所身分未確認，無GPS、導航及觸發。不可把島尻、川滿紅樹林或いこいの森當作同義地名；另選具名已驗證景點並遵守公共通行限制。",
+    "reason": "重新搜尋並抓取官方觀光頁，確認川滿／ウプカー與島尻是各自具名的紅樹林；即時Maps搜尋海人の森返回其他店家、海灘與森林，未找到可對應原名稱的單一場所。維持unresolved，不挪用其他紅樹林座標或改變原ID身分。",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots-cat/beach/page/2/",
+        "title": "ビーチ・観光地（ウプカーマングローブ／川満マングローブ）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文；重新搜尋並抓取官方觀光頁，確認川滿／ウプカー與島尻是各自具名的紅樹林；即時Maps搜尋海人の森返回其他店家、海灘與森林，未找到可對應原名稱的單一場所。維持unresolved，不挪用其他紅樹林座標或改變原ID身分。 未從不同場所採用座標。"
+      },
+      {
+        "url": "https://miyako-island.net/charm/",
+        "title": "宮古島の魅力",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文；重新搜尋並抓取官方觀光頁，確認川滿／ウプカー與島尻是各自具名的紅樹林；即時Maps搜尋海人の森返回其他店家、海灘與森林，未找到可對應原名稱的單一場所。維持unresolved，不挪用其他紅樹林座標或改變原ID身分。 未從不同場所採用座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E4%BA%BA%E3%81%AE%E6%A3%AE%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 實際Chrome搜尋：海人の森 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16T13:36:51.352ZChrome實際結果；沒有可確定對應原名／原敘述的場所。候選原始連結及place座標（均未採用）：レーベの村：https://www.google.com/maps/place/%E3%83%AC%E3%83%BC%E3%83%99%E3%81%AE%E6%9D%91/data=!4m7!3m6!1s0x34f45442efed70ad:0x92ce6a24714dbbbd!8m2!3d24.779731!4d125.271763!16s%2Fg%2F11b86l6_40!19sChIJrXDt70JU9DQRvbtNcSRqzpI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.779731,125.271763 | 17ENDビーチ：https://www.google.com/maps/place/17END%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f5add80a02f697:0x621d023620d2e93c!8m2!3d24.8421325!4d125.1398185!16s%2Fg%2F11mv63lxkg!19sChIJl_YCCtit9TQRPOnSIDYCHWI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8421325,125.1398185 | GSビーチクラブ宮古島：https://www.google.com/maps/place/GS%E3%83%93%E3%83%BC%E3%83%81%E3%82%AF%E3%83%A9%E3%83%96%E5%AE%AE%E5%8F%A4%E5%B3%B6/data=!4m7!3m6!1s0x34f453d4badf0edb:0xe905252d3d5f4cd0!8m2!3d24.8033279!4d125.2725926!16s%2Fg%2F11xcf2rvf3!19sChIJ2w7futRT9DQR0ExfPS0lBek?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8033279,125.2725926 | 海蓮：https://www.google.com/maps/place/%E6%B5%B7%E8%93%AE/data=!4m10!3m9!1s0x34f5abc6eeac5229:0x824dc009c308c08d!5m2!4m1!1i2!8m2!3d24.8067951!4d125.1953826!16s%2Fg%2F11l6p__df3!19sChIJKVKs7sar9TQRjcAIwwnATYI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8067951,125.1953826 | 宮古島市いこいの森：https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E3%81%84%E3%81%93%E3%81%84%E3%81%AE%E6%A3%AE/data=!4m7!3m6!1s0x34f4576a1ea30749:0xaeb934b05ab68978!8m2!3d24.7531231!4d125.3737834!16s%2Fg%2F11csb15xh0!19sChIJSQejHmpX9DQReIm2WrA0ua4?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7531231,125.3737834 | 島尻のマングローブ林：https://www.google.com/maps/place/%E5%B3%B6%E5%B0%BB%E3%81%AE%E3%83%9E%E3%83%B3%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%96%E6%9E%97/data=!4m7!3m6!1s0x34f45208f8bcab71:0xfdb48078ac08083!8m2!3d24.877956!4d125.288553!16s%2Fg%2F113g2bb3t!19sChIJcau8-AhS9DQRg4DAigdI2w8?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.877956,125.288553。不使用搜尋頁@視窗中心。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E4%BA%BA%E3%81%AE%E6%A3%AE%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+      "result": "已讀取主工作者即時Chrome原名搜尋結果並人工比對候選名稱／地址，未確立同一景點。不同場所的原始href與!3d/!4d僅作排除證據存入coordinateEvidence，未採用任何候選座標；不宣稱具名位置或現場視覺驗證完成。"
+    },
+    "storyClaims": [
+      {
+        "claim": "觀光協會列出ウプカーマングローブ（川満マングローブ），位於川滿漁港大川湧水一帶。",
+        "sourceUrl": "https://miyako-guide.net/spots-cat/beach/page/2/"
+      },
+      {
+        "claim": "觀光協會另介紹島尻紅樹林，不能證明它與海人の森同名。",
+        "sourceUrl": "https://miyako-island.net/charm/"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Ikema_Bridge_in_Miyakojima.jpg：池間大橋照片既非森林，也不能證明海人の森身分；未替換其他紅樹林影像。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kamama-ridge-park",
+    "title": "カママ嶺公園",
+    "status": "verified",
+    "anchorType": "landmark",
+    "latitude": 24.79746,
+    "longitude": 125.2767831,
+    "locationHint": "Google Maps「カママ嶺公園」具名公園地標（平良下里），不是精測停車場入口、風獅爺或特定石碑位置。依現場指示由公共入口進園；運動設施及封閉區另有使用限制。",
+    "reason": "主工作者2026-09-16即時Chrome取得同名公園標題、平良下里地址及分享後的Google place !3d24.79746!4d125.2767831；市政府綾道冊PDF第3頁確認公園與園內設施，觀光協會單一場地活動頁也明列此園。採公園本體landmark，非單獨遊具／入口；解除舊有unresolved。",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf",
+        "title": "綾道 平良南・松原・久貝 — カママ嶺公園（冊子24–25頁／PDF3頁）",
+        "coordinateEvidence": "重新抓取市政府導覽冊PDF第3頁（冊子24–25頁），確認カママ嶺公園、1976年整備及碑群；無數值座標。"
+      },
+      {
+        "url": "https://miyako-guide.net/event/event-1023/",
+        "title": "第4回とうがにあやぐ大会（2018年・カママ嶺公園）",
+        "coordinateEvidence": "重新抓取活動頁，唯一指定場地為カママ嶺公園多目的廣場歌碑前；具名地圖查詢只有名稱，不是數字座標，僅佐證場所。"
+      },
+      {
+        "url": "https://www.google.com/maps/place/%E3%82%AB%E3%83%9E%E3%83%9E%E5%B6%BA%E5%85%AC%E5%9C%92/@24.79746,125.2767831,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45474441ee18f:0x640324a5785d3418!8m2!3d24.79746!4d125.2767831!16s%2Fg%2F119vm6xm3?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=35e89474-81f5-420e-9007-3ea8751ba236",
+        "title": "Google Maps — カママ嶺公園",
+        "coordinateEvidence": "讀取主工作者2026-09-16T13:36:55.600Z實際Chrome記錄。標題カママ嶺公園、地址沖縄県宮古島市平良下里。原始分享短連結=https://maps.app.goo.gl/2XTuiAYubRBEvDVx5；原始解析連結=https://www.google.com/maps/place/%E3%82%AB%E3%83%9E%E3%83%9E%E5%B6%BA%E5%85%AC%E5%9C%92/@24.79746,125.2767831,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45474441ee18f:0x640324a5785d3418!8m2!3d24.79746!4d125.2767831!16s%2Fg%2F119vm6xm3?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=35e89474-81f5-420e-9007-3ea8751ba236。採place資料!3d24.79746!4d125.2767831，不採@視窗中心；本體地標非風獅爺或入口精測。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "named_listing",
+      "originalUrl": "https://www.google.com/maps/place/%E3%82%AB%E3%83%9E%E3%83%9E%E5%B6%BA%E5%85%AC%E5%9C%92/@24.79746,125.2767831,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45474441ee18f:0x640324a5785d3418!8m2!3d24.79746!4d125.2767831!16s%2Fg%2F119vm6xm3?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=35e89474-81f5-420e-9007-3ea8751ba236",
+      "result": "主工作者即時Chrome實際取得カママ嶺公園標題、平良下里地址及分享解析place !3d24.79746!4d125.2767831；本批讀取該記錄，與市政府冊及唯一公園活動場所核對。未進行街景或現場入口視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "蒲間嶺原為林木茂密丘陵，1976年整備成公園。",
+        "sourceUrl": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf"
+      },
+      {
+        "claim": "園內有風獅爺溜滑梯、篠原鳳作句碑與とうがにあやぐ歌碑；篠原曾任宮古高中教師。",
+        "sourceUrl": "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf"
+      },
+      {
+        "claim": "2018年第4回とうがにあやぐ大会明列カママ嶺公園內多目的廣場歌碑前為場地；不是2026活動公告。",
+        "sourceUrl": "https://miyako-guide.net/event/event-1023/"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg：與那霸前浜海灘不是カママ嶺公園；未新增照片或修改媒體檔。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kurima-bridge",
+    "title": "来間大橋",
+    "status": "verified",
+    "anchorType": "viewpoint",
+    "latitude": 24.721198,
+    "longitude": 125.257565,
+    "locationHint": "来間大橋来間島側陸上橋頭的官方導航點，不是橋中央，也不保證可停車。依現場標示使用公共通道；橋上勿臨停、下車拍照。",
+    "reason": "重新抓取觀光協會原始 Google Maps href 得到24.721198,125.257565；縣觀光頁確認橋連接来間島與宮古島。即時Maps具名橋梁的24.7256881,125.2641684是橋身地標，不取代官方陸側橋頭。採80公尺觸發半徑，不以擴大範圍涵蓋橋中央。",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-881/",
+        "title": "来間大橋（くりまおおはし）",
+        "coordinateEvidence": "2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.co.jp/maps/place/24.721198, 125.257565。/place/目的地數值緯度24.721198、經度125.257565，非@視窗中心；採来間島側橋頭。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "来間島",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 即時Chrome頁面：来間大橋 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：来間大橋。原始分享解析URL=https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%81%E4%B8%8B%E5%9C%B0+%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B/@24.7256881,125.2641684,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4ff81b5356c33:0xe6acc5ae3da0feb8!8m2!3d24.7256881!4d125.2641684!16s%2Fg%2F11f4lcfv6n?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=5a3c9900-d069-4ef2-b9c9-a241bbd10c3b；!3d24.7256881!4d125.2641684屬橋身地標而非陸側抵達點，未採用，@值也不作座標證據。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "official_embedded_pin",
+      "originalUrl": "https://www.google.co.jp/maps/place/24.721198, 125.257565",
+      "result": "官方原始地圖連結已重新抓取並解析。/place/目的地數值緯度24.721198、經度125.257565，非@視窗中心；採来間島側橋頭。 直接Google Maps文字抓取僅回應需啟用JavaScript；另讀取主工作者即時Chrome同名地標或人工選擇的名稱／地址記錄作交叉佐證，未宣稱街景、入口或現場視覺核驗。"
+    },
+    "storyClaims": [
+      {
+        "claim": "来間大橋全長1,690公尺，1995年3月開通。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-881/"
+      },
+      {
+        "claim": "官方將其介紹為農道橋，橋旁可眺望前浜。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-881/"
+      },
+      {
+        "claim": "来間島透過来間大橋連接宮古島，東側聚落之外大多為耕作地。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/kurima"
+      }
+    ],
+    "mediaNotes": [
+      "保留既有 File:来間大橋_20130206_-_panoramio.jpg；題名對應本橋，未重新認證檔案像素、拍攝位置或授權。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kurima-island",
+    "title": "来間島",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "全島介紹而非單一入口，不設中心座標或觸發。請選擇另行驗證的公共海灘、展望台或橋頭；勿進入田地、私人院落。",
+    "reason": "重抓縣觀光来間島頁，描述聚落、農地及多處海岸／展望設施，沒有單一島嶼入口。本項維持non_point，不把任意島中心或既有子景點當作全島座標。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "来間島",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓縣觀光来間島頁，描述聚落、農地及多處海岸／展望設施，沒有單一島嶼入口。本項維持non_point，不把任意島中心或既有子景點當作全島座標。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為區域／文化或海上活動主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、港口或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "来間島東側有聚落，其餘大部分為耕作地。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/kurima"
+      },
+      {
+        "claim": "西岸有長間浜，龍宮城展望台可看前浜和来間大橋。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/kurima"
+      }
+    ],
+    "mediaNotes": [
+      "保留 File:Miyakojima_Kurima_aerial.jpg 作全島概覽的既有影像；未重認證像素、日期及授權，不當作公共入口證據。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kurima-nagama-beach",
+    "title": "長間浜",
+    "status": "verified",
+    "anchorType": "landmark",
+    "latitude": 24.7261944,
+    "longitude": 125.2398056,
+    "locationHint": "来間島西岸長間浜的官方海岸地標圖釘，並非精測入口或停車點。使用既有公共通道、以岸上觀景為主；官方列無停車場及盥洗設施，勿阻塞農路或穿越私人地。",
+    "reason": "重抓官方頁的Google Maps iframe，從目的地!2z標籤解碼DMS 24°43′34.3″N 125°14′23.3″E，換算並保留既有七位小數岸邊地標。未採iframe鏡頭中心；縣觀光頁與即時Maps「長間浜」、下地来間484-1地址確認同一西岸海灘。不是入口或停車位置。",
+    "sources": [
+      {
+        "url": "https://miyako-island.net/beach_and_spot/beach_spot_016/",
+        "title": "長間浜",
+        "coordinateEvidence": "2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp。目的地!2z解碼為24°43'34.3\"N 125°14'23.3\"E，換算24.7261944444,125.2398055556，七位小數採24.7261944,125.2398056。未把!2d125.23981699999999!3d24.726201000000003的鏡頭位置當目的地。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "来間島",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%96%93%E6%B5%9C%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 即時Chrome頁面：長間浜 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：長間浜。同名、地址與官方景點相符；未取得可採用的place數字座標，不解析@視窗中心。 即時頁面具名長間浜，分類公共ビーチ，地址沖縄県宮古島市下地来間484-1。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "official_embedded_pin",
+      "originalUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp",
+      "result": "官方原始地圖連結已重新抓取並解析。目的地!2z解碼為24°43'34.3\"N 125°14'23.3\"E，換算24.7261944444,125.2398055556，七位小數採24.7261944,125.2398056。未把!2d125.23981699999999!3d24.726201000000003的鏡頭位置當目的地。 直接Google Maps文字抓取沒有可視地圖內容；另讀取主工作者即時Chrome同名地標或人工選擇的名稱／地址記錄作交叉佐證，未宣稱街景、入口或現場視覺核驗。"
+    },
+    "storyClaims": [
+      {
+        "claim": "長間浜位於来間島西側，砂浜約一公里，為夕景觀察地點。",
+        "sourceUrl": "https://miyako-island.net/beach_and_spot/beach_spot_016/"
+      },
+      {
+        "claim": "官方列無停車場、廁所、淋浴、商店，並提醒西風會起浪。",
+        "sourceUrl": "https://miyako-island.net/beach_and_spot/beach_spot_016/"
+      },
+      {
+        "claim": "西岸長間浜與聚落間有植物群落，入口不易辨識。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/kurima"
+      }
+    ],
+    "mediaNotes": [
+      "保留既有 File:Nagamahama.jpg，題名相符；此批未重新認證像素所示地點或授權，不將其當作座標證據。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kurima-sugarcane",
+    "title": "来間島サトウキビ畑",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "沒有具名田區、地主許可或訪客入口，不提供GPS／觸發。僅可從合法安全公共位置觀看；不得停車阻塞農路、踏入田地或採摘。",
+    "reason": "重抓官方離島旅遊文章確認来間島沿途甘蔗田，及縣農業業務頁確認作物背景；文章的住宿圖釘不是甘蔗田公共入口。維持non_point，不把私有農地、旅宿或任意路邊座標當本項抵達點。",
+    "sources": [
+      {
+        "url": "https://ritohaku.okinawastory.jp/shimatabi/outdoors04",
+        "title": "美しすぎる星空 × 王様BBQディナー！ 来間島の自然一体型グランピングリゾート",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓官方離島旅遊文章確認来間島沿途甘蔗田，及縣農業業務頁確認作物背景；文章的住宿圖釘不是甘蔗田公共入口。維持non_point，不把私有農地、旅宿或任意路邊座標當本項抵達點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html",
+        "title": "宮古農業改良普及課の業務（2026年9月11日更新）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓官方離島旅遊文章確認来間島沿途甘蔗田，及縣農業業務頁確認作物背景；文章的住宿圖釘不是甘蔗田公共入口。維持non_point，不把私有農地、旅宿或任意路邊座標當本項抵達點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為未具名場地的主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、商店或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "官方離島旅遊文章記錄，過来間大橋後往島內行駛會經過甘蔗田；文章主體旅宿不等於可參觀農場。",
+        "sourceUrl": "https://ritohaku.okinawastory.jp/shimatabi/outdoors04"
+      },
+      {
+        "claim": "縣政府2026年宮古農業工作列甘蔗生產振興，並重視單位面積產量與農業後繼者培育。",
+        "sourceUrl": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Sugarcane_Hall,_Okinawa_World_20010614.jpg：沖繩本島Okinawa World的甘蔗館不是来間島甘蔗田；未替換影像。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-kurima-viewpoint",
+    "title": "来間島龍宮城展望台",
+    "status": "verified",
+    "anchorType": "viewpoint",
+    "latitude": 24.72593,
+    "longitude": 125.25137,
+    "locationHint": "官方竜宮城展望台本體圖釘，非停車格或精測樓梯入口。由現有公共通道、開放階梯前往；停車與開放限制依現場標示，風大勿勉強登高。",
+    "reason": "重抓觀光協會原始Google Maps href，明確指定24.725930,125.251370的竜宮城展望台；縣觀光頁與主工作者即時Maps同名地標、下地来間地址相互印證。保留官方塔址，未把視窗中心或其他来間大橋展望台混用。",
+    "sources": [
+      {
+        "url": "https://miyako-guide.net/spots/spots-858/",
+        "title": "竜宮城展望台",
+        "coordinateEvidence": "2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.co.jp/maps/place/24.725930, 125.251370。/place/目的地數值緯度24.725930、經度125.251370，非@視窗中心；對應展望台本體。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/about/miyako_area/kurima",
+        "title": "来間島",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%A5%E9%96%93%E5%B3%B6%E9%BE%8D%E5%AE%AE%E5%9F%8E%E5%B1%95%E6%9C%9B%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 即時Chrome頁面：来間島龍宮城展望台 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：竜宮城展望台。同名、地址與官方景點相符；未取得可採用的place數字座標，不解析@視窗中心。 即時頁面具名竜宮城展望台，地址沖縄県宮古島市下地来間。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "official_embedded_pin",
+      "originalUrl": "https://www.google.co.jp/maps/place/24.725930, 125.251370",
+      "result": "官方原始地圖連結已重新抓取並解析。/place/目的地數值緯度24.725930、經度125.251370，非@視窗中心；對應展望台本體。 直接Google Maps文字抓取無法讀取完整地圖（cache miss／動態頁）；另讀取主工作者即時Chrome同名地標或人工選擇的名稱／地址記錄作交叉佐證，未宣稱街景、入口或現場視覺核驗。"
+    },
+    "storyClaims": [
+      {
+        "claim": "展望台位於来間島高台，為模仿龍宮城的三層建築。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-858/"
+      },
+      {
+        "claim": "展望可見前浜、伊良部島與来間大橋；海底砂地及珊瑚礁形成海色層次。",
+        "sourceUrl": "https://miyako-guide.net/spots/spots-858/"
+      },
+      {
+        "claim": "竜宮城展望台有橘色屋頂，海側望前浜與来間大橋，另一側可望島內。",
+        "sourceUrl": "https://www.okinawastory.jp/about/miyako_area/kurima"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg：題名為與那霸前浜照片，不能當作龍宮城展望台本體影像；未另配圖或改動影像二進位檔。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-mango-orchard",
+    "title": "宮古マンゴー農園",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "泛指宮古芒果栽培，未確認任何具名觀光果園、預約或公共入口，故無GPS。2026-09-23至27的鮮果與參訪須另向農家確認；不得自行入溫室或採摘。",
+    "reason": "重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。",
+    "sources": [
+      {
+        "url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/660/miyakojimamango.pdf",
+        "title": "マンゴーの主な試験研究 — まだら果症の発生を軽減する技術の開発",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://www.ja-okinawa.or.jp/agriculture/detail.php?id=21",
+        "title": "マンゴー — JAおきなわの特産品",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html",
+        "title": "宮古農業改良普及課の業務（2026年9月11日更新）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為未具名場地的主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、商店或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "宮古島支所資料介紹主要品種愛文及紅色果皮的商品性。",
+        "sourceUrl": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/660/miyakojimamango.pdf"
+      },
+      {
+        "claim": "資料研究斑駁果問題，涉及高濕度及果面結露等栽培條件。",
+        "sourceUrl": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/660/miyakojimamango.pdf"
+      },
+      {
+        "claim": "JA沖繩介紹愛文、凱特等芒果品種；縣級產品介紹不是宮古島特定果園的開放或採果公告。",
+        "sourceUrl": "https://www.ja-okinawa.or.jp/agriculture/detail.php?id=21"
+      },
+      {
+        "claim": "2026年宮古農業工作包含芒果等園藝作物產量與品質改善。",
+        "sourceUrl": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg：機場影像不是芒果園；未補造照片、授權或媒體檔。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-maou-palace-cave",
+    "title": "魔王の宮殿（洞窟ダイビングスポット）",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "下地島船潛點，沒有陸路步行入口，不提供海上導航或自行入洞路線；資格、經驗、海況及集合地點均須由合格潛水業者確認。",
+    "reason": "重抓縣觀光原頁，魔王の宮殿明列下地島、ENTRYボート、DEPTH27m、LEVEL中級以上與LICENCEアドバンス。是海上潛點而非可步行抵達的洞窟；無指定業者集合點，維持non_point，不設水下或假陸上座標。",
+    "sources": [
+      {
+        "url": "https://www.okinawastory.jp/feature/activity/diving",
+        "title": "ダイビング — 宮古エリア",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓縣觀光原頁，魔王の宮殿明列下地島、ENTRYボート、DEPTH27m、LEVEL中級以上與LICENCEアドバンス。是海上潛點而非可步行抵達的洞窟；無指定業者集合點，維持non_point，不設水下或假陸上座標。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為區域／文化或海上活動主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、港口或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "魔王の宮殿位於下地島，地形包括狹暗通道、拱形空間和較大的縱向洞室，光影為特色。",
+        "sourceUrl": "https://www.okinawastory.jp/feature/activity/diving"
+      },
+      {
+        "claim": "官方列船潛、水深27公尺、中級以上及進階資格；不是陸路洞窟。",
+        "sourceUrl": "https://www.okinawastory.jp/feature/activity/diving"
+      },
+      {
+        "claim": "官方描述洞頂透入的光，以及狹暗通道、拱形空間與較大縱向洞室的變化；實際觀察需依業者評估與當天條件。",
+        "sourceUrl": "https://www.okinawastory.jp/feature/activity/diving"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Irabujima_sky_view.jpg：伊良部島空拍不能代表下地島水下洞室；未替換圖片。"
+    ],
+    "checkedAt": "2026-09-16",
+    "editorialNotes": [
+      "編輯追補 F07/F08：移除預設照片與資料維護口吻，改為具條件的現場觀察；保留船潛資格、海況評估及無陸路入口限制，non_point與全部定位欄位不變。"
+    ]
+  },
+  {
+    "id": "jp-miyakojima-marine-park",
+    "title": "宮古島海中公園",
+    "status": "verified",
+    "anchorType": "entrance",
+    "latitude": 24.8788312,
+    "longitude": 125.2749104,
+    "locationHint": "業者官方Google My Maps機場行車路線終點，為平良狩俣2511-1陸上接待區，非離岸觀察室；館內觀察需購票。2026-08-15公告輪椅階梯升降機故障且修期未定，需無障礙協助者先洽園方確認。",
+    "reason": "重抓業者accesspage原始Google My Maps iframe及公開KML，具名行車終點「宮古島海中公園」Point座標為125.2749104,24.8788312,0（經度、緯度、高度）。保留此陸上抵達點，不改用另一個一般公園marker；縣觀光頁及即時Maps同名、狩俣2511-1地址佐證。",
+    "sources": [
+      {
+        "url": "https://miyakojima-kaichukoen.com/facilities/",
+        "title": "施設紹介 — 宮古島海中公園",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://miyakojima-kaichukoen.com/accesspage/",
+        "title": "アクセス — 宮古島海中公園",
+        "coordinateEvidence": "2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.com/maps/d/embed?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN。官網iframe所屬公開KML https://www.google.com/maps/d/kml?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN&forcekml=1 中，行車路線終點具名Placemark「宮古島海中公園」Point/coordinates=125.2749104,24.8788312,0，順序為經度、緯度、高度。採24.8788312,125.2749104；另一個同名一般marker125.2747111,24.8787444不替換抵達點。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/spot/600010270",
+        "title": "宮古島海中公園",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://miyakojima-kaichukoen.com/blog/2026/08/post-404.php",
+        "title": "車いす用階段昇降機の故障について（2026年8月15日）",
+        "coordinateEvidence": "2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%AE%E5%8F%A4%E5%B3%B6%E6%B5%B7%E4%B8%AD%E5%85%AC%E5%9C%92%20%E5%AE%AE%E5%8F%A4%E5%B3%B6",
+        "title": "Google Maps 即時Chrome頁面：宮古島海中公園 宮古島",
+        "coordinateEvidence": "讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：宮古島海中公園。同名、地址與官方景點相符；未取得可採用的place數字座標，不解析@視窗中心。 即時頁面地址為沖縄県宮古島市平良狩俣2511-1，連出的業者網站為miyakojima-kaichukoen.com。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "official_embedded_pin",
+      "originalUrl": "https://www.google.com/maps/d/embed?mid=1LyGW9Ors2rLelIlOPmELfcSgJi9hpRpN",
+      "result": "重新抓取業者官網的Google My Maps iframe及公開KML，成功讀出具名行車路線終點Point/coordinates=125.2749104,24.8788312,0，採陸上接待區24.8788312,125.2749104；非視窗中心或離岸觀察室。另讀取主工作者即時Chrome「宮古島海中公園」、平良狩俣2511-1及業者網站資料作交叉佐證；未進行地圖、街景或現場入口視覺認證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "管理棟以龜殼為造型；階梯通往約海面下4公尺的海中觀察空間。",
+        "sourceUrl": "https://miyakojima-kaichukoen.com/facilities/"
+      },
+      {
+        "claim": "設有24扇壓克力觀察窗，觀看自然海域，景象受天候海況影響。",
+        "sourceUrl": "https://miyakojima-kaichukoen.com/facilities/"
+      },
+      {
+        "claim": "官網提供從機場開車前往園區的Google My Maps路線，地址平良字狩俣2511-1。",
+        "sourceUrl": "https://miyakojima-kaichukoen.com/accesspage/"
+      },
+      {
+        "claim": "地址平良狩俣2511-1，設陸上停車及海中觀察設施；海況惡化可能休園。",
+        "sourceUrl": "https://www.okinawastory.jp/spot/600010270"
+      },
+      {
+        "claim": "2026-08-15公告輪椅用階梯升降機故障，修繕日期尚未確定。",
+        "sourceUrl": "https://miyakojima-kaichukoen.com/blog/2026/08/post-404.php"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg：宮古機場不能代表海中公園；未另配島嶼照片或改動影像檔。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-miyako-beef-ranch",
+    "title": "宮古牛農場",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "畜牧與食材主題，沒有具名公開牧場或參訪許可，因此不設GPS及觸發。不得自行進入牛舍、牧地或餵食；市場、餐廳只作故事來源，不替代牧場。",
+    "reason": "重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。",
+    "sources": [
+      {
+        "url": "https://www.ja-okinawa.or.jp/store/detail.php?id=476",
+        "title": "宮古島市 ファーマーズマーケットみやこ「あたらす市場」",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html",
+        "title": "宮古農業改良普及課の業務（2026年9月11日更新）",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://miyako-island.net/gourmet/gourmet_spot_028/",
+        "title": "しゃぶ庵",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓JA販售資料、縣農業業務及觀光協會餐廳頁，確認宮古牛商品與肉用牛產業，未建立任何特定公開牧場身分及入口。維持non_point；不把市場、餐廳或宮古馬牧場改成原ID代表的牛農場。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為未具名場地的主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、商店或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "JAあたらす市場頁將宮古牛列為地方特色商品。",
+        "sourceUrl": "https://www.ja-okinawa.or.jp/store/detail.php?id=476"
+      },
+      {
+        "claim": "2026年宮古農業工作明列肉用牛與甘蔗的生產振興。",
+        "sourceUrl": "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html"
+      },
+      {
+        "claim": "觀光協會しゃぶ庵頁分列宮古牛與阿古豬等食材，不等於開放牧場資料。",
+        "sourceUrl": "https://miyako-island.net/gourmet/gourmet_spot_028/"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Wagyu.jpg：泛稱和牛照片無法建立宮古產地或此未具名牧場身分；不保留作特定農場示意，也未新增照片。"
+    ],
+    "checkedAt": "2026-09-16"
+  },
+  {
+    "id": "jp-miyakojima-miyako-festival",
+    "title": "宮古島まつり（クルバガー）",
+    "status": "non_point",
+    "anchorType": "none",
+    "latitude": null,
+    "longitude": null,
+    "locationHint": "日期限定且可能多場地的祭典文化主題，無全年GPS或觸發。2026夏祭公告為7月24–25日，不在9月23–27日旅期；其他祭典須另查當年公告及參與規則。",
+    "reason": "重抓市政府文化頁及2026活動頁，區分農曆五月初四ハーリー與7月24–25日宮古島夏まつり；舊文十月、クルバガー名稱與詞義未獲支持。保留既有ID／題名以便辨識更正，維持non_point，不能配全年港口座標或冒充九月行程。",
+    "sources": [
+      {
+        "url": "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html",
+        "title": "文化 Culture — ハーリー・宮古島夏まつり",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓市政府文化頁及2026活動頁，區分農曆五月初四ハーリー與7月24–25日宮古島夏まつり；舊文十月、クルバガー名稱與詞義未獲支持。保留既有ID／題名以便辨識更正，維持non_point，不能配全年港口座標或冒充九月行程。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      },
+      {
+        "url": "https://www.okinawastory.jp/event/600022601",
+        "title": "宮古島夏まつり2026【7/25（土）】",
+        "coordinateEvidence": "2026-09-16重新抓取原頁全文。重抓市政府文化頁及2026活動頁，區分農曆五月初四ハーリー與7月24–25日宮古島夏まつり；舊文十月、クルバガー名稱與詞義未獲支持。保留既有ID／題名以便辨識更正，維持non_point，不能配全年港口座標或冒充九月行程。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"
+      }
+    ],
+    "googleMapsVerification": {
+      "method": "unavailable",
+      "originalUrl": null,
+      "result": "本項為未具名場地的主題，未建立可代表整項的具名公共抵達點；不以搜尋中心、商店或其他景點產生GPS。已重新抓取所列正式來源確認主題身分，不宣稱完成Google Maps位置或現場視覺驗證。"
+    },
+    "storyClaims": [
+      {
+        "claim": "市政府文化頁將ハーリー記為農曆五月初四的船隻競渡、祈求漁業順利活動。",
+        "sourceUrl": "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html"
+      },
+      {
+        "claim": "同頁將宮古島夏まつり列於七月下旬，包含クイチャー等地方歌舞，與ハーリー分列。",
+        "sourceUrl": "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html"
+      },
+      {
+        "claim": "2026宮古島夏まつり活動頁列出7月24–25日；不在2026-09-23至27的旅行日期。",
+        "sourceUrl": "https://www.okinawastory.jp/event/600022601"
+      }
+    ],
+    "mediaNotes": [
+      "移除 File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg：前浜海灘照片並非祭典紀錄，不能支持原活動身分；未新增媒體。"
+    ],
+    "checkedAt": "2026-09-16"
+  }
+]

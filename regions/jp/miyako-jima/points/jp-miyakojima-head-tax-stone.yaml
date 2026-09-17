@@ -1,121 +1,172 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-head-tax-stone
+  id: "jp-miyakojima-head-tax-stone"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "人頭税石"
-  summary: "這塊石頭是薩摩藩統治時期人頭稅制度的歷史見證——凡身高超過此石的宮古島人皆須納稅，這項殘酷制度延續約兩百年，是宮古島人集體記憶中最沉重的傷痕之一。"
-  narration: |
-    眼前這塊看似平凡的石頭，曾是宮古島人命運的無情裁判者。1637年，薩摩藩在征服琉球王國後，對宮古島、八重山等離島人民實施人頭稅（人頭税）——規定凡身高超過這塊特定石頭高度的島民，不論男女老幼，皆須每年繳納布匹、稻米或其他物資作為稅款。
-
-    這項制度的殘酷之處，在於它完全無視個人的經濟能力，以身高這個先天條件作為徵稅標準。為了讓子女逃避稅賦，據說有島民故意讓孩子駝背，或以各種方法阻礙其正常發育。人頭稅制度在宮古島持續了約兩百年，直至1903年才終於廢除——在當時，廢稅運動的推動者中村十作更被宮古島人視為英雄。
-
-    這塊石頭如今靜靜矗立在市區，無需多餘裝飾或複雜說明，它的存在本身就是最有力的歷史陳述。站在它面前，試著用目光丈量它的高度，想像一個孩子成長至此刻度時，他的人生從此被賦稅牢籠所困——這短短的距離，曾是無數家庭的悲劇臨界點。
-  observationPrompt: "站在人頭稅石旁邊，實際比較自己的身高與石頭的高度差異——在那個年代，站到這塊石頭高度就意味著必須開始繳稅，請留意石頭的實際尺寸是否比你預想的更高或更低？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: history
-          label: 歷史
-    - id: experience
-      label: 體驗
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.81279945
     longitude: 125.28171539
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.81279945,125.28171539
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.81279945,125.28171539"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 人頭税石位於平良字荷川取路旁，為歷史標誌；請步行前往，勿妨礙居民或交通。
+    rearmDistanceMeters: 1000
+  locationHint: "官方旅遊頁標示的平良字荷川取人頭税石所在地，非停車場；在可通行範圍靠近說明與石柱，不攀爬、不妨礙周邊通行。"
+  summary: "約1.43公尺的石柱保存人頭稅記憶；「高過石頭就納稅」應當作傳說，不能取代真正的制度史。"
+  narration: |
+    這根約一點四三公尺高的石柱，第一眼很容易讓人拿自己的身高來比。地方流傳，只要長得高過石頭，就得繳人頭稅；但請把這句話放在「傳說」的位置，不要理解成不分年齡、全靠量身高的正式制度。旅遊資料也明確提到十五至五十歲的課稅對象。比這個戲劇化說法更沉重的，是人頭稅從一六三七年延續到一九〇三年，跨過兩個半世紀；繳出的不只是抽象數字，還包括糧食與布匹。後來的廢稅運動，也不是一位英雄突然把大家救出來。市文化資產解說記錄，三十多個村落的農民支持四名代表遠赴東京請願。站在石柱旁，可以把問題換一下：一戶人家的收成和織布時間，有多少能留給自己？不用攀爬或觸碰，看看它在人身尺度中的大小，再想想背後那些共同爭取改變的人。
+  observationPrompt: "不觸碰石柱，比較約1.43公尺的高度與人的尺度；閱讀說明時分辨量身高傳說與可查證的稅制、廢稅史。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "人頭稅制度是宮古島近代史上最重要的社會事件之一，這塊石頭是唯一留存的實物見證，歷史意義極高"
-    sources: [src1, src2]
+    note: "實體地標承載延續兩個半世紀的制度記憶。"
+    sources:
+      - "tax-okinawa"
+      - "tax-tradition"
   distinctiveness:
-    score: 5
-    note: "以身高作為徵稅標準的人頭稅制度在世界史上極為罕見，相關實物更是絕無僅有，獨特性滿分"
-    sources: [src1]
+    score: 4
+    note: "小型石柱與人身尺度形成鮮明對照。"
+    sources:
+      - "tax-okinawa"
+      - "tax-tradition"
   interpretability:
-    score: 4
-    note: "石頭本身具有強烈的直觀衝擊——訪客站在旁邊親身比較身高，瞬間能理解制度的殘忍；現場說明牌提供歷史背景"
-    sources: [src2]
-  visitorValue:
-    score: 4
-    note: "即使是對歷史興趣不深的訪客，也能從親身比對身高這個動作中獲得深刻感受"
-    sources: [src1, src2]
-  evidenceQuality:
     score: 3
-    note: "資料來自日本維基百科及宮古島市官方說明，歷史事實有充分文獻支撐"
-    sources: [src1, src2]
-  final: 4.2   # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.25+0.80+0.60+0.30 = 4.15 → 4.2
+    note: "石柱可觀察，需釐清傳說不等於制度。"
+    sources:
+      - "tax-okinawa"
+      - "tax-tradition"
+  visitorValue:
+    score: 3
+    note: "適合配合廢稅史作短訪。"
+    sources:
+      - "tax-okinawa"
+      - "tax-tradition"
+  evidenceQuality:
+    score: 4
+    note: "官方及文化資產來源充分；高度課稅說法在來源間有差異，明確保留傳說標籤。"
+    sources:
+      - "tax-okinawa"
+      - "tax-tradition"
+  final: 3.7
 sources:
-  - id: src1
-    title: "人頭税 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%A0%AD%E7%A8%8E
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "tax-okinawa"
+    url: "https://www.okinawastory.jp/spot/20340903"
+    title: "人頭税石"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "人頭稅制度的歷史起源（1637年）及廢除時間（1903年）"
-      - "徵稅標準以身高石為準的制度細節"
-      - "中村十作廢稅運動的歷史背景"
-  - id: src2
-    title: "人頭税石 - 宮古島市文化財案内"
-    publisher: "宮古島市教育委員会"
-    url: https://www.city.miyakojima.lg.jp/soshiki/kyoiku/bunkazai/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "石柱高約1.43公尺，位於平良字荷川取。"
+      - "人頭稅1637年開始，1903年廢除；男性粟、女性上布的物納敘述。"
+  -
+    id: "tax-tradition"
+    url: "https://kanko.travel.rakuten.co.jp/okinawa/spot/S47000842.html"
+    title: "人頭税石（たびノート）"
+    publisher: "楽天トラベル／昭文社"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "人頭稅石的現存位置及保存狀況"
-      - "宮古島市指定文化財的相關說明"
+      - "15至50歲為課稅對象；超過石高納稅的說法明確標為傳承。"
+  -
+    id: "tax-movement"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo749/"
+    title: "【市指定：史跡】鏡原馬場跡"
+    publisher: "宮古島市教育委員会公認・綾道"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "1887年前後起出現廢稅運動；30餘村農民支持四名代表赴東京請願。"
+      - "四人包括中村十作、城間正安、平良真牛、西里蒲，非一人獨力完成。"
+  -
+    id: "google-live"
+    title: "Google Maps — ぶばかり石 (人頭税石)"
+    url: "https://www.google.com/maps/search/?api=1&query=%E4%BA%BA%E9%A0%AD%E7%A8%8E%E7%9F%B3%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "實抓具名ぶばかり石（人頭税石）及荷川取90地址；本次無可提取的第二組具名place座標，數值依官方嵌入q。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nintouzeiseki.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Nintouzeiseki.jpg"
     creator: "Paipateroma"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "cd752d270f725e1d0e57463fa0978bee7cd096ed9a61e2e134a13fbbb58c3dc6"
-    compactPath: media/compact/jp-miyakojima-head-tax-stone.webp
-    completePath: media/complete/jp-miyakojima-head-tax-stone.webp
+    compactPath: "media/compact/jp-miyakojima-head-tax-stone.webp"
+    completePath: "media/complete/jp-miyakojima-head-tax-stone.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "刪除不分老幼只按身高納稅、故意使兒童畸形等無證情節；來源對高度課稅描述不一，採明標傳說而非制度定論。"
+    - "重抓沖繩官方旅遊頁的Google嵌入q=24.81279945,125.28171539。主流程Chrome顯示ぶばかり石（人頭税石）及荷川取90地址，身份相符但未取得第二組place座標；保留官方明確q，不使用搜尋視窗。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: Adopt the official Okinawa tourism marker query. The original coordinate is approximately 20 m south. This verifies location only, not the YAML's literal historical claim that all taxation was determined by height.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重抓沖繩官方旅遊頁的Google嵌入q=24.81279945,125.28171539。主流程Chrome顯示ぶばかり石（人頭税石）及荷川取90地址，身份相符但未取得第二組place座標；保留官方明確q，不使用搜尋視窗。"
   sources:
-  - url: https://www.okinawastory.jp/spot/20340903
-    title: おきなわ物語 — 人頭税石
-    coordinateEvidence: https://www.okinawastory.jp/spot/20340903 HTML contains maps/embed/v1/place?q=24.81279945,125.28171539&zoom=16. Extracted the numeric q destination.
-  - url: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf
-    title: 宮古島市 — 観光ガイドマップ
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/kanko/guidemap/files/kankoumap.pdf includes 人頭税石 on the historical walking route; no additional coordinate extracted.
+    -
+      url: "https://www.okinawastory.jp/spot/20340903"
+      title: "人頭税石"
+      coordinateEvidence: "2026-09-16 HTTP 200；官方 HTML 的 Google place iframe q=24.81279945,125.28171539、zoom=16。只抽取目的地 q，不呼叫有金鑰的 API、不保存公開嵌入金鑰。主流程另實抓『ぶばかり石 (人頭税石)』具名頁與荷川取90地址，原始 named URL 見 maps-listing 證據。"
+    -
+      url: "https://kanko.travel.rakuten.co.jp/okinawa/spot/S47000842.html"
+      title: "人頭税石（たびノート）"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo749/"
+      title: "【市指定：史跡】鏡原馬場跡"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E4%BA%BA%E9%A0%AD%E7%A8%8E%E7%9F%B3%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "Google Maps — ぶばかり石 (人頭税石)"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:06.387Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/search/?api=1&query=%E4%BA%BA%E9%A0%AD%E7%A8%8E%E7%9F%B3%20%E5%AE%AE%E5%8F%A4%E5%B3%B6。本次回應未有可採用的具名!3d/!4d；不把搜尋視窗當座標。 實抓具名ぶばかり石（人頭税石）及荷川取90地址；本次無可提取的第二組具名place座標，數值依官方嵌入q。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.812617
     longitude: 125.281723

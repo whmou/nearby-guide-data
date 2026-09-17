@@ -1,113 +1,131 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ikema-beach
-  parentId: jp-miyakojima-ikema-island
-  kind: attraction
+  id: "jp-miyakojima-ikema-beach"
+  parentId: "jp-miyakojima-ikema-island"
+  kind: "attraction"
   title: "池間島ビーチ"
-  summary: "池間島北岸的沙灘水淺浪靜，是宮古島周邊離島中最適合浮潛的海灘之一，珊瑚礁緊鄰海岸，熱帶魚種豐富，海草床亦是觀察儒艮覓食痕跡的最佳位置。"
-  narration: |
-    池間島的海灘相較於宮古本島的熱門海灘，少了幾分商業氣息，多了幾分原始安靜。北岸的沙灘水淺透明，腳踩下去能清楚感受到沙質細密，而水面以下，各色熱帶魚在珊瑚礁碎石間悠遊，偶爾一群青黃色的隆頭魚一起游過，連非潛水者都能透過面鏡清晰看見。這片海域是宮古群島中儒艮最後的棲息地之一，牠們以此海域的海草為食，退潮時在淺灘留下的啃食痕跡偶爾可見。在海灘旁的礁盤行走時，偶爾可以看到海星、海膽靜靜附著在石縫之間，提醒你這片海的生命力。遠處，池間大橋的輪廓倒映在平靜的水面上，構成一幅離島特有的靜謐畫面。
-  observationPrompt: "在淺水區的海草床旁仔細觀察——你能在沙底找到橢圓形的「啃食痕跡」嗎？那可能是儒艮留下的覓食印記。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-        - id: family
-          label: 親子
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "步行"
+        -
+          id: "family"
+          label: "親子"
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請明確指定池間島上的目標海灘；勿自動選用フナクス、イキヅー或其他海灘。
+  locationHint: null
+  summary: "「池間島ビーチ」泛稱不足以區分島上多處海灘；保留待確認名稱與入口，不選任意沙灘來補GPS。"
+  narration: |
+    如果行程上只寫著「池間島海灘」，出發前還差一個重要步驟：確認是哪一片海。實際 Google Maps 查詢會列出フナクス、イキヅー、オハマ等不同名稱的海灘，並不是同一處入口的不同翻譯。原稿沒有足夠資料讓我們在它們之中作選擇，所以這筆先不提供導航，也不把原來靠近某片沙灘的座標當成證明。市府談到宮古海岸時也提醒，自然海岸不能一概視為設施完善的海水浴場，潮流與危險生物都需要留意。等地名、合法入口與當天海況確認後，再決定適合在岸上觀察，還是參加有管理的活動。此刻可以先把期待留給海岸，而不是預約一隻一定出現的海龜；不踩珊瑚、不越過私人地界，也不為了一個模糊名字走向未知的礁岸。
+  observationPrompt: "先取得明確日文海灘名與合法入口，再比對地圖；勿根據泛稱、舊座標或海龜照片自行尋找下水點。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島附近離島中少數保有完整珊瑚礁與海草床的海灘，具有生態保育意義，亦是儒艮的已知覓食地。"
-    sources: [ikema-wikipedia-ja, env-dugong-miyako]
+    score: 0
+    note: "名稱泛稱，未能評定單一海灘。"
+    sources:
+      - "city-beaches"
   distinctiveness:
-    score: 3
-    note: "清澈水質與海草床組合有特色，但宮古島周邊有多處水質類似的海灘，競爭力中等。"
-    sources: [ikema-wikipedia-ja]
+    score: 0
+    note: "不把個別海灘特色混入泛稱。"
+    sources:
+      - "city-beaches"
   interpretability:
-    score: 3
-    note: "海灘環境直觀易理解，儒艮啃食痕跡等生態細節需要導覽或前置知識才能識別。"
-    sources: [env-dugong-miyako]
+    score: 1
+    note: "已可說明地名歧義，但不能對應現場。"
+    sources:
+      - "city-beaches"
   visitorValue:
-    score: 4
-    note: "完全免費，水淺浪靜適合親子與初學浮潛者，周邊無大量商業設施，環境清幽。"
-    sources: [ikema-wikipedia-ja]
+    score: 0
+    note: "不作導航推薦。"
+    sources:
+      - "city-beaches"
   evidenceQuality:
-    score: 3
-    note: "環境省儒艮調查資料與維基百科有相關記載，但針對此海灘本身的詳細文獻有限。"
-    sources: [env-dugong-miyako]
-  final: 3.2  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+    score: 1
+    note: "Google實抓有多個候選，官方一般安全資料不能替代身份證據。"
+    sources:
+      - "city-beaches"
+  final: 0.3
 sources:
-  - id: ikema-wikipedia-ja
-    title: "池間島 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E6%B1%A0%E9%96%93%E5%B3%B6
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "city-beaches"
+    url: "https://www.city.miyakojima.lg.jp/kanko/annai/beach.html"
+    title: "ビーチ、マリンレジャー"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "池間島周辺の海域はサンゴ礁が発達し、シュノーケリングに適している"
-      - "島北岸のビーチは砂浜が広く水深が浅い"
-  - id: env-dugong-miyako
-    title: "ジュゴン保護区域 宮古島周辺海域"
-    publisher: "環境省自然環境局"
-    url: https://www.env.go.jp/nature/kisho/dugong/miyako.html
-    accessedAt: "2026-07-15"
-    language: ja
+      - "新城海岸近岸淺瀨有珊瑚與熱帶魚。"
+      - "保良川有利用天然湧水的人工泳池。"
+      - "天然海岸不可一概視為設施完善的海水浴場，須注意潮流及危險生物。"
+  -
+    id: "google-live"
+    title: "Google Maps — 池間島ビーチ 宮古島（消歧義）"
+    url: "https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E9%96%93%E5%B3%B6%E3%83%93%E3%83%BC%E3%83%81%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "池間島周辺は宮古島唯一のジュゴン生息確認海域"
-      - "海草藻場がジュゴンの主要な採食場所となっている"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikema_Bridge_in_Miyakojima.jpg
-    creator: "ブルーノ・プラス"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "445c1a230a2c5fa595235bfff3d1859aa445caa95a01ac5ce9f55798541187dc"
-    compactPath: media/compact/jp-miyakojima-ikema-beach.webp
-    completePath: media/complete/jp-miyakojima-ikema-beach.webp
+      - "查詢池間島ビーチ列出オハマ、フナクス、イキヅー、アラシッスヒダ及カギンミ等不同海灘；各候選!3d/!4d均不解決原條目身份，未選第一筆也未採任一座標。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "刪除海龜必見、無人沙灘與無據入口敘述；不把此ID改名成フナクス或任一不同具名景點。"
+    - "本名稱泛指池間島海灘，原稿未提供能排除其他海灘的日文別名、地址或入口來源。Chrome實抓多個不同place，包括フナクス、イキヅー與オハマ，不能僅因舊座標接近其中之一而改名套用；保持unresolved。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Ikema_Bridge_in_Miyakojima.jpg；原圖是池間大橋，無法識別這筆未解海灘。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Title is only 池間島ビーチ and narrative mixes north-shore beach, bridge views and dugong feeding grounds. Multiple beaches fit parts of the description; no official source ties this record to one identifiable arrival.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "本名稱泛指池間島海灘，原稿未提供能排除其他海灘的日文別名、地址或入口來源。Chrome實抓多個不同place，包括フナクス、イキヅー與オハマ，不能僅因舊座標接近其中之一而改名套用；保持unresolved。"
   sources:
-  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf
-    title: 宮古島市 — 池間湿原散策コース
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_plants02.pdf maps different named places on Ikema, including フナクス. It does not establish which beach this generic YAML title means; no coordinate selected.
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/annai/beach.html"
+      title: "ビーチ、マリンレジャー"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E9%96%93%E5%B3%B6%E3%83%93%E3%83%BC%E3%83%81%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "Google Maps — 池間島ビーチ 宮古島（消歧義）"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:26.447Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/search/?api=1&query=%E6%B1%A0%E9%96%93%E5%B3%B6%E3%83%93%E3%83%BC%E3%83%81%20%E5%AE%AE%E5%8F%A4%E5%B3%B6。本次回應未有可採用的具名!3d/!4d；不把搜尋視窗當座標。 查詢池間島ビーチ列出オハマ、フナクス、イキヅー、アラシッスヒダ及カギンミ等不同海灘；各候選!3d/!4d均不解決原條目身份，未選第一筆也未採任一座標。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.9374
     longitude: 125.2453
-  verifiedLocation: null

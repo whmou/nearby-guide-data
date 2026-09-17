@@ -1,104 +1,123 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-biyandam-viewpoint
+  id: "jp-miyakojima-biyandam-viewpoint"
   parentId: null
-  kind: view
+  kind: "view"
   title: "ビャクダン山展望台"
-  summary: "ビャクダン山是宮古島的最高點，海拔約113公尺，展望台可俯瞰宮古島全島、伊良部島與周圍珊瑚礁的360度壯觀景色。"
-  narration: |
-    ビャクダン山展望台矗立在宮古島的最高峰，海拔雖只有113公尺，但由於宮古島地勢低平，這個高度已足以讓視野遼闊無阻。站在展望台上，北方是蔚藍的東海，南方可以望見宮古島南岸礁盤的翠綠色澤，天氣晴朗時甚至能辨認遠處的伊良部大橋和池間大橋。地面上鋪展的是宮古島特有的紅瓦屋頂聚落與甘蔗田，與漸層海色形成鮮明對比。展望台設有觀景說明板，標示出各方向可見的島嶼與地標名稱，幫助旅客辨別方位。日出與日落時分是造訪的最佳時機，天空與海洋的色彩變化令人難以忘懷。
-  observationPrompt: "在展望台找到方位說明板，嘗試對照現實景色辨認出伊良部島或池間島的位置——你能看到連結它們的大橋嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請勿導航至現有座標。名為「ビャクダン山展望台」的地點仍待確認。
+  locationHint: null
+  summary: "「ビャクダン山展望台」尚無可靠同名官方地點可核對；保留待辨識，不提供GPS或導航。"
+  narration: |
+    這個名稱目前先不要當成可以直接前往的景點。原稿把「ビャクダン山展望台」寫成宮古島最高處，還附上高度與環島視野，但本次沒有找到足以支持這些說法的官方地點資料。實際查詢 Google Maps，也出現多個其他名稱的展望台，不能因為都能看海，就挑一個座標放進來。市府確實有野原岳的文化資產介紹，可是沒有證據證明它就是這個名字的地方。這筆因此保留為待辨識條目：若手上有日文路牌照片、原始遊記或地址，可以用來釐清名稱；在那之前，不推薦沿著舊座標找入口，也不把別座山的歷史接到這裡。旅途中一個誠實的空白，比把人帶到不相干的地點更有用。
+  observationPrompt: "若有原始日文路牌、地址或出處，先用它確認地名；不要按舊座標找山路，也不把其他展望台認作此處。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古島最高點，是俯瞰全島景觀唯一可及的展望台，具有地理標誌性意義。"
-    sources: [src1]
+    score: 0
+    note: "地點身份未成立，不能評定重要性。"
+    sources:
+      - "nobarudake"
   distinctiveness:
-    score: 4
-    note: "360度全景視野涵蓋多座島嶼與礁盤，是宮古島陸地觀景點中最具代表性者。"
-    sources: [src1]
+    score: 0
+    note: "原稿最高山及全景特色缺少支持。"
+    sources:
+      - "nobarudake"
   interpretability:
-    score: 3
-    note: "現場設有方位說明板，有助旅客辨識各地標，解說深度尚可。"
-    sources: [src1]
+    score: 0
+    note: "沒有可對應的現場觀察物。"
+    sources:
+      - "nobarudake"
   visitorValue:
-    score: 4
-    note: "免費開放，全天候可達，日出日落視野尤佳，旅遊價值明顯。"
-    sources: [src1]
+    score: 0
+    note: "不作導航推薦。"
+    sources:
+      - "nobarudake"
   evidenceQuality:
-    score: 3
-    note: "有多個日本旅遊網站及觀光指南記載，資訊可信度中上。"
-    sources: [src1]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+    score: 1
+    note: "已查市府相關山名及Google結果，但證據不足以解決原名。"
+    sources:
+      - "nobarudake"
+  final: 0.1
 sources:
-  - id: src1
-    title: "ビャクダン山展望台｜宮古島観光スポット"
-    publisher: "宮古島市観光商工課"
-    url: https://www.miyakojima-kankou.com/spot/biyandam/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "nobarudake"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/bunkazai-NobarudakeTamaishi.html"
+    title: "【県指定：史跡】野原岳の霊石"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "ビャクダン山是宮古島最高點，海拔約113公尺"
-      - "展望台提供360度全景，可見多座離島與礁盤"
-      - "免費開放，設有方位說明板"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-biyandam-viewpoint.webp
-    completePath: media/complete/jp-miyakojima-biyandam-viewpoint.webp
+      - "此頁記載的是野原岳之靈石，不能證明ビャクダン山展望台是同一處。"
+  -
+    id: "google-live"
+    title: "Google Maps — ビャクダン山展望台 宮古島（消歧義）"
+    url: "https://www.google.com/maps/search/?api=1&query=%E3%83%93%E3%83%A3%E3%82%AF%E3%83%80%E3%83%B3%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "查詢返回牧山展望台、松の木展望台、竜宮城展望台等不同具名結果；未有ビャクダン山展望台的可靠同名結果，所有候選place座標均不採用。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "保留ID及原始待辨識名稱，不把它改成野原岳、牧山或其他已知景點；刪除高度、最高點及360度景觀的無據敘述。"
+    - "獨立搜尋及重抓市府野原岳文化資產頁，未建立ビャクダン山展望台的同名身份或地址。主流程Chrome查詢返回牧山、松の木、竜宮城等不同地點，沒有匹配本名；既有最高113公尺敘述不足採信，保持unresolved、不改名挪用另一座山。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg；原圖是與那霸前濱海灘，無法證明此不明展望台。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Exact-name research did not identify an authoritative site with this name or a visitor entrance. Do not substitute 野原岳, 比嘉ロードパーク or 牧山展望台 merely because they are real high points.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "獨立搜尋及重抓市府野原岳文化資產頁，未建立ビャクダン山展望台的同名身份或地址。主流程Chrome查詢返回牧山、松の木、竜宮城等不同地點，沒有匹配本名；既有最高113公尺敘述不足採信，保持unresolved、不改名挪用另一座山。"
   sources:
-  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/bunkazai-NobarudakeTamaishi.html
-    title: 宮古島市 — 野原岳の霊石
-    coordinateEvidence: No coordinate extracted for ビャクダン山. https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/bunkazai-NobarudakeTamaishi.html documents a differently named 野原岳 cultural site; it does not establish equivalence to the YAML name.
-  - url: https://miyako-guide.net/spots-cat/beach/
-    title: 宮古島観光協会 — ビーチ・観光地
-    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/ identifies named viewpoints including 牧山展望台 and 比嘉ロードパーク, but supplies no matching ビャクダン山 destination. No coordinates accepted.
+    -
+      url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/bunkazai-NobarudakeTamaishi.html"
+      title: "【県指定：史跡】野原岳の霊石"
+      coordinateEvidence: "重抓 HTTP 200，名稱為野原岳の霊石；並非ビャクダン山展望台。其地圖不挪用，不提取替代座標。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E3%83%93%E3%83%A3%E3%82%AF%E3%83%80%E3%83%B3%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "Google Maps — ビャクダン山展望台 宮古島（消歧義）"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:35:50.706Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/search/?api=1&query=%E3%83%93%E3%83%A3%E3%82%AF%E3%83%80%E3%83%B3%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6。本次回應未有可採用的具名!3d/!4d；不把搜尋視窗當座標。 查詢返回牧山展望台、松の木展望台、竜宮城展望台等不同具名結果；未有ビャクダン山展望台的可靠同名結果，所有候選place座標均不採用。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.7948
     longitude: 125.3418
-  verifiedLocation: null

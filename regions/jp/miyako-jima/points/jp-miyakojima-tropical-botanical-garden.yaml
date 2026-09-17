@@ -1,104 +1,141 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-tropical-botanical-garden
+  id: "jp-miyakojima-tropical-botanical-garden"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "宮古島市熱帯植物園"
-  summary: "宮古島市熱帶植物園收集超過一千種熱帶植物，是宮古島市區少見的綠色休憩空間，適合親子同遊與靜態漫步。"
-  narration: |
-    宮古島市熱帶植物園坐落於市區邊緣的緩丘地帶，園內廣植來自世界各地的熱帶植物，包含巨大的橡膠樹、色彩奪目的熱帶花卉、以及各類棕櫚科植物，超過一千種之多。這裡對市民與遊客免費開放，平日人潮不多，是旅途中難得可以放鬆腳步、感受綠意的場所。園區設有步道，繞行一圈約需三十分鐘。遊客有時能在林蔭下遇見宮古島特有的野鳥，或在角落發現外形奇特的熱帶果樹。相較於島上以海景為主的觀光點，這裡提供截然不同的陸地生態視角，是認識宮古島植被多樣性的好機會。
-  observationPrompt: "在園內找找看有沒有結果實的熱帶植物，你能認出果實的種類嗎？留意樹幹的紋路與葉片的形狀，和台灣常見的熱帶植物有什麼不同？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "把目光從海轉向樹冠：梯梧與福木並木道、人工栽植的熱帶植物，讓人用散步認識宮古島的綠色景觀。"
+  narration: |-
+    先抬頭看樹冠，再低頭看步道旁的葉片，這座植物園的樂趣，不一定要從找一朵盛開的花開始。沖繩縣的綠化資料記錄，園內有梯梧和福木並木道，也栽培各式草花；它是一座人工營造的熱帶植物園，不是毫無人為介入的原始叢林。市府介紹的園區約十二萬平方公尺，讓這段散步有機會暫時離開海灘的節奏，換成比較葉形、樹幹與樹蔭的尺度。觀光協會另提到，二〇一一年完成了石原和幸設計的「花之王國」，可以把植物配置當作人們安排生活空間的一種手藝來看。梯梧著名的紅花是春季景色，不要把照片中的花海當作九月底的保證；沒有花時，看看不同樹冠怎麼排列、光線從哪裡落下，也是一種認識園子的方式。只走開放步道，不採葉、不進維護區。
+  observationPrompt: "沿開放步道比較梯梧、福木等並木的樹冠與葉形；以現場標牌辨認，不採集植物，也不預期九月一定有紅花。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: family
-          label: 親子
-    - id: access
-      label: 入場
+        - id: "family"
+          label: "親子"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.8000949
     longitude: 125.3155536
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8000949,125.3155536
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8000949,125.3155536"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 宮古島市熱帯植物園官方地址地標（平良東仲宗根添1166-286）；供園區鄰近導覽，循現場開放通路進園，非精確大門。
+    rearmDistanceMeters: 1000
+  locationHint: "宮古島市熱帶植物園地址feature的地標pin，平良東仲宗根添1166-286；不是精確入口。依現場入口與開放步道進入，工藝設施、維護區各有管理規範。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島市區重要的公共綠地，收藏千種以上熱帶植物，具地方文化與教育意義。"
-    sources: [src1]
+    note: "提供地方自然教育與栽植景觀。"
+    sources:
+      - "garden-association"
+      - "garden-prefecture"
+      - "city-nature"
   distinctiveness:
     score: 3
-    note: "熱帶植物園在沖縄離島中並不罕見，但宮古島市內提供此類陸地自然體驗的場所相對稀少。"
-    sources: [src1]
+    note: "梯梧、福木並木及園藝設計有地方特色。"
+    sources:
+      - "garden-association"
+      - "garden-prefecture"
+      - "city-nature"
   interpretability:
     score: 4
-    note: "植物標示牌齊全，園區設計易於自導覽，適合各年齡層旅客理解。"
-    sources: [src1]
+    note: "樹冠、葉形與配置適合步行觀察。"
+    sources:
+      - "garden-association"
+      - "garden-prefecture"
+      - "city-nature"
   visitorValue:
     score: 3
-    note: "免費入場，適合家庭或需要海灘以外選擇的旅客，但吸引力不及海洋景點強烈。"
-    sources: [src1]
+    note: "園區可散步，個別設施與開放情形仍需現場確認。"
+    sources:
+      - "garden-association"
+      - "garden-prefecture"
+      - "city-nature"
   evidenceQuality:
-    score: 3
-    note: "有宮古島市政府官方網頁記錄，資訊基礎可靠。"
-    sources: [src1]
-  final: 3.2  # 0.30*3 + 0.25*3 + 0.20*4 + 0.15*3 + 0.10*3 = 0.90+0.75+0.80+0.45+0.30 = 3.20
+    score: 4
+    note: "縣、市及觀光協會頁面交叉支持；統計面積歧異已保守處理。"
+    sources:
+      - "garden-association"
+      - "garden-prefecture"
+      - "city-nature"
+  final: 3.3
 sources:
-  - id: src1
-    title: "宮古島市熱帯植物園｜宮古島市公式サイト"
-    publisher: "宮古島市"
-    url: https://www.city.miyakojima.lg.jp/kanko/spot/tropical_garden.html
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "garden-association"
+    title: "宮古島市熱帯植物園｜宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_029/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島市熱帶植物園收集超過一千種熱帶植物，免費對外開放"
-      - "位於宮古島市區邊緣，設有散步步道"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-tropical-botanical-garden.webp
-    completePath: media/complete/jp-miyakojima-tropical-botanical-garden.webp
+      - "地址平良東仲宗根添1166-286，設梯梧並木，2011年有石原和幸設計的花の王國。"
+      - "網站內嵌 Google 地址 feature 本次重新取得24.8000949,125.3155536；不是入口定位。"
+  - id: "garden-prefecture"
+    title: "宮古島市亜熱帯植物園｜おきなわ緑と花のひろば"
+    publisher: "沖縄県環境部環境再生課"
+    url: "https://www.midorihana-okinawa.jp/?page_id=5042"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "園內有梯梧與福木並木道，也栽培草花，屬人工熱帶植物園。"
+      - "梯梧花期屬春季，不能保證9月看見紅花；頁面另列園區座標24.800711,125.315257作地域佐證。"
+  - id: "city-nature"
+    title: "自然 Nature｜宮古島市"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/shizen.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "市府記載パイナガマ海灘傍晚有市民活動。"
+      - "砂山海灘需越過砂丘，面海左側有中央呈洞穴狀的大岩。"
+      - "熱帶植物園面積約12萬平方公尺，種植熱帶、亞熱帶植物及梯梧並木。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "市府寫12萬平方公尺、觀光協會寫12萬坪，面積採市府資料並保留來源差異；不再宣稱半小時必走完。"
+    - "植物園歷史冊PDF本次抓取逾時，未把搜尋摘要中的戰後復育史加入導覽。"
+    - "移除 Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg：前濱海灘不是熱帶植物園，未改圖檔。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 fetched tourism association garden page and the actual address-feature array of its embedded map. Approximately 41 m from current coordinate, without inventing an entrance offset.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "本次重新抓取觀光協會實際Google iframe，取得地址feature 0x34f4514f8e285181:0x5f88ccf18a08b475的24.8000949,125.3155536，與頁面及主代理Google具名植物園的平良東仲宗根添1166-286一致；保留既有地標，不把viewport或園區中心冒稱入口。"
   sources:
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_029/
-    title: 宮古島市熱帯植物園｜宮古島観光協会
-    coordinateEvidence: Page specifies garden address 平良東仲宗根添1166-286. Fetch iframe and inspect Maps initialization feature 0x34f4514f8e285181:0x5f88ccf18a08b475, address label 〒906-0011 沖縄県宮古島市平良東仲宗根添１１６６−２８６, associated [24.8000949,125.3155536]. Feature array, not viewport.
+    - url: "https://miyako-island.net/beach_and_spot/beach_spot_029/"
+      title: "宮古島市熱帯植物園｜宮古島観光協会"
+      coordinateEvidence: "EXACT raw iframe src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7243.728762784818!2d125.315555!3d24.800097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4514f8e285181%3A0x5f88ccf18a08b475!2z44CSOTA2LTAwMTEg5rKW57iE55yM5a6u5Y-k5bO25biC5bmz6Imv5p2x5Luy5a6X5qC55re777yR77yR77yW77yW4oiS77yS77yY77yW!5e0!3m2!1sja!2sjp!4v1674110445254!5m2!1sja!2sjp ; 本次GET embed HTTP200，初始化feature陣列為[0x34f4514f8e285181:0x5f88ccf18a08b475,〒906-0011 沖縄県宮古島市平良東仲宗根添１１６６−２８６,[24.8000949,125.3155536]]。採地址feature而非iframe的24.800097,125.315555 viewport。"
+    - url: "https://www.midorihana-okinawa.jp/?page_id=5042"
+      title: "宮古島市亜熱帯植物園｜おきなわ緑と花のひろば"
+      coordinateEvidence: "縣府綠化頁明列植物園及24.800711_125.315257，屬同園區另一標示，非新入口，不取代既有feature。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E7%86%B1%E5%B8%AF%E6%A4%8D%E7%89%A9%E5%9C%92%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "宮古島市熱帯植物園｜Google Maps 實際具名頁"
+      coordinateEvidence: "主代理fresh-profile Chrome heading及地址平良東仲宗根添1166-286相符；分享href=https://maps.app.goo.gl/sZH4oiK1XdqAYFGn8；未使用plus code或viewport反推入口。"
   previousLocation:
     latitude: 24.8002448
     longitude: 125.315929

@@ -1,0 +1,150 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-irabu-seaside-station"
+  parentId: null
+  kind: "venue"
+  title: "伊良部大橋海の駅"
+  summary: "橋畔高台的休憩與物產設施，把伊良部海景、農產和餐桌放在一起。"
+  narration: "橋可以縮短兩座島的距離，一頓飯則能把島上的生活拉近：伊良部大橋海の駅位在能望見大橋與海面的高台，除了看景，也是認識伊良部食材的一個停留點。營運者說，餐廳優先使用島內食材，連因大小或形狀不合一般流通規格的蔬菜，也會向地方農家取用，讓看起來不夠整齊的收成仍能進入餐桌。店家介紹的鰹魚飯，則在沖繩炊飯じゅーしー裡加入伊良部產的なまり節，也就是經過初步加工的鰹魚製品，把地方漁業接到一碗家常飯裡。可以看看物產標示和菜單上的產地，再從開放的觀景位置找出大橋方向。眼前的橋連著交通，店裡的食材連著農家與漁家，這樣的一站，休息也能順便認識島。"
+  observationPrompt: "在商品或菜單上找出伊良部的產地標示，再從開放觀景位置辨認大橋方向。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: true
+  location:
+    latitude: 24.8111392
+    longitude: 125.2185239
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採Google具名服務區「いらぶ大橋 海の駅」本體圖釘，與營運者嵌圖place ID及觀光協會池間添1092-1地址相符；不採旁邊同名餐廳另一圖釘，不採頁內供應商國仲85-3地址。正常營業時由正式入口到訪；7/12停電臨休為指定日期公告，出發前仍查當日營業。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8111392,125.2185239"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "兼具地方物產介紹及公共訪客休憩用途。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "橋景與伊良部農漁產連結具辨識度。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 5
+    note: "菜單、包裝與可望橋景易於理解。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 5
+    note: "正式訪客服務設施；餐飲現貨與臨時營業待當日確認。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 4
+    note: "營運者、觀光協會及本日Maps名稱/電話/place ID互證。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 4.1
+sources:
+  -
+    id: "s1"
+    url: "https://irabu-sta.jp/eat/"
+    title: "いらぶ大橋 海の駅 — レストラン"
+    publisher: "伊良部島産業振興株式会社"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "餐廳位在可望伊良部大橋的高台，優先用島內食材，也使用規格外蔬菜。"
+      - "鰹魚飯將伊良部產なまり節加入沖繩炊飯じゅーしー。"
+  -
+    id: "s2"
+    url: "https://miyako-island.net/gourmet/gourmet_spot_043/"
+    title: "宮古島觀光協會 — いらぶ大橋海の駅"
+    publisher: "一般社団法人 宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "具名休憩購物餐飲設施，所在地伊良部池間添1092-1，電話0980-78-3778。"
+  -
+    id: "s3"
+    url: "https://irabu-sta.jp/"
+    title: "いらぶ大橋 海の駅 — 官方首頁"
+    publisher: "伊良部島産業振興株式会社"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "正式設施首頁與嵌圖place ID；另公告7月12日因颱風停電臨時休業。"
+  -
+    id: "s4"
+    url: "https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc"
+    title: "Google Maps — 伊良部大橋海の駅"
+    publisher: "Google Maps"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本日具名地標、名稱/地址與 !3d/!4d座標核對；不是故事史料或開放保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：故事依已抓取營運者專頁新寫；具名Maps證據由主線本日公開瀏覽抓取提供並人工配對。"
+    - "review不是發布核准；營業、品項、現場動線仍受當日公告影響，未作街景或實地視覺核驗。"
+    - "新點 media: []；未借圖、未新增授權主張。"
+    - "已改採final-selected直接開啟紀錄，不再把搜尋候選視為完整地標頁證據。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已讀2026-09-16主線公開瀏覽器直接開啟的具名海の駅Google Maps頁：HTTP200、標題及heading為いらぶ大橋 海の駅，電話0980-78-3778及官網irabu-sta.jp符合營運者。採本體 !3d24.8111392!4d125.2185239，非 @ 視窗中心，不假稱入口門位或街景核驗。"
+  sources:
+    -
+      url: "https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc"
+      title: "Google Maps — いらぶ大橋 海の駅（已直接開啟）"
+      coordinateEvidence: "本日主線公開瀏覽器直接開啟的精確URL：https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc；提取!3d24.8111392!4d125.2185239。heading、電話、官網核對一致，非@中心。先前搜尋結果原href另保留：https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+    -
+      url: "https://miyako-island.net/gourmet/gourmet_spot_043/"
+      title: "宮古島觀光協會 — いらぶ大橋海の駅"
+      coordinateEvidence: "具名休憩購物餐飲設施，所在地伊良部池間添1092-1，電話0980-78-3778。；本日已抓取全文並核對身分，不從此地址字串推算座標。"
+    -
+      url: "https://irabu-sta.jp/"
+      title: "海の駅營運者官方嵌圖"
+      coordinateEvidence: "實抓iframe原始src：https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14486.16713674974!2d125.2185239!3d24.8111392!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb796f810721ab357!2z44GE44KJ44G25aSn5qmLIOa1t-OBrumnhQ!5e0!3m2!1sja!2sjp!4v1590938533522!5m2!1sja!2sjp；僅取其place ID 0xb796f810721ab357比對Maps地標，不以embed視窗 !2d/!3d當座標。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.8111392
+    longitude: 125.2185239

@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: attraction
   title: "長間浜"
-  summary: "長間浜是来間島南岸的一片原始白沙灘，因地處偏僻而少有觀光客，海水清澈見底、沙粒細白如粉，被譽為宮古島最秘境的海灘之一。"
+  summary: "来間島西岸約一公里的自然沙灘，以西向海景著稱；官方岸邊地標非停車場，適合把岸上觀察列為主要活動。"
   narration: |
-    穿過来間島內蜿蜒的小徑，眼前突然出現一彎弧形的純白沙灘，那就是長間浜。這裡沒有遮陽傘出租，也沒有沙灘小屋，只有海風、白沙、與令人屏息的宮古藍。由於位於島的南岸，遊客必須步行或騎單車才能抵達，正因如此，這片沙灘保留了最純粹的樣貌。海水淺灘區清澈到可以直接看到腳下每顆沙粒，珊瑚礁就散布在外海。退潮時，沙灘面積倍增，可以漫步其上，感受腳底細沙的柔軟。來到長間浜，請帶好飲水與防曬，靜靜享受屬於自己的宮古島秘境時光。
-  observationPrompt: "仔細觀察長間浜的沙粒——比起一般海灘的沙，你覺得這裡的沙粒更細、更白，還是顏色偏米黃？試著找找沙灘上是否有細小的珊瑚碎片。"
+    先看沙灘往兩旁延伸的線條，再把目光移到海天交界；長間浜的開闊，不需要靠一座觀景塔來襯托。它在来間島西岸，觀光協會記載砂浜延伸約一公里，西向的海面也讓這裡以夕景聞名，不過落日能不能露臉，還是要看當天雲況。和聚落之間隔著植物群落，是縣觀光資料特別提到的地形細節，因此別把每一條穿過植被的小徑都當成入口。走在既有公共通道和岸上，看看白沙、岸邊植物與海浪留下的濕沙線，海灘的輪廓就清楚了。這裡官方列為沒有停車場、廁所、淋浴和商店，西風也可能帶起浪；帶好飲水、別擋住道路，把這次停留當成看海，而不是一張保證可以下水的邀請。
+  observationPrompt: "留在岸上，看看乾沙、濕沙和植被交界是否平行；今天的浪線距離植物帶有多遠？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -33,57 +33,48 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.7261944
-    longitude: 125.2398056
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7261944,125.2398056
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 長間浜位於来間島西岸。此為官方海岸／海灘地標圖釘，供鄰近定位使用，並非經測量確認的入口或停車位置。請使用現有公共海灘通道，留在岸上觀景，勿阻塞道路。
+  location: {"latitude":24.7261944,"longitude":125.2398056}
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7261944,125.2398056"
+  trigger: {"radiusMeters":80,"dwellMillis":2000,"rearmDistanceMeters":1000}
+  locationHint: "来間島西岸長間浜的官方海岸地標圖釘，並非精測入口或停車點。使用既有公共通道、以岸上觀景為主；官方列無停車場及盥洗設施，勿阻塞農路或穿越私人地。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島知名的隱秘海灘，在日本旅遊媒體中被列為「秘境ビーチ」代表之一。"
-    sources: [src1]
+    note: "自然海岸與島嶼景觀具地方價值。"
+    sources: ["nagama","kurima"]
   distinctiveness:
-    score: 4
-    note: "無設施、無人潮的原始白沙灘，與主島熱門海灘形成強烈對比，稀有性高。"
-    sources: [src1, src2]
+    score: 3
+    note: "西向長沙灘具辨識度，但非唯一類型。"
+    sources: ["nagama","kurima"]
   interpretability:
-    score: 3
-    note: "自然海灘景觀直觀，但地點偏僻、需要導航，初次造訪者需要提示。"
-    sources: [src2]
+    score: 4
+    note: "岸線及植被帶能直接觀察。"
+    sources: ["nagama","kurima"]
   visitorValue:
-    score: 5
-    note: "對追求純淨無人海灘體驗的旅客而言，這是宮古島最高評價的秘境景點之一。"
-    sources: [src1, src2]
+    score: 2
+    note: "缺乏公共設施且受風浪影響，以岸上活動為主。"
+    sources: ["nagama","kurima"]
   evidenceQuality:
-    score: 3
-    note: "多個旅遊網站有詳細介紹，Google Maps評分高，但學術文獻較少。"
-    sources: [src2]
-  final: 3.6   # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 0.9+1.0+0.6+0.75+0.3 = 3.55 → 3.6
+    score: 5
+    note: "官方原始地圖標籤、縣觀光頁及即時Maps名稱地址互證。"
+    sources: ["nagama","kurima"]
+  final: 3.3
 sources:
-  - id: src1
-    title: "長間浜 | 沖縄観光情報WEBサイト おきなわ物語"
-    publisher: "沖縄県文化観光スポーツ部"
-    url: https://www.okinawastory.jp/spot/600050
-    accessedAt: "2026-07-15"
+  - id: nagama
+    title: "長間浜"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_016/"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "長間浜位於来間島南岸，為宮古島秘境海灘代表"
-      - "沙粒細白，海水高透明度"
-  - id: src2
-    title: "来間島 長間浜 | 宮古島観光ナビ"
-    publisher: "宮古島市観光商工局"
-    url: https://www.miyako-guide.net/spot/spot.php?id=9
-    accessedAt: "2026-07-15"
+    supports: ["長間浜位於来間島西側，砂浜約一公里，為夕景觀察地點。","官方列無停車場、廁所、淋浴、商店，並提醒西風會起浪。"]
+  - id: kurima
+    title: "来間島"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/about/miyako_area/kurima"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "無遊客設施，需步行或騎單車抵達"
-      - "退潮時沙灘面積擴大"
+    supports: ["西岸長間浜與聚落間有植物群落，入口不易辨識。"]
 media:
   - id: primary-image
     type: image
@@ -96,27 +87,14 @@ media:
     compactPath: media/compact/jp-miyakojima-kurima-nagama-beach.webp
     completePath: media/complete/jp-miyakojima-kurima-nagama-beach.webp
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","改正南岸與只能步行／單車抵達的錯誤，刪除退潮沙灘倍增等未重證說法。","保留既有 File:Nagamahama.jpg，題名相符；此批未重新認證像素所示地點或授權，不將其當作座標證據。"]
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 'Official tourism map supplies an explicit coordinate-labelled shore pin. Converted its DMS pin label, not the nearby camera centre. YAML''s southern-coast description is contradicted: it is west-facing. Official page reports no parking, toilets, showers or shop and warns of waves with westerly winds.'
-  sources:
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_016/
-    title: 宮古島観光協会 — 長間浜
-    coordinateEvidence: 'https://miyako-island.net/beach_and_spot/beach_spot_016/ embeds the map below. Pin label !2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ decodes to 24°43′34.3″N 125°14′23.3″E: 24 + 43/60 + 34.3/3600 = 24.7261944444; 125 + 14/60 + 23.3/3600 = 125.2398055556. Rounded to 7 decimals, no viewport or offset inference.'
-  - url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp
-    title: Tourism-association embedded map — explicit DMS shore pin
-    coordinateEvidence: 'Exact iframe URL https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp includes coordinate-labelled destination !2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ (base64-decoded UTF-8: 24°43′34.3″N 125°14′23.3″E). Camera fields !2d125.23981699999999!3d24.726201000000003 were NOT adopted.'
-  - url: https://www.okinawastory.jp/about/miyako_area/kurima
-    title: おきなわ物語 — 長間浜 on 来間島
-    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima corroborates the western shore and inconspicuous access through vegetation. No independent numeric coordinate extracted.
-  previousLocation:
-    latitude: 24.725968
-    longitude: 125.239806
-  verifiedLocation:
-    latitude: 24.7261944
-    longitude: 125.2398056
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重抓官方頁的Google Maps iframe，從目的地!2z標籤解碼DMS 24°43′34.3″N 125°14′23.3″E，換算並保留既有七位小數岸邊地標。未採iframe鏡頭中心；縣觀光頁與即時Maps「長間浜」、下地来間484-1地址確認同一西岸海灘。不是入口或停車位置。"
+  sources: [{"url":"https://miyako-island.net/beach_and_spot/beach_spot_016/","title":"長間浜","coordinateEvidence":"2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.019785548032!2d125.23981699999999!3d24.726201000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cfef54061854a99!2zMjTCsDQzJzM0LjMiTiAxMjXCsDE0JzIzLjMiRQ!5e0!3m2!1sja!2sjp!4v1674029385569!5m2!1sja!2sjp。目的地!2z解碼為24°43'34.3\"N 125°14'23.3\"E，換算24.7261944444,125.2398055556，七位小數採24.7261944,125.2398056。未把!2d125.23981699999999!3d24.726201000000003的鏡頭位置當目的地。"},{"url":"https://www.okinawastory.jp/about/miyako_area/kurima","title":"来間島","coordinateEvidence":"2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E9%96%93%E6%B5%9C%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 即時Chrome頁面：長間浜 宮古島","coordinateEvidence":"讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：長間浜。同名、地址與官方景點相符；未取得可採用的place數字座標，不解析@視窗中心。 即時頁面具名長間浜，分類公共ビーチ，地址沖縄県宮古島市下地来間484-1。"}]
+  previousLocation: {"latitude":24.725968,"longitude":125.239806}
+  verifiedLocation: {"latitude":24.7261944,"longitude":125.2398056}

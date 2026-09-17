@@ -1,0 +1,148 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-kuninaka-sacred-grove"
+  parentId: null
+  kind: "attraction"
+  title: "國仲御嶽與植物群落"
+  summary: "居民祭祀守護的近自然森林；市府明載非祭祀不得入內，僅供背景閱讀，不提供導航。"
+  narration: "一片樹林為什麼能在村落旁保留下來？國仲御嶽的答案，和居民長久的信仰有關：宮古島市記錄這裡有福木、琉球黑檀等約六十種植物，長期受到聖域保護，形成接近自然林的樣貌。文化財解說也記下鳥居、約九十公尺的參道，以及石垣廣場與祠旁的獅子像，這些可以幫助理解空間，卻不是遊客入內的許可。市府導覽明載御嶽內部不供一般遊客進入，這一項僅供背景閱讀，不安排走入森林或參加祭祀。把這段故事放回伊良部的生活裡，就能發現有些森林不是因為無人使用才留下，而是對居民太重要，才一直被慎重對待；植物保存和地方信仰，在這裡原本就是同一段故事。"
+  observationPrompt: "僅作背景閱讀：想想居民保護祭祀場所，如何同時保存約六十種植物；不前往御嶽內部觀察。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location: null
+  trigger: null
+  locationHint: "市府導覽明載祭祀以外不得進入御嶽；不供一般遊客入內。本筆僅供背景閱讀，未確認可公開停留的外側錨點，不提供GPS或自行接近指引。"
+  googleMapsUrl: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 1
+    note: "公共接近點尚未確認，無GPS；不列為已確認可到訪的行程點。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 2
+    note: "官方史料及市府PDF禁入條文明確；兩組圖釘不同，公共外側錨點仍未確認。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.4
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo635/"
+    title: "【県指定：天然記念物・植物】国仲御嶽の植物群落～くになかうたきのしょくぶつぐんらく～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "參道約90公尺，內有石垣廣場、祠與獅子像。"
+      - "官方記錄約60種植物，因長期作為拝所受保護而保留近自然林相。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+    title: "宮古島市 — 県関係"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "國仲御嶽與植物群落 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+  -
+    id: "s3"
+    url: "https://www.google.com/maps/place/%E5%9B%BD%E4%BB%B2%E5%BE%A1%E5%B6%BD/data=!4m7!3m6!1s0x34f5ab3ca7356639:0xa328e771ef1309bf!8m2!3d24.8261555!4d125.1732544!16s%2Fg%2F11gmvwrhnb!19sChIJOWY1pzyr9TQRvwkT73HnKKM?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+    title: "Google Maps — 国仲御嶽"
+    publisher: "Google Maps"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本日共享瀏覽抓取中的具名候選及 !3d/!4d；不是入口證明，未採用坐標。"
+  -
+    id: "s4"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_irabujima.pdf"
+    title: "宮古島市《綾道・伊良部島》國仲御嶽（印刷頁52–53）"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "市府《綾道・伊良部島》印刷頁52–53明載祭祀以外不得進入國仲御嶽，周圍約六十種植物因聖域保護而保存。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "已讀編輯交叉檢查F02/F03/F08及市府PDF原文，確認明文禁入，非僅未知是否開放。"
+    - "仍無已證公共外側定位，保留unresolved、null location/trigger/googleMapsUrl。"
+    - "故事壓為五句，採市府森林記錄作背景；media: []，未作街景/現地視覺或媒體認證。"
+locationReview:
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "官方植物群落q與本日具名Google Maps國仲御嶽 !3d/!4d相距約338公尺，未確認公共外側停留點。另已讀宮古島市《綾道・伊良部島》印刷頁52–53（PDF第28頁），明載祭祀以外不得入內；這不是僅待開放確認的森林景點。維持unresolved、撤下GPS與trigger，不採無關前山御嶽結果。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo635/"
+      title: "【県指定：天然記念物・植物】国仲御嶽の植物群落～くになかうたきのしょくぶつぐんらく～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.825542,+125.176538&amp;aq=&amp;sll=24.786511,125.355229&amp;sspn=0.008737,0.016512&amp;gl=jp&amp;brcurrent=3,0x34f5ac847095b279:0xf2987db6a8a2fcd7,0&amp;ie=UTF8&amp;t=m&amp;ll=24.837219,125.180454&amp;spn=0.031157,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.825542,125.176538；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。；本點不再採用此座標，因與另一具名地標相距約338公尺，公共接近位置待查。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+      title: "宮古島市 — 県関係"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 國仲御嶽與植物群落 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+    -
+      url: "https://www.google.com/maps/place/%E5%9B%BD%E4%BB%B2%E5%BE%A1%E5%B6%BD/data=!4m7!3m6!1s0x34f5ab3ca7356639:0xa328e771ef1309bf!8m2!3d24.8261555!4d125.1732544!16s%2Fg%2F11gmvwrhnb!19sChIJOWY1pzyr9TQRvwkT73HnKKM?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+      title: "Google Maps — 国仲御嶽（本日具名搜尋結果）"
+      coordinateEvidence: "讀取本日共享只讀 QA/maps-jp-miyakojima-kuninaka-sacred-grove.json：HTTP200、名稱國仲御嶽、地區伊良部，實際 placeLinks href 即本URL；提取 !3d24.8261555!4d125.1732544，非 @ 視窗中心。它是地標候選而非已確認公共入口；未採用，也未目視核驗。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_irabujima.pdf"
+      title: "宮古島市《綾道・伊良部島》國仲御嶽（印刷頁52–53）"
+      coordinateEvidence: "已開啟PDF第28頁文字，確認非祭祀不得入內；此頁提供進入限制，不提供已核實的公共外側停留座標。"
+  previousLocation:
+    latitude: 24.825542
+    longitude: 125.176538
+  verifiedLocation: null

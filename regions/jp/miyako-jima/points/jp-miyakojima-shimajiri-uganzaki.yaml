@@ -1,105 +1,130 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-shimajiri-uganzaki
+  id: "jp-miyakojima-shimajiri-uganzaki"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "島尻のマングローブ林"
-  summary: "島尻紅樹林是宮古島南部最大的紅樹林濕地，可乘坐獨木舟深入林中水道，是感受宮古島熱帶生態系的沉浸式體驗。"
-  narration: |
-    島尻紅樹林位於宮古島南端，是島上面積最大的紅樹林生態區，以可以划獨木舟深入其中著稱。乘坐獨木舟穿行於蜿蜒水道之間，兩岸高大的海茄苳與水筆仔根系如巨大的手掌伸入水中，光線在頭頂葉冠間碎散，形成如夢似幻的綠色隧道。水面下常可見到彈塗魚、招潮蟹及各種小型魚類，生態多樣性令人驚嘆。導覽人員會沿途解說紅樹林的生態功能，包括它如何防護海岸、育養幼魚，以及作為碳匯在氣候調節中扮演的角色。這是一種截然不同於宮古島珊瑚礁體驗的自然旅程，靜謐、神秘，適合希望親近熱帶濕地生態的旅客。
-  observationPrompt: "在獨木舟上低頭觀察水面，你能看到招潮蟹舉起大螯揮舞嗎？留意樹根之間有沒有幼魚在淺水區游動。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "宮古島北部的島尻紅樹林沿入江生長；湧水與海潮交會，加上2002年完成的橋與遊步道，讓陸上散步也能讀懂海邊森林。"
+  narration: "把視線從樹冠往下移，看看樹根與泥灘相接的地方；島尻紅樹林的主角不只是一片綠，還有水來水去留下的邊界。這裡在宮古島北部，教育委員會介紹，林地沿著島尻聚落西方約一公里深的入江發展，是宮古諸島規模最大的紅樹林群落，湧水流入的環境也是它在植物地理上受到重視的原因。紅樹林不是一種樹的名字，而是一群能在這類海岸環境生活的植物，觀察時可以先看葉形、枝幹與根的位置，不必急著猜每棵的學名。觀光協會另記載，島尻橋與遊步道在二〇〇二年九月完成，讓人更容易從陸上接近並認識這片林。沿開放步道慢慢找不同形狀，已經是一趟完整的觀察；看到泥灘上的動靜也只需停下來看，別為找蟹或拍照踏進根系，這裡不必搭獨木舟才算到訪。\n"
+  observationPrompt: "從開放遊步道比較不同樹木的葉形、枝幹與根的位置，看看水線如何接到泥灘；不踏入泥地或折取植物。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
-      tags:
-        - id: ticketed
-          label: 購票入場
+        -
+          id: "walking"
+          label: "步行"
   indoor: false
   location:
     latitude: 24.87813888888889
     longitude: 125.28825
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.87813888888889,125.28825
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.87813888888889,125.28825"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 島尻紅樹林觀光協會地標 pin（宮古島北部）；供陸上遊步道鄰近解說，不是獨木舟集合或下水點，勿自行進入泥灘。
+    rearmDistanceMeters: 1000
+  locationHint: "採觀光協會島尻紅樹林Google DMS地標pin，宮古島北部平良島尻；供陸側遊步道鄰近導覽，非獨木舟集合或下水點，勿踏入泥灘。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島南部最大規模的紅樹林，是島上僅有的獨木舟生態旅遊場域，具有生態與旅遊雙重意義。"
-    sources: [src1]
+    score: 4
+    note: "島尻林沿聚落西側約1公里深的入江發展，為宮古諸島最大規模群落。"
+    sources:
+      - "src1"
+      - "src2"
   distinctiveness:
     score: 4
-    note: "獨木舟穿越紅樹林水道的體驗在宮古島觀光選項中高度獨特，與海洋活動形成強烈對比。"
-    sources: [src1]
+    note: "官方說明紅樹林是海岸汽水域植物群，島尻湧水流入的條件具植物地理意義。"
+    sources:
+      - "src1"
+      - "src2"
   interpretability:
-    score: 3
-    note: "導覽人員全程陪同解說，有助理解紅樹林生態，但體驗仍以感官為主。"
-    sources: [src1]
+    score: 4
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
   visitorValue:
     score: 3
-    note: "需付費參加獨木舟導覽，整體體驗獨特且深刻，適合重視自然生態的旅客。"
-    sources: [src1]
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
   evidenceQuality:
-    score: 3
-    note: "有生態旅遊業者官網及旅遊評測記錄，資訊足夠可信。"
-    sources: [src1]
-  final: 3.3  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+    score: 4
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+  final: 3.9
 sources:
-  - id: src1
-    title: "島尻マングローブ林カヌー体験｜宮古島エコツアー"
-    publisher: "宮古島市観光商工課"
-    url: https://www.miyakojima-kankou.com/spot/shimajiri-mangrove/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo717/"
+    title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【市指定：天然記念物・自然】島尻のマングローブ林～しまじりのまんぐろーぶりん～"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "島尻紅樹林是宮古島南部最大的紅樹林濕地，可乘坐獨木舟探索水道"
-      - "生態豐富，有彈塗魚、招潮蟹及幼魚等多種生物棲息"
-      - "提供導覽解說服務，需購票參加獨木舟體驗"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-shimajiri-uganzaki.webp
-    completePath: media/complete/jp-miyakojima-shimajiri-uganzaki.webp
+      - "島尻林沿聚落西側約1公里深的入江發展，為宮古諸島最大規模群落。"
+      - "官方說明紅樹林是海岸汽水域植物群，島尻湧水流入的條件具植物地理意義。"
+  -
+    id: "src2"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_021/"
+    title: "島尻のマングローブ - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "島尻橋與遊步道於2002年9月完成，提供陸上見學途徑；所在地平良島尻。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "更正北部位置，移除獨木舟必經、付費入場與必見動物的錯誤；刪除尚未支持的強制ticketed標籤。"
+    - "移除原媒體紀錄：Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg是與那霸前濱，並非島尻紅樹林；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 tourism association identifies the named mangrove landmark and publishes explicit DMS in its map marker label. Preserve the physical landmark, but the YAML's southern-island and kayak narrative must not be treated as validated access information.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取觀光協會島尻紅樹林頁與Google marker DMS標籤，確認24.87813888888889,125.28825；教育委員會資料及主線Chrome具名林地交叉佐證。另有文化財範圍q=24.877190,125.289263，未將其取代本次遊步道附近地標，也不把任一pin當獨木舟集合點。"
   sources:
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_021/
-    title: 島尻のマングローブ｜宮古島観光協会
-    coordinateEvidence: HTML Maps iframe pb feature 0x0:0x6ef9bfe4cad48dd6; !2zMjTCsDUyJzQxLjMiTiAxMjXCsDE3JzE3LjciRQ decodes to explicit marker label 24°52′41.3″N 125°17′17.7″E, converted to decimal 24.87813888888889,125.28825; not viewport.
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_021/"
+      title: "島尻のマングローブ - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+      coordinateEvidence: "原始 iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.5819154817036!2d125.28826199999999!3d24.878125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ef9bfe4cad48dd6!2zMjTCsDUyJzQxLjMiTiAxMjXCsDE3JzE3LjciRQ!5e0!3m2!1sja!2sjp!4v1674042110785!5m2!1sja!2sjp；marker !2zMjTCsDUyJzQxLjMiTiAxMjXCsDE3JzE3LjciRQ解碼24°52′41.3″N 125°17′17.7″E，換算24.87813888888889,125.28825；非viewport。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo717/"
+      title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【市指定：天然記念物・自然】島尻のマングローブ林～しまじりのまんぐろーぶりん～"
+      coordinateEvidence: "原始 href=https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.877190,+125.289263&aq=&sll=24.898718,125.274414&sspn=0.008729,0.016512&gl=jp&brcurrent=3,0x34f45224dec7b5d7:0x8490cfcb9ae4680b,0&ie=UTF8&t=m&ll=24.886748,125.292807&spn=0.031144,0.047121&z=14&iwloc=near；q=24.877190,125.289263為另一林地文化財位置，ll為視窗；兩者均不取代觀光協會地標。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E5%B3%B6%E5%B0%BB%E3%81%AE%E3%83%9E%E3%83%B3%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%96%E6%9E%97%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "島尻のマングローブ林 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:38:03.424Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=島尻のマングローブ林。原始分享 href=https://maps.app.goo.gl/t1fgKgLxE8V1PSpq8；resolvedShareUrl=https://maps.app.goo.gl/t1fgKgLxE8V1PSpq8；具名結果 href=[]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。主線Chrome讀到同名景勝地及市府網站；未採用未知精確門口。"
   previousLocation:
     latitude: 24.8778
     longitude: 125.2885

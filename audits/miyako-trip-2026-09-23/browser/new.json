@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "jp-miyakojima-funaha-well",
+    "query": "フナハガー 宮古島",
+    "checkedAt": "2026-09-16T13:49:15.436Z",
+    "pageTitle": "フナハガー - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.817664,
+      "longitude": 125.180929
+    },
+    "candidates": [
+      {
+        "name": "フナハガー",
+        "url": "https://www.google.com/maps/place/%E3%83%95%E3%83%8A%E3%83%8F%E3%82%AC%E3%83%BC/@24.8176667,125.1809167,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5ab1458bbd093:0x5ab63fe240ca41ff!8m2!3d24.8176667!4d125.1809167!16s%2Fg%2F11sk3gsh3k",
+        "pin": {
+          "latitude": 24.8176667,
+          "longitude": 125.1809167
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 1
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-german-emperor-monument",
+    "query": "ドイツ皇帝博愛記念碑 宮古島",
+    "checkedAt": "2026-09-16T13:49:19.773Z",
+    "pageTitle": "ドイツ皇帝博愛記念碑 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.806258,
+      "longitude": 125.279706
+    },
+    "candidates": [
+      {
+        "name": "ドイツ皇帝博愛記念碑",
+        "url": "https://www.google.com/maps/place/%E3%83%89%E3%82%A4%E3%83%84%E7%9A%87%E5%B8%9D%E5%8D%9A%E6%84%9B%E8%A8%98%E5%BF%B5%E7%A2%91/@24.806258,125.279706,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538cbeb1a299:0x49c8bdfc0c71f1c2!8m2!3d24.806258!4d125.279706!16s%2Fm%2F0108pgz9",
+        "pin": {
+          "latitude": 24.806258,
+          "longitude": 125.279706
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 0
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-harimizu-stone-road",
+    "query": "漲水石畳道 宮古島",
+    "checkedAt": "2026-09-16T15:37:10.741Z",
+    "pageTitle": "漲水石畳道 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.807217,
+      "longitude": 125.279913
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-higa-road-park",
+    "query": "比嘉Road Park海岸展望休憩處 宮古島",
+    "checkedAt": "2026-09-16T14:04:11.309Z",
+    "pageTitle": "比嘉Road Park海岸展望休憩處 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.785332,
+      "longitude": 125.384118
+    },
+    "candidates": [
+      {
+        "name": "比嘉ロードパーク",
+        "url": "https://www.google.com/maps/place/%E6%AF%94%E5%98%89%E3%83%AD%E3%83%BC%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF/data=!4m7!3m6!1s0x34f450a4372a7d43:0x37233d0201073e58!8m2!3d24.7849365!4d125.3843373!16s%2Fg%2F11b75d233m!19sChIJQ30qN6RQ9DQRWD4HAQI9Izc",
+        "pin": {
+          "latitude": 24.7849365,
+          "longitude": 125.3843373
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 49
+      },
+      {
+        "name": "上比屋ロードパーク",
+        "url": "https://www.google.com/maps/place/%E4%B8%8A%E6%AF%94%E5%B1%8B%E3%83%AD%E3%83%BC%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF/data=!4m7!3m6!1s0x34f457b38c20bb79:0x762e742da707065f!8m2!3d24.7248004!4d125.3504004!16s%2Fg%2F11btx0vcqq!19sChIJebsgjLNX9DQRXwYHpy10LnY",
+        "pin": {
+          "latitude": 24.7248004,
+          "longitude": 125.3504004
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 7543
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-hisamatsu-megalithic-tomb",
+    "query": "久松ミャーカ（巨石墓）群 宮古島",
+    "checkedAt": "2026-09-16T13:47:48.531Z",
+    "pageTitle": "久松みゃーか（巨石墓）群の碑 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.785877,
+      "longitude": 125.264122
+    },
+    "candidates": [
+      {
+        "name": "久松みゃーか（巨石墓）群の碑",
+        "url": "https://www.google.com/maps/place/%E4%B9%85%E6%9D%BE%E3%81%BF%E3%82%83%E3%83%BC%E3%81%8B%EF%BC%88%E5%B7%A8%E7%9F%B3%E5%A2%93%EF%BC%89%E7%BE%A4%E3%81%AE%E7%A2%91/@24.7859332,125.2639814,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45572b45c7e89:0x92116293d6e264fa!8m2!3d24.7859332!4d125.2639814!16s%2Fg%2F11ghfsqgy0",
+        "pin": {
+          "latitude": 24.7859332,
+          "longitude": 125.2639814
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 16
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-ikeda-stone-bridge",
+    "query": "下地町の池田矼 宮古島",
+    "checkedAt": "2026-09-16T13:54:28.692Z",
+    "pageTitle": "下地町の池田矼 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.753347,
+      "longitude": 125.285709
+    },
+    "candidates": [
+      {
+        "name": "下地町の池田矼",
+        "url": "https://www.google.com/maps/place/%E4%B8%8B%E5%9C%B0%E7%94%BA%E3%81%AE%E6%B1%A0%E7%94%B0%E7%9F%BC/@24.7532346,125.2854901,17z/data=!3m1!4b1!4m6!3m5!1s0x34f455cbed966739:0xcc2e6ebd6c82c587!8m2!3d24.7532346!4d125.2854901!16s%2Fm%2F0k0tp28",
+        "pin": {
+          "latitude": 24.7532346,
+          "longitude": 125.2854901
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 25
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-ikema-toomi",
+    "query": "先島諸島火番盛「遠見番所」池間遠見 宮古島",
+    "checkedAt": "2026-09-16T14:04:12.555Z",
+    "pageTitle": "先島諸島火番盛「遠見番所」池間遠見 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.922257,
+      "longitude": 125.247986
+    },
+    "candidates": [
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f44d0fe3c6f3bd:0x2df4ce1aee6838c9!8m2!3d24.9222801!4d125.2479119!16s%2Fg%2F11cn8sd1h8!19sChIJvfPG4w9N9DQRyTho7hrO9C0",
+        "pin": {
+          "latitude": 24.9222801,
+          "longitude": 125.2479119
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 8
+      },
+      {
+        "name": "池間遠見番所",
+        "url": "https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f44d004be2c6eb:0x5fdb9121fc5d3ed8!8m2!3d24.9217763!4d125.2474206!16s%2Fg%2F11ykzdyl21!19sChIJ68biSwBN9DQR2D5d_CGR218",
+        "pin": {
+          "latitude": 24.9217763,
+          "longitude": 125.2474206
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 78
+      },
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f45300459c9f73:0xf0008bd36673dcde!8m2!3d24.875355!4d125.297382!16s%2Fg%2F11vyrym593!19sChIJc5-cRQBT9DQR3txzZtOLAPA",
+        "pin": {
+          "latitude": 24.875355,
+          "longitude": 125.297382
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 7212
+      },
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f455979a297639:0x836448e6b827b81d!8m2!3d24.7258848!4d125.2518966!16s%2Fg%2F11fs03chxw!19sChIJOXYpmpdV9DQRHbgnuOZIZIM",
+        "pin": {
+          "latitude": 24.7258848,
+          "longitude": 125.2518966
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 21839
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-imgya-marine-garden",
+    "query": "英吉雅海濱公園（インギャーマリンガーデン） 宮古島",
+    "checkedAt": "2026-09-16T15:37:24.146Z",
+    "pageTitle": "インギャーマリンガーデン - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7247007,
+      "longitude": 125.3583502
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-irabu-seaside-station",
+    "query": "伊良部大橋海の駅 宮古島",
+    "checkedAt": "2026-09-16T15:37:37.418Z",
+    "pageTitle": "伊良部大橋海の駅 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.8111392,
+      "longitude": 125.2185239
+    },
+    "candidates": [
+      {
+        "name": "いらぶ大橋 海の駅",
+        "url": "https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc",
+        "pin": {
+          "latitude": 24.8111392,
+          "longitude": 125.2185239
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 0
+      },
+      {
+        "name": "いらぶ大橋 海の駅",
+        "url": "https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455002e5e4205:0xea3e778aca8a9ac5!8m2!3d24.8110434!4d125.2181413!16s%2Fg%2F11vqhq0kjj!19sChIJBUJeLgBV9DQRxZqKyop3Puo",
+        "pin": {
+          "latitude": 24.8110434,
+          "longitude": 125.2181413
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 40
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-isuga-well",
+    "query": "イスゥガー（磯井） 宮古島",
+    "checkedAt": "2026-09-16T13:49:23.969Z",
+    "pageTitle": "イスゥガー（磯井） 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.89758,
+      "longitude": 125.277269
+    },
+    "candidates": [
+      {
+        "name": "洞窟井戸イザガー",
+        "url": "https://www.google.com/maps/place/%E6%B4%9E%E7%AA%9F%E4%BA%95%E6%88%B8%E3%82%A4%E3%82%B6%E3%82%AC%E3%83%BC/data=!4m7!3m6!1s0x34f4538206e3e57f:0xc51f8b8554d9653a!8m2!3d24.8055477!4d125.283837!16s%2Fg%2F11hyk3rzjl!19sChIJf-XjBoJT9DQROmXZVIWLH8U",
+        "pin": {
+          "latitude": 24.8055477,
+          "longitude": 125.283837
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 10255
+      },
+      {
+        "name": "盛加井",
+        "url": "https://www.google.com/maps/place/%E7%9B%9B%E5%8A%A0%E4%BA%95/data=!4m7!3m6!1s0x34f453f3db95e821:0x4e0b2194fca1d173!8m2!3d24.8052856!4d125.2858057!16s%2Fg%2F11fy4qvxpg!19sChIJIeiV2_NT9DQRc9Gh_JQhC04",
+        "pin": {
+          "latitude": 24.8052856,
+          "longitude": 125.2858057
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 10299
+      },
+      {
+        "name": "ムイガー断崖",
+        "url": "https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC%E6%96%AD%E5%B4%96/data=!4m7!3m6!1s0x34f459d4506ad1a7:0x2362f34f87dc659e!8m2!3d24.7258887!4d125.3827058!16s%2Fg%2F11g723442_!19sChIJp9FqUNRZ9DQRnmXch0_zYiM",
+        "pin": {
+          "latitude": 24.7258887,
+          "longitude": 125.3827058
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 21857
+      },
+      {
+        "name": "大和井",
+        "url": "https://www.google.com/maps/place/%E5%A4%A7%E5%92%8C%E4%BA%95/data=!4m7!3m6!1s0x34f4538b6f7b6ded:0xa5eb62e856f8a6db!8m2!3d24.8110072!4d125.2854835!16s%2Fg%2F120m1b77!19sChIJ7W17b4tT9DQR26b4Vuhi66U",
+        "pin": {
+          "latitude": 24.8110072,
+          "longitude": 125.2854835
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 9662
+      },
+      {
+        "name": "ムイガー",
+        "url": "https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC/data=!4m7!3m6!1s0x34f457838a3770d1:0x5e0b52eae669c8e2!8m2!3d24.7257024!4d125.3836205!16s%2Fg%2F11f_vwy0v_!19sChIJ0XA3ioNX9DQR4shp5upSC14",
+        "pin": {
+          "latitude": 24.7257024,
+          "longitude": 125.3836205
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 21920
+      },
+      {
+        "name": "盛加井御嶽",
+        "url": "https://www.google.com/maps/place/%E7%9B%9B%E5%8A%A0%E4%BA%95%E5%BE%A1%E5%B6%BD/data=!4m7!3m6!1s0x34f453003b276f47:0x6d94b69a1d40e633!8m2!3d24.8053297!4d125.2858621!16s%2Fg%2F11w511b8fw!19sChIJR28nOwBT9DQRM-ZAHZq2lG0",
+        "pin": {
+          "latitude": 24.8053297,
+          "longitude": 125.2858621
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 10294
+      },
+      {
+        "name": "サバウツガー",
+        "url": "https://www.google.com/maps/place/%E3%82%B5%E3%83%90%E3%82%A6%E3%83%84%E3%82%AC%E3%83%BC/data=!4m7!3m6!1s0x34f5accf2000e049:0x9357873225d9f7ee!8m2!3d24.8470632!4d125.205828!16s%2Fg%2F11c3pwb25r!19sChIJSeAAIM-s9TQR7vfZJTKHV5M",
+        "pin": {
+          "latitude": 24.8470632,
+          "longitude": 125.205828
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 9138
+      },
+      {
+        "name": "アラガー",
+        "url": "https://www.google.com/maps/place/%E3%82%A2%E3%83%A9%E3%82%AC%E3%83%BC/data=!4m7!3m6!1s0x34f5ad56ecb0fd6f:0xbd1d9e07d2f29ce3!8m2!3d24.8392501!4d125.1625608!16s%2Fg%2F11sk3j45rv!19sChIJb_2w7Fat9TQR45zy0geeHb0",
+        "pin": {
+          "latitude": 24.8392501,
+          "longitude": 125.1625608
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 13266
+      },
+      {
+        "name": "来間ガー",
+        "url": "https://www.google.com/maps/place/%E6%9D%A5%E9%96%93%E3%82%AC%E3%83%BC/data=!4m7!3m6!1s0x34f4557e08e0ab35:0x16500f43d5d30493!8m2!3d24.7254585!4d125.2535605!16s%2Fg%2F11g6q7fc2n!19sChIJNavgCH5V9DQRkwTT1UMPUBY",
+        "pin": {
+          "latitude": 24.7254585,
+          "longitude": 125.2535605
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 19288
+      },
+      {
+        "name": "アナ井",
+        "url": "https://www.google.com/maps/place/%E3%82%A2%E3%83%8A%E4%BA%95/data=!4m7!3m6!1s0x34f4573c10f966cd:0x6a1df78795cbdb8!8m2!3d24.7205512!4d125.3220714!16s%2Fg%2F11n5q__0pr!19sChIJzWb5EDxX9DQRuL1ceXjfoQY",
+        "pin": {
+          "latitude": 24.7205512,
+          "longitude": 125.3220714
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 20197
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-kaihoukan-shell-museum",
+    "query": "宮古島海寶館・貝殼博物館 宮古島",
+    "checkedAt": "2026-09-16T15:39:45.497Z",
+    "pageTitle": "宮古島海宝館 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7300505,
+      "longitude": 125.4293626
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-kanzato-well",
+    "query": "神里ガー 宮古島",
+    "checkedAt": "2026-09-16T14:04:22.687Z",
+    "pageTitle": "神里ガー - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.821418,
+      "longitude": 125.174641
+    },
+    "candidates": [
+      {
+        "name": "神里ガー",
+        "url": "https://www.google.com/maps/place/%E7%A5%9E%E9%87%8C%E3%82%AC%E3%83%BC/@24.8213635,125.174643,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5ab7911897f43:0x54ecf9ff57a43b6!8m2!3d24.8213635!4d125.174643!16s%2Fg%2F11f2w5hflp",
+        "pin": {
+          "latitude": 24.8213635,
+          "longitude": 125.174643
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 6
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-kurohama-utaki",
+    "query": "黒浜御嶽 宮古島",
+    "checkedAt": "2026-09-16T13:49:41.328Z",
+    "pageTitle": "黒浜御嶽 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.844423,
+      "longitude": 125.159253
+    },
+    "candidates": [
+      {
+        "name": "黒浜御嶽",
+        "url": "https://www.google.com/maps/place/%E9%BB%92%E6%B5%9C%E5%BE%A1%E5%B6%BD/@24.8444844,125.1586067,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5ac6f8e097b57:0x52ea10917662c28a!8m2!3d24.8444844!4d125.1586067!16s%2Fg%2F11c3kd8mm6",
+        "pin": {
+          "latitude": 24.8444844,
+          "longitude": 125.1586067
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 66
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-maiga-sacred-tree",
+    "query": "前井と御神木その周辺の植物群落 宮古島",
+    "checkedAt": "2026-09-16T13:54:46.697Z",
+    "pageTitle": "前井と御神木その周辺の植物群落 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.765464,
+      "longitude": 125.346595
+    },
+    "candidates": [
+      {
+        "name": "トマイ御嶽の植物群落",
+        "url": "https://www.google.com/maps/place/%E3%83%88%E3%83%9E%E3%82%A4%E5%BE%A1%E5%B6%BD%E3%81%AE%E6%A4%8D%E7%89%A9%E7%BE%A4%E8%90%BD/data=!4m7!3m6!1s0x34f455004d2bbffd:0x11c8446c8258b08!8m2!3d24.750992!4d125.268741!16s%2Fg%2F11y39fglvc!19sChIJ_b8rTQBV9DQRCIslyEaEHAE",
+        "pin": {
+          "latitude": 24.750992,
+          "longitude": 125.268741
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 8024
+      },
+      {
+        "name": "前山御嶽の植物群落",
+        "url": "https://www.google.com/maps/place/%E5%89%8D%E5%B1%B1%E5%BE%A1%E5%B6%BD%E3%81%AE%E6%A4%8D%E7%89%A9%E7%BE%A4%E8%90%BD/data=!4m7!3m6!1s0x34f45500656710ed:0xdd8dad76013b8919!8m2!3d24.744561!4d125.261981!16s%2Fg%2F11vr5skp1k!19sChIJ7RBnZQBV9DQRGYk7AXatjd0",
+        "pin": {
+          "latitude": 24.744561,
+          "longitude": 125.261981
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 8855
+      },
+      {
+        "name": "宮古島市熱帯植物園",
+        "url": "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E7%86%B1%E5%B8%AF%E6%A4%8D%E7%89%A9%E5%9C%92/data=!4m7!3m6!1s0x34f4514f8a5a40b1:0x5ea99518c470d1a4!8m2!3d24.8006932!4d125.3152696!16s%2Fm%2F03cl8xn!19sChIJsUBaik9R9DQRpNFwxBiVqV4",
+        "pin": {
+          "latitude": 24.8006932,
+          "longitude": 125.3152696
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 5035
+      },
+      {
+        "name": "好善ミガガマ御嶽の植物群落",
+        "url": "https://www.google.com/maps/place/%E5%A5%BD%E5%96%84%E3%83%9F%E3%82%AC%E3%82%AC%E3%83%9E%E5%BE%A1%E5%B6%BD%E3%81%AE%E6%A4%8D%E7%89%A9%E7%BE%A4%E8%90%BD/data=!4m7!3m6!1s0x34f457005230b2fd:0x1e380432e89ad93!8m2!3d24.721876!4d125.322695!16s%2Fg%2F11vyrdd8j5!19sChIJ_bIwUgBX9DQRk62JLkOA4wE",
+        "pin": {
+          "latitude": 24.721876,
+          "longitude": 125.322695
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 5414
+      },
+      {
+        "name": "飛鳥御嶽の植物群落",
+        "url": "https://www.google.com/maps/place/%E9%A3%9B%E9%B3%A5%E5%BE%A1%E5%B6%BD%E3%81%AE%E6%A4%8D%E7%89%A9%E7%BE%A4%E8%90%BD/data=!4m7!3m6!1s0x34f45100779f5923:0x2994da83e2c0f94c!8m2!3d24.7839!4d125.349013!16s%2Fg%2F11y3n506mk!19sChIJI1mfdwBR9DQRTPnA4oPalCk",
+        "pin": {
+          "latitude": 24.7839,
+          "longitude": 125.349013
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 2064
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-maipari-tropical-fruit-garden",
+    "query": "Maipari宮古島熱帶果樹園 宮古島",
+    "checkedAt": "2026-09-16T15:39:58.965Z",
+    "pageTitle": "まいぱり 宮古島熱帯果樹園 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7359122,
+      "longitude": 125.2681142
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-makiyama-observatory",
+    "query": "牧山展望台 宮古島",
+    "checkedAt": "2026-09-16T15:37:41.842Z",
+    "pageTitle": "牧山展望台 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.817783,
+      "longitude": 125.21783
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-muiga-cliff-lookout",
+    "query": "姆伊嘎斷崖展望處（ムイガー） 宮古島",
+    "checkedAt": "2026-09-16T14:04:34.598Z",
+    "pageTitle": "姆伊嘎斷崖展望處（ムイガー） 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7258887,
+      "longitude": 125.3827058
+    },
+    "candidates": [
+      {
+        "name": "ムイガー断崖",
+        "url": "https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC%E6%96%AD%E5%B4%96/data=!4m7!3m6!1s0x34f459d4506ad1a7:0x2362f34f87dc659e!8m2!3d24.7258887!4d125.3827058!16s%2Fg%2F11g723442_!19sChIJp9FqUNRZ9DQRnmXch0_zYiM",
+        "pin": {
+          "latitude": 24.7258887,
+          "longitude": 125.3827058
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 0
+      },
+      {
+        "name": "ムイガー",
+        "url": "https://www.google.com/maps/place/%E3%83%A0%E3%82%A4%E3%82%AC%E3%83%BC/data=!4m7!3m6!1s0x34f457838a3770d1:0x5e0b52eae669c8e2!8m2!3d24.7257024!4d125.3836205!16s%2Fg%2F11f_vwy0v_!19sChIJ0XA3ioNX9DQR4shp5upSC14",
+        "pin": {
+          "latitude": 24.7257024,
+          "longitude": 125.3836205
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 95
+      },
+      {
+        "name": "インギャーマリンガーデン展望台",
+        "url": "https://www.google.com/maps/place/%E3%82%A4%E3%83%B3%E3%82%AE%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f457f5b166a767:0x62dfe14aaa98d769!8m2!3d24.7232438!4d125.3578231!16s%2Fg%2F11qpxkd5l1!19sChIJZ6dmsfVX9DQRadeYqkrh32I",
+        "pin": {
+          "latitude": 24.7232438,
+          "longitude": 125.3578231
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 2530
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-nakahara-limestone-cave",
+    "query": "仲原鍾乳洞 宮古島",
+    "checkedAt": "2026-09-16T15:37:55.934Z",
+    "pageTitle": "仲原鍾乳洞 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7330416,
+      "longitude": 125.3778424
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-nishi-tsuga-tomb",
+    "query": "西ツガ墓 宮古島",
+    "checkedAt": "2026-09-16T13:47:53.422Z",
+    "pageTitle": "西ツガ墓 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.804758,
+      "longitude": 125.275332
+    },
+    "candidates": [
+      {
+        "name": "西ツガ墓",
+        "url": "https://www.google.com/maps/place/%E8%A5%BF%E3%83%84%E3%82%AC%E5%A2%93/@24.80475,125.2753333,17z/data=!3m1!4b1!4m6!3m5!1s0x34f453fd6e317273:0x66a07afee2af807e!8m2!3d24.80475!4d125.2753333!16s%2Fg%2F11sk3hscvp",
+        "pin": {
+          "latitude": 24.80475,
+          "longitude": 125.2753333
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 1
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-nishinaka-sugar-chimney",
+    "query": "旧西中共同製糖場跡 宮古島",
+    "checkedAt": "2026-09-16T13:55:01.209Z",
+    "pageTitle": "旧西中共同製糖場煙突 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.755491,
+      "longitude": 125.362717
+    },
+    "candidates": [
+      {
+        "name": "旧西中共同製糖場煙突",
+        "url": "https://www.google.com/maps/place/%E6%97%A7%E8%A5%BF%E4%B8%AD%E5%85%B1%E5%90%8C%E8%A3%BD%E7%B3%96%E5%A0%B4%E7%85%99%E7%AA%81/@24.7554915,125.36271,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4571671564fc9:0x8d0204b7d4091187!8m2!3d24.7554915!4d125.36271!16s%2Fg%2F11c47vm9n4",
+        "pin": {
+          "latitude": 24.7554915,
+          "longitude": 125.36271
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 1
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-obi-iwa",
+    "query": "下地島巨岩 宮古島",
+    "checkedAt": "2026-09-16T13:49:45.276Z",
+    "pageTitle": "下地島巨岩 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.818952,
+      "longitude": 125.140738
+    },
+    "candidates": [
+      {
+        "name": "帯石",
+        "url": "https://www.google.com/maps/place/%E5%B8%AF%E7%9F%B3/data=!4m7!3m6!1s0x34f5acca177b1879:0xb055fc498e29f7b0!8m2!3d24.8189215!4d125.1407334!16s%2Fg%2F1hc6wyk3x!19sChIJeRh7F8qs9TQRsPcpjkn8VbA",
+        "pin": {
+          "latitude": 24.8189215,
+          "longitude": 125.1407334
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 3
+      },
+      {
+        "name": "帯石の海岸",
+        "url": "https://www.google.com/maps/place/%E5%B8%AF%E7%9F%B3%E3%81%AE%E6%B5%B7%E5%B2%B8/data=!4m7!3m6!1s0x34f5ab95c0ac7129:0x35ea4bb5b585ed9b!8m2!3d24.818924!4d125.1403559!16s%2Fg%2F11v43d_5df!19sChIJKXGswJWr9TQRm-2FtbVL6jU",
+        "pin": {
+          "latitude": 24.818924,
+          "longitude": 125.1403559
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 39
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-saba-utsuga",
+    "query": "サバウツガー 宮古島",
+    "checkedAt": "2026-09-16T14:04:50.469Z",
+    "pageTitle": "サバウツガー - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.846921,
+      "longitude": 125.206351
+    },
+    "candidates": [
+      {
+        "name": "サバウツガー",
+        "url": "https://www.google.com/maps/place/%E3%82%B5%E3%83%90%E3%82%A6%E3%83%84%E3%82%AC%E3%83%BC/@24.8470632,125.205828,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5accf2000e049:0x9357873225d9f7ee!8m2!3d24.8470632!4d125.205828!16s%2Fg%2F11c3pwb25r",
+        "pin": {
+          "latitude": 24.8470632,
+          "longitude": 125.205828
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 55
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-sawada-yukui",
+    "query": "佐和田ユークイ 宮古島",
+    "checkedAt": "2026-09-16T13:49:46.865Z",
+    "pageTitle": "佐和田ユークイ - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.845655,
+      "longitude": 125.169365
+    },
+    "candidates": [
+      {
+        "name": "佐和田ユークイ",
+        "url": "https://www.google.com/maps/place/%E4%BD%90%E5%92%8C%E7%94%B0%E3%83%A6%E3%83%BC%E3%82%AF%E3%82%A4/@24.8455358,125.1693067,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5ad02f29109c1:0x6ecfedf2b55561b5!8m2!3d24.8455358!4d125.1693067!16s%2Fg%2F11h7ptnygf",
+        "pin": {
+          "latitude": 24.8455358,
+          "longitude": 125.1693067
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 15
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-shigira-beach",
+    "query": "Shigira海灘（シギラビーチ） 宮古島",
+    "checkedAt": "2026-09-16T15:38:09.699Z",
+    "pageTitle": "シギラビーチ - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7202654,
+      "longitude": 125.3408467
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-shimanoeki-market",
+    "query": "島の駅みやこ（久貝本店） 宮古島",
+    "checkedAt": "2026-09-16T15:38:18.557Z",
+    "pageTitle": "島の駅みやこ - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7958761,
+      "longitude": 125.2742848
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-sumiya-site",
+    "query": "住屋遺跡―俗称：尻間 宮古島",
+    "checkedAt": "2026-09-16T14:04:57.336Z",
+    "pageTitle": "住屋遺跡―俗称：尻間 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.80607,
+      "longitude": 125.281163
+    },
+    "candidates": [
+      {
+        "name": "住屋遺跡",
+        "url": "https://www.google.com/maps/place/%E4%BD%8F%E5%B1%8B%E9%81%BA%E8%B7%A1/data=!4m7!3m6!1s0x34f453f349f6c16f:0x8313075982394ae7!8m2!3d24.8060958!4d125.2811226!16s%2Fg%2F11cly1p02t!19sChIJb8H2SfNT9DQR50o5glkHE4M",
+        "pin": {
+          "latitude": 24.8060958,
+          "longitude": 125.2811226
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 5
+      },
+      {
+        "name": "スムリャーミャーカ",
+        "url": "https://www.google.com/maps/place/%E3%82%B9%E3%83%A0%E3%83%AA%E3%83%A3%E3%83%BC%E3%83%9F%E3%83%A3%E3%83%BC%E3%82%AB/data=!4m7!3m6!1s0x34f4ff9c78acddaf:0xfcf4362c6a70a865!8m2!3d24.7204265!4d125.2479443!16s%2Fg%2F11fm3cs81w!19sChIJr92seJz_9DQRZahwaiw29Pw",
+        "pin": {
+          "latitude": 24.7204265,
+          "longitude": 125.2479443
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 10097
+      },
+      {
+        "name": "佐事川嶺凝灰岩層",
+        "url": "https://www.google.com/maps/place/%E4%BD%90%E4%BA%8B%E5%B7%9D%E5%B6%BA%E5%87%9D%E7%81%B0%E5%B2%A9%E5%B1%A4/data=!4m7!3m6!1s0x34f4579d61cd90dd:0x488b6d21db083fae!8m2!3d24.769454!4d125.337468!16s%2Fg%2F11stf5knms!19sChIJ3ZDNYZ1X9DQRrj8I2yFti0g",
+        "pin": {
+          "latitude": 24.769454,
+          "longitude": 125.337468
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 6992
+      },
+      {
+        "name": "上比屋山遺跡",
+        "url": "https://www.google.com/maps/place/%E4%B8%8A%E6%AF%94%E5%B1%8B%E5%B1%B1%E9%81%BA%E8%B7%A1/data=!4m7!3m6!1s0x34f457b21d022971:0x2631121f25da29c5!8m2!3d24.7273602!4d125.351893!16s%2Fg%2F11c2pzvzsk!19sChIJcSkCHbJX9DQRxSnaJR8SMSY",
+        "pin": {
+          "latitude": 24.7273602,
+          "longitude": 125.351893
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 11296
+      },
+      {
+        "name": "喜佐真御嶽",
+        "url": "https://www.google.com/maps/place/%E5%96%9C%E4%BD%90%E7%9C%9F%E5%BE%A1%E5%B6%BD/data=!4m7!3m6!1s0x34f455f8873a1c1f:0x4e0d73a660ad5216!8m2!3d24.7586255!4d125.2867595!16s%2Fg%2F11sgcsk0cf!19sChIJHxw6h_hV9DQRFlKtYKZzDU4",
+        "pin": {
+          "latitude": 24.7586255,
+          "longitude": 125.2867595
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 5306
+      },
+      {
+        "name": "真屋御嶽",
+        "url": "https://www.google.com/maps/place/%E7%9C%9F%E5%B1%8B%E5%BE%A1%E5%B6%BD/data=!4m7!3m6!1s0x34f455006db999a7:0x4e9ba16a5be5111a!8m2!3d24.745818!4d125.277936!16s%2Fg%2F11lmcsj8tw!19sChIJp5m5bQBV9DQRGhHlW2qhm04",
+        "pin": {
+          "latitude": 24.745818,
+          "longitude": 125.277936
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 6708
+      },
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f45300459c9f73:0xf0008bd36673dcde!8m2!3d24.875355!4d125.297382!16s%2Fg%2F11vyrym593!19sChIJc5-cRQBT9DQR3txzZtOLAPA",
+        "pin": {
+          "latitude": 24.875355,
+          "longitude": 125.297382
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 7876
+      },
+      {
+        "name": "マムヤの墓",
+        "url": "https://www.google.com/maps/place/%E3%83%9E%E3%83%A0%E3%83%A4%E3%81%AE%E5%A2%93/data=!4m7!3m6!1s0x34f4598fd978a3b3:0x76b32db144da0707!8m2!3d24.7205806!4d125.4672126!16s%2Fg%2F11rwrv33pg!19sChIJs6N42Y9Z9DQRBwfaRLEts3Y",
+        "pin": {
+          "latitude": 24.7205806,
+          "longitude": 125.4672126
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 21054
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-sumurya-myakka",
+    "query": "スムリャーミャーカ 宮古島",
+    "checkedAt": "2026-09-16T15:38:32.313Z",
+    "pageTitle": "スムリャーミャーカ - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.720969,
+      "longitude": 125.247871
+    },
+    "candidates": [],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-susabi-myahka",
+    "query": "スサビミャーカ：巨石墓 宮古島",
+    "checkedAt": "2026-09-16T13:55:23.901Z",
+    "pageTitle": "スサビミャーカ(巨石墓) - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.815724,
+      "longitude": 125.182905
+    },
+    "candidates": [
+      {
+        "name": "スサビミャーカ(巨石墓)",
+        "url": "https://www.google.com/maps/place/%E3%82%B9%E3%82%B5%E3%83%93%E3%83%9F%E3%83%A3%E3%83%BC%E3%82%AB(%E5%B7%A8%E7%9F%B3%E5%A2%93)/@24.8162517,125.18217,17z/data=!3m1!4b1!4m6!3m5!1s0x34f5ab252af49a3d:0x3a8215a97801d6b2!8m2!3d24.8162517!4d125.18217!16s%2Fg%2F11h7r3z5rb",
+        "pin": {
+          "latitude": 24.8162517,
+          "longitude": 125.18217
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 95
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-takausu-castle",
+    "query": "高腰城跡 宮古島",
+    "checkedAt": "2026-09-16T13:55:28.086Z",
+    "pageTitle": "高腰城跡 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.779078,
+      "longitude": 125.381972
+    },
+    "candidates": [
+      {
+        "name": "高腰城跡",
+        "url": "https://www.google.com/maps/place/%E9%AB%98%E8%85%B0%E5%9F%8E%E8%B7%A1/@24.7797572,125.3815104,17z/data=!3m1!4b1!4m6!3m5!1s0x34f450ae6781788f:0x138aa993e44d7d61!8m2!3d24.7797572!4d125.3815104!16s%2Fg%2F11c61vr1ly",
+        "pin": {
+          "latitude": 24.7797572,
+          "longitude": 125.3815104
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 89
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-tomori-amaga",
+    "query": "城辺町の友利のあま井 宮古島",
+    "checkedAt": "2026-09-16T14:05:12.006Z",
+    "pageTitle": "城辺町の友利のあま井 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.726775,
+      "longitude": 125.354465
+    },
+    "candidates": [
+      {
+        "name": "城辺町の友利のあま井",
+        "url": "https://www.google.com/maps/place/%E5%9F%8E%E8%BE%BA%E7%94%BA%E3%81%AE%E5%8F%8B%E5%88%A9%E3%81%AE%E3%81%82%E3%81%BE%E4%BA%95/@24.7271202,125.3546569,17z/data=!3m1!4b1!4m6!3m5!1s0x34f457b1b15ab98d:0x76abcd9f52bdd664!8m2!3d24.7271202!4d125.3546569!16s%2Fg%2F11c45jq062",
+        "pin": {
+          "latitude": 24.7271202,
+          "longitude": 125.3546569
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 43
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-underground-dam-museum",
+    "query": "宮古島地下水壩資料館 宮古島",
+    "checkedAt": "2026-09-16T14:05:18.077Z",
+    "pageTitle": "宮古島地下水壩資料館 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7392323,
+      "longitude": 125.3946688
+    },
+    "candidates": [
+      {
+        "name": "宮古島市地下ダム資料館",
+        "url": "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E5%9C%B0%E4%B8%8B%E3%83%80%E3%83%A0%E8%B3%87%E6%96%99%E9%A4%A8/data=!4m7!3m6!1s0x34f459d9c049df73:0xb336fc060a871e8!8m2!3d24.7392323!4d125.3946688!16s%2Fg%2F11btrs4zfx!19sChIJc99JwNlZ9DQR6HGoYMBvMws",
+        "pin": {
+          "latitude": 24.7392323,
+          "longitude": 125.3946688
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 0
+      },
+      {
+        "name": "宮古島市歴史文化資料館",
+        "url": "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E6%AD%B4%E5%8F%B2%E6%96%87%E5%8C%96%E8%B3%87%E6%96%99%E9%A4%A8/data=!4m7!3m6!1s0x34f45739463ac899:0xfbd53496ee92ff16!8m2!3d24.7427172!4d125.3495924!16s%2Fg%2F11sffpp6qh!19sChIJmcg6RjlX9DQRFv-S7pY01fs",
+        "pin": {
+          "latitude": 24.7427172,
+          "longitude": 125.3495924
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 4569
+      },
+      {
+        "name": "宮古島市総合博物館",
+        "url": "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E7%B7%8F%E5%90%88%E5%8D%9A%E7%89%A9%E9%A4%A8/data=!4m7!3m6!1s0x34f4514edaa868ab:0xf3e4cdde04aee0e8!8m2!3d24.7965306!4d125.3178511!16s%2Fg%2F11c6vtwjc6!19sChIJq2io2k5R9DQR6OCuBN7N5PM",
+        "pin": {
+          "latitude": 24.7965306,
+          "longitude": 125.3178511
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 10037
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-uruka-tomi",
+    "query": "先島諸島火番盛「遠見番所」砂川遠見 宮古島",
+    "checkedAt": "2026-09-16T13:55:45.392Z",
+    "pageTitle": "先島諸島火番盛「遠見番所」砂川遠見 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.725666,
+      "longitude": 125.352241
+    },
+    "candidates": [
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f457b3df4cb6fb:0xa78e7a1449c7684c!8m2!3d24.7255441!4d125.3520518!16s%2Fg%2F11f04phwq1!19sChIJ-7ZM37NX9DQRTGjHSRR6jqc",
+        "pin": {
+          "latitude": 24.7255441,
+          "longitude": 125.3520518
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 23
+      },
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f45300459c9f73:0xf0008bd36673dcde!8m2!3d24.875355!4d125.297382!16s%2Fg%2F11vyrym593!19sChIJc5-cRQBT9DQR3txzZtOLAPA",
+        "pin": {
+          "latitude": 24.875355,
+          "longitude": 125.297382
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 17542
+      },
+      {
+        "name": "先島諸島火番盛 水納遠見",
+        "url": "https://www.google.com/maps/place/%E5%85%88%E5%B3%B6%E8%AB%B8%E5%B3%B6%E7%81%AB%E7%95%AA%E7%9B%9B+%E6%B0%B4%E7%B4%8D%E9%81%A0%E8%A6%8B/data=!4m7!3m6!1s0x34f571005621aefd:0x66a916a7565458a3!8m2!3d24.7525732!4d124.7043326!16s%2Fg%2F11w58mjnwb!19sChIJ_a4hVgBx9TQRo1hUVqcWqWY",
+        "pin": {
+          "latitude": 24.7525732,
+          "longitude": 124.7043326
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 65500
+      },
+      {
+        "name": "遠見番所",
+        "url": "https://www.google.com/maps/place/%E9%81%A0%E8%A6%8B%E7%95%AA%E6%89%80/data=!4m7!3m6!1s0x34f455979a297639:0x836448e6b827b81d!8m2!3d24.7258848!4d125.2518966!16s%2Fg%2F11fs03chxw!19sChIJOXYpmpdV9DQRHbgnuOZIZIM",
+        "pin": {
+          "latitude": 24.7258848,
+          "longitude": 125.2518966
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 10135
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-utopia-farm",
+    "query": "Utopia Farm宮古島觀光農園 宮古島",
+    "checkedAt": "2026-09-16T15:38:44.871Z",
+    "pageTitle": "ユートピアファーム宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.738253,
+      "longitude": 125.322026
+    },
+    "candidates": [
+      {
+        "name": "ユートピアファーム宮古島",
+        "url": "https://www.google.com/maps/place/%E3%83%A6%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E5%AE%AE%E5%8F%A4%E5%B3%B6/@24.738253,125.322026,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45667cb1645ef:0x90bd531afc2e6858!8m2!3d24.738253!4d125.322026!16s%2Fg%2F1tddvj8g",
+        "pin": {
+          "latitude": 24.738253,
+          "longitude": 125.322026
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 0
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-waiwai-beach",
+    "query": "博愛Waiwai海灘（岸上觀景） 宮古島",
+    "checkedAt": "2026-09-16T15:40:07.552Z",
+    "pageTitle": "博愛Waiwai海灘（岸上觀景） 宮古島 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.7194681,
+      "longitude": 125.3295899
+    },
+    "candidates": [
+      {
+        "name": "わいわいビーチ",
+        "url": "https://www.google.com/maps/place/%E3%82%8F%E3%81%84%E3%82%8F%E3%81%84%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f4563c0165066f:0x2430256295d58682!8m2!3d24.7194681!4d125.3295899!16s%2Fg%2F11byyg9rfq!19sChIJbwZlATxW9DQRgobVlWIlMCQ",
+        "pin": {
+          "latitude": 24.7194681,
+          "longitude": 125.3295899
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 0
+      },
+      {
+        "name": "博愛漁港",
+        "url": "https://www.google.com/maps/place/%E5%8D%9A%E6%84%9B%E6%BC%81%E6%B8%AF/data=!4m7!3m6!1s0x34f4563c14cac9ab:0xbe940fb4ac56bfcc!8m2!3d24.7195255!4d125.3286997!16s%2Fg%2F11bzz_5xdh!19sChIJq8nKFDxW9DQRzL9WrLQPlL4",
+        "pin": {
+          "latitude": 24.7195255,
+          "longitude": 125.3286997
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 90
+      },
+      {
+        "name": "シースカイ博愛",
+        "url": "https://www.google.com/maps/place/%E3%82%B7%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4%E5%8D%9A%E6%84%9B/data=!4m7!3m6!1s0x34f456164e0362e9:0x8e47873744ad5361!8m2!3d24.7187262!4d125.3291222!16s%2Fg%2F1tmpbpxy!19sChIJ6WIDThZW9DQRYVOtRDeHR44",
+        "pin": {
+          "latitude": 24.7187262,
+          "longitude": 125.3291222
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 95
+      },
+      {
+        "name": "35ENDビーチ",
+        "url": "https://www.google.com/maps/place/35END%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f5abf82d59041d:0xbc3ef55fc9b236f5!8m2!3d24.8072701!4d125.1497197!16s%2Fg%2F11pc9z3s67!19sChIJHQRZLfir9TQR9TayyV_1Prw",
+        "pin": {
+          "latitude": 24.8072701,
+          "longitude": 125.1497197
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 20619
+      },
+      {
+        "name": "宮古島海中公園",
+        "url": "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E6%B5%B7%E4%B8%AD%E5%85%AC%E5%9C%92/data=!4m7!3m6!1s0x34f45276ad24274d:0x1e034b956e275a6c!8m2!3d24.8787444!4d125.2747111!16s%2Fg%2F119v4wqms!19sChIJTSckrXZS9DQRbFonbpVLAx4",
+        "pin": {
+          "latitude": 24.8787444,
+          "longitude": 125.2747111
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 18557
+      },
+      {
+        "name": "ザ シギラリフト オーシャンスカイ",
+        "url": "https://www.google.com/maps/place/%E3%82%B6+%E3%82%B7%E3%82%AE%E3%83%A9%E3%83%AA%E3%83%95%E3%83%88+%E3%82%AA%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%B9%E3%82%AB%E3%82%A4/data=!4m7!3m6!1s0x34f4564a28ef051b:0x8c93e8595a1ecd34!8m2!3d24.7237098!4d125.341366!16s%2Fg%2F11c1pmd29f!19sChIJGwXvKEpW9DQRNM0eWlnok4w",
+        "pin": {
+          "latitude": 24.7237098,
+          "longitude": 125.341366
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 1280
+      },
+      {
+        "name": "インギャーマリンガーデン",
+        "url": "https://www.google.com/maps/place/%E3%82%A4%E3%83%B3%E3%82%AE%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/data=!4m7!3m6!1s0x34f457a5d271da1f:0xddd259f5b07610a8!8m2!3d24.7247007!4d125.3583502!16s%2Fg%2F11f006g9gh!19sChIJH9px0qVX9DQRqBB2sPVZ0t0",
+        "pin": {
+          "latitude": 24.7247007,
+          "longitude": 125.3583502
+        },
+        "kind": "search_candidate_only",
+        "distanceToAdoptedAnchorMeters": 2963
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  },
+  {
+    "id": "jp-miyakojima-yamato-well",
+    "query": "大和井 宮古島",
+    "checkedAt": "2026-09-16T13:50:03.863Z",
+    "pageTitle": "大和井 - Google マップ",
+    "httpStatus": 200,
+    "blocked": false,
+    "adoptedLocation": {
+      "latitude": 24.811074,
+      "longitude": 125.285494
+    },
+    "candidates": [
+      {
+        "name": "大和井",
+        "url": "https://www.google.com/maps/place/%E5%A4%A7%E5%92%8C%E4%BA%95/@24.8110072,125.2854835,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538b6f7b6ded:0xa5eb62e856f8a6db!8m2!3d24.8110072!4d125.2854835!16s%2Fg%2F120m1b77",
+        "pin": {
+          "latitude": 24.8110072,
+          "longitude": 125.2854835
+        },
+        "kind": "opened_named_place",
+        "distanceToAdoptedAnchorMeters": 8
+      }
+    ],
+    "note": "Google named pins, not map viewport centres. Search candidates are not identity verification; no automatic adoption."
+  }
+]

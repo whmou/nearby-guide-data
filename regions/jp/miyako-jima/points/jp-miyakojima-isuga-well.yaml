@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-isuga-well"
+  parentId: null
+  kind: "attraction"
+  title: "磯井（イスゥガー）"
+  summary: "狩俣神歌裡的水源，把村落起源傳說與祭祀生活留在一口井旁。"
+  narration: "如果村落的起點藏在一首歌裡，會唱到什麼？在狩俣，答案之一就是這口磯井，居民用它記住水源，也記住祖先：市府記錄的祖神祭神歌，描述創世神一路尋找泉水，最後在磯井找到適合供神的水，於是選擇上方的地點定居；這是神歌保存的村落起源傳說，不是已經確定的移民路線。文化財解說另記下，祭祀村落始祖神時，御茶湯中會加入磯井的水，讓古老故事和實際儀式有了連結。聽到這裡，再回頭看一口不算張揚的井，或許就能理解它的價值不在大小，而在居民持續賦予它的意義。若從開放外側看得到井口，可以留意它與地面的銜接，再對照村落位置；神歌裡泉水與居住地的關係，便有了可以理解的地形；水不只供人飲用，也替一個地方保存共同的記憶。"
+  observationPrompt: "井口和周圍地面如何相接？請在開放外側觀察，不接觸供品或取水。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "culture"
+          label: "文化"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.89758
+    longitude: 125.277269
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標為狩俣磯井本體的官方圖釘；僅循開放公共通路看井外，勿下井、取水或踏入祭祀禁地，遇儀式或封閉標示即止步。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.89758,125.277269"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 3
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.3
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo700/"
+    title: "【市指定：有形民俗】イスゥガー（磯井）"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "狩俣祖神祭神歌以尋水與定居故事解釋磯井，屬村落起源傳承。"
+      - "官方記錄始祖神祭祀的御茶湯會加入磯井之水。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/bunkazai.html"
+    title: "宮古島市 — 有形・無形文化財"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "磯井（イスゥガー） 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo700/"
+      title: "【市指定：有形民俗】イスゥガー（磯井）"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.897580,+125.277269&amp;aq=&amp;sll=24.896675,125.277591&amp;sspn=0.008729,0.016512&amp;gl=jp&amp;brcurrent=3,0x34f44d93c73770a5:0xd2f54494abc05c6b,0,0x34f4520ac8622127:0x3e981c3219941c6e&amp;ie=UTF8&amp;t=m&amp;ll=24.905589,125.27976&amp;spn=0.031139,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.89758,125.277269；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/bunkazai.html"
+      title: "宮古島市 — 有形・無形文化財"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 磯井（イスゥガー） 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.89758
+    longitude: 125.277269

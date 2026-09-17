@@ -1,0 +1,129 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-sumiya-site"
+  parentId: null
+  kind: "attraction"
+  title: "住屋遺跡"
+  summary: "同一片街區，從中世紀聚落變成王府派駐官員的住處。"
+  narration: "如果把眼前這片街區一層層往回翻，最先遇到的未必是官署，而是普通人住過的家：住屋遺跡大約屬於十四至十七世紀初的聚落，1982年的兩次發掘，找到了較早的竪穴住居，以及後來的平地、石鋪住居等遺構。同一個地方保留不同年代的房屋形式，是它特別有意思的地方：人們怎麼住，會隨時間改變。1629年，這裡又設置了在番仮屋，也就是琉球王府派來督導地方官員的人的住處，之後更長期與地方行政相連。這些地下構造不一定都能在現場直接看見；如果設有解說牌，可以和周圍街道一起對照，想像聚落的位置。旅行時很容易只記得一棟醒目的建築，這裡卻提醒我們，同一片土地曾有好幾種完全不同的日常。"
+  observationPrompt: "對照現場解說與周圍街道，分辨考古發現的住居年代和後來行政用途，不把未裸露遺構當成眼前可見。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.80607
+    longitude: 125.281163
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採官方住屋遺跡本體圖釘，不代表可入內的官舍或考古探坑。以開放地面與現場解說觀察；地下遺構不保證裸露，任何圍閉區不進入。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.80607,125.281163"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 3
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 3
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.3
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo785/"
+    title: "【市指定：史跡】住屋遺跡―俗称：尻間～すみやいせき―ぞくしょう：しいま～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "住屋遺跡為約十四至十七世紀初聚落，1982年進行兩次發掘。"
+      - "發掘確認較早竪穴住居，以及較晚平地、石鋪住居等不同形式。"
+      - "1629年在此設在番仮屋，作王府派駐官員宿舍，近代延續行政官舍用途。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+    title: "宮古島市 — 宮古島市の文化財"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "住屋遺跡 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo785/"
+      title: "【市指定：史跡】住屋遺跡―俗称：尻間～すみやいせき―ぞくしょう：しいま～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.806070,+125.281163&amp;aq=&amp;sll=24.811856,125.281732&amp;sspn=0.008735,0.016512&amp;gl=jp&amp;brcurrent=3,0x34f45407e6513221:0x131296247a3f9def,0&amp;ie=UTF8&amp;t=m&amp;ll=24.815329,125.284996&amp;spn=0.031162,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.80607,125.281163；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+      title: "宮古島市 — 宮古島市の文化財"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 住屋遺跡 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.80607
+    longitude: 125.281163

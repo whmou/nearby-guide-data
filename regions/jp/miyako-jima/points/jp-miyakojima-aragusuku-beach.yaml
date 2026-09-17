@@ -1,108 +1,173 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-aragusuku-beach
+  id: "jp-miyakojima-aragusuku-beach"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "新城海岸"
-  summary: "新城海岸（アラスキビーチ）是宮古島東岸開發度最低的天然海灘之一，珊瑚礁保存完好，海水清澈見底，是逃離人群的靜謐浮潛勝地。"
-  narration: |
-    新城海岸緊鄰吉野海岸南側，卻比後者少了許多觀光客，維持著更接近原始的自然樣貌。海灘由細白珊瑚砂構成，海岸線較短，但礁盤延伸範圍廣，珊瑚覆蓋率高，魚類種類豐富。由於附近沒有大型商業設施，整個海灘顯得格外清幽，適合喜歡靜靜欣賞海洋生態的旅客。退潮時礁盤略微裸露，形成天然的潮池，可以近距離觀察各種小型海洋生物。建議自備浮潛裝備前往，並在進入海水前確認潮汐狀況，以獲得最佳體驗。
-  observationPrompt: "低頭看腳下的珊瑚砂，能找到完整的小型貝殼或珊瑚碎片嗎？再望向海面，水的顏色從岸邊到外海有幾種層次的漸變？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.75977
     longitude: 125.42478
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.75977,125.42478
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.75977,125.42478"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 新城海岸公共海灘，可由海岸道路及小型停車區抵達；請留在沙灘上觸發導覽，不要前往離岸水域。
+    rearmDistanceMeters: 1000
+  locationHint: "宮古島觀光協會原始Google連結的海岸定位，地址城辺字新城；不是停車格或保證安全的下水口。停車空間有限，依現場告示使用公共海岸並判斷海況。"
+  summary: "新城讀作あらぐすく；近岸淺瀨與珊瑚是官方介紹的特色，但水色漂亮不等於當天海況適合下水。"
+  narration: |
+    先把視線放在沙岸和海水交接的地方：同一片海面，顏色並不一定均勻，亮處、暗處值得慢慢分辨，但單靠水色不能判斷深度或安全。新城海岸的日語讀法是「あらぐすく」。市府介紹它時，特別提到近岸淺瀨的珊瑚與熱帶魚，這也是許多人想來親近海洋的原因；不過，今天能看到什麼，仍取決於能見度與海況，並不是一張保證有海龜或滿眼珊瑚的門票。另一個容易被忽略的細節在岸上：官方觀光資料列有連接縣道的海岸道路、廁所和停車空間，同時提醒車位有限。這些小設施，決定了一處自然海岸怎麼接待來客。你可以先在岸邊看看入口、告示與可停留區，再決定如何活動；別把「淺」理解成沒有潮流，也不要為了站穩而踩上珊瑚。把海岸當作有生命、也有人照料的地方，停留會更踏實。
+  observationPrompt: "先從岸上找入口、安全告示與可停留區，再觀察水色差異；不以水色推斷可踩踏的礁石或下水路線。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古島珊瑚礁保存完好的代表性海灘之一，在浮潛愛好者間有一定知名度。"
-    sources: [src1]
+    score: 3
+    note: "官方介紹的近岸生態海岸。"
+    sources:
+      - "aragusuku-official"
+      - "aragusuku-new"
   distinctiveness:
-    score: 4
-    note: "開發度低、珊瑚覆蓋率高，相較於其他宮古島海灘具備獨特的原始自然氛圍。"
-    sources: [src1]
+    score: 3
+    note: "珊瑚淺瀨有特色但不以獨有或必見評分。"
+    sources:
+      - "aragusuku-official"
+      - "aragusuku-new"
   interpretability:
-    score: 3
-    note: "珊瑚礁生態直觀可見，但缺乏現場解說設施。"
-    sources: [src1]
-  visitorValue:
     score: 4
-    note: "免費入場且清幽，對重視自然體驗的旅客價值高。"
-    sources: [src1]
-  evidenceQuality:
+    note: "沙岸、入口與告示可供直接觀察。"
+    sources:
+      - "aragusuku-official"
+      - "aragusuku-new"
+  visitorValue:
     score: 3
-    note: "有觀光指南及旅遊部落格記錄，但官方資料相對有限。"
-    sources: [src1]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+    note: "自然海況與有限停車降低可預期性。"
+    sources:
+      - "aragusuku-official"
+      - "aragusuku-new"
+  evidenceQuality:
+    score: 5
+    note: "城市及觀光協會重抓正文並與Google具名地址核對。"
+    sources:
+      - "aragusuku-official"
+      - "aragusuku-new"
+  final: 3.4
 sources:
-  - id: src1
-    title: "新城海岸（アラスキビーチ）｜沖縄離島ドットコム"
-    publisher: "沖縄離島ドットコム"
-    url: https://www.okinawa-rito.com/miyakojima/aragusuku-beach/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "aragusuku-official"
+    url: "https://miyako-guide.net/spots/spots-781/"
+    title: "新城（あらぐすく）海岸"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "新城海岸是宮古島東岸珊瑚礁保存完好的天然海灘"
-      - "開發度低，較少觀光客，適合靜謐浮潛體驗"
-      - "海水清澈，礁盤延伸範圍廣"
+      - "珊瑚與熱帶魚為景點特色。"
+      - "由縣道接海岸道路，有停車空間及廁所；停車空間有限。"
+  -
+    id: "aragusuku-new"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_005/"
+    title: "新城（あらぐすく）海岸 — Meets More MIYAKOJIMA"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "地址為宮古島市城辺字新城；有停車場、廁所。"
+  -
+    id: "city-beaches"
+    url: "https://www.city.miyakojima.lg.jp/kanko/annai/beach.html"
+    title: "ビーチ、マリンレジャー"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "新城海岸近岸淺瀨有珊瑚與熱帶魚。"
+      - "保良川有利用天然湧水的人工泳池。"
+      - "天然海岸不可一概視為設施完善的海水浴場，須注意潮流及危險生物。"
+  -
+    id: "google-live"
+    title: "Google Maps — 新城海岸"
+    url: "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%9F%8E%E6%B5%B7%E5%B2%B8%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "實抓標題新城海岸及城辺新城地址，與兩個官方觀光頁一致；本次未取得另一組具名place座標，採官方原始數字目的地。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Aragusuku_Beach_in_Miyako_(51924273449).jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Aragusuku_Beach_in_Miyako_(51924273449).jpg"
     creator: "Raita Futo from Tokyo, Japan"
     license: "CC BY 2.0"
-    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0"
     accessedAt: "2026-07-15"
     originalSha256: "a98743dcf400a217c1fde34539fbdec68ce2928759a9d1ddbe1be1ad9b835765"
-    compactPath: media/compact/jp-miyakojima-aragusuku-beach.webp
-    completePath: media/complete/jp-miyakojima-aragusuku-beach.webp
+    compactPath: "media/compact/jp-miyakojima-aragusuku-beach.webp"
+    completePath: "media/complete/jp-miyakojima-aragusuku-beach.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "修正日文讀音；移除與吉野海岸位置關係及無人秘境、必見海龜等無依據敘述。"
+    - "重抓官方新城（あらぐすく）海岸頁的原始href https://www.google.co.jp/maps/place/24.75977,125.42478&，提取明確數字目的地；尾端&原樣記錄，App使用規範化數字query。新版觀光頁及主流程Chrome具名新城海岸、城辺新城地址交叉核對。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: Use the tourism association's explicit beach destination. Source description's claim that this is south of Yoshino and undeveloped should not be treated as verified by this coordinate audit.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重抓官方新城（あらぐすく）海岸頁的原始href https://www.google.co.jp/maps/place/24.75977,125.42478&，提取明確數字目的地；尾端&原樣記錄，App使用規範化數字query。新版觀光頁及主流程Chrome具名新城海岸、城辺新城地址交叉核對。"
   sources:
-  - url: https://miyako-guide.net/spots/spots-781/
-    title: 宮古島観光協会 — 新城海岸
-    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-781/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.75977,125.42478; its place embed uses q=24.75977,125.42478. These are explicit destination coordinates, not a viewport centre.'
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_005/
-    title: 宮古島観光協会 — 新城海岸
-    coordinateEvidence: https://miyako-island.net/beach_and_spot/beach_spot_005/ confirms 城辺字新城, road access, parking and toilet. Its pb embed's !2d125.40735058308321!3d24.75985083247827 is a viewport, deliberately NOT used as coordinates; the actual destination was extracted from the separate official q link.
+    -
+      url: "https://miyako-guide.net/spots/spots-781/"
+      title: "新城（あらぐすく）海岸"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 GoogleMap href=https://www.google.co.jp/maps/place/24.75977,125.42478&。從 /maps/place/ 後的數字目的地提取座標，非 @lat,lng 視窗；原始空格／尾端 & 原樣保留於此證據，App URL 另規範化。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_005/"
+      title: "新城（あらぐすく）海岸 — Meets More MIYAKOJIMA"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/annai/beach.html"
+      title: "ビーチ、マリンレジャー"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%9F%8E%E6%B5%B7%E5%B2%B8%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "Google Maps — 新城海岸"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:35:39.494Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%9F%8E%E6%B5%B7%E5%B2%B8%20%E5%AE%AE%E5%8F%A4%E5%B3%B6。本次回應未有可採用的具名!3d/!4d；不把搜尋視窗當座標。 實抓標題新城海岸及城辺新城地址，與兩個官方觀光頁一致；本次未取得另一組具名place座標，採官方原始數字目的地。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.7598523
     longitude: 125.4248602

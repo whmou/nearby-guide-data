@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: attraction
   title: "伊良部大橋"
-  summary: "全長3,540公尺，2015年完工，是日本最長的免費通行橋梁，連接宮古島與伊良部島，橋面最高點約為海面上27公尺，兩側海景壯闊。"
+  summary: "2015年通車、全長3,540公尺的跨海橋梁；從宮古島側陸上橋頭理解兩島連接的尺度，橋上不可停車賞景。"
   narration: |
-    伊良部大橋於2015年1月完工通車，以三千五百四十公尺的全長連接宮古島與伊良部島。晴天時，橋兩側能看見層次豐富的藍綠海色。以往兩島居民往返依靠渡輪，橋梁通車也改變了日常交通。想慢慢看橋與海，請在陸側合法可停留的觀景位置欣賞；橋上沒有供遊客任意停車拍照的觀景停車灣，駕駛應專心行車，遵守現場標誌。
-  observationPrompt: "在陸側合法觀景位置看向橋梁：海色有哪些深淺變化？不要在橋上停車、下車或為拍照跨越護欄。"
+    先在陸側安全的位置，順著一根根橋墩看向海面：這條伸向伊良部島的道路，長達三千五百四十公尺，遠端並不是另一段海岸公路，而是另一座島。伊良部大橋在二○一五年一月開通，觀光協會將它介紹為日本最長的免費通行橋梁；對旅人來說是一段風景，對兩島的日常往來，則是一條真正把海峽接起來的路。別急著把整座橋塞進照片，先比較近處的橋墩和遠處逐漸縮小的線條，就能感受到它的長度。再看看橋旁海面的深淺色塊，今天的光線把哪些部分照亮了？這裡的定位是宮古島側橋頭，不是橋中央，也不是停車場；請在可合法停留的陸側觀看，駕駛過橋時專心看路，不要為了照片臨停。
+  observationPrompt: "在陸側合法停留處，能否看出橋墩向遠方逐漸縮小？橋旁海色有哪些深淺變化？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -37,50 +37,48 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.794986
-    longitude: 125.256406
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.794986,125.256406
-  trigger:
-    radiusMeters: 200.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1500.0
-  locationHint: 伊良部大橋宮古島側的陸上橋頭；請於陸側公共通道觀景並遵守標示。橋上禁止臨停或停車。
+  location: {"latitude":24.794986,"longitude":125.256406}
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.794986,125.256406"
+  trigger: {"radiusMeters":80,"dwellMillis":2000,"rearmDistanceMeters":1000}
+  locationHint: "官方導航點為伊良部大橋宮古島側陸上橋頭，並非橋中央或停車場。請依現場標示使用公共通道；勿在橋上停車、下車拍照。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "日本最長免費橋梁，2015年完工後成為宮古島重要觀光地標，具工程與地方交通史意義。"
-    sources: [irabu-bridge-miyakojima-city]
+    note: "跨島交通的重要工程地標。"
+    sources: ["bridge","irabu"]
   distinctiveness:
     score: 4
-    note: "日本最長免費橋梁稱號獨特，跨越海峽的壯闊視野在沖繩諸橋中名列前茅。"
-    sources: [irabu-bridge-miyakojima-city]
+    note: "長跨海橋梁具有明確地域辨識度。"
+    sources: ["bridge","irabu"]
   interpretability:
-    score: 3
-    note: "工程規模一目了然，但橋梁本身相對簡潔，視覺豐富度主要來自周圍海景而非橋梁結構本身。"
-    sources: [irabu-bridge-miyakojima-city]
+    score: 4
+    note: "橋墩、橋身尺度可從陸側理解。"
+    sources: ["bridge","irabu"]
   visitorValue:
-    score: 4
-    note: "免費通行的跨島交通設施；賞景須選擇陸側合法可停留處，不能在橋上停車拍照。開放及交通限制依現場公告。"
-    sources: [irabu-bridge-miyakojima-city]
+    score: 3
+    note: "免費通行，但橋頭非停車場，須遵守現場限制。"
+    sources: ["bridge","irabu"]
   evidenceQuality:
-    score: 4
-    note: "宮古島市政府及沖縄縣官方資料均有詳細記載，橋梁全長及完工日期可查。"
-    sources: [irabu-bridge-miyakojima-city]
-  final: 3.8
-  # 0.30×4 + 0.25×4 + 0.20×3 + 0.15×4 + 0.10×4 = 1.20+1.00+0.60+0.60+0.40 = 3.80
+    score: 5
+    note: "官方景點與獨立縣觀光資料並有即時Maps名稱／地址交叉佐證。"
+    sources: ["bridge","irabu"]
+  final: 4.0
 sources:
-  - id: irabu-bridge-miyakojima-city
-    title: "伊良部大橋について"
-    publisher: "宮古島市"
-    url: https://www.city.miyakojima.lg.jp/soshiki/kensetsu/d00008289.html
-    accessedAt: "2026-07-15"
+  - id: bridge
+    title: "伊良部大橋"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-840/"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "全長3,540公尺，日本最長免費橋梁"
-      - "2015年1月31日通車"
-      - "橋面最高點約27公尺"
+    supports: ["伊良部大橋連接宮古島與伊良部島，全長3,540公尺。","2015年1月開通，官方介紹為免費通行長橋；景點頁標示無停車場。"]
+  - id: irabu
+    title: "伊良部島"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/about/miyako_area/irabu"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["2015年1月大橋開通後，宮古島往伊良部島的交通更便利。"]
 media:
   - id: primary-image
     type: image
@@ -93,24 +91,14 @@ media:
     compactPath: media/compact/jp-miyakojima-irabu-bridge.webp
     completePath: media/complete/jp-miyakojima-irabu-bridge.webp
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除未重證的橋高27公尺及橋上賞景停車暗示。","官方原始 href 逗號後含空白，證據原樣保存；App連結使用相同數值的canonical query。","保留既有 File:Miyako_irabu_ohashi_2014_1.jpg 記錄；檔名年份早於通車，僅可視為歷史工程影像，並非2026現況認證。此批未重新認證影像內容及授權。"]
 locationReview:
-  status: verified
-  anchorType: viewpoint
-  checkedAt: '2026-09-16'
-  reason: Official tourism destination is the Miyako bridgehead, approximately 2.4 km east of the original mid-span point. The official page says no parking; YAML's claim of on-bridge sightseeing parking bays must be removed.
-  sources:
-  - url: https://miyako-guide.net/spots/spots-840/
-    title: 宮古島観光協会 — 伊良部大橋
-    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-840/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.794986,125.256406; its place embed uses q=24.794986,125.256406. These are explicit destination coordinates, not a viewport centre.'
-  - url: https://miyako-island.net/charm/
-    title: 宮古島観光協会 — 宮古島の魅力
-    coordinateEvidence: https://miyako-island.net/charm/ confirms the bridge connects Miyako and Irabu and distinguishes viewpoints such as 牧山展望台. No separate coordinate extracted.
-  previousLocation:
-    latitude: 24.7992
-    longitude: 125.2333
-  verifiedLocation:
-    latitude: 24.794986
-    longitude: 125.256406
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取觀光協會伊良部大橋頁的原始 Google Maps href，數值指向宮古島側橋頭；主工作者即時 Google Maps 結果另有同名「伊良部大橋宮古島口」及平良久貝386-1地址佐證。保留官方陸側定位，不採用橋中央地標；縮小舊200公尺觸發半徑至80公尺。"
+  sources: [{"url":"https://miyako-guide.net/spots/spots-840/","title":"伊良部大橋","coordinateEvidence":"2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.co.jp/maps/place/24.794986, 125.256406。/place/目的地數值緯度24.794986、經度125.256406，非@視窗中心；逗號後空白原樣保留。"},{"url":"https://www.okinawastory.jp/about/miyako_area/irabu","title":"伊良部島","coordinateEvidence":"2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 即時Chrome頁面：伊良部大橋 宮古島","coordinateEvidence":"讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：結果／。結果需人工選擇同一陸側地標「伊良部大橋宮古島口」，原始href=https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%8F%A3/data=!4m7!3m6!1s0x34f455847296cc21:0xc35e2db59e855581!8m2!3d24.7950803!4d125.2564785!16s%2Fg%2F11fr_zpg9_!19sChIJIcyWcoRV9DQRgVWFnrUtXsM?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d24.7950803!4d125.2564785，地址平良久貝386-1，支持官方陸側圖釘而非取代它。"}]
+  previousLocation: {"latitude":24.7992,"longitude":125.2333}
+  verifiedLocation: {"latitude":24.794986,"longitude":125.256406}

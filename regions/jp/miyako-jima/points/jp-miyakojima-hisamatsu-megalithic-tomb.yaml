@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-hisamatsu-megalithic-tomb"
+  parentId: null
+  kind: "attraction"
+  title: "久松巨石墓群（久貝ぶさぎ）"
+  summary: "以官方標示的久貝墓體為觀察點，認識久松稱為「ぶさぎ」的巨石墓文化。"
+  narration: "眼前的大石板與石塊，先讓人想到一個很實際的問題：在沒有現代吊車的時代，人們怎麼把它們組成穩定的空間？久松地方把這類巨石墓稱作ぶさぎ，市府介紹的墓群跨越久貝、松原兩個地區，記錄到四座；我們停留的是官方圖釘所指的久貝側墓體，不是要沿著導航去找遍每一座。研究者大致把建造年代放在十四到十六世紀，至於技術怎麼發展，則有本地風葬墓逐漸變化、以及外來技術影響等不同解釋，還不能說只有一個答案。從允許通行的外側，看看蓋石如何搭在下方石塊上，接合處有沒有明顯的大小差別。大小不同的石材如何彼此支撐，正是這一站最耐看的細節；墓群也讓久松的聚落故事，多了一段留在石頭上的時間。"
+  observationPrompt: "在開放外側能看見蓋石與支撐石的接合嗎？只用目光比較石材尺度，不觸碰或攀爬。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "architecture"
+          label: "建築"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.785877
+    longitude: 125.264122
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採用官方久松巨石墓群頁的久貝側墓體圖釘，不代表四座墓的中心或通用入口；限公共通路及開放外側觀察，不入墓室或私人地塊。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.785877,125.264122"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 3
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.6
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo644/"
+    title: "【市指定：建造物】久松ミャーカ（巨石墓）群～ひさまつみゃーか（きょせきばか）ぐん～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "久松巨石墓群分布久貝、松原，官方記錄四座，當地稱ぶさぎ。"
+      - "研究推定創建於14至16世紀，來源與發展有不同學說。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/kenzoubutsu.html"
+    title: "宮古島市 — 建造物"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "久松巨石墓群（久貝ぶさぎ） 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo644/"
+      title: "【市指定：建造物】久松ミャーカ（巨石墓）群～ひさまつみゃーか（きょせきばか）ぐん～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=+24.785877,+125.264122&amp;aq=&amp;sll=24.801315,125.27667&amp;sspn=0.008736,0.016512&amp;gl=jp&amp;brcurrent=3,0x34f45460d4eb01bb:0x5490267926f21b48,0,0x34f4546e0406561b:0xade9ea090f0cc5&amp;ie=UTF8&amp;t=m&amp;ll=24.795306,125.268774&amp;spn=0.031167,0.047293&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.785877,125.264122；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/kenzoubutsu.html"
+      title: "宮古島市 — 建造物"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 久松巨石墓群（久貝ぶさぎ） 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.785877
+    longitude: 125.264122

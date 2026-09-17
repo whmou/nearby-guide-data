@@ -1,0 +1,138 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-susabi-myahka"
+  parentId: null
+  kind: "attraction"
+  title: "スサビミャーカ巨石墓"
+  summary: "伊良部村落東側的雙重石垣巨石墓，從石板接合看早期石工技術。"
+  narration: "大塊石材和比較整齊的石板，在這座墓裡各有不同的工作：宮古島市的解說將スサビミャーカ推定為約1600年建造，外圍石垣東西約十點八公尺、南北約七點二公尺，與內側石造形成兩重圍合的墓葬空間。官方調查還記下，石棺的四壁、底板和蓋板各用整片石板，底石接縫留有排水空隙，構造比遠看時更講究。至於墓主人是誰、為什麼建在這裡，宮古島市博物館的教材仍把它們列為待解的問題。內部細節可以透過解說理解；若從開放外側看得到，就比較石塊尺度與排列，不必走入墓室。這些沉默的石頭，既留下施工的線索，也保留了我們還不知道的部分。"
+  observationPrompt: "若開放外側能看見石垣，留意石塊尺度和排列；內側石棺、排水空隙以官方記錄理解，不為取得視野越界。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "architecture"
+          label: "建築"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.815724
+    longitude: 125.182905
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標為スサビミャーカ墓體的官方圖釘；僅循現場開放參觀動線在外側看石垣，不進墓室、不跨牆，祭掃或封閉時退讓。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.815724,125.182905"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 3
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.6
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo557/"
+    title: "【市指定：史跡】スサビミャーカ：巨石墓～すさびみゃーか：きょせきばか～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "約1600年建造，外圍雙重石垣外側約10.8×7.2公尺。"
+      - "石棺四壁、底及蓋各用石板，底板接合處有一處排水空隙。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki.html"
+    title: "宮古島市 — 史跡1～25"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "スサビミャーカ巨石墓 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+  -
+    id: "s3"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/files/h28oono01.pdf"
+    title: "宮古島市總合博物館 — 伊良部見學教材（PDF第5頁）"
+    publisher: "宮古島市総合博物館"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "教材將墓主人及建造位置理由列為尚待解答的問題；未確認家族身分。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+    - "編輯交叉核對F03/F05：更正市名，刪去未證家族身分與內外構造同時可見承諾；補讀博物館教材第5頁。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo557/"
+      title: "【市指定：史跡】スサビミャーカ：巨石墓～すさびみゃーか：きょせきばか～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.815724,+125.182905&amp;aq=&amp;sll=24.726775,125.354465&amp;sspn=0.008274,0.016512&amp;brcurrent=3,0x34f5ab7012b46135:0xf3d7eefc2c586ddd,0&amp;ie=UTF8&amp;t=m&amp;ll=24.82608,125.186205&amp;spn=0.03116,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.815724,125.182905；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki.html"
+      title: "宮古島市 — 史跡1～25"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 スサビミャーカ巨石墓 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.815724
+    longitude: 125.182905

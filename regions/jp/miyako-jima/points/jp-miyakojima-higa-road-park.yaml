@@ -1,0 +1,139 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-higa-road-park"
+  parentId: null
+  kind: "attraction"
+  title: "比嘉Road Park海岸展望休憩處"
+  summary: "在東岸道路的高處停下，從涼亭與公共展望空間欣賞海岸和遠方島影。"
+  narration: "海岸公路一路轉彎，到了這裡，先把車停好，再讓眼睛去旅行。比嘉Road Park是一處設有停車空間、涼亭和廁所的道路休憩點，觀光協會把它介紹為外周道路上的高處展望站，海岸不必走到水邊，也能看出開闊的尺度。資料還提到，朝左側遠方可以眺望大神島；是否能分辨島影，要看當天能見度，不必為了找它翻過護欄。這種小型休憩設施的價值，正是讓趕路的人有一個可以安心停下來的位置。先看近處地形，再把視線送向海平線，試試不同距離的輪廓怎麼重疊。附近雖有牧場，卻不是都對外開放，請留在公園公共範圍，不走進農地或牛舍，也不要站到車道上取景。"
+  observationPrompt: "從公共展望空間比較近岸地形、海平線與遠方島影；天候不佳時能辨認哪些層次？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "coast"
+          label: "海岸"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "viewpoint"
+          label: "景觀"
+  indoor: false
+  location:
+    latitude: 24.785332
+    longitude: 125.384118
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採觀光協會原始Google /maps/place/24.785332, 125.384118 的數字pin，並由live具名「比嘉ロードパーク」核對城辺身分；是休憩區地標，非牧場入口。車停指定區後步行看海，不進牛舍農地、不站車道。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.785332,125.384118"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "tourism"
+  distinctiveness:
+    score: 4
+    note: "外周道路上的高處休憩點，設停車場、廁所與涼亭。"
+    sources:
+      - "tourism"
+  interpretability:
+    score: 4
+    note: "從公共展望空間比較近岸地形、海平線與遠方島影；天候不佳時能辨認哪些層次？"
+    sources:
+      - "tourism"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "tourism"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "tourism"
+      - "city"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "tourism"
+    title: "比嘉ロードパーク"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-867/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "外周道路上的高處休憩點，設停車場、廁所與涼亭。"
+      - "觀光協會記載左側遠方可望大神島，但實際能見度依天候。"
+  -
+    id: "city"
+    title: "宮古馬：放牧場位置注意"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/miyakouma.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "比嘉Road Park西側約三百公尺有宮古馬牧場，附近另有禁止非工作人員進入的牛舍，不能混同。"
+  -
+    id: "google"
+    title: "比嘉ロードパーク｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/search/?api=1&query=%E6%AF%94%E5%98%89%E3%83%AD%E3%83%BC%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「比嘉ロードパーク」身分及地址相符；採官方實際數字pin 24.785332,125.384118。錨點為公共展望設施地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://miyako-guide.net/spots/spots-867/"
+      title: "比嘉ロードパーク"
+      coordinateEvidence: "EXACT raw href=https://www.google.co.jp/maps/place/24.785332, 125.384118；自官方 /maps/place/ 數字pin擷取24.785332,125.384118，非 @／ll 視窗中心。live Google heading「比嘉ロードパーク」、城辺地址另行核對。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/miyakouma.html"
+      title: "宮古馬：放牧場位置注意"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E6%AF%94%E5%98%89%E3%83%AD%E3%83%BC%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF"
+      title: "比嘉ロードパーク｜Google Maps 具名頁"
+      coordinateEvidence: "EXACT raw href=https://www.google.co.jp/maps/place/24.785332, 125.384118；自官方 /maps/place/ 數字pin擷取24.785332,125.384118，非 @／ll 視窗中心。live Google heading「比嘉ロードパーク」、城辺地址另行核對。"
+  verifiedLocation:
+    latitude: 24.785332
+    longitude: 125.384118

@@ -1,118 +1,133 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-miyako-traditional-textile
+  id: "jp-miyakojima-miyako-traditional-textile"
   parentId: null
-  kind: exhibit
-  title: "宮古上布"
-  summary: "宮古上布是日本指定重要無形文化財的手工苧麻織品，以細如髮絲的苧麻纖維手紡後在石上砑染，呈現獨特的深藍靛色光澤，是宮古島最具代表性的傳統工藝。"
-  narration: |
-    宮古上布的歷史可以追溯到十六世紀末，相傳宮古島女性為了繳納沉重的人頭稅，日以繼夜紡織苧麻布料，技藝因此精進到極致。一匹宮古上布從苧麻種植、纖維手剝、手紡細絲，到染色、織造、最後以珊瑚礁石反覆砑光，整個過程需要一位熟練職人耗費數個月乃至一年以上的工夫。
-
-    走進展示館，你可以近距離看到成品布料在光線下的流動感——那種半透明的深靛藍色，帶著細密的白色十字絣紋（ヤシラミ絣），是宮古上布最標誌性的圖案。觸摸展示樣品時會驚訝地發現，如此輕盈的布料卻有著難以置信的堅韌度。2003年被指定為日本國家重要無形文化財，目前全島登錄的織師不足三十人，每匹作品都是時間的沉澱。
-  observationPrompt: "在展示的宮古上布布料中，仔細找找看傳統的「ヤシラミ絣」十字紋——這個細小的白色十字圖案是識別真正宮古上布的關鍵特徵之一。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "exhibit"
+  title: "宮古上布（宮古島市伝統工芸品センター）"
+  summary: "在上野的傳統工藝品中心，從細緻苧麻線、絣紋與砧打光澤，讀懂宮古上布的手工時間。"
+  narration: "先別急著把深色布料看成普通藍布，靠近展示允許的位置，看看細線之間的紋樣，再換個角度留意表面光澤；宮古上布的工夫，常常就藏在這些不張揚的小地方。工藝中心介紹，原料是苧麻，纖維經手工績成細線、染色與織造，最後還要砧打，才形成像上了蠟般的光澤，不是把布放在珊瑚石上「砑染」就完成。這門技藝在一九七八年獲國家重要無形文化財指定，二〇〇三年另受保護的是績線技術，兩個年份說的是不同層次的保存工作。館內展示製作素材、工具與流程，試著把一件成品倒著想回一根植物纖維，就比較能理解時間花在哪裡。這裡是上野野原的現址，並非舊中心；織手養成室的作業參觀另有休息日，沒看見織工工作，也不表示那些細緻步驟不存在。\n"
+  observationPrompt: "在允許觀賞的展示前，找找苧麻原料、製作工具與成品紋樣；換個角度比較布面光澤，未經同意不要觸摸。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: indoor
-          label: 室內
-    - id: subject
-      label: 主題
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: history
-          label: 歷史文化
-    - id: experience
-      label: 體驗
+        -
+          id: "history"
+          label: "歷史文化"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 展示參觀
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "展示參觀"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: true
   location:
-    latitude: 24.7679089
-    longitude: 125.3235367
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7679089,125.3235367
+    latitude: 24.7690768
+    longitude: 125.3228393
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7690768,125.3228393"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 宮古織物事業協同組合所在的宮古島市伝統工芸品センター現址：上野字野原1190-188；建物地址 pin，非舊平良西里展示館，亦非精確門口。
+    rearmDistanceMeters: 1000
+  locationHint: "具名「宮古島市 伝統工芸品センター」建物 pin，上野字野原1190-188；不是官方嵌入地圖的概略地址點或精確門口。依現場入口到訪；作業見學另有休息日。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 5
-    note: "日本指定重要無形文化財，代表宮古島最高等級的傳統工藝傳承，具有無可取代的國家文化地位。"
-    sources: [src1]
+    score: 4
+    note: "宮古上布以苧麻纖維績線、染織，並以砧打完成具光澤的布面。"
+    sources:
+      - "src1"
   distinctiveness:
-    score: 5
-    note: "宮古上布的苧麻手紡、珊瑚礁砑光工法為世界絕無僅有，即便在日本各地織品中也無類似工藝。"
-    sources: [src1]
+    score: 4
+    note: "1978年國家重要無形文化財指定；2003年苧麻績線技術成為國選定保存技術。"
+    sources:
+      - "src1"
   interpretability:
     score: 4
-    note: "展示館有詳細的製程說明與織機展示，即使是非織品專家也能理解工藝的複雜度與歷史背景。"
-    sources: [src2]
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
   visitorValue:
-    score: 4
-    note: "視覺衝擊強，布料本身即具說服力；購買紀念品機會讓體驗更完整，但高昂售價可能令人卻步。"
-    sources: [src1]
+    score: 3
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
   evidenceQuality:
-    score: 4
-    note: "文化廳官方資料、博物館出版品及學術研究均有充分記載，證據品質高。"
-    sources: [src1, src2]
-  final: 4.6  # 0.30*5 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*4 = 1.50+1.25+0.80+0.60+0.40 = 4.55 → 4.6
+    score: 3
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 3.8
 sources:
-  - id: src1
-    title: "宮古上布 - 文化庁国指定重要無形文化財"
-    publisher: "文化庁"
-    url: https://bunka.nii.ac.jp/heritages/detail/213541
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyako-kougei.com/"
+    title: "宮古島市伝統工芸品センター"
+    publisher: "宮古島市伝統工芸品センター"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古上布於2003年被指定為日本國家重要無形文化財"
-      - "以苧麻手紡後砑光於珊瑚礁石的獨特工法為其主要特色"
-  - id: src2
-    title: "宮古上布 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E4%B8%8A%E5%B8%83
-    accessedAt: "2026-07-15"
-    language: ja
+      - "宮古上布以苧麻纖維績線、染織，並以砧打完成具光澤的布面。"
+      - "1978年國家重要無形文化財指定；2003年苧麻績線技術成為國選定保存技術。"
+      - "中心現址為上野字野原1190-188，展示素材、工具及製程；織造見學在週末與假日休息。"
+  -
+    id: "google-final-review"
+    title: "Google Maps — 宮古島市 伝統工芸品センター"
+    url: "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82+%E4%BC%9D%E7%B5%B1%E5%B7%A5%E8%8A%B8%E5%93%81%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/data=!4m7!3m6!1s0x34f456bfbf73f823:0xec350d26d616192c!8m2!3d24.7690768!4d125.3228393!16s%2Fg%2F11ckv9v4p9!19sChIJI_hzv79W9DQRLBkW1iYNNew"
+    publisher: "Google Maps（主流程公開Chrome實際開啟）"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古上布的歷史起源可追溯至十六世紀末，與宮古島人頭稅制度密切相關"
-      - "傳統的ヤシラミ絣十字圖案是宮古上布最具代表性的識別特徵"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-miyako-traditional-textile.webp
-    completePath: media/complete/jp-miyakojima-miyako-traditional-textile.webp
+      - "主流程 2026-09-16T15:28:54.690Z fresh-profile Chrome實際開啟具名頁「宮古島市 伝統工芸品センター」，place !3d24.7690768!4d125.3228393；原始URL留存於browser/final-selected.json。不是搜尋結果第一筆推定，也不是@視窗中心；不代表現場或旅期開放查驗。"
+
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "更正1978與2003年的文化財層次、砧打工法；刪除織師人數、指定十字紋為真偽判準與任意觸摸。"
+    - "移除原媒體紀錄：Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg主題是與那霸前濱，不是織物或工藝中心；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 matched the YAML's cooperative exhibition narrative to the cooperative's current public craft center. Official site explicitly warns that telephone navigation can select the old center. Adopted its current address feature coordinate, not the embedded map viewport 24.7677578666,125.2880108639. Approximately 140 m from YAML point; old Nishizato hint must be corrected.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "官方現址與展示服務已重新擷取；其iframe是上野野原1190-188概略地址feature，並未指明門口。本次以主線Chrome同地址、同電話的具名傳統工藝品中心 !3d24.7690768!4d125.3228393改作建物anchor；不是因小幅偏差更換官方入口。原採24.7679089,125.3235367為地址點，與新具名建物相距約148公尺；主線已實際開啟同名同址中心複核。 已補實際開啟具名地點頁的Google證據。"
   sources:
-  - url: https://miyako-kougei.com/
-    title: 宮古島市伝統工芸品センター公式：ご利用案内・アクセス
-    coordinateEvidence: 'Official site states cooperative, exhibitions and 上野字野原1190-188. Fetched its Google Maps iframe, then the iframe HTML initialization data: feature 0x34f456bfe1166953:0x1714b09107e3bf26, label Nobaru-1190-188 Ueno, Miyakojima, Okinawa 906-0201, associated coordinate array [24.7679089,125.3235367]. Not viewport !2d/!3d.'
+    -
+      url: "https://miyako-kougei.com/"
+      title: "宮古島市伝統工芸品センター"
+      coordinateEvidence: "重新取得現址與展示說明。原始 iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53154.07471800474!2d125.28801086396095!3d24.76775786663993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f456bfb7ac551d%3A0x391c7ffc9646d164!2z44CSOTA2LTAwMDAg5rKW57iE55yM5a6u5Y-k5bO25biC5LiK6YeO6YeO5Y6f77yR77yR77yZ77yQ4oiS77yR77yY77yY!5e0!3m2!1sja!2sjp!4v1489539059206；!2z為地址標籤，!2d125.28801086396095!3d24.76775786663993是viewport、不採。另重新HTTP抓取iframe，未將空白回應當視覺驗證。"
+    -
+      url: "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82+%E4%BC%9D%E7%B5%B1%E5%B7%A5%E8%8A%B8%E5%93%81%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/data=!4m7!3m6!1s0x34f456bfbf73f823:0xec350d26d616192c!8m2!3d24.7690768!4d125.3228393!16s%2Fg%2F11ckv9v4p9!19sChIJI_hzv79W9DQRLBkW1iYNNew"
+      title: "Google Maps — 宮古島市 伝統工芸品センター"
+      coordinateEvidence: "主流程 2026-09-16T15:28:54.690Z fresh-profile Chrome實際開啟具名頁「宮古島市 伝統工芸品センター」，place !3d24.7690768!4d125.3228393；原始URL留存於browser/final-selected.json。不是搜尋結果第一筆推定，也不是@視窗中心；不代表現場或旅期開放查驗。"
   previousLocation:
-    latitude: 24.7691
-    longitude: 125.3231
-  verifiedLocation:
     latitude: 24.7679089
     longitude: 125.3235367
+  verifiedLocation:
+    latitude: 24.7690768
+    longitude: 125.3228393

@@ -4,14 +4,10 @@ point:
   parentId: jp-miyakojima-irabu-island
   kind: venue
   title: "佐良浜かつお節文化"
-  summary: "佐良濱是伊良部島東北角的傳統漁村，以深海遠洋鰹魚漁業聞名，村民世代乘木造船遠赴南洋捕撈鰹魚，再返家製作柴魚片。這套延續數百年的海洋文化至今仍是村落的靈魂。"
+  summary: "佐良浜的鰹魚漁業與加工文化：地方文化地圖將鰹魚漁業起點記為1909年，今日產業介紹則說明當日往返的一本釣。"
   narration: |
-    踏入佐良濱村，空氣裡彷彿還殘留著曬柴魚的煙燻氣息。這個只有約三千人的小漁村，長期以來以一種幾乎不可思議的方式維持著它的傳統——男人出海，少則數週、多則數月；女人留守，等待漁獲，製作柴魚。這個循環週而復始，構成了佐良濱特有的時間感。
-
-    伊良部島的鰹魚漁業有著獨特的歷史淵源。在機動漁船普及之前，漁民駕著木帆船，憑藉著對洋流和星象的熟知，最遠可以航行至菲律賓或帛琉海域捕魚。捕回的鰹魚在船上進行初步的簡單處理，返港後再進行煮熟、煙燻、發酵等繁複工序，最終製成質地堅硬、香氣濃郁的本枯節。
-
-    今日的佐良濱設有幾處小型的柴魚節加工廠和展示設施，旅人可以近距離觀察傳統工序，有時甚至可以品嘗以在地柴魚片熬成的高湯。村落本身也值得漫步——石板路、老式漁具、海邊的晾魚架，構成一幅活生生的宮古漁村生活圖景。
-  observationPrompt: "在佐良濱的巷弄間走走，留意牆邊或院子裡是否有曬魚網、浮球或舊漁具——它們透露了什麼樣的漁業規模？"
+    如果在店裡看見「かつお節」和「なまり節」，先停一下，讀讀包裝上的名字：同樣從鰹魚出發，地方文化地圖卻把它們列成不同的加工品，而不是一概叫作柴魚片。佐良浜的鰹魚漁業也不是一句「傳承數百年」就能說清；觀光協會資料記載，它從明治四十二年，也就是一九○九年開始，大正時期發展興盛，昭和時代還留下前往南方海域作業的歷史。今天的產業介紹則說到當日往返的一本釣，提醒我們漁村生活一直在改變，不必把過去遠航的畫面套在每一艘船上。選購時不妨看看加工品名稱、產地與保存方式，讓餐桌和港口有一條看得見的連結。這裡講的是文化，不是已開放的工廠行程；想參觀製作，請先取得具名業者同意，也別走進作業區等候拍照。
+  observationPrompt: "在正常營業的販售場所讀包裝：寫的是かつお節、なまり節還是其他加工品？產地與保存方式有何不同？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -31,58 +27,49 @@ point:
       tags:
         - id: walking
           label: 漫步
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 佐良浜的鰹魚捕撈與加工文化屬區域／主題；任何工廠參訪皆須確認具名業者並取得許可。
+  locationHint: "佐良浜漁業與加工文化主題，沒有指定公共工廠、展示館或集合地點，不提供GPS。任何工廠參訪需具名業者許可，港口作業區不可自行進入。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "延續數百年的深海漁業與柴魚製作傳統，是宮古島最重要的非物質文化遺產之一"
-    sources: [src1]
+    note: "地方漁業及加工生活具有歷史價值。"
+    sources: ["irabumap","industry"]
   distinctiveness:
-    score: 5
-    note: "佐良濱的遠洋鰹魚文化在整個日本離島文化中屬罕見的完整傳承案例"
-    sources: [src1, src2]
+    score: 4
+    note: "鰹魚捕撈與地方加工品形成特色。"
+    sources: ["irabumap","industry"]
   interpretability:
     score: 4
-    note: "從出海路線、柴魚工序到等待丈夫的婦女生活，有豐富的敘事可供解說"
-    sources: [src1]
+    note: "年代與商品名稱能支持具體解說。"
+    sources: ["irabumap","industry"]
   visitorValue:
-    score: 4
-    note: "可漫步漁村、觀察工序、品嘗柴魚高湯，體驗宮古島最道地的漁業文化"
-    sources: [src2]
+    score: 2
+    note: "主題可行前認識，工廠參訪尚未確認。"
+    sources: ["irabumap","industry"]
   evidenceQuality:
-    score: 3
-    note: "有宮古島市史料及觀光協會資料佐證，漁業歷史有文獻可查"
-    sources: [src1, src2]
-  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.25+0.8+0.6+0.3 = 4.15 → 4.2
+    score: 4
+    note: "官方文化地圖及產業頁互補，但不代表參觀授權。"
+    sources: ["irabumap","industry"]
+  final: 3.7
 sources:
-  - id: src1
-    title: "佐良浜の鰹節文化 - 宮古島市史"
-    publisher: "宮古島市教育委員会"
-    url: https://www.city.miyakojima.lg.jp/soshiki/kyoiku/bunkazai/index.html
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "佐良濱自古以遠洋鰹魚漁業著稱，漁民最遠航行至東南亞海域"
-      - "柴魚節製作是佐良濱延續數百年的重要產業"
-  - id: src2
-    title: "佐良浜 - 宮古島観光協会"
+  - id: irabumap
+    title: "伊良部島・下地島文化散策マップ（2021年版）"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/sarahama/
-    accessedAt: "2026-07-15"
+    url: "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "佐良濱設有柴魚節加工廠與展示設施可供參觀"
-      - "村落漁具與石板路保留傳統漁村風貌"
+    supports: ["文化地圖記載佐良浜鰹魚漁業始於明治42年（1909），大正時期興盛，昭和時代有南方海域作業歷史。","文化地圖列出かつお節、なまり節等加工品及多處工廠，未建立本項的公共參觀許可。"]
+  - id: industry
+    title: "宮古島の産業"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/charm/industry/"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["觀光協會產業介紹記載佐良浜有當日往返的一本釣鰹魚漁業。"]
 media:
   - id: primary-image
     type: image
@@ -95,22 +82,14 @@ media:
     compactPath: media/compact/jp-miyakojima-irabu-katsuobushi.webp
     completePath: media/complete/jp-miyakojima-irabu-katsuobushi.webp
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","改正數百年歷史，刪除木帆船航行細節、性別分工、臆測煙味及可自由看製程喝高湯等說法。","保留 File:Irabu_sarahama_port.jpg 作佐良浜港的既有背景影像，不當作柴魚製程、工廠開放或2026現況證明；未重認證內容及授權。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: The tradition is real, but no particular public factory, display facility or village starting point is named. Do not replace cultural content with a guessed harbour or processing business.
-  sources:
-  - url: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf
-    title: 宮古島観光協会 — 伊良部島 cultural map
-    coordinateEvidence: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf describes 佐良浜 bonito fishing and multiple processing factories. No single coordinate is associated with the YAML's generic cultural experience.
-  - url: https://miyako-island.net/charm/industry/
-    title: 宮古島観光協会 — 宮古島の産業
-    coordinateEvidence: https://miyako-island.net/charm/industry/ corroborates 佐良浜's day-return pole-and-line bonito fishery, not an identified visitor venue. No coordinate extracted.
-  previousLocation:
-    latitude: 24.833
-    longitude: 125.217
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓2021文化地圖與觀光協會產業頁，文化及加工業存在，但舊文未指定可公開參觀的工廠或村落導覽起點。維持non_point，不以港口或任意加工店替換此主題。"
+  sources: [{"url":"https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf","title":"伊良部島・下地島文化散策マップ（2021年版）","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓2021文化地圖與觀光協會產業頁，文化及加工業存在，但舊文未指定可公開參觀的工廠或村落導覽起點。維持non_point，不以港口或任意加工店替換此主題。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://miyako-island.net/charm/industry/","title":"宮古島の産業","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓2021文化地圖與觀光協會產業頁，文化及加工業存在，但舊文未指定可公開參觀的工廠或村落導覽起點。維持non_point，不以港口或任意加工店替換此主題。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.833,"longitude":125.217}
   verifiedLocation: null

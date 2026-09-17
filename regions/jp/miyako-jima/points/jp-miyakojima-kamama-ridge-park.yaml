@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: attraction
   title: "カママ嶺公園"
-  summary: "カママ嶺公園是宮古島市區附近的小山丘公園，提供俯瞰平良市街與遠海的視角，是當地居民散步健身與欣賞夕陽的熱門地點。"
+  summary: "1976年由蒲間嶺丘陵整備而成的市民公園；大型風獅爺遊具之外，歌碑與文學碑讓散步多了一層地方記憶。"
   narration: |
-    カママ嶺公園坐落在平良市區東側的小丘陵上，從這裡可以俯瞰宮古島的市街風貌，視野延伸至遠方的海平面。公園內有整備完善的步道與休憩設施，清晨常見當地居民健走運動，傍晚則成為欣賞夕陽的絕佳地點。站在最高處的展望廣場，可以看見平良港的進出船隻，以及連接伊良部島的大橋輪廓。雖然這裡不是知名觀光勝地，但正因如此，旅客可以在此體驗不刻意包裝的宮古島日常生活氛圍，與當地人一同呼吸島嶼的清新空氣。公園全年免費開放，停車方便，距離市中心僅需幾分鐘車程。
-  observationPrompt: "在公園最高點向西方望去，你能看到平良港的停泊船隻嗎？天色若合適，注意觀察海面因光線角度而呈現的色彩變化。"
+    公園裡那隻大大的風獅爺，第一眼像是在守著山丘，走近才發現它也是孩子的溜滑梯。カママ嶺公園不只有遊具；宮古島市的導覽冊記載，這片原本林木茂密、叫作蒲間嶺的丘陵，在一九七六年成為公園，之後一直是市民休憩的地方。沿著開放步道慢慢找，你會遇到一座座石碑，其中有曾在宮古高中任教的俳人篠原鳳作句碑，也有記錄地方歌謠的「とうがにあやぐ」歌碑。把它們當成散落在戶外的書頁，不必讀懂每個字，也能先看看刻的是詩句、歌名，還是紀念日期。從大風獅爺走到小小的刻字，這個公園就不只是看海的高處，也是一個居民把文學、歌聲和日常放在一起的地方；遇到孩子玩耍，請把遊具空間留給他們。
+  observationPrompt: "沿公共步道找一座歌碑或句碑：刻字是短短幾行，還是較長的文字？能找到作者姓名或建立年份嗎？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -33,75 +33,58 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location: null
-  googleMapsUrl: null
-  trigger: null
-  locationHint: カママ嶺公園確為公共山丘公園。可接受地標圖釘，但尚未取得能明確對應此公園的官方數字座標。
+  location: {"latitude":24.79746,"longitude":125.2767831}
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.79746,125.2767831"
+  trigger: {"radiusMeters":80,"dwellMillis":2000,"rearmDistanceMeters":1000}
+  locationHint: "Google Maps「カママ嶺公園」具名公園地標（平良下里），不是精測停車場入口、風獅爺或特定石碑位置。依現場指示由公共入口進園；運動設施及封閉區另有使用限制。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島市區附近重要的公共休閒空間，兼具景觀眺望功能，但知名度以本地居民為主。"
-    sources: [src1]
+    note: "公共公園與地方文學、歌謠記憶並存。"
+    sources: ["kamama","kamamaevent"]
   distinctiveness:
-    score: 3
-    note: "提供俯瞰市街與海灣的視角，在宮古島市區觀景選項中有其位置，但整體特色有限。"
-    sources: [src1]
+    score: 4
+    note: "大型風獅爺與園內碑群特色鮮明。"
+    sources: ["kamama","kamamaevent"]
   interpretability:
-    score: 3
-    note: "公園環境直觀易懂，設施清晰，但缺乏深度解說。"
-    sources: [src1]
+    score: 4
+    note: "遊具與碑文有具體可觀察內容。"
+    sources: ["kamama","kamamaevent"]
   visitorValue:
     score: 3
-    note: "免費開放，適合短暫停留或傍晚散步，但對觀光旅客的吸引力屬中等。"
-    sources: [src1]
+    note: "公共公園可散步，個別運動設施不等於自由使用。"
+    sources: ["kamama","kamamaevent"]
   evidenceQuality:
-    score: 3
-    note: "有基本旅遊資訊記載，資料足夠但未達深入研究程度。"
-    sources: [src1]
-  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+    score: 5
+    note: "市政府導覽冊、觀光協會及即時具名Maps座標互證。"
+    sources: ["kamama","kamamaevent"]
+  final: 3.7
 sources:
-  - id: src1
-    title: "カママ嶺公園｜宮古島市公式観光情報"
-    publisher: "宮古島市観光商工課"
-    url: https://www.miyakojima-kankou.com/spot/kamama/
-    accessedAt: "2026-07-15"
+  - id: kamama
+    title: "綾道 平良南・松原・久貝 — カママ嶺公園（冊子24–25頁／PDF3頁）"
+    publisher: "宮古島市教育委員会"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "カママ嶺公園位於平良市區東側小丘，提供海景與市街眺望"
-      - "全年免費開放，設有步道與休憩設施"
-      - "夕陽時分為熱門觀景時段"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-kamama-ridge-park.webp
-    completePath: media/complete/jp-miyakojima-kamama-ridge-park.webp
+    supports: ["蒲間嶺原為林木茂密丘陵，1976年整備成公園。","園內有風獅爺溜滑梯、篠原鳳作句碑與とうがにあやぐ歌碑；篠原曾任宮古高中教師。"]
+  - id: kamamaevent
+    title: "第4回とうがにあやぐ大会（2018年・カママ嶺公園）"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/event/event-1023/"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["2018年第4回とうがにあやぐ大会明列カママ嶺公園內多目的廣場歌碑前為場地；不是2026活動公告。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","新驗證公園座標，不挪用觀光雜誌另一個圖釘或多場地活動的模糊位置。","不保證全年開放、固定人潮或所有天候均能看見橋港。","移除 File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg：與那霸前浜海灘不是カママ嶺公園；未新增照片或修改媒體檔。"]
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: City material verifies the park. A magazine supplies a candidate park coordinate, but the inspected official numeric map belongs to a historical event listing three different parks, not an unambiguous individual-park record. Unresolved for source/entity ambiguity, not merely lack of a separately surveyed entrance.
-  sources:
-  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf
-    title: 宮古島市 — カママ嶺公園 cultural walk
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf verifies the hill park and its monuments, but no numeric outdoor arrival coordinate extracted.
-  - url: https://www.tanoshima.jp/facilities/detail/kamamamine_park?category=spot
-    title: たのしま — カママ嶺公園
-    coordinateEvidence: https://www.tanoshima.jp/facilities/detail/kamamamine_park?category=spot links https://maps.google.co.jp/maps?q=24.7963499346,125.2771481518. Candidate only; not an official-source park pin; not adopted.
-  - url: https://www.okinawastory.jp/event/600014675
-    title: おきなわ物語 — 宮古島大会2024 (multiple venues)
-    coordinateEvidence: https://www.okinawastory.jp/event/600014675 has iframe q=24.79745865,125.2767868 and route daddr=24.79745865,125.2767868, but lists カママ嶺公園、トゥリバー海浜公園、うえのドイツ文化村 together. Historical multi-venue event pin is not confidently attributable to the exact park feature; NOT adopted.
-  previousLocation:
-    latitude: 24.7973591
-    longitude: 125.2768616
-  verifiedLocation: null
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "主工作者2026-09-16即時Chrome取得同名公園標題、平良下里地址及分享後的Google place !3d24.79746!4d125.2767831；市政府綾道冊PDF第3頁確認公園與園內設施，觀光協會單一場地活動頁也明列此園。採公園本體landmark，非單獨遊具／入口；解除舊有unresolved。"
+  sources: [{"url":"https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/18hiraraminami_kugai_2.pdf","title":"綾道 平良南・松原・久貝 — カママ嶺公園（冊子24–25頁／PDF3頁）","coordinateEvidence":"重新抓取市政府導覽冊PDF第3頁（冊子24–25頁），確認カママ嶺公園、1976年整備及碑群；無數值座標。"},{"url":"https://miyako-guide.net/event/event-1023/","title":"第4回とうがにあやぐ大会（2018年・カママ嶺公園）","coordinateEvidence":"重新抓取活動頁，唯一指定場地為カママ嶺公園多目的廣場歌碑前；具名地圖查詢只有名稱，不是數字座標，僅佐證場所。"},{"url":"https://www.google.com/maps/place/%E3%82%AB%E3%83%9E%E3%83%9E%E5%B6%BA%E5%85%AC%E5%9C%92/@24.79746,125.2767831,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45474441ee18f:0x640324a5785d3418!8m2!3d24.79746!4d125.2767831!16s%2Fg%2F119vm6xm3?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=35e89474-81f5-420e-9007-3ea8751ba236","title":"Google Maps — カママ嶺公園","coordinateEvidence":"讀取主工作者2026-09-16T13:36:55.600Z實際Chrome記錄。標題カママ嶺公園、地址沖縄県宮古島市平良下里。原始分享短連結=https://maps.app.goo.gl/2XTuiAYubRBEvDVx5；原始解析連結=https://www.google.com/maps/place/%E3%82%AB%E3%83%9E%E3%83%9E%E5%B6%BA%E5%85%AC%E5%9C%92/@24.79746,125.2767831,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45474441ee18f:0x640324a5785d3418!8m2!3d24.79746!4d125.2767831!16s%2Fg%2F119vm6xm3?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=35e89474-81f5-420e-9007-3ea8751ba236。採place資料!3d24.79746!4d125.2767831，不採@視窗中心；本體地標非風獅爺或入口精測。"}]
+  previousLocation: {"latitude":24.7973591,"longitude":125.2768616}
+  verifiedLocation: {"latitude":24.79746,"longitude":125.2767831}

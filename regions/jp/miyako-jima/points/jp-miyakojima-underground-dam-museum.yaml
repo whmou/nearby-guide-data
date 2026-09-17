@@ -1,0 +1,160 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-underground-dam-museum"
+  parentId: null
+  kind: "venue"
+  title: "宮古島地下水壩資料館"
+  summary: "用地層剖面、鑽探岩芯與影像，認識藏在地面下的農業水利工程。"
+  narration: "如果你來找一面高高的水壩，這裡可能會讓你先愣一下：宮古島的地下水壩，完成後從地面反而看不見。資料館就在福里，把那個看不見的工程，用影像、解說和地層剖面帶到眼前。市府介紹特別提到館內展示實際鑽探取得的岩芯；看著一段段岩石，比只聽「地下水」三個字，更容易想像腳下還有不同的地層。展覽也說明砂川、福里地下水壩的建造技術與結構，讓沿路農田和水利設施之間的關係變得具體。參觀時可以先找剖面上的地層，再對照岩芯，問自己：哪些東西在地面完全看不出來？這是收費資料館，不是地下工程探險入口；依開館與館內標示參觀，別自行走進鄰近水利設施。"
+  observationPrompt: "比較地層剖面與實物鑽探岩芯，哪一項展示最能幫你想像地面下的構造？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "engineering"
+          label: "工程"
+        -
+          id: "geology"
+          label: "地質教育"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "family"
+          label: "親子"
+    -
+      id: "access"
+      label: "入場"
+      tags:
+        -
+          id: "ticketed"
+          label: "需購票"
+  indoor: true
+  location:
+    latitude: 24.7392323
+    longitude: 125.3946688
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "Google具名「宮古島市地下ダム資料館」建物pin，地址城辺福里1645-8；不是地下壩體入口。由資料館標示入口購票參觀，開館與臨時休館先確認，不進工作設施。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7392323,125.3946688"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "city-story"
+  distinctiveness:
+    score: 4
+    note: "以影像、解說介紹砂川及福里地下水壩的施工技術、結構及地下水機制。"
+    sources:
+      - "city-story"
+  interpretability:
+    score: 4
+    note: "比較地層剖面與實物鑽探岩芯，哪一項展示最能幫你想像地面下的構造？"
+    sources:
+      - "city-story"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "city-story"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "city-story"
+      - "city-address"
+      - "bureau"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "city-story"
+    title: "施設、史跡等：地下ダム資料館"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/annai/sisetsu.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "以影像、解說介紹砂川及福里地下水壩的施工技術、結構及地下水機制。"
+      - "館內展示地層剖面與實物鑽探岩芯。"
+  -
+    id: "city-address"
+    title: "地下ダム資料館"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kurashi/shisetsu/koukyo/shisetu38.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "資料館地址城辺字福里1645-8；具名嵌入地圖feature與live Google一致。"
+  -
+    id: "bureau"
+    title: "ダムカード：宮古島市地下ダム資料館"
+    publisher: "内閣府沖縄総合事務局"
+    url: "https://www.ogb.go.jp/nousui/miyakoirabu/240113_5"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "地下壩完成後無法由地上觀看；資料館收費參觀。"
+  -
+    id: "google"
+    title: "宮古島市地下ダム資料館｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E5%9C%B0%E4%B8%8B%E3%83%80%E3%83%A0%E8%B3%87%E6%96%99%E9%A4%A8/@24.7392323,125.3946688,17z/data=!3m1!4b1!4m6!3m5!1s0x34f459d9c049df73:0xb336fc060a871e8!8m2!3d24.7392323!4d125.3946688!16s%2Fg%2F11btrs4zfx?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=2330a28a-2b02-4579-8d98-97f490f0c94d"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「宮古島市地下ダム資料館」身分及地址相符；採實際地點 !3d/!4d 24.7392323,125.3946688。錨點為具名設施地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/annai/sisetsu.html"
+      title: "施設、史跡等：地下ダム資料館"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kurashi/shisetsu/koukyo/shisetu38.html"
+      title: "地下ダム資料館"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.ogb.go.jp/nousui/miyakoirabu/240113_5"
+      title: "ダムカード：宮古島市地下ダム資料館"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E5%9C%B0%E4%B8%8B%E3%83%80%E3%83%A0%E8%B3%87%E6%96%99%E9%A4%A8/@24.7392323,125.3946688,17z/data=!3m1!4b1!4m6!3m5!1s0x34f459d9c049df73:0xb336fc060a871e8!8m2!3d24.7392323!4d125.3946688!16s%2Fg%2F11btrs4zfx?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=2330a28a-2b02-4579-8d98-97f490f0c94d"
+      title: "宮古島市地下ダム資料館｜Google Maps 具名頁"
+      coordinateEvidence: "EXACT raw Google share href=https://maps.app.goo.gl/tyMYjWx4JkvDQU2DA；實際resolvedShareUrl=https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E5%9C%B0%E4%B8%8B%E3%83%80%E3%83%A0%E8%B3%87%E6%96%99%E9%A4%A8/@24.7392323,125.3946688,17z/data=!3m1!4b1!4m6!3m5!1s0x34f459d9c049df73:0xb336fc060a871e8!8m2!3d24.7392323!4d125.3946688!16s%2Fg%2F11btrs4zfx?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=2330a28a-2b02-4579-8d98-97f490f0c94d；採地點 !3d24.7392323!4d125.3946688，不採 @ 視窗中心。live heading=宮古島市地下ダム資料館；地址與已抓取具名來源交叉核對。"
+  verifiedLocation:
+    latitude: 24.7392323
+    longitude: 125.3946688

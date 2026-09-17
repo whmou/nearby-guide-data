@@ -1,0 +1,127 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-sumurya-myakka"
+  parentId: null
+  kind: "attraction"
+  title: "Sumurya巨石墓（外觀）"
+  summary: "來間島長間家族的巨石墓，從蓋石與石柱理解宮古的墓葬建築。"
+  narration: "先看看頂上那塊大石板，再看看下方如何支撐，就能發現這不是把石頭隨意疊起來的地方。Sumurya巨石墓位在來間聚落南側，是長間家族的墓，官方介紹說，它一直使用到大正時代。整座墓大致呈長方形，東西約九公尺、南北約六點五公尺，頂部的板狀石頭約三點五乘三公尺；石柱上的溝痕，還讓研究者思考上方是否曾有木構造，不過這仍是推測，不能說成確定的原貌。墓內曾發現十四至十五世紀的青瓷碎片，提醒我們這座小島也留下了長遠的物質文化線索。參觀時從公共外側看看蓋石、石柱和整體比例就好，不探入墓室、不踩上石頭，記得這首先是一處家族安息的地方。"
+  observationPrompt: "從外側看，大蓋石與支撐石柱之間如何形成墓的輪廓？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "heritage"
+          label: "歷史古蹟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "quiet"
+          label: "靜謐"
+  indoor: false
+  location:
+    latitude: 24.720969
+    longitude: 125.247871
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採來間島Sumurya巨石墓本體 pin；僅從公開參觀動線外觀觀看，不進墓室、不登頂，不影響祭掃或跨入圍封區。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.720969,125.247871"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "指定文化財，具有可追溯的地方歷史價值。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  distinctiveness:
+    score: 4
+    note: "長間家族的巨石墓，官方記載曾使用至大正時代。"
+    sources:
+      - "heritage"
+  interpretability:
+    score: 3
+    note: "可由遺構外形與解說理解故事，部分細節需史料輔助。"
+    sources:
+      - "heritage"
+  visitorValue:
+    score: 2
+    note: "適合短暫文化停留；僅限公開外側，不保證內部開放或現場路況。"
+    sources:
+      - "heritage"
+  evidenceQuality:
+    score: 3
+    note: "已抓取官方詳介及另頁具名核對；地圖為官方 pin，非現地視覺驗證。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  final: 3.4
+sources:
+  -
+    id: "heritage"
+    title: "【県指定：史跡】スムリャーミャーカ"
+    publisher: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo617/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "長間家族的巨石墓，官方記載曾使用至大正時代。"
+      - "墓頂有大型板石，墓內曾出土十四至十五世紀青瓷碎片；木構上層僅屬推測。"
+      - "具名文化財地理位置及實際 Google Maps 圖釘。"
+  -
+    id: "corroboration"
+    title: "宮古島市の文化財：スムリャーミャーカ"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "同名文化財身分及所屬地區交叉核對。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際重新抓取來源，依明載事實編寫繁體中文口語導覽；未確認旅行當日開放、路況或活動。"
+    - "Google 原始連結已實際請求，但僅回傳需 JavaScript 頁面；以官方 pin 與另頁具名資料佐證，不宣稱視覺驗證。"
+    - "全新點 media: []，未新增照片或宣稱任何媒體授權已認證；待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "採宮古島市教育委員會公認文化財頁「【県指定：史跡】スムリャーミャーカ」實際 Google pin 24.720969,125.247871，另以具名官方資料核對身分；圖釘為遺構本體，僅外側公共參觀，並非洞內、墓室或導航入口。Google GET 回傳 JavaScript 提示，未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo617/"
+      title: "【県指定：史跡】スムリャーミャーカ"
+      coordinateEvidence: "本次抓取具名官方頁面的原始 Google Maps href：https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.720969,+125.247871&aq=&sll=24.81176,125.204942&sspn=0.017471,0.033023&gl=jp&brcurrent=3,0x34f4ff864cd815b3:0xb5e0a5f72e9c6343,0&ie=UTF8&t=m&ll=24.725394,125.249763&spn=0.015592,0.023561&z=15&iwloc=near；採 q 擷取 24.720969,125.247871。不採 ll／sll／@ 視窗中心；定位為文化財本體，非入口測量。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/ken.html"
+      title: "宮古島市の文化財：スムリャーミャーカ"
+      coordinateEvidence: "另行抓取具名文化財資料，核對同一文化財名稱及所屬地區；此頁作身分／地址佐證，不另提供入口座標。"
+  verifiedLocation:
+    latitude: 24.720969
+    longitude: 125.247871

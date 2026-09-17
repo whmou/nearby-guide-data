@@ -1,0 +1,137 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-shimanoeki-market"
+  parentId: null
+  kind: "venue"
+  title: "島の駅みやこ（久貝本店）"
+  summary: "從宮古麵條、島豆腐到地方點心，在同一間市場讀懂日常餐桌。"
+  narration: "餐廳端上一碗宮古麵之前，食材在島上長什麼樣子？到島の駅みやこ，答案就在貨架和冷藏櫃裡：店家介紹，這裡販售島內製麵所的宮古麵條，也有搭配用的滷肉、魚板與島豆腐；把原料和你吃過的那碗麵連起來，逛市場就多了一點尋寶的樂趣。再轉向點心區，傳統的さたぱんぴん，和加入紅芋、黑糖等地方食材的甜點放在同一個生活脈絡裡，既是伴手禮，也可能是居民平常買回家的小點心。這裡是久貝本店，不是機場裡的分店，官網也分別列出兩者。可以挑一樣不熟悉的食材，讀讀包裝上的產地、製造者和吃法；即使只帶走一小袋東西，也會比只記住「宮古很好吃」，多認識一點島上的餐桌。"
+  observationPrompt: "找一項吃過但沒看過原料的宮古食物，讀包裝上的製造者、產地與吃法。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: true
+  location:
+    latitude: 24.7958761
+    longitude: 125.2742848
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採Google具名島の駅みやこ本店圖釘；官網及Maps同址平良久貝870-1，不是宮古空港分店。從本店正式入口進入，停車依現場指示；食品供應與颱風營業調整以店家公告為準。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7958761,125.2742848"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具地方食材展示及市場生活價值。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "宮古麵、島豆腐與地方點心提供具體地方辨識。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 5
+    note: "可在正常購物動線讀包裝與比較食材。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 5
+    note: "具名本店可公開購物停留，品項和營業以當日為準。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 4
+    note: "營運者故事/地址與本日具名Maps互證，未保證全部商品現貨。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 4.1
+sources:
+  -
+    id: "s1"
+    url: "https://shimanoeki-miyako.com/introductions/"
+    title: "島の駅みやこ — ショップコンセプト"
+    publisher: "島の駅みやこ"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "營運者列出宮古麵條、滷肉、魚板及島豆腐等食材。"
+      - "介紹さたぱんぴん及紅芋、黑糖等地方素材點心。"
+  -
+    id: "s2"
+    url: "https://shimanoeki-miyako.com/access/"
+    title: "島の駅みやこ — アクセス・営業時間"
+    publisher: "島の駅みやこ"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "久貝870-1本店與宮古空港店為不同場所。"
+      - "本店設停車場，設施及各店鋪營業資訊分列。"
+  -
+    id: "s3"
+    url: "https://www.google.com/maps/place/%E5%B3%B6%E3%81%AE%E9%A7%85%E3%81%BF%E3%82%84%E3%81%93/@24.7958761,125.2742848,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45472355be705:0xfc38474f5fca05b5!8m2!3d24.7958761!4d125.2742848!16s%2Fg%2F12xq6s1q_?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=cf049ec7-c227-4776-bdab-171e77bbe9a4"
+    title: "Google Maps — 島の駅みやこ（久貝本店）"
+    publisher: "Google Maps"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本日具名地標、名稱/地址與 !3d/!4d座標核對；不是故事史料或開放保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：故事依已抓取營運者專頁新寫；具名Maps證據由主線本日公開瀏覽抓取提供並人工配對。"
+    - "review不是發布核准；營業、品項、現場動線仍受當日公告影響，未作街景或實地視覺核驗。"
+    - "新點 media: []；未借圖、未新增授權主張。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已讀取2026-09-16主線公開瀏覽器實抓的具名Google Maps結果，手工核對營運者/觀光協會名稱、地址或電話後採地標 !3d/!4d；不是 @ 視窗中心，亦不代表已確認入口門位、街景或現場視覺。"
+  sources:
+    -
+      url: "https://www.google.com/maps/place/%E5%B3%B6%E3%81%AE%E9%A7%85%E3%81%BF%E3%82%84%E3%81%93/@24.7958761,125.2742848,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45472355be705:0xfc38474f5fca05b5!8m2!3d24.7958761!4d125.2742848!16s%2Fg%2F12xq6s1q_?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=cf049ec7-c227-4776-bdab-171e77bbe9a4"
+      title: "Google Maps — 島の駅みやこ（久貝本店）"
+      coordinateEvidence: "本日共享公開瀏覽抓取中的精確具名URL：https://www.google.com/maps/place/%E5%B3%B6%E3%81%AE%E9%A7%85%E3%81%BF%E3%82%84%E3%81%93/@24.7958761,125.2742848,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45472355be705:0xfc38474f5fca05b5!8m2!3d24.7958761!4d125.2742848!16s%2Fg%2F12xq6s1q_?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=cf049ec7-c227-4776-bdab-171e77bbe9a4；提取 !3d24.7958761!4d125.2742848，不使用 @。來源QA/maps-candidate-leads.json，非本人實地或街景核驗。"
+    -
+      url: "https://shimanoeki-miyako.com/access/"
+      title: "島の駅みやこ — アクセス・営業時間"
+      coordinateEvidence: "久貝870-1本店與宮古空港店為不同場所。；本日已抓取全文並核對身分，不從此地址字串推算座標。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.7958761
+    longitude: 125.2742848

@@ -1,112 +1,135 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sunayama-sunset
+  id: "jp-miyakojima-sunayama-sunset"
   parentId: null
-  kind: view
-  title: "砂山展望台（日落景點）"
-  summary: "砂山海灘上方的丘陵展望台是宮古島本島最佳的夕陽觀賞地點，居高臨下可同時看見砂山灣的天然岩拱、蔚藍珊瑚礁海以及西沉於東海的橙金日落，是攝影愛好者必訪的黃金時刻聖地。"
-  narration: |
-    從砂山海灘停車場沿著木棧道爬上沙丘頂端，不過幾分鐘的腳程，視野便豁然開朗。站在展望台邊緣，腳下是砂山灣細白的月牙形沙灘，中央矗立著被海浪侵蝕出圓拱的珊瑚岩——那道天然岩拱在夕陽光線下像是鑲了金框，成為宮古島最具標誌性的剪影之一。
-
-    日落時分大約在下午六點半至七點半之間，視季節略有不同。太陽向地平線靠近時，天空的顏色以極快的速度變換：深藍的海面先染成亮橘，繼而轉為紫紅，最後一抹霞光消失前，整片海天交界線仿佛被點燃。展望台附近設有木製圍欄供人倚靠，不少旅人會在此久坐，靜靜等待那一刻的到來。建議日落前四十分鐘抵達，提早找好取景角度，避開岩拱正前方的逆光死角。
-  observationPrompt: "面向海灘中央的天然珊瑚岩拱門，觀察岩拱內透出的海水顏色——夕陽不同角度時，拱內的海面會呈現哪幾種不同的色調？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "view"
+  title: "砂山夕景（獨立展望台待確認）"
+  summary: "以砂山海灘的白沙丘與夕景為背景；獨立展望台及公共入口尚未確認，觀景只使用海灘當天開放範圍。"
+  narration: |-
+    砂山的海景要先走過一座白沙丘，到了坡頂之後，沙灘與海面才展開，這段高低轉折也是海岸景觀的一部分。傍晚若天氣合適，可以在海灘開放範圍留意天空、海面與岩石輪廓的變化；夕景介紹說的是這片海灘，獨立展望台及其公共入口仍待確認，請勿另外尋路登上高台。面向海時，左側的琉球石灰岩拱岩很醒目，但下方因落石與崩落風險禁止進入，只能從允許停留的地方遠觀，不跨欄、不穿拱取景。回程還要爬過沙丘，請保留腳力，趁能辨清通路時返回，不為等待夕陽逗留在封閉區。海岸會受潮汐與風浪影響，想安排傍晚散步，請使用砂山海灘的到訪資訊並遵守現場標示，不把看夕景延伸成涉水活動。
+  observationPrompt: "若已在砂山海灘的開放範圍，看看砂丘、海面與左側拱岩如何構成景觀；不跨欄、不穿拱，也不另尋高台。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 未確認敘述中的砂山木棧道展望台現址與開放狀態；不要把海灘 pin 當作台地邊緣或展望台位置。
+  locationHint: "獨立砂山展望台的公共入口尚未確認，不提供高台導航；若要到海灘看夕景，請另用砂山海灘資訊並遵守開放範圍。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "砂山展望台是宮古島本島觀看夕陽的代表性地點，珊瑚岩拱與夕陽組合為知名構圖，但全島尚有多個競爭日落景點。"
-    sources: [src1]
+    score: 1
+    note: "可證實海灘背景，獨立展望台未定。"
+    sources:
+      - "sunayama-association"
+      - "sunayama-local"
+      - "sunayama-safety"
   distinctiveness:
-    score: 4
-    note: "天然珊瑚岩拱門搭配夕陽的組合構圖在宮古島是獨一無二的視覺符號，照片辨識度極高。"
-    sources: [src1]
+    score: 1
+    note: "不借用海灘岩拱來證明另一處平台特色。"
+    sources:
+      - "sunayama-association"
+      - "sunayama-local"
+      - "sunayama-safety"
   interpretability:
-    score: 3
-    note: "純粹的自然景觀體驗，不需要特別說明即可感受；珊瑚岩拱的地質成因背景知識可加深理解。"
-    sources: [src2]
+    score: 1
+    note: "只能觀察已開放海灘的砂丘與告示。"
+    sources:
+      - "sunayama-association"
+      - "sunayama-local"
+      - "sunayama-safety"
   visitorValue:
-    score: 5
-    note: "免費、步行可達、拍照效果極佳，適合所有年齡與旅行風格；日落時刻短短二十分鐘但令人難忘。"
-    sources: [src1]
+    score: 0
+    note: "不提供未知平台的參訪路線。"
+    sources:
+      - "sunayama-association"
+      - "sunayama-local"
+      - "sunayama-safety"
   evidenceQuality:
-    score: 3
-    note: "旅遊網站資料豐富，地理及地質資料有沖縄縣政府出版品可查，整體可信度良好。"
-    sources: [src2]
-  final: 3.6  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 0.90+1.00+0.60+0.75+0.30 = 3.55 → 3.6
+    score: 1
+    note: "來源不能建立所述木製平台。"
+    sources:
+      - "sunayama-association"
+      - "sunayama-local"
+      - "sunayama-safety"
+  final: 0.9
 sources:
-  - id: src1
-    title: "砂山ビーチ - 宮古島観光ガイド"
+  - id: "sunayama-association"
+    title: "砂山ビーチ｜宮古島観光協会"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
-    language: ja
+    url: "https://miyako-guide.net/spots/spots-804/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "砂山海灘與其上方展望台是宮古島本島最受歡迎的夕陽觀賞地點之一"
-      - "海灘中央的天然珊瑚岩拱門是宮古島最具代表性的攝影地標"
-  - id: src2
-    title: "宮古島の地形と珊瑚礁地質"
-    publisher: "沖縄県立博物館・美術館"
-    url: https://www.museums.pref.okinawa.jp/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "隆起珊瑚礁形成洞穴，沙丘後為白沙海灘；西風時波浪增加，沖側有突然變深處。"
+      - "實際 GoogleMap href 為 https://www.google.co.jp/maps/place/24.839541,125.280693 。"
+  - id: "sunayama-local"
+    title: "砂山ビーチ【宮古島】｜たのしま"
+    publisher: "たのしま"
+    url: "https://www.tanoshima.jp/facilities/detail/sunayamabeach?category=spot"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島的岩拱地形由珊瑚礁石灰岩經長期海蝕侵蝕而成，為本島自然地景特色"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunayama_Beach_in_Miyako_Island_,_Okinawa_Pref._-_panoramio.jpg
-    creator: "JiroS."
-    license: "CC BY-SA 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
-    accessedAt: "2026-07-15"
-    originalSha256: "875174c6e79dbb88a3f4e1d79ef234e2c488137dd7dbf9819ea4a51ac585fc7a"
-    compactPath: media/compact/jp-miyakojima-sunayama-sunset.webp
-    completePath: media/complete/jp-miyakojima-sunayama-sunset.webp
+      - "重新抓取頁面仍提醒岩拱下方因落石、崩落危險禁止進入。"
+      - "有砂丘步道與夕景介紹，但未證實獨立、可公開到訪的砂山展望台。"
+  - id: "sunayama-safety"
+    title: "砂山ビーチ（宮古島）｜全国観光資源台帳"
+    publisher: "公益財団法人日本交通公社"
+    url: "https://tabi.jtb.or.jp/res/470063-"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "面海左側的琉球石灰岩拱岩為海灘地標。"
+      - "岩拱因落石與崩落風險，自2018年10月起限制進入；資料不建議遊泳。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除木棧道、木圍欄、固定日落時段、提早四十分鐘與岩拱前取景等無證據指示。"
+    - "移除重複的 Sunayama Beach 海灘照片記錄：未證明照片主體為這筆未辨識的展望台；海灘條目的既有照片另保留待審，未改二進位檔。"
+    - "編輯追補 F04/F08：標題明示獨立展望台待確認；以海灘夕景與安全提醒取代查核過程及未證實設施的回顧，保留unresolved及空定位，不建立第二個海灘抵達點。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact-name search found historical municipal planning/council references to a Sunayama viewpoint, including discussion of restoring access. These do not verify the current wooden-railed platform in YAML. Existing coordinate duplicates the beach; no explicit current viewpoint pin was established.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取砂山海灘官方及地方頁面，確認砂丘與岩拱安全限制，未取得獨立砂山展望台現行公共入口。主代理Google查詢回傳砂山海灘及多個不同展望台，無唯一符合原文的平台；舊市議會PDF本次抓取逾時，不以搜尋摘要補成已核實入口。"
   sources:
-  - url: https://www.city.miyakojima.lg.jp/gyosei/gikai/files/H3006dai5kaiteireikaikaigiroku.pdf
-    title: 平成30年6月宮古島市議会会議録：砂山ビーチの里道・展望台
-    coordinateEvidence: Searchable council record discusses restoration of the former path/viewpoint; no current exact coordinate. Historical existence must not be confused with a verified accessible platform today.
-  - url: https://www.okinawastory.jp/spot/1081
-    title: 砂山ビーチ｜おきなわ物語
-    coordinateEvidence: Explicit q=24.83953094,125.28069305 is the beach marker, not a separately established hilltop platform; not substituted.
+    - url: "https://miyako-guide.net/spots/spots-804/"
+      title: "砂山ビーチ｜宮古島観光協会"
+      coordinateEvidence: "原始 GoogleMap href=https://www.google.co.jp/maps/place/24.839541,125.280693；它是砂山海灘，不是獨立展望台，故拒絕採用。"
+    - url: "https://www.tanoshima.jp/facilities/detail/sunayamabeach?category=spot"
+      title: "砂山ビーチ【宮古島】｜たのしま"
+      coordinateEvidence: "頁面描述砂丘和夕景及岩拱禁入，未建立獨立木製高台座標。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E7%A0%82%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0%EF%BC%88%E6%97%A5%E8%90%BD%E6%99%AF%E9%BB%9E%EF%BC%89%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "砂山展望台｜Google Maps 實際查詢"
+      coordinateEvidence: "主代理fresh-profile Chrome結果含砂山ビーチ、平良荷川取593的展望台及西平安名崎等不同場所；未採任一候選或視窗中心。"
   previousLocation:
     latitude: 24.8395
     longitude: 125.2806

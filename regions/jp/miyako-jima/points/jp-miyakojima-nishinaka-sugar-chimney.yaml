@@ -1,0 +1,127 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-nishinaka-sugar-chimney"
+  parentId: null
+  kind: "attraction"
+  title: "舊西中共同製糖場煙囪"
+  summary: "留在田野間的製糖煙囪，記錄居民合力建廠與戰爭中斷生產的往事。"
+  narration: "田野裡這根獨自站著的煙囪，曾經不是風景，而是一座製糖工場最醒目的工作設備。西中共同製糖場在一九四二年成立，卻只運轉了兩三回，就被日軍強制接收而停工，戰後也沒有重新使用。官方介紹說，原本兩根煙囪如今只留下一根，旁邊還保存鍋爐冷卻用的蓄水槽；這些不太起眼的構造，把甘蔗變成糖的生產過程留了一小段給我們看。到了約一九六〇年，人們曾因受損的煙囪討論拆除，最後選擇留下它，紀念投入建廠的人。請在公共道路邊安全停留，看看磚砌的層次與煙囪和水槽的位置；不要穿過農田，也別貼近受風化的牆體，安靜讀一段被戰爭打斷的日常就好。"
+  observationPrompt: "從公共道路可見的角度，磚煙囪與旁邊蓄水槽各保留了哪些形狀？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "heritage"
+          label: "歷史古蹟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "quiet"
+          label: "靜謐"
+  indoor: false
+  location:
+    latitude: 24.755491
+    longitude: 125.362717
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "圖釘是舊製糖場煙囪本體，並非可開車進入的入口；僅從公共道路安全外觀觀看，不穿越農田、不攀爬或貼近遺構。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.755491,125.362717"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "指定文化財，具有可追溯的地方歷史價值。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  distinctiveness:
+    score: 4
+    note: "製糖場一九四二年成立，運轉兩三回後被日軍接收停工，戰後未復用。"
+    sources:
+      - "heritage"
+  interpretability:
+    score: 3
+    note: "可由遺構外形與解說理解故事，部分細節需史料輔助。"
+    sources:
+      - "heritage"
+  visitorValue:
+    score: 2
+    note: "適合短暫文化停留；僅限公開外側，不保證內部開放或現場路況。"
+    sources:
+      - "heritage"
+  evidenceQuality:
+    score: 3
+    note: "已抓取官方詳介及另頁具名核對；地圖為官方 pin，非現地視覺驗證。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  final: 3.4
+sources:
+  -
+    id: "heritage"
+    title: "【市指定：史跡】旧西中共同製糖場跡～きゅうにしなかきょうどうせいとうじょうあと～"
+    publisher: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo3494/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "製糖場一九四二年成立，運轉兩三回後被日軍接收停工，戰後未復用。"
+      - "原有兩根煙囪，現存一根及鍋爐冷卻蓄水槽，居民曾決定保存以紀念建廠者。"
+      - "具名文化財地理位置及實際 Google Maps 圖釘。"
+  -
+    id: "corroboration"
+    title: "文化遺産オンライン：旧西中共同製糖場煙突"
+    publisher: "文化庁"
+    url: "https://online.bunka.go.jp/heritages/detail/278430"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "同名文化財身分及所屬地區交叉核對。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際重新抓取來源，依明載事實編寫繁體中文口語導覽；未確認旅行當日開放、路況或活動。"
+    - "Google 原始連結已實際請求，但僅回傳需 JavaScript 頁面；以官方 pin 與另頁具名資料佐證，不宣稱視覺驗證。"
+    - "全新點 media: []，未新增照片或宣稱任何媒體授權已認證；待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "採宮古島市教育委員會公認文化財頁「【市指定：史跡】旧西中共同製糖場跡」實際 Google pin 24.755491,125.362717，另以具名官方資料核對身分；圖釘為遺構本體，僅外側公共參觀，並非洞內、墓室或導航入口。Google GET 回傳 JavaScript 提示，未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo3494/"
+      title: "【市指定：史跡】旧西中共同製糖場跡～きゅうにしなかきょうどうせいとうじょうあと～"
+      coordinateEvidence: "本次抓取具名官方頁面的原始 Google Maps href：https://goo.gl/maps/pNuMUKahxj82；短連結實際轉址 https://www.google.com/maps/place/24%C2%B045'19.8%22N+125%C2%B021'45.8%22E/@24.755491,125.362717,14z/data=!4m5!3m4!1s0x0:0x0!8m2!3d24.755491!4d125.362717?ll=24.755491,125.362717&z=14&t=m&hl=ja&gl=US&mapclient=embed&q=24%C2%B045'19.8%22N+125%C2%B021'45.8%22E@24.755491,125.362717&shorturl=1；採 !3d/!4d 擷取 24.755491,125.362717。不採 ll／sll／@ 視窗中心；定位為文化財本體，非入口測量。"
+    -
+      url: "https://online.bunka.go.jp/heritages/detail/278430"
+      title: "文化遺産オンライン：旧西中共同製糖場煙突"
+      coordinateEvidence: "另行抓取具名文化財資料，核對同一文化財名稱及所屬地區；此頁作身分／地址佐證，不另提供入口座標。"
+  verifiedLocation:
+    latitude: 24.755491
+    longitude: 125.362717

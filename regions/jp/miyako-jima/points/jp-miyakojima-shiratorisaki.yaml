@@ -1,122 +1,174 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-shiratorisaki
-  parentId: jp-miyakojima-irabu-island
-  kind: attraction
-  title: "白鳥崎"
-  summary: "白鳥崎是伊良部島最北端的海岬，設有白色燈塔一座，站在岬角可將東海與宮古海峽的遼闊海景盡收眼底，是島上少有的360度環繞視野展望地點。"
-  narration: |
-    沿著伊良部島北岸蜿蜒的道路一路行駛，在道路的盡頭，白鳥崎的白色燈塔會先出現在海天之際。這座燈塔矮矮的，造型樸實，卻在碧海藍天的映襯下顯得格外醒目。
-
-    岬角的地形是珊瑚礁隆起形成的石灰岩台地，表面覆著低矮的海濱植被，偶爾有白腹秧雞或紅燕鷗在附近的灌叢間穿梭。站在最前端的觀景點，左手邊是東海的無盡海面，右手邊可看到宮古海峽的洋流翻湧，在晴天中，兩片海水的顏色有時呈現出微妙的差異。
-
-    這裡距離佐良濱漁港很近，若時機合適，或許能看到漁船從岬角邊駛過、揚著浪花朝更遠的海域出發。燈塔本身不對外開放，但燈塔旁有一小塊平整草地，是午餐野餐或靜靜發呆的好去處。
-  observationPrompt: "站在岬角尖端，留意左右兩側海水的顏色是否有差異——試著判斷哪一側是東海、哪一側是宮古海峽。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  id: "jp-miyakojima-shiratorisaki"
+  parentId: "jp-miyakojima-irabu-island"
+  kind: "attraction"
+  title: "白鳥崎公園（白鳥崎岩礁海岸）"
+  summary: "從白鳥崎公園的開放步道，閱讀伊良部島西北的岩礁海岸；導航錨點是公園，不是標示閉業的舊岬角地標。"
+  narration: |-
+    先看海岸的輪廓：這裡吸引人的不是一座白色燈塔，而是岩壁、礁帶與海面彼此交接的線條。市教育委員會介紹，白鳥崎面向東海，外側有稱為白鳥干瀨的弧形岸礁；岩岸長期受到風化與侵蝕，讓原本藏在地下的不同地層有機會露出。把視線拉回腳邊的開放步道，可以試著比較岩石表面的凹凸、裂隙，以及植物選擇生長的位置，不必走到崖邊才看得懂這段地質故事。觀光協會把從フナウサギバナタ延伸到白鳥崎的一帶介紹為有步道和休憩處的西海岸公園。這次定位選的是白鳥崎公園，另有一枚同名岬角地標在地圖上標為閉業；請以現場告示為準，不往那個舊點探路，也不要離開步道踏上岩礁。海風強或有封閉標示時，留在安全範圍看海就好。
+  observationPrompt: "在公園開放步道上，找找岩壁裂隙、低矮植物與外側礁帶的形狀；不越欄、不朝閉業岬角探路。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
-    latitude: 24.8633995504
-    longitude: 125.162281179
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8633995504,125.162281179
+    latitude: 24.8651896
+    longitude: 125.1626357
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8651896,125.1626357"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 白鳥崎岬角地標 pin；供西海岸公園岸上眺望，非燈塔入口，切勿沿 GPS 直線走入礁岸或崖邊。
+    rearmDistanceMeters: 1000
+  locationHint: "白鳥崎公園具名到訪pin，鄰近官方白鳥崎岩礁海岸標示；不是東側白鳥崎西海岸公園，也不是標示閉業的舊白鳥崎岬角。僅使用現場開放步道，遇封閉就折返，不直切岩礁或崖緣。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "伊良部島最北端地標，具備地理位置象徵意義，但整體知名度屬地區性"
-    sources: [src1]
+    score: 4
+    note: "市指定名勝的地質與岩礁海岸。"
+    sources:
+      - "cape-heritage"
+      - "coastal-park"
+      - "cape-google"
+      - "cape-directory"
   distinctiveness:
-    score: 3
-    note: "白色燈塔加岬角景觀組合具一定辨識度，但在沖縄並非獨特類型"
-    sources: [src1]
+    score: 4
+    note: "弧形岸礁及不同岩層露頭具地方特色。"
+    sources:
+      - "cape-heritage"
+      - "coastal-park"
+      - "cape-google"
+      - "cape-directory"
   interpretability:
-    score: 3
-    note: "海景與燈塔直觀易賞，若補充航行史則解說潛力可提升"
-    sources: [src1]
+    score: 4
+    note: "可從公園步道觀察岩岸及植物。"
+    sources:
+      - "cape-heritage"
+      - "coastal-park"
+      - "cape-google"
+      - "cape-directory"
   visitorValue:
-    score: 3
-    note: "免費入場，視野開闊，適合環島路線中途停靠，停留時間約15分鐘"
-    sources: [src2]
+    score: 2
+    note: "存在同名閉業岬角候選，參訪需限於開放公園步道。"
+    sources:
+      - "cape-heritage"
+      - "coastal-park"
+      - "cape-google"
+      - "cape-directory"
   evidenceQuality:
-    score: 3
-    note: "有官方觀光資訊及地圖資料支持座標與描述"
-    sources: [src1, src2]
-  final: 3.0  # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.9+0.75+0.6+0.45+0.3 = 3.0
+    score: 4
+    note: "文化財、觀光協會與Google實際具名列表交叉核對。"
+    sources:
+      - "cape-heritage"
+      - "coastal-park"
+      - "cape-google"
+      - "cape-directory"
+  final: 3.7
 sources:
-  - id: src1
-    title: "白鳥崎灯台 - 日本燈台データベース"
-    publisher: "海上保安庁"
-    url: https://www6.kaiho.mlit.go.jp/miyakojima/lighthouse/shiraotori.html
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "cape-heritage"
+    title: "白鳥崎岩礁海岸地域｜綾道"
+    publisher: "宮古島市教育委員会公認文化財サイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo537/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "白鳥崎燈塔位於伊良部島北端，為航行安全設置的運作中燈塔"
-  - id: src2
-    title: "伊良部島ドライブマップ - 宮古島観光協会"
+      - "白鳥崎位於伊良部島西北，面向東海與弧形岸礁白鳥干瀨。"
+      - "岩礁海岸受風化、侵蝕，露出琉球石灰岩及較老地層，並有岩礁性植物。"
+      - "文化財頁實際 Google Maps q pin 為24.865383,125.163200，並非 ll 視窗中心。"
+  - id: "coastal-park"
+    title: "西海岸公園｜宮古島観光協会"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/shiratori-zaki/
-    accessedAt: "2026-07-15"
-    language: ja
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_010/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "白鳥崎是伊良部島環島自駕路線的北端景點"
-      - "可在此眺望東海與宮古海峽的海景"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "14753c000bc542ebceefd58df5c790363e81e1897201b701dc3026e2d638b486"
-    compactPath: media/compact/jp-miyakojima-shiratorisaki.webp
-    completePath: media/complete/jp-miyakojima-shiratorisaki.webp
+      - "フナウサギバナタ至白鳥崎一帶設為西海岸公園，設有休憩處與步道。"
+      - "地址為宮古島市伊良部佐和田；公園範圍不可與每一個同名 Google listing 混為同一位置。"
+  - id: "cape-google"
+    title: "白鳥崎公園｜Google Maps 具名地標"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E7%99%BD%E9%B3%A5%E5%B4%8E%E5%85%AC%E5%9C%92/data=!4m7!3m6!1s0x34f5ac5087f6ea0f:0x5c7b60e3c4ad69b3!8m2!3d24.8651896!4d125.1626357!16s%2Fg%2F11f3ynzw0r!19sChIJD-r2h1Cs9TQRs2mtxONge1w?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "主代理實際Google結果將白鳥崎公園、白鳥崎西海岸公園與白鳥崎分列；公園pin為24.8651896,125.1626357。"
+      - "舊白鳥崎景勝地listing顯示閉業，不能用作進入該岬角的指示。"
+  - id: "cape-directory"
+    title: "白鳥崎【伊良部島】｜たのしま"
+    publisher: "たのしま"
+    url: "https://www.tanoshima.jp/spot/shiratorisaki"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "具名岬角與岩礁海岸介紹；原始 Google Maps q=24.8633995504,125.162281179。"
+      - "此南側 pin 與本次採用的公園到訪錨點不同。"
+  -
+    id: "google-final-review"
+    title: "Google Maps — 白鳥崎公園"
+    url: "https://www.google.com/maps/place/%E7%99%BD%E9%B3%A5%E5%B4%8E%E5%85%AC%E5%9C%92/data=!4m7!3m6!1s0x34f5ac5087f6ea0f:0x5c7b60e3c4ad69b3!8m2!3d24.8651896!4d125.1626357!16s%2Fg%2F11f3ynzw0r!19sChIJD-r2h1Cs9TQRs2mtxONge1w"
+    publisher: "Google Maps（主流程公開Chrome實際開啟）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "主流程 2026-09-16T15:29:00.411Z fresh-profile Chrome實際開啟具名頁「白鳥崎公園」，place !3d24.8651896!4d125.1626357；原始URL留存於browser/final-selected.json。不是搜尋結果第一筆推定，也不是@視窗中心；不代表現場或旅期開放查驗。"
+
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "未證實白色燈塔與特定鳥種，均刪除；Google閉業標記記入提示，不以24h標記保證現場安全。"
+    - "移除 Irabu_sarahama_port.jpg：佐良濱港並非白鳥崎公園或岩礁海岸，未修改圖檔。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact named cape destination query from local tourism publisher, corroborated by official tourism association's description of the public coastal park extending to 白鳥崎. Original is approximately 740 m east. The claimed white lighthouse is not established and must not be used as the arrival cue.
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "本次改採白鳥崎公園的公共到訪錨點24.8651896,125.1626357，源自主代理Google實際具名place href，並以文化財海岸q=24.865383,125.163200（約61公尺）及觀光協會公園步道說明交叉核對。同名舊岬角24.8631199,125.1629139顯示閉業，原採地方目錄pin接近該處，故不再以其帶路；未改換成東側不同公園。 已補實際開啟具名地點頁的Google證據。"
   sources:
-  - url: https://www.tanoshima.jp/spot/shiratorisaki
-    title: 白鳥崎｜宮古島観光情報たのしま
-    coordinateEvidence: Fetched HTML under 白鳥崎【伊良部島】 gives href=https://maps.google.co.jp/maps?q=24.8633995504,125.162281179. Named cape q pin, not viewport or inferred offset.
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_010/
-    title: 西海岸公園｜宮古島観光協会
-    coordinateEvidence: Corroborates 白鳥崎 as the end of a coastal park with paths/rest areas. Its different park marker (24°51′51.8″N 125°09′58.8″E) was NOT substituted for the cape pin.
+    -
+      url: "https://www.google.com/maps/place/%E7%99%BD%E9%B3%A5%E5%B4%8E%E5%85%AC%E5%9C%92/data=!4m7!3m6!1s0x34f5ac5087f6ea0f:0x5c7b60e3c4ad69b3!8m2!3d24.8651896!4d125.1626357!16s%2Fg%2F11f3ynzw0r!19sChIJD-r2h1Cs9TQRs2mtxONge1w"
+      title: "Google Maps — 白鳥崎公園"
+      coordinateEvidence: "主流程 2026-09-16T15:29:00.411Z fresh-profile Chrome實際開啟具名頁「白鳥崎公園」，place !3d24.8651896!4d125.1626357；原始URL留存於browser/final-selected.json。不是搜尋結果第一筆推定，也不是@視窗中心；不代表現場或旅期開放查驗。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo537/"
+      title: "白鳥崎岩礁海岸地域｜綾道"
+      coordinateEvidence: "EXACT raw href=https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=+24.865383,+125.163200&aq=&sll=24.814238,125.141848&sspn=0.033071,0.066047&brcurrent=3,0x34f5ac5a5d99f7a3:0x9f538bb3365cb121,0&ie=UTF8&t=m&ll=24.883633,125.170841&spn=0.06229,0.094242&z=13&iwloc=near ; q=24.865383,125.163200為文化財海岸pin；ll=24.883633,125.170841為視窗中心，不採用。文化財pin距採用公園pin約61公尺，只用作同一海岸佐證，不稱入口。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_010/"
+      title: "西海岸公園｜宮古島観光協会"
+      coordinateEvidence: "實際抓取確認該海岸公園一帶設有步道與休憩處；其較東側公園整體marker不覆蓋個別到訪錨點。"
+    -
+      url: "https://www.tanoshima.jp/spot/shiratorisaki"
+      title: "白鳥崎【伊良部島】｜たのしま"
+      coordinateEvidence: "EXACT raw href=https://maps.google.co.jp/maps?q=24.8633995504,125.162281179；本次直接GET僅返回需JavaScript訊息。此南側pin不再採用，以避開閉業岬角候選的抵達誤導。"
   previousLocation:
     latitude: 24.8636
     longitude: 125.1696
   verifiedLocation:
-    latitude: 24.8633995504
-    longitude: 125.162281179
+    latitude: 24.8651896
+    longitude: 125.1626357

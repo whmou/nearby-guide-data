@@ -1,109 +1,184 @@
-﻿schemaVersion: 1
+schemaVersion: 1
 point:
-  id: jp-miyakojima-sunayama-beach
+  id: "jp-miyakojima-sunayama-beach"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "砂山ビーチ（砂山海灘）"
-  summary: "以巨大天然拱形岩石聞名的秘境海灘，白色珊瑚沙灣與碧藍海水相映，拱岩本身是宮古島最具辨識度的自然地標之一；請從開放的海灘範圍欣賞，不要穿越岩拱。"
-  narration: |
-    砂山海灘得名於入口處那座高聳的沙丘，停好車後沿階梯翻越一座沙丘，便可俯瞰整個海灣。海灘中央矗立著一塊天然形成的拱形岩石，珊瑚岩被海浪侵蝕成圓弧形，陽光從拱洞打進來，形成只有在特定角度才能拍到的絕美構圖。拱岩兩側的海水格外清澈，珊瑚礁碎石讓海底紋理清晰可見。觀賞與散步都應遵守現場開放範圍及警示，不進入岩拱下方或跨越圍欄；海況不佳時不要接近水邊。
-  observationPrompt: "從允許停留的海灘範圍遠觀天然岩拱，留意光線如何改變岩石與海面的色彩；不要為了取景穿越岩拱、跨越圍欄或進入封閉區。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "越過白沙丘才展開的小海灣，左側琉球石灰岩拱岩是辨識重點；從開放沙灘遠觀，不進入岩拱下方。"
+  narration: |-
+    砂山的第一個看點，其實是那座得用雙腳越過的白沙丘：海不是一路攤在眼前，而是在坡頂之後才打開。面向海時，左手邊那塊中央掏空的大岩，讓小小的海灣有了容易記住的輪廓；宮古島觀光協會把它介紹為隆起珊瑚礁形成的洞穴，日本交通公社則明確指出它是琉球石灰岩。漂亮的拱形也提醒人，岩石仍會風化、落下，因此拱岩區因落石與崩落風險受到管制，不能把穿過洞口當成拍照路線。不妨從允許停留的沙灘，比較岩石外緣、洞口和海面的形狀，看看一個空洞怎麼改變整片海岸的構圖。回程還要再上沙丘，請替腳力留點餘裕；海上有突然變深的地方，這一站以岸上觀景為主，海色再透也不是安全下水的保證。
+  observationPrompt: "在圍欄外的開放沙灘，辨認面海左側拱岩的外緣與洞口；不要穿越岩拱，也不跨欄取景。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: photography
-          label: 攝影
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+        - id: "photography"
+          label: "攝影"
+        - id: "walking"
+          label: "步行"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.83953094
     longitude: 125.28069305
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.83953094,125.28069305
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.83953094,125.28069305"
   trigger:
-    radiusMeters: 100.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 砂山ビーチ官方海灘地標 pin，非岩拱穿越路線；循現場砂丘步道與封閉標示，勿進入受管制岩拱下方。
+    rearmDistanceMeters: 1000
+  locationHint: "砂山海灘的官方地標pin，非停車場入口或岩拱穿越點；循現場開放砂丘通路抵達，岩拱下方禁止進入，海況與封閉標示優先。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "宮古島代表性自然景觀，拱形岩石是宮古島觀光的標誌性意象，廣泛出現在宮古島旅遊宣傳素材。"
-    sources: [sunayama-miyakojima-guide]
+    note: "具有宮古島代表性沙丘與岩岸景觀。"
+    sources:
+      - "sunayama-ocvb"
+      - "sunayama-association"
+      - "sunayama-safety"
+      - "sunayama-local"
+      - "sunayama-google"
   distinctiveness:
-    score: 5
-    note: "天然珊瑚礁拱岩造型獨一無二，是宮古島無可取代的自然地標，世界各地極少有類似尺度的海灘拱石。"
-    sources: [sunayama-miyakojima-guide]
+    score: 4
+    note: "沙丘後的小海灣及拱岩有辨識性，不宣稱全球唯一。"
+    sources:
+      - "sunayama-ocvb"
+      - "sunayama-association"
+      - "sunayama-safety"
+      - "sunayama-local"
+      - "sunayama-google"
   interpretability:
     score: 4
-    note: "拱岩形態清晰易辨，視覺震撼自明，地質成因（珊瑚礁受海浪侵蝕）可透過觀察岩石紋理推敲。"
-    sources: [sunayama-miyakojima-guide]
+    note: "岩拱與沙丘容易從合法位置理解。"
+    sources:
+      - "sunayama-ocvb"
+      - "sunayama-association"
+      - "sunayama-safety"
+      - "sunayama-local"
+      - "sunayama-google"
   visitorValue:
-    score: 4
-    note: "免費進入，停車場完善，有洗手台設施，翻越沙丘的短程步道體能要求低。"
-    sources: [sunayama-miyakojima-guide]
+    score: 3
+    note: "需翻越沙丘，岩拱及水域有安全限制。"
+    sources:
+      - "sunayama-ocvb"
+      - "sunayama-association"
+      - "sunayama-safety"
+      - "sunayama-local"
+      - "sunayama-google"
   evidenceQuality:
     score: 4
-    note: "宮古島市觀光協會及沖縄縣觀光資料均收錄，地理資訊清晰。"
-    sources: [sunayama-miyakojima-guide]
-  final: 4.3
-  # 0.30×4 + 0.25×5 + 0.20×4 + 0.15×4 + 0.10×4 = 1.20+1.25+0.80+0.60+0.40 = 4.25 → 4.3
+    note: "多個實際取得的官方及專業觀光頁與Google具名地址相符。"
+    sources:
+      - "sunayama-ocvb"
+      - "sunayama-association"
+      - "sunayama-safety"
+      - "sunayama-local"
+      - "sunayama-google"
+  final: 3.9
 sources:
-  - id: sunayama-miyakojima-guide
-    title: "砂山ビーチ 観光スポット"
-    publisher: "宮古島市観光協会"
-    url: https://miyako-guide.net/spot/sunayama/
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "sunayama-ocvb"
+    title: "砂山ビーチ｜おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/spot/1081"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島北部著名海灘，以天然拱形珊瑚岩著稱"
-      - "免費入場，設有停車場"
+      - "砂山海灘須越過白沙丘，距平良市街約4公里。"
+      - "具名海灘嵌入地圖 q=24.83953094,125.28069305；地址平良字荷川取。"
+  - id: "sunayama-association"
+    title: "砂山ビーチ｜宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-804/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "隆起珊瑚礁形成洞穴，沙丘後為白沙海灘；西風時波浪增加，沖側有突然變深處。"
+      - "實際 GoogleMap href 為 https://www.google.co.jp/maps/place/24.839541,125.280693 。"
+  - id: "sunayama-safety"
+    title: "砂山ビーチ（宮古島）｜全国観光資源台帳"
+    publisher: "公益財団法人日本交通公社"
+    url: "https://tabi.jtb.or.jp/res/470063-"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "面海左側的琉球石灰岩拱岩為海灘地標。"
+      - "岩拱因落石與崩落風險，自2018年10月起限制進入；資料不建議遊泳。"
+  - id: "sunayama-local"
+    title: "砂山ビーチ【宮古島】｜たのしま"
+    publisher: "たのしま"
+    url: "https://www.tanoshima.jp/facilities/detail/sunayamabeach?category=spot"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "重新抓取頁面仍提醒岩拱下方因落石、崩落危險禁止進入。"
+      - "有砂丘步道與夕景介紹，但未證實獨立、可公開到訪的砂山展望台。"
+  - id: "sunayama-google"
+    title: "砂山ビーチ｜Google Maps 具名地標"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E7%A0%82%E5%B1%B1%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f453b561c137fb:0x9c1e4aff2f1eb6f6!8m2!3d24.8395634!4d125.2806924!16s%2Fg%2F12143xrr!19sChIJ-zfBYbVT9DQR9rYeL_9KHpw?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "主代理fresh-profile Chrome具名結果為砂山ビーチ，地址平良荷川取；place href !3d24.8395634!4d125.2806924。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunayama_Beach_in_Miyako_Island_,_Okinawa_Pref._-_panoramio.jpg
+  - id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Sunayama_Beach_in_Miyako_Island_,_Okinawa_Pref._-_panoramio.jpg"
     creator: "JiroS."
     license: "CC BY-SA 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
     accessedAt: "2026-07-15"
     originalSha256: "875174c6e79dbb88a3f4e1d79ef234e2c488137dd7dbf9819ea4a51ac585fc7a"
-    compactPath: media/compact/jp-miyakojima-sunayama-beach.webp
-    completePath: media/complete/jp-miyakojima-sunayama-beach.webp
+    compactPath: "media/compact/jp-miyakojima-sunayama-beach.webp"
+    completePath: "media/complete/jp-miyakojima-sunayama-beach.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "改為岩拱位於面海左側，不再寫海灘中央；刪除階梯與穿拱指示；觸發半徑由100縮為80公尺。"
+    - "明確排除觀光協會新站的錯置南側地圖，不能因官方來源就照單採用。"
+    - "保留既有 Sunayama_Beach_in_Miyako_Island_,_Okinawa_Pref._-_panoramio.jpg，檔名吻合海灘；本次未重新認證作者、授權或影像是否反映現行圍欄。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official tourism exact place query agrees within approximately 12 m. Coordinate verification does not approve the YAML's instruction to pass through the rock arch.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取觀光局place q=24.83953094,125.28069305，保留原已核對海灘pin。觀光協會舊站原始place連結相差約1公尺，主代理Google實際具名地標!3d24.8395634!4d125.2806924相差約4公尺，名稱及荷川取地址相符。新站beach_spot_001誤嵌南側24.7212附近DMS標籤，明確排除。"
   sources:
-  - url: https://www.okinawastory.jp/spot/1081
-    title: 砂山ビーチ｜おきなわ物語
-    coordinateEvidence: HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.83953094,125.28069305&zoom=16; named place marker q.
+    - url: "https://www.okinawastory.jp/spot/1081"
+      title: "砂山ビーチ｜おきなわ物語"
+      coordinateEvidence: "2026-09-16 HTTP200重新抓取HTML，iframe /maps/embed/v1/place 的 q=24.83953094,125.28069305、zoom=16；採明確place q而非viewport。未呼叫含網站金鑰的API，金鑰不轉存。"
+    - url: "https://miyako-guide.net/spots/spots-804/"
+      title: "砂山ビーチ｜宮古島観光協会"
+      coordinateEvidence: "EXACT raw href=https://www.google.co.jp/maps/place/24.839541,125.280693；從/place/數值解析24.839541,125.280693，與採用q約1公尺差。直接GET僅返回需JavaScript頁，未宣稱視覺核對。"
+    - url: "https://www.google.com/maps/place/%E7%A0%82%E5%B1%B1%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f453b561c137fb:0x9c1e4aff2f1eb6f6!8m2!3d24.8395634!4d125.2806924!16s%2Fg%2F12143xrr!19sChIJ-zfBYbVT9DQR9rYeL_9KHpw?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+      title: "砂山ビーチ｜Google Maps 具名地標"
+      coordinateEvidence: "EXACT raw href=https://www.google.com/maps/place/%E7%A0%82%E5%B1%B1%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f453b561c137fb:0x9c1e4aff2f1eb6f6!8m2!3d24.8395634!4d125.2806924!16s%2Fg%2F12143xrr!19sChIJ-zfBYbVT9DQR9rYeL_9KHpw?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1 ; 主代理實際瀏覽器具名砂山ビーチ，地址平良荷川取；!3d24.8395634!4d125.2806924為具名pin，與採用官方q相差約4公尺。"
+    - url: "https://miyako-island.net/beach_and_spot/beach_spot_001/"
+      title: "砂山ビーチ｜宮古島観光協会新站（錯誤地圖排除）"
+      coordinateEvidence: "實際HTML內嵌feature標籤解碼24°43′16.3″N 125°15′27.2″E，落在南側海岸，與荷川取地址及其他具名資料不符；不採24.7212附近marker，也不採iframe viewport。 EXACT rejected raw iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.165495593316!2d125.25756500000001!3d24.721197999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1805f7bfad68f5d8!2zMjTCsDQzJzE2LjMiTiAxMjXCsDE1JzI3LjIiRQ!5e0!3m2!1sja!2sjp!4v1674024438973!5m2!1sja!2sjp"
   previousLocation:
     latitude: 24.839485
     longitude: 125.280581

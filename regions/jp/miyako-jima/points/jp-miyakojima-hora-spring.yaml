@@ -1,104 +1,191 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-hora-spring
+  id: "jp-miyakojima-hora-spring"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "保良泉"
-  summary: "保良泉是宮古島南岸的天然淡水湧泉奇景，泉水在海岸邊與海水交會，形成可入內探索的鐘乳石洞穴，並提供絕佳的海岸浮潛體驗。"
-  narration: |
-    保良泉（ほらがー）是宮古島南部海岸最神奇的自然景觀之一。這裡的天然泉水從石灰岩地層滲出，在海邊形成淡水與海水交融的獨特環境。更難得的是，泉水出口附近發育了可供遊客進入的鐘乳石洞穴，洞內鐘乳石與石筍發育完整，滴水聲在幽暗洞室中迴響，令人印象深刻。洞穴出口緊鄰宮古藍的海岸，出洞後即可換裝下水浮潛，珊瑚礁和熱帶魚近在眼前。由於保良泉需要購票進入，且有專人解說與安全管理，整體體驗品質穩定。淡水湧泉與鐘乳石洞的組合，在宮古島眾多自然景點中堪稱最具震撼力的地質奇景。
-  observationPrompt: "在洞穴內抬頭仰望，你能分辨哪些是向下生長的鐘乳石、哪些是向上生長的石筍嗎？聆聽水滴聲，感受洞內的溫度與外面海風的差異。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: mixed
-          label: 室內外混合
-    - id: subject
-      label: 主題
+        -
+          id: "mixed"
+          label: "室內外混合"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 購票入場
+        -
+          id: "ticketed"
+          label: "購票入場"
   indoor: false
-  location: null
-  googleMapsUrl: null
-  trigger: null
-  locationHint: 選定定位點前，請先區分湧泉／海灘與需導覽的洞穴體驗。
+  location:
+    latitude: 24.7301684
+    longitude: 125.4319768
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7301684,125.4319768"
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "保良泉ビーチパーク遊客區具名圖釘，地址城辺保良1139-1，代表天然湧水泳池與海岸旁設施，不是泉眼、洞穴或停車場座標。泳池採營業管理，出發前查復業／臨時公告及付費規定；業者停車場僅供泳池使用者。"
+  summary: "保良泉（ボラガー）的天然湧水被引入人工淡水泳池；定位採海灘公園遊客區，與海上洞穴行程分開。"
+  narration: |
+    在保良泉，可以先找一個很有意思的對照：一邊是海，另一邊卻是利用天然湧水的人工淡水泳池。它不是把海水圈起來，也不是走進鍾乳洞就會遇到的地下湖。市府與觀光協會都把這裡介紹為湧水泳池旁的海岸，讓泉水成為人可以使用的遊憩空間。保良泉的在地名稱寫作ボラガー；讀懂名字之後，更重要的是分清場所。地圖上的保良泉海灘公園，是泳池與海岸附近的遊客區，不是泉眼、洞口，也不是每一家海上行程固定報到的地方。現任業者由二〇二五年開始營運，官網亦曾刊登停業後預定復業的公告，所以不要只看舊遊記就直接抵達。出發前確認泳池是否開放、是否需要付費，以及可使用哪個停車場；到了現場，從允許停留處觀察人工池邊與自然海岸的差別，就能看見同一股水如何接上島上的日常休閒。
+  observationPrompt: "在開放遊客區比較人工泳池與前方海岸的邊界；核對當天營運及停車限制，不把海灘公園當洞穴入口。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "天然淡水湧泉與鐘乳石洞穴組合是宮古島稀有的地質奇景，具有高度自然科學價值。"
-    sources: [src1]
+    score: 3
+    note: "天然湧水的公共遊憩利用有地方生活意義。"
+    sources:
+      - "bora-pool"
+      - "bora-access"
   distinctiveness:
-    score: 5
-    note: "淡水湧泉出口緊鄰海岸、可進入的鐘乳石洞穴，在日本離島中屬極為罕見的組合景觀。"
-    sources: [src1]
+    score: 3
+    note: "淡水泳池與海岸相鄰可形成清楚對照。"
+    sources:
+      - "bora-pool"
+      - "bora-access"
   interpretability:
-    score: 3
-    note: "有專人導覽解說，幫助旅客理解地質背景，但洞穴環境需要一定安全意識。"
-    sources: [src1]
-  visitorValue:
     score: 4
-    note: "洞穴探索加上海岸浮潛的雙重體驗，對各類旅客都能提供高價值的獨特回憶。"
-    sources: [src1]
+    note: "已區分泳池遊客區、海灘與洞穴。"
+    sources:
+      - "bora-pool"
+      - "bora-access"
+  visitorValue:
+    score: 2
+    note: "營運狀況與使用限制須再次確認。"
+    sources:
+      - "bora-pool"
+      - "bora-access"
   evidenceQuality:
-    score: 3
-    note: "有觀光指南及管理業者官網資料，資訊充分但未有學術記錄。"
-    sources: [src1]
-  final: 4.0  # 0.30*4 + 0.25*5 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.25+0.60+0.60+0.30 = 3.95 → 4.0
+    score: 5
+    note: "市府、現任業者、觀光協會及相同Google PLACE ID相互支持。"
+    sources:
+      - "bora-pool"
+      - "bora-access"
+  final: 3.3
 sources:
-  - id: src1
-    title: "保良泉ビーチ（宮古島）｜沖縄観光情報WEBサイト おきなわ物語"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.okinawastory.jp/spot/600044
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "bora-pool"
+    url: "https://boraga-pool.com/"
+    title: "保良泉プール"
+    publisher: "株式会社linkworks"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "保良泉是宮古島南岸的天然淡水湧泉，附設鐘乳石洞穴可供探索"
-      - "泉水在海岸邊與海水交會，兼具洞穴探索與浮潛體驗"
-      - "需購票入場，有專人解說與安全管理"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "4a5f3e37e7e0219f1ec96920eb428acb508647cc1d3eb59caf374a9b667004aa"
-    compactPath: media/compact/jp-miyakojima-hora-spring.webp
-    completePath: media/complete/jp-miyakojima-hora-spring.webp
+      - "2025年由linkworks營運；海灘旁設利用天然湧水的淡水泳池。"
+      - "8月10日公告預計8月13日復業，僅為預定，非本次實證已復業。"
+  -
+    id: "bora-access"
+    url: "https://boraga-pool.com/access/index.html"
+    title: "アクセス — 保良泉プール"
+    publisher: "株式会社linkworks"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "地址城辺保良1139-1；停車場僅供泳池使用者。"
+  -
+    id: "bora-association"
+    url: "https://miyako-island.net/activity/boragapool/"
+    title: "保良泉プール・パンプキンホールツアー"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "利用天然湧水的泳池鄰接保良泉海灘；地址城辺保良1139-1。"
+  -
+    id: "city-beaches"
+    url: "https://www.city.miyakojima.lg.jp/kanko/annai/beach.html"
+    title: "ビーチ、マリンレジャー"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "新城海岸近岸淺瀨有珊瑚與熱帶魚。"
+      - "保良川有利用天然湧水的人工泳池。"
+      - "天然海岸不可一概視為設施完善的海水浴場，須注意潮流及危險生物。"
+  -
+    id: "bora-beach"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_012/"
+    title: "保良泉（ボラガ―）ビーチ"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "湧水泳池前為海灘；海岸外側有強潮流，應留意安全。"
+  -
+    id: "google-live"
+    title: "Google Maps — 保良泉ビーチパーク"
+    url: "https://www.google.com/maps/place/%E4%BF%9D%E8%89%AF%E6%B3%89%E3%83%93%E3%83%BC%E3%83%81%E3%83%91%E3%83%BC%E3%82%AF/data=!4m7!3m6!1s0x34f4540ed18a3223:0x12b051da196e33b2!8m2!3d24.7301684!4d125.4319768!16s%2Fg%2F11btrs23m2!19sChIJIzKK0Q5U9DQRsjNuGdpRsBI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "手動選保良泉ビーチパーク，排除保良泉ビーチ及海灘駐車場；place座標24.7301684,125.4319768與觀光協會嵌入具名紀錄一致，現任業者嵌入相同PLACE ID。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "解除原unresolved，保留原ID與保良泉身份，重寫成湧水利用而非另造洞穴入口。8月公告只說預定復業，未宣稱已現場確認營運；旅期須再查。"
+    - "舊稿混入洞穴內容，本次依市府、現任泳池業者與觀光協會把同名保良泉還原為天然湧水泳池及海灘公園遊客區。重新抓取官方嵌入PLACE ID，HTTP具名紀錄與Chrome手動選取的保良泉ビーチパーク皆為24.7301684,125.4319768、城辺保良1139-1；不是借用洞口或海灘停車場。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg；原圖是宮古機場，與湧泉泳池無關。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: YAML repeats hora-cave coordinates and mainly describes cave exploration, not a separately documented spring entrance. Do not validate duplicate cave content using a beach pin. Current tour meeting point is not fixed in the published operator notice.
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "舊稿混入洞穴內容，本次依市府、現任泳池業者與觀光協會把同名保良泉還原為天然湧水泳池及海灘公園遊客區。重新抓取官方嵌入PLACE ID，HTTP具名紀錄與Chrome手動選取的保良泉ビーチパーク皆為24.7301684,125.4319768、城辺保良1139-1；不是借用洞口或海灘停車場。"
   sources:
-  - url: https://miyako-guide.net/spots-cat/beach/page/3/
-    title: 宮古島観光協会 — 保良泉ビーチ listing
-    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/page/3/ describes a beach in front of a park with a spring-fed pool, distinguishing it from the YAML cave narrative. No spring-specific arrival coordinate extracted.
-  - url: https://uminooto.com/maintenance/
-    title: アイランドワークス — current tour notice
-    coordinateEvidence: https://uminooto.com/maintenance/ requires enquiry for the tour meeting place; no fixed numeric coordinate extracted. Beach/pool management has changed, so an assumed operator entrance is unsafe.
+    -
+      url: "https://boraga-pool.com/"
+      title: "保良泉プール"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://boraga-pool.com/access/index.html"
+      title: "アクセス — 保良泉プール"
+      coordinateEvidence: "2026-09-16 HTTP 200；現任業者原始設施 iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.904075924347!2d125.42940187604403!3d24.73017325045731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4540ed18a3223%3A0x12b051da196e33b2!2z5L-d6Imv5rOJ44OT44O844OB44OR44O844Kv!5e0!3m2!1sja!2sjp!4v1742341399979!5m2!1sja!2sjp；PLACE ID 0x34f4540ed18a3223:0x12b051da196e33b2 與觀光協會及 Chrome 的保良泉ビーチパーク一致。採海灘公園遊客區，不聲稱泉眼／洞口／停車場座標。pb 的 !2d125.42940187604403!3d24.73017325045731 為視窗未採用。"
+    -
+      url: "https://miyako-island.net/activity/boragapool/"
+      title: "保良泉プール・パンプキンホールツアー"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 iframe src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7247.8084577579575!2d125.43197700000002!3d24.730168!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f4540ed18a3223%3A0x12b051da196e33b2!2z5L-d6Imv5rOJ44OT44O844OB44OR44O844Kv!5e0!3m2!1sja!2sjp!4v1751946540065!5m2!1sja!2sjp；已重新抓取該 iframe，HTTP 200 的 named PLACE 為『保良泉ビーチパーク／城辺保良1139-1』[24.7301684,125.4319768]，非 pb 攝影機位置。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/annai/beach.html"
+      title: "ビーチ、マリンレジャー"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_012/"
+      title: "保良泉（ボラガ―）ビーチ"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/place/%E4%BF%9D%E8%89%AF%E6%B3%89%E3%83%93%E3%83%BC%E3%83%81%E3%83%91%E3%83%BC%E3%82%AF/data=!4m7!3m6!1s0x34f4540ed18a3223:0x12b051da196e33b2!8m2!3d24.7301684!4d125.4319768!16s%2Fg%2F11btrs23m2!19sChIJIzKK0Q5U9DQRsjNuGdpRsBI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1"
+      title: "Google Maps — 保良泉ビーチパーク"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:22.857Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/%E4%BF%9D%E8%89%AF%E6%B3%89%E3%83%93%E3%83%BC%E3%83%81%E3%83%91%E3%83%BC%E3%82%AF/data=!4m7!3m6!1s0x34f4540ed18a3223:0x12b051da196e33b2!8m2!3d24.7301684!4d125.4319768!16s%2Fg%2F11btrs23m2!19sChIJIzKK0Q5U9DQRsjNuGdpRsBI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1。具名place參數 !3d=24.7301684、!4d=125.4319768；未採@lat,lng視窗中心。 手動選保良泉ビーチパーク，排除保良泉ビーチ及海灘駐車場；place座標24.7301684,125.4319768與觀光協會嵌入具名紀錄一致，現任業者嵌入相同PLACE ID。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.7302
     longitude: 125.432
-  verifiedLocation: null
+  verifiedLocation:
+    latitude: 24.7301684
+    longitude: 125.4319768

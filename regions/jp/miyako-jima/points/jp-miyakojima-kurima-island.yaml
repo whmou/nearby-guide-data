@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: region
   title: "来間島"
-  summary: "来間島是宮古島西南方一座安靜的小島，面積約2.84平方公里，以甘蔗田、珊瑚礁海灘和崖頂咖啡廳著稱，是宮古島鬧中取靜的單車旅遊首選。"
+  summary: "以大橋連接宮古島的小島，東側聚落之外多為耕作地；從島內田地到西岸沙灘，可看出小島土地使用的不同層次。"
   narration: |
-    渡過来間大橋，喧囂瞬間遠去。来間島是一座面積不到三平方公里的小島，居民數不過數百人，卻藏著宮古島南部最迷人的風景。島上道路起伏，兩旁是一望無際的甘蔗田，微風中飄來淡淡的蔗糖香氣。沿著小徑騎單車環島，不消三十分鐘便能抵達南岸的長間浜——那片幾乎沒有觀光客的純白沙灘，以及面朝前浜的龍宮城展望台。島上有幾間風格獨特的咖啡廳，坐在崖邊一邊享用沖繩甜點，一邊俯瞰宮古藍，是来間島最悠閒的享受方式。
-  observationPrompt: "沿島道路騎行時，留意路旁甘蔗的高度——你覺得這些甘蔗大概長了幾個月了？找找看島上有沒有指示牌標示收成季節。"
+    在来間島的地圖上，先找東側聚在一起的房屋，再看看周圍大片沒有密集街巷的土地。沖繩官方旅遊資料介紹，島上聚落集中在東側，其餘大部分是耕作地；跨過来間大橋，你到訪的因此不只是一片海景，也是一座有人生活、持續耕作的小島。往海邊看，西岸有長間浜，東側高地則有龍宮城展望台，可以望向對岸前浜與来間大橋。同樣的海，從不同岸邊看，會和沙灘、橋梁排成不一樣的畫面。規劃停留時，可以先選一處已確認的公共觀景點，再用島圖理解它和聚落的位置關係，不需要把每條小路都走遍。田埂不是觀光步道，居民門前也不是停車位；把空間留給農作和生活，才有機會看懂這座小島的節奏。
+  observationPrompt: "在島圖上找出東側聚落、西岸長間浜和来間大橋；它們之間有哪些耕作地，哪些是可公開抵達的地點？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -27,58 +27,42 @@ point:
       tags:
         - id: walking
           label: 步行
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請將来間島視為區域／上層資料項目，並導航至具名的下層景點。
+  locationHint: "全島介紹而非單一入口，不設中心座標或觸發。請選擇另行驗證的公共海灘、展望台或橋頭；勿進入田地、私人院落。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島附屬小島之一，以田園風光與寧靜氛圍著稱，具區域旅遊代表性。"
-    sources: [src1]
+    note: "小島土地利用與日常生活具有地方意義。"
+    sources: ["kurima"]
   distinctiveness:
     score: 3
-    note: "甘蔗田、崖頂咖啡廳與無人海灘三者共存，在宮古島周邊小島中辨識度高。"
-    sources: [src1, src2]
+    note: "聚落、農地和兩側海岸提供比較。"
+    sources: ["kurima"]
   interpretability:
     score: 3
-    note: "單車環島路線直觀，但農業背景與地方生活文化需稍作說明。"
-    sources: [src1]
+    note: "概覽可協助理解各具名景點的關係。"
+    sources: ["kurima"]
   visitorValue:
-    score: 4
-    note: "半日單車遊可涵蓋海灘、展望台與咖啡廳，CP值高，適合各年齡層。"
-    sources: [src2]
-  evidenceQuality:
     score: 3
-    note: "Wikipedia有專頁記載基本資料，觀光資訊豐富。"
-    sources: [src1]
-  final: 3.2   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.9+0.75+0.6+0.6+0.3 = 3.15 → 3.2
+    note: "適合作行前介紹，無單一抵達點。"
+    sources: ["kurima"]
+  evidenceQuality:
+    score: 4
+    note: "已重抓縣官方觀光頁，定位仍為區域主題。"
+    sources: ["kurima"]
+  final: 3.1
 sources:
-  - id: src1
-    title: "来間島 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E6%9D%A5%E9%96%93%E5%B3%B6
-    accessedAt: "2026-07-15"
+  - id: kurima
+    title: "来間島"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/about/miyako_area/kurima"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "来間島面積約2.84平方公里"
-      - "島上主要農業為甘蔗種植"
-  - id: src2
-    title: "来間島 | 宮古島観光ナビ"
-    publisher: "宮古島市観光商工局"
-    url: https://www.miyako-guide.net/spot/spot.php?id=7
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "可單車環島，島上有多間崖頂咖啡廳"
-      - "南岸長間浜為隱秘海灘景點"
+    supports: ["来間島東側有聚落，其餘大部分為耕作地。","西岸有長間浜，龍宮城展望台可看前浜和来間大橋。"]
 media:
   - id: primary-image
     type: image
@@ -91,19 +75,14 @@ media:
     compactPath: media/compact/jp-miyakojima-kurima-island.webp
     completePath: media/complete/jp-miyakojima-kurima-island.webp
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","以來源能支持的土地利用重寫，刪除空島、人潮少與固定遊覽時間等泛化保證。","保留 File:Miyakojima_Kurima_aerial.jpg 作全島概覽的既有影像；未重認證像素、日期及授權，不當作公共入口證據。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: The whole island, its fields, beaches and cafes are not a single outdoor arrival point. Do not keep the arbitrary island-centre point or duplicate the separately listed 竜宮城展望台.
-  sources:
-  - url: https://www.okinawastory.jp/about/miyako_area/kurima
-    title: おきなわ物語 — 来間島
-    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima describes multiple sites including 竜宮城展望台 and western 長間浜. No single island-arrival coordinate selected.
-  previousLocation:
-    latitude: 24.7224
-    longitude: 125.247
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓縣觀光来間島頁，描述聚落、農地及多處海岸／展望設施，沒有單一島嶼入口。本項維持non_point，不把任意島中心或既有子景點當作全島座標。"
+  sources: [{"url":"https://www.okinawastory.jp/about/miyako_area/kurima","title":"来間島","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓縣觀光来間島頁，描述聚落、農地及多處海岸／展望設施，沒有單一島嶼入口。本項維持non_point，不把任意島中心或既有子景點當作全島座標。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.7224,"longitude":125.247}
   verifiedLocation: null

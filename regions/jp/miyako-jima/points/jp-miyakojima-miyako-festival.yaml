@@ -4,12 +4,10 @@ point:
   parentId: null
   kind: venue
   title: "宮古島まつり（クルバガー）"
-  summary: "宮古島まつり是每年十月舉辦的全島最大傳統節慶，以傳統木舟競渡「クルバガー」為核心，結合武術展演、民謠歌舞與地方食市，是體驗宮古島島民生活文化的最佳時機。"
+  summary: "舊題名中的「クルバガー」及十月舟競說法未獲支持；改為分辨宮古島夏祭與ハーリー的文化介紹，不設定全年活動圖釘。"
   narration: |
-    宮古島まつり的前身是宮古島漁民傳承數百年的舟競文化。「クルバガー」是宮古方言中「挖空木舟」的意思——這種以整根木頭鑿出的傳統漁船，平時是漁民出海的工具，節慶時則成為村落之間較勁的賽舟場地。比賽時十餘人同時划槳，節奏由鼓聲指揮，海面上激起的水花與呼喊聲構成宮古島最熱血的集體記憶。
-
-    祭典主會場通常設在平良港附近的廣場，入夜後民謠演奏（クイチャー）的圓圈舞開放所有人加入，旅客只要跟著節拍原地轉圈擺臂，很快就能融入這個由數十人甚至百人同步起舞的歡快漩渦。食物攤位上飄出海鮮烤物、沖縄麵、黑糖冰品的混合香氣，讓整個節慶廣場成為宮古島庶民生活的立體縮影。若十月來訪，這是絕對不能錯過的夜晚。
-  observationPrompt: "找找看祭典現場是否有人穿著傳統的琉裝（琉球傳統服飾）表演クイチャー舞蹈——注意服裝上的布料圖案，看看能否辨認出紅型染色的特徵。"
+    看到街上的祭典海報，第一件事不妨先找日期，再讀活動名稱；宮古島的節慶不是同一場熱鬧，換個名字，時間和意義也可能不同。市政府文化介紹把「ハーリー」放在農曆五月初四，以傳統船隻競渡，祈求漁業順利；「宮古島夏まつり」則是七月下旬的活動，包含地方歌舞。二○二六年的官方觀光活動頁列出七月二十四、二十五日，並非這次九月二十三至二十七日的行程。原題名裡的「クルバガー」，目前沒有找到足以證實其詞義與對應祭典的資料，因此不把它講成挖空木舟的方言，也不虛構一場十月大祭。如果旅途中遇到別的地方活動，就讀當年的公告，確認日期、場地和參與規則；看得見的儀式，不一定代表每個環節都歡迎遊客加入。
+  observationPrompt: "看到當年活動公告時，先核對正式名稱、日期與場地；是否註明可供一般訪客觀看或參與的範圍？"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -29,86 +27,59 @@ point:
       tags:
         - id: family
           label: 親子體驗
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請使用日期與名稱皆正確的祭典活動及其實際公告場地；勿設為全年適用的港口圖釘。
+  locationHint: "日期限定且可能多場地的祭典文化主題，無全年GPS或觸發。2026夏祭公告為7月24–25日，不在9月23–27日旅期；其他祭典須另查當年公告及參與規則。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "全島最大規模的年度文化節慶，傳統舟競與民謠舞蹈為宮古島島民認同的核心活動，具有高度文化代表性。"
-    sources: [src1]
+    score: 3
+    note: "不同地方祭典具有文化意義，舊稱須更正。"
+    sources: ["culture","festival"]
   distinctiveness:
-    score: 4
-    note: "クルバガー舟競與クイチャー圓圈舞為宮古島所獨有，在日本其他節慶中找不到相同的組合形式。"
-    sources: [src1]
+    score: 3
+    note: "船競與夏季歌舞應分別理解。"
+    sources: ["culture","festival"]
   interpretability:
     score: 3
-    note: "現場氛圍感染力強，但若不了解文化背景，深層意義不易自行解讀；需要說明牌或導遊輔助。"
-    sources: [src2]
+    note: "可透過官方日期與活動名稱辨識差異。"
+    sources: ["culture","festival"]
   visitorValue:
-    score: 4
-    note: "節慶期間參加的旅客體驗質量極高，免費入場且活動多樣；缺點是每年僅限十月舉辦，時間限制大。"
-    sources: [src1]
+    score: 1
+    note: "已確認夏祭不在本次旅期，無固定全年場地。"
+    sources: ["culture","festival"]
   evidenceQuality:
     score: 3
-    note: "地方政府官方資料與新聞報導有完整記錄，但文化學術研究相對缺乏。"
-    sources: [src2]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+    note: "有正式日期及文化來源，但クルバガー稱謂未解。"
+    sources: ["culture","festival"]
+  final: 2.7
 sources:
-  - id: src1
-    title: "宮古島まつり公式情報"
-    publisher: "宮古島市観光商工局"
-    url: https://www.city.miyakojima.lg.jp/
-    accessedAt: "2026-07-15"
+  - id: culture
+    title: "文化 Culture — ハーリー・宮古島夏まつり"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "宮古島まつり每年十月舉辦，為全島規模最大的傳統文化節慶"
-      - "核心活動包括クルバガー傳統舟競及クイチャー民謠圓圈舞"
-  - id: src2
-    title: "宮古島の伝統芸能と祭り"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
+    supports: ["市政府文化頁將ハーリー記為農曆五月初四的船隻競渡、祈求漁業順利活動。","同頁將宮古島夏まつり列於七月下旬，包含クイチャー等地方歌舞，與ハーリー分列。"]
+  - id: festival
+    title: "宮古島夏まつり2026【7/25（土）】"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/event/600022601"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "クイチャー是宮古島傳統民謠伴奏的集體圓圈舞，節慶期間開放旅客共舞"
-      - "宮古島まつり期間設有地方食物攤位與工藝品展售，是感受在地生活的絕佳機會"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-miyako-festival.webp
-    completePath: media/complete/jp-miyakojima-miyako-festival.webp
+    supports: ["2026宮古島夏まつり活動頁列出7月24–25日；不在2026-09-23至27的旅行日期。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","保留題名只為揭露舊資料疑點，摘要與講稿明示未證實名稱；不另造新祭典或變更ID。","移除方言詞源、十月最大祭典、固定攤位氣味與旅客皆可加入歌舞等不實保證。","移除 File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg：前浜海灘照片並非祭典紀錄，不能支持原活動身分；未新增媒體。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: The YAML mixes October, an uncorroborated クルバガー boat-race name, and Miyako's summer festival. Official information distinguishes the July summer festival from lunar-May ハーリー. A dated multi-venue event is not a permanent location trigger.
-  sources:
-  - url: https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html
-    title: 宮古島市 — 文化 Culture
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html distinguishes ハーリー (lunar May 4) from 宮古島夏まつり (late July). No coordinate for the claimed October クルバガー event is established.
-  - url: https://www.okinawastory.jp/event/600022601
-    title: おきなわ物語 — 宮古島夏まつり2026
-    coordinateEvidence: https://www.okinawastory.jp/event/600022601 dates the actual event to 2026-07-24/25. No permanent point accepted for this different, incorrectly described event.
-  previousLocation:
-    latitude: 24.8062
-    longitude: 125.282
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓市政府文化頁及2026活動頁，區分農曆五月初四ハーリー與7月24–25日宮古島夏まつり；舊文十月、クルバガー名稱與詞義未獲支持。保留既有ID／題名以便辨識更正，維持non_point，不能配全年港口座標或冒充九月行程。"
+  sources: [{"url":"https://www.city.miyakojima.lg.jp/gyosei/kaihatsu/hirara/bunka.html","title":"文化 Culture — ハーリー・宮古島夏まつり","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓市政府文化頁及2026活動頁，區分農曆五月初四ハーリー與7月24–25日宮古島夏まつり；舊文十月、クルバガー名稱與詞義未獲支持。保留既有ID／題名以便辨識更正，維持non_point，不能配全年港口座標或冒充九月行程。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://www.okinawastory.jp/event/600022601","title":"宮古島夏まつり2026【7/25（土）】","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓市政府文化頁及2026活動頁，區分農曆五月初四ハーリー與7月24–25日宮古島夏まつり；舊文十月、クルバガー名稱與詞義未獲支持。保留既有ID／題名以便辨識更正，維持non_point，不能配全年港口座標或冒充九月行程。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.8062,"longitude":125.282}
   verifiedLocation: null

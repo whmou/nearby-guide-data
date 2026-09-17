@@ -9,16 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 from location_contract import location_errors
 from build_packs import build_pack
+from audit_contract import load_review_layers
 
 PACKS = sorted((ROOT / "regions").glob("*/*/pack.yaml"))
 
 
 def test_review_batch_covers_every_point_once():
-    entries = []
-    for report in sorted((ROOT / "audits/location-2026-09-16").glob("*.json")):
-        entries.extend(json.loads(report.read_text(encoding="utf-8-sig")))
-    reports = {entry["id"]: entry for entry in entries}
-    assert len(reports) == len(entries), "Duplicate review ownership"
+    reports = load_review_layers()
     sources = [yaml.safe_load(p.read_text(encoding="utf-8-sig")) for p in (ROOT / "regions").glob("*/*/points/*.yaml")]
     assert set(reports) == {s["point"]["id"] for s in sources}
     assert "tw-hsinchu-zhongzheng-park" not in reports

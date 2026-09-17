@@ -1,110 +1,146 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ikema-bridge
+  id: "jp-miyakojima-ikema-bridge"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "池間大橋"
-  summary: "全長1,425公尺，連接宮古島北端與池間島，橋上可以欣賞宮古島西北海域最鮮豔的淺海藍綠色調，是日落攝影的熱門地點。"
-  narration: |
-    池間大橋建於1992年，是宮古島最早完工的跨海橋梁之一，連接宮古島北端與小島池間島。橋長一千四百二十五公尺，與伊良部大橋相比較短，但橋兩側海域水深更淺，珊瑚礁平台的翠綠色澤比任何地方都更鮮豔飽和。橋頭附近有一處廣受攝影師青睞的觀景台，傍晚夕陽西沉時，橋身倒映在近岸的淺海上，構成宮古島最廣為流傳的落日意象之一。過橋進入池間島，可以繞島一圈，感受小漁村的寧靜生活步調。
-  observationPrompt: "在橋面往下看——兩側海水的顏色一樣嗎？仔細比較北側和南側的藍綠深淺，是什麼造成差異？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-        - id: engineering
-          label: 工程
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "engineering"
+          label: "工程"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+        -
+          id: "photography"
+          label: "攝影"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.913723
     longitude: 125.267898
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.913723,125.267898
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.913723,125.267898"
   trigger:
-    radiusMeters: 150.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 池間大橋宮古島本島側的橋頭；請使用陸側公共觀景／抵達區域，切勿在橋面車道停車。
+    rearmDistanceMeters: 1000
+  locationHint: "官方觀光頁標示的宮古本島側橋頭觀景定位，不是橋中央或池間島側商店。先合法停車，再到允許停留的陸側範圍觀察；勿為觸發定位在橋上車道停車。"
+  summary: "1992年2月通車、全長1425公尺的池間大橋；從本島側安全觀景區看見島嶼之間的日常連結。"
+  narration: |
+    先看看橋的線條怎麼跨過海面，接上另一座島。池間大橋全長一千四百二十五公尺，在一九九二年二月通車，把宮古本島與池間島以道路連在一起。對旅行者來說，這可能是相機裡的一條漂亮弧線；換個角度想，它同時也是人們往來兩島的路。官方觀光介紹除了海景，還列出停車場所，以及池間島側的商店、休憩空間。這些看起來平常的小設施，提醒我們橋不是孤立在海上的展示品，而是接在有人生活的地方。你可以在本島側允許停留的觀景區，順著橋的方向看過去，找出橋、岸線和水面之間的層次；海色會隨光線與天候改變，不必追求和照片一模一樣的藍。也別為了把橋拍得更正而在車道停下來。讓車輛繼續通行，自己站穩在安全範圍，才能把風景和日常交通一起看進去。
+  observationPrompt: "在本島側安全停留區順著橋身觀察兩端岸線與水面層次，不在橋上車道停車拍照。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島知名觀光跨海橋梁，是宮古島最早的跨島橋之一，落日景色廣為流傳，但歷史意義相對有限。"
-    sources: [ikema-bridge-miyakojima-guide]
+    note: "連接池間島的交通設施。"
+    sources:
+      - "ikema-bridge-official"
   distinctiveness:
-    score: 3
-    note: "同為宮古島跨海橋梁，與伊良部大橋相比規模較小，但橋兩側的淺海藍綠色調有其獨特魅力。"
-    sources: [ikema-bridge-miyakojima-guide]
+    score: 4
+    note: "長橋與兩岸海景的空間關係明確。"
+    sources:
+      - "ikema-bridge-official"
   interpretability:
-    score: 3
-    note: "橋上海景視覺直觀，珊瑚礁淺海一望即知，但地理與生態細節需額外說明。"
-    sources: [ikema-bridge-miyakojima-guide]
+    score: 4
+    note: "從陸側即可觀察橋梁方向。"
+    sources:
+      - "ikema-bridge-official"
   visitorValue:
     score: 4
-    note: "完全免費，全天開放，橋頭設有觀景台與停車場，連接池間島可延伸遊覽行程。"
-    sources: [ikema-bridge-miyakojima-guide]
+    note: "安全陸側短停有景觀價值，勿使用車道觀景。"
+    sources:
+      - "ikema-bridge-official"
   evidenceQuality:
-    score: 3
-    note: "宮古島市觀光協會資料，基本資訊有據可查。"
-    sources: [ikema-bridge-miyakojima-guide]
-  final: 3.2
-  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+    score: 5
+    note: "官方數值抵達點與Google具名橋梁分別核對。"
+    sources:
+      - "ikema-bridge-official"
+  final: 3.8
 sources:
-  - id: ikema-bridge-miyakojima-guide
-    title: "池間大橋 観光スポット"
-    publisher: "宮古島市観光協会"
-    url: https://miyako-guide.net/spot/ikema-ohashi/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "ikema-bridge-official"
+    url: "https://miyako-guide.net/spots/spots-893/"
+    title: "池間大橋"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "全長1,425公尺，1992年完工"
-      - "連接宮古島北端與池間島"
-      - "橋頭有觀景台，夕陽景色著名"
+      - "全長1425公尺，1992年2月通車，連接宮古本島與池間島。"
+      - "設停車場所；池間島側有商店與休憩處。"
+  -
+    id: "google-live"
+    title: "Google Maps — 池間大橋"
+    url: "https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E5%A4%A7%E6%A9%8B/@24.9200526,125.2604759,17z/data=!3m1!4b1!4m6!3m5!1s0x34f44dcf50d9429b:0xb8c60877246aafe1!8m2!3d24.9200526!4d125.2604759!16s%2Fg%2F121bq4_r?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=3a67b6ca-060c-41e7-9711-6c83cfe43e13"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "具名池間大橋及place座標24.9200526,125.2604759確認橋梁身份；該橋身中心與陸側錨點功能不同，未採為抵達座標。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikema_Ohashi_Bridge_(51923938941).jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ikema_Ohashi_Bridge_(51923938941).jpg"
     creator: "Raita Futo from Tokyo, Japan"
     license: "CC BY 2.0"
-    licenseUrl: https://creativecommons.org/licenses/by/2.0
+    licenseUrl: "https://creativecommons.org/licenses/by/2.0"
     accessedAt: "2026-07-15"
     originalSha256: "a276a5d9267117fe51030efe85562e5d6c0a4fd061550a88f408fbd5a582e89f"
-    compactPath: media/compact/jp-miyakojima-ikema-bridge.webp
-    completePath: media/complete/jp-miyakojima-ikema-bridge.webp
+    compactPath: "media/compact/jp-miyakojima-ikema-bridge.webp"
+    completePath: "media/complete/jp-miyakojima-ikema-bridge.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "保留官方陸側錨點，半徑收斂80公尺；不用橋中央Google place座標替代，也不承諾固定海色。"
+    - "重抓官方Google href的數字目的地24.913723, 125.267898，採本島側橋頭觀景錨點。Chrome具名池間大橋的!3d/!4d位於橋身中央附近，雖同一橋梁但不是安全停留目的地，因此不替換官方抵達點，也不擴大半徑。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。"
 locationReview:
-  status: verified
-  anchorType: viewpoint
-  checkedAt: '2026-09-16'
-  reason: Replace the bridge-middle coordinate with the association's mainland bridgehead destination (roughly 0.8 km southeast of the old point). The pin is for arrival/viewing, not the bridge's geometric centre.
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "重抓官方Google href的數字目的地24.913723, 125.267898，採本島側橋頭觀景錨點。Chrome具名池間大橋的!3d/!4d位於橋身中央附近，雖同一橋梁但不是安全停留目的地，因此不替換官方抵達點，也不擴大半徑。"
   sources:
-  - url: https://miyako-guide.net/spots/spots-893/
-    title: 宮古島観光協会 — 池間大橋
-    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-893/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.913723,125.267898; its place embed uses q=24.913723,125.267898. These are explicit destination coordinates, not a viewport centre.'
+    -
+      url: "https://miyako-guide.net/spots/spots-893/"
+      title: "池間大橋"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 GoogleMap href=https://www.google.co.jp/maps/place/24.913723, 125.267898。從 /maps/place/ 後的數字目的地提取座標，非 @lat,lng 視窗；原始空格／尾端 & 原樣保留於此證據，App URL 另規範化。"
+    -
+      url: "https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E5%A4%A7%E6%A9%8B/@24.9200526,125.2604759,17z/data=!3m1!4b1!4m6!3m5!1s0x34f44dcf50d9429b:0xb8c60877246aafe1!8m2!3d24.9200526!4d125.2604759!16s%2Fg%2F121bq4_r?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=3a67b6ca-060c-41e7-9711-6c83cfe43e13"
+      title: "Google Maps — 池間大橋"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:27.943Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/%E6%B1%A0%E9%96%93%E5%A4%A7%E6%A9%8B/@24.9200526,125.2604759,17z/data=!3m1!4b1!4m6!3m5!1s0x34f44dcf50d9429b:0xb8c60877246aafe1!8m2!3d24.9200526!4d125.2604759!16s%2Fg%2F121bq4_r?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=3a67b6ca-060c-41e7-9711-6c83cfe43e13。具名place參數 !3d=24.9200526、!4d=125.2604759；未採@lat,lng視窗中心。 具名池間大橋及place座標24.9200526,125.2604759確認橋梁身份；該橋身中心與陸側錨點功能不同，未採為抵達座標。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.91889
     longitude: 125.26194

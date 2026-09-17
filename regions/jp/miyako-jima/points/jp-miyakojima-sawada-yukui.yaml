@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-sawada-yukui"
+  parentId: null
+  kind: "attraction"
+  title: "佐和田ユークイ"
+  summary: "供奉大世之主的村落祭場，保存島際移動與農耕技術的地方傳承。"
+  narration: "一位傳說中帶來農耕技術的人，如何留在村落的記憶裡？佐和田的答案不是一座華麗紀念館，而是這片居民世代祭祀的地方：佐和田ユークイ供奉的是大世之主，地方傳說把他的來島時間放在1457年，說他從沖永良部島來到伊良部，並在西村、也就是後來的佐和田一帶傳播農耕技術。官方解說又提出，祭場原先可能在白鳥崎，1644年設置烽火制度之後才移到現在的位置；這是根據地方資料作出的推測，並非所有細節都已確定。把眼前的空間和這些島際往來的故事一起看，就能理解村落為什麼用祭祀記住帶來技術的人。從開放外側看看祭場與道路、植被的界線；把遠方島嶼的名字和這片村落放在一起，會發現伊良部的故事，一直都和海上的往來相連。"
+  observationPrompt: "站在開放外側，祭場與道路、植被之間有哪些可見的界線？請勿跨越祭祀區。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "culture"
+          label: "文化"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.845655
+    longitude: 125.169365
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標為佐和田ユークイ祭場本體，非白鳥崎舊址；只在開放通道或外側觀察，勿進入祭祀核心、觸碰供品，遇儀式或禁入告示即退讓。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.845655,125.169365"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 3
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.3
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo574/"
+    title: "【市指定：史跡】佐和田ユークイ～さわだゆーくい～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "祭神為大世之主，1457年自沖永良部來島並傳播農耕技術屬地方傳承。"
+      - "官方推測原在白鳥崎，1644年烽火制度後遷到現址。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+    title: "宮古島市 — 宮古島市の文化財"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "佐和田ユークイ 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo574/"
+      title: "【市指定：史跡】佐和田ユークイ～さわだゆーくい～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.845655,+125.169365&amp;aq=&amp;sll=25.965654,127.132909&amp;sspn=8.379635,16.907959&amp;brcurrent=3,0x34f5ac86e4e95655:0xc06ff2f16816c035,0&amp;ie=UTF8&amp;t=m&amp;ll=24.857625,125.173588&amp;spn=0.031152,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.845655,125.169365；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+      title: "宮古島市 — 宮古島市の文化財"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 佐和田ユークイ 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.845655
+    longitude: 125.169365

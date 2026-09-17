@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: attraction
   title: "海人の森"
-  summary: "海人の森是宮古島難得一見的紅樹林濕地，設有木棧道供遊客步行其中，靜謐的水林環境展現宮古島鮮為人知的生態面貌。"
+  summary: "尚未確認宮古島具名「海人の森」場地；不把島尻或川滿紅樹林改名套用，保留無GPS的名稱辨識提示。"
   narration: |
-    海人の森，漢字意為「海人之森」，是宮古島上保存較完整的紅樹林生態區之一。一條木製棧道蜿蜒穿越茂密的紅樹林，遊客可以免費步行其中，俯瞰林間的潮溝水道。紅樹林根系盤錯交纏，在海水與淡水交會的環境中支撐起獨特的生態系統，蟹類、彈塗魚與多種鳥類在此棲息。宮古島以海洋景色著稱，但這片靜謐的林地提供截然不同的感官體驗——光線在樹葉縫隙間過濾，水面倒映著綠意，隔絕了島上的南國陽光。清晨或黃昏時段，林間鳥鳴聲尤為豐富，是喜歡自然觀察的旅客不可錯過的隱秘之地。
-  observationPrompt: "在棧道上靜靜等候片刻，看看能不能發現彈塗魚在泥灘上移動，或是在紅樹林根系之間找到正在覓食的蟹類。"
+    看旅行資料裡的綠色水岸照片，先找找旁邊寫的地名；都是紅樹林，並不表示走的是同一條步道。原本這一項叫作「海人の森」，但目前查到的官方景點資料與具名地圖搜尋，還不能確認宮古島有哪一處場所對應這個名稱。觀光協會確實介紹「ウプカーマングローブ」，也叫川滿紅樹林，位置和川滿漁港的大川湧水有關；官方另有島尻紅樹林介紹，那又是不同的地點。這些名字可以幫我們分清楚資料，卻不能拿其中任何一處的座標來補上「海人の森」。因此這裡暫時沒有導航，也不承諾木棧道、可見動物或參觀設施。若想安排紅樹林行程，請另選有正式名稱和公共通行資訊的景點；到了現場也以開放步道為界，不為拍照踩進泥灘或根系間。
+  observationPrompt: "先核對地名、地區與管理資訊：資料說的是川滿、島尻，還是另一個有正式名稱的場所？不要僅憑景觀照片認定相同。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -27,78 +27,59 @@ point:
       tags:
         - id: walking
           label: 步行
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 名為「海人の森」的紅樹林地點，仍需權威來源確認其確切身分。
+  locationHint: "「海人の森」場所身分未確認，無GPS、導航及觸發。不可把島尻、川滿紅樹林或いこいの森當作同義地名；另選具名已驗證景點並遵守公共通行限制。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島少數保存完整的紅樹林生態區，具備重要的濕地生態保育價值。"
-    sources: [src1]
+    score: 0
+    note: "原場所未確認，不假設景點價值。"
+    sources: ["mangroves","charm"]
   distinctiveness:
-    score: 4
-    note: "在以海灘與珊瑚礁為主的宮古島觀光版圖中，紅樹林棧道體驗極為罕見，形成明顯差異化。"
-    sources: [src1]
+    score: 0
+    note: "未能建立獨立身分或特色。"
+    sources: ["mangroves","charm"]
   interpretability:
-    score: 3
-    note: "棧道設計便於自行參觀，但缺乏系統性現場解說，生態知識需旅客自備。"
-    sources: [src1]
+    score: 2
+    note: "可作地名辨識及資料更正提醒。"
+    sources: ["mangroves","charm"]
   visitorValue:
-    score: 3
-    note: "免費入場，適合喜歡自然觀察的旅客，但整體停留時間較短。"
-    sources: [src1]
+    score: 0
+    note: "無抵達點，暫不供行程導航。"
+    sources: ["mangroves","charm"]
   evidenceQuality:
-    score: 3
-    note: "有旅遊網站及部落格記錄，官方資料相對有限。"
-    sources: [src1]
-  final: 3.3  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+    score: 1
+    note: "有不同紅樹林資料，但沒有原名稱對應證據。"
+    sources: ["mangroves","charm"]
+  final: 0.5
 sources:
-  - id: src1
-    title: "海人の森（マングローブ林）｜宮古島観光ガイド"
-    publisher: "宮古島市観光商工課"
-    url: https://www.miyakojima-kankou.com/spot/kaijin-no-mori/
-    accessedAt: "2026-07-15"
+  - id: mangroves
+    title: "ビーチ・観光地（ウプカーマングローブ／川満マングローブ）"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots-cat/beach/page/2/"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "海人の森是宮古島的紅樹林生態保護區，設有木製棧道"
-      - "免費開放，可觀察彈塗魚、蟹類及水鳥等生物"
-      - "位於宮古島市區附近，交通便利"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikema_Bridge_in_Miyakojima.jpg
-    creator: "ブルーノ・プラス"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "445c1a230a2c5fa595235bfff3d1859aa445caa95a01ac5ce9f55798541187dc"
-    compactPath: media/compact/jp-miyakojima-kaijin-no-mori.webp
-    completePath: media/complete/jp-miyakojima-kaijin-no-mori.webp
+    supports: ["觀光協會列出ウプカーマングローブ（川満マングローブ），位於川滿漁港大川湧水一帶。"]
+  - id: charm
+    title: "宮古島の魅力"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/charm/"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["觀光協會另介紹島尻紅樹林，不能證明它與海人の森同名。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除臆造步道長度、生態展示、必見動物與既有正式園區的說法。","移除 File:Ikema_Bridge_in_Miyakojima.jpg：池間大橋照片既非森林，也不能證明海人の森身分；未替換其他紅樹林影像。"]
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Exact-name research did not establish this as a public mangrove boardwalk in Miyako. Official tourism identifies different sites at 島尻 and 川満; these must not be substituted for an unsupported name.
-  sources:
-  - url: https://miyako-guide.net/spots-cat/beach/
-    title: 宮古島観光協会 — named nature sites
-    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/ lists 島尻のマングローブ, not a verified matching 海人の森 location. No matching coordinate extracted.
-  - url: https://miyako-guide.net/spots-cat/beach/page/2/
-    title: 宮古島観光協会 — ウプカーマングローブ
-    coordinateEvidence: https://miyako-guide.net/spots-cat/beach/page/2/ documents the different 川満/ウプカー boardwalk. No evidence it is an alias of 海人の森; no coordinate adopted.
-  previousLocation:
-    latitude: 24.818
-    longitude: 125.3168
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新搜尋並抓取官方觀光頁，確認川滿／ウプカー與島尻是各自具名的紅樹林；即時Maps搜尋海人の森返回其他店家、海灘與森林，未找到可對應原名稱的單一場所。維持unresolved，不挪用其他紅樹林座標或改變原ID身分。"
+  sources: [{"url":"https://miyako-guide.net/spots-cat/beach/page/2/","title":"ビーチ・観光地（ウプカーマングローブ／川満マングローブ）","coordinateEvidence":"2026-09-16重新抓取原頁全文；重新搜尋並抓取官方觀光頁，確認川滿／ウプカー與島尻是各自具名的紅樹林；即時Maps搜尋海人の森返回其他店家、海灘與森林，未找到可對應原名稱的單一場所。維持unresolved，不挪用其他紅樹林座標或改變原ID身分。 未從不同場所採用座標。"},{"url":"https://miyako-island.net/charm/","title":"宮古島の魅力","coordinateEvidence":"2026-09-16重新抓取原頁全文；重新搜尋並抓取官方觀光頁，確認川滿／ウプカー與島尻是各自具名的紅樹林；即時Maps搜尋海人の森返回其他店家、海灘與森林，未找到可對應原名稱的單一場所。維持unresolved，不挪用其他紅樹林座標或改變原ID身分。 未從不同場所採用座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E4%BA%BA%E3%81%AE%E6%A3%AE%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 實際Chrome搜尋：海人の森 宮古島","coordinateEvidence":"讀取主工作者2026-09-16T13:36:51.352ZChrome實際結果；沒有可確定對應原名／原敘述的場所。候選原始連結及place座標（均未採用）：レーベの村：https://www.google.com/maps/place/%E3%83%AC%E3%83%BC%E3%83%99%E3%81%AE%E6%9D%91/data=!4m7!3m6!1s0x34f45442efed70ad:0x92ce6a24714dbbbd!8m2!3d24.779731!4d125.271763!16s%2Fg%2F11b86l6_40!19sChIJrXDt70JU9DQRvbtNcSRqzpI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.779731,125.271763 | 17ENDビーチ：https://www.google.com/maps/place/17END%E3%83%93%E3%83%BC%E3%83%81/data=!4m7!3m6!1s0x34f5add80a02f697:0x621d023620d2e93c!8m2!3d24.8421325!4d125.1398185!16s%2Fg%2F11mv63lxkg!19sChIJl_YCCtit9TQRPOnSIDYCHWI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8421325,125.1398185 | GSビーチクラブ宮古島：https://www.google.com/maps/place/GS%E3%83%93%E3%83%BC%E3%83%81%E3%82%AF%E3%83%A9%E3%83%96%E5%AE%AE%E5%8F%A4%E5%B3%B6/data=!4m7!3m6!1s0x34f453d4badf0edb:0xe905252d3d5f4cd0!8m2!3d24.8033279!4d125.2725926!16s%2Fg%2F11xcf2rvf3!19sChIJ2w7futRT9DQR0ExfPS0lBek?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8033279,125.2725926 | 海蓮：https://www.google.com/maps/place/%E6%B5%B7%E8%93%AE/data=!4m10!3m9!1s0x34f5abc6eeac5229:0x824dc009c308c08d!5m2!4m1!1i2!8m2!3d24.8067951!4d125.1953826!16s%2Fg%2F11l6p__df3!19sChIJKVKs7sar9TQRjcAIwwnATYI?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8067951,125.1953826 | 宮古島市いこいの森：https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E3%81%84%E3%81%93%E3%81%84%E3%81%AE%E6%A3%AE/data=!4m7!3m6!1s0x34f4576a1ea30749:0xaeb934b05ab68978!8m2!3d24.7531231!4d125.3737834!16s%2Fg%2F11csb15xh0!19sChIJSQejHmpX9DQReIm2WrA0ua4?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7531231,125.3737834 | 島尻のマングローブ林：https://www.google.com/maps/place/%E5%B3%B6%E5%B0%BB%E3%81%AE%E3%83%9E%E3%83%B3%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%96%E6%9E%97/data=!4m7!3m6!1s0x34f45208f8bcab71:0xfdb48078ac08083!8m2!3d24.877956!4d125.288553!16s%2Fg%2F113g2bb3t!19sChIJcau8-AhS9DQRg4DAigdI2w8?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.877956,125.288553。不使用搜尋頁@視窗中心。"}]
+  previousLocation: {"latitude":24.818,"longitude":125.3168}
   verifiedLocation: null

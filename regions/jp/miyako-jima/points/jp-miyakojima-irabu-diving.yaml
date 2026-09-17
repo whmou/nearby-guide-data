@@ -4,16 +4,10 @@ point:
   parentId: jp-miyakojima-irabu-island
   kind: venue
   title: "伊良部島ダイビング"
-  summary: "伊良部島與下地島之間的水道擁有世界頂級的漂流潛水條件，透明度常年維持35至40公尺以上，更以可從水面游入的「通り池」連通海中洞穴系統聞名，是讓全球潛水員慕名而來的深度潛水聖地。"
+  summary: "伊良部、下地島周邊的潛水主題，特色在拱門、洞穴與光影；各潛點有不同深度和能力要求，不能共用一個陸上圖釘。"
   narration: |
-    伊良部島的海底世界有一個讓全球潛水員反覆造訪的秘密——這裡的洋流。
-
-    伊良部島與緊鄰的下地島之間隔著一條狹窄的水道，每當潮汐推動海水流過這道「峽谷」，便形成強勁而穩定的漂流。潛水員入水後不需要費力游動，只需放鬆身體，讓洋流帶著你以時速數節的速度掠過珊瑚礁壁——海龜、鬼蝠魟、石斑魚如同電影分鏡逐一劃過視野。
-
-    而伊良部最獨特的潛點，是被稱為「通り池」的海中天窗系統。從陸地上看，那只是下地島森林中兩個普通的圓形水池；但當潛水員從海中接近、穿越礁壁裂縫鑽入洞穴、最後在水池底部仰望光線從池口灑落時，那種衝擊感令人終生難忘。天光透過水體折射，呈現出宛如藍色鑽石的光芒。
-
-    伊良部島周邊的能見度極高，相較於能見度常受氣候影響的本島，這裡的珊瑚礁色彩更為飽滿鮮豔。當地有多間合法立案的潛水店提供器材租借、體驗課程與導潛服務，從零基礎到進階技術潛水均可安排。
-  observationPrompt: "在水面上觀察下地島的通り池——你能看出水面的顏色與周圍海水有何不同嗎？試著推測池底的深度。"
+    翻開潛點介紹，先找找照片裡的拱門：海底的岩石，不只是魚游過的背景，也能成為閱讀這片海的主角。沖繩官方旅遊資料把伊良部島的「Ｗアーチ」介紹為兩座相連的拱門，換一個觀看角度，其中一座會顯出心形輪廓；同一份資料卻把「魔王の宮殿」列在下地島，並標示中級以上的船潛。這個差別很重要：伊良部潛水不是一條人人都能參加的固定路線，更不是跳進兩島水道就能開始的漂流。行前可以請業者用實際潛點照片說明，先認識岩壁、洞口和光線的關係，再確認自己的經驗適不適合。海況會改變行程，也沒有保證出現的海龜或固定能見度；這份介紹只陪你理解地景，真正的集合地點、器材和活動安排，都要由預約的合格業者確認。
+  observationPrompt: "行前看具名潛點的照片：拱門、洞口和開放水域在哪裡？向業者確認實際安排的潛點與適用經驗。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -33,83 +27,52 @@ point:
       tags:
         - id: walking
           label: 活動體驗
-    - id: access
-      label: 入場
-      tags:
-        - id: ticketed
-          label: 付費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請預約具名且具執照的潛水業者，並依其集合指示前往；區域性的潛水體驗不設陸上定位圖釘。
+  locationHint: "區域性海上活動，不提供陸上導航或觸發。依已預約合格業者確認的集合地點抵達；勿自行從水道、通り池或海崖入水。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 5
-    note: "國際頂級潛水勝地，通り池被列為日本百選名水，吸引全球潛水愛好者專程造訪"
-    sources: [src1, src2]
+    score: 3
+    note: "區域海洋活動有地方旅遊價值。"
+    sources: ["diving"]
   distinctiveness:
-    score: 5
-    note: "漂流潛水加海中洞穴天窗系統的組合，在全亞洲潛水目的地中極為罕見"
-    sources: [src1]
+    score: 4
+    note: "拱門與洞穴是具體的地形特色。"
+    sources: ["diving"]
   interpretability:
     score: 4
-    note: "珊瑚礁生態、洞穴地形成因、潮汐洋流機制皆有豐富的解說資源"
-    sources: [src2]
+    note: "官方對潛點形狀及活動要求有解說。"
+    sources: ["diving"]
   visitorValue:
-    score: 5
-    note: "對潛水愛好者是bucket-list等級體驗；即便非潛水者也可欣賞通り池地上景觀"
-    sources: [src1, src2]
+    score: 2
+    note: "需經驗評估、預約及合適海況，非一般步行景點。"
+    sources: ["diving"]
   evidenceQuality:
     score: 4
-    note: "有多份學術調查及日本潛水協會認證資料，通り池地形有詳細地質研究"
-    sources: [src1, src2]
-  final: 4.7  # 0.30*5 + 0.25*5 + 0.20*4 + 0.15*5 + 0.10*4 = 1.5+1.25+0.8+0.75+0.4 = 4.7
+    note: "已重抓官方詳細頁，但沒有指定業者集合點。"
+    sources: ["diving"]
+  final: 3.4
 sources:
-  - id: src1
-    title: "通り池 - 環境省 湧水・名水百選"
-    publisher: "環境省自然環境局"
-    url: https://www.env.go.jp/water/meisui/data/r44_4.html
-    accessedAt: "2026-07-15"
+  - id: diving
+    title: "ダイビング — 宮古エリア"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/feature/activity/diving"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "通り池被列入日本名水百選，是下地島標誌性的海中洞穴系統"
-      - "通り池由兩個通過地下通道與外海相連的圓形水池組成"
-  - id: src2
-    title: "伊良部島・下地島ダイビング - 宮古島観光協会"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/leisure/diving/
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "伊良部島至下地島水道的漂流潛水透明度常年達35至40公尺以上"
-      - "當地設有多間合法潛水店提供體驗潛水與進階導潛服務"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "14753c000bc542ebceefd58df5c790363e81e1897201b701dc3026e2d638b486"
-    compactPath: media/compact/jp-miyakojima-irabu-diving.webp
-    completePath: media/complete/jp-miyakojima-irabu-diving.webp
+    supports: ["伊良部島Ｗアーチ有兩座相連拱門，其中一座由特定角度看呈心形。","魔王の宮殿位於下地島，官方列船潛、中級以上，不能視為同一條普通陸上遊程。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","移除海峽必然形成安全漂流、全年35–40公尺能見度、保證海龜鬼蝠魟及通り池名水百選等未支持說法。","移除 File:Irabu_sarahama_port.jpg：港口照片不能代表海底潛點或作為出發港證據；未替換照片。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Regional marine-only experience, mentioning several underwater features rather than one onshore attraction. Cannot substitute the land-side 通り池 viewpoint or an arbitrary departure harbour.
-  sources:
-  - url: https://www.okinawastory.jp/feature/activity/diving
-    title: おきなわ物語 — ダイビング
-    coordinateEvidence: https://www.okinawastory.jp/feature/activity/diving distinguishes Irabu/Shimoji diving sites including 通り池 and describes boat-based diving. No fixed land-arrival coordinate for 伊良部島ダイビング is supplied.
-  previousLocation:
-    latitude: 24.824028
-    longitude: 125.136417
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓縣觀光潛水頁，伊良部、下地島包含多個船潛點，並非單一陸上景點。沒有具名預約業者或集合港口，維持non_point；不把通り池陸上觀景點或任意碼頭改作本項位置。"
+  sources: [{"url":"https://www.okinawastory.jp/feature/activity/diving","title":"ダイビング — 宮古エリア","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓縣觀光潛水頁，伊良部、下地島包含多個船潛點，並非單一陸上景點。沒有具名預約業者或集合港口，維持non_point；不把通り池陸上觀景點或任意碼頭改作本項位置。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.824028,"longitude":125.136417}
   verifiedLocation: null

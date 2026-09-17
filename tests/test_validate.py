@@ -420,10 +420,19 @@ def test_subtitle_in_manifest():
 
 
 def test_point_counts():
-    expected = {"tw-hsinchu": 35, "jp-miyakojima": 71, "jp-ishigaki": 30, "tw-xiaoliuqiu": 22}
+    expected = {"tw-hsinchu": 35, "jp-ishigaki": 30, "tw-xiaoliuqiu": 22}
     for pack_id, count in expected.items():
         _, points, _ = _open_pack(pack_id, "compact")
         assert len(points) == count, f"{pack_id}: expected {count} points, got {len(points)}"
+    # Trip additions are explicitly enumerated in the reviewed batch, rather
+    # than inferred from whatever YAML happens to be left on disk.
+    from audit_contract import load_batch
+    miyako = _yaml.safe_load((REGIONS / 'jp/miyako-jima/pack.yaml').read_text(encoding='utf-8'))
+    reviewed = load_batch(miyako['reviewBatch'])
+    _, points, _ = _open_pack('jp-miyakojima', 'compact')
+    assert len(points) == len(reviewed)
+    assert {p['id'] for p in points} == set(reviewed)
+    assert len(points) >= 100, 'Travel edition unexpectedly lost reviewed content'
 
 
 def test_no_media_without_path():

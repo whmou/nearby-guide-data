@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-german-emperor-monument"
+  parentId: null
+  kind: "attraction"
+  title: "德國皇帝博愛紀念碑"
+  summary: "平良港旁的雙語紀念碑，記下宮古居民救助德國遇難船員的跨海往事。"
+  narration: "一座石碑，為什麼同時刻著德文和中文？上方是德文，下方和背面則是中文，同一場海難，就這樣留在宮古島市街的一塊石碑上。1873年，德國商船羅伯遜號在宮古南岸擱淺，居民救起八名船員，照顧了一個多月，還提供船隻讓他們返鄉；消息傳到德國，皇帝威廉一世派軍艦前來，這座碑於1876年建立。別把這裡和南岸的德國文化村混為一談：眼前是靠近漲水港的紀念碑，救援卻發生在另一側海岸，一塊碑把兩端的地方記憶連了起來。慢慢比較不同文字在碑面上的排列，不一定要逐字讀懂，也能看見這段謝意如何跨越語言；讀完再想想，讓遠方的人記住宮古的，是居民照料陌生人的行動。"
+  observationPrompt: "碑面哪些區塊使用德文，哪些使用漢字？請在可通行範圍內比較，不攀爬碑座。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.806258
+    longitude: 125.279706
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標是平良市街的德國皇帝博愛紀念碑本體，不是上野德國文化村；從公共通道步行觀察，勿攀登碑座或阻擋鄰近出入口。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.806258,125.279706"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 4
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.9
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo591/"
+    title: "【県指定：史跡】ドイツ皇帝博愛記念碑～どいつこうていはくあいきねんひ～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "1873年居民救助羅伯遜號八名船員並照顧一個多月。"
+      - "紀念碑1876年建立，上段德文、下段與背面中文。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+    title: "宮古島市 — 宮古島市の文化財"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "德國皇帝博愛紀念碑 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo591/"
+      title: "【県指定：史跡】ドイツ皇帝博愛記念碑～どいつこうていはくあいきねんひ～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=+24.806258,+125.279706&amp;aq=&amp;sll=24.719339,125.322645&amp;sspn=0.13987,0.264187&amp;brcurrent=3,0x34f4538cbc125aaf:0x8a1852a9066b7d92,0,0x34f4538cb86c151b:0xf1007caae40ce1dc&amp;ie=UTF8&amp;t=m&amp;ll=24.817744,125.283966&amp;spn=0.031162,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.806258,125.279706；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+      title: "宮古島市 — 宮古島市の文化財"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 德國皇帝博愛紀念碑 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.806258
+    longitude: 125.279706

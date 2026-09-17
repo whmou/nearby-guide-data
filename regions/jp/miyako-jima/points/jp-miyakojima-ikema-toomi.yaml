@@ -1,0 +1,129 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-ikema-toomi"
+  parentId: null
+  kind: "attraction"
+  title: "池間遠見番所跡"
+  summary: "小丘上的石造瞭望遺跡，記下昔日海上消息如何傳回宮古。"
+  narration: "沒有手機、也沒有無線電的時候，海上多了一艘陌生船，消息怎麼傳回城裡？池間島南端這座小丘，就是早期通訊網的一個節點：宮古島市介紹，遠見番所制度在1644年設置，用來監視往來船隻，並以烽火等方式通報；池間遠見利用岩盤築成圓柱狀，旁邊留有上下的石階。官方還記錄，這裡直到1950年代初仍有一根用來確認船隻方位的圓柱形方位石，如今不必期待它仍立在原處。從允許停留的位置望出去，再回頭看看石階與岩盤的關係，會發現選址不是隨意挑一個漂亮角落：看得遠，當時就是很實際的工作條件。現在我們來看海，而曾經在這裡輪值的人，看的則是船往哪裡去、消息該怎麼傳。"
+  observationPrompt: "在開放路徑上對照石階、岩盤與海上視野；思考瞭望位置如何影響訊息傳遞。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.922257
+    longitude: 125.247986
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採官方池間遠見本體q圖釘，非池間燈塔；漁協另列平良池間93的遠見台作到訪佐證。僅走現有開放步道，石階與植被狀況以現場為準，不攀上封閉或破損石造部位。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.922257,125.247986"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 4
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.9
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo92/"
+    title: "【国指定：史跡】先島諸島火番盛「遠見番所」池間遠見～さきしましょとうひばんむい「とうみばんしょ」いけまとうみ～　"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "遠見番所制度於1644年設置，承担海上交通監視及烽火通報。"
+      - "池間遠見位在島南端小丘，利用岩盤築成圓柱狀並設石階。"
+      - "官方記錄方位石存在至昭和25、26年頃，不能據此保證今天仍在原處。"
+  -
+    id: "s2"
+    url: "https://miyakojima-ikemagyokyo.com/report/report177/"
+    title: "池間漁業協同組合 — 遠見台"
+    publisher: "池間漁業協同組合"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "具名遠見台、池間93地址、海上監視歷史及石灰岩石階的公開參訪介紹。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo92/"
+      title: "【国指定：史跡】先島諸島火番盛「遠見番所」池間遠見～さきしましょとうひばんむい「とうみばんしょ」いけまとうみ～　"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.922257,+125.247986&amp;aq=&amp;sll=25.965654,127.132909&amp;sspn=8.852694,16.907959&amp;brcurrent=3,0x34f44d054d6b189f:0xfcc3430d0f25782e,0,0x34f44d1ce5475a53:0x7b32b4ad3b922434&amp;ie=UTF8&amp;t=m&amp;ll=24.931432,125.250835&amp;spn=0.031133,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.922257,125.247986；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://miyakojima-ikemagyokyo.com/report/report177/"
+      title: "池間漁業協同組合 — 遠見台"
+      coordinateEvidence: "2026-09-16已抓取池間漁協具名遠見台頁：平良池間93，紹介石階與監視通報史跡；不取頁首頁尾漁協90-1地址當景點。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.922257
+    longitude: 125.247986

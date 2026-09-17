@@ -27,7 +27,7 @@ catalog.json       Published pack index (updated by tools/update_catalog.py)
 | Pack ID         | Title  | Points | Status |
 |-----------------|--------|--------|--------|
 | tw-hsinchu      | 新竹市 | 35     | See location review |
-| jp-miyakojima   | 宮古島 | 71     | See location review |
+| jp-miyakojima   | 宮古島 | 108    | v1.1.0: 72 located / 36 text-only |
 | jp-ishigaki     | 石垣島與八重山 | 30 | See location review |
 | tw-xiaoliuqiu   | 小琉球 | 22     | See location review |
 
@@ -36,6 +36,12 @@ The [location review rules](LOCATION_REVIEW.md) and per-point `locationReview`
 record evidence, anchor meaning, and original coordinates. Unresolved/non-point
 entries do not supply GPS triggers or navigation links. Coordinate review does
 not certify old narratives, ratings, photos, opening times, or safe access.
+
+宮古島 **2026-09-23～27 旅行版**：重查原有 71 筆並新增 37 筆，共 108 篇內容；
+其中 72 筆有定位，23 筆為背景主題，13 筆仍待確認而停用導航。不是「108 個已確認可到訪景點」。
+這次以實際 Google Maps 具名頁、官方圖釘及逐項故事來源核對，另做獨立定位／敘事抽查。
+42 筆錯配或無法支持地點的舊媒體紀錄已撤下，新點不借用別處照片；目前 29 筆保留既有圖片，未重新認證其授權。
+見 [五組區域選點與旅期提醒](MIYAKO_TRIP_2026-09.md) 及 [查核紀錄](audits/miyako-trip-2026-09-23/)。
 
 ## Quick start
 

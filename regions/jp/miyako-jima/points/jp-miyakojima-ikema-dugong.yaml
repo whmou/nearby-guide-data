@@ -1,111 +1,115 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ikema-dugong
-  parentId: jp-miyakojima-ikema-island
-  kind: view
+  id: "jp-miyakojima-ikema-dugong"
+  parentId: "jp-miyakojima-ikema-island"
+  kind: "view"
   title: "池間島ジュゴン生息域"
-  summary: "池間島周邊海域是宮古群島中已確認儒艮（海牛）存在的唯一區域，環境省列為重要保護海域，偶有目擊報告，是日本境內難得一見的哺乳類海洋動物棲息環境。"
-  narration: |
-    儒艮是一種體型龐大的草食性海洋哺乳動物，全球數量急劇減少，在日本幾乎已瀕臨絕跡。然而在宮古島池間島周邊的淺灣海草床，牠們仍留有蹤跡。環境省的調查記錄顯示，此區域偶有個體出沒，以海底豐富的海草為食，留下橢圓形的啃食痕跡。儒艮的移動速度緩慢，通常在黎明或黃昏時於淺灘附近覓食，肉眼觀察極為困難，但當地漁民偶爾在出海時目擊到其大型灰褐色身影在水面露出呼吸。為了保護這片珍貴棲地，池間島海域部分區域限制漁業活動與水上摩托車，水下噪音管制也被納入討論。站在池間島北岸眺望，那片看似平靜的海面下，或許正有著這種古老海洋生靈悄悄游動。
-  observationPrompt: "在退潮後的海草床區域，俯身細看沙底——你能發現寬約30至50公分、橢圓形草根被拔起的痕跡嗎？那正是儒艮獨特的進食方式所留下的「牧食痕」。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 此為海洋棲地／保育主題，並非公共野生動物觀察點；勿引導遊客進入海草床。
+  locationHint: null
+  summary: "儒艮與海草床保育的閱讀主題，不是池間島保證可見儒艮的觀賞點；調查海域不能直接變成導航座標。"
+  narration: |
+    望著海面時，沒有看到動物，不代表這片海沒有值得保護的生活。儒艮吃的是淺海海草，可是要判斷牠是否利用某片海域，研究人員不能只靠一張漂亮水下照片。環境省的調查先分析空拍影像，找可能的攝食痕跡，再由潛水調查查證，也蒐集漁民的觀察；「像是吃過的痕跡」和「親眼見到儒艮」，是不同層次的證據。報告的調查範圍包括池間島，也包括來間島和伊良部島，不能把池間說成宮古唯一確認的生息地，更不能承諾清晨來就會看到。這筆保留為保育主題，沒有固定賞儒艮平台，也不提供追逐牠們的下水位置。若想了解，可以從報告裡的海草與調查方法讀起；把注意力放在棲地如何被辨認、如何與漁業共同照顧，比替一次旅行許下難以兌現的目擊願望，更接近這個故事的核心。
+  observationPrompt: "閱讀官方報告時，分清海草分布、疑似攝食痕跡與個體目擊三種證據；不按調查圖自行出海追尋。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "日本境內僅存的儒艮棲息確認地之一，具有極高的生物多樣性保育意義，環境省已列入重要保護區。"
-    sources: [env-dugong-miyako, ikema-dugong-moe]
+    note: "儒艮與海草床保育有重要生態意義。"
+    sources:
+      - "dugong-2023"
   distinctiveness:
-    score: 5
-    note: "在日本陸地可到達的海域中，能以合理機率期待看到野生儒艮的地點幾乎只有此處，獨特性極高。"
-    sources: [env-dugong-miyako]
+    score: 3
+    note: "研究方法比虛構目擊地點更有辨識價值。"
+    sources:
+      - "dugong-2023"
   interpretability:
-    score: 3
-    note: "牧食痕跡具體可見，但儒艮本身難以直接觀察，需要相當的背景知識才能充分欣賞此地的保育價值。"
-    sources: [ikema-dugong-moe]
+    score: 2
+    note: "可透過報告理解，但沒有固定現場觀察物。"
+    sources:
+      - "dugong-2023"
   visitorValue:
-    score: 3
-    note: "親眼目睹儒艮概率低，但了解保育背景後現場觀察海草床與牧食痕仍有深刻體驗價值。"
-    sources: [env-dugong-miyako]
+    score: 1
+    note: "無可靠觀賞點，不鼓勵追尋野生動物。"
+    sources:
+      - "dugong-2023"
   evidenceQuality:
-    score: 3
-    note: "環境省官方調查報告及生物多樣性学術文獻均有記載，儒艮目擊記錄有完整資料庫。"
-    sources: [ikema-dugong-moe]
-  final: 3.8  # 0.30×4 + 0.25×5 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+1.25+0.60+0.45+0.30 = 3.80
+    score: 4
+    note: "環境省實際調查報告支持主題，但不支持旅遊定位。"
+    sources:
+      - "dugong-2023"
+  final: 2.9
 sources:
-  - id: env-dugong-miyako
-    title: "ジュゴン保護区域 宮古島周辺海域"
-    publisher: "環境省自然環境局"
-    url: https://www.env.go.jp/nature/kisho/dugong/miyako.html
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "池間島周辺が宮古島でのジュゴン確認海域"
-      - "海草藻場の保全が重要"
-  - id: ikema-dugong-moe
-    title: "ジュゴンの生息状況調査報告書"
+  -
+    id: "dugong-2023"
+    url: "https://www.env.go.jp/content/000216024.pdf"
+    title: "令和5年度 ジュゴンと地域社会との共生推進委託業務"
     publisher: "環境省"
-    url: https://www.env.go.jp/nature/kisho/dugong/report.html
-    accessedAt: "2026-07-15"
-    language: ja
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島・池間島周辺での個体確認記録"
-      - "牧食痕（フィーディングトレイル）の分布調査結果"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Dugong_dugon.jpg
-    creator: "Geoff Spiby / www.geoffspiby.co.za"
-    license: "CC BY-SA 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
-    accessedAt: "2026-07-15"
-    originalSha256: "15d6c381aa319563cd316a36b19aef3d35b418bd462d1286bf180a18c248ae6e"
-    compactPath: media/compact/jp-miyakojima-ikema-dugong.webp
-    completePath: media/complete/jp-miyakojima-ikema-dugong.webp
+      - "重點調查包括池間島東部、來間島東部與伊良部島佐和田等七海域。"
+      - "棲地調查與個體目擊不同，不能當作可靠觀賞點。"
+      - "儒艮以淺海海草為食；重點調查先分析空拍影像，再潛水查證可能攝食痕跡，並蒐集漁民資訊。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "移除必見儒艮、清晨觀察點、唯一生息區或未查證禁航規定；不把攝食痕跡等同個體目擊。"
+    - "池間島周邊海域是儒艮生態調查的一部分，不是已公告的固定公共觀察設施。重讀環境省調查方法及範圍，不從研究海域或野生動物紀錄生成GPS；保留non_point。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Dugong_dugon.jpg；一般儒艮物種照片未證實攝於池間島，避免被當成本地目擊證據。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Dugong presence/feeding traces are regional marine observations, not a reliable outdoor arrival location. The sole-confirmed-area claim is contradicted by current ministry data listing multiple Miyako sea areas.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "池間島周邊海域是儒艮生態調查的一部分，不是已公告的固定公共觀察設施。重讀環境省調查方法及範圍，不從研究海域或野生動物紀錄生成GPS；保留non_point。"
   sources:
-  - url: https://www.env.go.jp/content/000395911.pdf
-    title: 環境省 — ジュゴン調査 results through 2025–2026
-    coordinateEvidence: https://www.env.go.jp/content/000395911.pdf table 1-14 lists feeding-trace survey areas including 池間島東部, 伊良部島佐和田 and 来間島東部. No public viewing/meeting point coordinate is specified; marine survey areas are not adopted as visitor pins.
+    -
+      url: "https://www.env.go.jp/content/000216024.pdf"
+      title: "令和5年度 ジュゴンと地域社会との共生推進委託業務"
+      coordinateEvidence: "本次已開啟18頁PDF，頁9調查方法列池間島東部；未提供可供旅客抵達的固定位置。"
   previousLocation:
     latitude: 24.905
     longitude: 125.173
-  verifiedLocation: null

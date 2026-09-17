@@ -4,14 +4,10 @@ point:
   parentId: jp-miyakojima-irabu-island
   kind: attraction
   title: "伊良部大橋展望"
-  summary: "從伊良部島側回望伊良部大橋，3,540公尺的橋身在宮古藍的海面上畫出一條優雅的弧線，是體驗這座「日本最長免費橋梁」全貌最震撼的角度，也是伊良部島最受歡迎的攝影構圖點之一。"
+  summary: "名稱尚不能對應唯一展望設施；保留看橋的閱讀提示，不混用橋頭、牧山展望台或いらぶ大橋海の駅的定位。"
   narration: |
-    多數人在開車通過伊良部大橋時，只能感受到橋的漫長；但如果你在抵達伊良部島後，沿著橋頭附近的小路找到這個朝向宮古本島的展望點，你才能真正看懂這座橋的壯觀。
-
-    伊良部大橋全長3,540公尺，在2015年啟用時成為日本收費道路以外最長的橋梁。從伊良部側的制高點望去，橋身從腳下延伸出去，以一道輕柔的弧線橫越宮古藍的海面，最終消失在宮古本島的輪廓中。橋的兩側，海水呈現不同深淺的藍綠色漸層，那是因為橋梁跨越了幾個不同深度的珊瑚礁區。
-
-    最佳拍攝時間是上午，太陽從東方照亮橋面，橋梁本身反射白光，與深邃的海面形成強烈對比。若配合無人機視角（需遵守日本航空法規定在特定地點申請），可以捕捉到橋面和海面共同構成的宏觀幾何感。徒步或騎車而來的旅人，也可以在橋頭附近的小停車場稍作停留，欣賞這個獨一無二的角度。
-  observationPrompt: "從這個角度看，伊良部大橋的橋身是完全筆直，還是有微微的弧度？仔細觀察橋兩側的海水顏色是否相同。"
+    照片裡同一座伊良部大橋，為什麼有時幾乎與海平面相貼，有時又能看見長長的弧線？先留意拍攝位置：陸側橋頭、高處展望台和商業設施旁，看見的並不是同一個角度。官方資料記載，大橋全長三千五百四十公尺，二○一五年一月開通；它足夠長，換一個岸邊位置，橋墩和海岸的前後關係就會改變。但原資料只寫「伊良部大橋展望」，沒有能辨認的設施全名，舊文還把高處平台和小型橋頭混在一起。觀光協會另外列有具名的「いらぶ大橋海の駅」，也不能因為都看得到橋，就把兩者直接畫上等號。這一項暫時不導航；等你選好另行驗證的公共觀景點，再比較橋身和岸線如何交會。拍照留在合法開放範圍，橋上不要臨停。
+  observationPrompt: "使用已另行驗證的公共觀景點時，橋身在畫面中是接近水平還是向遠處彎去？不要依未具名照片尋找私人平台。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -31,86 +27,66 @@ point:
       tags:
         - id: photography
           label: 攝影
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請明確指定伊良部島側的目標觀景點，是橋頭或具名觀景平台。
+  locationHint: "舊稱未對應唯一展望設施，無GPS／觸發。橋頭、牧山展望台、海の駅是不同場所，請各依具名且已驗證的項目安排；橋上不可臨停。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "伊良部大橋是日本最長免費橋梁，具全國性工程與觀光意義"
-    sources: [src1]
+    score: 1
+    note: "橋景主題有背景價值，原場所未定。"
+    sources: ["bridge","umieki","irabu"]
   distinctiveness:
-    score: 4
-    note: "從伊良部側回望橋梁的角度是最能展現橋梁全貌的獨特視點"
-    sources: [src2]
+    score: 1
+    note: "不能以別處的特色代替未具名展望點。"
+    sources: ["bridge","umieki","irabu"]
   interpretability:
     score: 3
-    note: "橋梁工程與宮古藍海色的視覺解說直觀，但深度內容需補充橋梁建造史"
-    sources: [src1]
+    note: "橋梁尺度可供行前理解。"
+    sources: ["bridge","umieki","irabu"]
   visitorValue:
-    score: 4
-    note: "免費、易達、拍攝效果突出，是伊良部旅遊體驗的完美收尾點"
-    sources: [src2]
+    score: 0
+    note: "未識別場所，不能作抵達目的地。"
+    sources: ["bridge","umieki","irabu"]
   evidenceQuality:
-    score: 3
-    note: "有內閣府沖縄振興局及宮古島觀光資料記載橋梁規格"
-    sources: [src1]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.2+1.0+0.6+0.6+0.3 = 3.7
+    score: 2
+    note: "已查正式來源與Maps候選，但不能建立唯一對應。"
+    sources: ["bridge","umieki","irabu"]
+  final: 1.4
 sources:
-  - id: src1
-    title: "伊良部大橋 - 内閣府沖縄総合事務局"
-    publisher: "内閣府沖縄総合事務局北部国道事務所"
-    url: https://www.ogb.go.jp/hokubu/road/irabu_bridge.html
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "伊良部大橋全長3,540公尺，是日本免費通行道路中最長的橋梁"
-      - "大橋於2015年1月31日正式開通，連結宮古本島與伊良部島"
-  - id: src2
-    title: "伊良部大橋 - 宮古島観光協会"
+  - id: bridge
+    title: "伊良部大橋"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/irabu-ohashi/
-    accessedAt: "2026-07-15"
+    url: "https://miyako-guide.net/spots/spots-840/"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "從伊良部島側眺望大橋是宮古島最受歡迎的攝影景點之一"
-      - "橋梁兩側的宮古藍海景是旅遊宣傳的標誌性畫面"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_ohashi_20120815.jpg
-    creator: "Rsa"
-    license: "CC BY-SA 3.0"
-    licenseUrl: http://creativecommons.org/licenses/by-sa/3.0/
-    accessedAt: "2026-07-15"
-    originalSha256: "6da986a7aa9e216b034e3f45deb795c959959a09d7ca8e5668cd965845faf920"
-    compactPath: media/compact/jp-miyakojima-irabu-panorama.webp
-    completePath: media/complete/jp-miyakojima-irabu-panorama.webp
+    supports: ["伊良部大橋全長3,540公尺，2015年1月開通。"]
+  - id: umieki
+    title: "いらぶ大橋海の駅（伊良部島産業振興株式会社）"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-2959/"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["觀光協會將いらぶ大橋海の駅列為具名購物、用餐設施，與橋梁本體分開。"]
+  - id: irabu
+    title: "伊良部島"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/about/miyako_area/irabu"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["伊良部島官方旅遊頁另外介紹牧山展望台，不能只憑看橋用途認定為同一設施。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除未具名高架平台、對稱視野、固定最佳時段等敘述，保留原題名及待查身分。","移除 File:Irabu_ohashi_20120815.jpg：2012年橋梁工程影像不能證明未具名展望平台及現況；不替配其他觀景點照片。"]
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: A generic bridge panorama is not enough to uniquely identify a viewpoint. Narrative mixes a small bridgehead road/parking area with a high vantage. Do not silently replace it with 牧山展望台 or いらぶ大橋海の駅.
-  sources:
-  - url: https://miyako-island.net/charm/
-    title: 宮古島観光協会 — 宮古島の魅力
-    coordinateEvidence: https://miyako-island.net/charm/ names 牧山展望台 as one island viewpoint, but it does not equate it with this unnamed panorama. No coordinate accepted.
-  - url: https://miyako-guide.net/spots/spots-2959/
-    title: 宮古島観光協会 — いらぶ大橋海の駅
-    coordinateEvidence: https://miyako-guide.net/spots/spots-2959/ documents another bridge-viewing facility; identity differs from an unnamed public viewpoint. No coordinate substituted.
-  previousLocation:
-    latitude: 24.8148
-    longitude: 125.1622
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。"
+  sources: [{"url":"https://miyako-guide.net/spots/spots-840/","title":"伊良部大橋","coordinateEvidence":"2026-09-16重新抓取原頁全文；重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。 未從不同場所採用座標。"},{"url":"https://miyako-guide.net/spots/spots-2959/","title":"いらぶ大橋海の駅（伊良部島産業振興株式会社）","coordinateEvidence":"2026-09-16重新抓取原頁全文；重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。 未從不同場所採用座標。"},{"url":"https://www.okinawastory.jp/about/miyako_area/irabu","title":"伊良部島","coordinateEvidence":"2026-09-16重新抓取原頁全文；重抓官方橋梁、島嶼及海の駅頁，並核對即時Maps多個候選；原題名與舊文沒有足以判定橋頭、高地或商業設施的身分線索。維持unresolved，不擅自改名為牧山展望台或海の駅來補GPS。 未從不同場所採用座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%B1%95%E6%9C%9B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 實際Chrome搜尋：伊良部大橋展望 宮古島","coordinateEvidence":"讀取主工作者2026-09-16T13:36:47.951ZChrome實際結果；沒有可確定對應原名／原敘述的場所。候選原始連結及place座標（均未採用）：伊良部大橋：https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B/data=!4m7!3m6!1s0x34f45488132ce049:0x41dcbaef99b8684b!8m2!3d24.7962883!4d125.2410596!16s%2Fg%2F122dyfgw!19sChIJSeAsE4hU9DQRS2i4me-63EE?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7962883,125.2410596 | 伊良部大橋伊良部島橋詰：https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6%E6%A9%8B%E8%A9%B0/data=!4m7!3m6!1s0x34f45583bb6ea9c5:0xdb85ff856ffc01fd!8m2!3d24.8096285!4d125.2189845!16s%2Fg%2F11j7vclxxc!19sChIJxaluu4NV9DQR_QH8b4X_hds?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8096285,125.2189845 | 来間大橋展望台：https://www.google.com/maps/place/%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f4ff80faefb999:0x45adc1091e192d12!8m2!3d24.7221097!4d125.255486!16s%2Fg%2F11c7s4sppl!19sChIJmbnv-oD_9DQREi0ZHgnBrUU?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7221097,125.255486 | 牧山展望台：https://www.google.com/maps/place/%E7%89%A7%E5%B1%B1%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f45395de13dd09:0xcd791ddf1a9780bb!8m2!3d24.8178419!4d125.2182529!16s%2Fg%2F11ry5cl6mf!19sChIJCd0T3pVT9DQRu4CXGt8dec0?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8178419,125.2182529 | 伊良部大橋宮古島口：https://www.google.com/maps/place/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%A4%A7%E6%A9%8B%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%8F%A3/data=!4m7!3m6!1s0x34f455847296cc21:0xc35e2db59e855581!8m2!3d24.7950803!4d125.2564785!16s%2Fg%2F11fr_zpg9_!19sChIJIcyWcoRV9DQRgVWFnrUtXsM?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.7950803,125.2564785 | 佐和田の浜展望台：https://www.google.com/maps/place/%E4%BD%90%E5%92%8C%E7%94%B0%E3%81%AE%E6%B5%9C%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f5ac76213f7af1:0xe80aca44b58ed952!8m2!3d24.8335912!4d125.1560237!16s%2Fg%2F11dxm4h6mr!19sChIJ8Xo_IXas9TQRUtmOtUTKCug?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8335912,125.1560237 | いらぶ大橋 海の駅：https://www.google.com/maps/place/%E3%81%84%E3%82%89%E3%81%B6%E5%A4%A7%E6%A9%8B+%E6%B5%B7%E3%81%AE%E9%A7%85/data=!4m7!3m6!1s0x34f455f648c63a7f:0xb796f810721ab357!8m2!3d24.8111392!4d125.2185239!16s%2Fg%2F11qm3dknbl!19sChIJfzrGSPZV9DQRV7MachD4lrc?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1；!3d/!4d=24.8111392,125.2185239。不使用搜尋頁@視窗中心。"}]
+  previousLocation: {"latitude":24.8148,"longitude":125.1622}
   verifiedLocation: null

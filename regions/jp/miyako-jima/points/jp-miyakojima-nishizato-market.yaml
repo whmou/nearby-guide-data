@@ -1,113 +1,126 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-nishizato-market
+  id: "jp-miyakojima-nishizato-market"
   parentId: null
-  kind: attraction
-  title: "西里公設市場"
-  summary: "宮古島市中心的傳統公設市場，攤位上陳列著當天早晨捕撈的新鮮魚獲、在地蔬果與宮古特產，是感受島民日常生活與飲食文化的最佳場所。"
-  narration: |
-    西里公設市場藏身於宮古島市最熱鬧的西里商店街一帶，是島上最道地的傳統市場。早上開市時，魚販們將當天清晨剛從海中捕獲的各式魚貨一字排開——鮮豔的紅甘、厚實的石斑、閃著銀光的飛魚乾，以及在本土菜市場幾乎看不到的宮古島特有海產。
-
-    蔬果攤上擺著在地農家種植的辣島胡椒（島とうがらし）、苦瓜（ゴーヤー）與各種南方熱帶水果，香氣撲鼻。市場內也有幾家販售宮古上布織品、琉球玻璃工藝品和地產泡盛的小店，是採購伴手禮的好去處。
-
-    市場裡熙來攘往，小販們帶著宮古腔的日文招呼客人，島上阿嬤推著購物車挑選食材的身影俯拾即是。這裡的節奏與島嶼的悠閒步調完全一致——不妨慢慢逛，在攤位之間找尋讓你想帶走的那一份宮古味道。
-  observationPrompt: "在魚貨攤位附近，留意看看有沒有你在台灣菜市場從未見過的魚種或海鮮——可以問問攤販牠們的名字，或觀察旁邊的標示牌，看是否能找到宮古島特有的漁獲品種。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "attraction"
+  title: "宮古島市公設市場"
+  summary: "下里一番地的宮古島市公設市場，把島野菜、海產加工品與日常飲食放在同一處；從產地標示讀懂島上的餐桌。"
+  narration: "先看商品旁邊的小標籤：產地寫在哪裡、是當季蔬果還是加工食品？逛宮古島市公設市場，不必先預設整條街都在賣清晨捕獲的魚，反而可以從一兩件商品慢慢認識島上的日常。市政府設立這座市場，是為了推動在地生產、在地消費，也讓居民採買更方便；官方地址是平良下里一番地，並不是一座另有正式名稱的「西里公設市場」。市府介紹的攤位內容包括島野菜、宮古味噌、海葡萄與海藻料理，也有豆腐、惣菜及飲食店，說明市場不只是生鮮買賣，更把保存、加工與吃飯連在一起。實際營業的攤位和商品仍會變動，可以看看一種原料如何變成不同食品，再讀包裝上的製造地；想問店家時，等對方忙完眼前的工作，這樣的停留比只找一張熱鬧市場照片更有收穫。\n"
+  observationPrompt: "在當天開店的攤位比較產地標籤與加工食品名稱；能否找到同一種島產原料的不同做法？拍攝攤位或人物前先詢問。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: indoor
-          label: 室內
-    - id: subject
-      label: 主題
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: daily-life
-          label: 日常生活
-    - id: experience
-      label: 體驗
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 漫步
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "漫步"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: true
-  location: null
-  googleMapsUrl: null
-  trigger: null
-  locationHint: 須先確認「西里公設市場」是否指宮古島市公設市場；官方後者地址為平良字下里1，不可僅按近似名稱自動換點。
+  location:
+    latitude: 24.8039621
+    longitude: 125.2787251
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8039621,125.2787251"
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "宮古島市公設市場具名建物pin，平良下里一番地；原「西里公設市場」為名稱誤記。按本館及棟別標示進入，非卸貨區入口；各攤位營業時間不同。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島市區主要的傳統市場，是島民日常採買的重要場所，反映在地飲食文化"
-    sources: [src1]
+    note: "公設市場由市府設立，目的包括推動地產地消、方便市民消費及地域活化；地址平良字下里1番地。"
+    sources:
+      - "src1"
   distinctiveness:
     score: 3
-    note: "宮古島特有漁獲及在地農產品使這裡有別於一般日本超市；傳統市場氛圍是最大特色"
-    sources: [src1]
+    note: "官方攤位介紹包含島野菜、宮古味噌、海葡萄、海藻料理、豆腐惣菜及飲食店；各店營業不同。"
+    sources:
+      - "src1"
   interpretability:
-    score: 3
-    note: "市場環境直覺易懂；魚貨與特產一目了然，無需特別解說即可感受在地生活文化"
-    sources: [src1]
-  visitorValue:
     score: 4
-    note: "購物、試吃與觀察在地生活兼具；對美食旅客和文化愛好者吸引力強"
-    sources: [src1, src2]
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+  visitorValue:
+    score: 3
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
   evidenceQuality:
     score: 3
-    note: "多家旅遊媒體有詳細介紹，資訊可靠"
-    sources: [src1, src2]
-  final: 3.2   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 3.2
 sources:
-  - id: src1
-    title: "宮古島 西里公設市場 - 宮古島観光協会"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/shityo/kankosyoukou/kankou/publicmarket.html"
+    title: "宮古島市公設市場｜市の組織｜宮古島市"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "市場的位置、營業時間及販售品項"
-      - "與在地漁業和農業的連結"
-  - id: src2
-    title: "宮古島市場めぐり - じゃらん"
-    publisher: "じゃらんnet"
-    url: https://www.jalan.net/kankou/spt_47214ag2130010475/
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "市場攤位種類及購物指南"
-      - "周邊商店街的整體氛圍描述"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-nishizato-market.webp
-    completePath: media/complete/jp-miyakojima-nishizato-market.webp
+      - "公設市場由市府設立，目的包括推動地產地消、方便市民消費及地域活化；地址平良字下里1番地。"
+      - "官方攤位介紹包含島野菜、宮古味噌、海葡萄、海藻料理、豆腐惣菜及飲食店；各店營業不同。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "更正中央市區公設市場正式名稱；刪除虛構叫賣、氣味、特定即日漁獲與工藝品保證，改以市府實際攤位資料解說。"
+    - "移除原媒體紀錄：Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg是與那霸前濱，不是公設市場；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact-name search and municipal market page establish 宮古島市公設市場 at 下里1, but not the stated Nishizato-street market identity/signage. No explicit coordinate for the claimed entity was found; do not force a same-name/nearby market replacement.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新擷取市府市場頁，確認中央市區公設市場的正式名稱為宮古島市公設市場、地址下里1；主線Chrome用舊名搜尋亦返回同名同地址、同市府官網及電話。將同一市區公設市場更正正式名稱，未換成私人店家；本次展開原始分享href得到具名feature !3d24.8039621!4d125.2787251，採建物pin而非入口。"
   sources:
-  - url: https://www.city.miyakojima.lg.jp/soshiki/shityo/kankosyoukou/kankou/publicmarket.html
-    title: 宮古島市公設市場｜宮古島市
-    coordinateEvidence: Municipal operator page identifies 下里1 and tenants; fetched HTML yielded no map pin establishing a separate 西里公設市場. Address is disambiguation evidence, not an inferred coordinate.
+    -
+      url: "https://www.city.miyakojima.lg.jp/soshiki/shityo/kankosyoukou/kankou/publicmarket.html"
+      title: "宮古島市公設市場｜市の組織｜宮古島市"
+      coordinateEvidence: "本次HTTP 200取得正式名稱、下里1地址、0980-73-1919電話及攤位列表；頁內無地圖座標。與具名Maps地址及市府連結交叉對應，不由地址估算GPS。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%87%8C%E5%85%AC%E8%A8%AD%E5%B8%82%E5%A0%B4%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "宮古島市公設市場 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:46.988Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=宮古島市公設市場。原始分享 href=https://maps.app.goo.gl/hmM2ca9eNbSULBqj8；resolvedShareUrl=https://maps.app.goo.gl/hmM2ca9eNbSULBqj8；具名結果 href=[]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。主線具名頁為宮古島市公設市場、平良下里一番地、city.miyakojima.lg.jp。"
+    -
+      url: "https://maps.app.goo.gl/hmM2ca9eNbSULBqj8"
+      title: "宮古島市公設市場｜Google Maps 分享連結"
+      coordinateEvidence: "原始分享href=https://maps.app.goo.gl/hmM2ca9eNbSULBqj8；本次HTTP 200展開為 https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E5%B3%B6%E5%B8%82%E5%85%AC%E8%A8%AD%E5%B8%82%E5%A0%B4/@24.8039621,125.2787251,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538b127c2599:0x19097169989fdfed!8m2!3d24.8039621!4d125.2787251!16s%2Fg%2F11b86xgq9w?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=c1a5c240-75cb-45d0-a75f-fdaa9b556c22；採!8m2!3d24.8039621!4d125.2787251，不由@或Plus Code換算。HTTP正文需JavaScript，名稱地址來自主線Chrome擷取。"
   previousLocation:
     latitude: 24.8038
     longitude: 125.279
-  verifiedLocation: null
+  verifiedLocation:
+    latitude: 24.8039621
+    longitude: 125.2787251

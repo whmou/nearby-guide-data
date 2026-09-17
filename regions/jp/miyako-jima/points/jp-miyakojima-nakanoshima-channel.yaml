@@ -1,114 +1,110 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-nakanoshima-channel
+  id: "jp-miyakojima-nakanoshima-channel"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "中の島チャンネル（ダイビングスポット）"
-  summary: "中の島水道是宮古島最著名的漂流潛水地點，強勁的潮流帶著潛水員穿越宮古本島與中之島之間的窄窄水道，能見度可達四十公尺以上。"
-  narration: |
-    中の島チャンネル，又稱中之島水道，位於宮古本島西南側與小島中之島之間，是宮古島潛水界赫赫有名的「流潛」聖地。這條水道受地形影響，潮流強勁而穩定，形成天然的「海中電梯」，只要跳入水中，洋流便會帶著你輕鬆滑過整段水道。
-
-    水道能見度驚人，通常超過三十公尺，晴天更可達四十公尺以上，透明到如同置身於一個巨大的水族館。水道兩壁生長著大型軟珊瑚與海扇，鰺魚群、梭魚群迴游其間，運氣好時還能見到燕魟翩翩飛過。
-
-    由於潮流強勁，中の島チャンネル屬於進階級潛水點，建議具備至少三十支以上潛水經驗再前往。當地潛水店都有提供導潛服務，熟悉水道的教練能帶你把握最佳入水時機，安全地享受這段令人難忘的「流潛」體驗。
-  observationPrompt: "在水道中漂流時，請留意水道壁上的軟珊瑚顏色——此處常見橘色與黃色的大型軟珊瑚，你能看到多少不同顏色的珊瑚群落？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "中之島 Channel 是下地島中之島灣的水下地形潛點，以裂隙與拱洞為特色；不是宮古本島旁的漂流海峽或陸上入口。"
+  narration: "如果已由專業業者評估並帶領下水，中之島 Channel 值得留意的，不是跟著強流一路漂走，而是岩礁之間像通道一樣的裂隙；人在不同角度看它，地形就可能從一堵牆變成一道開口。實際經營這個潛點的業者，把它列在下地島的中之島灣，介紹的重點是裂隙、拱洞，以及光線從上方落進裂縫的景象，並非宮古本島與某座「中之島」之間的海峽。業者列出的深度範圍是五到二十二公尺，但那是潛點資料，不是每個參加者都能自行採用的下潛計畫。這筆保留的是海底地形故事，沒有固定集合處，也不把岸邊海灘的圖釘冒充洞口；能走哪條水下路線、當日能否入水，請交給你預約的專業團隊決定，不為追逐一道光而偏離導潛。\n"
+  observationPrompt: "僅在專業導潛允許的路線上，留意岩礁裂隙與拱洞的形狀、亮暗交界；不要自行進入狹窄空間。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 活動
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "活動"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 付費
+        -
+          id: "ticketed"
+          label: "付費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 中の島チャネル為下地島海中潛點；請依預約潛水業者指定集合，不能循原 GPS 當作陸上入口。
+  locationHint: "下地島中之島灣的海中潛點，沒有本筆通用集合或下水GPS。按所訂業者安排，勿將中之島海灘當成自行尋洞入口。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古島最知名漂流潛水地點之一，在日本潛水界具有高知名度。"
-    sources: [src1]
-  distinctiveness:
-    score: 5
-    note: "強勁洋流形成的漂流潛水體驗配合四十公尺以上能見度，在日本屬頂尖水準。"
-    sources: [src1, src2]
-  interpretability:
     score: 3
-    note: "需有潛水執照，潛水店導潛會說明水道生態，但一般遊客無法直接體驗。"
-    sources: [src2]
+    note: "中の島チャネル位於下地島中之島灣，地形特色為裂隙與拱洞。"
+    sources:
+      - "src1"
+  distinctiveness:
+    score: 3
+    note: "業者資料列水深5至22公尺，並描述裂隙上方入射光；這不是個別旅客的潛水計畫。"
+    sources:
+      - "src1"
+  interpretability:
+    score: 2
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
   visitorValue:
-    score: 4
-    note: "對潛水愛好者而言是宮古必潛點，體驗價值極高；非潛水者無法直接受益。"
-    sources: [src2]
+    score: 1
+    note: "本筆不提供固定導航；需另確認實際場所或業者安排。"
+    sources:
+      - "src1"
   evidenceQuality:
     score: 3
-    note: "有潛水專業媒體及觀光網站記載，但較缺乏學術文獻。"
-    sources: [src1]
-  final: 4.0  # 0.30*4 + 0.25*5 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.25+0.60+0.60+0.30 = 3.95 → 4.0
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 2.5
 sources:
-  - id: src1
-    title: "宮古島のダイビングスポット｜中の島チャンネル"
-    publisher: "宮古島観光ガイド miyako-guide.net"
-    url: https://miyako-guide.net/diving/nakanoshima-channel
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyako-aquaticadventure.com/nakanoshima-channel.html"
+    title: "宮古島ダイビングポイント｜下地島 中の島チャネル アクアティックアドベンチャー"
+    publisher: "アクアティックアドベンチャー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "中の島チャンネル是宮古島最受歡迎的漂流潛水地點"
-      - "能見度可達三十至四十公尺"
-  - id: src2
-    title: "沖縄宮古島ダイビング情報 - Visit Okinawa"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.visitokinawa.jp/experiences/diving
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "宮古島潛水條件世界級，建議搭配當地潛水店導潛"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabujima_sky_view.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "aba031168a56fce0eaa017f9ab03636862161da9f98181614508d35e0936571e"
-    compactPath: media/compact/jp-miyakojima-nakanoshima-channel.webp
-    completePath: media/complete/jp-miyakojima-nakanoshima-channel.webp
+      - "中の島チャネル位於下地島中之島灣，地形特色為裂隙與拱洞。"
+      - "業者資料列水深5至22公尺，並描述裂隙上方入射光；這不是個別旅客的潛水計畫。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除流潛海峽、海中電梯、保證能見度與自行下水暗示；不將業者初級標籤當成每位旅客安全保證。"
+    - "移除原媒體紀錄：Irabujima_sky_view.jpg是伊良部島空拍，不能展示中之島灣的水下Channel地形；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 searched the exact dive site and operator descriptions. It is a submarine topographic dive site, not a fixed visitor meeting point; YAML names no operator. Its story of a strait between Miyako main island and an island called Nakanoshima is inconsistent with the operator's Shimoji Nakanoshima Bay description.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取實際潛水業者的中の島チャネル專頁，確認為下地島中之島灣的水下裂隙與拱洞，不是原文的漂流海峽。未指名所訂業者或固定集合點，維持non_point，岸上與海中位置不互相替代。"
   sources:
-  - url: https://miyako-aquaticadventure.com/nakanoshima-channel.html
-    title: 下地島・中の島チャネル｜アクアティックアドベンチャー
-    coordinateEvidence: Operator describes a dive site in 中の島湾, not the YAML's purported main-island strait or a named arrival venue. No fixed meeting-point coordinate adopted.
-  - url: https://miyakojima-codesea.com/meeting-place
-    title: CODE SEA宮古島：ツアー集合場所
-    coordinateEvidence: Operator states its tour meeting place varies among four locations with sea conditions. This illustrates why a dive-site center must not be substituted for an unspecified tour's meeting point.
+    -
+      url: "https://miyako-aquaticadventure.com/nakanoshima-channel.html"
+      title: "宮古島ダイビングポイント｜下地島 中の島チャネル アクアティックアドベンチャー"
+      coordinateEvidence: "本次HTTP 200擷取具名潛點頁，無此活動通用陸上集合pin；未提取或採用海中中心座標。"
   previousLocation:
     latitude: 24.8135
     longitude: 125.1453

@@ -1,0 +1,146 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-kaihoukan-shell-museum"
+  parentId: null
+  kind: "venue"
+  title: "宮古島海寶館・貝殼博物館"
+  summary: "從巨型貝殼到各式螺紋，認識城邊出身館長長年累積的世界貝類收藏。"
+  narration: "進到海寶館的貝殼展示區，先別忙著記名字，挑一個形狀最讓你好奇的貝殼，看看它的螺紋或外緣。沖繩觀光資料介紹，這批收藏來自城邊出身的館長，花了約五十年從世界各地蒐集，累積超過一萬件；原本屬於一個人的好奇心，慢慢成了讓大家認識海洋的博物館。入口介紹的巨型硨磲，和展櫃裡不同大小、形狀的貝類放在一起看，更容易感覺到「貝殼」其實不是單一模樣。這裡另有把貝殼做成風獅爺、相框或飾品的手作體驗，能不能參加、費用與材料都先問工作人員。看展時不妨選兩件外形差很多的標本，找找各自最醒目的線條；想留下一份紀念，用照片或館內允許的活動就好，不必到海邊採集活物。"
+  observationPrompt: "選兩件外形差異明顯的貝類標本，比較螺紋、開口或外緣的線條。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "culture"
+          label: "文化"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "family"
+          label: "親子"
+    -
+      id: "access"
+      label: "入場"
+      tags:
+        -
+          id: "ticketed"
+          label: "需購票"
+  indoor: true
+  location:
+    latitude: 24.7300505
+    longitude: 125.4293626
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採業者官網實際 Google embed 回應中海寶館的地點座標，地址城邊保良591-1；定位為館舍而非售票櫃檯。依館方開放入口參觀，展館與手作收費、受付情況現場確認。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7300505,125.4293626"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "tourism"
+  distinctiveness:
+    score: 4
+    note: "城邊出身館長花約五十年從世界各地蒐集超過一萬件貝類，館方入口介紹巨型硨磲。"
+    sources:
+      - "tourism"
+  interpretability:
+    score: 4
+    note: "選兩件外形差異明顯的貝類標本，比較螺紋、開口或外緣的線條。"
+    sources:
+      - "tourism"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "tourism"
+  evidenceQuality:
+    score: 4
+    note: "已抓取官方故事與參觀資料，實際請求官方Google連結並核對具名地點資料；非視覺入口驗證。"
+    sources:
+      - "tourism"
+      - "operator"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "tourism"
+    title: "宮古島海宝館"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/spot/1353"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "城邊出身館長花約五十年從世界各地蒐集超過一萬件貝類，館方入口介紹巨型硨磲。"
+      - "館內提供貝殼風獅爺、相框、飾品等手作活動；地址城邊保良591-1。"
+  -
+    id: "operator"
+    title: "宮古島海宝館「アソビタウン」"
+    publisher: "宮古島海宝館"
+    url: "https://www.kaihoukan.co.jp/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "業者介紹超過一萬件世界貝類收藏的Shell Museum、貝細工活動與停車場。"
+  -
+    id: "google"
+    title: "宮古島海宝館｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.9087659327815!2d125.42723121505081!3d24.730012256563718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f459a60d223fb3%3A0x50996fdb2baa6700!2z5a6u5Y-k5bO25rW35a6d6aSo!5e0!3m2!1sja!2sjp!4v1462212058419"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次實際請求官方原始Google連結；從具名place資料／轉址擷取座標，另核對具名DOM與地址，不採viewport。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已實際抓取官方具名參觀資料、Google原始嵌入連結與其回應；採回應中同名同址 place feature 24.7300505,125.4293626，非 viewport。採業者官網實際 Google embed 回應中海寶館的地點座標，地址城邊保良591-1；定位為館舍而非售票櫃檯。依館方開放入口參觀，展館與手作收費、受付情況現場確認。 未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://www.okinawastory.jp/spot/1353"
+      title: "宮古島海宝館"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.kaihoukan.co.jp/"
+      title: "宮古島海宝館「アソビタウン」"
+      coordinateEvidence: "2026-09-16 本次抓取 https://www.kaihoukan.co.jp/ 的 EXACT raw Google iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.9087659327815!2d125.42723121505081!3d24.730012256563718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f459a60d223fb3%3A0x50996fdb2baa6700!2z5a6u5Y-k5bO25rW35a6d6aSo!5e0!3m2!1sja!2sjp!4v1462212058419；再實際 GET HTTP200。回應中的具名 place feature 原始片段=fKLaYvr0PsebUmAU\",null,null,null,[[[3623.908765932782,125.4293626,24.7300505],[0,0,0],null,13.10000038146973],null,0,[[\"0x34f459a60d223fb3:0x50996fdb2baa6700\",\"Miyakojima Kaihokan, Bora-591-1 Gusukube, Miyakojima, Okinawa 906-0101\",[24.7300505,125.4293626],\"5807796181592073984\"],\"Miyakojima Kaihokan\",[\"Bora-591-1 Gusukube\",\"Miyakojima, Okinawa 906-0101\"],3.299999952316284,\"442 reviews\",null,null,\"0980-77-2323\",nul；採具名 feature 陣列內座標 24.7300505,125.4293626，不是 embed pb 的 !2d/!3d viewport。 此為場所地標，非入口測量；具名地址與其他來源核對，未作現地、街景或視覺驗證。"
+    -
+      url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.9087659327815!2d125.42723121505081!3d24.730012256563718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f459a60d223fb3%3A0x50996fdb2baa6700!2z5a6u5Y-k5bO25rW35a6d6aSo!5e0!3m2!1sja!2sjp!4v1462212058419"
+      title: "宮古島海宝館｜Google Maps 具名頁"
+      coordinateEvidence: "2026-09-16 本次抓取 https://www.kaihoukan.co.jp/ 的 EXACT raw Google iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.9087659327815!2d125.42723121505081!3d24.730012256563718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f459a60d223fb3%3A0x50996fdb2baa6700!2z5a6u5Y-k5bO25rW35a6d6aSo!5e0!3m2!1sja!2sjp!4v1462212058419；再實際 GET HTTP200。回應中的具名 place feature 原始片段=fKLaYvr0PsebUmAU\",null,null,null,[[[3623.908765932782,125.4293626,24.7300505],[0,0,0],null,13.10000038146973],null,0,[[\"0x34f459a60d223fb3:0x50996fdb2baa6700\",\"Miyakojima Kaihokan, Bora-591-1 Gusukube, Miyakojima, Okinawa 906-0101\",[24.7300505,125.4293626],\"5807796181592073984\"],\"Miyakojima Kaihokan\",[\"Bora-591-1 Gusukube\",\"Miyakojima, Okinawa 906-0101\"],3.299999952316284,\"442 reviews\",null,null,\"0980-77-2323\",nul；採具名 feature 陣列內座標 24.7300505,125.4293626，不是 embed pb 的 !2d/!3d viewport。 此為場所地標，非入口測量；具名地址與其他來源核對，未作現地、街景或視覺驗證。"
+  verifiedLocation:
+    latitude: 24.7300505
+    longitude: 125.4293626

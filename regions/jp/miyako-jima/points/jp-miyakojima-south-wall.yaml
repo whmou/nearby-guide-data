@@ -1,111 +1,103 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-south-wall
+  id: "jp-miyakojima-south-wall"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "サウスウォール（ダイビングスポット）"
-  summary: "サウスウォールは宮古島南岸的垂直峭壁潛水點，礁壁從水面直墜超過四十公尺深，大型魚群與海扇密布，是宮古島壁潛愛好者的朝聖之地。"
-  narration: |
-    宮古島南岸外海，有一道令潛水人心跳加速的巨大礁壁——サウスウォール，中文意思就是「南牆」。這道礁壁從水面下數公尺處便開始向深海垂直延伸，一路跌落超過四十公尺，壯闊程度不輸世界著名的大型壁潛地點。
-
-    礁壁表面覆滿了繽紛的軟珊瑚與海扇珊瑚，橘紅色、桃粉色的珊瑚在洋流中輕輕搖曳。大型白鰺魚群在礁壁外的藍水中盤旋，偶爾可見燕魟成群掠過，或是孤獨的隆頭鸚哥魚在礁壁間緩行。宮古島的水色在此呈現深沈的鈷藍，能見度通常超過二十公尺。
-
-    此潛點因海況較為開放，適合有一定壁潛經驗的潛水員。透過當地潛水業者安排，在適合的潮況下入水，才能充分欣賞這道壯麗的「南牆」全貌。
-  observationPrompt: "站在礁壁旁，俯視那一片延伸入深藍的礁壁——請觀察礁壁上附著的生物，越靠近深處顏色有什麼變化？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "「サウスウォール」尚未確認為宮古島的具名潛點；保留查核提醒，不提供海上座標或下潛敘事。"
+  narration: |-
+    看潛水行程時，先看清楚潛點名稱，常常比照片裡的藍色更重要。「サウスウォール」這個名字，目前還沒有足夠資料能確認它指的是宮古島哪一處海底地形；原先關於四十公尺礁壁、魚群與能見度的描寫，因此不能當成這裡的實況。宮古島當地業者的潛點表，確實分別列有ウォールケーブ與ロウニンドロップオフ，也為不同洞窟、斷崖標出程度需求，但相似的英文詞不是同一個地點的證明。若你的預約單真的寫著這個名稱，請業者把日文全名、所屬海域及集合地點說明清楚；海底景物的位置與登船櫃檯，本來就可能相距很遠。在身分釐清前，這段只做查核提醒，不帶你沿海找入口，也不把另一個潛點的故事搬過來。
+  observationPrompt: "核對業者現場行程板或預約單上的完整潛點名；若與本筆不同，請勿按相似名稱自行尋找海岸入口。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 活動
-    - id: access
-      label: 入場
+        - id: "walking"
+          label: "活動"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 付費
+        - id: "ticketed"
+          label: "付費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 尚未確認サウスウォール是否為宮古島此一具名潛點；不得以原海上 GPS 或其他相似壁潛地點代替。
+  locationHint: "サウスウォール的宮古島地點身分未定；請向預訂潛水業者確認，不採舊海上座標或其他名稱相似的潛點。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古島代表性壁潛景點，在日本潛水社群中廣為人知，礁壁深度與生態俱佳。"
-    sources: [src1]
+    score: 0
+    note: "未建立本具名潛點，暫不評定其重要性。"
+    sources:
+      - "operator-catalogue"
   distinctiveness:
-    score: 4
-    note: "四十公尺以上的垂直礁壁配合大型魚群，在沖縄南西諸島中屬頂尖壁潛地點。"
-    sources: [src1, src2]
+    score: 0
+    note: "不能借用其他壁潛點特色。"
+    sources:
+      - "operator-catalogue"
   interpretability:
-    score: 3
-    note: "需潛水執照，僅限具備壁潛經驗者，一般訪客體驗受限。"
-    sources: [src2]
+    score: 1
+    note: "可用業者行程板釐清名稱，無已驗證現場景物。"
+    sources:
+      - "operator-catalogue"
   visitorValue:
-    score: 4
-    note: "對進階潛水員而言體驗價值極高，但受眾較窄。"
-    sources: [src2]
+    score: 0
+    note: "沒有可導航的集合或觀察點。"
+    sources:
+      - "operator-catalogue"
   evidenceQuality:
-    score: 3
-    note: "潛水媒體與觀光資訊皆有記載，資料穩定但無學術研究。"
-    sources: [src1]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.20+1.00+0.60+0.60+0.30 = 3.70
+    score: 0
+    note: "來源僅供名稱比對，沒有證實本筆身分。"
+    sources:
+      - "operator-catalogue"
+  final: 0.2
 sources:
-  - id: src1
-    title: "宮古島ダイビングスポット・サウスウォール"
-    publisher: "宮古島観光ガイド miyako-guide.net"
-    url: https://miyako-guide.net/diving/south-wall
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "operator-catalogue"
+    title: "ダイビングポイント｜アクアストーリー"
+    publisher: "アクアストーリー"
+    url: "https://www.aqua-story.com/point.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "サウスウォール礁壁從水面延伸超過四十公尺深"
-      - "大型白鰺群及軟珊瑚密布，是壁潛愛好者必訪地點"
-  - id: src2
-    title: "宮古島の海・ダイビング - 沖縄観光"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.visitokinawa.jp/experiences/miyako-diving
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "宮古島南岸外海有多處優質壁潛地點，水色能見度佳"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "4a5f3e37e7e0219f1ec96920eb428acb508647cc1d3eb59caf374a9b667004aa"
-    compactPath: media/compact/jp-miyakojima-south-wall.webp
-    completePath: media/complete/jp-miyakojima-south-wall.webp
+      - "實際潛點表列有ウォールケーブ、ロウニンドロップオフ等不同潛點。"
+      - "該表將部分洞窟、斷崖潛點列為中高階；未建立サウスウォール的身分，不能挪用其他潛點深度或座標。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除礁壁深度、固定魚種、能見度與壁旁停留指示；未宣稱該潛點不存在。"
+    - "移除 Miyako_Airport_Okinawa_Japan24s3s4592.jpg：主體為宮古機場，不是潛點；未修改圖檔。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact searches for サウスウォール with 宮古/宮古島 and review of local operator dive-site catalogue did not establish this named Miyako south-coast dive site. No operator, meeting point or reliable feature coordinates; absence from one catalogue alone is not proof of nonexistence, therefore unresolved rather than invented replacement.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新檢索並抓取アクアストーリー潛點表，尚不能建立サウスウォール的宮古島身分。主代理實際 Google Maps 查詢亦只回傳不同潛店，未有同名潛點；不以目錄未收錄斷言不存在，維持 unresolved。"
   sources:
-  - url: https://www.aqua-story.com/point.html
-    title: 宮古島ダイビングポイント｜アクアストーリー
-    coordinateEvidence: Checked local operator's named-site catalogue as a disambiguation source; it lists Wall Cave and named drop-offs but does not establish サウスウォール at the YAML coordinate. No coordinate extracted or transferred from other sites.
+    - url: "https://www.aqua-story.com/point.html"
+      title: "ダイビングポイント｜アクアストーリー"
+      coordinateEvidence: "實際取得潛點目錄，列有ウォールケーブ與ロウニンドロップオフ；沒有可與本筆對應的座標。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB%EF%BC%88%E3%83%80%E3%82%A4%E3%83%93%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%EF%BC%89%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "サウスウォール｜Google Maps 實際查詢"
+      coordinateEvidence: "讀取主代理2026-09-16 fresh-profile Chrome結果：只見SALTWATER、サンアイランド等不同潛店。未採任何搜尋候選座標。"
   previousLocation:
     latitude: 24.6948
     longitude: 125.3048

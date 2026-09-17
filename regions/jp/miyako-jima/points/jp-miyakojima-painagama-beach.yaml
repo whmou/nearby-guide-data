@@ -1,117 +1,137 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-painagama-beach
+  id: "jp-miyakojima-painagama-beach"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "パイナガマビーチ"
-  summary: "距離宮古島市中心步行僅五分鐘的城市海灘，弧形白沙灘搭配平靜透明的淺海，是最方便攜家帶眷享受宮古海水的地點，設施完善且全年免費開放。"
-  narration: |
-    パイナガマビーチ（Painagama Beach）是宮古島最貼近市區的海灘，距離平良港及市中心僅需步行五分鐘左右。對於住在市區、又想隨時跳進宮古湛藍海水的旅人來說，這裡是再方便不過的選擇。
-
-    海灘全長約400公尺，白色細沙在陽光下閃閃發亮，海水清澈見底，水色由近岸的翡翠綠逐漸過渡到深邃的鈷藍。由於周圍地形遮蔽，海浪相對平靜，即使不諳水性的遊客或帶著幼童的家庭，也能在這裡安心玩水。
-
-    海灘設有淋浴設施、更衣室及廁所，周邊也有小吃攤和飲料店。夏季傍晚，本地家庭習慣在此散步或讓孩子在水邊嬉戲，呈現一幅悠閒的島嶼日常圖景，與其他以潛水或衝浪為主的宮古海灘風格不同。
-  observationPrompt: "站在海灘上往西南方向望去，觀察海水顏色的層次變化——從腳邊清澈的淺綠到遠處的深藍，試著找出顏色轉變最明顯的分界線大約在距離岸邊幾公尺處？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "平良市區旁的 Painagama 海灘是居民日常親海的地方；觀察沙岸、公共設施與外側航路的距離，也能理解海灘的使用界線。"
+  narration: "站在沙岸旁，先回頭看一眼市街，再望向海面；Painagama 特別的地方，就是城市生活與海邊休息靠得這麼近。官方資料把它介紹為平良市區旁、深受居民親近的海灘，白沙之外還有洗手間與淋浴等設施，不必安排一整天的遠行，也能把海岸當成散步的一部分。可是「離市區近」和「看起來平靜」，都不是任何人都能安心下水的保證：宮古島觀光協會特別提醒，外側海域是航路，防護網外亦有箱型水母風險，而防護設施與現場管理情況必須當天確認。你可以留在陸側，看看沙岸和通行道路如何銜接，辨認告示所畫的活動範圍，再比較近岸與遠處的海色。把這裡當成居民日常使用的海邊，而不是沒有規矩的泳池，就更能欣賞這份靠近城市的輕鬆。\n"
+  observationPrompt: "從陸側比較沙岸、市街道路與海面的位置，找找現場安全告示和活動範圍；不要為看清航路而走入海中。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: family
-          label: 親子
-    - id: access
-      label: 入場
+        -
+          id: "family"
+          label: "親子"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.80275345
     longitude: 125.27103424
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.80275345,125.27103424
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.80275345,125.27103424"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: パイナガマビーチ官方海灘 pin；供岸上鄰近導覽，從公共海灘通路接近，不作為裝備店或安全入水點定位。
+    rearmDistanceMeters: 1000
+  locationHint: "官方Painagama海灘地標pin（平良下里338-3），供陸側導覽，不是入水或停車入口。依公共通道與現場管制到訪；外側有航路，勿游向外海。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "市區最易到達的海灘，對城市旅客具有高度實用價值，但自然景觀不如宮古島其他知名海灘壯觀"
-    sources: [src1]
+    note: "官方介紹為平良市區旁、居民親近的白沙海灘，地址下里338-3。"
+    sources:
+      - "src1"
+      - "src2"
   distinctiveness:
-    score: 2
-    note: "作為城市便利海灘的定位明確，但缺乏宮古島頂級海灘的絕景衝擊力；主要吸引力在於便利性"
-    sources: [src1]
-  interpretability:
-    score: 2
-    note: "海灘本身一目了然，無需特別說明；但缺少能加深訪客體驗深度的文化或自然解說"
-    sources: [src1]
-  visitorValue:
-    score: 4
-    note: "對無車旅客或想在市區遊覽之餘輕鬆泡海水的人非常實用；設施完善，老少咸宜"
-    sources: [src1, src2]
-  evidenceQuality:
     score: 3
-    note: "地方觀光資訊可信，為宮古島知名城市海灘，有多家媒體報導"
-    sources: [src1, src2]
-  final: 2.7   # 0.30*3 + 0.25*2 + 0.20*2 + 0.15*4 + 0.10*3 = 0.90+0.50+0.40+0.60+0.30 = 2.70
+    note: "官方介紹為平良市區旁、居民親近的白沙海灘，地址下里338-3。"
+    sources:
+      - "src1"
+      - "src2"
+  interpretability:
+    score: 4
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
+  visitorValue:
+    score: 3
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
+  evidenceQuality:
+    score: 4
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+  final: 3.3
 sources:
-  - id: src1
-    title: "パイナガマビーチ - 宮古島観光協会"
+  -
+    id: "src1"
+    url: "https://www.okinawastory.jp/spot/600006192"
+    title: "パイナガマビーチ | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "官方介紹為平良市區旁、居民親近的白沙海灘，地址下里338-3。"
+  -
+    id: "src2"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_026/"
+    title: "パイナガマビーチ - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
-    language: ja
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "海灘位置、設施及開放時間等基本資訊"
-      - "適合家庭和初次訪客的特點描述"
-  - id: src2
-    title: "パイナガマビーチ情報 - じゃらん"
-    publisher: "じゃらんnet"
-    url: https://www.jalan.net/kankou/spt_47214ag2130010474/
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "海灘的水質及設施評價"
-      - "距市中心的步行距離資訊"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:A_small_market_along_a_street_in_Miyakojima_2016-05-15.jpg
-    creator: "aco pbc"
-    license: "CC0"
-    licenseUrl: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-    accessedAt: "2026-07-15"
-    originalSha256: "8cdf208e5dbcf2427778d35aa1206ad069383ee7b6a76d45f4fb4fa6b805bbfe"
-    compactPath: media/compact/jp-miyakojima-painagama-beach.webp
-    completePath: media/complete/jp-miyakojima-painagama-beach.webp
+      - "觀光協會列有洗手間及淋浴等設施。"
+      - "觀光協會警告外側海域為航路、防護網外有箱型水母風險；設施及管理狀態須現場確認。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "移除不諳水性與幼童也能安心玩水的無條件保證，加入官方航路及箱型水母提醒。"
+    - "移除原媒體紀錄：A_small_market_along_a_street_in_Miyakojima_2016-05-15.jpg是街邊市場，不是Painagama海灘；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 fetched official tourism beach page and exact place query. Approximately 27 m from existing coordinate.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新擷取OCVB具名頁place q=24.80275345,125.27103424，觀光協會相同下里338-3地址及DMS marker交叉一致；主線Chrome同名海灘pin稍偏西，保留官方地標、不擴大半徑或宣稱安全入水。"
   sources:
-  - url: https://www.okinawastory.jp/spot/600006192
-    title: パイナガマビーチ｜おきなわ物語
-    coordinateEvidence: HTML iframe.p-detail-media__iframe src Google Maps /embed/v1/place?q=24.80275345,125.27103424&zoom=16; named beach place marker q.
+    -
+      url: "https://www.okinawastory.jp/spot/600006192"
+      title: "パイナガマビーチ | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "本次擷取iframe place q=24.80275345,125.27103424；金鑰不保存或使用。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_026/"
+      title: "パイナガマビーチ - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+      coordinateEvidence: "原始 iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7877043643693!2d125.27101599999999!3d24.802722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb7dd19cf8ce42a5f!2zMjTCsDQ4JzA5LjgiTiAxMjXCsDE2JzE1LjciRQ!5e0!3m2!1sja!2sjp!4v1674108919945!5m2!1sja!2sjp；!2z marker為24°48′09.8″N 125°16′15.7″E，換算24.802722222222224,125.27102777777779作近距離佐證；不採viewport。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E3%83%91%E3%82%A4%E3%83%8A%E3%82%AC%E3%83%9E%E3%83%93%E3%83%BC%E3%83%81%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "パイナガマビーチ - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:50.449Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=パイナガマビーチ。原始分享 href=https://maps.app.goo.gl/hZ9nNdCqmbw2AKE2A；resolvedShareUrl=https://www.google.com/maps/place/%E3%83%91%E3%82%A4%E3%83%8A%E3%82%AC%E3%83%9E%E3%83%93%E3%83%BC%E3%83%81/@24.8026123,125.2703656,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45346a9a6fb3d:0x82831a63c3ca28f4!8m2!3d24.8026123!4d125.2703656!16s%2Fg%2F11kgfq54_b?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1089ef77-e5a7-41e0-96e4-49d108788f43；具名結果 href=[]；!3d/!4d 座標=[{\"latitude\":24.8026123,\"longitude\":125.2703656}]。不採用 @lat,lng 視窗／街景相機位置。具名海灘及平良下里確認；Google feature24.8026123,125.2703656作佐證，不取代官方到訪地標。"
   previousLocation:
     latitude: 24.8028
     longitude: 125.2713

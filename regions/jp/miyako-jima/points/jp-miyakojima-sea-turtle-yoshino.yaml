@@ -1,112 +1,112 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sea-turtle-yoshino
+  id: "jp-miyakojima-sea-turtle-yoshino"
   parentId: null
-  kind: view
-  title: "吉野海岸（ウミガメ遭遇スポット）"
-  summary: "吉野海岸的淺礁區是宮古島最容易近距離相遇綠蠵龜的地點，大片海草床吸引多隻海龜定期在此覓食，浮潛客常有與海龜並肩同游的珍貴體驗。"
-  narration: |
-    吉野海岸（よしのかいがん）是宮古島東岸一處安靜的珊瑚礁海灣，礁盤寬廣，水深僅三至八公尺，清澈见底。這裡最令遊客著迷的，不是雪白的沙灘，而是那些優雅游曳在礁盤間的綠蠵龜。
-
-    礁盤上茂盛的海草床，是綠蠵龜（アオウミガメ）最愛的食物來源。每天清晨至下午，都有數隻固定在此棲居的海龜悠然覓食。浮潛下水，只要靜靜跟隨，不要追趕或觸碰牠們，海龜往往會帶著渾不在意的神情讓你跟游好一段路，偶爾還會浮上水面換氣，臉就在你眼前幾十公分——那種貼近野生動物的感動，很難用言語形容。
-
-    吉野海岸設有簡單的停車場，也有當地業者提供浮潛裝備出租。由於海龜受法律保護，嚴禁觸碰、騎乘或追趕，靜靜觀賞才能讓牠們持續安心在此棲居，留給每一位後來者同樣珍貴的邂逅機會。
-  observationPrompt: "請注意海龜頭頂的龜殼紋路——每隻海龜的鱗片圖案都如同指紋般獨一無二，你看到的海龜頭部鱗片是什麼顏色、什麼形狀？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "view"
+  title: "吉野海岸生態觀察（不保證海龜相遇）"
+  summary: "吉野海岸約五百公尺白沙與近岸珊瑚礁構成觀察背景；海龜屬野生動物，不保證相遇，也不提供追龜或入水導航。"
+  narration: |-
+    吉野海岸約五百公尺長的白沙灘旁，就是珊瑚礁環境；沖繩觀光資料介紹了近岸的硬珊瑚、軟珊瑚與熱帶魚，認識這片海，不必只把目標放在海龜身上。留在安全岸側，可以先看看沙岸和海水的交界、不同深淺的海色色帶，再留意潮汐變化如何影響眼前的水域。這裡容易受潮漲潮落影響，即使海面看起來平靜，也要先確認當天海況、監視員與防護網等現場情況，是否適合入水另向專業業者詢問。海龜的出現沒有保證，不為尋找牠而自行下水、離開允許範圍；若有機會遇見，也不追趕、圍堵或觸摸，讓牠自在移動。沒有遇到海龜時，仍可從岸上慢慢看這片海岸的形狀，把注意力留給沙灘、海色與現場安全標示。
+  observationPrompt: "留在安全岸側比較沙岸與不同海色色帶，留意潮位及現場安全標示；不為找海龜自行下水或離開允許範圍。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 海龜出沒與浮潛遭遇沒有固定 GPS 點；吉野海岸本身另有已查核地標，不以海龜活動區提供導航。
+  locationHint: "海龜沒有固定遭遇位置，不提供追龜導航；前往海灘請另用吉野海岸資訊，海況、導覽與入水條件須向專業業者確認。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "吉野海岸以野生綠蠵龜高出現率聞名全島，是宮古島最具代表性的海龜觀賞地點。"
-    sources: [src1]
+    score: 3
+    note: "官方介紹約500公尺白沙與近岸珊瑚礁，可見硬珊瑚、軟珊瑚及熱帶魚環境。"
+    sources:
+      - "src1"
   distinctiveness:
-    score: 4
-    note: "能以浮潛方式與野生海龜近距離共游，在日本離島觀光中獨具吸引力。"
-    sources: [src1, src2]
+    score: 2
+    note: "官方指出海灘容易受潮汐影響，並要求確認監視員與防護網等現場情況；未支持固定海龜站或每天相遇。"
+    sources:
+      - "src1"
   interpretability:
-    score: 4
-    note: "野生動物邂逅體驗直觀感人，環境教育意義明確，適合各年齡層遊客。"
-    sources: [src2]
+    score: 2
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
   visitorValue:
-    score: 5
-    note: "免費進場，浮潛裝備可租，老少咸宜，是宮古島口碑最佳的自然體驗之一。"
-    sources: [src2]
+    score: 1
+    note: "本筆不提供固定導航；需另確認實際場所或業者安排。"
+    sources:
+      - "src1"
   evidenceQuality:
     score: 3
-    note: "觀光媒體及評論平台記載充分，但野生動物出現頻率無官方科學統計。"
-    sources: [src1]
-  final: 4.1  # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*5 + 0.10*3 = 1.20+1.00+0.80+0.75+0.30 = 4.05 → 4.1
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 2.3
 sources:
-  - id: src1
-    title: "吉野海岸｜宮古島観光スポット"
-    publisher: "宮古島観光ガイド miyako-guide.net"
-    url: https://miyako-guide.net/spot/yoshino-beach
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "吉野海岸礁盤上的海草床吸引綠蠵龜定期在此覓食"
-      - "浮潛可近距離觀察野生海龜，是宮古島熱門體驗"
-  - id: src2
-    title: "宮古島の観光スポット - 吉野海岸 - Visit Okinawa"
+  -
+    id: "src1"
+    url: "https://www.okinawastory.jp/spot/600006188"
+    title: "吉野海岸 | 沖縄観光情報WEBサイト おきなわ物語"
     publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.visitokinawa.jp/attractions/yoshino-coast
-    accessedAt: "2026-07-15"
-    language: ja
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "吉野海岸為宮古島東岸知名浮潛景點，可見多隻綠蠵龜"
-      - "禁止觸碰或追趕海龜，請保持適當距離靜靜觀賞"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Total_internal_reflection_of_Chelonia_mydas.jpg
-    creator: "Brocken Inaglory"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "3b25422261396615fc989cb998d9e8bdcc14254417087db9872841d259a42dd4"
-    compactPath: media/compact/jp-miyakojima-sea-turtle-yoshino.webp
-    completePath: media/complete/jp-miyakojima-sea-turtle-yoshino.webp
+      - "官方介紹約500公尺白沙與近岸珊瑚礁，可見硬珊瑚、軟珊瑚及熱帶魚環境。"
+      - "官方指出海灘容易受潮汐影響，並要求確認監視員與防護網等現場情況；未支持固定海龜站或每天相遇。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除最容易看海龜、固定數量、固定深度、每日覓食與近距離跟游的承諾；不以泛用海龜圖片暗示吉野實證。"
+    - "移除原媒體紀錄：Total_internal_reflection_of_Chelonia_mydas.jpg僅是海龜影像，無本地吉野遭遇來源，會誤導為此處實拍；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
+    - "編輯追補 F04/F08：標題改為不保證相遇的生態主題，講稿不再列舊稿無據情節；保留珊瑚與潮汐事實、岸側觀察及不追龜限制，non_point與空定位不變。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 checked official Yoshino Coast information against the YAML's specific sea-turtle encounter narrative. Named beach location is verified separately, but no stationary turtle-observation station or operator/meeting point is identified. Do not claim the beach's pin locates moving turtles or guarantees encounters.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取官方吉野海岸頁，確認近岸珊瑚、約500公尺白沙及潮汐影響，未見固定海龜覓食站或可靠遭遇承諾；海灘本體另有定位紀錄，不以該pin冒稱可定位移動海龜。"
   sources:
-  - url: https://www.okinawastory.jp/spot/600006188
-    title: 吉野海岸｜おきなわ物語
-    coordinateEvidence: Official place query 24.74835396,125.44252777 establishes the beach only. It does not establish the claimed turtle-feeding patch/encounter subspot; that coordinate is deliberately not adopted for this wildlife-activity record.
+    -
+      url: "https://www.okinawastory.jp/spot/600006188"
+      title: "吉野海岸 | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "重新取得海灘place q=24.74835396,125.44252777，但其對象是吉野海岸本體，並非海龜活動定位；故不採GPS。"
   previousLocation:
     latitude: 24.748698
     longitude: 125.442441

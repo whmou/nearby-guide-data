@@ -1,0 +1,139 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-waiwai-beach"
+  parentId: null
+  kind: "attraction"
+  title: "博愛Waiwai海灘（岸上觀景）"
+  summary: "在博愛漁港旁的小型人工海灘，看看休憩海岸、漁業空間與上野沿海生活的交會。"
+  narration: "把目光沿著岸線移動，試著分辨沙灘和旁邊漁港的界線；同一片海，有人來休息，也有人靠它工作。Waiwai是博愛漁港旁一處小型人工海灘，官方介紹也特別提到周圍的甘蔗田和度假設施，讓這段海岸同時連著農作、漁業與觀光，不只是拍一張藍色海景那麼簡單。你可以留在岸上，看看港區和休憩空間怎麼並排，也想想旅客多留一點空間，對在地工作的人有多重要。官方提醒這裡不是依法指定的海水浴場，不能因為海面看來平靜，就當作有救生員或防護網的泳區；停車也不要占用漁港作業範圍。今天把它當作短暫看海的一站就很好，海龜是否出現不作期待，更不需要追著野生動物下水。"
+  observationPrompt: "從允許停留的岸上，辨認休憩沙灘與漁港作業空間的界線，不進入工作區。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "coast"
+          label: "海岸"
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "shore-viewing"
+          label: "岸上賞景"
+  indoor: false
+  location:
+    latitude: 24.7194681
+    longitude: 125.3295899
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採鄰近度假村官方頁面實際連結轉出的 Waiwai Beach 地點座標，為海灘地標而非停車入口或下水點；僅岸上觀景，不占用博愛漁港設施停車。官方註明非指定海水浴場，現場封閉與安全標示優先。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7194681,125.3295899"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "tourism"
+  distinctiveness:
+    score: 4
+    note: "博愛漁港旁的小型人工海灘，周圍有甘蔗田和度假設施。"
+    sources:
+      - "tourism"
+  interpretability:
+    score: 4
+    note: "從允許停留的岸上，辨認休憩沙灘與漁港作業空間的界線，不進入工作區。"
+    sources:
+      - "tourism"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "tourism"
+  evidenceQuality:
+    score: 4
+    note: "已抓取官方故事與參觀資料，實際請求官方Google連結並核對具名地點資料；非視覺入口驗證。"
+    sources:
+      - "tourism"
+      - "resort"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "tourism"
+    title: "博愛わいわいビーチ"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/spot/600012102"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "博愛漁港旁的小型人工海灘，周圍有甘蔗田和度假設施。"
+      - "官方註明不是依法指定的海水浴場；不得將漁港設施當停車場妨礙漁業。"
+  -
+    id: "resort"
+    title: "宮古島・海開き 2026"
+    publisher: "シギラセブンマイルズリゾート"
+    url: "https://shigira.com/lp/miyakojima-beach-season/event-2026.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "官方介紹博愛Waiwai海灘，頁面有實際具名Google Maps連結；不採其動物出現文案作保證。"
+  -
+    id: "google"
+    title: "わいわいビーチ｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/Waiwai+Beach/@24.7194681,125.327015,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4563c0165066f:0x2430256295d58682!8m2!3d24.7194681!4d125.3295899!16s%2Fg%2F11byyg9rfq?coh=277533&entry=tts&g_ep=EgoyMDI2MDIwMS4wIPu8ASoKLDEwMDc5MjA2N0gBUAM%3D&skid=6dd93b9c-a0c5-4259-b6ff-718190155829"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次實際請求官方原始Google連結；從具名place資料／轉址擷取座標，另核對具名DOM與地址，不採viewport。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已實際抓取官方具名參觀資料、Google原始嵌入連結與其回應；採實際轉址 !3d/!4d 24.7194681,125.3295899，非 viewport。採鄰近度假村官方頁面實際連結轉出的 Waiwai Beach 地點座標，為海灘地標而非停車入口或下水點；僅岸上觀景，不占用博愛漁港設施停車。官方註明非指定海水浴場，現場封閉與安全標示優先。 未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://www.okinawastory.jp/spot/600012102"
+      title: "博愛わいわいビーチ"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://shigira.com/lp/miyakojima-beach-season/event-2026.html"
+      title: "宮古島・海開き 2026"
+      coordinateEvidence: "2026-09-16 本次抓取 https://shigira.com/lp/miyakojima-beach-season/event-2026.html 的 EXACT raw Google href=https://maps.app.goo.gl/fYz1bh75MoZ4yhhRA；再實際 GET HTTP200。實際 finalUrl=https://www.google.com/maps/place/Waiwai+Beach/@24.7194681,125.327015,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4563c0165066f:0x2430256295d58682!8m2!3d24.7194681!4d125.3295899!16s%2Fg%2F11byyg9rfq?coh=277533&entry=tts&g_ep=EgoyMDI2MDIwMS4wIPu8ASoKLDEwMDc5MjA2N0gBUAM%3D&skid=6dd93b9c-a0c5-4259-b6ff-718190155829；採 !3d24.7194681!4d125.3295899，不採 @24.7194681,125.327015 視窗中心。 此為場所地標，非入口測量；具名地址與其他來源核對，未作現地、街景或視覺驗證。"
+    -
+      url: "https://www.google.com/maps/place/Waiwai+Beach/@24.7194681,125.327015,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4563c0165066f:0x2430256295d58682!8m2!3d24.7194681!4d125.3295899!16s%2Fg%2F11byyg9rfq?coh=277533&entry=tts&g_ep=EgoyMDI2MDIwMS4wIPu8ASoKLDEwMDc5MjA2N0gBUAM%3D&skid=6dd93b9c-a0c5-4259-b6ff-718190155829"
+      title: "わいわいビーチ｜Google Maps 具名頁"
+      coordinateEvidence: "2026-09-16 本次抓取 https://shigira.com/lp/miyakojima-beach-season/event-2026.html 的 EXACT raw Google href=https://maps.app.goo.gl/fYz1bh75MoZ4yhhRA；再實際 GET HTTP200。實際 finalUrl=https://www.google.com/maps/place/Waiwai+Beach/@24.7194681,125.327015,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4563c0165066f:0x2430256295d58682!8m2!3d24.7194681!4d125.3295899!16s%2Fg%2F11byyg9rfq?coh=277533&entry=tts&g_ep=EgoyMDI2MDIwMS4wIPu8ASoKLDEwMDc5MjA2N0gBUAM%3D&skid=6dd93b9c-a0c5-4259-b6ff-718190155829；採 !3d24.7194681!4d125.3295899，不採 @24.7194681,125.327015 視窗中心。 此為場所地標，非入口測量；具名地址與其他來源核對，未作現地、街景或視覺驗證。"
+  verifiedLocation:
+    latitude: 24.7194681
+    longitude: 125.3295899

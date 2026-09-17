@@ -17,8 +17,11 @@ validation, and submit a pull request.
 3. Fill in all required fields per `schemas/source-point-v1.schema.json`.
 4. Rate the point using the rubric in [RATING_RUBRIC.md](RATING_RUBRIC.md).
    - Calculate `final` manually and verify with `tools/validate.py`.
-5. Find CC0 or CC-BY/CC-BY-SA media on Wikimedia Commons.
-   - Set `originalSha256: null` (populated when downloaded).
+5. Find CC0 or CC-BY/CC-BY-SA media that actually depicts this named place.
+   - A licence and successful download do not prove the subject is correct.
+   - Do not substitute a different island, shrine, shop, or generic island photo.
+   - Use `media: []` while a matching image or its permission remains unverified.
+   - `originalSha256` must contain the downloaded original's actual hash before publication.
 6. Set `review.status: draft`.
 7. Run `python tools/validate.py --all` — zero errors required before opening a PR.
 8. Run `pytest -v` — all tests must pass.
@@ -27,9 +30,18 @@ validation, and submit a pull request.
 
 - Write in 繁體中文 (Traditional Chinese, Taiwan usage).
 - Do **not** begin with "你來到…" or "歡迎來到…".
-- Write natural, spoken-aloud prose (2–5 sentences for a point).
+- Write natural, spoken-aloud prose. For the Miyako travel edition, aim for a
+  short listen of roughly 220–420 Chinese characters, not an encyclopedia entry.
 - Include at least one concrete observable detail the visitor can look for.
 - The `observationPrompt` should ask about something **physically visible** at the site.
+- Vary openings; do not make every guide start with the same instruction.
+- Give a specific sourced local history, person, daily-life detail or natural
+  process. Label legends as legends; do not invent quotations or sensory scenes.
+- A Google Maps pin establishes neither opening hours nor safe public access.
+  Match the named site/address and distinguish visitor access from a centre or
+  underwater feature. Record current closure notices with their check date.
+- Do not promise wildlife sightings, passing aircraft or activities without a
+  confirmed operator. A general activity is a text-only theme, not another POI.
 
 ## Rating rubric summary
 

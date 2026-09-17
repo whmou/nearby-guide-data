@@ -1,0 +1,127 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-uruka-tomi"
+  parentId: null
+  kind: "attraction"
+  title: "砂川遠見番所遺跡"
+  summary: "上比屋山南端的石砌海上監視台，留下以烽火傳遞消息的歷史。"
+  narration: "低低的方形石台，曾經做的是把遠方船隻的消息送到陸地上。砂川遠見位在上比屋山南端，是先島諸島火番盛的一處遺跡；官方介紹把這套監視、通報制度的設置追溯到一六四四年，當時沒有電話，烽火就是跨越距離的訊息工具。眼前的石台由琉球石灰岩切石砌成，東西約七公尺、南北約四點五公尺，北側設有出入口階梯。讀這些尺寸時，可以想想看，海面那麼寬，值守者工作的地方其實不大；看海在這裡曾是職責，不只是休閒。請沿現場開放的文化財動線觀察石台輪廓與朝向，不攀上石牆，也不要為了找更好的角度穿越周邊祭場；若有祭祀或管制，就在外側停下。"
+  observationPrompt: "石台北側的入口與方形切石輪廓，在開放動線上能辨認到哪些部分？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "heritage"
+          label: "歷史古蹟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "quiet"
+          label: "靜謐"
+  indoor: false
+  location:
+    latitude: 24.725666
+    longitude: 125.352241
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "圖釘是上比屋山南端砂川遠見石台本體，不是祭場入口；限開放文化財動線，不穿越御嶽／祭場、不攀石牆，祭祀或管制時避讓。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.725666,125.352241"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "指定文化財，具有可追溯的地方歷史價值。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  distinctiveness:
+    score: 4
+    note: "屬海上監視與烽火通報的遠見番所遺跡群，官方將制度設置追溯至一六四四年。"
+    sources:
+      - "heritage"
+  interpretability:
+    score: 3
+    note: "可由遺構外形與解說理解故事，部分細節需史料輔助。"
+    sources:
+      - "heritage"
+  visitorValue:
+    score: 2
+    note: "適合短暫文化停留；僅限公開外側，不保證內部開放或現場路況。"
+    sources:
+      - "heritage"
+  evidenceQuality:
+    score: 3
+    note: "已抓取官方詳介及另頁具名核對；地圖為官方 pin，非現地視覺驗證。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  final: 3.4
+sources:
+  -
+    id: "heritage"
+    title: "【国指定：史跡】先島諸島火番盛「遠見番所」砂川遠見～さきしましょとうひばんむい「とうみばんしょ」うるかとうみ～"
+    publisher: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo103/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "屬海上監視與烽火通報的遠見番所遺跡群，官方將制度設置追溯至一六四四年。"
+      - "石台約七乘四點五公尺，由琉球石灰岩切石砌成，北側有階梯入口。"
+      - "具名文化財地理位置及實際 Google Maps 圖釘。"
+  -
+    id: "corroboration"
+    title: "宮古島市の文化財：先島諸島火番盛「遠見番所」砂川遠見"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/kuni.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "同名文化財身分及所屬地區交叉核對。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際重新抓取來源，依明載事實編寫繁體中文口語導覽；未確認旅行當日開放、路況或活動。"
+    - "Google 原始連結已實際請求，但僅回傳需 JavaScript 頁面；以官方 pin 與另頁具名資料佐證，不宣稱視覺驗證。"
+    - "全新點 media: []，未新增照片或宣稱任何媒體授權已認證；待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "採宮古島市教育委員會公認文化財頁「【国指定：史跡】先島諸島火番盛「遠見番所」砂川遠見」實際 Google pin 24.725666,125.352241，另以具名官方資料核對身分；圖釘為遺構本體，僅外側公共參觀，並非洞內、墓室或導航入口。Google GET 回傳 JavaScript 提示，未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo103/"
+      title: "【国指定：史跡】先島諸島火番盛「遠見番所」砂川遠見～さきしましょとうひばんむい「とうみばんしょ」うるかとうみ～"
+      coordinateEvidence: "本次抓取具名官方頁面的原始 Google Maps href：https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.725666,+125.352241&aq=&sll=24.875355,125.297382&sspn=0.008264,0.016512&brcurrent=3,0x34f4565e0628c89b:0xfd1c0a1a4432d48a,0&ie=UTF8&t=m&ll=24.734437,125.357437&spn=0.031183,0.047121&z=14&iwloc=near；採 q 擷取 24.725666,125.352241。不採 ll／sll／@ 視窗中心；定位為文化財本體，非入口測量。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/kuni.html"
+      title: "宮古島市の文化財：先島諸島火番盛「遠見番所」砂川遠見"
+      coordinateEvidence: "另行抓取具名文化財資料，核對同一文化財名稱及所屬地區；此頁作身分／地址佐證，不另提供入口座標。"
+  verifiedLocation:
+    latitude: 24.725666
+    longitude: 125.352241

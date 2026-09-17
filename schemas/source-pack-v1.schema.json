@@ -7,6 +7,8 @@
   "required": ["schemaVersion", "packId", "version", "title", "subtitle", "region", "contentLanguage", "minAppVersionCode", "createdAt"],
   "additionalProperties": false,
   "properties": {
+    "reviewBatch": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "mediaPolicy": {"type": "string", "enum": ["referenced-only"]},
     "schemaVersion": {
       "type": "integer",
       "enum": [1]

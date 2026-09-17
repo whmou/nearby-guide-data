@@ -1,115 +1,127 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-yabiji-reef
+  id: "jp-miyakojima-yabiji-reef"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "八重干瀬（ヤビジ）"
-  summary: "八重干瀬是日本最大的珊瑚礁環礁，每逢大潮低潮時礁盤露出水面，形成壯觀的「幻之島」景象。需搭乘船隻前往，是宮古島海洋體驗的頂級行程。"
-  narration: |
-    眼前這片廣闊的淺藍色礁盤，就是被稱為「日本最大珊瑚礁環礁」的八重干瀬，當地人親切地叫它「ヤビジ」。這片巨大的環礁面積超過十六平方公里，散布著數十個礁頭，平時沉於水面之下，唯有每年春秋兩季大潮時，才會短暫現身，露出數小時的珊瑚礁台地，此奇景因此被稱為「幻の島」。
-
-    從平良港搭船約三十至四十分鐘即可抵達。船行至此，水色從深藍漸轉為通透的翡翠綠，肉眼就能清楚望見水下的珊瑚群。浮潛下水，各色熱帶魚穿梭其間，石珊瑚、軟珊瑚交錯生長，生物多樣性令人嘆為觀止。
-
-    八重干瀬已劃入海洋保護區，部分礁區禁止踩踏或採集。踏上露出的礁盤時，請特別留意腳步，避免踩壞珊瑚，用眼睛和心靈記錄這難得一見的景象就好。
-  observationPrompt: "低潮時礁盤露出水面，請觀察珊瑚礁的顏色與紋路——你看到哪幾種不同的珊瑚形態？有扇形、塊狀還是分枝狀？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "池間島北方的廣域珊瑚礁群，也是島民熟悉的漁場；故事保留，導航須另外確認實際船家與登船處。"
+  narration: |-
+    如果已在合法安排的船上，不妨先看海面那些深淺不同的色塊：八重干瀨不是一整塊等著人上岸的小島，而是由多片珊瑚礁構成的海域。池間漁協的介紹提醒我們，這裡長久以來也是支撐居民生活的漁場；對漁人來說，辨認礁的位置與潮水，不只是欣賞景色。名字也留下地方差異：市教育委員會的資料記載，池間、島尻與狩俣的叫法不盡相同，一九九九年平良市決定採用池間慣用的「やびじ」讀音。至於「八重」是八個干瀨，還是層層重疊的意思，仍有不同說法，不能當成定論。看海時可以比較遠近水色和礁帶輪廓，但不承諾某天一定露礁，也不為了拍照踩上珊瑚。這是廣域海上導覽，集合地點請跟你的船家確認，不朝礁群中心自行導航。
+  observationPrompt: "若已參加合適的海上行程，從船家允許的位置比較不同水色與礁帶輪廓；不踩踏、採集珊瑚或自行離隊。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 付費
+        - id: "ticketed"
+          label: "付費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 八重干瀬是廣域海上珊瑚礁群，無單一陸上抵達點；集合港口須依所訂船家確認，禁止用礁區中心導航。
+  locationHint: "廣域海上珊瑚礁群，沒有單一陸上抵達點；請依實際預訂船家確認集合港口與出航條件，不採礁群中心座標。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 5
-    note: "日本最大珊瑚礁環礁，面積逾16平方公里，為宮古島最具代表性的自然地標，已劃入海洋保護區。"
-    sources: [src1]
+    note: "國指定名勝與天然紀念物。"
+    sources:
+      - "yabiji-heritage"
+      - "ikema-fishery"
   distinctiveness:
-    score: 5
-    note: "大潮露出水面的「幻之島」現象全球罕見，生物多樣性極高，獨特性無可取代。"
-    sources: [src1, src2]
-  interpretability:
     score: 4
-    note: "導覽船長通常會說明潮汐機制與珊瑚生態，現場景觀直觀震撼，解說輔助理解。"
-    sources: [src2]
+    note: "廣域礁群連結潮汐與池間漁業生活。"
+    sources:
+      - "yabiji-heritage"
+      - "ikema-fishery"
+  interpretability:
+    score: 3
+    note: "水色與礁形可觀察，仍需船家解說。"
+    sources:
+      - "yabiji-heritage"
+      - "ikema-fishery"
   visitorValue:
-    score: 5
-    note: "宮古島必遊行程，浮潛、觀景體驗俱佳，難忘程度極高。"
-    sources: [src2]
+    score: 2
+    note: "海上行程受天候限制，本筆無統一集合點。"
+    sources:
+      - "yabiji-heritage"
+      - "ikema-fishery"
   evidenceQuality:
     score: 4
-    note: "日文Wikipedia及官方觀光資料均有詳細記載，資料可靠。"
-    sources: [src1]
-  final: 4.7  # 0.30*5 + 0.25*5 + 0.20*4 + 0.15*5 + 0.10*4 = 1.50+1.25+0.80+0.75+0.40 = 4.70
+    note: "文化財與漁協資料交叉支持背景；漁協舊招募已結束。"
+    sources:
+      - "yabiji-heritage"
+      - "ikema-fishery"
+  final: 3.8
 sources:
-  - id: src1
-    title: "八重干瀬 - Wikipedia"
-    publisher: "Wikipedia日本語版"
-    url: https://ja.wikipedia.org/wiki/%E5%85%AB%E9%87%8D%E5%B9%B2%E7%80%AC
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "yabiji-heritage"
+    title: "八重干瀬｜綾道"
+    publisher: "宮古島市教育委員会公認文化財サイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo3203/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "八重干瀬是日本最大規模的珊瑚礁環礁，面積約16平方公里"
-      - "大潮低潮時礁盤露出水面，形成幻之島景象"
-  - id: src2
-    title: "八重干瀬（ヤビジ）｜沖縄観光情報 - Visit Okinawa"
-    publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.visitokinawa.jp/attractions/yabijikoralreef
-    accessedAt: "2026-07-15"
-    language: ja
+      - "八重干瀨為國指定名勝、天然紀念物；名稱由來有八個干瀨與層層重疊等不同說法。"
+      - "1999年平良市決定採用池間島慣用的やびじ讀音；潮汐與舊曆三月三日習俗相關。"
+  - id: "ikema-fishery"
+    title: "八重干瀬モニターツアー募集"
+    publisher: "池間漁業協同組合"
+    url: "https://miyakojima-ikemagyokyo.com/tour/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "從平良港搭船約30-40分鐘可達"
-      - "宮古島代表性浮潛與海洋體驗景點"
+      - "八重干瀨是支撐池間居民生活的漁場，由多片珊瑚礁構成。"
+      - "頁面記錄由池間港搭船前往的例子，但此體驗招募已結束；不得當成本次行程或共同集合點。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yabishi1.jpg
+  - id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Yabishi1.jpg"
     creator: "Papakuro"
     license: "CC BY 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by/3.0
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0"
     accessedAt: "2026-07-15"
     originalSha256: "98e7a40ec7d994fa90a931d4337ef551f56066fb1d8e067fa62d0b49e5d2b74f"
-    compactPath: media/compact/jp-miyakojima-yabiji-reef.webp
-    completePath: media/complete/jp-miyakojima-yabiji-reef.webp
+    compactPath: "media/compact/jp-miyakojima-yabiji-reef.webp"
+    completePath: "media/complete/jp-miyakojima-yabiji-reef.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除最大環礁、16平方公里、固定航程、春秋限定與可踩上礁盤等未證實或不安全敘述。"
+    - "保留既有 Yabishi1.jpg，其檔名主題吻合八重干瀨；本次未重新認證影像內容、作者或授權，未更動二進位檔。"
 locationReview:
-  status: non_point
-  anchorType: area
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official cultural-heritage description and fisheries-cooperative tour establish a large offshore reef complex reached by boat. YAML specifies no operator or named departure facility. A regional reef coordinate cannot serve as the user's arrival anchor.
+  status: "non_point"
+  anchorType: "area"
+  checkedAt: "2026-09-16"
+  reason: "重新取得市公認文化財頁及池間漁協頁，確認八重干瀨為廣域海上礁群與漁場；漁協頁並明示舊招募已結束。本筆未指定船家，不能套用舊行程的集合處或礁群中心，維持 non_point。"
   sources:
-  - url: https://miyakojimabunkazai.jp/bunkazaiinfo3203/
-    title: 八重干瀬｜宮古島市教育委員会公認文化財サイト
-    coordinateEvidence: Officially recognized cultural-landscape/reef-complex description; no unique visitor arrival pin. Geographic center or bounds deliberately not adopted.
-  - url: https://miyakojima-ikemagyokyo.com/tour/
-    title: 八重干瀬モニターツアー｜池間漁業協同組合
-    coordinateEvidence: Operator describes a boat journey from 池間港 to reefs; that tour's harbor is not automatically the unspecified YAML activity's meeting point. No coordinate adopted.
+    - url: "https://miyakojimabunkazai.jp/bunkazaiinfo3203/"
+      title: "八重干瀬｜綾道"
+      coordinateEvidence: "文化財頁介紹廣域海域與名稱沿革；即使有海上地圖標示也非陸上公共抵達點，未採座標。"
+    - url: "https://miyakojima-ikemagyokyo.com/tour/"
+      title: "八重干瀬モニターツアー募集"
+      coordinateEvidence: "頁面記錄池間食堂集合、池間港出船的舊例，且明示招募已結束；不得挪用作本筆統一集合點。"
   previousLocation:
     latitude: 24.9975
     longitude: 125.2656

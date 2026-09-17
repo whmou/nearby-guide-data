@@ -1,0 +1,138 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-obi-iwa"
+  parentId: null
+  kind: "attraction"
+  title: "下地島帶岩（帯岩）"
+  summary: "腰部收窄的巨岩，同時承載大浪傳承與祈求漁獲、家人平安的信仰。"
+  narration: "這塊巨岩也有「腰身」：中段向內收，彷彿繫了一條腰帶，宮古島市的《綾道》導覽因此解釋了「帶岩」這個名字。文化財專頁記錄它高約十二點五公尺，重量估計約兩萬噸；從安全的陸側和自己的身量相比，就能理解它為什麼會成為醒目的地方地標。至於巨岩從哪裡來，官方舊解說保留了它被1771年明和大海嘯推上岸的說法，但這是傳述，不能直接當成確定的地質定年。另一個被記錄的面向，是居民把它作為信仰的神體，祈求漁獲豐收和家人平安。沿開放通路換個角度看看腰帶般的輪廓，岩石巨大的尺度，和居民日常平安的小小願望，在這一站恰好放在一起。"
+  observationPrompt: "從安全陸側看，岩石哪個高度最像束著腰帶？不要攀爬或站到突出岩體下。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.818952
+    longitude: 125.140738
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標為下地島西岸帶岩本體，不是攀岩或入海點；從開放陸側通路觀察，不攀岩、不鑽入突出岩體下方，尊重拝所供品與現場封閉。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.818952,125.140738"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.8
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo588/"
+    title: "【市指定：史跡】下地島巨岩～しもじしまきょがん～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "官方記錄帶岩高約12.5公尺，推定重量約2萬噸。"
+      - "巨岩作為民間信仰神體，接受大漁與家內安全祈願；1771海嘯說標為傳述。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki.html"
+    title: "宮古島市 — 史跡1～25"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "下地島帶岩（帯岩） 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+  -
+    id: "s3"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_irabujima.pdf"
+    title: "宮古島市《綾道・伊良部島》下地島巨岩（印刷頁46–47）"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "市府《綾道・伊良部島》印刷頁46–47以巨岩中央收窄、像繫腰帶解釋「帶岩」名稱。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+    - "編輯F03/F08：更正市名、敘事五句；實讀市府PDF第25頁，補腰身與名稱解釋來源。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo588/"
+      title: "【市指定：史跡】下地島巨岩～しもじしまきょがん～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=+24.818952,+125.140738&amp;aq=&amp;sll=24.813356,125.220221&amp;sspn=0.008735,0.016512&amp;brcurrent=3,0x34f5ab8d317c4445:0xe9037e09db0a072c,0,0x34f5ab8d2b875471:0xd9040b211c800343&amp;ie=UTF8&amp;t=m&amp;ll=24.828884,125.143375&amp;spn=0.031159,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.818952,125.140738；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki.html"
+      title: "宮古島市 — 史跡1～25"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 下地島帶岩（帯岩） 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.818952
+    longitude: 125.140738

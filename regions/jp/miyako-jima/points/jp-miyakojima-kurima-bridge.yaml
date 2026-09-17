@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: attraction
   title: "来間大橋"
-  summary: "全長1,690公尺的来間大橋連接宮古島與来間島，橋面兩側視野開闊，可俯瞰宮古藍海水與前浜海灘的壯麗景色。1995年通車，是宮古島具代表性的跨海大橋之一。"
+  summary: "1995年3月通車、全長1,690公尺的農道橋，連接宮古島與来間島；定位採来間島側陸上橋頭。"
   narration: |
-    来間大橋是一座全長1,690公尺的跨海大橋，自1995年通車以來一直是宮古島的重要地標。踏上橋面，兩側是一望無際的宮古藍——那是一種介於翡翠綠與鈷藍之間、只有宮古島才有的獨特色調。橋的北側可遠眺被評為日本最美海灘之一的與那霸前浜，海天一色的景致讓人心曠神怡。大橋本身設有步行道，許多旅客選擇在此停車步行，感受海風拂面、橋下波光粼粼的寧靜時光。橋的另一端即是安靜的来間島，等待著您深入探訪。
-  observationPrompt: "站在橋面上，往北望向前浜方向，注意看看海水顏色如何從橋下的深藍漸層變化到淺灘的翡翠綠——能說出幾種不同的藍？"
+    從来間島這一端回望，長橋把眼前的小島和對岸的宮古島接成了一條線；再找找海邊那道白色砂帶，就是前浜方向的風景。来間大橋全長一千六百九十公尺，於一九九五年三月開通，觀光協會特別提到它的身分是農道橋。這個名字提醒我們，橋不只是旅途中的漂亮畫面，也和一座耕作地占了大半的小島有關。看風景時，可以把橋當成尺：近處的橋面、海上的橋墩、對岸的沙灘，原本分散的景物就有了遠近關係。這裡採用的是官方来間島側橋頭圖釘，並不表示橋上有可供臨停的位置；想慢慢看，請先在合法停車處停妥，再依公共通道及現場標示活動，不要在行車中分心拍照。
+  observationPrompt: "從陸側公共位置看，橋身和對岸前浜白沙帶形成什麼角度？請勿在橋上停車觀察。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -33,57 +33,48 @@ point:
         - id: free
           label: 免費
   indoor: false
-  location:
-    latitude: 24.721198
-    longitude: 125.257565
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.721198,125.257565
-  trigger:
-    radiusMeters: 75.0
-    dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 来間大橋来間島側的陸上橋頭；請留在公共行人通道，切勿在橋上停車。
+  location: {"latitude":24.721198,"longitude":125.257565}
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.721198,125.257565"
+  trigger: {"radiusMeters":80,"dwellMillis":2000,"rearmDistanceMeters":1000}
+  locationHint: "来間大橋来間島側陸上橋頭的官方導航點，不是橋中央，也不保證可停車。依現場標示使用公共通道；橋上勿臨停、下車拍照。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "1,690公尺長的跨海大橋，1995年通車，宮古島三座知名跨海大橋之一，觀光與交通地標。"
-    sources: [src1]
+    note: "連接小島與宮古本島的交通工程。"
+    sources: ["kurimabridge","kurima"]
   distinctiveness:
-    score: 4
-    note: "橋面視角可同時欣賞前浜海灘全景與宮古藍海色，景觀組合在宮古島橋梁中獨樹一格。"
-    sources: [src1, src2]
+    score: 3
+    note: "農道橋與海岸景觀形成在地特色。"
+    sources: ["kurimabridge","kurima"]
   interpretability:
     score: 4
-    note: "橋梁工程與海景並陳，遊客直觀即可感受規模與美感，無需背景知識。"
-    sources: [src1]
+    note: "長橋與前浜的遠近關係容易觀察。"
+    sources: ["kurimabridge","kurima"]
   visitorValue:
-    score: 4
-    note: "步行道設施完善，海風與海景體驗佳，免費通行，幾乎所有來宮古島的遊客必經之處。"
-    sources: [src2]
-  evidenceQuality:
     score: 3
-    note: "Wikipedia與官方觀光資料記載詳盡，史料完整。"
-    sources: [src1]
-  final: 3.9   # 0.30*4 + 0.25*4 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.0+0.8+0.6+0.3 = 3.9
+    note: "陸側觀景須自行遵守合法停車與通行限制。"
+    sources: ["kurimabridge","kurima"]
+  evidenceQuality:
+    score: 5
+    note: "觀光協會與縣觀光頁重抓，另核對即時Maps橋梁名稱。"
+    sources: ["kurimabridge","kurima"]
+  final: 3.7
 sources:
-  - id: src1
-    title: "来間大橋 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B
-    accessedAt: "2026-07-15"
+  - id: kurimabridge
+    title: "来間大橋（くりまおおはし）"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-881/"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "来間大橋全長1,690公尺，1995年3月通車"
-      - "橋連接宮古島本島與来間島"
-  - id: src2
-    title: "来間大橋 | 沖縄観光情報WEBサイト おきなわ物語"
-    publisher: "沖縄県文化観光スポーツ部"
-    url: https://www.okinawastory.jp/spot/600003
-    accessedAt: "2026-07-15"
+    supports: ["来間大橋全長1,690公尺，1995年3月開通。","官方將其介紹為農道橋，橋旁可眺望前浜。"]
+  - id: kurima
+    title: "来間島"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/about/miyako_area/kurima"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "橋面步行道可欣賞前浜海灘全景"
-      - "宮古藍海色觀景體驗"
+    supports: ["来間島透過来間大橋連接宮古島，東側聚落之外大多為耕作地。"]
 media:
   - id: primary-image
     type: image
@@ -96,24 +87,14 @@ media:
     compactPath: media/compact/jp-miyakojima-kurima-bridge.webp
     completePath: media/complete/jp-miyakojima-kurima-bridge.webp
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除鼓勵橋上停車步行、固定最佳海色等舊說法。","保留既有 File:来間大橋_20130206_-_panoramio.jpg；題名對應本橋，未重新認證檔案像素、拍攝位置或授權。"]
 locationReview:
-  status: verified
-  anchorType: viewpoint
-  checkedAt: '2026-09-16'
-  reason: Use the tourism association's explicit bridge-end destination instead of the original central-span point (approximately 0.86 km away). This is an arrival/viewing anchor, not the bridge centre.
-  sources:
-  - url: https://miyako-guide.net/spots/spots-881/
-    title: 宮古島観光協会 — 来間大橋
-    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-881/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.721198,125.257565; its place embed uses q=24.721198,125.257565. These are explicit destination coordinates, not a viewport centre.'
-  - url: https://www.okinawastory.jp/about/miyako_area/kurima
-    title: おきなわ物語 — 来間島
-    coordinateEvidence: https://www.okinawastory.jp/about/miyako_area/kurima corroborates bridge access to Kurima and its distinct viewing sites. No additional numeric coordinate extracted.
-  previousLocation:
-    latitude: 24.7258527
-    longitude: 125.2643988
-  verifiedLocation:
-    latitude: 24.721198
-    longitude: 125.257565
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取觀光協會原始 Google Maps href 得到24.721198,125.257565；縣觀光頁確認橋連接来間島與宮古島。即時Maps具名橋梁的24.7256881,125.2641684是橋身地標，不取代官方陸側橋頭。採80公尺觸發半徑，不以擴大範圍涵蓋橋中央。"
+  sources: [{"url":"https://miyako-guide.net/spots/spots-881/","title":"来間大橋（くりまおおはし）","coordinateEvidence":"2026-09-16重新抓取原始頁面。原始Google Maps連結：https://www.google.co.jp/maps/place/24.721198, 125.257565。/place/目的地數值緯度24.721198、經度125.257565，非@視窗中心；採来間島側橋頭。"},{"url":"https://www.okinawastory.jp/about/miyako_area/kurima","title":"来間島","coordinateEvidence":"2026-09-16重新抓取全文，佐證同一景點名稱／地理範圍及敘述；未從此頁擷取座標。"},{"url":"https://www.google.com/maps/search/?api=1&query=%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B%20%E5%AE%AE%E5%8F%A4%E5%B3%B6","title":"Google Maps 即時Chrome頁面：来間大橋 宮古島","coordinateEvidence":"讀取主工作者2026-09-16實際Chrome擷取記錄（viewer-qa/maps-existing-results.json）；頁面標題：来間大橋。原始分享解析URL=https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%81%E4%B8%8B%E5%9C%B0+%E6%9D%A5%E9%96%93%E5%A4%A7%E6%A9%8B/@24.7256881,125.2641684,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4ff81b5356c33:0xe6acc5ae3da0feb8!8m2!3d24.7256881!4d125.2641684!16s%2Fg%2F11f4lcfv6n?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=5a3c9900-d069-4ef2-b9c9-a241bbd10c3b；!3d24.7256881!4d125.2641684屬橋身地標而非陸側抵達點，未採用，@值也不作座標證據。"}]
+  previousLocation: {"latitude":24.7258527,"longitude":125.2643988}
+  verifiedLocation: {"latitude":24.721198,"longitude":125.257565}

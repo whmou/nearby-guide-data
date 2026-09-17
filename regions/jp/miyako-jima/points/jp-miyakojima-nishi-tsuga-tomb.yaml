@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-nishi-tsuga-tomb"
+  parentId: null
+  kind: "attraction"
+  title: "西ツガ墓"
+  summary: "向下鑿開岩盤、再穿出拱門的墓葬建築，保留宮古少見的空壕配置。"
+  narration: "這座墓最特別的地方，不只是石門的形狀，而是它像從整片岩盤裡挖出來：地面向下凹，前方再穿出通往墓庭的門，周圍還留了一圈空壕。宮古島市的解說把這種做法和一般「先砌牆、再放上頂石」的墓門相比，指出西ツガ墓的鑿岩方式相當少見；東西相鄰的兩座墓，都屬於益茂氏家族。名字裡的ツガ有人解釋成量穀物的升斗，對應四四方方的外形，也有「挖一升石、付一升粟」的地方傳說，語源並沒有單一確定答案。可以把它當成一個觀察題：不走進墓庭，只從開放外側看，哪些線條是岩盤被切開留下的，哪些又像後來堆砌？慢慢分辨，會比只拍一張正面照，更能理解這項工程花過多少心力。"
+  observationPrompt: "從公共外側看，拱門附近哪些部分像原岩鑿出，哪些能看見石塊接縫？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "architecture"
+          label: "建築"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.804758
+    longitude: 125.275332
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標為西ツガ墓本體，並非墓室入口導航；從公共道路與現場開放的外側觀察，勿進入墓庭、墓室或跨越空壕，尊重祭掃。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.804758,125.275332"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.8
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo652/"
+    title: "【市指定：建造物】西ツガ墓～にしつがばか～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "墓庭向下鑿岩形成，正面鑿穿岩盤作門，周圍設空壕。"
+      - "東西兩墓屬益茂氏；ツガ名稱有升斗形狀與石一升粟一升兩種解釋。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/kenzoubutsu.html"
+    title: "宮古島市 — 建造物"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "西ツガ墓 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo652/"
+      title: "【市指定：建造物】西ツガ墓～にしつがばか～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.804758,+125.275332&amp;aq=&amp;sll=24.798997,125.284889&amp;sspn=0.008736,0.016512&amp;gl=jp&amp;brcurrent=3,0x34f4538bde1c5903:0x58846f4018d61d8a,0&amp;ie=UTF8&amp;t=m&amp;ll=24.812836,125.27873&amp;spn=0.031163,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.804758,125.275332；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/kenzoubutsu.html"
+      title: "宮古島市 — 建造物"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 西ツガ墓 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.804758
+    longitude: 125.275332

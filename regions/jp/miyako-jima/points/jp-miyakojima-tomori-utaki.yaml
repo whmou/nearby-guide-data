@@ -1,115 +1,136 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-tomori-utaki
+  id: "jp-miyakojima-tomori-utaki"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "友利御嶽"
-  summary: "友利御嶽是宮古島西部友利地區最重要的琉球傳統聖域，千百年來是島民祈雨、農耕祭祀的精神核心。茂密的聖林與石灰岩祭壇至今仍保有濃厚的靈氣，是感受宮古島原始信仰文化的珍貴場所。"
-  narration: |
-    踏入友利御嶽，腳步自然放慢——濃蔭覆蓋的聖林讓陽光只剩下細碎的光點，空氣裡帶著潮濕的土壤氣息，彷彿時間在此暫停。御嶽在琉球語中意指「神聖之山丘」，是沖繩及宮古諸島特有的戶外聖域。友利御嶽歷史可追溯數百年，是周邊村落世代相傳的祈願之所，每逢農耕節氣，祭司（ニガイフツ）會在此帶領儀式，向土地之神獻上祈願。
-
-    石灰岩堆疊而成的簡樸祭壇沒有華麗裝飾，卻因在地居民長年的虔誠而散發靜穆力量。巨老的福木與蘇鐵圍繞四周，林間時有白頭鵯鳴叫，讓整個空間顯得格外幽靜。外地旅人到訪時請保持輕聲，不要踩踏祭壇石塊，尊重當地信仰是進入御嶽的第一課。
-  observationPrompt: "仔細觀察聖林入口處——祭壇前方是否擺放了香爐、花束或繩結等祭物？這些物品透露著近期是否有村民前來參拜。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "同名「友利御嶽」的可查實體在鳩間島；宮古島這筆尚未辨識，不挪用另一座島或友利其他御嶽的故事。"
+  narration: |-
+    先讀地圖上的地址，再讀景點名稱，這裡特別值得多花幾秒鐘。「友利御嶽」不是只靠四個字就能認定的地點：日本歷史地名資料庫把這個同名場所列在竹富町的鳩間島，石垣市的歷史照片也註明，那裡曾有雨乞祈願的紀錄。這些都是鳩間的材料，不能搬到宮古島來講成眼前的聖林。另一方面，宮古島地方名錄在城辺友利列的是嶺間御嶽，也不能因為同在友利便當作別名。原資料描述的石壇、福木與儀式，目前都缺乏與這筆身分相連的證據，因此先收起導航，只保留這個辨名提醒。若你在村落公共道路上看見名牌，可以先核對正式名稱與告示；沒有獲准，不走入林地找祭壇，也不把居民的祭祀當作等候拍照的表演。
+  observationPrompt: "僅從公共道路核對可見名牌與場所地址；在正式名稱未釐清前，不進入林地或接近祭祀。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: religion
-          label: 宗教信仰
-    - id: experience
-      label: 體驗
+        - id: "religion"
+          label: "宗教信仰"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜思
-    - id: access
-      label: 入場
+        - id: "quiet"
+          label: "靜思"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 「友利御嶽」有同名異島疑義；須先確認宮古島城辺友利的具體御嶽，勿轉用鳩間島同名地點或進入私人聖域。
+  locationHint: "同名可查實體在鳩間島，並非宮古島；此筆不採鳩間或嶺間御嶽座標，待正式身分與參訪限制確認。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古島重要的傳統聖域，體現琉球御嶽信仰體系，具有地方文化代表性。"
-    sources: [src1]
+    score: 1
+    note: "尊重地方信仰，但宮古島個別地點未定。"
+    sources:
+      - "hatoma-disambiguation"
+      - "ishigaki-history"
+      - "utaki-inventory"
   distinctiveness:
-    score: 4
-    note: "御嶽文化為宮古・沖繩地區所獨有，保存完整的聖林環境在日本其他地區幾乎看不到。"
-    sources: [src1]
+    score: 1
+    note: "未建立本筆獨特故事。"
+    sources:
+      - "hatoma-disambiguation"
+      - "ishigaki-history"
+      - "utaki-inventory"
   interpretability:
-    score: 3
-    note: "現場說明牌有限，需要背景知識才能充分理解儀式意涵，但氛圍本身已能傳達靈聖感受。"
-    sources: [src1]
+    score: 1
+    note: "可辨名牌，不能宣稱可見祭壇。"
+    sources:
+      - "hatoma-disambiguation"
+      - "ishigaki-history"
+      - "utaki-inventory"
   visitorValue:
-    score: 3
-    note: "對宗教文化感興趣的旅人有深度體驗，但一般觀光客可能覺得視覺刺激較少。"
-    sources: [src1]
+    score: 0
+    note: "缺乏公共參訪與導航證據。"
+    sources:
+      - "hatoma-disambiguation"
+      - "ishigaki-history"
+      - "utaki-inventory"
   evidenceQuality:
-    score: 3
-    note: "日文資料來源充足，英文學術研究資料較稀少。"
-    sources: [src1]
-  final: 3.6  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 1.20+1.00+0.60+0.45+0.30 = 3.55 → 3.6
+    score: 1
+    note: "官方與地名資料主要支持同名異地排除。"
+    sources:
+      - "hatoma-disambiguation"
+      - "ishigaki-history"
+      - "utaki-inventory"
+  final: 0.9
 sources:
-  - id: src1
-    title: "御嶽 - 沖縄文化アーカイブ"
-    publisher: "沖縄県立博物館・美術館"
-    url: https://www.museums.pref.okinawa.jp/
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "hatoma-disambiguation"
+    title: "友利御嶽 [480000191600]｜日本歴史地名大系"
+    publisher: "ROIS-DS人文学オープンデータ共同利用センター（CODH）"
+    url: "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/48/480000191600.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "御嶽是琉球信仰體系中最核心的聖域形式，遍布沖繩本島及宮古・八重山諸島"
-      - "御嶽以自然石灰岩或巨木為中心，是祭司進行農耕祈願與祖先祭祀的場所"
-  - id: src2
-    title: "宮古島市の文化財と聖地"
-    publisher: "宮古島市教育委員会"
-    url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "同名友利御嶽的地址為沖縄県八重山郡竹富町字鳩間。"
+      - "資料列24.470949,123.821270，屬鳩間島，明確排除於宮古島此筆之外。"
+  - id: "ishigaki-history"
+    title: "御嶽｜八重山写真帖"
+    publisher: "石垣市教育委員会文化財・市史編集課"
+    url: "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/shishihenshu/yaeyamashashin/digest2/3467.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "友利地區保有多處傳統御嶽，至今仍有居民定期舉行祭祀活動"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nasu-nu-utaki_07.jpg
-    creator: "Bérangère444"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "9987abb8c70c885351093f49e4725bd1789a55ce077e7520da24bce485f077f7"
-    compactPath: media/compact/jp-miyakojima-tomori-utaki.webp
-    completePath: media/complete/jp-miyakojima-tomori-utaki.webp
+      - "市史照片註明1923年鳩間島友利御嶽雨乞祈願；不能拿來描述宮古島未知地點。"
+  - id: "utaki-inventory"
+    title: "宮古島の御嶽"
+    publisher: "宮古島の御嶽"
+    url: "https://umut.jp/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "名錄分列城辺砂川的砂川神社、城辺友利的嶺間御嶽。"
+      - "不能僅按村名將不同御嶽合併成一個導航點。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "移除現場氣味、鳥聲、特定樹種、祭司名稱與邀請入內敘事；鳩間不是宮古島，也不把它直接稱作西表島本島。"
+    - "移除 Nasu-nu-utaki_07.jpg：其他御嶽照片不能代表未辨識的友利御嶽；未修改圖檔。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 exact-name search found a documented 友利御嶽 on Hatoma, while Miyako municipal scholarship identifies named shrines such as 嶺間御嶽 in 城辺友利. YAML says western Miyako and names no shrine alias; identity and coordinates remain unproven. Explicitly rejected a same-name Hatoma replacement.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取CODH地名資料與石垣市歷史照片，兩者將同名友利御嶽定位為竹富町鳩間；主代理Google候選亦為鳩間。宮古島名錄另列城辺友利的嶺間御嶽，沒有別名等同證據；維持 unresolved，不改名代換。"
   sources:
-  - url: https://www.town.taketomi.lg.jp/sp/userfiles/files/topics/syabun/choshi/choshidayori49.pdf
-    title: 友利御嶽の扁額にみる鳩間与人について｜竹富町史だより49
-    coordinateEvidence: Municipal historical source ties the same name 友利御嶽 to Hatoma. Entity-disambiguation evidence only; no Hatoma coordinate adopted.
-  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/hakubutsukan/files/s.kazuhiro2013.pdf
-    title: 宮古における鍛冶伝承｜宮古島市総合博物館
-    coordinateEvidence: Identifies 嶺間御嶽 in 城辺字友利; no proof it is the YAML entity and no matching exact landmark coordinate extracted.
-  - url: https://geoshape.ex.nii.ac.jp/nrct-poi/resource/48/480000191600.html
-    title: 友利御嶽｜日本歴史地名大系・CODH/国立情報学研究所
-    coordinateEvidence: Read explicit address 沖縄県 八重山郡竹富町 字鳩間 and coordinate row 24.470949,123.821270. These are for Hatoma, not Miyako; the same-name coordinates are recorded here as REJECTED evidence and are not adopted.
+    - url: "https://geoshape.ex.nii.ac.jp/nrct-poi/resource/48/480000191600.html"
+      title: "友利御嶽 [480000191600]｜日本歴史地名大系"
+      coordinateEvidence: "實際地址沖縄県八重山郡竹富町字鳩間，24.470949,123.821270；屬鳩間島，明確拒絕採用。"
+    - url: "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/shishihenshu/yaeyamashashin/digest2/3467.html"
+      title: "御嶽｜八重山写真帖"
+      coordinateEvidence: "歷史照片文字註明1923年鳩間島友利御嶽；屬異島消歧，不是宮古島位置。"
+    - url: "https://umut.jp/"
+      title: "宮古島の御嶽"
+      coordinateEvidence: "城辺友利條目為嶺間御嶽，不能證明與原筆相同。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E5%8F%8B%E5%88%A9%E5%BE%A1%E5%B6%BD%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "友利御嶽｜Google Maps 實際查詢"
+      coordinateEvidence: "主代理fresh-profile Chrome同名候選地址為鳩間島；其!3d24.4709487!4d123.8212696不是宮古島，未採用。 REJECTED exact raw href=https://www.google.com/maps/place/%E5%8F%8B%E5%88%A9%E5%BE%A1%E5%B6%BD/data=!4m7!3m6!1s0x345fd57ddaed5b85:0x3f22dad27af12c37!8m2!3d24.4709487!4d123.8212696!16s%2Fg%2F11rylhddv1!19sChIJhVvt2n3VXzQRNyzxetLaIj8?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1 ; 島名鳩間，非宮古島。"
   previousLocation:
     latitude: 24.7582
     longitude: 125.3128

@@ -1,120 +1,150 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ueno-german-village
+  id: "jp-miyakojima-ueno-german-village"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "ドイツ文化村"
-  summary: "宮古島上巴伐利亞風格的建築群，源自1873年宮古島漁民英勇救助德國遇難船員的真實歷史，以異國風情建築訴說一段跨越文化的人道故事。"
-  narration: |
-    宮古島南部的上野地區，有一片讓人以為誤入歐洲的建築群——中世紀巴伐利亞風格的城堡外牆、尖塔和廣場，在熱帶藍天與棕櫚樹的環繞下顯得格外超現實。這就是ドイツ文化村（Ueno German Culture Village），而它的存在，源於一段150年前發生在宮古島海域的動人故事。
-
-    1873年，一艘名為「ロベルトソン号」的德國商船在宮古島附近遭遇颱風，船員們命懸一線。宮古島漁民不顧自身安危出海搜救，成功將數名德國船員從死亡邊緣拯救回來，並在島上悉心照料長達數月，直至他們平安返國。德意志帝國皇帝威廉一世為表感謝，特地贈送宮古島一艘「博愛号」石碑，此段佳話從此流傳至今。
-
-    文化村以這段歷史為主題建造，園區內除了德式建築外，還有介紹德宮兩地文化的展覽，以及能俯瞰宮古海峽的觀景台。雖然純粹的歐洲建築在熱帶海島上顯得頗為獵奇，但支撐它存在的那個故事，卻是真摯而有溫度的人類記憶。
-  observationPrompt: "在文化村的展覽廳或石碑區，尋找記載1873年救助事件的說明板或博愛號石碑，注意其上記載的德國船名及救助船員的人數——這個具體數字讓當年的事件從抽象歷史變成了真實人命的故事。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "熱帶海岸旁的德式城堡，紀念的是1873年村民救援德國商船的歷史；園區與收費館舍須分開看待。"
+  narration: |-
+    在宮古島海岸看見德式城堡，第一個疑問往往是：它怎麼會出現在這裡？博愛紀念館仿照德國的馬克斯堡，但故事的起點不是城堡，而是一場海難。園方記錄，一八七三年，R.J.ロベルトソン號遭風災後擱淺，宮國與佐良濱的漁民參與救援，救出八名船員；語言不通，照料受難者這件事卻仍然繼續。三年後，德國皇帝派船送來紀念碑，立在能望見漲水港的地方，那座歷史石碑並不等於眼前這座後來建成的文化村。今天看城牆、尖塔與展覽時，可以把它理解為島民把一次救援記憶留給後代的方式，而不是德國人在這裡留下的古城。參觀前也記得分清楚：園區散步與進入博愛紀念館、兒童館是不同安排，館舍收費和開放情形以現場公告為準。
+  observationPrompt: "從開放園區觀察博愛紀念館的城堡外形；若館內開放且已購票，再找救援年代與船名的展示，區分1873救援及1876立碑。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: mixed
-          label: 室內外
-    - id: subject
-      label: 主題
+        - id: "mixed"
+          label: "室內外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: history
-          label: 歷史
-    - id: experience
-      label: 體驗
+        - id: "history"
+          label: "歷史"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        - id: "photography"
+          label: "攝影"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 收費
+        - id: "ticketed"
+          label: "收費"
   indoor: false
   location:
     latitude: 24.7192626
     longitude: 125.3239909
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.7192626,125.3239909
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7192626,125.3239909"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: うえのドイツ文化村官方地址 pin（上野宮国775-1）；供園區鄰近導覽，請依現場開館與售票指示進入，非精確入口。
+    rearmDistanceMeters: 1000
+  locationHint: "うえのドイツ文化村官方地址feature地標，上野宮國775-1，非精確大門；由公共停車場及開放入口進入，勿在ゲート前停車。園區與館舍分別管理，館舍收費及休館依公告。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "1873年救助德國船員的事件是宮古島被全國記憶的重要歷史，文化村是承載這段歷史的唯一主題設施"
-    sources: [src1, src2]
+    note: "以地方海難救援及日德交流史為核心。"
+    sources:
+      - "village-history"
+      - "village-association"
+      - "village-access"
   distinctiveness:
-    score: 5
-    note: "熱帶海島上的巴伐利亞城堡，加上真實的人道救援歷史背景，在日本全國旅遊景點中獨一無二"
-    sources: [src1]
+    score: 4
+    note: "熱帶海岸與德式紀念建築形成鮮明對照。"
+    sources:
+      - "village-history"
+      - "village-association"
+      - "village-access"
   interpretability:
     score: 4
-    note: "歷史故事戲劇性強且易於理解；建築視覺衝擊足以激發好奇；展覽說明完整"
-    sources: [src2]
+    note: "建築與歷史展示有具體辨識線索。"
+    sources:
+      - "village-history"
+      - "village-association"
+      - "village-access"
   visitorValue:
-    score: 4
-    note: "拍照打卡價值高，歷史故事動人，能帶給各年齡層訪客有趣的體驗"
-    sources: [src1, src2]
-  evidenceQuality:
     score: 3
-    note: "歷史事件有充分文獻記載；景點資訊來自官方網站及維基百科"
-    sources: [src1, src2]
-  final: 4.2   # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.25+0.80+0.60+0.30 = 4.15 → 4.2
+    note: "有收費館舍及休館限制，不保證全天可入館。"
+    sources:
+      - "village-history"
+      - "village-association"
+      - "village-access"
+  evidenceQuality:
+    score: 4
+    note: "園方沿革、官方地址與Google具名頁相互支持。"
+    sources:
+      - "village-history"
+      - "village-association"
+      - "village-access"
+  final: 3.9
 sources:
-  - id: src1
-    title: "ドイツ文化村 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%A4%E3%83%84%E6%96%87%E5%8C%96%E6%9D%91
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "village-history"
+    title: "うえのドイツ文化村｜ご案内"
+    publisher: "うえのドイツ文化村"
+    url: "https://www.hakuaiueno.com/guidance.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "1873年德國船員遇難事件的詳細始末"
-      - "文化村建立的背景及宮古島與德國的歷史連結"
-  - id: src2
-    title: "ドイツ文化村 公式サイト"
-    publisher: "ドイツ文化村"
-    url: https://www.doitsumura.co.jp/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "1873年R.J.ロベルトソン号遇風災，宮國與佐良濱漁民救出八名船員。"
+      - "1876年德國皇帝派船立紀念碑，位置在漲水港周邊；文化村為後來紀念與交流設施。"
+  - id: "village-association"
+    title: "うえのドイツ文化村｜宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_030/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "園區設施、入場費及開館時間"
-      - "展覽內容及觀景台資訊"
+      - "文化村包含模仿馬克斯堡的博愛紀念館與展示德國玩具的兒童館。"
+      - "地址上野宮國775-1；本次 Google embed 返回地址 feature24.7192626,125.3239909。"
+  - id: "village-access"
+    title: "うえのドイツ文化村｜アクセス"
+    publisher: "うえのドイツ文化村"
+    url: "https://www.hakuaiueno.com/information.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "園區入園與館舍入館分別管理，博愛紀念館及兒童館入館收費。"
+      - "地址上野宮國775-1，訪客需使用停車場、不可在入口ゲート前停車；開放與休館應依園方公告。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Berlin_Wall_in_Miyako.jpg
+  - id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Berlin_Wall_in_Miyako.jpg"
     creator: "User:Snap55"
     license: "CC BY 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by/3.0
+    licenseUrl: "https://creativecommons.org/licenses/by/3.0"
     accessedAt: "2026-07-15"
     originalSha256: "6a1797f45dbe206132466fd447d38a7ef6b7c06012bd7507e3ce002003b25b37"
-    compactPath: media/compact/jp-miyakojima-ueno-german-village.webp
-    completePath: media/complete/jp-miyakojima-ueno-german-village.webp
+    compactPath: "media/compact/jp-miyakojima-ueno-german-village.webp"
+    completePath: "media/complete/jp-miyakojima-ueno-german-village.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除巴伐利亞風格、數月照料與贈送『博愛號石碑』等不準確文案；救援1873、立碑1876分開。"
+    - "使用園方而非觀光協會模糊年句核實事件；不在導覽中寫死開放時刻。"
+    - "保留 Berlin_Wall_in_Miyako.jpg，與園區德國文化展示主題相容；本次未重驗作者、授權及現行展出情況，不保證此照片代表目前可見展品。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 tourism association's village page gives explicit address map feature. Approximately 141 m east of original. Actual feature coordinate differs from map viewport, which was rejected.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "本次重新GET觀光協會Google embed，地址feature返回24.7192626,125.3239909，保留既有官方地標。主代理具名文化村分享頁!3d24.7190238!4d125.3236934約40公尺外、同為上野宮國775-1，不為小差異改動。園方舊My Maps ll僅視窗，未採用。"
   sources:
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_030/
-    title: うえのドイツ文化村｜宮古島観光協会
-    coordinateEvidence: Fetched linked Maps iframe HTML. Initialization feature 0x34f456164cbca6ed:0x8dba62cf3c5350a5 has label 〒906-0203 沖縄県宮古島市上野宮国７７５−１ and associated [24.7192626,125.3239909]. Not viewport [24.7185139,125.3232247] or iframe's older viewport.
-  - url: https://www.hakuaiueno.com/information.html
-    title: うえのドイツ文化村公式：施設案内・アクセス
-    coordinateEvidence: Operator identity/access corroboration. Its older Google My Maps iframe ll=24.75182,125.318298 is a viewport and was NOT adopted.
+    - url: "https://miyako-island.net/beach_and_spot/beach_spot_030/"
+      title: "うえのドイツ文化村｜宮古島観光協会"
+      coordinateEvidence: "EXACT raw iframe src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7248.489580175267!2d125.32422!3d24.718475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45617d34c7925%3A0xd122355e36913114!2z44CSOTA2LTAyMDMg5rKW57iE55yM5a6u5Y-k5bO25biC5LiK6YeO5a6u5Zu977yX77yX77yV4oiS77yR!5e0!3m2!1sja!2sjp!4v1674110913174!5m2!1sja!2sjp ; 重新GET後真正地址feature是0x34f456164cbca6ed:0x8dba62cf3c5350a5，標籤〒906-0203 沖縄県宮古島市上野宮国７７５−１，associated [24.7192626,125.3239909]。不採原iframe24.718475,125.32422或返回viewport24.7185139,125.3232247。"
+    - url: "https://www.hakuaiueno.com/information.html"
+      title: "うえのドイツ文化村｜アクセス"
+      coordinateEvidence: "官方園方地址上野宮國775-1及停車指示相符；舊My Maps iframe的ll=24.75182,125.318298只是視窗，不採作地點。"
+    - url: "https://maps.app.goo.gl/hcjAKoDziCkmJYK29"
+      title: "うえのドイツ文化村｜Google Maps 具名分享"
+      coordinateEvidence: "EXACT raw share href=https://maps.app.goo.gl/hcjAKoDziCkmJYK29 ; resolved=https://www.google.com/maps/place/%E3%81%86%E3%81%88%E3%81%AE%E3%83%89%E3%82%A4%E3%83%84%E6%96%87%E5%8C%96%E6%9D%91/@24.7190238,125.3236934,17z/data=!3m1!4b1!4m6!3m5!1s0x34f456164e0362e9:0xf28441c8eebc91cc!8m2!3d24.7190238!4d125.3236934!16s%2Fg%2F121xqb6f?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=22b36297-566c-4ad7-916f-42514766de5d ; !3d24.7190238!4d125.3236934為具名pin，約40公尺外、地址一致；僅作佐證，不以@中心覆寫官方feature。"
   previousLocation:
     latitude: 24.7193
     longitude: 125.3226

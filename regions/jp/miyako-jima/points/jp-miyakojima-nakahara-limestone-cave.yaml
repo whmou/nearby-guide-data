@@ -1,0 +1,146 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-nakahara-limestone-cave"
+  parentId: null
+  kind: "venue"
+  title: "仲原鍾乳洞"
+  summary: "由業者接待的天然洞窟，以入口植物、岩壁與地下空間認識長時間的水作用。"
+  narration: "周圍是田地，洞口卻藏在地面以下；來到仲原鍾乳洞，第一個有趣的地方就是這個高低差。業者介紹說，入口約在地面下十五公尺，附近長著樹木，得先經過陡階才能抵達，並不是無障礙的平地展館。天然洞穴由地表水、地下水長時間侵蝕而成，慢慢看岩壁的起伏，會比急著替每一塊石頭取名字更有意思。這裡有正式收費參觀及入場人數管理，不需要自己尋找野洞，也不能把網路上「很好走」的形容當作安全保證。先在接待處確認路況與自己的體力，再按管理者開放範圍參觀；穿穩固鞋子、不碰鍾乳石，不為拍照進入低矮或未開放的支洞。九月行程出發前仍要確認臨時休業，給這一站留一點彈性。"
+  observationPrompt: "在業者開放路線上比較入口的植被、岩壁與洞內空間形狀，不觸摸或敲擊石體。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "cave"
+          label: "洞窟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
+      tags:
+        -
+          id: "ticketed"
+          label: "需購票"
+  indoor: false
+  location:
+    latitude: 24.7330416
+    longitude: 125.3778424
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "Google具名「仲原鍾乳洞」設施pin，與業者城辺友利1114地址相符；是參觀設施而非任意野洞。先到接待處確認開放並購票，入口有陡階且非無障礙，僅走管理者開放路線。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7330416,125.3778424"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "operator"
+  distinctiveness:
+    score: 4
+    note: "業者官方登錄地址城辺友利1114，入口約在地面下十五公尺，入口有樹木。"
+    sources:
+      - "operator"
+  interpretability:
+    score: 4
+    note: "在業者開放路線上比較入口的植被、岩壁與洞內空間形狀，不觸摸或敲擊石體。"
+    sources:
+      - "operator"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "operator"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "operator"
+      - "visit-report"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "operator"
+    title: "仲原鍾乳洞（店舗公式；2026年5月6日更新）"
+    publisher: "仲原鍾乳洞／エキテン"
+    url: "https://www.ekiten.jp/shop_93498753/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "業者官方登錄地址城辺友利1114，入口約在地面下十五公尺，入口有樹木。"
+      - "天然洞穴由地表水、地下水長期侵蝕而成；設收費參觀與人數管理，陡階、非無障礙。"
+  -
+    id: "visit-report"
+    title: "仲原鍾乳洞（2025年5月實訪記）"
+    publisher: "洞窟・鍾乳洞で非日常体験"
+    url: "https://www.cave.8park.jp/nakahara.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "實訪記錄具名接待處、停車及洞內鍾乳石；其易行描述不取代業者陡階警告。"
+  -
+    id: "google"
+    title: "仲原鍾乳洞｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E4%BB%B2%E5%8E%9F%E9%8D%BE%E4%B9%B3%E6%B4%9E/data=!4m7!3m6!1s0x34f45777dca8d717:0x4513774c796366a5!8m2!3d24.7330416!4d125.3778424!16s%2Fg%2F11cn9lgk50!19sChIJF9eo3HdX9DQRpWZjeUx3E0U"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「仲原鍾乳洞」身分及地址相符；採實際地點 !3d/!4d 24.7330416,125.3778424。錨點為具名參觀區地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://www.ekiten.jp/shop_93498753/"
+      title: "仲原鍾乳洞（店舗公式；2026年5月6日更新）"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.cave.8park.jp/nakahara.html"
+      title: "仲原鍾乳洞（2025年5月實訪記）"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/place/%E4%BB%B2%E5%8E%9F%E9%8D%BE%E4%B9%B3%E6%B4%9E/data=!4m7!3m6!1s0x34f45777dca8d717:0x4513774c796366a5!8m2!3d24.7330416!4d125.3778424!16s%2Fg%2F11cn9lgk50!19sChIJF9eo3HdX9DQRpWZjeUx3E0U"
+      title: "仲原鍾乳洞｜Google Maps 具名頁"
+      coordinateEvidence: "主代理實際開啟的最終具名頁觀察：../viewer-qa/maps-final-selected-results.json，id=jp-miyakojima-nakahara-limestone-cave，checkedAt=2026-09-16T15:29:19.453Z，HTTP 200，heading=仲原鍾乳洞，地址=日本、〒友利-1114 沖縄県宮古島市城辺 JP 906-0000。EXACT opened raw URL=https://www.google.com/maps/place/%E4%BB%B2%E5%8E%9F%E9%8D%BE%E4%B9%B3%E6%B4%9E/data=!4m7!3m6!1s0x34f45777dca8d717:0x4513774c796366a5!8m2!3d24.7330416!4d125.3778424!16s%2Fg%2F11cn9lgk50!19sChIJF9eo3HdX9DQRpWZjeUx3E0U；採 !3d24.7330416!4d125.3778424，不採 @ viewport。該次 share URL 未成功展開，不以分享轉址作本版證據。"
+  verifiedLocation:
+    latitude: 24.7330416
+    longitude: 125.3778424

@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-yamato-well"
+  parentId: null
+  kind: "attraction"
+  title: "大和井（ヤマトガー）"
+  summary: "沿著圓形石壁認識宮古的取水生活，也分清文獻年代與官員專用的地方傳說。"
+  narration: "看這口井，先別急著找水面，周圍一圈圈堆起的石壁，其實更值得慢慢看：大小切石沿著圓弧排列，石階把地面和泉水連起來，取一桶水也需要一段上下坡的路。宮古島市的文化財解說根據1727年的《雍正舊記》，推測大和井約在1720年前後開鑿；這是文獻推定的年代，不是井上刻著確切開工日。另一層故事來自地方傳承，說這裡曾供王府派來的官員等少數人使用，沿途有兩道門，也有人看守水源，但這些細節要當作傳承來聽。站在安全的步道上，留意石壁轉彎處怎麼接合、階梯又如何順著地形下降：原本只是生活必需的水，在這裡同時留下石匠手藝，以及誰能使用水源的歷史問題。"
+  observationPrompt: "圓形石壁和石階在哪裡相接？從安全開放處找找切石大小與排列的變化。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.811074
+    longitude: 125.285494
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標是官方標示的大和井史跡本體，非停車場或保證可下行的入口；從開放步道觀察，石階潮濕或封閉即不下行，不取水飲用。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.811074,125.285494"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 4
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.8
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo84/"
+    title: "【国指定：史跡】大和井～やまとがー～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "官方依《雍正舊記》推定約1720年前後開鑿。"
+      - "井周以切石圓形堆砌，設有上下石階；官員專用及水守為傳承。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+    title: "宮古島市 — 宮古島市の文化財"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "大和井（ヤマトガー） 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo84/"
+      title: "【国指定：史跡】大和井～やまとがー～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.811074,+125.285494&amp;aq=&amp;sll=24.922257,125.247986&amp;sspn=0.008728,0.016512&amp;brcurrent=3,0x34f453e651d9318f:0x80734590c7d217f5,0&amp;ie=UTF8&amp;t=m&amp;ll=24.822263,125.288858&amp;spn=0.03116,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.811074,125.285494；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/"
+      title: "宮古島市 — 宮古島市の文化財"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 大和井（ヤマトガー） 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.811074
+    longitude: 125.285494

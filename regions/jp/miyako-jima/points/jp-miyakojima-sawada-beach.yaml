@@ -1,117 +1,148 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sawada-beach
-  parentId: jp-miyakojima-irabu-island
-  kind: attraction
+  id: "jp-miyakojima-sawada-beach"
+  parentId: "jp-miyakojima-irabu-island"
+  kind: "attraction"
   title: "佐和田の浜"
-  summary: "佐和田の浜是伊良部島西岸一片廣闊的潮間帶海灘，以退潮後綿延散布於沙灘上的百餘塊巨礁怪石聞名，壯觀景致令人想起宮崎駿筆下的奇幻世界，是宮古島最具辨識度的攝影景點之一。"
-  narration: |
-    退潮時分，走上佐和田の浜，眼前的景象會讓你短暫懷疑自己是否踏入了另一個世界——大大小小的礁岩從沙灘上冒出，大者如三層樓高的巨石，小者如散落的棋子，密密麻麻一路延伸至海天交界處，在金色的斜陽下投下長長的影子。
-
-    這些礁石的成因可以追溯到1771年的「明和大海嘯」，那場由八重山地震引發的巨大海嘯，估計波高超過30公尺，將海底的珊瑚礁巨塊整個掀翻捲上陸地，就此留在沙灘上沉睡至今。換句話說，你腳下踩的不只是一片風景，而是一場史前級別天災的見證。
-
-    清晨與傍晚是拍攝的黃金時刻。朝陽從東方升起，礁石群的輪廓被染成橘紅；日落時，礁石倒影映在退潮後殘留的薄薄水膜上，形成完美的水中倒影。若逢大潮，潮水淹沒礁石基部，礁石彷彿漂浮於海中，又是另一番迷人景致。
-  observationPrompt: "挑一塊大礁石仔細觀察它的底部與裂縫，你能找到珊瑚蟲、小螃蟹或海藻群落生活其中嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "佐和田之濱的淺礁湖散布大小岩塊，海嘯傳承與傳統魚垣讓海景同時留下自然與生活的記憶。"
+  narration: "先別急著往遠處的岩石走，留在岸邊看看它們的排列：有的大、有的小，散在淺淺的礁湖裡，讓佐和田之濱不像一片平整空白的沙灘。官方觀光頁記載，這裡在一九九六年入選「日本渚百選」，並介紹三百多塊大小岩石，相傳由一七七一年的明和海嘯等巨大浪潮帶來；教育委員會也提到不只一次古海嘯的說法，所以不能把每塊石頭都斷言成同一年、同一道浪的作品。這片礁湖也曾是居民重要的漁場，域內留有利用潮汐捕魚的魚垣，把海水進退變成生活的幫手。你可以比較岩石底部與水面的關係，再從安全岸側留意海色和露出範圍；不用爬上岩石，也不必追到礁湖深處，已能感覺到同一片海如何既養人，也讓人學會敬畏。\n"
+  observationPrompt: "從安全岸側比較大小岩塊、底部水線與礁湖色帶；若能辨認石列也只遠觀，不走向外礁或攀爬岩石。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        -
+          id: "photography"
+          label: "攝影"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.83909607
     longitude: 125.15924072
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.83909607,125.15924072
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.83909607,125.15924072"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 佐和田の浜官方海岸地標 pin；供岸上觀景與鄰近導覽，不是礁石、可下水點或精確停車入口。
+    rearmDistanceMeters: 1000
+  locationHint: "OCVB「佐和田の浜」官方遊憩地標pin，伊良部佐和田1725；不是礁湖中心、海中岩塊或指定入水點。依陸側開放通道抵達，勿涉水追逐pin。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "1771年明和大海嘯的直接地質證據，具有歷史與自然雙重重要性"
-    sources: [src1]
+    note: "海灘位於伊良部島與下地島之間的淺灣礁湖，1996年入選日本渚百選。"
+    sources:
+      - "src1"
+      - "src2"
   distinctiveness:
-    score: 5
-    note: "礁石群景觀在整個琉球群島中獨一無二，攝影辨識度極高"
-    sources: [src1, src2]
+    score: 4
+    note: "官方介紹三百多塊大小岩石，稱相傳由1771年海嘯帶來。"
+    sources:
+      - "src1"
+      - "src2"
   interpretability:
     score: 4
-    note: "海嘯歷史背景使礁石群的解說極具感染力，超越單純風景"
-    sources: [src1]
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
   visitorValue:
-    score: 4
-    note: "免費入場，退潮時景觀壯觀，是宮古旅遊必訪景點"
-    sources: [src2]
+    score: 2
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
   evidenceQuality:
-    score: 3
-    note: "有歷史文獻記載明和大海嘯成因，地質資料可信"
-    sources: [src1]
-  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.2+1.25+0.8+0.6+0.3 = 4.15 → 4.2
+    score: 4
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+  final: 3.7
 sources:
-  - id: src1
-    title: "明和の大津波 - 八重山の津波伝承"
-    publisher: "内閣府防災情報"
-    url: https://www.bousai.go.jp/kohou/kouhoubousai/h23/62/special_01.html
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://www.okinawastory.jp/spot/600006198/"
+    title: "佐和田の浜 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "1771年明和大海嘯波高估計逾30公尺，將珊瑚礁巨塊掀至陸地"
-      - "佐和田の浜的礁石群是該次海嘯的直接物證"
-  - id: src2
-    title: "佐和田の浜 - 宮古島観光協会"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/sawada-no-hama/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "海灘位於伊良部島與下地島之間的淺灣礁湖，1996年入選日本渚百選。"
+      - "官方介紹三百多塊大小岩石，稱相傳由1771年海嘯帶來。"
+  -
+    id: "src2"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo533/"
+    title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【市指定：記念物名勝】佐和田の浜珊瑚礁・礁湖面～さわだのはまさんごしょう・しょうこめん～"
+    publisher: "宮古島市教育委員会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "佐和田の浜以散布的礁岩景觀聞名，為宮古島人氣攝影景點"
-      - "退潮與日落時分是最佳攝影時機"
+      - "礁湖長期是居民漁場，區域內有魚垣；文化財頁同時提及多次古海嘯的說法，不能將每塊岩石全歸為1771年。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:The_entire_Sawada_beach.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:The_entire_Sawada_beach.jpg"
     creator: "ブルーノ・プラス"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "413a8ed3eab8c871532c084140b32c7e9bce18f48696e671753f94866ebea9c5"
-    compactPath: media/compact/jp-miyakojima-sawada-beach.webp
-    completePath: media/complete/jp-miyakojima-sawada-beach.webp
+    compactPath: "media/compact/jp-miyakojima-sawada-beach.webp"
+    completePath: "media/complete/jp-miyakojima-sawada-beach.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "岩石形成保留官方「相傳」與多次海嘯可能，不稱史前災難、不套用他地30公尺波高；移除三層樓巨岩尺寸與走入礁湖的暗示。"
+    - "保留既有 https://commons.wikimedia.org/wiki/File:The_entire_Sawada_beach.jpg；僅檔名主題無明顯衝突，未重新核驗圖片內容、作者或授權，不代表媒體通過認證。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official tourism place marker confirms the named beach; original coordinates are approximately 350 m south-east of that pin.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取OCVB具名海灘頁的place q=24.83909607,125.15924072與佐和田1725地址。主線Google具名海灘同地址但feature偏西南；文化財頁另標整片礁湖。保留既有官方地標、不拿廣域礁湖或Google代表pin取代陸側到訪位置。"
   sources:
-  - url: https://www.okinawastory.jp/spot/600006198/
-    title: 佐和田の浜｜おきなわ物語
-    coordinateEvidence: HTML iframe.p-detail-media__iframe Google Maps /embed/v1/place?q=24.83909607,125.15924072&zoom=16; place q pin, not viewport. Page address 伊良部佐和田1725.
+    -
+      url: "https://www.okinawastory.jp/spot/600006198/"
+      title: "佐和田の浜 | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "本次iframe /maps/embed/v1/place?q=24.83909607,125.15924072&zoom=16；公開嵌入key不保存或使用。地址伊良部佐和田1725。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo533/"
+      title: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト » 【市指定：記念物名勝】佐和田の浜珊瑚礁・礁湖面～さわだのはまさんごしょう・しょうこめん～"
+      coordinateEvidence: "原始 href=https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.842204,+125.152030&aq=&sll=24.865383,125.1632&sspn=0.016529,0.033023&brcurrent=3,0x34f5ac77256f1101:0xfe0500392a66e37b,0&ie=UTF8&t=m&ll=24.851628,125.155134&spn=0.031153,0.047121&z=14&iwloc=near；q=24.842204,125.152030描述礁湖文化財範圍，不採為遊客陸側抵達點；ll視窗亦不採。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E5%92%8C%E7%94%B0%E3%81%AE%E6%B5%9C%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "佐和田の浜 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:58.096Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=佐和田の浜。原始分享 href=https://maps.app.goo.gl/SpsizzoA8YL6vTKc6；resolvedShareUrl=https://www.google.com/maps/place/%E4%BD%90%E5%92%8C%E7%94%B0%E3%81%AE%E6%B5%9C/@24.8377295,125.1572351,15z/data=!3m1!4b1!4m6!3m5!1s0x34f5ac7725749d05:0x97839e82043257c!8m2!3d24.8377299!4d125.1572351!16s%2Fg%2F121kwnl1?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=2e2a7ac5-7a96-4cd1-9d04-17347d730db3；具名結果 href=[]；!3d/!4d 座標=[{\"latitude\":24.8377299,\"longitude\":125.1572351}]。不採用 @lat,lng 視窗／街景相機位置。具名頁同址伊良部佐和田1725；!3d24.8377299!4d125.1572351是Google廣域海灘代表pin，未取代OCVB地標。"
   previousLocation:
     latitude: 24.8361
     longitude: 125.1603

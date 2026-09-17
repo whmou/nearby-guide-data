@@ -4,10 +4,10 @@ point:
   parentId: null
   kind: view
   title: "来間島サトウキビ畑"
-  summary: "来間島的道路兩旁遍布甘蔗田，是宮古島傳統農業景觀的縮影。每年11月至翌年3月為收成季節，可見農機穿梭於田間，感受南島農村的純樸生活節奏。"
+  summary: "来間島農業景觀主題，非具名觀光農場；從公共道路旁辨認耕作景觀，理解甘蔗作為宮古農業生產的一部分。"
   narration: |
-    踏上来間島，最先映入眼簾的不是海，而是綿延至天際的甘蔗田。宮古島自古以來就是琉球王朝重要的砂糖產地，而来間島更保留了最完整的甘蔗農業景觀。島上道路狹窄蜿蜒，兩旁的甘蔗在夏季可長到2公尺以上，騎單車穿越其間，彷彿進入了一條綠色隧道。冬季收成期間，甘蔗被切割後直接送往宮古島的製糖工廠，島上空氣中會瀰漫著淡淡的糖蜜甘香。這片看似平凡的農田，承載著宮古島數百年來的歷史記憶，也是今日島民賴以維生的農業根基。
-  observationPrompt: "注意看路旁甘蔗莖幹的粗細與節間長度——試著估算一株甘蔗大約有幾個節？找找看田邊是否有種植告示板或農業說明牌。"
+    如果在来間島的公共道路旁看見成排甘蔗，先看看田地和道路的界線，不必走進去，整齊的栽植方向就能讓風景多一層意思。沖繩官方離島旅遊文章記錄，過橋後往島內行駛，沿途會經過甘蔗田；這不是為旅客布置的背景，而是正在生產的土地。縣政府二○二六年的宮古農業工作說明，把甘蔗列為重要的生產振興項目，也提到需要改善單位面積產量、培育新一代農業工作者。於是眼前一片綠色，不只有作物本身，還連著收成、技術和接手耕作的人。可以留意不同田塊的高低和種植排列，但不能只憑外觀判斷今天是否能收割。請在合法、安全的位置停留，讓農機先行；不踩田埂、不折甘蔗，也別把農田入口當成臨時停車格。
+  observationPrompt: "從公共道路上的安全位置看，田塊栽植方向是否一致？哪裡是田地邊界、哪裡是農機出入口？不要進田觀察。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -27,82 +27,59 @@ point:
       tags:
         - id: walking
           label: 步行
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 来間島道路沿線的農業景觀；勿進入私人田地。
+  locationHint: "沒有具名田區、地主許可或訪客入口，不提供GPS／觸發。僅可從合法安全公共位置觀看；不得停車阻塞農路、踏入田地或採摘。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 2
-    note: "甘蔗田是宮古島普遍農業景觀，来間島並非唯一，但在觀光地圖中具象徵意義。"
-    sources: [src1]
+    note: "農業景觀可協助理解地方生產。"
+    sources: ["sugar","agri"]
   distinctiveness:
     score: 3
-    note: "来間島的甘蔗田與海景、咖啡廳相互融合，農村景觀在離島觀光背景下具一定特色。"
-    sources: [src1]
+    note: "甘蔗田與小島道路具地域特色。"
+    sources: ["sugar","agri"]
   interpretability:
     score: 3
-    note: "農業景觀需背景說明（歷史、製糖業）才能完整理解，但視覺辨識容易。"
-    sources: [src1]
+    note: "栽植排列及農業工作可作概覽解說。"
+    sources: ["sugar","agri"]
   visitorValue:
-    score: 3
-    note: "對喜愛農村風光與離島生活的旅客具吸引力，但非宮古島必訪亮點。"
-    sources: [src2]
+    score: 1
+    note: "無公開田區，僅限安全公共位置觀察。"
+    sources: ["sugar","agri"]
   evidenceQuality:
-    score: 2
-    note: "農業資訊來自宮古島官方及農業相關資料，直接針對來間島甘蔗田的觀光資料較少。"
-    sources: [src1]
-  final: 2.6   # 0.30*2 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*2 = 0.6+0.75+0.6+0.45+0.2 = 2.6
+    score: 4
+    note: "兩個正式來源支持景觀與產業，不支持公共入田權。"
+    sources: ["sugar","agri"]
+  final: 2.5
 sources:
-  - id: src1
-    title: "宮古島の農業 - 宮古島市公式ホームページ"
-    publisher: "宮古島市"
-    url: https://www.city.miyakojima.lg.jp/soshiki/sangyoushinko/nogyo/
-    accessedAt: "2026-07-15"
+  - id: sugar
+    title: "美しすぎる星空 × 王様BBQディナー！ 来間島の自然一体型グランピングリゾート"
+    publisher: "沖縄観光コンベンションビューロー（沖縄しまさんぽ）"
+    url: "https://ritohaku.okinawastory.jp/shimatabi/outdoors04"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "宮古島甘蔗為主要農業作物，製糖業為重要產業"
-      - "収穫期は11月から翌年3月"
-  - id: src2
-    title: "来間島 | 宮古島観光ナビ"
-    publisher: "宮古島市観光商工局"
-    url: https://www.miyako-guide.net/spot/spot.php?id=7
-    accessedAt: "2026-07-15"
+    supports: ["官方離島旅遊文章記錄，過来間大橋後往島內行駛會經過甘蔗田；文章主體旅宿不等於可參觀農場。"]
+  - id: agri
+    title: "宮古農業改良普及課の業務（2026年9月11日更新）"
+    publisher: "沖縄県"
+    url: "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "来間島道路兩旁有大片甘蔗田，單車騎行體驗佳"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Sugarcane_Hall,_Okinawa_World_20010614.jpg
-    creator: "lienyuan lee"
-    license: "CC BY 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by/3.0
-    accessedAt: "2026-07-15"
-    originalSha256: "ac4924c0eb45977a201887534b4c2052fe762c6d86dfc7cc86fd321456ba559d"
-    compactPath: media/compact/jp-miyakojima-kurima-sugarcane.webp
-    completePath: media/complete/jp-miyakojima-kurima-sugarcane.webp
+    supports: ["縣政府2026年宮古農業工作列甘蔗生產振興，並重視單位面積產量與農業後繼者培育。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除未查證固定採收月份、全年景象、歷史年代與鼓勵進田拍照的敘述。","移除 File:Sugarcane_Hall,_Okinawa_World_20010614.jpg：沖繩本島Okinawa World的甘蔗館不是来間島甘蔗田；未替換影像。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Unnamed fields spread across an island are not a single public attraction or entrance. No official named field/viewpoint establishes this point. Keep as area interpretation rather than a GPS trigger.
-  sources:
-  - url: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/tanoshima-miyako46.pdf
-    title: 宮古島観光協会 — 来間島 overview
-    coordinateEvidence: https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/tanoshima-miyako46.pdf describes much of Kurima as sugarcane/agricultural land. It does not select one public field entrance; no numeric coordinate extracted.
-  previousLocation:
-    latitude: 24.7213
-    longitude: 125.247
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓官方離島旅遊文章確認来間島沿途甘蔗田，及縣農業業務頁確認作物背景；文章的住宿圖釘不是甘蔗田公共入口。維持non_point，不把私有農地、旅宿或任意路邊座標當本項抵達點。"
+  sources: [{"url":"https://ritohaku.okinawastory.jp/shimatabi/outdoors04","title":"美しすぎる星空 × 王様BBQディナー！ 来間島の自然一体型グランピングリゾート","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓官方離島旅遊文章確認来間島沿途甘蔗田，及縣農業業務頁確認作物背景；文章的住宿圖釘不是甘蔗田公共入口。維持non_point，不把私有農地、旅宿或任意路邊座標當本項抵達點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html","title":"宮古農業改良普及課の業務（2026年9月11日更新）","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓官方離島旅遊文章確認来間島沿途甘蔗田，及縣農業業務頁確認作物背景；文章的住宿圖釘不是甘蔗田公共入口。維持non_point，不把私有農地、旅宿或任意路邊座標當本項抵達點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.7213,"longitude":125.247}
   verifiedLocation: null

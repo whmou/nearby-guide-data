@@ -1,108 +1,162 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-sarahama-port
+  id: "jp-miyakojima-sarahama-port"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "佐良浜漁港"
-  summary: "佐良浜漁港是宮古島伊良部島上歷史悠久的鰹魚漁業重鎮，保留著傳統漁村聚落風貌，是感受琉球離島生活文化的真實場景。"
-  narration: |
-    佐良浜漁港坐落於伊良部島西岸，是宮古島漁業文化最具代表性的聚落之一。這裡的漁民世代以捕捉鰹魚（カツオ）維生，採用一本釣（one-by-one）的傳統釣法，在漁業界享有盛名。港口邊常見漁船進出，漁獲直接在此卸貨處理，早晨時分充滿新鮮魚貨的氣息與漁夫的吆喝聲。聚落中的街道依山而建，色彩繽紛的屋舍沿坡道層疊排列，保留著獨特的沖縄離島街景。過去佐良浜與宮古本島之間需要搭船往返，隨著伊良部大橋通車，這個封閉的漁村逐漸對外開放，但濃厚的傳統氛圍依然保存完好，適合喜歡深度文化旅遊的旅客探訪。
-  observationPrompt: "在漁港邊觀察停泊的漁船，找找看船身上有沒有標示漁船名稱的日文字——留意港口周圍有沒有正在曬魚乾或修整漁網的工作場景。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "佐良浜港從島際渡船門戶轉為漁業與交流空間；日返一本釣鰹魚，讓港邊景色連上漁村的工作日常。"
+  narration: "先看岸邊的船與港區設施，再望向後方聚落，佐良浜的風景不是單純排好給遊客拍照的背景，而是一個仍在運作的港。宮古島觀光協會介紹，伊良部島佐良浜以當天出海、當天回港的一本釣鰹魚聞名；「一本釣」說的是漁法，不能把每艘船的漁獲或返港時間都當成固定節目。這裡也曾停靠連結宮古島與伊良部島的定期船，水產廳資料記載，二〇一五年一月伊良部大橋開通後，這條渡船服務停止，港口的角色跟著改變，之後整備了結合處理漁獲、加工、食堂、直售與體驗的設施。散步時試著分辨遊客可走的空間與工作區，不擋卸貨通道，也不要為了找角度登上船。從交通門戶到把漁業介紹給外地人的地方，港邊建築的用途，其實比一張海景照片更能說明島上的變化。\n"
+  observationPrompt: "從公共通行處辨認停船、卸貨與遊客可用設施的界線；看看有哪些不同用途的港區標示，勿進入作業區。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: daily-life
-          label: 生活日常
-    - id: experience
-      label: 體驗
+        -
+          id: "daily-life"
+          label: "生活日常"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.8381863631
     longitude: 125.2140340536
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.8381863631,125.2140340536
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.8381863631,125.2140340536"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 佐良浜港具名港灣 pin，供港邊公共區域鄰近導覽；非碼頭登船口，勿進入卸魚或作業管制區。
+    rearmDistanceMeters: 1000
+  locationHint: "採「佐良浜港」既有港區地標pin，對應南側港區而非北側另列「佐良浜漁港」設施pin。只在公共通行區導覽，勿進卸貨場、船舶或碼頭管制區。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島漁業傳統的重要代表地，鰹魚一本釣文化具有在地歷史意義，但知名度以地方層級為主。"
-    sources: [src1]
+    score: 4
+    note: "宮古島觀光協會記載伊良部島佐良浜的「一本釣り日戻りカツオ」。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   distinctiveness:
     score: 4
-    note: "傳統漁村聚落與鰹魚漁業文化在沖縄離島中保存完整，具有明確的文化差異性。"
-    sources: [src1]
+    note: "宮古島觀光協會記載伊良部島佐良浜的「一本釣り日戻りカツオ」。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   interpretability:
     score: 3
-    note: "漁港環境直觀可見，但漁業文化背景需旅客主動探索，缺乏現場解說。"
-    sources: [src1]
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   visitorValue:
-    score: 3
-    note: "提供真實的離島漁業生活體驗，對文化旅遊旅客具備吸引力，但非大眾旅遊熱點。"
-    sources: [src1]
+    score: 2
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
   evidenceQuality:
-    score: 3
-    note: "有伊良部島觀光資訊及文化記錄，資料足夠但未達學術研究程度。"
-    sources: [src1]
-  final: 3.3  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+1.00+0.60+0.45+0.30 = 3.25 → 3.3
+    score: 4
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+      - "src3"
+  final: 3.5
 sources:
-  - id: src1
-    title: "佐良浜漁港・伊良部島｜宮古島市観光情報"
-    publisher: "宮古島市観光商工課"
-    url: https://www.miyakojima-kankou.com/spot/sarahama/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyako-island.net/charm/industry/"
+    title: "宮古島の産業 - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "佐良浜是伊良部島西岸的傳統鰹魚漁業聚落"
-      - "以一本釣傳統釣法捕撈鰹魚聞名，歷史悠久"
-      - "聚落保留傳統沖縄離島街景，伊良部大橋通車後對外開放"
+      - "宮古島觀光協會記載伊良部島佐良浜的「一本釣り日戻りカツオ」。"
+  -
+    id: "src2"
+    url: "https://www.jfa.maff.go.jp/j/keikaku/attach/pdf/230718-65.pdf"
+    title: "漁港施設の有効活用ガイドブック・佐良浜漁港（PDF p.35）"
+    publisher: "水産庁"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "佐良浜港原有宮古島與伊良部島定期船，2015年1月伊良部大橋開通後停航。"
+      - "水產廳案例記載港區整備漁獲處理、加工、食堂、直售及漁業體驗的複合設施。"
+  -
+    id: "src3"
+    url: "https://www.tanoshima.jp/facilities/detail/sarahamakou?category=spot"
+    title: "佐良浜港【伊良部島】 | 宮古島の観光・クーポン情報 たのしま"
+    publisher: "たのしま"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "頁面明確標示佐良浜港，地圖連結q=24.8381863631,125.2140340536；僅用定位，不採其誤寫2006年大橋開通。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port_sun_marin_terminal.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port_sun_marin_terminal.jpg"
     creator: "Paipateroma"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "9b989b54d3309729b453adf0d2d4cb986ae45eb0cf6fd07dc96cff11eb877844"
-    compactPath: media/compact/jp-miyakojima-sarahama-port.webp
-    completePath: media/complete/jp-miyakojima-sarahama-port.webp
+    compactPath: "media/compact/jp-miyakojima-sarahama-port.webp"
+    completePath: "media/complete/jp-miyakojima-sarahama-port.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除西岸錯誤及保證吆喝、氣味等虛構現場；原商業定位來源2006年大橋年份錯誤，已由水產廳2015年資料取代。"
+    - "保留既有 https://commons.wikimedia.org/wiki/File:Irabu_sarahama_port_sun_marin_terminal.jpg；僅檔名主題無明顯衝突，未重新核驗圖片內容、作者或授權，不代表媒體通過認證。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 fetched local destination publisher's exact port map query, corroborated entity with national Fisheries Agency account of public visitor facilities at Sarahama fishing port. Existing point agrees within approximately 4 m. YAML's west-coast description is not endorsed.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新擷取たのしま佐良浜港原始q=24.8381863631,125.2140340536，主線Chrome「佐良浜港」feature24.8382051,125.2140219近距離相符；不誤選約460公尺外另一「佐良浜漁港」設施候選。水產廳資料獨立確認同一港區及公共交流設施，但不保證所有岸線可進入。"
   sources:
-  - url: https://www.tanoshima.jp/facilities/detail/sarahamakou?category=spot
-    title: 佐良浜港｜宮古島観光情報たのしま
-    coordinateEvidence: Fetched HTML named Sarahama port page contains href=https://maps.google.co.jp/maps?q=24.8381863631,125.2140340536; explicit destination q, not map viewport.
-  - url: https://www.jfa.maff.go.jp/j/keikaku/attach/pdf/230718-65.pdf
-    title: 佐良浜漁港・漁業体験施設｜水産庁
-    coordinateEvidence: 'Entity/access corroboration only: identifies 佐良浜漁港 in 宮古島市 and land-side fish-market, restaurant and fisheries-experience facilities; no replacement coordinate extracted.'
+    -
+      url: "https://www.tanoshima.jp/facilities/detail/sarahamakou?category=spot"
+      title: "佐良浜港【伊良部島】 | 宮古島の観光・クーポン情報 たのしま"
+      coordinateEvidence: "重新擷取原始 href=https://maps.google.co.jp/maps?q=24.8381863631,125.2140340536；q為目的點。此商業頁將大橋開通誤記2006年，不採其年份；歷史改用水產廳。"
+    -
+      url: "https://www.jfa.maff.go.jp/j/keikaku/attach/pdf/230718-65.pdf"
+      title: "漁港施設の有効活用ガイドブック・佐良浜漁港（PDF p.35）"
+      coordinateEvidence: "已重新抓取PDF第35頁（0-based），確認佐良浜港渡船停航與複合設施；無新GPS提取。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E8%89%AF%E6%B5%9C%E6%BC%81%E6%B8%AF%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "佐良浜漁港 宮古島 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:54.534Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=結果 / 。原始分享 href=https://maps.app.goo.gl/6hupCd49aDx36C787；resolvedShareUrl=https://maps.app.goo.gl/6hupCd49aDx36C787；具名結果 href=[{\"text\":\"佐良浜漁港\",\"href\":\"https://www.google.com/maps/place/%E4%BD%90%E8%89%AF%E6%B5%9C%E6%BC%81%E6%B8%AF/data=!4m7!3m6!1s0x34f5ad004e7719bb:0xf8282d4fdc2d002a!8m2!3d24.8421577!4d125.2125144!16s%2Fg%2F11vwgt5_lv!19sChIJuxl3TgCt9TQRKgAt3E8tKPg?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1\"},{\"text\":\"佐良浜港\",\"href\":\"https://www.google.com/maps/place/%E4%BD%90%E8%89%AF%E6%B5%9C%E6%B8%AF/data=!4m7!3m6!1s0x34f5ab46005e2a3f:0x4dcb791a6162abeb!8m2!3d24.8382051!4d125.2140219!16s%2Fg%2F121vxnhw!19sChIJPypeAEar9TQR66tiYRp5y00?authuser=0&hl=ja&g_ep=EgoyMDI2MDkxNC4wIJJjKgBIAVAD&rclk=1\"}]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。選「佐良浜港」原始href內!3d24.8382051!4d125.2140219交叉核對既有港區anchor；不採另一北側漁港設施24.8421577,125.2125144。"
   previousLocation:
     latitude: 24.8382
     longitude: 125.214

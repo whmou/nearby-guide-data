@@ -1,114 +1,156 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-nishi-hennazaki
+  id: "jp-miyakojima-nishi-hennazaki"
   parentId: null
-  kind: view
-  title: "西平安名崎"
-  summary: "宮古島西北端的岬角，以白色風力發電機矗立於珊瑚礁海岸線著稱，是宮古島欣賞夕陽西沉入海的最佳地點之一。"
-  narration: |
-    西平安名崎是宮古島伸向西北的岬角，與東平安名崎一樣由隆起的珊瑚礁台地構成，但景致迥異。這裡矗立著數座白色風力發電機，葉片在海風中緩緩旋轉，與蔚藍海面和綠色草地形成構圖乾淨的背景。傍晚是造訪的最佳時機：太陽順著西北方向緩緩西沉，橘紅色光芒鋪滿整個海面，風機葉片的剪影在夕照中格外優雅。春季波照間花（バイカイカリソウ）盛開時，地面鋪滿淡粉紫色小花，是另一季節的特別風景。
-  observationPrompt: "觀察風力發電機的葉片旋轉方向——今天的海風是從哪個方向吹來的？和你的預期一樣嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "view"
+  title: "西平安名崎（展望台）"
+  summary: "西平安名崎把池間島、池間大橋與伊良部島放進同一片海景；風力發電設施也留下宮古探索島嶼能源的痕跡。"
+  narration: "先找找海上的池間大橋，再順著海岸輪廓辨認池間島；西平安名崎的看點，不只是一張有風車的照片，而是幾座島嶼如何在視線裡彼此相連。宮古島觀光協會將這裡介紹為宮古本島最北端兼最西端的岬角，可以眺望池間島、池間大橋和伊良部島，與東平安名崎伸向大海的印象形成對照。岸上的風力發電設施則被列為能源構想的一環，提醒人們：對離島來說，風不只是拍照時吹亂頭髮的東西，也曾被拿來思考如何供應生活所需的電力。看風機時不必期待每片葉子都正在轉，設備運轉情形不是導覽能保證的；也別用今天的日落方位套用全年。留在開放步道與觀景範圍，把橋、島和陸上的設施分別找出來，這片看似單純的海景就有了生活的線索。\n"
+  observationPrompt: "從開放觀景位置辨認池間島、池間大橋與遠方陸地；找找風力設備和道路的相對位置，不越過護欄。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-        - id: engineering
-          label: 工程
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "engineering"
+          label: "工程"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: photography
-          label: 攝影
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+        -
+          id: "photography"
+          label: "攝影"
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
-    latitude: 24.9095
-    longitude: 125.25725
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.9095,125.25725
+    latitude: 24.9086489
+    longitude: 125.2584665
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.9086489,125.2584665"
   trigger:
-    radiusMeters: 100.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 西平安名崎觀光協會標記；於岬角開放區欣賞海景，並非風機設施入口，勿進入管制區或接近危險崖緣。
+    rearmDistanceMeters: 1000
+  locationHint: "定位於西平安名崎展望台，不是岩礁岬端或舊官方範圍標記。停好車後循現場開放步道到觀景區；勿進入風力設施、翻越護欄或沿岩礁追蹤圖釘，若設施封閉就折返。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 3
-    note: "宮古島知名日落觀賞地點，風力發電機景觀具視覺特色，但文化歷史意義相對薄弱。"
-    sources: [nishi-hennazaki-miyakojima-guide]
+    note: "觀光協會介紹此處為宮古本島最北端兼最西端，可眺望伊良部島、池間島與池間大橋。"
+    sources:
+      - "src1"
   distinctiveness:
     score: 3
-    note: "風機與珊瑚礁海岸的組合在沖繩有一定稀有性，但整體而言景觀元素較單一。"
-    sources: [nishi-hennazaki-miyakojima-guide]
+    note: "風力發電風車被官方列為エネトピア能源構想的一環及岬角景觀特色。"
+    sources:
+      - "src1"
   interpretability:
-    score: 3
-    note: "風機和日落景色完全自明，植物生態需要在特定季節才能看到最佳狀態。"
-    sources: [nishi-hennazaki-miyakojima-guide]
-  visitorValue:
     score: 4
-    note: "完全免費，設有停車場與步道，交通僅需自駕，日落時段造訪效果最佳。"
-    sources: [nishi-hennazaki-miyakojima-guide]
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+  visitorValue:
+    score: 3
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
   evidenceQuality:
     score: 3
-    note: "宮古島市觀光協會及旅遊媒體有收錄，基本資料可查。"
-    sources: [nishi-hennazaki-miyakojima-guide]
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
   final: 3.2
-  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×4 + 0.10×3 = 0.90+0.75+0.60+0.60+0.30 = 3.15 → 3.2
 sources:
-  - id: nishi-hennazaki-miyakojima-guide
-    title: "西平安名崎 観光スポット"
-    publisher: "宮古島市観光協会"
-    url: https://miyako-guide.net/spot/nishi-hennazaki/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_024/"
+    title: "西平安名崎（にしへんなざき） - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島西北端的岬角，設有風力發電機"
-      - "以夕陽景色及春季野花聞名"
+      - "觀光協會介紹此處為宮古本島最北端兼最西端，可眺望伊良部島、池間島與池間大橋。"
+      - "風力發電風車被官方列為エネトピア能源構想的一環及岬角景觀特色。"
+  -
+    id: "google-final-review"
+    title: "Google Maps — 西平安名崎展望台"
+    url: "https://www.google.com/maps/place/%E8%A5%BF%E5%B9%B3%E5%AE%89%E5%90%8D%E5%B4%8E%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f44d75541353cd:0xb92ffacec5b1ffee!8m2!3d24.9086489!4d125.2584665!16s%2Fg%2F11cnbvp5x8!19sChIJzVMTVHVN9DQR7v-xxc76L7k"
+    publisher: "Google Maps（主流程公開Chrome實際開啟）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "主流程 2026-09-16T15:29:05.536Z fresh-profile Chrome實際開啟具名頁「西平安名崎展望台」，place !3d24.9086489!4d125.2584665；原始URL留存於browser/final-selected.json。不是搜尋結果第一筆推定，也不是@視窗中心；不代表現場或旅期開放查驗。"
+
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Nishi-hen-na01.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Nishi-hen-na01.jpg"
     creator: "Haidonan"
     license: "Public domain"
-    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
+    licenseUrl: "https://creativecommons.org/publicdomain/mark/1.0/"
     accessedAt: "2026-07-15"
     originalSha256: "ba4d02d82ef5bf42d3b43ffc72efc02b6b2b120590a6d69216ee0f5c3a9d740d"
-    compactPath: media/compact/jp-miyakojima-nishi-hennazaki.webp
-    completePath: media/complete/jp-miyakojima-nishi-hennazaki.webp
+    compactPath: "media/compact/jp-miyakojima-nishi-hennazaki.webp"
+    completePath: "media/complete/jp-miyakojima-nishi-hennazaki.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除未支持的バイカイカリソウ花季、保證風機旋轉與全年西北落日；不把岬角地標誤稱入口。"
+    - "保留既有 https://commons.wikimedia.org/wiki/File:Nishi-hen-na01.jpg；僅檔名主題無明顯衝突，未重新核驗圖片內容、作者或授權，不代表媒體通過認證。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 fetched Miyakojima Tourism Association's named cape page. Its map feature label explicitly gives DMS coordinates; used those rather than the embed's viewport. Existing point agrees within approximately 2 m.
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "獨立複核發現舊官方岬角marker距具名展望台155公尺，不能說明可停留位置；改採Chrome實際開啟『西平安名崎展望台』24.9086489,125.2584665，並目視其地圖顯示在陸地道路與停車區旁。觀光協會確認此景勝地設施，地方旅遊目錄明載展望台；不採岩礁岬端、不放大觸發半徑，不保證現場通行。"
   sources:
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_024/
-    title: 西平安名崎｜宮古島観光協会公式情報サイト
-    coordinateEvidence: HTML Google Maps iframe pb feature 0x0:0x1de214ed11b5a1ca has !2zMjTCsDU0JzM0LjIiTiAxMjXCsDE1JzI2LjEiRQ, base64-decoded label 24°54′34.2″N 125°15′26.1″E; DMS conversion = 24.9095,125.25725. Not the !2d/!3d viewport values.
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_024/"
+      title: "西平安名崎（にしへんなざき） - 宮古島観光協会公式情報サイト | Meets More MIYAKOJIMA"
+      coordinateEvidence: "原始 iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.661951799351!2d125.257258!3d24.90951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1de214ed11b5a1ca!2zMjTCsDU0JzM0LjIiTiAxMjXCsDE1JzI2LjEiRQ!5e0!3m2!1sja!2sjp!4v1674108472299!5m2!1sja!2sjp；marker !2zMjTCsDU0JzM0LjIiTiAxMjXCsDE1JzI2LjEiRQ解碼24°54′34.2″N 125°15′26.1″E，換算24.9095,125.25725，非!2d/!3d viewport。"
+    -
+      url: "https://www.google.com/maps/place/%E8%A5%BF%E5%B9%B3%E5%AE%89%E5%90%8D%E5%B4%8E%E5%B1%95%E6%9C%9B%E5%8F%B0/data=!4m7!3m6!1s0x34f44d75541353cd:0xb92ffacec5b1ffee!8m2!3d24.9086489!4d125.2584665!16s%2Fg%2F11cnbvp5x8!19sChIJzVMTVHVN9DQR7v-xxc76L7k"
+      title: "Google Maps — 西平安名崎展望台"
+      coordinateEvidence: "主流程 2026-09-16T15:29:05.536Z fresh-profile Chrome實際開啟具名頁「西平安名崎展望台」，place !3d24.9086489!4d125.2584665；原始URL留存於browser/final-selected.json。不是搜尋結果第一筆推定，也不是@視窗中心；不代表現場或旅期開放查驗。"
+    -
+      url: "https://www.miyakozima.net/tourist-info/nisihennazaki/"
+      title: "西平安名崎｜宮古島ねっと"
+      coordinateEvidence: "2026-09-16實際開啟正文，明載風車旁展望台、眺望池間大橋等景觀及停車設施。僅支持展望台用途與名稱，不從此頁另取座標，不沿用其牧場仍可到訪的舊描述。"
   previousLocation:
     latitude: 24.90951
     longitude: 125.25726
   verifiedLocation:
-    latitude: 24.9095
-    longitude: 125.25725
+    latitude: 24.9086489
+    longitude: 125.2584665

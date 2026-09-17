@@ -13,3 +13,20 @@ Schema、ZIP、SHA-256 通過不代表景點位置正確。2026-09 實測發現�
 - 每次發布都從本次 source 重新建置、檢查產物中的全部景點，使用固定 Release tag，下載核對 hash 後才更新 catalog。
 
 `audits/location-2026-09-16/*.json` 保存各批調查結果；來源 YAML 的 `locationReview` 為最終採用的結論。自動測試能防止已審核座標與 URL 不一致，不能取代實地測量。
+
+## 宮古島旅行版的第二層審核
+
+`audits/index.json` 依序列出調查批次，同一批不得重複認領景點；新批次可取代舊結論，舊紀錄不刪除。
+`miyako-trip-2026-09-23` 同時保留 Google Maps 驗證方式與故事逐項來源。
+`named_listing` 是實際開啟具名 Google 地標；`official_embedded_pin` 是官方具名頁面所附的 Google 圖釘；
+`unavailable` 必須說明缺口。自行拼出的座標連結、不具名的地圖中心，以及搜尋第一筆都不能冒充地標驗證。
+
+新資料包以 `reviewBatch` 啟用嚴格的逐筆檢查。完成事實核對後才執行
+`python tools/seal_review.py --region jp/miyako-jima`，保存完整來源及調查紀錄兩份 SHA-256 審核快照。
+其後改座標、故事、來源或媒體都會使建置失敗，必須重新審核，不可只重算 hash 當作驗證。
+`mediaPolicy: referenced-only` 使撤下的錯配照片也不再進入新版 ZIP；舊來源檔案留在版本歷史中，不拿別處照片補空。
+新增景點暫無可靠授權圖片時明確保留空 media，而非虛構照片、授權或把區域示意照當現場照。
+
+官方座標也可能是自然地標中心，不一定適合現場觸發。若公共展望台、岸邊入口與整體地標相距超過觸發範圍，
+必須再確認實際到訪位置或暫停定位，不可只用一句「不是入口」掩蓋已知抵達差異。
+Google 候選連結經人工選定後，仍須真正開啟該具名頁才能記成 `named_listing`；搜尋清單與實際開啟證據分開留存。

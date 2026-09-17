@@ -4,12 +4,10 @@ point:
   parentId: null
   kind: venue
   title: "宮古マンゴー農園"
-  summary: "宮古島是日本頂級芒果的主要產地，每年六至八月盛產期間，農園開放旅客直接入園採果品嚐，飽滿的「アーウィン」品種芒果在珊瑚礁土壤與充沛日照下熟成，甜度遠超市售進口品。"
+  summary: "宮古芒果栽培主題，尚無具名可參觀果園；從品種、產地標示和栽培研究認識果實，九月下旬不保證能採果。"
   narration: |
-    宮古島芒果之所以出類拔萃，秘密在於這裡的自然條件近乎完美——珊瑚礁風化形成的排水良好石灰岩土壤、年均超過二千一百小時的日照，以及鹹度適中的海風，讓果實在枝頭緩慢熟成，糖分充分蓄積。主流栽培品種「アーウィン」果皮染著橘紅暈色，切開後金黃的果肉散發濃郁的奶油花香，纖維極少，汁液飽滿。
-
-    盛產期農園採「樹熟採收」策略，讓芒果自然從枝梢落下才摘取，而非提前採青以利運輸。入園時農主通常會帶你走過樹陣，解說如何辨別芒果的熟成程度——果皮的橘紅面積、輕壓時的彈性、蒂頭周圍有無自然裂紋。現摘之後直接在現場切開品嚐，甜度動輒超過十七度，是在台灣超市完全嚐不到的風味。
-  observationPrompt: "觀察懸掛在樹枝上套袋保護的芒果——農民為什麼要為每顆芒果單獨套袋？袋子的材質和顏色有什麼特別之處？"
+    在水果攤前看到紅色芒果，先找找標籤上的品種和產地，別只用顏色猜它從哪裡來。沖繩縣宮古島支所的農業研究資料指出，當地主要栽培的愛文品種，紅色果皮是商品特色；研究人員也關心果皮出現斑駁的問題，並把高濕度、果面結露列為要處理的栽培條件。原來一顆漂亮的芒果，背後不只是陽光，還有許多看不見的管理功夫。ＪＡ沖繩資料另外介紹了愛文與凱特等品種，挑選時可以問清楚名稱、產地和適合食用的時間，不必把所有芒果都當成同一款。這裡目前只是農業主題，不是一座已確認開放的果園；九月下旬能否買到當季鮮果、是否有參觀或採果，都要由具名農家另行確認，不能拿一張產季表就當作入園邀請。
+  observationPrompt: "在營業販售場所讀品種與產地標籤，詢問保存及食用方式；不要以果皮顏色推定甜度、成熟度或一定產自宮古島。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -29,86 +27,66 @@ point:
       tags:
         - id: family
           label: 親子體驗
-    - id: access
-      label: 入場
-      tags:
-        - id: ticketed
-          label: 需付費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 設定座標前，請先確認特定農場及其參訪活動。
+  locationHint: "泛指宮古芒果栽培，未確認任何具名觀光果園、預約或公共入口，故無GPS。2026-09-23至27的鮮果與參訪須另向農家確認；不得自行入溫室或採摘。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島是日本著名的高品質芒果產地，農園體驗代表宮古島重要的農業文化，但非唯一性名勝。"
-    sources: [src1]
+    score: 2
+    note: "芒果是可認識的地方農業產品。"
+    sources: ["mango","jamango","agri"]
   distinctiveness:
-    score: 4
-    note: "宮古島芒果以珊瑚礁土壤栽培、樹熟採收著稱，在日本國內具有明確的地理風土特色。"
-    sources: [src1]
+    score: 3
+    note: "品種與栽培管理提供具體地方內容。"
+    sources: ["mango","jamango","agri"]
   interpretability:
     score: 3
-    note: "農主導覽能清楚說明栽培方式與風土條件，品嚐體驗本身即是最直接的詮釋。"
-    sources: [src2]
+    note: "標籤及果皮研究可作行前解說。"
+    sources: ["mango","jamango","agri"]
   visitorValue:
-    score: 4
-    note: "結合採果、品嚐、購買伴手禮，體驗完整；盛產期（6-8月）才開放，旺季旅客幾乎必訪。"
-    sources: [src2]
+    score: 1
+    note: "無指定公開果園，九月參訪不能保證。"
+    sources: ["mango","jamango","agri"]
   evidenceQuality:
-    score: 3
-    note: "農業統計資料可靠，但個別農園資訊多來自旅遊平台，缺乏學術性文獻。"
-    sources: [src1]
-  final: 3.4  # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 0.90+1.00+0.60+0.60+0.30 = 3.40
+    score: 4
+    note: "研究與生產機構資料已重抓，不能據此建立農園座標。"
+    sources: ["mango","jamango","agri"]
+  final: 2.5
 sources:
-  - id: src1
-    title: "沖縄県宮古島市のマンゴー生産"
-    publisher: "沖縄県農林水産部"
-    url: https://www.pref.okinawa.jp/site/norin/engei/fruits/mango.html
-    accessedAt: "2026-07-15"
+  - id: mango
+    title: "マンゴーの主な試験研究 — まだら果症の発生を軽減する技術の開発"
+    publisher: "沖縄県農業研究センター宮古島支所"
+    url: "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/660/miyakojimamango.pdf"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "宮古島是沖縄縣內主要芒果產地之一，以アーウィン品種為大宗"
-      - "珊瑚礁土壤與充沛日照是宮古芒果高糖度的主要因素"
-  - id: src2
-    title: "宮古島マンゴー狩り体験"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
+    supports: ["宮古島支所資料介紹主要品種愛文及紅色果皮的商品性。","資料研究斑駁果問題，涉及高濕度及果面結露等栽培條件。"]
+  - id: jamango
+    title: "マンゴー — JAおきなわの特産品"
+    publisher: "JAおきなわ"
+    url: "https://www.ja-okinawa.or.jp/agriculture/detail.php?id=21"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "宮古島多處農園於六至八月盛產期開放入園採果與品嚐體驗"
-      - "樹熟採收（枝頭自然落果後採摘）是宮古芒果農園的主流做法"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "4a5f3e37e7e0219f1ec96920eb428acb508647cc1d3eb59caf374a9b667004aa"
-    compactPath: media/compact/jp-miyakojima-mango-orchard.webp
-    completePath: media/complete/jp-miyakojima-mango-orchard.webp
+    supports: ["JA沖繩介紹愛文、凱特等芒果品種；縣級產品介紹不是宮古島特定果園的開放或採果公告。"]
+  - id: agri
+    title: "宮古農業改良普及課の業務（2026年9月11日更新）"
+    publisher: "沖縄県"
+    url: "https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html"
+    accessedAt: "2026-09-16"
+    language: ja
+    supports: ["2026年宮古農業工作包含芒果等園藝作物產量與品質改善。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除固定17度甜度、勝過臺灣芒果、人人可採果與未查證的園區設施。","不把JA全縣產季視為本次旅行期間的宮古農場庫存或預約承諾。","移除 File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg：機場影像不是芒果園；未補造照片、授權或媒體檔。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: 宮古マンゴー農園 is used as a generic crop/farm theme, without a named operator, address or booking terms. Do not replace it with whichever orchard is near the old coordinate.
-  sources:
-  - url: https://miyako-island.net/charm/industry/
-    title: 宮古島観光協会 — 宮古島の農業
-    coordinateEvidence: https://miyako-island.net/charm/industry/ establishes mango growing as a regional industry, not a single visitor orchard. No coordinate extracted.
-  - url: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html
-    title: 沖縄県 — 宮古農業改良普及課の業務
-    coordinateEvidence: https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html describes support for multiple mango growers. No named public picking venue or arrival coordinate is established.
-  previousLocation:
-    latitude: 24.7855
-    longitude: 125.3282
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。"
+  sources: [{"url":"https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/017/660/miyakojimamango.pdf","title":"マンゴーの主な試験研究 — まだら果症の発生を軽減する技術の開発","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://www.ja-okinawa.or.jp/agriculture/detail.php?id=21","title":"マンゴー — JAおきなわの特産品","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://www.pref.okinawa.jp/shigoto/shinkooroshi/1011372/1024244/1011388/1023601/1030392.html","title":"宮古農業改良普及課の業務（2026年9月11日更新）","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓宮古島支所研究PDF、JA品種資料與縣農業業務頁，確認芒果生產而非特定開放果園。維持non_point，未指定農家與訪客入口，不能把研究機關、販售市場或任意農地改成此農園。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.7855,"longitude":125.3282}
   verifiedLocation: null

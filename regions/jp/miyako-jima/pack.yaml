@@ -1,6 +1,8 @@
 ﻿schemaVersion: 1
 packId: jp-miyakojima
-version: "1.0.5"
+version: "1.1.0"
+reviewBatch: miyako-trip-2026-09-23
+mediaPolicy: referenced-only
 title: "宮古島"
 subtitle: "沖繩碧海與珊瑚礁"
 region:

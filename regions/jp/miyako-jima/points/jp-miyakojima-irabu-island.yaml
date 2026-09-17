@@ -4,14 +4,10 @@ point:
   parentId: null
   kind: region
   title: "伊良部島"
-  summary: "伊良部島是宮古群島第二大島，2015年伊良部大橋落成後無需渡輪即可抵達。島上保留了深海漁業傳統與原始自然風光，是探索宮古離島文化的最佳起點。"
+  summary: "宮古群島第二大島，2015年大橋通車後可從宮古島走陸路抵達；坡上的佐良浜聚落與不同海岸，是認識全島的兩條線索。"
   narration: |
-    伊良部島靜靜地躺在宮古島西北方，與主島之間由長達3,540公尺的伊良部大橋相連。這座橋於2015年啟用，是日本免費通行橋梁中最長的一座，從此打開了這座離島對旅人的大門。
-
-    島的面積約29平方公里，人口不過數千人，卻擁有截然不同的兩種面貌：南岸的渡口之濱以柔白細沙和蔚藍海水著稱；北側的佐良濱則是傳承百年的遠洋鰹魚漁村。你可以在同一天清晨踏上幾乎無人的海灘，午後再走進曬著柴魚片的老街巷弄，感受兩種截然不同的宮古島生活。
-
-    伊良部島地形略呈平坦，騎著自行車或租車繞行一圈僅需半天，但每個轉彎都可能出現令人屏息的海崖視野或礁岩灘景。島嶼東南角與下地島之間的水道，更是世界級的潛水勝地，透明度常達40公尺以上。
-  observationPrompt: "站在伊良部大橋橋頭，仔細看看橋墩兩側的海水顏色——你能分辨出幾種不同深淺的藍綠色漸層？"
+    看伊良部島的地圖時，別急著只圈出海灘，也看看佐良浜那一片沿著坡地密集排列的房子。沖繩官方旅遊資料說，這裡是宮古群島第二大島；二○一五年一月大橋開通後，從宮古島前來更方便，但島上的故事不只是一段過橋風景。佐良浜的屋舍沿坡而建，和渡口之浜開展的沙岸，是同一座島很不一樣的面孔。觀光協會的文化地圖還記下，過去北側聚落偏重漁業、南側偏重農業，人們曾以各自的物產交換生活所需。下次看見港邊和田間的道路，可以想想：一座島的日常，如何把海上與土地上的工作接在一起？這是一份全島導覽，不是一個入口；請挑選另行驗證的公共景點停留，住宅巷道裡放輕腳步，不把居民院落當成觀景場地。
+  observationPrompt: "在地圖上比較佐良浜聚落與渡口之浜的位置；實際停留時，留意公共道路旁屋舍和海岸的排列，不窺看私人院落。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -31,58 +27,49 @@ point:
       tags:
         - id: walking
           label: 漫步
-    - id: access
-      label: 入場
-      tags:
-        - id: free
-          label: 免費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請保留為伊良部島區域／上層資料項目，並導航至另行驗證的海灘、觀景點或橋頭。
+  locationHint: "全島區域介紹，不設島中心圖釘或自動觸發。請導航到另行驗證的具名海灘、觀景點或橋頭，勿以私人住宅作為停留點。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "宮古群島第二大島，具備完整的自然、文化與漁業生態，是宮古旅遊的重要組成"
-    sources: [src1]
+    note: "全島有自然與聚落生活的整體價值。"
+    sources: ["irabu","irabumap"]
   distinctiveness:
     score: 4
-    note: "兼具世界級潛水、原始海灘與百年漁村文化，與主島形成明顯對比"
-    sources: [src1]
+    note: "沿坡漁村和農業、海岸並存。"
+    sources: ["irabu","irabumap"]
   interpretability:
     score: 3
-    note: "地域概覽層級，需要訪客自行探索各景點才能充分理解"
-    sources: [src1]
+    note: "區域概覽需搭配具名地點理解。"
+    sources: ["irabu","irabumap"]
   visitorValue:
-    score: 4
-    note: "免費通行、景點密集，適合半日至全日自駕或單車遊覽"
-    sources: [src2]
-  evidenceQuality:
     score: 3
-    note: "有維基百科日文條目及官方觀光資料佐證"
-    sources: [src1, src2]
-  final: 3.7  # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 1.2+1.0+0.6+0.6+0.3 = 3.7
+    note: "適合作行前認識，不是單一抵達點。"
+    sources: ["irabu","irabumap"]
+  evidenceQuality:
+    score: 4
+    note: "官方縣觀光與文化地圖已重抓。"
+    sources: ["irabu","irabumap"]
+  final: 3.7
 sources:
-  - id: src1
-    title: "伊良部島 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%89%AF%E9%83%A8%E5%B3%B6
-    accessedAt: "2026-07-15"
+  - id: irabu
+    title: "伊良部島"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/about/miyako_area/irabu"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "伊良部島是宮古群島第二大島，面積約29平方公里"
-      - "伊良部大橋全長3,540公尺，於2015年1月31日開通"
-  - id: src2
-    title: "伊良部島観光情報 - 宮古島観光協会"
+    supports: ["伊良部島是宮古群島第二大島，2015年1月大橋開通使陸路交通更便利。","佐良浜房屋沿坡密集排列；渡口之浜為島上另一個海岸景點。"]
+  - id: irabumap
+    title: "伊良部島・下地島文化散策マップ（2021年版）"
     publisher: "宮古島観光協会"
-    url: https://www.miyakojima.gr.jp/tourist_spot/irabu/
-    accessedAt: "2026-07-15"
+    url: "https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "島上擁有多處知名海灘與漁村文化景點"
-      - "可自駕或騎自行車環島遊覽"
+    supports: ["文化地圖記載北側聚落以漁業、南側以農業為主，過去有物產交換。"]
 media:
   - id: primary-image
     type: image
@@ -95,19 +82,14 @@ media:
     compactPath: media/compact/jp-miyakojima-irabu-island.webp
     completePath: media/complete/jp-miyakojima-irabu-island.webp
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除無人海灘保證、到處曬柴魚、固定半天環島及全年高能見度等泛化敘述。","保留 File:Irabu_Island_ISS045.jpg 作全島尺度既有影像；此批未認證像素、拍攝日期及授權，不當作抵達證據。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Whole island is not a single point. The current central coordinate has no independently identified visitor arrival anchor. Moving it to a business, harbour or even another listed attraction would change its identity.
-  sources:
-  - url: https://miyako-island.net/charm/
-    title: 宮古島観光協会 — 伊良部地区
-    coordinateEvidence: https://miyako-island.net/charm/ describes seven settlements and multiple separate attractions on Irabu. No single island arrival pin extracted or chosen.
-  previousLocation:
-    latitude: 24.834388
-    longitude: 125.186688
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓縣觀光伊良部島介紹與文化地圖，確認整島包含不同聚落與海岸，不能指定唯一抵達點。維持non_point，保留區域及原有ID，不替換成港口、商店或其他景點。"
+  sources: [{"url":"https://www.okinawastory.jp/about/miyako_area/irabu","title":"伊良部島","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓縣觀光伊良部島介紹與文化地圖，確認整島包含不同聚落與海岸，不能指定唯一抵達點。維持non_point，保留區域及原有ID，不替換成港口、商店或其他景點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"},{"url":"https://miyako-guide.net/wp-content/themes/cerulean-custom/assets/pdf/2021_irabu_map.pdf","title":"伊良部島・下地島文化散策マップ（2021年版）","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓縣觀光伊良部島介紹與文化地圖，確認整島包含不同聚落與海岸，不能指定唯一抵達點。維持non_point，保留區域及原有ID，不替換成港口、商店或其他景點。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.834388,"longitude":125.186688}
   verifiedLocation: null

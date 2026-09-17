@@ -1,112 +1,155 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-hora-cave
+  id: "jp-miyakojima-hora-cave"
   parentId: null
-  kind: attraction
-  title: "保良泉鍾乳洞"
-  summary: "保良泉鍾乳洞是宮古島東南部保良地區的石灰岩洞穴，洞內有精緻的石筍與鐘乳石地質景觀，附設浮潛設施，是宮古島少數可深入地底探索的自然體驗。"
-  narration: |
-    宮古島的地底世界同樣精彩。保良泉鍾乳洞位於島東南部的保良地區，這一帶的地下水資源豐富，形成了獨特的石灰岩洞穴系統。進入洞穴後，溫度比外界涼爽許多，洞壁上千萬年積累的石筍與鐘乳石在燈光照耀下呈現奶白色與琥珀色的光澤，流水侵蝕留下的紋路宛如天然雕塑。保良泉名稱中的「泉」指的是附近的天然湧泉，純淨的地下水從石灰岩縫隙中滲出，形成獨特的清水潭。園區同時提供洞外的珊瑚礁浮潛體驗，讓旅客在一處地點同時感受地底奇觀與水下世界。參觀需跟隨導覽，請穿著適合步行的防滑鞋。
-  observationPrompt: "在洞內找一根垂掛的鐘乳石，仔細觀察它的末端——是否有水珠正在滴落？試著估算這根鐘乳石的直徑，並想想它需要多少年才能長到現在的大小。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  kind: "attraction"
+  title: "保良泉鍾乳洞（名稱待確認）"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: mixed
-          label: 室內外混合
-    - id: subject
-      label: 主題
+        -
+          id: "mixed"
+          label: "室內外混合"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 收費
+        -
+          id: "ticketed"
+          label: "收費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請先確認是否指「パンプキン鍾乳洞／保良泉鍾乳洞」，再依已預約業者的集合指示前往；不提供可自行步行入洞的圖釘。
+  locationHint: null
+  summary: "保良一帶的海上洞穴體驗受潮汐、天候與保全規範限制；尚未取得此舊名稱的固定安全抵達點，不提供自行探洞導航。"
+  narration: |
+    保良一帶的洞穴體驗，首先要面對的是海與潮汐：泳池業者介紹的南瓜洞行程，需要從海上搭獨木舟前往，出發時間跟著潮汐調整，風浪或天候不合適就可能取消，不是買了票便能沿步道自行走入的展示洞。宮古島市推薦選擇參與保良クバクンダイ保全協定的業者，讓旅遊也顧及洞穴環境，鐘乳石只能看、不觸摸。「保良泉鍾乳洞」這個名稱尚未核實有獨立對應的公開入口或固定集合點，不能拿附近的海灘當成入洞處。若想預約相關海上導覽，請先由承辦業者確認集合點、潮汐、裝備與取消條件；等待合適條件也是旅程的一部分，別為了找洞而自行涉水。
+  observationPrompt: "只在已預約、業者允許的導覽範圍觀察鐘乳石；事前確認集合點、潮汐與取消條件，不自行從海灘涉水找洞。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "宮古島少數可參觀的石灰岩鍾乳洞，保良泉地下水系統在宮古島地質景觀中具代表性。"
-    sources: [src1]
+    score: 2
+    note: "相關海上洞穴有保全意義，但舊名抵達點未解。"
+    sources:
+      - "bora-kayak"
+      - "bora-safety"
   distinctiveness:
-    score: 4
-    note: "洞穴體驗在以海灘為主的宮古島觀光資源中高度差異化，提供獨特的地質體驗。"
-    sources: [src1, src2]
+    score: 3
+    note: "相關鐘乳洞行程具海上地形特色，不能替代本名定位。"
+    sources:
+      - "bora-kayak"
+      - "bora-safety"
   interpretability:
-    score: 3
-    note: "鐘乳石景觀視覺震撼，但地質形成過程需要導覽說明，現場有導覽員協助解說。"
-    sources: [src2]
+    score: 1
+    note: "尚未確認固定入口，不提供自助觀察路線。"
+    sources:
+      - "bora-kayak"
+      - "bora-safety"
   visitorValue:
-    score: 4
-    note: "洞穴＋浮潛組合體驗在宮古島觀光產品中屬少見，雨天也可參觀，適合家庭旅遊。"
-    sources: [src1, src2]
+    score: 1
+    note: "只可另詢合法導覽，無獨立導航價值。"
+    sources:
+      - "bora-kayak"
+      - "bora-safety"
   evidenceQuality:
-    score: 3
-    note: "官方網站資訊完整，媒體報導豐富，但學術地質文獻較少。"
-    sources: [src1]
-  final: 3.4   # 0.30*3 + 0.25*4 + 0.20*3 + 0.15*4 + 0.10*3 = 0.9+1.0+0.6+0.6+0.3 = 3.4
+    score: 2
+    note: "已取得業者與市府正文，但具名Maps消歧義未解。"
+    sources:
+      - "bora-kayak"
+      - "bora-safety"
+  final: 1.9
 sources:
-  - id: src1
-    title: "保良泉ビーチ・保良鍾乳洞 公式サイト"
-    publisher: "保良泉パーク"
-    url: https://www.hora-park.com/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "bora-kayak"
+    url: "https://boraga-pool.com/kayak/index.html"
+    title: "冒険カヤック — パンプキン鍾乳洞"
+    publisher: "株式会社linkworks"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "保良泉鍾乳洞提供導覽參觀，洞內有鐘乳石與石筍景觀"
-      - "附設浮潛體驗，需購票入場"
-  - id: src2
-    title: "保良泉ビーチ | 沖縄観光情報WEBサイト おきなわ物語"
-    publisher: "沖縄県文化観光スポーツ部"
-    url: https://www.okinawastory.jp/spot/600176
-    accessedAt: "2026-07-15"
-    language: ja
+      - "洞穴體驗由海上獨木舟行程前往，時間隨潮汐調整。"
+      - "設有風浪與天氣取消條件，非隨到隨進的陸地洞穴。"
+  -
+    id: "bora-safety"
+    url: "https://www.city.miyakojima.lg.jp/soshiki/shityo/kankosyoukou/kankou/oshirase/borakubakundai.html"
+    title: "保良クバクンダイ鍾乳洞の安全に関する記者会見"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "位於宮古島東南部保良地區，結合洞穴與海灘體驗"
-      - "適合家庭旅遊，雨天可參觀洞穴"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "59234d3ea1b7c3797bdfc6aee29a9b4aeae84013c81c4575005a845cfd4769a0"
-    compactPath: media/compact/jp-miyakojima-hora-cave.webp
-    completePath: media/complete/jp-miyakojima-hora-cave.webp
+      - "市方推薦使用參與保全協定的業者。"
+  -
+    id: "bora-old-operator"
+    url: "https://uminooto.com/maintenance/"
+    title: "ホームページ休止中・ツアー参加方法"
+    publisher: "有限会社アイランドワークス"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "明確區分本公司與現任泳池管理者linkworks；集合地點、時間需詢問。"
+  -
+    id: "google-live"
+    title: "Google Maps — 保良泉鍾乳洞 宮古島（消歧義）"
+    url: "https://www.google.com/maps/search/?api=1&query=%E4%BF%9D%E8%89%AF%E6%B3%89%E9%8D%BE%E4%B9%B3%E6%B4%9E%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "搜尋保良泉鍾乳洞回傳仲原鍾乳洞、保良泉ビーチ及保良泉ビーチパーク；都不足以證明本舊名的安全公開洞口或固定集合點，不採其place座標。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "刪除任意入洞、地下步道、固定門票或泉水出口的推測；不把仲原鍾乳洞、南瓜洞行程集合區與本舊名直接視為同一GPS。"
+    - "重抓現任業者海上洞穴行程及市府保全協定頁，確認相關體驗有潮汐、導覽限制，但無本舊名可獨立抵達的固定公開洞口。主流程Chrome查詢出現仲原鍾乳洞及保良泉海灘／公園，不能將不同洞穴或泳池座標挪用，維持unresolved。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "移除原媒體紀錄：File:Yonahamaehama_Miyakojima_Okinawa_Japan06s3s4592.jpg；原圖為與那霸前濱海灘，並非洞穴。未替換圖片，未刪改媒體二進位檔。"
 locationReview:
-  status: unresolved
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Cave identity/access are conflated with Bora spring/beach facilities. The operator's current notice distinguishes beach management from its tours and supplies meeting details only on enquiry. No verified entrance or fixed meeting point; also duplicates the cave narrative and exact coordinates of hora-spring.
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓現任業者海上洞穴行程及市府保全協定頁，確認相關體驗有潮汐、導覽限制，但無本舊名可獨立抵達的固定公開洞口。主流程Chrome查詢出現仲原鍾乳洞及保良泉海灘／公園，不能將不同洞穴或泳池座標挪用，維持unresolved。"
   sources:
-  - url: https://uminooto.com/maintenance/
-    title: アイランドワークス — official maintenance / tour notice
-    coordinateEvidence: https://uminooto.com/maintenance/ says tour meeting place and time are supplied on enquiry; no numeric fixed meeting coordinate published. It also says the current beach/pool manager is another company.
-  - url: https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/008/400/h30houkoku3.pdf
-    title: 沖縄県 — ガマ活用検討報告書
-    coordinateEvidence: https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/008/400/h30houkoku3.pdf lists 保良泉鍾乳洞 and the historical operator link, not a currently verified public outdoor cave entrance. No coordinate extracted.
+    -
+      url: "https://boraga-pool.com/kayak/index.html"
+      title: "冒険カヤック — パンプキン鍾乳洞"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/soshiki/shityo/kankosyoukou/kankou/oshirase/borakubakundai.html"
+      title: "保良クバクンダイ鍾乳洞の安全に関する記者会見"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://uminooto.com/maintenance/"
+      title: "ホームページ休止中・ツアー参加方法"
+      coordinateEvidence: "重抓 HTTP 200，正文不列統一固定集合座標；不能將另一公司泳池或不相干仲原鍾乳洞當成本洞入口。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E4%BF%9D%E8%89%AF%E6%B3%89%E9%8D%BE%E4%B9%B3%E6%B4%9E%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "Google Maps — 保良泉鍾乳洞 宮古島（消歧義）"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:18.931Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/search/?api=1&query=%E4%BF%9D%E8%89%AF%E6%B3%89%E9%8D%BE%E4%B9%B3%E6%B4%9E%20%E5%AE%AE%E5%8F%A4%E5%B3%B6。本次回應未有可採用的具名!3d/!4d；不把搜尋視窗當座標。 搜尋保良泉鍾乳洞回傳仲原鍾乳洞、保良泉ビーチ及保良泉ビーチパーク；都不足以證明本舊名的安全公開洞口或固定集合點，不採其place座標。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.7302
     longitude: 125.432
-  verifiedLocation: null

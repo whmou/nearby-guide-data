@@ -1,0 +1,127 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-makiyama-observatory"
+  parentId: null
+  kind: "attraction"
+  title: "牧山展望台"
+  summary: "像灰面鵟鷹展翅的白色展望台，從伊良部高處讀懂離島與海的關係。"
+  narration: "一隻白色大鳥停在山頂上——走近才發現，它其實是讓人看風景的展望台：牧山展望台以候鳥灰面鵟鷹，也就是日本人說的サシバ為造型，展開的雙翼讓建築本身也成了觀景的一部分。觀光協會介紹，這裡位在伊良部島東南側的高處，是島內最高的地方，可以朝宮古本島、池間島與來間島的方向展望；實際看得多遠，還是得看當天能見度。站定後不妨分兩次看：第一次看白色建築的輪廓，第二次把視線放遠，找出海面與島岸的交界。開車過橋時，海是一路向後退的背景；來到這裡，幾座島終於能放在同一張腦中的地圖上。這一站不用趕著離開，慢慢認方向，本身就是旅行很舒服的一小段時間。"
+  observationPrompt: "比較展望台的雙翼輪廓，再辨認宮古本島與遠處島岸；能見度不足時不必勉強找齊。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.817783
+    longitude: 125.21783
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採宮古島觀光協會「牧山展望台」實際Google Maps數字place連結，錨定展望台本體，非三角點、イグアナ岩或已拆的船兎鷹造型台。經正式停車區與步道到訪，天候與現場封閉優先。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.817783,125.21783"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 5
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 5
+    note: "正式具名展望台，協會列有停車及廁所，適合短停觀景；不保證當日天候或臨時開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 4
+sources:
+  -
+    id: "s1"
+    url: "https://miyako-guide.net/spots/spots-874/"
+    title: "宮古島觀光協會 — 牧山展望台"
+    publisher: "一般社団法人 宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "牧山展望台的白色造型取意候鳥サシバ（灰面鵟鷹）。"
+      - "展望台位在伊良部島東南側、島內最高處，觀光協會列出宮古本島、池間島及來間島等展望方向。"
+  -
+    id: "s2"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_017/"
+    title: "宮古島觀光協會 Meets More — 牧山展望台"
+    publisher: "一般社団法人 宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "牧山展望台 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "新建具名正式展望台，非借用既有未定位泛稱；兩個協會頁已重抓。"
+    - "官方數字place為座標依據；直接Maps Internal Error，未視覺核驗。"
+    - "media: []；未新增照片或授權主張，待編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "已抓取觀光協會具名專頁的Google Maps數字place連結，並以另一協會頁核對名稱及伊良部池間添位置；採展望台本體，不採地圖視窗中心。直接Maps抓取回傳Internal Error，沒有互動地圖或街景視覺核驗。"
+  sources:
+    -
+      url: "https://miyako-guide.net/spots/spots-874/"
+      title: "宮古島觀光協會 — 牧山展望台"
+      coordinateEvidence: "2026-09-16實抓HTML，原始href：https://www.google.co.jp/maps/place/24.817783, 125.217830；從 /maps/place/ 後的數字目標提取24.817783,125.217830，不是 @ 視窗中心。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_017/"
+      title: "宮古島觀光協會 Meets More — 牧山展望台"
+      coordinateEvidence: "已抓取另頁：名稱牧山展望台、所在地伊良部池間添、白色候鳥造型與停車/廁所設施相符；與s1同為觀光協會，非獨立測量。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.817783
+    longitude: 125.21783

@@ -1,118 +1,133 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-miyako-soba
+  id: "jp-miyakojima-miyako-soba"
   parentId: null
-  kind: venue
+  kind: "venue"
   title: "古謝そば屋（宮古そば）"
-  summary: "創業逾九十年、宮古島最具歷史的老字號そば店，供應以豬骨和鰹魚熬製的清湯搭配手工圓麵條的道地宮古そば，是感受宮古島飲食文化根源的必訪之地。"
-  narration: |
-    宮古そば是沖繩そば的近親，卻有著截然不同的個性。沖繩そば多為方形麵條、湯頭較厚重；宮古そば則以細圓麵條為主，湯底用豬骨和鰹魚長時間熬煮，清澈卻鮮味深層。最特別的是擺盤習慣——傳統宮古そば的叉燒和魚板通常藏在麵條之下，外表看起來像一碗素麵，要用筷子撥開才會發現底部的驚喜。
-
-    古謝そば屋（Koja Sobaya）自1932年代起便在宮古島市區供應這碗麵，是目前仍在營業的最具歷史代表性的宮古そば老店之一。店內保留著昭和年代的質樸裝潢，木桌長椅、陶碗瓷盤，一切都透著時光的重量。
-
-    一碗熱騰騰的宮古そば端上桌，清澈金黃的湯面不見任何料頭——這正是傳統擺法。舀起第一口湯，豬骨的醇厚與鰹魚的鮮香在口中交融，再撥開麵條，叉燒與魚板在底部等著你。這碗麵無需繁複的技巧，卻有著幾十年如一日的誠實滋味，是宮古島旅行中最值得留下的味覺記憶之一。
-  observationPrompt: "點上一碗宮古そば後，先觀察湯面——是否沒有任何配料可見？試著用筷子輕輕撥開麵條，看看底下藏著幾塊叉燒和幾片魚板，這個「藏料」的傳統擺法正是宮古そば與其他地區沖繩麵最容易辨別的特徵之一。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "古謝そば屋從1932年的食堂起家，店史中的疏散、重開與麵粉交換，讓一碗宮古麵連上島民的日常。"
+  narration: "紅瓦屋頂、木質座位，還有窗邊可以看見的庭院，先讓一碗麵有了不趕時間的背景；但古謝そば屋最值得聽的，未必是配料藏在碗底的說法，而是這家店如何把麵繼續做下去。店家年表記載，一九三二年古謝將功在平良開食堂，戰爭期間一家疏散到臺灣而停業，回島後重新開始；店史還提到，曾用做好的一份份麵，交換各家配給的小麥粉，讓缺乏原料時仍有辦法營生。早年的麵以木灰上澄液、鹽與麵粉製作，如今則在有衛生管理的工場生產，不必假想每一碗都還是當場手擀。等餐時可以看看店裡的木作與庭院，再留意自己那碗麵的形狀和配料位置；眼前端來什麼就觀察什麼，不先規定它一定得符合某種「傳統擺法」。\n"
+  observationPrompt: "看看實際端上的麵條、配料位置，以及窗邊庭院與木質座位；它和你原先想像的老店有什麼不同？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: indoor
-          label: 室內
-    - id: subject
-      label: 主題
+        -
+          id: "indoor"
+          label: "室內"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: daily-life
-          label: 日常生活
-    - id: experience
-      label: 體驗
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 漫步
-    - id: access
-      label: 入場
+        -
+          id: "walking"
+          label: "漫步"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 收費
+        -
+          id: "ticketed"
+          label: "收費"
   indoor: true
   location:
     latitude: 24.790285
     longitude: 125.284452
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.790285,125.284452
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.790285,125.284452"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 古謝そば屋店舖 pin，平良字下里1517-1；不是西里通內的店家，請依店面及現場停車指示抵達。
+    rearmDistanceMeters: 1000
+  locationHint: "古謝そば屋具名店舖 pin，平良字下里1517-1；不是西里通內店家。依店面與停車指示抵達，消費、休店及候位以店家公告為準。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古そば是宮古島飲食文化最具代表性的符號；古謝そば屋作為逾九十年老店，是這個文化的活態載體"
-    sources: [src1, src2]
+    score: 3
+    note: "1932年創業；戰時疏散臺灣而停業，返島後重新經營，店史記載曾以成品麵交換配給麵粉。"
+    sources:
+      - "src1"
+      - "src2"
   distinctiveness:
     score: 4
-    note: "宮古そば的「藏料」傳統擺法、清澈湯底和細圓麵條使其有別於一般沖繩麵；老店的歷史氛圍加強獨特性"
-    sources: [src1]
+    note: "早期以木灰上澄液、鹽、小麥粉手作麵；現今改在工場生產。"
+    sources:
+      - "src1"
+      - "src2"
   interpretability:
-    score: 3
-    note: "用餐體驗直觀；但「藏料」擺法等傳統細節若不事先了解，訪客可能會錯過其文化意涵"
-    sources: [src2]
+    score: 4
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
   visitorValue:
-    score: 5
-    note: "美食、文化、歷史氛圍三者兼備，價格親民，幾乎所有訪客都能獲得滿足；是宮古島旅行的高CP值體驗"
-    sources: [src1, src2]
+    score: 3
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
   evidenceQuality:
     score: 3
-    note: "維基百科及多家飲食媒體對宮古そば文化有詳細記載；古謝そば屋的歷史可追溯記錄"
-    sources: [src1, src2]
-  final: 3.9   # 0.30*4 + 0.25*4 + 0.20*3 + 0.15*5 + 0.10*3 = 1.20+1.00+0.60+0.75+0.30 = 3.85 → 3.9
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+  final: 3.5
 sources:
-  - id: src1
-    title: "宮古そば - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E3%81%9D%E3%81%B0
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://kojasoba.com/history/"
+    title: "歴史 | 古謝そば屋"
+    publisher: "古謝そば屋"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古そば與沖繩そば的差異：細圓麵條、清澈豬骨鰹魚湯底"
-      - "配料藏於麵條下方的傳統擺法"
-      - "宮古そばの歷史起源及在宮古島飲食文化中的地位"
-  - id: src2
-    title: "古謝そば屋 - 食べログ"
-    publisher: "食べログ"
-    url: https://tabelog.com/okinawa/A4705/A470501/47002870/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "1932年創業；戰時疏散臺灣而停業，返島後重新經營，店史記載曾以成品麵交換配給麵粉。"
+      - "早期以木灰上澄液、鹽、小麥粉手作麵；現今改在工場生產。"
+  -
+    id: "src2"
+    url: "https://kojasoba.com/shop/"
+    title: "店舗案内 | 古謝そば屋"
+    publisher: "古謝そば屋"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "古謝そば屋的歷史年份及在宮古島的代表性地位"
-      - "店內環境描述及招牌餐點資訊"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Tebichi_soba_-_Miyako_island_-_Mar_27_2020_01-20_PM.jpeg
-    creator: "Nesnad"
-    license: "CC BY 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "4956776721aa5cffbf7c16944e28fae08cbd0cd4b7f749834c49eb29be19007f"
-    compactPath: media/compact/jp-miyakojima-miyako-soba.webp
-    completePath: media/complete/jp-miyakojima-miyako-soba.webp
+      - "店址平良字下里1517-1；店家介紹紅瓦、木質店內與可從窗邊看見的庭院。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除必定藏料、現場手工圓麵及虛構味覺經驗；改用店家自身年表與生產史。"
+    - "移除原媒體紀錄：Tebichi_soba_-_Miyako_island_-_Mar_27_2020_01-20_PM.jpeg只表明宮古島豬腳麵，無證據是古謝そば屋的料理；未替換圖片，未修改任何媒體二進位檔。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 resolved both Google Maps links on the restaurant's own shop page; both identify the same restaurant and exact feature coordinate. Existing point differs by approximately 25 m, but its Nishizato shopping-street hint is misleading.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取店家店舗案內頁並展開其原始 Maps 短連結，從古謝そば屋 feature 的 !3d24.790285!4d125.284452確認座標；主線 Chrome 顯示同名店及下里1517-1。HTTP Maps 本文需JavaScript，未自行作視覺確認。"
   sources:
-  - url: https://kojasoba.com/shop/
-    title: 古謝そば屋公式：店舗のご案内
-    coordinateEvidence: HTML href https://maps.app.goo.gl/KR5r5xjKBvQzyqJt5 redirects to named 古謝そば屋 feature 0x34f4540dba2efc3d:0x4466541c4caca6c6 with !8m2!3d24.790285!4d125.284452. Second official href YECY8SK7h8fWoic36 has the same feature tuple. @ viewport ignored.
+    -
+      url: "https://kojasoba.com/shop/"
+      title: "店舗案内 | 古謝そば屋"
+      coordinateEvidence: "原始 href=https://maps.app.goo.gl/KR5r5xjKBvQzyqJt5；本次HTTP 200展開為 https://www.google.com/maps/place/%E5%8F%A4%E8%AC%9D%E3%81%9D%E3%81%B0%E5%B1%8B/@24.790191,125.2820262,17z/data=!4m7!3m6!1s0x34f4540dba2efc3d:0x4466541c4caca6c6!8m2!3d24.790285!4d125.284452!15sCgzlj6TorJ3jgZ3jgbBaDyIN5Y-k6KydIOOBneOBsJIBC25vb2RsZV9zaG9w4AEA!16s%2Fg%2F1td631ng?entry=tts&g_ep=EgoyMDI0MDUwOC4wKgBIAVAD；採 !8m2!3d24.790285!4d125.284452，不採 @24.790191,125.2820262。Maps文字為啟用JavaScript提示。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E8%AC%9D%E3%81%9D%E3%81%B0%E5%B1%8B%EF%BC%88%E5%AE%AE%E5%8F%A4%E3%81%9D%E3%81%B0%EF%BC%89%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "古謝そば屋 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:28.948Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=古謝そば屋。原始分享 href=https://maps.app.goo.gl/nzxtBuDvdL5XPdqN6；resolvedShareUrl=https://maps.app.goo.gl/nzxtBuDvdL5XPdqN6；具名結果 href=[]；!3d/!4d 座標=[]。不採用 @lat,lng 視窗／街景相機位置。同名店與下里1517-1及kojasoba.com吻合。"
   previousLocation:
     latitude: 24.7905075
     longitude: 125.2843943

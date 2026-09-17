@@ -1,107 +1,138 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-toriki-ike-pools
-  parentId: jp-miyakojima-shimoji-island
-  kind: attraction
+  id: "jp-miyakojima-toriki-ike-pools"
+  parentId: "jp-miyakojima-shimoji-island"
+  kind: "attraction"
   title: "通り池"
-  summary: "下地島西岸的通り池是兩個與海洋地下相連的天然內陸水池，潛水員可從水下洞穴在兩池之間穿越，被列為日本最具震撼力的地形潛水勝地之一，地面上亦可免費欣賞神秘深藍水色。"
-  narration: |
-    站在通り池的觀景台向下望，兩個幽深的圓形水池嵌在石灰岩岩盤中，水面宛如被截取的一片天空，呈現出令人屏息的靛藍色。這對水池外觀相似，直徑分別約75公尺與55公尺，中間以地面上的岩石稜線分隔，卻在水面下的岩洞中相互連通，更有地下洞穴一路延伸至西岸的大海。換句話說，退潮時海水仍悄悄從地底湧入，讓池水保持令人難以置信的清澈與神秘鹹味。對潛水員而言，從海面潛入、穿越洞穴游進通り池、再仰頭看到兩個光圈從深藍中浮現，是宮古島潛水體驗中最令人動容的一幕。即便不潛水，走在池邊步道的旅人也能看見那無風時如鏡面般靜止、颱風過後卻波濤洶湧的奇特景象。
-  observationPrompt: "仔細觀察兩個池面的顏色與波紋——你能看出哪個池水受海浪影響更大，以及兩池之間岩脊下方水流的流動方向嗎？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "兩口藍色池水嵌在石灰岩中，地下彼此相通，也通向外海；從陸側開放步道看地形，不把池水當成游泳池。"
+  narration: |-
+    通り池一大一小，直徑約七十五與五十五公尺，看起來分開的兩口池水，地下卻彼此相通，還經由海底洞穴連到外海，水深也隨潮汐變動。宮古島市的文化財解說將它的形成，解釋為石灰岩洞穴經過長年侵蝕、部分頂部崩落，留下今天的池水與中間相連的岩盤；從陸上看到的，其實只是這套地下地形露出的一部分。地方另有漁人觸怒海靈、海水淹來成池的傳說，那是居民傳述景觀來歷的故事，要和地質解釋分開來聽。沿開放步道觀察兩池的大小與岩壁輪廓，想像岩盤原本遮住水面的樣子，就能把眼前的形狀和地下洞穴連起來。這裡只從陸側觀景，不是入水點，請依護欄與封閉標示停留，不翻欄、不探身靠近池緣，也不下水。
+  observationPrompt: "從開放步道比較兩池的大小，以及兩池之間保留下來的岩盤；不翻欄、不靠近池緣、不下水。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        - id: "viewpoint"
+          label: "景觀"
+        - id: "photography"
+          label: "攝影"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.824333333333335
     longitude: 125.13638888888889
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.824333333333335,125.13638888888889
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.824333333333335,125.13638888888889"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 通り池官方地標 pin；僅用於池岸鄰近解說，請留在開放步道與觀景處，地標落在池區，不是下水入口。
+    rearmDistanceMeters: 1000
+  locationHint: "定位指向通り池景物本體，非停車入口或入水點；請依現場公共步道、護欄與封閉告示觀察，不直向池心前進。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 5
-    note: "日本文化廳指定名勝，全球潛水界公認的地形潛水聖地，是下地島最具代表性的地質奇觀。"
-    sources: [toriki-ike-wikipedia-ja]
+    note: "國指定名勝與天然紀念物，洞穴崩落與海域相通地形重要。"
+    sources:
+      - "tori-heritage"
+      - "tori-association"
   distinctiveness:
-    score: 5
-    note: "兩池通過地下洞穴與大海相連的構造極為罕見，兼具地面觀景與潛水探索雙重價值，在沖繩群島中無可替代。"
-    sources: [toriki-ike-wikipedia-ja]
+    score: 4
+    note: "雙池及海底連通具有鮮明特色。"
+    sources:
+      - "tori-heritage"
+      - "tori-association"
   interpretability:
     score: 4
-    note: "水色、形狀、與海連通的地質構造可一目了然，解說牌清晰，潛水圖示說明地下連通路徑。"
-    sources: [toriki-ike-wikipedia-ja]
+    note: "從陸側可看池形與岩盤，地下成因由文獻補足。"
+    sources:
+      - "tori-heritage"
+      - "tori-association"
   visitorValue:
-    score: 5
-    note: "完全免費、無需預約，有步道與觀景台，潛水客與一般遊客都能各得其所，體驗深刻。"
-    sources: [toriki-ike-wikipedia-ja]
+    score: 3
+    note: "陸上參訪仍需遵守池緣、步道與封閉限制。"
+    sources:
+      - "tori-heritage"
+      - "tori-association"
   evidenceQuality:
     score: 4
-    note: "日本文化廳官方記載、維基百科與多本潛水導覽書均有詳細地質與歷史說明。"
-    sources: [toriki-ike-wikipedia-ja]
-  final: 4.7  # 0.30×5 + 0.25×5 + 0.20×4 + 0.15×5 + 0.10×4 = 1.50+1.25+0.80+0.75+0.40 = 4.70
+    note: "市公認文化財及觀光協會資料並經Google具名頁比對。"
+    sources:
+      - "tori-heritage"
+      - "tori-association"
+  final: 4.2
 sources:
-  - id: toriki-ike-wikipedia-ja
-    title: "通り池 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E9%80%9A%E3%82%8A%E6%B1%A0
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "tori-heritage"
+    title: "下地島の通り池｜綾道"
+    publisher: "宮古島市教育委員会公認文化財サイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo142/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "通り池は下地島西岸にある2つの池で、地下洞穴を通じて海と繋がっている"
-      - "直径約75mと55mの2池が地下で連通"
-      - "国の名勝に指定されており、ダイビングスポットとして世界的に有名"
+      - "兩池直徑約55與75公尺，地下互通並經海底洞穴連海，水深隨潮汐變化。"
+      - "地形被解釋為與海蝕洞相連、頂部崩落的石灰岩洞穴；海靈與繼子故事屬傳說。"
+  - id: "tori-association"
+    title: "通り池｜宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_014/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "具名地點位於下地島，設停車場及廁所；兩池地下互通。"
+      - "嵌入 Google feature 標籤24°49′27.6″N 125°08′11.0″E，而非嵌入視窗參數。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Toriike.jpg
+  - id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Toriike.jpg"
     creator: "Paipateroma"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "6a476d566182fbd72720a554d982de1be2a3e6cdb616b7dabc1be82811316703"
-    compactPath: media/compact/jp-miyakojima-toriki-ike-pools.webp
-    completePath: media/complete/jp-miyakojima-toriki-ike-pools.webp
+    compactPath: "media/compact/jp-miyakojima-toriki-ike-pools.webp"
+    completePath: "media/complete/jp-miyakojima-toriki-ike-pools.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除海水鹹味、特定潛水穿洞路線與颱風後波濤敘述；傳說與地質明確分開。"
+    - "保留既有 Toriike.jpg，檔名對應通り池；本次未重驗影像、作者或授權，未修改二進位檔。"
+    - "編輯追補 F08：改為五句旅人導覽並移除地標pin等維護用語；保留池徑、潮汐、洞穴崩落解釋與傳說歸屬，岸側安全提醒及verified數值定位不變。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 tourism association's place marker explicitly labels the pools with DMS coordinates. Approximately 45 m from existing location. Retained named physical landmark; no fabricated walkway offset or dive-entry claim.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新取得觀光協會通り池iframe，其feature文字為24°49′27.6″N 125°08′11.0″E，換算後與既有核定位置相同，故保留地標而不臆造入口。文化財頁q=24.824122,125.136363約24公尺外；主代理Google實際頁為下地島の通り池、伊良部佐和田，支持同一景物。"
   sources:
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_014/
-    title: 通り池｜宮古島観光協会
-    coordinateEvidence: HTML Maps iframe feature 0x0:0x39e445ed59b22a52 has !2zMjTCsDQ5JzI3LjYiTiAxMjXCsDA4JzExLjAiRQ, decoded label 24°49′27.6″N 125°08′11.0″E. DMS conversion gives 24.824333333333335,125.13638888888889. Embed viewport ignored.
+    - url: "https://miyako-island.net/beach_and_spot/beach_spot_014/"
+      title: "通り池｜宮古島観光協会"
+      coordinateEvidence: "EXACT raw iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.1563271532427!2d125.136377!3d24.824327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39e445ed59b22a52!2zMjTCsDQ5JzI3LjYiTiAxMjXCsDA4JzExLjAiRQ!5e0!3m2!1sja!2sjp!4v1674028593352!5m2!1sja!2sjp ; feature 0x0:0x39e445ed59b22a52的!2z解碼為24°49′27.6″N 125°08′11.0″E；DMS換算24.824333333333335,125.13638888888889。未使用!2d/!3d內嵌viewport中心。"
+    - url: "https://miyakojimabunkazai.jp/bunkazaiinfo142/"
+      title: "下地島の通り池｜綾道"
+      coordinateEvidence: "EXACT raw href=https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=24.824122,+125.136363&aq=&sll=24.805552,125.324543&sspn=0.008268,0.016512&brcurrent=3,0x34f5ab8d317c4445:0xe9037e09db0a072c,0,0x34f5ab8d2b875471:0xd9040b211c800343&ie=UTF8&t=m&ll=24.833558,125.140114&spn=0.031158,0.047121&z=14&iwloc=near ; q=24.824122,125.136363是文化財pin，ll=24.833558,125.140114只是視窗。直接GET回需JavaScript提示；該q僅交叉核對，不取代既有DMS標籤地標。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E9%80%9A%E3%82%8A%E6%B1%A0%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "下地島の通り池｜Google Maps 實際具名頁"
+      coordinateEvidence: "讀取主代理fresh-profile Chrome heading下地島の通り池、地址伊良部佐和田；原始分享href=https://maps.app.goo.gl/ZsnyLNaUsciZydWEA。沒有用搜尋中心推算入口。"
   previousLocation:
     latitude: 24.8242599
     longitude: 125.1368284

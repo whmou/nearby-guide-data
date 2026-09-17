@@ -1,105 +1,147 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ikema-island
+  id: "jp-miyakojima-ikema-island"
   parentId: null
-  kind: region
+  kind: "region"
   title: "池間島"
-  summary: "池間島是透過池間大橋與宮古島北端相連的小島，面積僅約2.83平方公里，以周邊海域可能出沒的儒艮（海牛）和傳統漁村風情聞名，是宮古島旅行中最具靜謐感的離島之一。"
-  narration: |
-    沿著宮古島北端的海岸線行駛，穿越池間大橋之後，車速自然放慢下來。池間島的路很窄，房屋低矮，漁港邊停著幾艘小船，民宿門口晾著捕魚的工具——這裡與宮古島市區的熱鬧氛圍截然不同，更像是一個還沒被大量觀光業改變的傳統琉球漁村。島嶼東北側的濕地是全球瀕危物種儒艮的覓食區域之一，雖然目擁僅靠運氣，但這份期待本身就為這座小島增添了神秘與珍貴的光環。島上的池間漁業協同組合販售現撈海產，冬季來訪的旅人還可以品嚐到宮古島名產「鰹魚」的各種料理。繞行小島一圈不過十分鐘的車程，卻能感受到與宮古島截然不同的漁村韻味。
-  observationPrompt: "走到島的北側海岸，低頭看礁盤與沙底的交界處——你能看到任何海草床（藻場）嗎？那正是儒艮的主要食物來源。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-        - id: daily-life
-          label: 日常生活
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 請將池間島視為島嶼區域／上層資料項目，並導航至另行驗證的具名景點。
+  locationHint: null
+  summary: "池間島整體的生活與文化導讀，連結大橋及地方祭祀；島嶼不是單一入口，不提供任意中心GPS。"
+  narration: |
+    看著橋接上海岸、道路走進聚落，可以先提醒自己：池間島不只是一圈漂亮的海。全長一千四百二十五公尺的池間大橋在一九九二年二月通車，讓兩座島以道路連起來；橋以外，島上也有自己的社會節奏。官方文化資產介紹的ミャークヅツ，是以四個「ムトゥ」為中心、延續三天的地方祭祀，主要由虛歲五十五歲以上男性為核心的年齡組織運作。這些名字與年齡分工，說的是居民如何一起承擔信仰生活，不是為了旅客臨時排出的節目。走在允許通行的道路上，可以留意公共交通空間和住宅、祭祀場所之間的界線；即使沒有遇到祭典，也不必覺得少看了什麼。這筆是整座島的導讀，沒有把島中央設成到訪終點。真正停留時，請另選已核實的橋頭或景點，尊重居民作息，也不要推定九月旅期就能旁觀儀式。
+  observationPrompt: "在公共道路留意住宅、交通與祭祀空間的界線；具體停留請使用已核實的子景點，不循島中心尋找入口。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "儒艮棲息地具有重要的自然保育意義，傳統漁村文化亦具地方歷史價值，但整體知名度低於下地島或大神島。"
-    sources: [ikema-wikipedia-ja]
+    score: 4
+    note: "島嶼生活與地方祭祀有文化意義。"
+    sources:
+      - "ikema-bridge-official"
+      - "ikema-festival"
   distinctiveness:
-    score: 3
-    note: "漁村風情與儒艮保育區的組合具有特色，但相似的離島景觀在沖繩群島中並不罕見。"
-    sources: [ikema-wikipedia-ja]
+    score: 4
+    note: "四個ムトゥ及年齡組織具地方辨識度。"
+    sources:
+      - "ikema-bridge-official"
+      - "ikema-festival"
   interpretability:
     score: 3
-    note: "小島規模適中，漁村日常生活與海草床環境可直接觀察，但儒艮本身可遇不可求。"
-    sources: [ikema-wikipedia-ja]
+    note: "適合作為全島導讀，不對應單一現場物。"
+    sources:
+      - "ikema-bridge-official"
+      - "ikema-festival"
   visitorValue:
-    score: 3
-    note: "橋樑免費通行，島上海灘與漁港免費參觀，但沒有特定重點設施，適合喜愛自由散步的旅人。"
-    sources: [ikema-wikipedia-ja]
+    score: 2
+    note: "需另選可到訪子景點，祭祀不可視為固定表演。"
+    sources:
+      - "ikema-bridge-official"
+      - "ikema-festival"
   evidenceQuality:
-    score: 3
-    note: "維基百科及環境省儒艮保育相關文件均有記載，資料完整但深度有限。"
-    sources: [ikema-wikipedia-ja]
-  final: 3.0  # 0.30×3 + 0.25×3 + 0.20×3 + 0.15×3 + 0.10×3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+    score: 4
+    note: "觀光協會與教育委員會公認資料支持主題。"
+    sources:
+      - "ikema-bridge-official"
+      - "ikema-festival"
+  final: 3.5
 sources:
-  - id: ikema-wikipedia-ja
-    title: "池間島 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E6%B1%A0%E9%96%93%E5%B3%B6
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "ikema-bridge-official"
+    url: "https://miyako-guide.net/spots/spots-893/"
+    title: "池間大橋"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "池間島は宮古島の北方約1.5kmに位置する面積2.83km²の島"
-      - "池間大橋（1992年完成）で宮古島と繋がっている"
-      - "周辺海域はジュゴンの生息地として知られる"
+      - "全長1425公尺，1992年2月通車，連接宮古本島與池間島。"
+      - "設停車場所；池間島側有商店與休憩處。"
+  -
+    id: "ikema-festival"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo705/"
+    title: "池間島のミャークヅツ"
+    publisher: "宮古島市教育委員会公認・綾道"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "池間島祭祀ミャークヅツ以四個ムトゥ為中心，由虛歲55歲以上男性為核心的年齡組織運作。"
+      - "三天祭祀屬地方信仰，並非固定供遊客觀賞的節目。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikema_Bridge_in_Miyakojima.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ikema_Bridge_in_Miyakojima.jpg"
     creator: "ブルーノ・プラス"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "445c1a230a2c5fa595235bfff3d1859aa445caa95a01ac5ce9f55798541187dc"
-    compactPath: media/compact/jp-miyakojima-ikema-island.webp
-    completePath: media/complete/jp-miyakojima-ikema-island.webp
+    compactPath: "media/compact/jp-miyakojima-ikema-island.webp"
+    completePath: "media/complete/jp-miyakojima-ikema-island.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "刪除停留在過去、居民固定作息等浪漫化猜測；祭祀不推算為旅期必遇活動，島嶼主題不造入口。"
+    - "條目描述整座池間島及社區文化，無單一可代表全島的公共入口。重抓官方大橋與地方祭祀頁作主題資料；不挪用橋頭、濕地或祭祀場所座標充當全島GPS，維持non_point。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。既有池間大橋照片僅代表島嶼交通連結，不代表全島景觀或祭祀現場。"
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Whole island with several villages, beaches and a freshwater wetland, not one arrival point. Do not certify the current island-centre coordinate or silently replace it with a harbour/business. Freshwater wetland is not dugong habitat.
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "條目描述整座池間島及社區文化，無單一可代表全島的公共入口。重抓官方大橋與地方祭祀頁作主題資料；不挪用橋頭、濕地或祭祀場所座標充當全島GPS，維持non_point。"
   sources:
-  - url: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_yusumanishibe01.pdf
-    title: 宮古島市 — 池間島
-    coordinateEvidence: https://www.city.miyakojima.lg.jp/soshiki/kyouiku/syougaigakusyu/syougaikakusyu/files/aya_yusumanishibe01.pdf identifies the island, its two settlements and central freshwater wetland. No single visitor-arrival coordinate extracted.
+    -
+      url: "https://miyako-guide.net/spots/spots-893/"
+      title: "池間大橋"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 GoogleMap href=https://www.google.co.jp/maps/place/24.913723, 125.267898。從 /maps/place/ 後的數字目的地提取座標，非 @lat,lng 視窗；原始空格／尾端 & 原樣保留於此證據，App URL 另規範化。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo705/"
+      title: "池間島のミャークヅツ"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
   previousLocation:
     latitude: 24.9292515
     longitude: 125.243599
-  verifiedLocation: null

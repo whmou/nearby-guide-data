@@ -4,14 +4,10 @@ point:
   parentId: null
   kind: venue
   title: "魔王の宮殿（洞窟ダイビングスポット）"
-  summary: "魔王の宮殿是宮古島最神秘的洞穴潛水點，由連串巨大石灰岩洞室組成，陽光從洞頂縫隙射入，在水中形成如大教堂般壯麗的光柱奇景。"
-  narration: |
-    魔王の宮殿——光聽這名字，就令人浮想聯翩。這是一處深藏於宮古島海底的巨大石灰岩洞穴系統，數個巨室相連，最寬處足以容納數十名潛水員並肩而游，壯觀程度讓人不禁想起古羅馬的圓形劇場。
-
-    洞穴之所以冠上「宮殿」之名，正是因為太陽光的神奇演出。每當洋光角度恰好，光線便從洞頂的縫隙中射入，在翠藍的洞室水體中形成一道道光柱，彷彿神明降臨前的聖光，靜謐而震撼。這種光學現象被稱為「ゴッドレイ」（神光），是宮古島潛水攝影師最鍾愛的主題之一。
-
-    洞室內的石灰岩壁面，長年受海水侵蝕後形成奇特的凹凸紋路，有些地方像石簾，有些像石筍，偶爾還能見到小型蝦虎魚和甲殼類動物藏匿其中。此處屬於洞穴潛水，需具備洞穴潛水訓練或由持有洞穴潛水執照的教練帶領入水。
-  observationPrompt: "在洞室內，請抬頭仰望——光線從岩縫中射入水中的角度與顏色會隨時間改變，此刻你看到的光柱是什麼樣的形狀？"
+  summary: "下地島的船潛點，以狹暗通道、拱形空間與縱向洞室間的光影為特色；須具備適當資格與經驗，由專業業者評估參加條件。"
+  narration: |-
+    在下地島海底，「魔王の宮殿」的狹暗通道、拱形空間和深處較大的縱向洞室，構成鮮明的地形變化。沖繩觀光資料介紹的看點，是洞頂開口透入的光與周圍岩壁形成的明暗對比；狹窄與開闊的空間交替，可以留意光線如何勾出不同的洞室輪廓，但實際景象仍受當天條件影響。這是水深約二十七公尺的船潛點，官方列為中級以上、需進階資格，不能從陸路步行進洞，也不適合當作一般海灘浮潛的延伸。若考慮參加，先讓合格業者確認你的訓練、經驗、當天海況與集合地點，再決定行程。只有在業者評估適合、帶領到訪並允許停留時，才觀察洞室輪廓與明暗變化，不自行尋找岸邊入口或探索通道。
+  observationPrompt: "若已由合格業者評估並帶領到訪，從導覽允許的位置觀察洞室開口、岩壁與明暗交界；不自行探索通道。"
   countryCode: JP
   adminAreaLevel1: 沖縄県
   hierarchy: ["日本", "沖縄県", "宮古島市"]
@@ -31,83 +27,52 @@ point:
       tags:
         - id: photography
           label: 攝影
-    - id: access
-      label: 入場
-      tags:
-        - id: ticketed
-          label: 付費
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 需搭船抵達的潛水地點；請安排合格業者，並使用其確認的集合地點。無法自行從陸路抵達。
+  locationHint: "下地島船潛點，沒有陸路步行入口，不提供海上導航或自行入洞路線；資格、經驗、海況及集合地點均須由合格潛水業者確認。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 4
-    note: "宮古島最著名的洞穴潛水景點，其石灰岩洞室構造與神光現象在日本海洋觀光中具高知名度。"
-    sources: [src1]
+    score: 3
+    note: "具名海底地形具有地方活動價值。"
+    sources: ["diving"]
   distinctiveness:
-    score: 5
-    note: "多洞室石灰岩洞穴系統搭配神光（God Ray）光柱效果，視覺衝擊力極為罕見且獨特。"
-    sources: [src1, src2]
+    score: 4
+    note: "洞室及光影具鮮明特色。"
+    sources: ["diving"]
   interpretability:
     score: 4
-    note: "洞穴視覺效果直觀震撼，潛水教練通常會說明地質成因，故事性強。"
-    sources: [src2]
+    note: "官方地形描述可作行前解說。"
+    sources: ["diving"]
   visitorValue:
-    score: 4
-    note: "對持照潛水員與洞穴潛水愛好者是頂級體驗，攝影價值極高。"
-    sources: [src2]
+    score: 1
+    note: "需適當能力與船潛安排，不適用一般步行訪客。"
+    sources: ["diving"]
   evidenceQuality:
-    score: 3
-    note: "多個潛水媒體與觀光資料均有詳細介紹，但缺乏地質學學術文獻。"
-    sources: [src1]
-  final: 4.2  # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*4 + 0.10*3 = 1.20+1.25+0.80+0.60+0.30 = 4.15 → 4.2
+    score: 4
+    note: "官方詳細條件已重抓，未指定集合港口。"
+    sources: ["diving"]
+  final: 3.3
 sources:
-  - id: src1
-    title: "魔王の宮殿 ダイビングスポット｜宮古島"
-    publisher: "宮古島観光ガイド miyako-guide.net"
-    url: https://miyako-guide.net/diving/maou-no-kyuden
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "魔王の宮殿由複數巨大石灰岩洞室組成，為宮古島代表性洞穴潛水點"
-      - "陽光穿透洞頂形成神光（God Ray）是此景點最大特色"
-  - id: src2
-    title: "宮古島の洞窟ダイビングスポット - ダイビング情報"
+  - id: diving
+    title: "ダイビング — 宮古エリア"
     publisher: "沖縄観光コンベンションビューロー"
-    url: https://www.visitokinawa.jp/experiences/cave-diving-miyako
-    accessedAt: "2026-07-15"
+    url: "https://www.okinawastory.jp/feature/activity/diving"
+    accessedAt: "2026-09-16"
     language: ja
-    supports:
-      - "洞窟內的光柱效果是宮古島水中攝影最熱門主題"
-      - "需具備洞穴潛水訓練或由持照教練帶領"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Irabujima_sky_view.jpg
-    creator: "Paipateroma"
-    license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
-    accessedAt: "2026-07-15"
-    originalSha256: "aba031168a56fce0eaa017f9ab03636862161da9f98181614508d35e0936571e"
-    compactPath: media/compact/jp-miyakojima-maou-palace-cave.webp
-    completePath: media/complete/jp-miyakojima-maou-palace-cave.webp
+    supports: ["魔王の宮殿位於下地島，地形包括狹暗通道、拱形空間和較大的縱向洞室，光影為特色。","官方列船潛、水深27公尺、中級以上及進階資格；不是陸路洞窟。"]
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: review
+  checkedAt: "2026-09-16"
+  notes: ["本批重新抓取所列來源並改寫繁中講稿、摘要及觀察提示；保持待整合人工審核，未認證全部媒體。","刪除可容數十人、羅馬劇場、石筍、固定神光與保證生物等無支持描寫；資格資料不當作參加許可。","移除 File:Irabujima_sky_view.jpg：伊良部島空拍不能代表下地島水下洞室；未替換圖片。","編輯追補 F07/F08：移除預設照片與資料維護口吻，改為具條件的現場觀察；保留船潛資格、海況評估及無陸路入口限制，non_point與全部定位欄位不變。"]
 locationReview:
-  status: non_point
-  anchorType: none
-  checkedAt: '2026-09-16'
-  reason: Official tourism explicitly classifies 魔王の宮殿 on Shimoji as a boat dive, depth 27 m, for intermediate/advanced divers. It is not an accessible land cave or walking-navigation destination.
-  sources:
-  - url: https://www.okinawastory.jp/feature/activity/diving
-    title: おきなわ物語 — 魔王の宮殿（下地島）
-    coordinateEvidence: https://www.okinawastory.jp/feature/activity/diving lists ENTRY ボート, DEPTH 27m, LEVEL 中級以上 and LICENCE アドバンス. No public onshore arrival coordinate is supplied; no underwater coordinate adopted.
-  previousLocation:
-    latitude: 24.8277
-    longitude: 125.1332
+  status: "non_point"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "重抓縣觀光原頁，魔王の宮殿明列下地島、ENTRYボート、DEPTH27m、LEVEL中級以上與LICENCEアドバンス。是海上潛點而非可步行抵達的洞窟；無指定業者集合點，維持non_point，不設水下或假陸上座標。"
+  sources: [{"url":"https://www.okinawastory.jp/feature/activity/diving","title":"ダイビング — 宮古エリア","coordinateEvidence":"2026-09-16重新抓取原頁全文。重抓縣觀光原頁，魔王の宮殿明列下地島、ENTRYボート、DEPTH27m、LEVEL中級以上與LICENCEアドバンス。是海上潛點而非可步行抵達的洞窟；無指定業者集合點，維持non_point，不設水下或假陸上座標。 此來源作主題／地理身分佐證，未擷取或採用單一陸上抵達座標。"}]
+  previousLocation: {"latitude":24.8277,"longitude":125.1332}
   verifiedLocation: null

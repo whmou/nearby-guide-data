@@ -1,0 +1,139 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-imgya-marine-garden"
+  parentId: null
+  kind: "attraction"
+  title: "英吉雅海濱公園（インギャーマリンガーデン）"
+  summary: "沿天然海灣的公共步道看海，從海岸形狀認識淡水與海水相遇的環境。"
+  narration: "先別急著把它當成另一片沙灘，看看陸地怎麼把水面抱成一個小海灣。英吉雅海濱公園利用天然入江整備了步道與廣場，觀光協會也介紹陸上的散策路線和高處休憩所；不下水，一樣可以讀懂這片海岸。這裡還藏著一個小線索：協會說，淡水與海水混合時，水中有時會出現晃動般的視覺現象，那是兩種水性質不同造成的，不是每次來都能看見。你可以沿開放步道，依序比較灣內、灣口和外海的形狀，想想為什麼同一片海會有這麼多面貌。灣內看來平靜，也不代表灣口沒有潮流；今天的導覽以岸上散步為主，不從橋上跳水、不越過護欄，遇到風浪或封閉告示就折返。"
+  observationPrompt: "沿開放步道比較灣內、灣口與外海的輪廓，哪一段受到陸地包圍最多？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "coast"
+          label: "海岸"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "shore-viewing"
+          label: "岸上賞景"
+  indoor: false
+  location:
+    latitude: 24.7247007
+    longitude: 125.3583502
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "Google具名公園pin，城辺友利605-2；不是水中活動點，也不是山頂展望台入口。從公共停車區依公園指標走開放陸上步道，不跳橋、不越護欄。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7247007,125.3583502"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "tourism"
+  distinctiveness:
+    score: 4
+    note: "天然入江設有陸上散策路線與高處休憩所；地址城辺友利605-2。"
+    sources:
+      - "tourism"
+  interpretability:
+    score: 4
+    note: "沿開放步道比較灣內、灣口與外海的輪廓，哪一段受到陸地包圍最多？"
+    sources:
+      - "tourism"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "tourism"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "tourism"
+      - "city"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "tourism"
+    title: "イムギャーマリンガーデン"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-791/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "天然入江設有陸上散策路線與高處休憩所；地址城辺友利605-2。"
+      - "淡水和海水混合可能出現水中視覺晃動；灣口外有潮流，不能由外觀推定安全。"
+  -
+    id: "city"
+    title: "施設、史跡等：イムギャー"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/annai/sisetsu.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "公園利用海岸與入江整備遊步道、多用途廣場。"
+  -
+    id: "google"
+    title: "インギャーマリンガーデン｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E3%82%A4%E3%83%B3%E3%82%AE%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/@24.7247007,125.3583502,17z/data=!3m1!4b1!4m6!3m5!1s0x34f457a5d271da1f:0xddd259f5b07610a8!8m2!3d24.7247007!4d125.3583502!16s%2Fg%2F11f006g9gh?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=f4bd5f1c-4399-453b-b145-cb3b543ea974"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「インギャーマリンガーデン」身分及地址相符；採實際地點 !3d/!4d 24.7247007,125.3583502。錨點為具名參觀區地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://miyako-guide.net/spots/spots-791/"
+      title: "イムギャーマリンガーデン"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/annai/sisetsu.html"
+      title: "施設、史跡等：イムギャー"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/place/%E3%82%A4%E3%83%B3%E3%82%AE%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/@24.7247007,125.3583502,17z/data=!3m1!4b1!4m6!3m5!1s0x34f457a5d271da1f:0xddd259f5b07610a8!8m2!3d24.7247007!4d125.3583502!16s%2Fg%2F11f006g9gh?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=f4bd5f1c-4399-453b-b145-cb3b543ea974"
+      title: "インギャーマリンガーデン｜Google Maps 具名頁"
+      coordinateEvidence: "獨立原始觀察（本代理先前工具實際輸出；非推算或重建網址），完整識別／轉址證據：{\"capturedBy\":\"NEW-SOUTH independent public fresh-profile browser; not main QA aggregate\",\"checkedAt\":\"2026-09-16T13:57:01.322Z\",\"httpStatus\":200,\"query\":\"イムギャーマリンガーデン 公園 城辺友利605-2\",\"url\":\"https://www.google.com/maps/search/?api=1&query=%E3%82%A4%E3%83%A0%E3%82%AE%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%20%E5%85%AC%E5%9C%92%20%E5%9F%8E%E8%BE%BA%E5%8F%8B%E5%88%A9605-2\",\"title\":\"インギャーマリンガーデン - Google マップ\",\"headings\":[\"インギャーマリンガーデン\"],\"address\":\"日本、〒906-0107 沖縄県宮古島市城辺友利６０５−２\",\"shareUrl\":\"https://maps.app.goo.gl/T7WfPd4cg4Ctjvdj7\",\"resolvedShareUrl\":\"https://www.google.com/maps/place/%E3%82%A4%E3%83%B3%E3%82%AE%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3/@24.7247007,125.3583502,17z/data=!3m1!4b1!4m6!3m5!1s0x34f457a5d271da1f:0xddd259f5b07610a8!8m2!3d24.7247007!4d125.3583502!16s%2Fg%2F11f006g9gh?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=f4bd5f1c-4399-453b-b145-cb3b543ea974\",\"shareCoordinateMatches\":[{\"latitude\":24.7247007,\"longitude\":125.3583502}]}；採 named place !3d/!4d，非 @ 視窗；僅 DOM 文字及 URL，沒有目視地圖、衛星或街景。"
+  verifiedLocation:
+    latitude: 24.7247007
+    longitude: 125.3583502

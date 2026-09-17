@@ -1,115 +1,131 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-ogami-island
+  id: "jp-miyakojima-ogami-island"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "大神島"
-  summary: "大神島是宮古島東北方的神聖小島，禁止任何機動車輛進入，僅可搭渡輪抵達，島上存在嚴格的聖地禁忌，部分區域連當地居民也不得踏入，是宮古群島中靈性氛圍最濃厚的秘境。"
-  narration: |
-    從宮古島北端的島尻港搭上小型渡輪，不消二十分鐘便能遠遠看見大神島那隆起的巨石輪廓從海面浮現。這座面積不足0.2平方公里的小島，長期以來在宮古島人的信仰中佔有特殊地位——島上有多處稱為「ウタキ（御嶽）」的聖地，按照傳統規定，外來者不得接近，甚至島上的部分祭典也禁止外人觀看。島嶼四周沒有汽車、機車的轟鳴聲，只有海風與浪聲，以及偶爾響起的島民呼喚聲。巨石林立的海岸線與覆蓋丘頂的熱帶植被，讓這座小島散發出一種不屬於現代旅遊版圖的神秘氣質。人口僅數十人的小村落保有傳統石砌圍牆，港口邊停著老舊的漁船。拜訪大神島的基本禮節是：不亂走、不拍攝他人、不觸碰明顯標示的神聖石頭，以虔敬而安靜的心態接觸這片土地的靈性傳統。
-  observationPrompt: "走在島上步道時，留意路旁是否有繩結或石堆標示的禁止進入區域——這些就是傳統御嶽聖地的邊界，試著觀察島民如何在日常生活中自然地維持這些界線。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "大神島的海岸奇岩、燻章魚保存食與祭祀界線，展示海島生活的不同面向；全島主題不當成單一抵達點。"
+  narration: "從開放的海岸路段看大神島的岩石，留意靠近水面的部分：有些岩塊上方寬、下方窄，像一頂帽子擱在細腳上。官方觀光資料把這類海蝕凹口稱為「ノッチ」，海浪長久侵蝕水面附近，留下了這些不尋常的輪廓；欣賞形狀就好，不要靠近岩石下方。島上的生活也回應著海況，例如名叫「カーキダコ」的燻章魚，來自把漁獲做成保存食、預備風浪天無法出海的日常智慧，不只是旅人的一道特產。大神島又有多處居民長年守護的聖域，祭祀期間連平常可到的地方也可能限制進入，是否開放要向島上確認，而不是照著地圖小徑走到底。這筆說的是整座島，沒有把島中心或出發港當成抵達座標；跟著允許的路線，把自然形狀與生活規矩一起看，才比較接近島嶼真正的面貌。\n"
+  observationPrompt: "在居民或導覽確認可進入的海岸路段，遠看奇岩上寬下窄的輪廓；留意沿途界線告示，不進入岩下或聖域。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: religion
-          label: 宗教信仰
-        - id: history
-          label: 歷史
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "religion"
+          label: "宗教信仰"
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+        -
+          id: "walking"
+          label: "步行"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: limited-hours
-          label: 限定時段
+        -
+          id: "limited-hours"
+          label: "限定時段"
   indoor: false
   location: null
   googleMapsUrl: null
   trigger: null
-  locationHint: 大神島為整座島嶼，不能用島中心導航；從島尻港搭大神海運，登島後遵守聖域與現場通行規定。
+  locationHint: "整座大神島的文字導覽，未核定島側公共碼頭抵達pin；不能用島中心或宮古島出發港替代。渡船及上島限制須先確認，祭祀聖域禁止擅入。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "宮古島信仰文化的核心聖地，嚴格的禁忌傳統保存至今，是琉球文化中神聖小島信仰的重要活案例。"
-    sources: [ogami-wikipedia-ja, miyakojima-kanko-ogami]
+    note: "西岸可見ノッチ奇岩，水面附近受侵蝕而呈上寬下窄的形狀。"
+    sources:
+      - "src1"
   distinctiveness:
-    score: 5
-    note: "禁止機動車輛、部分聖地禁止外人進入的雙重限制在日本觀光島嶼中極為罕見，靈性氛圍高度獨特。"
-    sources: [ogami-wikipedia-ja]
+    score: 4
+    note: "カーキダコ是燻章魚，與海況不佳無法出漁時的保存食文化相關。"
+    sources:
+      - "src1"
   interpretability:
     score: 3
-    note: "禁忌傳統與御嶽文化需要背景知識才能深入理解，但島嶼整體氛圍直觀地傳遞了其神聖性。"
-    sources: [ogami-wikipedia-ja]
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
   visitorValue:
-    score: 3
-    note: "渡輪需付費，班次有限（每日約數班），訪客受限較多，但對追求深度文化體驗的旅人而言價值極高。"
-    sources: [miyakojima-kanko-ogami]
+    score: 2
+    note: "本筆不提供固定導航；需另確認實際場所或業者安排。"
+    sources:
+      - "src1"
   evidenceQuality:
     score: 3
-    note: "維基百科及宮古島市觀光資料均有記載，學術民俗研究亦有相關文獻，但部分祭典資料因禁忌而不公開。"
-    sources: [ogami-wikipedia-ja]
-  final: 3.8  # 0.30×4 + 0.25×5 + 0.20×3 + 0.15×3 + 0.10×3 = 1.20+1.25+0.60+0.45+0.30 = 3.80
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+  final: 3.4
 sources:
-  - id: ogami-wikipedia-ja
-    title: "大神島 - ウィキペディア"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%A5%9E%E5%B3%B6
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://www.okinawastory.jp/about/miyako_area/ogami"
+    title: "大神島 | 宮古諸島 | 沖縄観光情報WEBサイト おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "大神島は宮古島の北東約5kmに位置し、面積約0.19km²の小島"
-      - "島内には聖地（ウタキ）が複数あり、立入禁止区域がある"
-      - "自動車の乗り入れが禁止されており、島尻港からフェリーでのみアクセス可能"
-  - id: miyakojima-kanko-ogami
-    title: "大神島観光案内"
-    publisher: "宮古島市観光商工スポーツ部"
-    url: https://www.city.miyakojima.lg.jp/kanko/ogami.html
-    accessedAt: "2026-07-15"
-    language: ja
-    supports:
-      - "島尻港から定期船が運航（所要約15分）"
-      - "聖域への立ち入りは厳禁、島内マナーを守ること"
+      - "西岸可見ノッチ奇岩，水面附近受侵蝕而呈上寬下窄的形狀。"
+      - "カーキダコ是燻章魚，與海況不佳無法出漁時的保存食文化相關。"
+      - "島內多處聖域限制進入，祭祀時可能增加禁入範圍，宜事先向島上確認。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Ikemajima_and_Ogamijima_Okinawa_Japan01s3s4350.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ikemajima_and_Ogamijima_Okinawa_Japan01s3s4350.jpg"
     creator: "663highland"
     license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
+    licenseUrl: "https://creativecommons.org/licenses/by/2.5"
     accessedAt: "2026-07-15"
     originalSha256: "451823811c53c0ef31370063ebb83f9a000ae9e10de9b93f95eb6cb516a91aa0"
-    compactPath: media/compact/jp-miyakojima-ogami-island.webp
-    completePath: media/complete/jp-miyakojima-ogami-island.webp
+    compactPath: "media/compact/jp-miyakojima-ogami-island.webp"
+    completePath: "media/complete/jp-miyakojima-ogami-island.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "移除未確認面積、人口、無車無機車及虛構聲音；渡船官網重抓逾時已明記，未保證旅行日可上島。"
+    - "保留既有 https://commons.wikimedia.org/wiki/File:Ikemajima_and_Ogamijima_Okinawa_Japan01s3s4350.jpg；僅檔名主題無明顯衝突，未重新核驗圖片內容、作者或授權，不代表媒體通過認證。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: non_point
-  anchorType: area
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 read the ferry operator's access and sacred-area rules. YAML describes the whole island, not a named island-side wharf marker. Operator's map is the departure-office address on Miyako, so neither that coordinate nor an island centroid is a justified island arrival anchor.
+  status: "non_point"
+  anchorType: "area"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取OCVB大神島專頁，確認全島聖域與祭祀期間限制，並非單一入口。大神海運官網本次兩次請求逾時，未復用舊資料宣稱已核實碼頭；無足夠島側具名到訪pin，維持non_point/area且不發布GPS。"
   sources:
-  - url: https://oogamikaiun.com/
-    title: 大神海運公式：大神島へのアクセス・注意点
-    coordinateEvidence: Operator specifies ferry from 島尻港 and restricted sacred areas. HTML iframe place label is 平良島尻6, on the departure island; no coordinate from this departure-office map was substituted for 大神島 itself.
+    -
+      url: "https://www.okinawastory.jp/about/miyako_area/ogami"
+      title: "大神島 | 宮古諸島 | 沖縄観光情報WEBサイト おきなわ物語"
+      coordinateEvidence: "本次HTTP 200讀取大神島全島、奇岩、保存食及聖域說明；頁面沒有可採用的島側公共碼頭Google pin。不採島中心或出發港座標。"
   previousLocation:
     latitude: 24.915981
     longitude: 125.3079275

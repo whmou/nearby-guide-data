@@ -1,113 +1,178 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-hennazaki-east
+  id: "jp-miyakojima-hennazaki-east"
   parentId: null
-  kind: view
+  kind: "view"
   title: "東平安名崎"
-  summary: "宮古島最東端的岬角，細長的珊瑚礁台地向海中延伸約2公里，燈塔矗立其上，三面臨海的壯闊視野是宮古島最震撼的自然景觀之一。"
-  narration: |
-    東平安名崎是宮古島向東最遠伸入海中的細長地岬，整個台地由隆起的珊瑚礁構成，走在岬角步道上，兩側都是碧藍海面，海風強勁，蘇鐵與草地在海風中低伏。岬角末端的平安名崎燈塔建於1967年，白色燈塔在陽光下格外耀眼，可以登塔俯瞰整個岬角的細長輪廓延伸至海平線。這裡幾乎沒有遮蔭，建議早上或傍晚前來，夕陽時分，海面從湛藍轉為橙金，是宮古島公認最美的落日觀賞地點之一。
-  observationPrompt: "站在燈塔旁往北望，能在海面上隱約看到池間島的輪廓嗎？在晴天，更遠處的伊良部島也有機會入鏡。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        -
+          id: "nature"
+          label: "自然"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: viewpoint
-          label: 景觀
-        - id: walking
-          label: 步行
-        - id: photography
-          label: 攝影
-    - id: access
-      label: 入場
+        -
+          id: "viewpoint"
+          label: "景觀"
+        -
+          id: "walking"
+          label: "步行"
+        -
+          id: "photography"
+          label: "攝影"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.718962
     longitude: 125.469101
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.718962,125.469101
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.718962,125.469101"
   trigger:
-    radiusMeters: 100.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 東平安名崎燈塔附近的公共岬角步道；請將車輛停在指定的內陸停車場，再步行前往並留在步道上。
+    rearmDistanceMeters: 1000
+  locationHint: "官方觀光頁的東平安名崎岬端觀景定位，非停車場或燈塔售票入口；由合法停車處循整備步道前往，勿越過護欄或接近海蝕崖，強風或封閉時不前進。"
+  summary: "約兩公里長的石灰岩岬角；貼地生長的植物與海蝕崖，讓東平安名崎不只是一座燈塔的背景。"
+  narration: |
+    走在東平安名崎的開放步道上，不妨先把目光從燈塔放低。這裡的植物為什麼常常貼著地面，而不是長成一排高樹？文化資產解說指出，岬角長年受強風影響，形成了風衝地的植物群落。像テンノウメ，就以堅硬、貼著石灰岩延伸的莖適應海風；不起眼的低矮姿態，其實是一種生存辦法。再把視線放遠，約兩公里長的岬角伸向海面，琉球石灰岩、海蝕崖與低位海階，構成它的骨架。燈塔只是這幅景觀裡比較醒目的標記，岩石與植物才把更長的時間留在眼前。九月來訪，不必追著春季花海的照片找相同畫面，也不能保證當天無風晴朗。留在整備步道內，比較腳邊低矮植被與遠處崖線；看得慢一點，就能發現這片看似空曠的地方，其實一直在回應海與風。
+  observationPrompt: "留在步道內比較低矮植被、裸露石灰岩和遠處崖線，不為辨認植物跨越圍欄或靠近崖緣。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "宮古島指定名勝，珊瑚礁台地地形罕見，燈塔具航行歷史意義，國家特別天然紀念物區域內。"
-    sources: [miyakojima-east-hennazaki-city]
+    note: "官方文化資產記載的岬角地形與植群。"
+    sources:
+      - "hennazaki-official"
+      - "cape-geology"
   distinctiveness:
     score: 4
-    note: "三面臨海的細長岬角地形獨特，360度海景無可複製，步道沿線景致在沖繩各島中出類拔萃。"
-    sources: [miyakojima-east-hennazaki-city]
+    note: "細長石灰岩岬角及貼地植物組合鮮明。"
+    sources:
+      - "hennazaki-official"
+      - "cape-geology"
   interpretability:
     score: 4
-    note: "海岸地形、珊瑚礁台地和燈塔均清晰可見，自然景觀自明，不需說明即能感受震撼。"
-    sources: [miyakojima-east-hennazaki-city]
+    note: "沿步道可比較岩層地形與植物高度。"
+    sources:
+      - "hennazaki-official"
+      - "cape-geology"
   visitorValue:
-    score: 3
-    note: "免費進入，但交通需自駕或計程車，無公共巴士直達，夏季烈日無遮蔭需注意防曬。"
-    sources: [miyakojima-east-hennazaki-city]
-  evidenceQuality:
     score: 4
-    note: "宮古島市觀光協會及沖縄縣官方觀光資料均有詳盡介紹。"
-    sources: [miyakojima-east-hennazaki-city]
-  final: 3.9
-  # 0.30×4 + 0.25×4 + 0.20×4 + 0.15×3 + 0.10×4 = 1.20+1.00+0.80+0.45+0.40 = 3.85 → 3.9
+    note: "步道景觀有價值，但天候影響較大。"
+    sources:
+      - "hennazaki-official"
+      - "cape-geology"
+  evidenceQuality:
+    score: 5
+    note: "重抓官方觀光及文化資產詳頁、核對具名Maps。"
+    sources:
+      - "hennazaki-official"
+      - "cape-geology"
+  final: 4.1
 sources:
-  - id: miyakojima-east-hennazaki-city
-    title: "東平安名崎 観光スポット"
-    publisher: "宮古島市観光協会"
-    url: https://miyako-guide.net/spot/higashi-hennazaki/
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "hennazaki-official"
+    url: "https://miyako-guide.net/spots/spots-866/"
+    title: "東平安名崎（ひがしへんなざき）"
+    publisher: "宮古島観光協会"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "宮古島市指定名勝地"
-      - "細長珊瑚礁台地延伸約2公里"
-      - "平安名崎燈塔建於1967年"
+      - "宮古島最東端約2公里岬角。"
+      - "有整備步道與停車場，花卉景觀隨季節變化。"
+  -
+    id: "cape-geology"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo122/"
+    title: "【国指定：名勝】東平安名岬"
+    publisher: "宮古島市教育委員会公認・綾道"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "長約2公里，琉球石灰岩喀斯特、海蝕崖與低位海階構成景觀。"
+      - "常年強風抑制高木，形成風衝地植物群落。"
+  -
+    id: "cape-plants"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo630/"
+    title: "東平安名岬の隆起珊瑚礁海岸風衝植物群落"
+    publisher: "宮古島市教育委員会公認・綾道"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "テンノウメ的硬莖貼著石灰岩生長，以低矮形態適應海風。"
+  -
+    id: "google-live"
+    title: "Google Maps — 東平安名崎"
+    url: "https://www.google.com/maps/place/%E6%9D%B1%E5%B9%B3%E5%AE%89%E5%90%8D%E5%B4%8E/@24.7191788,125.4684503,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45930149860bf:0x616200e3f834e5aa!8m2!3d24.7191788!4d125.4684503!16s%2Fm%2F02qf0gm?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=034c161b-c2d9-4a72-b075-19b4780f81d5"
+    publisher: "Google Maps（主流程實抓，本批唯讀核對）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "Google具名東平安名崎相符；place座標24.7191788,125.4684503僅驗證岬角身份，保留官方步行觀景錨點。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_higashi_hennazaki_lighthouse.JPG
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Miyako_higashi_hennazaki_lighthouse.JPG"
     creator: "Metatron"
     license: "CC BY-SA 3.0"
-    licenseUrl: http://creativecommons.org/licenses/by-sa/3.0/
+    licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/"
     accessedAt: "2026-07-15"
     originalSha256: "1792e2fd2f5455d0e7b6c41a39e1346193a0081b863c62339ec77eda2baba54e"
-    compactPath: media/compact/jp-miyakojima-hennazaki-east.webp
-    completePath: media/complete/jp-miyakojima-hennazaki-east.webp
+    compactPath: "media/compact/jp-miyakojima-hennazaki-east.webp"
+    completePath: "media/complete/jp-miyakojima-hennazaki-east.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "刪除九月必見春花、遠方島嶼或特定日落的保證；以可觀察地形和有來源的風衝植物重寫。"
+    - "重抓官方Google數值目的地24.718962,125.469101；文化資產頁確認岬角地質與植群。Chrome具名東平安名崎place中心稍異，未代換既有官方岬端觀景錨點，也未把其當作停車場。"
+    - "已重抓所列來源並重寫摘要、口語導覽及觀察提示；Google證據區分目的地與視窗。未現場踏查，不保證旅期天候或營運。"
+    - "保留既有媒體紀錄；檔名主題未見明顯錯置，但本次未重驗像素內容、作者及授權，不表示媒體已認證。"
 locationReview:
-  status: verified
-  anchorType: viewpoint
-  checkedAt: '2026-09-16'
-  reason: Official tourism q pin is a usable land-side cape viewing location, not offshore cape centroid. It does not mean vehicles can reach the lighthouse.
+  status: "verified"
+  anchorType: "viewpoint"
+  checkedAt: "2026-09-16"
+  reason: "重抓官方Google數值目的地24.718962,125.469101；文化資產頁確認岬角地質與植群。Chrome具名東平安名崎place中心稍異，未代換既有官方岬端觀景錨點，也未把其當作停車場。"
   sources:
-  - url: https://miyako-guide.net/spots/spots-866/
-    title: 宮古島観光協会 — 東平安名崎
-    coordinateEvidence: 'Read-only HTML extraction from https://miyako-guide.net/spots/spots-866/: the attraction''s GoogleMap link is https://www.google.co.jp/maps/place/24.718962,125.469101; its place embed uses q=24.718962,125.469101. These are explicit destination coordinates, not a viewport centre.'
-  - url: https://miyako-island.net/beach_and_spot/beach_spot_019/
-    title: 宮古島観光協会 — 東平安名崎
-    coordinateEvidence: https://miyako-island.net/beach_and_spot/beach_spot_019/ confirms maintained walking paths and a 50-space parking area. No separate numeric point extracted.
+    -
+      url: "https://miyako-guide.net/spots/spots-866/"
+      title: "東平安名崎（ひがしへんなざき）"
+      coordinateEvidence: "2026-09-16 HTTP 200；原始 GoogleMap href=https://www.google.co.jp/maps/place/24.718962, 125.469101。從 /maps/place/ 後的數字目的地提取座標，非 @lat,lng 視窗；原始空格／尾端 & 原樣保留於此證據，App URL 另規範化。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo122/"
+      title: "【国指定：名勝】東平安名岬"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo630/"
+      title: "東平安名岬の隆起珊瑚礁海岸風衝植物群落"
+      coordinateEvidence: "本次已實際擷取正文；用於身分／敘事交叉核對，未由此頁另取座標。"
+    -
+      url: "https://www.google.com/maps/place/%E6%9D%B1%E5%B9%B3%E5%AE%89%E5%90%8D%E5%B4%8E/@24.7191788,125.4684503,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45930149860bf:0x616200e3f834e5aa!8m2!3d24.7191788!4d125.4684503!16s%2Fm%2F02qf0gm?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=034c161b-c2d9-4a72-b075-19b4780f81d5"
+      title: "Google Maps — 東平安名崎"
+      coordinateEvidence: "主流程fresh-profile Chrome於2026-09-16T13:36:14.576Z實抓Google Maps DOM；本批唯讀核對viewer-qa/maps-existing-results.json。原始連結=https://www.google.com/maps/place/%E6%9D%B1%E5%B9%B3%E5%AE%89%E5%90%8D%E5%B4%8E/@24.7191788,125.4684503,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45930149860bf:0x616200e3f834e5aa!8m2!3d24.7191788!4d125.4684503!16s%2Fm%2F02qf0gm?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=034c161b-c2d9-4a72-b075-19b4780f81d5。具名place參數 !3d=24.7191788、!4d=125.4684503；未採@lat,lng視窗中心。 Google具名東平安名崎相符；place座標24.7191788,125.4684503僅驗證岬角身份，保留官方步行觀景錨點。 本批未目視地圖圖像或現場測量。"
   previousLocation:
     latitude: 24.7189
     longitude: 125.4693

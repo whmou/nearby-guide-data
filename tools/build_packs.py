@@ -24,6 +24,7 @@ from typing import Any
 
 import yaml
 from location_contract import location_errors
+from audit_contract import sealed_batch
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGIONS_DIR = REPO_ROOT / "regions"
@@ -188,6 +189,8 @@ def build_pack(pack_dir: Path, output_dir: Path, verbose: bool = True) -> dict[s
 
     # Collect source point files (sorted for determinism)
     point_files = sorted((pack_dir / "points").glob("*.yaml"))
+    point_sources = [_load_yaml(pf) for pf in point_files]
+    editorial = sealed_batch(pack_data['reviewBatch'], point_sources) if pack_data.get('reviewBatch') else {}
 
     packs_dir = output_dir / "packs"
     packs_dir.mkdir(parents=True, exist_ok=True)
@@ -197,9 +200,16 @@ def build_pack(pack_dir: Path, output_dir: Path, verbose: bool = True) -> dict[s
     for variant in ("compact", "complete"):
         # Build variant-specific points list
         points: list[dict] = []
-        for pf in point_files:
-            pd = _load_yaml(pf)
-            points.append(_build_point_record(pd, variant, pack_dir))
+        for pd in point_sources:
+            record = _build_point_record(pd, variant, pack_dir)
+            if editorial:
+                reviewed = editorial[record['id']]
+                record['extensions']['nearbyGuide.storyClaims'] = reviewed['storyClaims']
+                record['extensions']['nearbyGuide.googleMapsVerification'] = reviewed['googleMapsVerification']
+                if pd.get('sources'):
+                    record['contentSourceLabel'] = pd['sources'][0]['title']
+                    record['contentSourceUrl'] = pd['sources'][0]['url']
+            points.append(record)
 
         points_json_bytes = json.dumps(
             {
@@ -218,10 +228,13 @@ def build_pack(pack_dir: Path, output_dir: Path, verbose: bool = True) -> dict[s
 
         media_subdir = "compact" if variant == "compact" else "complete"
         media_dir = pack_dir / "media" / media_subdir
+        referenced = {m['path'] for point in points for m in point['media']}
         if media_dir.exists():
             for mf in sorted(media_dir.rglob("*")):
                 if mf.is_file():
                     rel = mf.relative_to(pack_dir).as_posix()
+                    if pack_data.get('mediaPolicy') == 'referenced-only' and rel not in referenced:
+                        continue
                     file_entries.append((rel, mf.read_bytes()))
 
         # Build manifest.json

@@ -1,0 +1,147 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-maipari-tropical-fruit-garden"
+  parentId: null
+  kind: "venue"
+  title: "Maipari宮古島熱帶果樹園"
+  summary: "在前濱旁的果樹園，沿步行或導覽車路線觀察鳳梨、香蕉與棕櫚的不同模樣。"
+  narration: "先找找鳳梨長在哪裡，再把目光抬向香蕉與棕櫚，同樣是熱帶植物，長成的模樣卻很不一樣。園方說，Maipari這個名字指的是前濱旁的田地；走進這裡，海灘度假的畫面便換成了果園與耕作的日常。官方介紹列出多種鳳梨，包含Gold Barrel，也有不同品種的香蕉，觀察時可以比較葉子排列和植株外形，不必急著只找成熟果實。園內有散步路線，也提供工作人員帶領的導覽車行程，其中安排宮古馬互動；是否能參加、如何餵食，都先聽現場人員說明。九月來訪不代表每一種水果都正在結果，想體驗採收也要事先詢問；慢慢看植物怎麼長，把熟悉的水果和它在田裡的樣子接起來，就很有收穫。"
+  observationPrompt: "沿開放路線找找鳳梨、香蕉與棕櫚，葉子和植株外形各有什麼差異？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "family"
+          label: "親子"
+    -
+      id: "access"
+      label: "入場"
+      tags:
+        -
+          id: "ticketed"
+          label: "需購票"
+  indoor: false
+  location:
+    latitude: 24.7359122
+    longitude: 125.2681142
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "採觀光協會嵌入 Google 地圖回應中的 Maipari 果樹園地點座標，地址下地與那霸1210；非售票口實測位置。由園方開放入口辦理入園，付費項目與路線先詢問，不自行走入栽培區或餵食動物。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.7359122,125.2681142"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "operator"
+  distinctiveness:
+    score: 4
+    note: "園方解釋名稱指前濱旁的田地，園內有棕櫚、鳳梨田及香蕉田。"
+    sources:
+      - "operator"
+  interpretability:
+    score: 4
+    note: "沿開放路線找找鳳梨、香蕉與棕櫚，葉子和植株外形各有什麼差異？"
+    sources:
+      - "operator"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "operator"
+  evidenceQuality:
+    score: 4
+    note: "已抓取官方故事與參觀資料，實際請求官方Google連結並核對具名地點資料；非視覺入口驗證。"
+    sources:
+      - "operator"
+      - "tourism"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "operator"
+    title: "宮古島熱帯果樹園「まいぱり」"
+    publisher: "まいぱり"
+    url: "https://maipari.jp/index.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "園方解釋名稱指前濱旁的田地，園內有棕櫚、鳳梨田及香蕉田。"
+      - "園內種植多種鳳梨（包括Gold Barrel）及香蕉；有散步與導覽車路線，採收體驗須事前詢問。"
+      - "宮古馬餵食屬園方導覽活動，不代表任意餵食或旅行當日一定能參加。"
+  -
+    id: "tourism"
+    title: "まいぱり宮古島熱帯果樹園"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-island.net/beach_and_spot/beach_spot_032/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "地址下地與那霸1210，列有停車場與入園收費，為公開接待旅客的果樹園。"
+  -
+    id: "google"
+    title: "まいぱり 宮古島熱帯果樹園｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7247.473744997637!2d125.25987445390622!3d24.7359122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45599f0d16667%3A0x94cebf64abf21538!2z44G-44GE44Gx44KKIOWuruWPpOWztueGseW4r-aenOaoueWckg!5e0!3m2!1sja!2sus!4v1674111586946!5m2!1sja!2sus"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次實際請求官方原始Google連結；從具名place資料／轉址擷取座標，另核對具名DOM與地址，不採viewport。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已實際抓取官方具名參觀資料、Google原始嵌入連結與其回應；採回應中同名同址 place feature 24.7359122,125.2681142，非 viewport。採觀光協會嵌入 Google 地圖回應中的 Maipari 果樹園地點座標，地址下地與那霸1210；非售票口實測位置。由園方開放入口辦理入園，付費項目與路線先詢問，不自行走入栽培區或餵食動物。 未作現場、街景或視覺驗證。"
+  sources:
+    -
+      url: "https://maipari.jp/index.html"
+      title: "宮古島熱帯果樹園「まいぱり」"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://miyako-island.net/beach_and_spot/beach_spot_032/"
+      title: "まいぱり宮古島熱帯果樹園"
+      coordinateEvidence: "2026-09-16 本次抓取 https://miyako-island.net/beach_and_spot/beach_spot_032/ 的 EXACT raw Google iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7247.473744997637!2d125.25987445390622!3d24.7359122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45599f0d16667%3A0x94cebf64abf21538!2z44G-44GE44Gx44KKIOWuruWPpOWztueGseW4r-aenOaoueWckg!5e0!3m2!1sja!2sus!4v1674111586946!5m2!1sja!2sus；再實際 GET HTTP200。回應中的具名 place feature 原始片段=SKMel2roPtdD2kA8\",null,null,null,[[[7247.473744997637,125.2681142,24.7359122],[0,0,0],null,13.10000038146973],null,0,[[\"0x34f45599f0d16667:0x94cebf64abf21538\",\"日本、〒906-0305 沖縄県宮古島市下地与那覇１２１０ まいぱり 宮古島熱帯果樹園\",[24.7359122,125.2681142],\"10722718201918133560\"],\"まいぱり 宮古島熱帯果樹園\",[\"日本\",\"〒906-0305 沖縄県宮古島市下地与那覇１２１０\"],3.799999952316284,\"478 件のクチコミ\",null,null,\"+81 980-74-7830\",null,null,null,[\"/url?q=http://maipari.jp/\\u0026opi=；採具名 feature 陣列內座標 24.7359122,125.2681142，不是 embed pb 的 !2d/!3d viewport。 此為場所地標，非入口測量；具名地址與其他來源核對，未作現地、街景或視覺驗證。"
+    -
+      url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7247.473744997637!2d125.25987445390622!3d24.7359122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45599f0d16667%3A0x94cebf64abf21538!2z44G-44GE44Gx44KKIOWuruWPpOWztueGseW4r-aenOaoueWckg!5e0!3m2!1sja!2sus!4v1674111586946!5m2!1sja!2sus"
+      title: "まいぱり 宮古島熱帯果樹園｜Google Maps 具名頁"
+      coordinateEvidence: "2026-09-16 本次抓取 https://miyako-island.net/beach_and_spot/beach_spot_032/ 的 EXACT raw Google iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7247.473744997637!2d125.25987445390622!3d24.7359122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f45599f0d16667%3A0x94cebf64abf21538!2z44G-44GE44Gx44KKIOWuruWPpOWztueGseW4r-aenOaoueWckg!5e0!3m2!1sja!2sus!4v1674111586946!5m2!1sja!2sus；再實際 GET HTTP200。回應中的具名 place feature 原始片段=SKMel2roPtdD2kA8\",null,null,null,[[[7247.473744997637,125.2681142,24.7359122],[0,0,0],null,13.10000038146973],null,0,[[\"0x34f45599f0d16667:0x94cebf64abf21538\",\"日本、〒906-0305 沖縄県宮古島市下地与那覇１２１０ まいぱり 宮古島熱帯果樹園\",[24.7359122,125.2681142],\"10722718201918133560\"],\"まいぱり 宮古島熱帯果樹園\",[\"日本\",\"〒906-0305 沖縄県宮古島市下地与那覇１２１０\"],3.799999952316284,\"478 件のクチコミ\",null,null,\"+81 980-74-7830\",null,null,null,[\"/url?q=http://maipari.jp/\\u0026opi=；採具名 feature 陣列內座標 24.7359122,125.2681142，不是 embed pb 的 !2d/!3d viewport。 此為場所地標，非入口測量；具名地址與其他來源核對，未作現地、街景或視覺驗證。"
+  verifiedLocation:
+    latitude: 24.7359122
+    longitude: 125.2681142

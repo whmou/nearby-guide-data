@@ -1,0 +1,124 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-pinza-abu-site"
+  parentId: null
+  kind: "attraction"
+  title: "Pinza-Abu遺跡（參訪未確認）"
+  summary: "認識宮古島史前人骨與動物化石的發現地；尚無可確認的公共抵達點，停用導航。"
+  narration: "一小塊骨頭，怎麼把一座島的故事帶回文字出現以前？Pinza-Abu遺跡在一九八〇年由長谷川善和教授等人發掘，研究者找到人骨，也找到鼠類、鹿類和蛇類等動物化石，讓宮古島的早期人類與動物歷史有了可以研究的材料。吸引人的不只是「很古老」，而是這些不同生命都在島上留下線索，我們才能慢慢追問，過去的環境和今天有哪些不同。這段故事先留作旅行背景：目前取得的官方資料能證明遺跡身分，卻沒有確認現在可公開抵達的洞外觀看處，也沒有證明現場設有解說牌，因此不提供導航或安排入洞。讀資料時，可以留意作者如何區分人骨與動物化石；認識考古，不一定要親自站到洞口。"
+  observationPrompt: "閱讀官方遺跡資料時，找找人骨與動物化石各自提供了哪些研究線索；請勿自行尋路接近洞口。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "history"
+          label: "歷史"
+        -
+          id: "heritage"
+          label: "歷史古蹟"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "quiet"
+          label: "靜謐"
+  indoor: false
+  location: null
+  trigger: null
+  locationHint: "尚未確認合法開放的公共抵達或洞外觀看位置；停用定位與觸發，不引導進入洞穴、土地或封閉區域。"
+  googleMapsUrl: null
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 4
+    note: "指定文化財，具有可追溯的地方歷史價值。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  distinctiveness:
+    score: 4
+    note: "一九八〇年由長谷川善和教授等人發掘。"
+    sources:
+      - "heritage"
+  interpretability:
+    score: 2
+    note: "可由官方考古資料理解；現場視線、解說設施及公共通行未確認。"
+    sources:
+      - "heritage"
+  visitorValue:
+    score: 0
+    note: "公共抵達點未確認，僅提供背景閱讀，不安排現地參觀。"
+    sources:
+      - "heritage"
+  evidenceQuality:
+    score: 3
+    note: "已抓取官方詳介及另頁具名核對；地圖為官方 pin，非現地視覺驗證。"
+    sources:
+      - "heritage"
+      - "corroboration"
+  final: 2.9
+sources:
+  -
+    id: "heritage"
+    title: "【市指定：史跡】ピンザアブ遺跡～ぴんざあぶいせき～"
+    publisher: "宮古島市教育委員会公認歴史文化観光ロードアプリサイト"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo834/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "一九八〇年由長谷川善和教授等人發掘。"
+      - "出土人骨，以及鼠類、鹿類、蛇類等動物化石，具有考古與古生物價值。"
+      - "具名文化財地理位置及實際 Google Maps 圖釘。"
+  -
+    id: "corroboration"
+    title: "宮古島市の文化財：ピンザアブ遺跡"
+    publisher: "宮古島市"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki2.html"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "同名文化財身分及所屬地區交叉核對。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際重新抓取來源，依明載事實編寫繁體中文口語導覽；未確認旅行當日開放、路況或活動。"
+    - "Google 原始連結已實際請求，但僅回傳需 JavaScript 頁面；以官方 pin 與另頁具名資料佐證，不宣稱視覺驗證。"
+    - "全新點 media: []，未新增照片或宣稱任何媒體授權已認證；待主代理編輯複核。"
+    - "依 editorial-crosscheck F01 移除『面前洞口／公共解說位置』的無來源假設，改為 unresolved 並停用導航。"
+locationReview:
+  status: "unresolved"
+  anchorType: "none"
+  checkedAt: "2026-09-16"
+  reason: "官方文化財頁與市府清單確認遺跡身分及原始 Google q 24.748322,125.33489，但沒有證實現今可公開抵達的洞外觀看處或解說設施；不能把遺跡本體圖釘當作安全公共錨點。依 F01 停用 location、trigger、googleMapsUrl，保留原座標作考證線索；並非宣稱遺跡已公告封閉。Google GET 僅 JavaScript 提示，未作現場或視覺確認。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo834/"
+      title: "【市指定：史跡】ピンザアブ遺跡～ぴんざあぶいせき～"
+      coordinateEvidence: "本次抓取具名官方頁面的原始 Google Maps href：https://maps.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=+24.748322,+125.334890&aq=&sll=24.730135,125.342175&sspn=0.008741,0.016512&gl=jp&brcurrent=3,0x34f456f70d867251:0x8403a25ccc67131e,0,0x34f456ee016fa965:0x23ceba26bfc4be88&ie=UTF8&t=m&ll=24.758991,125.33761&spn=0.031176,0.047121&z=14&iwloc=near；採 q 擷取 24.748322,125.33489。不採 ll／sll／@ 視窗中心；定位為文化財本體，非入口測量。 此 q 僅證明遺跡位置；不採用為公共導航錨點，未證實外部參訪權限。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki2.html"
+      title: "宮古島市の文化財：ピンザアブ遺跡"
+      coordinateEvidence: "另行抓取具名文化財資料，核對同一文化財名稱及所屬地區；此頁作身分／地址佐證，不另提供入口座標。"
+  verifiedLocation: null
+  previousLocation:
+    latitude: 24.748322
+    longitude: 125.33489

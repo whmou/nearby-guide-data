@@ -1,117 +1,144 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-miyako-shrine
+  id: "jp-miyakojima-miyako-shrine"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "宮古神社"
-  summary: "創建於1590年的宮古神社是島上歷史最悠久的神社，主祀漁業與航海守護神，數百年來一直是宮古島漁民與居民的精神寄託。"
-  narration: |
-    宮古神社坐落於市中心靜謐的小丘上，是宮古島歷史最悠久的神道神社。神社創建於1590年，相傳是為了祈求宮古島的漁獲豐收、海上平安而建立，至今仍是在地居民最重要的信仰中心之一。
-
-    穿過朱紅色的鳥居，沿石板參道緩步而行，兩側老樹形成天然遮蔽，即使在烈日下也透著清涼。正殿的建築融合了琉球風格與本土神道建築元素，屋脊的細節值得仔細端詳。
-
-    神社每年舉行的祭典吸引大批島民參與，是了解宮古島傳統民俗文化的重要窗口。相較於觀光人潮較多的景點，這裡保留了更多日常生活的氣息——清晨時分，你可能會遇到前來祈願的在地居民，靜靜地感受宮古島人數百年來未曾改變的虔誠。
-  observationPrompt: "注意觀察神社鳥居或正殿上的扁額與繪馬，看看島民祈求的願望主題——是否有關於海洋、漁業或島嶼平安的祈願？"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "宮古神社同祀熊野三神與宮古的豐見親三神；從社殿看跨海信仰與地方歷史如何相遇。"
+  narration: "先看看眼前社殿，再讀一讀祭神的名字：宮古神社裡，一邊是從沖繩本島迎來的熊野三神，另一邊是與宮古歷史有關的豐見親三神，這不只是漁民祈求豐收的神社。神社自己介紹的起源，連著一段漂流傳說：據《宮古島舊記》記載，一名赴首里繳納貢物的官員返航遇難，漂到朝鮮，多年後平安回島，為謝神恩而在一五九〇年迎請那霸波上宮的神靈；這是傳承的由來，不宜當成每個細節都已考證的航海紀錄。眼前建築也不能直接算成四百年原物，現今社殿在二〇一〇年落成，承接的是經過遷移與重建的信仰。停在開放參拜區，找找匾額與社名，把建築年代和故事年代分開看，反而更能理解居民如何一代代延續這個地方。\n"
+  observationPrompt: "在開放參拜區找找社名、匾額或祭神說明；哪些名字屬於熊野信仰，哪些與宮古歷史有關？不要拍攝私人祈願內容。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    -
+      id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
       tags:
-        - id: religion
-          label: 宗教
-    - id: experience
-      label: 體驗
+        -
+          id: "religion"
+          label: "宗教"
+    -
+      id: "experience"
+      label: "體驗"
       tags:
-        - id: quiet
-          label: 靜謐
-    - id: access
-      label: 入場
+        -
+          id: "quiet"
+          label: "靜謐"
+    -
+      id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        -
+          id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.807785
     longitude: 125.28043
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.807785,125.28043
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.807785,125.28043"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 宮古神社官方地圖標記（平良字西里5-1）；供鄰近導覽定位，抵達請循現場參道，不代表鳥居或停車入口。
+    rearmDistanceMeters: 1000
+  locationHint: "宮古神社官方地圖 q 圖釘，平良字西里5-1；不是精確鳥居或車道入口。依開放參道參拜，私人祈禱或祭禮請遵守入場、攝影限制。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 3
-    note: "創建於1590年，是宮古島現存歷史最悠久的神社，具有重要的地方信仰意義"
-    sources: [src1]
+    score: 4
+    note: "主祭為熊野三神及與那霸惠源、目黑盛定政、仲宗根玄雅三位豐見親神。"
+    sources:
+      - "src1"
+      - "src2"
   distinctiveness:
-    score: 3
-    note: "結合琉球風格的神道建築在宮古島具有獨特性，但相較於其他知名神社吸引力稍遜"
-    sources: [src1]
+    score: 4
+    note: "官網將1590年迎請波上宮神靈與《宮古島舊記》的漂流傳承相連；現今社殿於2010年6月25日落成。"
+    sources:
+      - "src1"
+      - "src2"
   interpretability:
-    score: 3
-    note: "神社環境直觀，參道與正殿清晰可辨；但現場解說牌有限，歷史背景需事先了解"
-    sources: [src1]
+    score: 4
+    note: "以可觀察細節配合已抓取來源解說；不以推測補足現場資訊。"
+    sources:
+      - "src1"
+      - "src2"
   visitorValue:
     score: 3
-    note: "適合喜愛神社文化或尋求靜謐體驗的訪客，一般觀光客也可短暫造訪"
-    sources: [src1]
+    note: "可至具名公共到訪位置；開放與服務仍依現場公告。"
+    sources:
+      - "src1"
+      - "src2"
   evidenceQuality:
     score: 3
-    note: "資料來自日本維基百科及地方神社資料庫，基本資訊可信"
-    sources: [src1, src2]
-  final: 3.0   # 0.30*3 + 0.25*3 + 0.20*3 + 0.15*3 + 0.10*3 = 0.90+0.75+0.60+0.45+0.30 = 3.00
+    note: "已抓取所列第一手來源；定位與媒體的限制另列審核紀錄。"
+    sources:
+      - "src1"
+      - "src2"
+  final: 3.8
 sources:
-  - id: src1
-    title: "宮古神社 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%8F%A4%E7%A5%9E%E7%A4%BE
-    accessedAt: "2026-07-15"
-    language: ja
+  -
+    id: "src1"
+    url: "https://www.miyako-jinja.com/hantai.html"
+    title: "Miyako-Shrine"
+    publisher: "宮古神社"
+    accessedAt: "2026-09-16"
+    language: "zh-Hant"
     supports:
-      - "神社創建年份（1590年）及祭祀的神明"
-      - "與宮古島漁業文化的關聯"
-  - id: src2
-    title: "宮古島の観光スポット｜宮古神社"
-    publisher: "宮古島観光協会"
-    url: https://www.miyakojima-kankou.com/
-    accessedAt: "2026-07-15"
-    language: ja
+      - "主祭為熊野三神及與那霸惠源、目黑盛定政、仲宗根玄雅三位豐見親神。"
+      - "官網將1590年迎請波上宮神靈與《宮古島舊記》的漂流傳承相連；現今社殿於2010年6月25日落成。"
+  -
+    id: "src2"
+    url: "https://miyako-jinja.com/map.html"
+    title: "アクセス　沖縄県宮古島市鎮座　宮古神社　ホームページ"
+    publisher: "宮古神社"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "神社的地理位置及訪客資訊"
-      - "每年祭典的舉辦情況"
+      - "官方住所為平良字西里5-1，地圖place query為24.807785,125.28043。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyakojinjya.jpg
+  -
+    id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Miyakojinjya.jpg"
     creator: "Tacara"
     license: "CC BY-SA 3.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
     accessedAt: "2026-07-15"
     originalSha256: "ef8503ce36725dbae74b43ab6385c25d9a08c34a3c23f57d0d8a6c1e31f26e5e"
-    compactPath: media/compact/jp-miyakojima-miyako-shrine.webp
-    completePath: media/complete/jp-miyakojima-miyako-shrine.webp
+    compactPath: "media/compact/jp-miyakojima-miyako-shrine.webp"
+    completePath: "media/complete/jp-miyakojima-miyako-shrine.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "逐頁重新擷取官方／第一手資料，改寫繁體中文口語導覽、摘要與觀察提示；故事 claim 對應本檔 sources。"
+    - "刪除單純漁業守護神、現存建物創於1590年等誤導；將漂流起源明示傳承。"
+    - "保留既有 https://commons.wikimedia.org/wiki/File:Miyakojinjya.jpg；僅檔名主題無明顯衝突，未重新核驗圖片內容、作者或授權，不代表媒體通過認證。"
+    - "座標核對不等於營業、海況、無障礙、媒體授權或實地抵達全面認證；未做現地測量。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 fetched the shrine's own access page. Its explicit Google Maps place query confirms the existing location to approximately 2 m; not a viewport coordinate.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取神社官方交通頁的 place q=24.807785,125.28043，並以主線 Chrome 具名宮古神社及平良西里5-1地址交叉核對。具名 Maps pin約相差11公尺，保留官方地標座標，不將其宣稱為鳥居入口。"
   sources:
-  - url: https://miyako-jinja.com/map.html
-    title: 宮古神社公式サイト：地図・連絡先
-    coordinateEvidence: HTML iframe[src] points to /maps/embed/v1/place; URL q=24.807785,125.28043. Page identifies 宮古神社, 沖縄県宮古島市平良字西里5-1. API key omitted.
+    -
+      url: "https://miyako-jinja.com/map.html"
+      title: "アクセス　沖縄県宮古島市鎮座　宮古神社　ホームページ"
+      coordinateEvidence: "重新擷取 iframe /maps/embed/v1/place 的 q=24.807785,125.28043，非視窗；第三方嵌入金鑰未保存、未調用API。原始具名 Google 分享 href另保存於下項。"
+    -
+      url: "https://www.google.com/maps/search/?api=1&query=%E5%AE%AE%E5%8F%A4%E7%A5%9E%E7%A4%BE%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "宮古神社 - Google マップ"
+      coordinateEvidence: "主線 fresh-profile Chrome 實際抓取（2026-09-16T13:37:24.614Z）；唯讀取自 viewer-qa/maps-existing-results.json。頁面標題／heading=宮古神社。原始分享 href=https://maps.app.goo.gl/DgK6ZC3kF2ZcVmMY6；resolvedShareUrl=https://www.google.com/maps/place/%E5%AE%AE%E5%8F%A4%E7%A5%9E%E7%A4%BE/@24.8077675,125.280533,17z/data=!3m1!4b1!4m6!3m5!1s0x34f4538cd180969f:0x6e5bff27cbbc846!8m2!3d24.8077675!4d125.280533!16s%2Fg%2F120rxzmp?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=a8aebf89-f1f0-4abf-91ef-3c10e2213f82；具名結果 href=[]；!3d/!4d 座標=[{\"latitude\":24.8077675,\"longitude\":125.280533}]。不採用 @lat,lng 視窗／街景相機位置。地址平良西里5-1吻合；named pin 24.8077675,125.280533僅交叉核對，未取代官方pin。"
   previousLocation:
     latitude: 24.807767
     longitude: 125.280436

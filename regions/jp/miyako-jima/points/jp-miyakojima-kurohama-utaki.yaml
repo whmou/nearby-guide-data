@@ -1,0 +1,128 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-kurohama-utaki"
+  parentId: null
+  kind: "attraction"
+  title: "黑濱御嶽"
+  summary: "面向佐和田礁湖的祭祀場所，村落起源傳說之外，也寄託對遠行者的祝福。"
+  narration: "面向海的拝所，讓人很自然地把目光放到遠方；黑濱御嶽就在佐和田村落西北側、靠著礁湖的地方，這個方向也和它保存的祭祀習俗有關。官方文化財資料記錄，這裡流傳兄妹神誕生島上居民的村落起源故事，內容屬於神話，不應當作真實人口史；比起追問神話裡每個細節，更值得注意的是居民如何繼續維繫彼此。解說記下「六月願い」儀式之後，還會面向大海，為出門在外的人祈求平安，海因此不只是風景，也是一段等待家人消息的距離。從允許停留的外側觀察拝所與海面的相對位置，看看樹木如何圍出祭祀空間。想到那些人在別處生活、家人仍在島上牽掛的日子，這片海景便多了一層意思：祈願不只為了眼前的人，也為了尚未回來的人。"
+  observationPrompt: "從開放外側看，拝所朝向的海面和周圍樹木如何安排？不要進入祭祀核心。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "culture"
+          label: "文化"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "walking"
+          label: "步行"
+  indoor: false
+  location:
+    latitude: 24.844423
+    longitude: 125.159253
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "座標為黑濱御嶽本體，不是佐和田海灘遊憩入口；限公開通路及允許的外側觀察，不入祭祀核心或取景打擾儀式，遵守現地禁入告示。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.844423,125.159253"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名文化財及地方歷史價值；不是以人氣推定重要性。"
+    sources:
+      - "s1"
+      - "s2"
+  distinctiveness:
+    score: 4
+    note: "現場石造、地景或地方生活脈絡具有辨識性。"
+    sources:
+      - "s1"
+      - "s2"
+  interpretability:
+    score: 3
+    note: "可從開放外側觀察敘事重點；內部及已埋藏構造不保證可見。"
+    sources:
+      - "s1"
+      - "s2"
+  visitorValue:
+    score: 3
+    note: "可納入官方文化散步路線；依現場開放及祭祀限制，未保證全天開放。"
+    sources:
+      - "s1"
+      - "s2"
+  evidenceQuality:
+    score: 3
+    note: "已重抓官方專頁及另一官方頁面；部分文字同源，未當作多份獨立研究。"
+    sources:
+      - "s1"
+      - "s2"
+  final: 3.3
+sources:
+  -
+    id: "s1"
+    url: "https://miyakojimabunkazai.jp/bunkazaiinfo561/"
+    title: "【市指定：史跡】黒浜御嶽～くろはまうたき～"
+    publisher: "宮古島市教育委員会（綾道）"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "黑濱御嶽位於佐和田西北側面向礁湖，保存兄妹神村落起源神話。"
+      - "六月願い後的プカウザキ面海祈求遠行者平安。"
+  -
+    id: "s2"
+    url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki2.html"
+    title: "宮古島市 — 史跡26～50"
+    publisher: "宮古島市"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "黑濱御嶽 的具名文化財/散步路線身分佐證；不充當另一組精確座標。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "NEW-NORTH：逐頁查核後新撰繁體中文口語導覽；故事事實對照 s1，s2 補具名佐證。"
+    - "座標 verified 僅指來源座標核對；未實地確認開放狀況、階梯安全、所有設施或照片。"
+    - "Google Maps 原連結抓取受工具安全限制；採官方嵌入數字圖釘，不宣稱 Maps 視覺核驗。"
+    - "未使用或新增照片與授權；media 為空，待後續合法素材及編輯複核。"
+locationReview:
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "已抓取官方專頁原始 Google Maps 數字 q 圖釘並另頁核對景點身分；採景物本體，不以 ll/sll 或 @ 視窗中心定位。Google Maps 原連結抓取被工具安全限制阻擋，未取得互動地圖、街景或現地視覺核驗。"
+  sources:
+    -
+      url: "https://miyakojimabunkazai.jp/bunkazaiinfo561/"
+      title: "【市指定：史跡】黒浜御嶽～くろはまうたき～"
+      coordinateEvidence: "2026-09-16 實抓 HTML。原始 href（保留 HTML &amp;）：https://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=24.844423,+125.159253&amp;aq=&amp;sll=24.813356,125.220221&amp;sspn=0.008268,0.016512&amp;brcurrent=3,0x34f5ac7ac666c88f:0xae5f45bef23b55a4,0,0x34f5ac7b16b4aebd:0xdf5a322bf6641147&amp;ie=UTF8&amp;t=m&amp;ll=24.853809,125.162601&amp;spn=0.031153,0.047121&amp;z=14&amp;iwloc=near；HTML entity 解碼後提取 q=24.844423,125.159253；ll、sll 均不採用。圖釘指向本頁具名史跡，不是實測入口。"
+    -
+      url: "https://www.city.miyakojima.lg.jp/kanko/bunkazai/miyakojimabunkazai/shiseki2.html"
+      title: "宮古島市 — 史跡26～50"
+      coordinateEvidence: "2026-09-16 已抓取另頁，具名佐證 黑濱御嶽 的身分與文化財/路線脈絡；未從此頁抽取另一組座標，亦未以頁尾市役所地址定位。"
+  previousLocation: null
+  verifiedLocation:
+    latitude: 24.844423
+    longitude: 125.159253

@@ -1,0 +1,162 @@
+schemaVersion: 1
+point:
+  id: "jp-miyakojima-utopia-farm"
+  parentId: null
+  kind: "venue"
+  title: "Utopia Farm宮古島觀光農園"
+  summary: "從九重葛的栽培造型與熱帶果樹，看看一家農場如何把生產變成可參觀的日常。"
+  narration: "先看看枝條被怎麼安排，再看花色，這裡最有意思的不只是「花很多」。Utopia Farm的官方介紹說，園內栽培約五十種九重葛，還有不同品種的扶桑，以及芒果、木瓜、香蕉等熱帶果樹；相同植物，換一種支架或修整方式，就可能形成不一樣的景觀。這座觀光農園在二〇〇一年開園，創辦者希望把農業的樂趣分享給更多人，於是原本偏向生產的工作，也成了旅客能慢慢理解的風景。請沿見學路線比較葉形、枝條和栽培方式，不伸手採果。官方把芒果收穫期列在六月到八月，九月底別預約想像中的滿樹鮮果；有什麼花、什麼果實，以現場為準。離開前若想吃點甜的，還可以看看附設果物咖啡的當日品項。"
+  observationPrompt: "沿見學路線比較九重葛的枝條支撐與不同果樹葉形，哪些部分能看出人工栽培管理？"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  adminAreaLevel2: "宮古島市"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
+  tagGroups:
+    -
+      id: "setting"
+      label: "場域"
+      tags:
+        -
+          id: "outdoor"
+          label: "戶外"
+    -
+      id: "subject"
+      label: "主題"
+      tags:
+        -
+          id: "nature"
+          label: "自然"
+        -
+          id: "daily-life"
+          label: "日常生活"
+    -
+      id: "experience"
+      label: "體驗"
+      tags:
+        -
+          id: "family"
+          label: "親子"
+    -
+      id: "access"
+      label: "入場"
+      tags:
+        -
+          id: "ticketed"
+          label: "需購票"
+  indoor: false
+  location:
+    latitude: 24.738253
+    longitude: 125.322026
+  trigger:
+    radiusMeters: 80
+    dwellMillis: 2000
+    rearmDistanceMeters: 1000
+  locationHint: "Google具名農園pin，地址上野宮国1714-2；由園方接待處購票進入見學路線，不自行進生產區或採果。官方目前週日休園，2026-09-27不宜安排；出發前再核對臨時休業。"
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.738253,125.322026"
+ratingEvidence:
+  rubricVersion: 1
+  significance:
+    score: 3
+    note: "具名地方自然／文化參觀場所，對理解宮古生活與環境有價值。"
+    sources:
+      - "operator-tour"
+  distinctiveness:
+    score: 4
+    note: "園內約五十種九重葛、不同扶桑及芒果木瓜香蕉等果樹，提供收費見學路線及果物咖啡。"
+    sources:
+      - "operator-tour"
+  interpretability:
+    score: 4
+    note: "沿見學路線比較九重葛的枝條支撐與不同果樹葉形，哪些部分能看出人工栽培管理？"
+    sources:
+      - "operator-tour"
+  visitorValue:
+    score: 4
+    note: "有明確公共參觀方式，可融入五日旅行；現場開放、安全及季節情況仍須確認。"
+    sources:
+      - "operator-tour"
+  evidenceQuality:
+    score: 4
+    note: "已抓取具名官方／業者來源及live Google身分證據；保留精確圖釘與入口限制。"
+    sources:
+      - "operator-tour"
+      - "operator-history"
+      - "operator-2026"
+      - "google"
+  final: 3.7
+sources:
+  -
+    id: "operator-tour"
+    title: "見学コース"
+    publisher: "ユートピアファーム宮古島"
+    url: "https://utopia-farm.net/%E8%A6%8B%E5%AD%A6%E3%82%B3%E3%83%BC%E3%82%B9/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "園內約五十種九重葛、不同扶桑及芒果木瓜香蕉等果樹，提供收費見學路線及果物咖啡。"
+      - "官方列芒果收穫期六月至八月；休園日為星期日。"
+  -
+    id: "operator-history"
+    title: "会社概要・アクセス"
+    publisher: "ユートピアファーム宮古島"
+    url: "https://utopia-farm.net/access/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "二〇〇一年十月觀光農園開園，創辦者希望分享農業的樂趣；地址上野字宮国1714-2。"
+  -
+    id: "operator-2026"
+    title: "2026年休業日に関しまして（2026年5月18日）"
+    publisher: "ユートピアファーム宮古島"
+    url: "https://utopia-farm.net/news/2026%E5%B9%B4%E4%BC%91%E6%A5%AD%E6%97%A5%E3%81%AB%E9%96%A2%E3%81%97%E3%81%BE%E3%81%97%E3%81%A6/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "2026年休業公告再次確認星期日定休；此為日常營業資訊，不保證其他日期無臨時休業。"
+  -
+    id: "google"
+    title: "ユートピアファーム宮古島｜Google Maps 具名頁"
+    publisher: "Google Maps"
+    url: "https://www.google.com/maps/place/%E3%83%A6%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E5%AE%AE%E5%8F%A4%E5%B3%B6/@24.738253,125.322026,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45667cb1645ef:0x90bd531afc2e6858!8m2!3d24.738253!4d125.322026!16s%2Fg%2F1tddvj8g?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1f58827c-f471-494b-b4c9-4ae6bad43985"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "本次fresh-profile瀏覽器實際回傳具名頁與地址；只作地點身分／圖釘核對，不採評論或營業時段作保證。"
+media: []
+review:
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次實際抓取所列頁面並編寫繁體中文口語故事；每項具體敘述對應sources，未使用評論作故事證據。"
+    - "Google具名頁文字／地址已核對；未宣稱現地、街景或安全認證，未保證2026-09-23至27的開放時段或自然現象。"
+    - "新點media: []；無新增照片、授權主張或媒體檔案，待主代理編輯複核。"
+    - "採2026年官方營運資訊，不採舊觀光頁全年無休與舊票價；9/27為週日，按現行定休日不可安排。"
+    - "不保證九月底芒果採收、鮮果供應或九重葛盛花。"
+locationReview:
+  status: "verified"
+  anchorType: "visitor_area"
+  checkedAt: "2026-09-16"
+  reason: "已抓取具名官方／業者來源並核對公開參觀方式，與live Google「ユートピアファーム宮古島」身分及地址相符；採實際地點 !3d/!4d 24.738253,125.322026。錨點為具名參觀區地標，非實測入口；未進行街景或現地安全確認。"
+  sources:
+    -
+      url: "https://utopia-farm.net/%E8%A6%8B%E5%AD%A6%E3%82%B3%E3%83%BC%E3%82%B9/"
+      title: "見学コース"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://utopia-farm.net/access/"
+      title: "会社概要・アクセス"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://utopia-farm.net/news/2026%E5%B9%B4%E4%BC%91%E6%A5%AD%E6%97%A5%E3%81%AB%E9%96%A2%E3%81%97%E3%81%BE%E3%81%97%E3%81%A6/"
+      title: "2026年休業日に関しまして（2026年5月18日）"
+      coordinateEvidence: "本次抓取具名頁，核對場所身分、位置描述與公開參觀方式；故事／地址佐證，不把網頁地圖viewport当作入口。"
+    -
+      url: "https://www.google.com/maps/place/%E3%83%A6%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E5%AE%AE%E5%8F%A4%E5%B3%B6/@24.738253,125.322026,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45667cb1645ef:0x90bd531afc2e6858!8m2!3d24.738253!4d125.322026!16s%2Fg%2F1tddvj8g?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1f58827c-f471-494b-b4c9-4ae6bad43985"
+      title: "ユートピアファーム宮古島｜Google Maps 具名頁"
+      coordinateEvidence: "EXACT raw Google share href=https://maps.app.goo.gl/DPvPwHr1bEHycfym9；實際resolvedShareUrl=https://www.google.com/maps/place/%E3%83%A6%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E5%AE%AE%E5%8F%A4%E5%B3%B6/@24.738253,125.322026,17z/data=!3m1!4b1!4m6!3m5!1s0x34f45667cb1645ef:0x90bd531afc2e6858!8m2!3d24.738253!4d125.322026!16s%2Fg%2F1tddvj8g?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=1f58827c-f471-494b-b4c9-4ae6bad43985；採地點 !3d24.738253!4d125.322026，不採 @ 視窗中心。live heading=ユートピアファーム宮古島；地址與已抓取具名來源交叉核對。"
+  verifiedLocation:
+    latitude: 24.738253
+    longitude: 125.322026

@@ -1,105 +1,135 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-yoshino-coast
+  id: "jp-miyakojima-yoshino-coast"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "吉野海岸"
-  summary: "吉野海岸是日本數一數二的浮潛聖地，近岸即有密集珊瑚礁群，海龜出沒頻繁，透明度極高的海水讓水中世界一覽無遺。"
-  narration: |
-    吉野海岸位於宮古島東岸，是全日本公認最頂級的浮潛地點之一。走入海中短短幾步，腳下便是色彩繽紛的珊瑚礁群，魚群穿梭其間，生機盎然。這裡最讓人驚喜的，是綠蠵龜幾乎每天都會在礁盤附近悠游覓食，與牠們相遇幾乎成了常態。海水透明度通常超過二十公尺，肉眼便能看清礁盤的細節。海灘本身為礫石與珊瑚砂混合，停車場和小賣店一應俱全，是自由行旅客無需報名潛水行程、也能獨立體驗宮古島海洋奇景的理想地點。浮潛時切記不要踩踏珊瑚，保護這片寶貴的自然資產。
-  observationPrompt: "站在海邊向外看，你能數出水下有幾種不同顏色的珊瑚？留意有沒有綠蠵龜從礁盤旁緩緩游過。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "約五百公尺白沙灘旁就是珊瑚礁，近岸生態值得細看；海況受潮汐影響，不保證海龜或適合自行浮潛。"
+  narration: |-
+    站在岸上，先看看海面顏色和明暗的變化，別急著把每一塊深色都認成珊瑚，也別只為了找海龜而來。沖繩觀光局介紹，吉野海岸約有五百公尺白沙灘，珊瑚礁靠近岸邊，包含硬珊瑚與軟珊瑚；這也是它成為浮潛景點的重要原因。相較於只追求遠方的一整片藍，這裡讓人有機會留意近岸不同生命形態，但是否能清楚看見，仍取決於光線、海況與當天安排。觀光協會同時提醒海灘受潮汐影響，並列有收費停車場，所以「自然海岸」不等於所有服務免費，更不等於不用準備就可以下水。今天可以先在開放岸段看灣岸與水色，再向合適業者了解活動條件；不踩珊瑚、不追逐動物，也不把任何海龜照片當成牠們每天必來報到的承諾。
+  observationPrompt: "從岸上比較沙灘與不同明暗水面的分布；若參加合適的導覽活動，再依解說辨認珊瑚，不追逐或觸碰動物。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: outdoor
-          label: 戶外
-    - id: subject
-      label: 主題
+        - id: "outdoor"
+          label: "戶外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: nature
-          label: 自然
-    - id: experience
-      label: 體驗
+        - id: "nature"
+          label: "自然"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: walking
-          label: 步行
-    - id: access
-      label: 入場
+        - id: "walking"
+          label: "步行"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: free
-          label: 免費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.74835396
     longitude: 125.44252777
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.74835396,125.44252777
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.74835396,125.44252777"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 吉野海岸官方海灘地標 pin，供岸上鄰近導覽；請依現場停車與下灘規定抵達，不代表安全浮潛入水點。
+    rearmDistanceMeters: 1000
+  locationHint: "吉野海岸觀光局海灘地標pin，供岸上附近導覽，非安全下水點或精確停車入口；依現場停車、公共通路與水域告示抵達，停車或服務可能收費。"
 ratingEvidence:
   rubricVersion: 1
   significance:
-    score: 5
-    note: "全日本知名度最高的浮潛地點之一，以密集珊瑚礁與海龜聞名，收錄於多本權威旅遊指南。"
-    sources: [src1]
+    score: 4
+    note: "近岸珊瑚礁的自然景觀具地方重要性。"
+    sources:
+      - "yoshino-ocvb"
+      - "yoshino-association"
   distinctiveness:
-    score: 5
-    note: "近岸即可浮潛與海龜同游的珊瑚礁，在日本國內絕無僅有，具有極高的獨特性。"
-    sources: [src1]
+    score: 4
+    note: "硬軟珊瑚近岸分布有辨識性，非全球唯一。"
+    sources:
+      - "yoshino-ocvb"
+      - "yoshino-association"
   interpretability:
     score: 3
-    note: "珊瑚礁與海龜容易識別，但生態背景知識需要額外資訊輔助才能深入理解。"
-    sources: [src1]
+    note: "岸上可讀海岸輪廓，水下辨識需合適活動條件。"
+    sources:
+      - "yoshino-ocvb"
+      - "yoshino-association"
   visitorValue:
-    score: 5
-    note: "無需付費、無需裝備即可體驗世界級水下景觀，旅客實際體驗價值極高。"
-    sources: [src1]
+    score: 2
+    note: "潮汐、海況與停車安排限制實際體驗。"
+    sources:
+      - "yoshino-ocvb"
+      - "yoshino-association"
   evidenceQuality:
     score: 4
-    note: "有官方觀光資訊及多篇旅遊媒體報導佐證，資料充分可靠。"
-    sources: [src1]
-  final: 4.5  # 0.30*5 + 0.25*5 + 0.20*3 + 0.15*5 + 0.10*4 = 1.50+1.25+0.60+0.75+0.40 = 4.50
+    note: "觀光局、協會及Google具名地址交叉確認；未採野生動物保證。"
+    sources:
+      - "yoshino-ocvb"
+      - "yoshino-association"
+  final: 3.5
 sources:
-  - id: src1
-    title: "吉野海岸｜宮古島観光ナビ"
-    publisher: "宮古島市観光商工課"
-    url: https://www.miyakojima-kankou.com/spot/yoshino-beach/
-    accessedAt: "2026-07-15"
-    language: ja
+  - id: "yoshino-ocvb"
+    title: "吉野海岸｜おきなわ物語"
+    publisher: "沖縄観光コンベンションビューロー"
+    url: "https://www.okinawastory.jp/spot/600006188"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "吉野海岸是宮古島東岸知名浮潛地點，近岸有豐富珊瑚礁"
-      - "海龜頻繁出沒，海水透明度高"
-      - "海灘免費開放，設有停車場和小賣店"
+      - "白沙灘約500公尺，近岸有硬珊瑚及軟珊瑚。"
+      - "海況受潮汐影響，官方海灘 q=24.74835396,125.44252777；無海龜保證。"
+  - id: "yoshino-association"
+    title: "吉野海岸｜宮古島観光協会"
+    publisher: "宮古島観光協会"
+    url: "https://miyako-guide.net/spots/spots-775/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "近岸有珊瑚，受潮汐影響，頁面列有收費停車場。"
+      - "原始 GoogleMap href 為 https://www.google.co.jp/maps/place/24.748322,125.442172& 。"
 media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_yoshino_beach.jpg
+  - id: "primary-image"
+    type: "image"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Miyako_yoshino_beach.jpg"
     creator: "Paipateroma"
     license: "CC BY-SA 4.0"
-    licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
     accessedAt: "2026-07-15"
     originalSha256: "953e9c14ed5208ddd91f786dbd7e1048f04078e929546acb09f955942370078e"
-    compactPath: media/compact/jp-miyakojima-yoshino-coast.webp
-    completePath: media/complete/jp-miyakojima-yoshino-coast.webp
+    compactPath: "media/compact/jp-miyakojima-yoshino-coast.webp"
+    completePath: "media/complete/jp-miyakojima-yoshino-coast.webp"
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "刪除綠蠵龜幾乎每天、能見度二十公尺及無裝備自行體驗等不實承諾。"
+    - "保留 Miyako_yoshino_beach.jpg，檔名吻合吉野海岸；未重新認證作者、授權或當前珊瑚狀況。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official tourism place query confirms Yoshino Coast; original approximately 37 m away. Verification does not substantiate the narration's turtle guarantees or swimming-safety claims.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取官方吉野海岸place q=24.74835396,125.44252777，保留既有海灘landmark。主代理Google實際具名頁地址城辺新城15-38、分享!3d24.748698!4d125.442441約39公尺外；是同一海灘不同marker，不任意取代官方位置或臆造入水點。"
   sources:
-  - url: https://www.okinawastory.jp/spot/600006188
-    title: 吉野海岸｜おきなわ物語
-    coordinateEvidence: Fetched HTML iframe.p-detail-media__iframe src=/maps/embed/v1/place?q=24.74835396,125.44252777&zoom=16; explicit named place marker q.
+    - url: "https://www.okinawastory.jp/spot/600006188"
+      title: "吉野海岸｜おきなわ物語"
+      coordinateEvidence: "HTTP200重新取得HTML iframe place q=24.74835396,125.44252777、zoom=16；明確q非viewport，未呼叫含網站金鑰的API。"
+    - url: "https://miyako-guide.net/spots/spots-775/"
+      title: "吉野海岸｜宮古島観光協会"
+      coordinateEvidence: "EXACT raw href=https://www.google.co.jp/maps/place/24.748322,125.442172&；原文尾端&保留。解析24.748322,125.442172，距採用q約36公尺。直接GET是JavaScript提示，不作現場視覺驗證。"
+    - url: "https://maps.app.goo.gl/n4226UfXoHod7VMb6"
+      title: "吉野海岸｜Google Maps 實際具名分享"
+      coordinateEvidence: "EXACT raw share href=https://maps.app.goo.gl/n4226UfXoHod7VMb6 ; resolved=https://www.google.com/maps/place/%E5%90%89%E9%87%8E%E6%B5%B7%E5%B2%B8/@24.7486975,125.442441,15z/data=!3m1!4b1!4m6!3m5!1s0x34f4597baa30d37d:0x48af97379b13631f!8m2!3d24.748698!4d125.442441!16s%2Fg%2F11d_w4yw58?entry=tts&g_ep=EgoyMDI2MDkxMy4wIPu8ASoASAFQAw%3D%3D&skid=95668ad2-30b9-4b68-9e29-0224884c8e16 ; place !3d24.748698!4d125.442441，heading吉野海岸、地址城辺新城15-38；約39公尺差，保留官方q。"
   previousLocation:
     latitude: 24.7485
     longitude: 125.4422

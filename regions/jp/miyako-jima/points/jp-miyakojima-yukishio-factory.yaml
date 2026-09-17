@@ -1,118 +1,141 @@
 schemaVersion: 1
 point:
-  id: jp-miyakojima-yukishio-factory
+  id: "jp-miyakojima-yukishio-factory"
   parentId: null
-  kind: attraction
+  kind: "attraction"
   title: "雪塩製塩所"
-  summary: "雪塩製塩所利用宮古島獨特的珊瑚礁石灰岩地層過濾海水，生產出世界最高礦物質含量的天然海鹽之一，工廠導覽搭配試吃體驗已成為宮古島最受歡迎的觀光工廠。"
-  narration: |
-    宮古島西北角的西平安名崎附近，有一座外觀樸實卻在日本全國享有盛名的製鹽工廠——雪塩製塩所。雪塩之所以特別，關鍵在於宮古島的地質構造：整座島嶼由珊瑚礁石灰岩構成，海水在滲入地下後，需要經過天然石灰岩的過濾與礦化，才被抽取出來進行製鹽。這道大自然的過濾工序，讓雪塩富含鈣、鎂、鉀等二十幾種天然礦物質，曾獲金氏世界紀錄認定為「礦物質種類最多的鹽」。
-
-    工廠開放參觀，導覽人員會詳細說明從取水到噴霧乾燥成鹽粉的整個過程。製成的雪塩質地極為細緻，如同白色粉末，入口後礦物質的甘甜會緩緩在舌尖散開。參觀完畢後，附設的賣店販售各種雪塩相關產品，從調味鹽、雪塩冰淇淋到雪塩護膚品，種類琳琅，是宮古島最受旅客青睞的伴手禮品項之一。
-
-    工廠外的草坪廣場可以眺望宮古海峽，天氣晴朗時視野開闊，是稍作休憩的好地方。
-  observationPrompt: "在工廠的製程展示區，注意觀察製鹽的最後一道步驟——雪塩是以噴霧乾燥法製成極細粉末，請留意展示板上說明的噴霧溫度或製成粒徑，並在試吃時感受它比一般顆粒鹽溶解得更快的口感差異。"
-  countryCode: JP
-  adminAreaLevel1: 沖縄県
-  hierarchy: ["日本", "沖縄県", "宮古島市"]
+  summary: "從粉末狀雪鹽看宮古島地下海水與製鹽工藝；參觀的是製鹽所旁的博物館，不進入生產管制區。"
+  narration: |-
+    先看看展示裡的鹽：它不是一顆顆粗大的晶粒，而是像粉末般細緻，這個外形正好把製程的問題帶出來。雪鹽品牌的說明指出，原料不是直接從岸邊舀來，而是從地下約二十二公尺抽取海水；濃縮後吹向加熱的金屬板，約兩秒讓水分蒸發，連通常分開的苦汁成分也保留下來，因此不是把粗鹽磨細才得到這種樣子。製鹽所旁的接待設施，在二〇〇二年開始形成工廠見學的體制，現在以雪鹽博物館的形式介紹這門手藝。看展板時，可以留意取水、濃縮與成粉三個階段的差別，再比較產品外觀；不必靠「世界第一」才覺得它有趣。實際製鹽區不開放進入，包裝作業也要看當天是否運作，請把影片、解說和允許觀看的小窗當作參觀範圍。
+  observationPrompt: "在開放展示區比較粉末狀產品與製程示意，找出地下取水、濃縮、加熱成粉的先後；不進入生產區。"
+  countryCode: "JP"
+  adminAreaLevel1: "沖縄県"
+  hierarchy:
+    - "日本"
+    - "沖縄県"
+    - "宮古島市"
   tagGroups:
-    - id: setting
-      label: 場域
+    - id: "setting"
+      label: "場域"
       tags:
-        - id: mixed
-          label: 室內外
-    - id: subject
-      label: 主題
+        - id: "mixed"
+          label: "室內外"
+    - id: "subject"
+      label: "主題"
       tags:
-        - id: engineering
-          label: 工藝
-    - id: experience
-      label: 體驗
+        - id: "engineering"
+          label: "工藝"
+    - id: "experience"
+      label: "體驗"
       tags:
-        - id: family
-          label: 親子
-    - id: access
-      label: 入場
+        - id: "family"
+          label: "親子"
+    - id: "access"
+      label: "入場"
       tags:
-        - id: ticketed
-          label: 收費
+        - id: "free"
+          label: "免費"
   indoor: false
   location:
     latitude: 24.9022357
     longitude: 125.2683734
-  googleMapsUrl: https://www.google.com/maps/search/?api=1&query=24.9022357,125.2683734
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=24.9022357,125.2683734"
   trigger:
-    radiusMeters: 75.0
+    radiusMeters: 80
     dwellMillis: 2000
-    rearmDistanceMeters: 1000.0
-  locationHint: 雪塩ミュージアム（製塩所）官方設施 pin，平良狩俣191；請前往開放的見學與賣店區，不進入生產管制區。
+    rearmDistanceMeters: 1000
+  locationHint: "雪塩ミュージアム（雪鹽製鹽所旁見學設施）官方具名pin，平良狩俣191；入館免費不等於生產區可進入。由開放訪客區參觀，留意颱風臨時休業、階差與碎石路。"
 ratingEvidence:
   rubricVersion: 1
   significance:
     score: 4
-    note: "曾獲金氏世界紀錄認定，以宮古島珊瑚石灰岩地質為核心賣點，是宮古島最具知名度的特產品牌之一"
-    sources: [src1, src2]
+    note: "呈現宮古島地下海水與地方製鹽產業。"
+    sources:
+      - "salt-process"
+      - "salt-museum"
+      - "salt-access"
   distinctiveness:
-    score: 5
-    note: "石灰岩過濾製程和粉末狀成品在全球製鹽產業中極為罕見；金氏紀錄加持使其在眾多觀光工廠中脫穎而出"
-    sources: [src1]
+    score: 4
+    note: "保留苦汁的快速成粉工藝有辨識性，不宣稱現行世界第一。"
+    sources:
+      - "salt-process"
+      - "salt-museum"
+      - "salt-access"
   interpretability:
     score: 4
-    note: "導覽說明清晰，試吃環節讓抽象的礦物質概念變得具體可感；參觀動線流暢"
-    sources: [src1]
+    note: "展板、影片及產品形態可互相理解。"
+    sources:
+      - "salt-process"
+      - "salt-museum"
+      - "salt-access"
   visitorValue:
-    score: 5
-    note: "導覽免費或費用低廉、伴手禮多樣、雪塩冰淇淋廣受好評，幾乎所有類型訪客都能獲得滿足"
-    sources: [src1, src2]
-  evidenceQuality:
     score: 3
-    note: "有官方網站及多家媒體報導，金氏世界紀錄資訊可查核"
-    sources: [src1, src2]
-  final: 4.3   # 0.30*4 + 0.25*5 + 0.20*4 + 0.15*5 + 0.10*3 = 1.20+1.25+0.80+0.75+0.30 = 4.30
+    note: "見學入館免費，但生產區不開放、作業與天候可能變動。"
+    sources:
+      - "salt-process"
+      - "salt-museum"
+      - "salt-access"
+  evidenceQuality:
+    score: 4
+    note: "實際取得品牌製程、設施及最新FAQ並與Google具名地址核對。"
+    sources:
+      - "salt-process"
+      - "salt-museum"
+      - "salt-access"
+  final: 3.9
 sources:
-  - id: src1
-    title: "雪塩公式サイト - パラダイスプラン"
+  - id: "salt-process"
+    title: "雪塩のこだわり"
     publisher: "株式会社パラダイスプラン"
-    url: https://www.yukishio.com/
-    accessedAt: "2026-07-15"
-    language: ja
+    url: "https://www.yukishio.com/kodawari/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "雪塩的製程說明及石灰岩過濾原理"
-      - "金氏世界紀錄礦物質種類最多的認定事實"
-      - "工廠地點及導覽資訊"
-  - id: src2
-    title: "雪塩 - Wikipedia"
-    publisher: "Wikipedia"
-    url: https://ja.wikipedia.org/wiki/%E9%9B%AA%E5%A1%A9
-    accessedAt: "2026-07-15"
-    language: ja
+      - "雪鹽取用地下約22公尺的海水。"
+      - "濃縮海水噴於加熱金屬板，約兩秒蒸發成粉，保留苦汁成分；不是研磨成細粉。"
+      - "品牌明言昔日金氏紀錄類別已不存在，不能當作現行世界第一。"
+  - id: "salt-museum"
+    title: "施設紹介｜雪塩ミュージアム"
+    publisher: "雪塩ミュージアム／株式会社パラダイスプラン"
+    url: "https://museum.yukishio.com/museum-introduction/"
+    accessedAt: "2026-09-16"
+    language: "ja"
     supports:
-      - "雪塩品牌歷史及在宮古島的地位"
-      - "礦物質含量及產品特色"
-media:
-  - id: primary-image
-    type: image
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Miyako_Airport_Okinawa_Japan24s3s4592.jpg
-    creator: "663highland"
-    license: "CC BY 2.5"
-    licenseUrl: https://creativecommons.org/licenses/by/2.5
-    accessedAt: "2026-07-15"
-    originalSha256: "4a5f3e37e7e0219f1ec96920eb428acb508647cc1d3eb59caf374a9b667004aa"
-    compactPath: media/compact/jp-miyakojima-yukishio-factory.webp
-    completePath: media/complete/jp-miyakojima-yukishio-factory.webp
+      - "2002年10月開始形成工廠見學接待體制；設施在平良狩俣191。"
+      - "製程透過影片介紹，包裝作業是否可見取決於當日是否運作。"
+  - id: "salt-access"
+    title: "よくあるご質問｜雪塩ミュージアム"
+    publisher: "雪塩ミュージアム"
+    url: "https://museum.yukishio.com/faq/"
+    accessedAt: "2026-09-16"
+    language: "ja"
+    supports:
+      - "入館免費，實際製鹽區不開放入內；可透過專用窗觀看袋裝作業，另有展板、影片與解說。"
+      - "天候可能影響營業；園內並非完全無障礙，仍有階差與碎石路。"
+media: []
 review:
-  status: draft
-  checkedAt: "2026-07-15"
-  notes: []
+  status: "review"
+  checkedAt: "2026-09-16"
+  notes:
+    - "本次重新抓取所列來源並改寫繁體中文口語導覽；定位審核不代表營業、現場安全及媒體授權全部完成。"
+    - "移除現行金氏世界第一、二十幾種礦物質、噴霧乾燥與保證看完整生產線的說法；品牌說明該金氏類別已不存在。"
+    - "按本次官方FAQ將入場標籤改為免費；購物、餐飲仍另計，不寫死旅行日期的營業時間。"
+    - "移除 Miyako_Airport_Okinawa_Japan24s3s4592.jpg：宮古機場照片與雪鹽製鹽所無關，未改圖檔。"
 locationReview:
-  status: verified
-  anchorType: landmark
-  checkedAt: '2026-09-16'
-  reason: 2026-09-16 official museum introduction identifies the visitor facility at the saltworks. Fetched embedded map's actual named feature array; approximately 5 m from existing location.
+  status: "verified"
+  anchorType: "landmark"
+  checkedAt: "2026-09-16"
+  reason: "重新抓取雪鹽博物館官方設施頁及其Google embed，初始化feature 0x34f44d99eacc8e9f:0xae40bcc9eb5de1f9明確標為雪塩ミュージアム、平良狩俣191，座標24.9022357,125.2683734與既有位置一致；主代理Google實際具名頁亦同址。定位是見學設施，非生產車間入口。"
   sources:
-  - url: https://museum.yukishio.com/museum-introduction/
-    title: 施設紹介｜雪塩ミュージアム公式
-    coordinateEvidence: Fetched official Google Maps iframe, then iframe HTML initialization data. Feature 0x34f44d99eacc8e9f:0xae40bcc9eb5de1f9, label 〒906-0002 沖縄県宮古島市平良狩俣１９１ 雪塩ミュージアム, associated array [24.9022357,125.2683734], CID 12556243336532189689. Used feature array, not embed viewport.
+    - url: "https://museum.yukishio.com/museum-introduction/"
+      title: "施設紹介｜雪塩ミュージアム"
+      coordinateEvidence: "EXACT raw iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8752742780493!2d125.26837339999999!3d24.9022357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34f44d99eacc8e9f%3A0xae40bcc9eb5de1f9!2z6Zuq5aGp44Of44Ol44O844K444Ki44Og!5e0!3m2!1sja!2sjp!4v1748518513928!5m2!1sja!2sjp ; 本次GET embed HTTP200，feature標籤〒906-0002 沖縄県宮古島市平良狩俣１９１ 雪塩ミュージアム，associated [24.9022357,125.2683734]，CID12556243336532189689。採具名feature，不僅讀取embed viewport。"
+    - url: "https://museum.yukishio.com/faq/"
+      title: "よくあるご質問｜雪塩ミュージアム"
+      coordinateEvidence: "本次實際抓取FAQ：見學免費、製鹽區不開放、袋裝作業經窗觀看；此pin僅供到訪見學設施，不推定生產入口。"
+    - url: "https://www.google.com/maps/search/?api=1&query=%E9%9B%AA%E5%A1%A9%E8%A3%BD%E5%A1%A9%E6%89%80%20%E5%AE%AE%E5%8F%A4%E5%B3%B6"
+      title: "雪塩ミュージアム｜Google Maps 實際具名頁"
+      coordinateEvidence: "主代理fresh-profile Chrome取得雪塩ミュージアム及平良狩俣191，連至museum.yukishio.com；原始分享href=https://maps.app.goo.gl/doZd47if3perN61Z8。本次以官方embed feature核定座標，未從plus code或搜尋viewport反推。"
   previousLocation:
     latitude: 24.902215
     longitude: 125.268416
